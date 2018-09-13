@@ -3,7 +3,7 @@
 This repository aims at collaboratively translating our [Machine Learning cheatsheets](https://github.com/afshinea/stanford-cs-229-machine-learning) into a ton of languages, so that this content can be enjoyed by anyone from any part of the world!
 
 ## Progression
-|Cheatsheet topic|Deutsch|Español|فارسی|Français|日本語|Português|官话|
+|Cheatsheet topic|[Deutsch](https://github.com/shervinea/cheatsheet-translation/tree/master/de)|[Español](https://github.com/shervinea/cheatsheet-translation/tree/master/es)|[فارسی](https://github.com/shervinea/cheatsheet-translation/tree/master/fa)|[Français](https://github.com/shervinea/cheatsheet-translation/tree/master/fr)|[日本語](https://github.com/shervinea/cheatsheet-translation/tree/master/ja)|[Português](https://github.com/shervinea/cheatsheet-translation/tree/master/pt)|[官话](https://github.com/shervinea/cheatsheet-translation/tree/master/zh)|
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Deep learning|0%|0%|0%|0%|0%|0%|0%|
 |Supervised learning|0%|0%|0%|0%|0%|0%|1%|
@@ -11,7 +11,7 @@ This repository aims at collaboratively translating our [Machine Learning cheats
 |Probabilities and Statistics|0%|0%|0%|0%|0%|0%|0%|
 |Linear algebra|0%|0%|0%|0%|0%|0%|0%|
 
-|Cheatsheet topic|العَرَبِيَّة|עִבְרִית|हिन्दी|ಕನ್ನಡ|मराठी|తెలుగు|
+|Cheatsheet topic|العَرَبِيَّة|עִבְרִית|[हिन्दी](https://github.com/shervinea/cheatsheet-translation/tree/master/hi)|[ಕನ್ನಡ](https://github.com/shervinea/cheatsheet-translation/tree/master/kn)|[मराठी](https://github.com/shervinea/cheatsheet-translation/tree/master/mr)|[తెలుగు](https://github.com/shervinea/cheatsheet-translation/tree/master/te)|
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|
 |Deep learning|0%|0%|0%|0%|0%|0%|
 |Supervised learning|0%|0%|0%|0%|0%|0%|
@@ -22,7 +22,7 @@ This repository aims at collaboratively translating our [Machine Learning cheats
 If your favorite language is missing, please feel free to add it!
 
 ## Contribution guidelines
-1. Clone this repository by typing `git clone https://github.com/shervinea/cheatsheet-translation.git` from your terminal.
+1. Fork the repository.
 
 2. Go to the folder associated to the language of your choice (e.g. `es/` for Spanish, `zh/` for Mandarin Chinese) and translate anything you want.
 

@@ -1,42 +1,42 @@
 **1. Deep Learning cheatsheet**
 
-&#10230;
+&#10230; Derin Öğrenme Kopya Kağıdı
 
 <br>
 
 **2. Neural Networks**
 
-&#10230;
+&#10230; Sinir Ağları
 
 <br>
 
 **3. Neural networks are a class of models that are built with layers. Commonly used types of neural networks include convolutional and recurrent neural networks.**
 
-&#10230;
+&#10230; Sinir ağları, katmanlarla inşa edilen bir modeller sınıfıdır. Sinir ağlarının yaygın kullanılan çeşitleri evrişimsel sinir ağları ve yinelenen sinir ağlarını içerir.
 
 <br>
 
 **4. Architecture ― The vocabulary around neural networks architectures is described in the figure below:**
 
-&#10230;
+&#10230; Mimari - Sinir ağları mimarisi aşağıdaki figürde açıklanmaktadır:  
 
 <br>
 
 **5. [Input layer, hidden layer, output layer]**
 
-&#10230;
+&#10230; Giriş katmanı, gizli katman, ürün katmanı
 
 <br>
 
 **6. By noting i the ith layer of the network and j the jth hidden unit of the layer, we have:**
 
-&#10230;
+&#10230; Ağın i. sırasındaki katmana i ve katmandaki j. sırasındaki birime j dersek, elimizde: 
 
 <br>
 
 **7. where we note w, b, z the weight, bias and output respectively.**
 
-&#10230;
+&#10230; burada w, b, z değerleri sırasıyla ağırlık, meyil ve ürünü temsil eder.
 
 <br>
 

@@ -6,9 +6,9 @@
 
 **2. General notations**
 
-&#10230;
+&#10230; Notificaciones Generales
 
-<br> Notificaciones Generales
+<br> 
 
 **3. Definitions**
 

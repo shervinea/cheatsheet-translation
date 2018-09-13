@@ -2,25 +2,25 @@
 
 &#10230;
 
-<br>
+<br> Revisión rápida de Algebra Linea y Cálculo 
 
 **2. General notations**
 
 &#10230;
 
-<br>
+<br> Notificaciones Generales
 
 **3. Definitions**
 
 &#10230;
 
-<br>
+<br> Definiciones
 
 **4. Vector ― We note x∈Rn a vector with n entries, where xi∈R is the ith entry:**
 
 &#10230;
 
-<br>
+<br> Vector- Sea x∈Rn un vector con n entradas, donde xi∈R es la enésima entrada:
 
 **5. Matrix ― We note A∈Rm×n a matrix with n rows and m, where Ai,j∈R is the entry located in the ith row and jth column:**
 

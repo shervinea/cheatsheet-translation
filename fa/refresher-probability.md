@@ -63,79 +63,79 @@
 
 **11. Remark: we note that for 0⩽r⩽n, we have P(n,r)⩾C(n,r)**
 
-&#10230;
+نکته: برای $0 \leq r \leq n$، داریم $P(n, r) \geq C(n, r)$
 
 <br>
 
 **12. Conditional Probability**
 
-&#10230;
+احتمال شرطی
 
 <br>
 
 **13. Bayes' rule ― For events A and B such that P(B)>0, we have:**
 
-&#10230;
+قضیه‌ی بیز - برای پدیده‌های $A$ و $B$ به طوری که $P(B) > 0$ داریم:
 
 <br>
 
 **14. Remark: we have P(A∩B)=P(A)P(B|A)=P(A|B)P(B)**
 
-&#10230;
+نکته:‌داریم $P(A \cap B) = P(A) P(B | A) = P(A | B) P(B)$
 
 <br>
 
 **15. Partition ― Let {Ai,i∈[[1,n]]} be such that for all i, Ai≠∅. We say that {Ai} is a partition if we have:**
 
-&#10230;
+افراز - فرض می‌کنیم برای $\{A_i, i \in [1, n] \}$ به ازای هر $i$ داشته باشیم $A_i \neq \mathbf{0}$. در این صورت می‌گوییم $\{A_i\}$ یک افراز است اگر:
 
 <br>
 
 **16. Remark: for any event B in the sample space, we have P(B)=n∑i=1P(B|Ai)P(Ai).**
 
-&#10230;
+نکته: برای هر پدیده‌ی $B$ در فضای نمونه داریم $P(B) = \sum_{i=1}^n P(B | A_i) P(A_i)$.
 
 <br>
 
 **17. Extended form of Bayes' rule ― Let {Ai,i∈[[1,n]]} be a partition of the sample space. We have:**
 
-&#10230;
+تعمیم قضیه‌ی بیز - فرض می‌کنیم $\{A_i, i \in [1, n]\}$ یک افراز از فضای نمونه باشید. در این صورت داریم:
 
 <br>
 
 **18. Independence ― Two events A and B are independent if and only if we have:**
 
-&#10230;
+استقلال - دو پدیده‌ی $A$ و $B$ مستقل هستند اگر و فقط اگر داشته باشیم:
 
 <br>
 
 **19. Random Variables**
 
-&#10230;
+متغیرهای تصادفی
 
 <br>
 
 **20. Definitions**
 
-&#10230;
+تعاریف
 
 <br>
 
 **21. Random variable ― A random variable, often noted X, is a function that maps every element in a sample space to a real line.**
 
-&#10230;
+متغیر تصادفی - یک متغیر تصادفی، که معمولاً با $X$ نمایش داده می‌شود، یک تابع است که هر عضو فضای نمونه را به اعداد حقیقی نگاشت می‌کند.
 
 <br>
 
 **22. Cumulative distribution function (CDF) ― The cumulative distribution function F, which is monotonically non-decreasing and is such that limx→−∞F(x)=0 and limx→+∞F(x)=1, is defined as:**
 
-&#10230;
+تابع توزیع تجمعی - تابع توزیع تجمعی $F$، که تابعی یکنوا و اکیدا غیرنزولی است و برای آن $\lim_{x \rightarrow -\infty} F(x) = 0$ و $\lim_{x \rightarrow +\infty} F(x) = 1$ صدق می‌کنید، به صورت زیر تعریف می‌شود:
 
 <br>
 
 **23. Remark: we have P(a<X⩽B)=F(b)−F(a).**
 
-&#10230;
+نکته: داریم $P(a < X \leq b) = F(b) - F(a).
 
 <br>
 
@@ -147,13 +147,13 @@
 
 **25. Relationships involving the PDF and CDF ― Here are the important properties to know in the discrete (D) and the continuous (C) cases.**
 
-&#10230;
+ارتباط بین PDF و CDF - موارد زیر ویژگی‌های مهمی هستند که باید در مورد حالت گسسته و حالت پیوسته در نظر گرفت.
 
 <br>
 
 **26. [Case, CDF F, PDF f, Properties of PDF]**
 
-&#10230;
+[[CDF F, PDF f, ویژگی‌های PDF]]
 
 <br>
 

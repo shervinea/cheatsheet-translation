@@ -1,60 +1,63 @@
 **1. Probabilities and Statistics refresher**
 
-&#10230;
+یادآوری آمار و احتمالات
 
 <br>
 
 **2. Introduction to Probability and Combinatorics**
 
-&#10230;
+مقدمه‌ای بر احتمالات و ترکیبیات
 
 <br>
 
 **3. Sample space ― The set of all possible outcomes of an experiment is known as the sample space of the experiment and is denoted by S.**
 
-&#10230;
+۳. فضای نمونه - مجموعه‌ی همه‌ی پیشامدهای یک آزمایش را فضای نمونه‌ی آن آزمایش گویند که با S نمایش داده می‌شود.
 
 <br>
 
 **4. Event ― Any subset E of the sample space is known as an event. That is, an event is a set consisting of possible outcomes of the experiment. If the outcome of the experiment is contained in E, then we say that E has occurred.**
 
-&#10230;
+۴. پدیده - هر زیرمجموعه‌ی Eاز فضای نمونه یک پدیده در نظر گرفته می‌شود.
+به عبارت دیگر، یک پدیده مجموعه‌ای از پیشامدهای یک آزمایش است.
+اگر پیشامد یک آزمایش عضوی از مجموعه‌ی E باشد، در این حالت می‌گوییم که پدیده‌ی E اتفاق افتاده است.
 
 <br>
 
 **5. Axioms of probability For each event E, we denote P(E) as the probability of event E occuring.**
 
-&#10230;
+اصول موضوعه‌ی احتمالات.
+برای هر پدیده‌ی E، P(E) احتمال اتفاق افتادن پدیده‌ی E می‌باشد.
 
 <br>
 
 **6. Axiom 1 ― Every probability is between 0 and 1 included, i.e:**
 
-&#10230;
+اصل ۱ - احتمال عددی بین ۰ و ۱ است.
 
 <br>
 
 **7. Axiom 2 ― The probability that at least one of the elementary events in the entire sample space will occur is 1, i.e:**
 
-&#10230;
+اصل ۲ - احتمال اینکه حداقل یکی از پدیده‌های موجود در فضای نمونه اتفاق بیوفتد، ۱ است.
 
 <br>
 
 **8. Axiom 3 ― For any sequence of mutually exclusive events E1,...,En, we have:**
 
-&#10230;
+اصل ۳ - برای هر دنباله از پدیده‌هایی که دو به دو اشتراک نداشته باشند، داریم:
 
 <br>
 
 **9. Permutation ― A permutation is an arrangement of r objects from a pool of n objects, in a given order. The number of such arrangements is given by P(n,r), defined as:**
 
-&#10230;
+جایگشت - یک جایگشت چیدمانی از r شی از n شی با یک ترتیب خاص است. تعداد این چنین جایگشت‌ها P(n, r) است که به صورت زیر تعریف می‌شود:
 
 <br>
 
 **10. Combination ― A combination is an arrangement of r objects from a pool of n objects, where the order does not matter. The number of such arrangements is given by C(n,r), defined as:**
 
-&#10230;
+ترکیب - یک ترکیب چیدمانی از r شی از n شی است، به طوری که ترتیب اهمیتی نداشته باشد. تعداد این چنین ترکیب‌ها C(n, r) است که به صورت زیر تعریف می‌شود:
 
 <br>
 

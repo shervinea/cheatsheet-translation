@@ -130,61 +130,61 @@
 
 <br>
 
-**23. ASumimos que y|x;θ∼N(μ,σ2)**
+**23. Asumimos que y|x;θ∼N(μ,σ2)**
 
 &#10230;
 
 <br>
 
-**24. Normal equations ― By noting X the matrix design, the value of θ that minimizes the cost function is a closed-form solution such that:**
+**24. Ecuaciones normales ― Sea X la matriz de diseño, el valor de θ que minimiza la función de costo es una solución en forma cerrada tal que:**
 
 &#10230;
 
 <br>
 
-**25. LMS algorithm ― By noting α the learning rate, the update rule of the Least Mean Squares (LMS) algorithm for a training set of m data points, which is also known as the Widrow-Hoff learning rule, is as follows:**
+**25. Algoritmo LMS ― Sea α la tasa de aprendizaje, la regla de actualización del algoritmo LMS (del inglés, Least Mean Squares) para el entrenamiendo de m puntos, conocida también como tasa de aprendizaje de Widrow-Hoff, se define como:**
 
 &#10230;
 
 <br>
 
-**26. Remark: the update rule is a particular case of the gradient ascent.**
+**26. Observación: la regla de actualización es un caso particular del ascenso por gradiente.**
 
 &#10230;
 
 <br>
 
-**27. LWR ― Locally Weighted Regression, also known as LWR, is a variant of linear regression that weights each training example in its cost function by w(i)(x), which is defined with parameter τ∈R as:**
+**27. LWR ― Regreción local ponderada, conocida por sus siglas en inglés LWR (Locally Weighted Regression), es una variante de la regresión lineal que pondera cada ejemplo de entrenamoento en su función de costo utilizando w(i)(x), la cual se define con el parámetro τ∈R as:**
 
 &#10230;
 
 <br>
 
-**28. Classification and logistic regression**
+**28. Clasificación y regresión logística**
 
 &#10230;
 
 <br>
 
-**29. Sigmoid function ― The sigmoid function g, also known as the logistic function, is defined as follows:**
+**29. Función sigmoide ― La función sigmoide g, también conocida como la función logística, se define de la siguiente forma:**
 
 &#10230;
 
 <br>
 
-**30. Logistic regression ― We assume here that y|x;θ∼Bernoulli(ϕ). We have the following form:**
+**30. Regresión logística ― Asumiendo que y|x;θ∼Bernoulli(ϕ), tenemos la siguiente forma:**
 
 &#10230;
 
 <br>
 
-**31. Remark: there is no closed form solution for the case of logistic regressions.**
+**31. Observación: no existe solición en forma cerrada para los casos de regresiones logísticas.**
 
 &#10230;
 
 <br>
 
-**32. Softmax regression ― A softmax regression, also called a multiclass logistic regression, is used to generalize logistic regression when there are more than 2 outcome classes. By convention, we set θK=0, which makes the Bernoulli parameter ϕi of each class i equal to:**
+**32. Regresión Softmax ― La regresión softmax, también llamada regresión logística multiclase, es utilizada para generalizar regresiones logísticas cuando hay más de dos clases resultantes. Por convención, se define θK=0, lo que hace al parámetro de Bernoulli ϕi de cada clase i igual a:**
 
 &#10230;
 

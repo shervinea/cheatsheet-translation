@@ -22,7 +22,7 @@ This repository aims at collaboratively translating our [Machine Learning cheats
 If your favorite language is missing, please feel free to add it!
 
 ## Contribution guidelines
-1. Clone this repository by typing `git clone https://github.com/shervine/translating-cheatsheets.git` from your terminal.
+1. Clone this repository by typing `git clone https://github.com/shervinea/cheatsheet-translation.git` from your terminal.
 
 2. Go to the folder associated to the language of your choice (e.g. `es/` for Spanish, `zh/` for Mandarin Chinese) and translate anything you want.
 

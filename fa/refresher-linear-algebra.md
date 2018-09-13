@@ -1,60 +1,60 @@
 **1. Linear Algebra and Calculus refresher**
 
-&#10230;
+یادآوری جبر خطی و حسابان
 
 <br>
 
 **2. General notations**
 
-&#10230;
+نشانه‌گذاری‌ها
 
 <br>
 
 **3. Definitions**
 
-&#10230;
+تعاریف
 
 <br>
 
 **4. Vector ― We note x∈Rn a vector with n entries, where xi∈R is the ith entry:**
 
-&#10230;
+بردار - $x \in \mathcal{R}^n$ یک بردار با $n$ درایه است، که $x_i \in \mathcal{R}$ درایه‌ی $i$ام می‌باشد:
 
 <br>
 
 **5. Matrix ― We note A∈Rm×n a matrix with n rows and m, where Ai,j∈R is the entry located in the ith row and jth column:**
 
-&#10230;
+ماتریس - $A \in \mathcal{R} ^ {m \times n}$ یک بردار با $n$ سطر و $m$ ستون است، که در آن $A_{i, j} \in \mathcal{R}$ درایه‌ای است که در سطر $i$ام و ستون $j$ام قرار دارد:
 
 <br>
 
 **6. Remark: the vector x defined above can be viewed as a n×1 matrix and is more particularly called a column-vector.**
 
-&#10230;
+نکته: بردار $x$ که در بالا تعریف شد را می‌توان به صورت یک ماتریس $n \times 1$ در نظر گرفت که به طور خاص به آن بردار ستونی گویند.
 
 <br>
 
 **7. Main matrices**
 
-&#10230;
+ماتریس‌های اصلی:
 
 <br>
 
 **8. Identity matrix ― The identity matrix I∈Rn×n is a square matrix with ones in its diagonal and zero everywhere else:**
 
-&#10230;
+ماتریس یکانی - ماتریس یکانی $I \in \mathcal{R}^{n \times n}$ یک ماتریس مربعی است که درایه‌های قطری آن همه مقدار ۱ و بقیه‌ی درایه‌ها مقدار ۰ دارند:
 
 <br>
 
 **9. Remark: for all matrices A∈Rn×n, we have A×I=I×A=A.**
 
-&#10230;
+نکته: برای همه‌ی ماتریس‌های $A \in \mathcal{R}^{n \times n}$ داریم $A \times I = I \times A = A$.
 
 <br>
 
 **10. Diagonal matrix ― A diagonal matrix D∈Rn×n is a square matrix with nonzero values in its diagonal and zero everywhere else:**
 
-&#10230;
+ماتریس قطری - ماتریس $D \in \mathcal{R} ^ {n \times n}$ یک ماتریس مربعی است که درایه‌های قطری آن مقادیر غیرصفر دارند و بقیه‌ی درایه‌ها صفر هستند:
 
 <br>
 

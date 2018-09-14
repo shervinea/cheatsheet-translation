@@ -1,24 +1,24 @@
 **1. Deep Learning cheatsheet**
 
-&#10230;
+&#10230; Deep Learning - ściąga
 
 <br>
 
 **2. Neural Networks**
 
-&#10230;
+&#10230; Sieci neuronowe
 
 <br>
 
 **3. Neural networks are a class of models that are built with layers. Commonly used types of neural networks include convolutional and recurrent neural networks.**
 
-&#10230;
+&#10230; Sieci neuronowe to klasa modeli zbudowanych z warstw. Często wykorzystywane rodzaje sieci neuronowych to splotowe i rekurencyjne sieci neuronowe.
 
 <br>
 
 **4. Architecture ― The vocabulary around neural networks architectures is described in the figure below:**
 
-&#10230;
+&#10230; Architecture
 
 <br>
 

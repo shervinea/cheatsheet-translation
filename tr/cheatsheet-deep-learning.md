@@ -23,7 +23,7 @@
 
 **5. [Input layer, hidden layer, output layer]**
 
-&#10230; Giriş katmanı, gizli katman, ürün katmanı
+&#10230; [Giriş katmanı, gizli katman, ürün katmanı]
 
 <br>
 
@@ -35,7 +35,7 @@
 
 **7. where we note w, b, z the weight, bias and output respectively.**
 
-&#10230; burada w, b, z değerleri sırasıyla ağırlık, yönelim ve ürünü temsil eder.
+&#10230; burada w, b, z değerleri sırasıyla ağırlık, eğilim ve ürünü temsil eder.
 
 <br>
 

@@ -210,48 +210,48 @@
 
 **36. Bias ― The bias of a model is the difference between the expected prediction and the correct model that we try to predict for given data points.**
 
-&#10230;
+&#10230; Biais ― Le biais d'un modèle est la différence entre l'espérance de la prédiction et un modèle correct pour lequel on essaie de prédire pour des observations données.
 
 <br>
 
 **37. Variance ― The variance of a model is the variability of the model prediction for given data points.**
 
-&#10230;
+&#10230; Variance ― La variance d'un modèle est la variabilité des prédictions d'un modèle pour des observations données.
 
 <br>
 
 **38. Bias/variance tradeoff ― The simpler the model, the higher the bias, and the more complex the model, the higher the variance.**
 
-&#10230;
+&#10230; Compromis biais/variance ― Plus le modèle est simple, plus le biais est grand et plus le modèle est complexe, plus la variance est grande.
 
 <br>
 
 **39. [Symptoms, Regression illustration, classification illustration, deep learning illustration, possible remedies]**
 
-&#10230;
+&#10230; [Symptômes, Illustration dans le cas de la régression, Illustration dans le cas de la classification, Illustration dans le cas du deep learning, remèdes possibles]
 
 <br>
 
 **40. [High training error, Training error close to test error, High bias, Training error slightly lower than test error, Very low training error, Training error much lower than test error, High variance]**
 
-&#10230;
+&#10230; [Erreur de training élevé, Erreur de training proche de l'errur de testing, Biais élevé, Erreur de training légèrement inférieure à l'erreur de testing, Erreur de training très faible, Erreur de training beaucoup plus faible que l'erreur de testing, Variance élevée]
 
 <br>
 
 **41. [Complexify model, Add more features, Train longer, Perform regularization, Get more data]**
 
-&#10230;
+&#10230; [Complexifier le modèle, Ajouter plus de variables, Trainer plus longtemps, Effectuer la régularisation, Avoir plus de données]
 
 <br>
 
 **42. Error analysis ― Error analysis is analyzing the root cause of the difference in performance between the current and the perfect models.**
 
-&#10230;
+&#10230; Analyse de l'erreur ― L'analyse de l'erreur consiste à analyser la cause première de la différence en performance entre le modèle actuel et le modèle parfait.
 
 <br>
 
 **43. Ablative analysis ― Ablative analysis is analyzing the root cause of the difference in performance between the current and the baseline models.**
 
-&#10230;
+&#10230; Analyse ablative ― L'analyse ablative consiste à analyser la cause première de la différence en performance entre le modèle actuel et le modèle de base.
 
 <br>

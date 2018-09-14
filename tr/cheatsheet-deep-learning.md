@@ -1,7 +1,6 @@
 **1. Deep Learning cheatsheet**
 
-&#10230; Derin Öğrenme Kopya Kağıdı
-
+&#10230; Derin Öğrenme El Kitabı
 <br>
 
 **2. Neural Networks**
@@ -54,73 +53,73 @@
 
 **10. Cross-entropy loss ― In the context of neural networks, the cross-entropy loss L(z,y) is commonly used and is defined as follows:**
 
-&#10230;
+&#10230; Çapraz-entropi kaybı ― Sinir ağları içeriğinde, çapraz-entropi kaybı L(z,y) sık olarak kullanılır ve aşağıdaki gibi tanımlanır:
 
 <br>
 
 **11. Learning rate ― The learning rate, often noted α or sometimes η, indicates at which pace the weights get updated. This can be fixed or adaptively changed. The current most popular method is called Adam, which is a method that adapts the learning rate.**
 
-&#10230;
+&#10230; Öğrenme derecesi ― Öğrenme derecesi, sıklıkla α veya bazen η olarak belirtilir, ağırlıkların hangi tempoda güncellendiğini gösterir. Bu derece sabit olabilir veya uyarlamalı olarak değişebilir. Mevcut en gözde yöntem Adam olarak adlandırılan ve öğrenme oranını uyarlayan bir yöntemdir.
 
 <br>
 
 **12. Backpropagation ― Backpropagation is a method to update the weights in the neural network by taking into account the actual output and the desired output. The derivative with respect to weight w is computed using chain rule and is of the following form:**
 
-&#10230;
+&#10230; Geri yayılım ― Geri yayılım sinir ağındaki ağırlıkları güncellemek için kullanılan ve bunu yaparken de asıl sonuç ile istenilen sonucu hesaba katan bir yöntemdir. Ağırlık w değerine göre türev, zincir kuralı kullanılarak hesaplanılır ve aşağıdaki şekildedir: 
 
 <br>
 
 **13. As a result, the weight is updated as follows:**
 
-&#10230;
+&#10230; Sonuç olarak, ağırlık güncellenmesi aşağıdaki gibidir: 
 
 <br>
 
 **14. Updating weights ― In a neural network, weights are updated as follows:**
 
-&#10230;
+&#10230; Ağırlıkları güncelleme ― Sinir ağında ağırlıklar, aşağıdaki gibi güncellenir: 
 
 <br>
 
 **15. Step 1: Take a batch of training data.**
 
-&#10230;
+&#10230; 1. Adım: Bir grup eğitim verisi alınır
 
 <br>
 
 **16. Step 2: Perform forward propagation to obtain the corresponding loss.**
 
-&#10230;
+&#10230; 2.Adım: Denk gelen kaybı elde etmek için, ileri yayılım gerçekleştirilir. 
 
 <br>
 
 **17. Step 3: Backpropagate the loss to get the gradients.**
 
-&#10230;
+&#10230; 3.Adım: Gradyanları elde etmek için kayba geri yayılım uygulanır.
 
 <br>
 
 **18. Step 4: Use the gradients to update the weights of the network.**
 
-&#10230;
+&#10230; 4.Adım: Ağın ağırlıklarını güncellemek için gradyanlar kullanılır.
 
 <br>
 
 **19. Dropout ― Dropout is a technique meant at preventing overfitting the training data by dropping out units in a neural network. In practice, neurons are either dropped with probability p or kept with probability 1−p**
 
-&#10230;
+&#10230; Düşürme ― Düşürme, eğitim verisinin aşırı uymasını engellemek için sinir ağındaki birimleri düşürmek yoluyla uygulanan bir tekniktir. Pratikte, nöronlar ya p olasılığıyla düşürülür ya da 1-p olasılığıyla tutulur.
 
 <br>
 
 **20. Convolutional Neural Networks**
 
-&#10230;
+&#10230; Evrişimsel Sinir Ağları
 
 <br>
 
 **21. Convolutional layer requirement ― By noting W the input volume size, F the size of the convolutional layer neurons, P the amount of zero padding, then the number of neurons N that fit in a given volume is such that:**
 
-&#10230;
+&#10230; Evrişimsel katman gereksinimleri ― Girdi boyutuna W, evrişimsel katman nöronlarının boyutlarına F, sıfır dolgulama miktarına P dersek, 
 
 <br>
 

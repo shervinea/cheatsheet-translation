@@ -24,9 +24,16 @@ If your favorite language is missing, please feel free to add it!
 ## Contribution guidelines
 1. Fork the repository.
 
-2. Go to the folder associated to the language of your choice (e.g. `es/` for Spanish, `zh/` for Mandarin Chinese) and translate anything you want.
+2. Go to the folder associated to the language of your choice (e.g. `es/` for Spanish, `zh/` for Mandarin Chinese).
 
-3. Commit your changes and submit a [pull request](https://help.github.com/articles/creating-a-pull-request/).
+3. Translate anything you want by keeping the following template:
+> 1234. **English blabla**
+>
+> &#10230; **Translated blabla**
+
+4. Commit the changes to your forked repository.
+
+5. Submit a [pull request](https://help.github.com/articles/creating-a-pull-request/) and call it `[code of language name] Topic name`. For example, a translation in Spanish of the deep learning cheatsheet will be called `[es] Deep learning`.
 
 Submissions will have to be reviewed by a fellow native speaker before being accepted.
 

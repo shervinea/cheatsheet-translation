@@ -27,7 +27,7 @@ If your favorite language is missing, please feel free to add it!
 2. Go to the folder associated to the language of your choice (e.g. `es/` for Spanish, `zh/` for Mandarin Chinese).
 
 3. Translate anything you want by keeping the following template:
-> 1234. **English blabla**
+> 34. **English blabla**
 >
 > &#10230; **Translated blabla**
 

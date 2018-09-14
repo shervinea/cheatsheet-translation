@@ -18,7 +18,7 @@
 
 **4. Architecture ― The vocabulary around neural networks architectures is described in the figure below:**
 
-&#10230; Mimari - Sinir ağları mimarisi aşağıdaki figürde açıklanmaktadır:  
+&#10230; Mimari ― Sinir ağları mimarisi aşağıdaki figürde açıklanmaktadır:  
 
 <br>
 
@@ -30,25 +30,25 @@
 
 **6. By noting i the ith layer of the network and j the jth hidden unit of the layer, we have:**
 
-&#10230; Ağın i. sırasındaki katmana i ve katmandaki j. sırasındaki birime j dersek, elimizde: 
+&#10230; Ağın i. sırasındaki katmana i ve katmandaki j. sırasındaki gizli birime j dersek, elimizde: 
 
 <br>
 
 **7. where we note w, b, z the weight, bias and output respectively.**
 
-&#10230; burada w, b, z değerleri sırasıyla ağırlık, meyil ve ürünü temsil eder.
+&#10230; burada w, b, z değerleri sırasıyla ağırlık, yönelim ve ürünü temsil eder.
 
 <br>
 
 **8. Activation function ― Activation functions are used at the end of a hidden unit to introduce non-linear complexities to the model. Here are the most common ones:**
 
-&#10230;
+&#10230; Etkinleştirme fonksiyonu ― Etkinleştirme fonksiyonları gizli birimlerin sonunda, modele lineer olmayan karmaşıklıklar katmak için kullanılır. Aşağıda en yaygın kullanılanlarını görebilirsiniz: 
 
 <br>
 
 **9. [Sigmoid, Tanh, ReLU, Leaky ReLU]**
 
-&#10230;
+&#10230; [Sigmoid, Tanh, ReLU, Leaky ReLU]
 
 <br>
 

@@ -252,6 +252,6 @@
 
 **43. Ablative analysis ― Ablative analysis is analyzing the root cause of the difference in performance between the current and the baseline models.**
 
-&#10230; Analiza narzędziowa - analiza głównych powodów różnicy efektywności modelu testowanego i modelu podstawowego. W celu uproszczenia modelu.
+&#10230; Analiza ablacyjna - analiza głównych powodów różnicy efektywności modelu testowanego i modelu podstawowego. W celu uproszczenia modelu.
 
 <br>

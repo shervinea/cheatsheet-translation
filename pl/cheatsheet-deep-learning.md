@@ -204,7 +204,7 @@
 
 **35. {Psa} are the state transition probabilities for s∈S and a∈A**
 
-&#10230; {Psa} to zbiór prawdopodobieństw przejść pomiędzy stanami dla s∈S i a∈A 
+&#10230; {Psa} to zbiór prawdopodobieństw przejść pomiędzy stanami gdzie s∈S i a∈A 
 
 <br>
 

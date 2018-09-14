@@ -1,144 +1,145 @@
 **1. Supervised Learning cheatsheet**
 
-&#10230;
+&#10230; Dicas de Aprendizado Supervisionado
 
 <br>
 
 **2. Introduction to Supervised Learning**
 
-&#10230;
+&#10230; Introdução ao Aprendizado Supervisionado
 
 <br>
 
 **3. Given a set of data points {x(1),...,x(m)} associated to a set of outcomes {y(1),...,y(m)}, we want to build a classifier that learns how to predict y from x.**
 
-&#10230;
+&#10230; Dado um conjunto de dados {x(1),...,x(m) associados a um conjunto de resultados {y(1),...,y(m)}, nós queremos construir um classificador que aprende como predizer y baseado em x.
 
 <br>
 
 **4. Type of prediction ― The different types of predictive models are summed up in the table below:**
 
-&#10230;
+&#10230; Tipo de predição - Os diferentes tipos de modelo de predição estão resumidos na tabela abaixo:
 
 <br>
 
 **5. [Regression, Classifier, Outcome, Examples]**
 
-&#10230;
+&#10230; [Regressão, Classificador, Resultado, Exemplos]
 
 <br>
 
 **6. [Continuous, Class, Linear regression, Logistic regression, SVM, Naive Bayes]**
 
-&#10230;
+&#10230; [Contínuo, Classe, Regressão Linear, Regressão Logística, Máquina de Vetores de Suporte, Naive Bayes]
 
 <br>
 
 **7. Type of model ― The different models are summed up in the table below:**
 
-&#10230;
+&#10230; Tipos de modelo - Os diferentes modelos estão resumidos na tabela abaixo:
 
 <br>
 
 **8. [Discriminative model, Generative model, Goal, What's learned, Illustration, Examples]**
 
-&#10230;
+&#10230; [Modelo discriminativo, Modelo Generativo, Objetivo, O que é aprendido, Ilustração, Exemplos]
 
 <br>
 
 **9. [Directly estimate P(y|x), Estimate P(x|y) to then deduce P(y|x), Decision boundary,  	Probability distributions of the data, Regressions, SVMs, GDA, Naive Bayes]**
 
-&#10230;
+&#10230; [Estimar diretamente P(y|x), Estimar P(x|y) para daí deduzir P(x|y), Fronteira de decisão, Probabilidade da distribuição dos dados, Regressões, MVSs, GDA, Naive Bayes] 
 
 <br>
 
 **10. Notations and general concepts**
 
-&#10230;
+&#10230; Notações e conceitos gerais
 
 <br>
 
 **11. Hypothesis ― The hypothesis is noted hθ and is the model that we choose. For a given input data x(i) the model prediction output is hθ(x(i)).**
 
-&#10230;
+&#10230; Hipótese - A hipótese é denominada hθ e é o modelo que escolhem. Para um determinado dado de entrada x(i) o resultado do modelo de predição é hθ(x(i)).
 
 <br>
 
 **12. Loss function ― A loss function is a function L:(z,y)∈R×Y⟼L(z,y)∈R that takes as inputs the predicted value z corresponding to the real data value y and outputs how different they are. The common loss functions are summed up in the table below:**
 
-&#10230;
+&#10230; Função de perda - A função de perda é definida como L:(z,y)∈R×Y⟼L(z,y)∈R que recebe de entrada o valor z resultado da prefição e o real valor de y e retorna quão diferentes eles são. As funções de valor mais comuns estão resumidas na tabela abaixo:
 
 <br>
 
 **13. [Least squared error, Logistic loss, Hinge loss, Cross-entropy]**
 
-&#10230;
+&#10230; [Erro quadrático mínimo, Função de perda, Hinge loss, Entropia cruzada]
 
 <br>
 
 **14. [Linear regression, Logistic regression, SVM, Neural Network]**
 
-&#10230;
+&#10230; [Regressão linear, Regressão Logística, MVS, Rede Neural]
 
 <br>
 
 **15. Cost function ― The cost function J is commonly used to assess the performance of a model, and is defined with the loss function L as follows:**
 
-&#10230;
+&#10230; Função de custo - A função de custo J é normalmente usada para avaliar a performance de um modelo e é definida usando a função de perda L como:
 
 <br>
 
 **16. Gradient descent ― By noting α∈R the learning rate, the update rule for gradient descent is expressed with the learning rate and the cost function J as follows:**
 
-&#10230;
+&#10230; Gradiente descendente - Definindo α∈R como a taxa de aprendizado, a regra de atualização para o gradiente descendente é expressa usando a taxa de aprendizado e a função de custo J como: 
 
 <br>
 
 **17. Remark: Stochastic gradient descent (SGD) is updating the parameter based on each training example, and batch gradient descent is on a batch of training examples.**
 
-&#10230;
+&#10230; Lembrete: O gradiente descendente estocástico (GDE) atualiza o parâmetro baseado em cada exemplo de treinamento e o gradiente descendente em lote em um conjunto de exemplos de treinamento.
 
 <br>
 
 **18. Likelihood ― The likelihood of a model L(θ) given parameters θ is used to find the optimal parameters θ through maximizing the likelihood. In practice, we use the log-likelihood ℓ(θ)=log(L(θ)) which is easier to optimize. We have:**
 
-&#10230;
+&#10230; Probabilidade (Likelihood) - A probabilidade de um modelo L(θ) dado os parâmetros θ é usada para encontrar os parâmetros ótimos θ pela maximização da probabilidade. Na prática, é usado a 
+log-probabilidade (log-likelihood) ℓ(θ)=log(L(θ)) que é mais simples para se otimizar. Tem-se:
 
 <br>
 
 **19. Newton's algorithm ― The Newton's algorithm is a numerical method that finds θ such that ℓ′(θ)=0. Its update rule is as follows:**
 
-&#10230;
+&#10230; Algoritimo de Newton - O algoritmo de Newton é um método numérico que encontra θ tal que ℓ′(θ)=0. Sua regra de atualização é:
 
 <br>
 
 **20. Remark: the multidimensional generalization, also known as the Newton-Raphson method, has the following update rule:**
 
-&#10230;
+&#10230; Lembrete: a generalização multidimensional, também conhecida como o método de Newton-Raphson, tem a seguinte regra de atualização:
 
 <br>
 
 **21. Linear models**
 
-&#10230;
+&#10230; Modelos lineares
 
 <br>
 
 **22. Linear regression**
 
-&#10230;
+&#10230; Regressão linear
 
 <br>
 
 **23. We assume here that y|x;θ∼N(μ,σ2)**
 
-&#10230;
+&#10230; Assume-se que y|x;θ∼N(μ,σ2)
 
 <br>
 
 **24. Normal equations ― By noting X the matrix design, the value of θ that minimizes the cost function is a closed-form solution such that:**
 
-&#10230;
+&#10230; Equações normais - Definindo X como o desenho da matriz, o valor θ que minimiza a função de custo em uma solução de forma fechada é dado por: 
 
 <br>
 

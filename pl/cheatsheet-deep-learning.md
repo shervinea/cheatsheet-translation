@@ -54,7 +54,7 @@
 
 **10. Cross-entropy loss ― In the context of neural networks, the cross-entropy loss L(z,y) is commonly used and is defined as follows:**
 
-&#10230; Błąd - W kontekście sieci neuronowych 
+&#10230;
 
 <br>
 
@@ -114,25 +114,25 @@
 
 **20. Convolutional Neural Networks**
 
-&#10230;
+&#10230; Konwolucyjne Sieci Neuronowe
 
 <br>
 
 **21. Convolutional layer requirement ― By noting W the input volume size, F the size of the convolutional layer neurons, P the amount of zero padding, then the number of neurons N that fit in a given volume is such that:**
 
-&#10230;
+&#10230; Wymagania warstwy konwolucyjnej ― Zauwżając, że W to rozmiar danych wejściowych, F to rozmiar neuronów warstwy konwolucyjnej, P rozmiar uzupełnienia zerami, to wymaganą ilość neuronów określamy następująco:
 
 <br>
 
 **22. Batch normalization ― It is a step of hyperparameter γ,β that normalizes the batch {xi}. By noting μB,σ2B the mean and variance of that we want to correct to the batch, it is done as follows:**
 
-&#10230;
+&#10230; Normalizacja pakietu (Batch normalization) - Jest to krok w którym hiperparametry γ,β są wykorzystywane do normalizacji pakietu {xi}. Zauważając, że μB to średnia, a σ2B to wariancja, to normalizacja pakiet wygląda następująca:
 
 <br>
 
 **23. It is usually done after a fully connected/convolutional layer and before a non-linearity layer and aims at allowing higher learning rates and reducing the strong dependence on initialization.**
 
-&#10230;
+&#10230; Jest ona zazwyczaj stosowana po warstwie pełnej lub konwolucyjnej, a przed zastosowaniem nieliniowej funkcji aktywacyjnej i ma na celu umożliwienie stosowania dużego współczynnika uczenia i zmniejszenia zależności od inicjalizacji.
 
 <br>
 

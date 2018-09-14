@@ -270,7 +270,7 @@
 
 **46. Maximum likelihood estimate ― The maximum likelihood estimates for the state transition probabilities are as follows:**
 
-&#10230; Szacowanie maksymalnego prawdopodobieństwa - Estymaty maksymalnego prawdopodobieństwo dla poszczególnych przejść pomiędzy stanami wygląda następująco:
+&#10230; Szacowanie maksymalnego prawdopodobieństwa - Szacowanie maksymalnego prawdopodobieństwo dla poszczególnych przejść pomiędzy stanami wygląda następująco:
 
 <br>
 

@@ -54,7 +54,7 @@
 
 **10. Cross-entropy loss ― In the context of neural networks, the cross-entropy loss L(z,y) is commonly used and is defined as follows:**
 
-&#10230;
+&#10230; Koszt logarytmiczny (Cross-entropy loss) ― W kontekście sieci neuronowych koszt logarytmiczny L(z,y) jest często stosowany i wygląda następująco:
 
 <br>
 

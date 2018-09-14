@@ -18,43 +18,43 @@
 
 **4. Architecture ― The vocabulary around neural networks architectures is described in the figure below:**
 
-&#10230; Architecture
+&#10230; Architektura - słownictwo związane z sieciami neuronowymi jest opisane poniżej:
 
 <br>
 
 **5. [Input layer, hidden layer, output layer]**
 
-&#10230;
+&#10230; [Warstwa wejściowa, warstwa ukryta, warstwa wyjściowa]
 
 <br>
 
 **6. By noting i the ith layer of the network and j the jth hidden unit of the layer, we have:**
 
-&#10230;
+&#10230; Przez i rozumiemy i-tą warstwę sieci a przez j, j-ty neuron warstwy, mamy więc:
 
 <br>
 
 **7. where we note w, b, z the weight, bias and output respectively.**
 
-&#10230;
+&#10230; gdzie w to wagi (współczynniki), b to wyraz wolny funkcji i z to wynik.
 
 <br>
 
 **8. Activation function ― Activation functions are used at the end of a hidden unit to introduce non-linear complexities to the model. Here are the most common ones:**
 
-&#10230;
+&#10230; Funkcja aktywacji - Funkcje aktywacji stosowane są po wyliczeniu warstwy ukrytej w celu wprowadzenia nieliniowości do modelu. Oto najczęściej stosowane:
 
 <br>
 
 **9. [Sigmoid, Tanh, ReLU, Leaky ReLU]**
 
-&#10230;
+&#10230; [Sigmoid, Tanh, ReLU, Leaky ReLU]
 
 <br>
 
 **10. Cross-entropy loss ― In the context of neural networks, the cross-entropy loss L(z,y) is commonly used and is defined as follows:**
 
-&#10230;
+&#10230; Błąd - W kontekście sieci neuronowych 
 
 <br>
 
@@ -240,52 +240,52 @@
 
 **41. Bellman equation ― The optimal Bellman equations characterizes the value function Vπ∗ of the optimal policy π∗:**
 
-&#10230;
+&#10230; Równanie Bellmana - 
 
 <br>
 
 **42. Remark: we note that the optimal policy π∗ for a given state s is such that:**
 
-&#10230;
+&#10230; Przypomnienie: zauważamy, że optymalna strategia π∗ dla danego stanu s jest taka, że:
 
 <br>
 
 **43. Value iteration algorithm ― The value iteration algorithm is in two steps:**
 
-&#10230;
+&#10230; Algorytm iteracyjnego ustalania wartości zmiennej - algorytm ten składa się z dwóch kroków:
 
 <br>
 
 **44. 1) We initialize the value:**
 
-&#10230;
+&#10230; Inicjalizujemy zmienną wartością:
 
 <br>
 
 **45. 2) We iterate the value based on the values before:**
 
-&#10230;
+&#10230; W iteracyjny sposób ustalamy wartość zmiennej w oparciu o wartość poprzedniej zmiennej:
 
 <br>
 
 **46. Maximum likelihood estimate ― The maximum likelihood estimates for the state transition probabilities are as follows:**
 
-&#10230;
+&#10230; Szacowanie maksymalnego prawdopodobieństwa - Estymaty maksymalnego prawdopodobieństwo dla poszczególnych przejść pomiędzy stanami wygląda następująco:
 
 <br>
 
 **47. times took action a in state s and got to s′**
 
-&#10230;
+&#10230; ile razy podjęto działanie a w stanie s i otrzymano stan s'
 
 <br>
 
 **48. times took action a in state s**
 
-&#10230;
+&#10230; ile razu podjęto działanie a w stanie s
 
 <br>
 
 **49. Q-learning ― Q-learning is a model-free estimation of Q, which is done as follows:**
 
-&#10230;
+&#10230; Q-learning ― Q-learning jest sposobem bezmodelowego estymowania Q, które wygląda w następujący sposób: 

@@ -1,18 +1,18 @@
 **1. Deep Learning cheatsheet**
 
-&#10230;
+&#10230; Deep Learning - ściąga
 
 <br>
 
 **2. Neural Networks**
 
-&#10230;
+&#10230; Sieci neuronowe
 
 <br>
 
 **3. Neural networks are a class of models that are built with layers. Commonly used types of neural networks include convolutional and recurrent neural networks.**
 
-&#10230;
+&#10230; 
 
 <br>
 

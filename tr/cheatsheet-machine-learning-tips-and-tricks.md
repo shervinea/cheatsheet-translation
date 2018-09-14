@@ -78,31 +78,31 @@
 
 **14. [Metric, Formula, Equivalent]**
 
-&#10230;
+&#10230; [Ölçüt, Formül, Karşılığı]
 
 <br>
 
 **15. AUC ― The area under the receiving operating curve, also noted AUC or AUROC, is the area below the ROC as shown in the following figure:**
 
-&#10230;
+&#10230; AUC - Alıcı çalışma eğrisi altında kalan alan, ayrıca AUC yada AUROC, ROC altında kalan alan olarak aşağıdaki şekildeki gibi gösterilir:
 
 <br>
 
 **16. [Actual, Predicted]**
 
-&#10230;
+&#10230; [Gerçek, Tahmin Edilmiş]
 
 <br>
 
 **17. Basic metrics ― Given a regression model f, the following metrics are commonly used to assess the performance of the model:**
 
-&#10230;
+&#10230; Basit Ölçütler - Bir regresroy modeli f verildiğinde, aşağıdaki ölçütler genelde modelin performansını değerlendirmek için kullanılır:
 
 <br>
 
 **18. [Total sum of squares, Explained sum of squares, Residual sum of squares]**
 
-&#10230;
+&#10230; [Toplam kareler toplamı, Açıklanan kareler toplamı, Artık kareler toplamı]
 
 <br>
 

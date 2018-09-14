@@ -1,198 +1,198 @@
-**1. Aprendizaje supervisado**
+**1. Supervised Learning cheatsheet**
 
-&#10230;
-
-<br>
-
-**2. Introducción al aprendizaje supervisado**
-
-&#10230;
+&#10230; Aprendizaje supervisado
 
 <br>
 
-**3. Dado un conjunto de puntos {x(1),...,x(m)} asociado a un conjunto de etiquetas {y(1),...,y(m)}, queremos construir un clasificador que aprenda cómo predecir y dado x.**
+**2. Introduction to Supervised Learning**
 
-&#10230;
-
-<br>
-
-**4. Tipo de predicción ― Los diferentes tipos de modelos de predicción se resumen en la siguiente tabla:**
-
-&#10230;
+&#10230; Introducción al aprendizaje supervisado
 
 <br>
 
-**5. [Regresión, Clasificador, Etiqueta, Ejemplos]**
+**3. Given a set of data points {x(1),...,x(m)} associated to a set of outcomes {y(1),...,y(m)}, we want to build a classifier that learns how to predict y from x.**
 
-&#10230;
-
-<br>
-
-**6. [Continuo, Clases, Regresión lineal, Regresión logística, SVM, Naive Bayes]**
-
-&#10230;
+&#10230; Dado un conjunto de puntos {x(1),...,x(m)} asociado a un conjunto de etiquetas {y(1),...,y(m)}, queremos construir un clasificador que aprenda cómo predecir y dado x.
 
 <br>
 
-**7. Tipo de modelo ― Los diferentes tipos de modelos se resumen en la siguiente tabla:**
+**4. Type of prediction ― The different types of predictive models are summed up in the table below:**
 
-&#10230;
-
-<br>
-
-**8. [Modelo discriminatorio, Modelo generativo, Objetivo, Qué se aprende?, Ilustración, Ejemplos]**
-
-&#10230;
+&#10230; Tipo de predicción ― Los diferentes tipos de modelos de predicción se resumen en la siguiente tabla:
 
 <br>
 
-**9. [Estima P(y|x), Estima P(x|y) para luego deducir P(y|x), Límite de decisión,  	Distribución probabilistica de los datos, Regresiones, SVMs, GDA, Naive Bayes]**
+**5. [Regression, Classifier, Outcome, Examples]**
 
-&#10230;
-
-<br>
-
-**10. Notación y conceptos generales**
-
-&#10230;
+&#10230; [Regresión, Clasificador, Etiqueta, Ejemplos]
 
 <br>
 
-**11. Hipótesis ― La hipótesos se representa con h0 y es el modelo que elegimos. Para un dato de entrada x(i), la predicción dada por el modelo se representa como h0(x(i)).**
+**6. [Continuous, Class, Linear regression, Logistic regression, SVM, Naive Bayes]**
 
-&#10230;
-
-<br>
-
-**12. Función de pérdida ― Una función de pérdida es una función L:(z,y)∈R×Y⟼L(z,y)∈R que toma como entrada el valor z predecido y el valor real esperado y da como resultado qué tan diferentes son ambos. Las funciones de pérdida más comunes son detalladas en la siguiente tabla:**
-
-&#10230;
+&#10230; [Continuo, Clases, Regresión lineal, Regresión logística, SVM, Naive Bayes]
 
 <br>
 
-**13. [Mínimo error cuadrático, Logistic loss, Hinge loss, Cross-entropy]**
+**7. Type of model ― The different models are summed up in the table below:**
 
-&#10230;
-
-<br>
-
-**14. [Regresión lineal, Regresión logística, SVM, Red neuronal]**
-
-&#10230;
+&#10230; Tipo de modelo ― Los diferentes tipos de modelos se resumen en la siguiente tabla:
 
 <br>
 
-**15. Función de costo ― La función de costo J es comunmente utilizada para evaluar el rendimiento de un modelo y se define utilizando la función de pérdida L de la siguiente forma:**
+**8. [Discriminative model, Generative model, Goal, What's learned, Illustration, Examples]**
 
-&#10230;
-
-<br>
-
-**16. Descenso por gradiente ― Siendo α∈R la tasa de aprendizaje, la regla de actualización de descenso por gradiente se expresa junto a la tasa de aprendizaje y la función de costo J de la siguiente manejra:**
-
-&#10230;
+&#10230; [Modelo discriminatorio, Modelo generativo, Objetivo, Qué se aprende?, Ilustración, Ejemplos]
 
 <br>
 
-**17. Observación: El descenso por gradiente estocástico (SGD, por sus siglas en inglés) actualiza el parámetro basandose en cada ejemplo de entenamiento mientras que el descenso por lotes realiza la actualización del parámetro basandose en un conjunto (un lote) de ejemplos de entrenamiento.**
+**9. [Directly estimate P(y|x), Estimate P(x|y) to then deduce P(y|x), Decision boundary,  	Probability distributions of the data, Regressions, SVMs, GDA, Naive Bayes]**
 
-&#10230;
-
-<br>
-
-**18. Probabilidad ― La probabilidad de un modelo L(θ) dados los parámetros θ es utilizada para hallar los valores óptimos de  θ a través de la probabilidad. En la práctica se utiliza la log-probabilidad ℓ(θ)=log(L(θ)) la cual es fácil de optimizar. Tenemos:**
-
-&#10230;
+&#10230; [Estima P(y|x), Estima P(x|y) para luego deducir P(y|x), Límite de decisión,  	Distribución probabilistica de los datos, Regresiones, SVMs, GDA, Naive Bayes]
 
 <br>
 
-**19. Algoritmo de Newton ― El algoritmo de Newtow es un método numérico para hallar θ tal que ℓ′(θ)=0. Su regla de actualización es:**
+**10. Notations and general concepts**
 
-&#10230;
-
-<br>
-
-**20. Observación: la generalización multidimensional, también conocida como método de Newton-Raphson, tiene la siguiente regla de actualización:**
-
-&#10230;
+&#10230; Notación y conceptos generales
 
 <br>
 
-**21. Modelos lineales**
+**11. Hypothesis ― The hypothesis is noted hθ and is the model that we choose. For a given input data x(i) the model prediction output is hθ(x(i)).**
 
-&#10230;
-
-<br>
-
-**22. Regresión lineal**
-
-&#10230;
+&#10230; Hipótesis ― La hipótesos se representa con h0 y es el modelo que elegimos. Para un dato de entrada x(i), la predicción dada por el modelo se representa como h0(x(i)).
 
 <br>
 
-**23. Asumimos que y|x;θ∼N(μ,σ2)**
+**12. Loss function ― A loss function is a function L:(z,y)∈R×Y⟼L(z,y)∈R that takes as inputs the predicted value z corresponding to the real data value y and outputs how different they are. The common loss functions are summed up in the table below:**
 
-&#10230;
-
-<br>
-
-**24. Ecuaciones normales ― Sea X la matriz de diseño, el valor de θ que minimiza la función de costo es una solución en forma cerrada tal que:**
-
-&#10230;
+&#10230; Función de pérdida ― Una función de pérdida es una función L:(z,y)∈R×Y⟼L(z,y)∈R que toma como entrada el valor z predecido y el valor real esperado y da como resultado qué tan diferentes son ambos. Las funciones de pérdida más comunes son detalladas en la siguiente tabla:
 
 <br>
 
-**25. Algoritmo LMS ― Sea α la tasa de aprendizaje, la regla de actualización del algoritmo LMS (del inglés, Least Mean Squares) para el entrenamiendo de m puntos, conocida también como tasa de aprendizaje de Widrow-Hoff, se define como:**
+**13. [Least squared error, Logistic loss, Hinge loss, Cross-entropy]**
 
-&#10230;
-
-<br>
-
-**26. Observación: la regla de actualización es un caso particular del ascenso por gradiente.**
-
-&#10230;
+&#10230; [Mínimo error cuadrático, Logistic loss, Hinge loss, Cross-entropy]
 
 <br>
 
-**27. LWR ― Regreción local ponderada, conocida por sus siglas en inglés LWR (Locally Weighted Regression), es una variante de la regresión lineal que pondera cada ejemplo de entrenamoento en su función de costo utilizando w(i)(x), la cual se define con el parámetro τ∈R as:**
+**14. [Linear regression, Logistic regression, SVM, Neural Network]**
 
-&#10230;
-
-<br>
-
-**28. Clasificación y regresión logística**
-
-&#10230;
+&#10230; [Regresión lineal, Regresión logística, SVM, Red neuronal]
 
 <br>
 
-**29. Función sigmoide ― La función sigmoide g, también conocida como la función logística, se define de la siguiente forma:**
+**15. Cost function ― The cost function J is commonly used to assess the performance of a model, and is defined with the loss function L as follows:**
 
-&#10230;
-
-<br>
-
-**30. Regresión logística ― Asumiendo que y|x;θ∼Bernoulli(ϕ), tenemos la siguiente forma:**
-
-&#10230;
+&#10230; Función de costo ― La función de costo J es comunmente utilizada para evaluar el rendimiento de un modelo y se define utilizando la función de pérdida L de la siguiente forma:
 
 <br>
 
-**31. Observación: no existe solición en forma cerrada para los casos de regresiones logísticas.**
+**16. Gradient descent ― By noting α∈R the learning rate, the update rule for gradient descent is expressed with the learning rate and the cost function J as follows:**
 
-&#10230;
+&#10230; Descenso por gradiente ― Siendo α∈R la tasa de aprendizaje, la regla de actualización de descenso por gradiente se expresa junto a la tasa de aprendizaje y la función de costo J de la siguiente manejra:
 
 <br>
 
-**32. Regresión Softmax ― La regresión softmax, también llamada regresión logística multiclase, es utilizada para generalizar regresiones logísticas cuando hay más de dos clases resultantes. Por convención, se define θK=0, lo que hace al parámetro de Bernoulli ϕi de cada clase i igual a:**
+**17. Remark: Stochastic gradient descent (SGD) is updating the parameter based on each training example, and batch gradient descent is on a batch of training examples.**
 
-&#10230;
+&#10230; Observación: El descenso por gradiente estocástico (SGD, por sus siglas en inglés) actualiza el parámetro basandose en cada ejemplo de entenamiento mientras que el descenso por lotes realiza la actualización del parámetro basandose en un conjunto (un lote) de ejemplos de entrenamiento.
+
+<br>
+
+**18. Likelihood ― The likelihood of a model L(θ) given parameters θ is used to find the optimal parameters θ through maximizing the likelihood. In practice, we use the log-likelihood ℓ(θ)=log(L(θ)) which is easier to optimize. We have:**
+
+&#10230; Probabilidad ― La probabilidad de un modelo L(θ) dados los parámetros θ es utilizada para hallar los valores óptimos de  θ a través de la probabilidad. En la práctica se utiliza la log-probabilidad ℓ(θ)=log(L(θ)) la cual es fácil de optimizar. Tenemos:
+
+<br>
+
+**19. Newton's algorithm ― The Newton's algorithm is a numerical method that finds θ such that ℓ′(θ)=0. Its update rule is as follows:**
+
+&#10230; Algoritmo de Newton ― El algoritmo de Newtow es un método numérico para hallar θ tal que ℓ′(θ)=0. Su regla de actualización es:
+
+<br>
+
+**20. Remark: the multidimensional generalization, also known as the Newton-Raphson method, has the following update rule:**
+
+&#10230; Observación: la generalización multidimensional, también conocida como método de Newton-Raphson, tiene la siguiente regla de actualización:
+
+<br>
+
+**21. Linear models**
+
+&#10230; Modelos lineales
+
+<br>
+
+**22. Linear regression**
+
+&#10230; Regresión lineal
+
+<br>
+
+**23. We assume here that y|x;θ∼N(μ,σ2)**
+
+&#10230; Asumimos que y|x;θ∼N(μ,σ2)
+
+<br>
+
+**24. Normal equations ― By noting X the matrix design, the value of θ that minimizes the cost function is a closed-form solution such that:**
+
+&#10230; Ecuaciones normales ― Sea X la matriz de diseño, el valor de θ que minimiza la función de costo es una solución en forma cerrada tal que:
+
+<br>
+
+**25. LMS algorithm ― By noting α the learning rate, the update rule of the Least Mean Squares (LMS) algorithm for a training set of m data points, which is also known as the Widrow-Hoff learning rule, is as follows:**
+
+&#10230; Algoritmo LMS ― Sea α la tasa de aprendizaje, la regla de actualización del algoritmo LMS (del inglés, Least Mean Squares) para el entrenamiendo de m puntos, conocida también como tasa de aprendizaje de Widrow-Hoff, se define como:
+
+<br>
+
+**26. Remark: the update rule is a particular case of the gradient ascent.**
+
+&#10230; Observación: la regla de actualización es un caso particular del ascenso por gradiente.
+
+<br>
+
+**27. LWR ― Locally Weighted Regression, also known as LWR, is a variant of linear regression that weights each training example in its cost function by w(i)(x), which is defined with parameter τ∈R as:**
+
+&#10230; LWR ― Regreción local ponderada, conocida por sus siglas en inglés LWR (Locally Weighted Regression), es una variante de la regresión lineal que pondera cada ejemplo de entrenamoento en su función de costo utilizando w(i)(x), la cual se define con el parámetro τ∈R as:
+
+<br>
+
+**28. Classification and logistic regression**
+
+&#10230; Clasificación y regresión logística
+
+<br>
+
+**29. Sigmoid function ― The sigmoid function g, also known as the logistic function, is defined as follows:**
+
+&#10230; Función sigmoide ― La función sigmoide g, también conocida como la función logística, se define de la siguiente forma:
+
+<br>
+
+**30. Logistic regression ― We assume here that y|x;θ∼Bernoulli(ϕ). We have the following form:**
+
+&#10230; Regresión logística ― Asumiendo que y|x;θ∼Bernoulli(ϕ), tenemos la siguiente forma:
+
+<br>
+
+**31. Remark: there is no closed form solution for the case of logistic regressions.**
+
+&#10230; Observación: no existe solición en forma cerrada para los casos de regresiones logísticas.
+
+<br>
+
+**32. Softmax regression ― A softmax regression, also called a multiclass logistic regression, is used to generalize logistic regression when there are more than 2 outcome classes. By convention, we set θK=0, which makes the Bernoulli parameter ϕi of each class i equal to:**
+
+&#10230; egresión Softmax ― La regresión softmax, también llamada regresión logística multiclase, es utilizada para generalizar regresiones logísticas cuando hay más de dos clases resultantes. Por convención, se define θK=0, lo que hace al parámetro de Bernoulli ϕi de cada clase i igual a:
 
 <br>
 
 **33. Generalized Linear Models**
 
-&#10230;
+&#10230; Modelos lineales generalizados
 
 <br>
 

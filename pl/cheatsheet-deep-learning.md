@@ -60,55 +60,55 @@
 
 **11. Learning rate ― The learning rate, often noted α or sometimes η, indicates at which pace the weights get updated. This can be fixed or adaptively changed. The current most popular method is called Adam, which is a method that adapts the learning rate.**
 
-&#10230;
+&#10230; Współczynnik uczenia ― Współczynnik uczenia, często zapisywany jako α lub rzadziej η, określa z jaką szybkością będą aktualizowane wagi. Może on mieć wartość stałą lub zmienną. Obecnie najpopularniejszą metodą optymalizacji funkcji kosztu jest metoda Adam, która dostosowuje wartość współczynnika uczenia.
 
 <br>
 
 **12. Backpropagation ― Backpropagation is a method to update the weights in the neural network by taking into account the actual output and the desired output. The derivative with respect to weight w is computed using chain rule and is of the following form:**
 
-&#10230;
+&#10230; Propagacja wsteczna ― Propagacja wsteczna jest metodą aktualizacji wag w sieci neuronowej, która bierze pod uwagę różnice pomiędzy wynikiem uzyskanym, a oczekiwanym (koszt). Pochodna cząstkowa względem wagi w jest liczona z wykorzystaniem zasady złożenia pochodnych funkcji i wygląda następująco:
 
 <br>
 
 **13. As a result, the weight is updated as follows:**
 
-&#10230;
+&#10230; W wyniku czego, wagi są aktualizowane w następujący sposób:
 
 <br>
 
 **14. Updating weights ― In a neural network, weights are updated as follows:**
 
-&#10230;
+&#10230; Aktualizacja wag ― W sieci neuronowej, wagi są aktualizowane w następujący sposób: 
 
 <br>
 
 **15. Step 1: Take a batch of training data.**
 
-&#10230;
+&#10230; Krok 1: Pobierz pakiet danych treningowych.
 
 <br>
 
 **16. Step 2: Perform forward propagation to obtain the corresponding loss.**
 
-&#10230;
+&#10230; Krok 2: dokonaj propagacji do przodu aby uzyskać wartość kosztu.
 
 <br>
 
 **17. Step 3: Backpropagate the loss to get the gradients.**
 
-&#10230;
+&#10230; Step 3: Z wykorzystaniem propagacji wstecznej użyj koszt aby uzyskać gradient.
 
 <br>
 
 **18. Step 4: Use the gradients to update the weights of the network.**
 
-&#10230;
+&#10230; Krok 4: Wykorzystaj gradient aby zaktualizować wagi w sieci neuronowej.
 
 <br>
 
 **19. Dropout ― Dropout is a technique meant at preventing overfitting the training data by dropping out units in a neural network. In practice, neurons are either dropped with probability p or kept with probability 1−p**
 
-&#10230;
+&#10230; Dropout ― Dropout jest techniką zapobiegania nadmiernemu dopasowaniu (overfitting) do danych treningowych poprzez pomijanie niektórych neuronów w sieci. W praktyce, neurony są pomijane z prawdopodobieństwem p lub nie są pomijane z prawdopodobieństwem 1-p
 
 <br>
 

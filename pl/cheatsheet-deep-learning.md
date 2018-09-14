@@ -138,31 +138,31 @@
 
 **24. Recurrent Neural Networks**
 
-&#10230;
+&#10230; Rekurencyjne Sieci Neuronowe
 
 <br>
 
 **25. Types of gates ― Here are the different types of gates that we encounter in a typical recurrent neural network:**
 
-&#10230;
+&#10230; Rodzaje bramek ― Przedstawiamy różne rodzaje bramek, które możemy spotkać w typowych sieciach rekurencyjnych (RNN):
 
 <br>
 
 **26. [Input gate, forget gate, gate, output gate]**
 
-&#10230;
+&#10230; [Bramka wejściowa, bramka zapominajca, bramka, bramka wyjściowa]
 
 <br>
 
 **27. [Write to cell or not?, Erase a cell or not?, How much to write to cell?, How much to reveal cell?]**
 
-&#10230;
+&#10230; [Pisać do komórki, czy nie?, Wyczyścić komówke, czy nie?, Jak dużo zapisać do komórki?, Jak dużo ujawnić komórce?]
 
 <br>
 
 **28. LSTM ― A long short-term memory (LSTM) network is a type of RNN model that avoids the vanishing gradient problem by adding 'forget' gates.**
 
-&#10230; LSTM ― 
+&#10230; LSTM ― Długa krótkoterminowa sieć neuronowa (LSTM) to rodzaj sieci rekurencyjnej (RNN), która radzi sobie z problemem zanikającego gradientu poprzez wykorzystanie bramek zapominających.
 
 <br>
 

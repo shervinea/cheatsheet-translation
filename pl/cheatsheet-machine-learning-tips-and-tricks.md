@@ -90,7 +90,7 @@
 
 **16. [Actual, Predicted]**
 
-&#10230; Rzeczywiste, Predykowane
+&#10230; [Rzeczywiste, Predykowane]
 
 <br>
 

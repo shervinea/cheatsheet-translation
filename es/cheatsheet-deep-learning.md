@@ -6,43 +6,43 @@
 
 **2. Neural Networks**
 
-&#10230;
+&#10230; Redes Neuronales
 
 <br>
 
 **3. Neural networks are a class of models that are built with layers. Commonly used types of neural networks include convolutional and recurrent neural networks.**
 
-&#10230;
+&#10230;3. Las redes neuronales son una clase de modelos construidos en capas. Las redes neuronales usadas comínmente incliyen las convolucionales y las redes neuronales recurrentes
 
 <br>
 
 **4. Architecture ― The vocabulary around neural networks architectures is described in the figure below:**
 
-&#10230;
+&#10230;4. Arquitectura - El vocabulario en el que las arquitecturas de redes neuronales está descrito en la siguiente figura
 
 <br>
 
 **5. [Input layer, hidden layer, output layer]**
 
-&#10230;
+&#10230;5. [capa de entrada, capa oculta, capa de salida]
 
 <br>
 
 **6. By noting i the ith layer of the network and j the jth hidden unit of the layer, we have:**
 
-&#10230;
+&#10230;6. Tomando i en la primera capa de la red y j en la jva capa oculta, tenemos:
 
 <br>
 
 **7. where we note w, b, z the weight, bias and output respectively.**
 
-&#10230;
+&#10230;7. donde vemos w, b, z el peso, bias y la salida respectivamente
 
 <br>
 
 **8. Activation function ― Activation functions are used at the end of a hidden unit to introduce non-linear complexities to the model. Here are the most common ones:**
 
-&#10230;
+&#10230; función de activación - Las funciones de activación son usadas al fin de la capa oculta para introducir complejidad no linear al modelo. Aquí están las más comunes:
 
 <br>
 
@@ -60,49 +60,49 @@
 
 **11. Learning rate ― The learning rate, often noted α or sometimes η, indicates at which pace the weights get updated. This can be fixed or adaptively changed. The current most popular method is called Adam, which is a method that adapts the learning rate.**
 
-&#10230;
+&#10230;11. Tasa de aprendizaje - La taza de aprendizaje, comúnmente escrita α o en ocasiones η, indica el peso en el que los pesos se actualizan. Este puede estar fijo o cambiar dinámicamente. El método más popilar actualmente es llamado Adam, que es un método que adapta la tasa de aprendizaje.
 
 <br>
 
 **12. Backpropagation ― Backpropagation is a method to update the weights in the neural network by taking into account the actual output and the desired output. The derivative with respect to weight w is computed using chain rule and is of the following form:**
 
-&#10230;
+&#10230;12. Backpropagation ― Backpropagation o propagación hacia atrás, es un método para actualizar los pesos en la red neuronal tomando en cuenta la salida actual y la salida deseada. La derivada con respecto al peso w es calculada usando la regla de la cadena y es de la siguiente forma:
 
 <br>
 
 **13. As a result, the weight is updated as follows:**
 
-&#10230;
+&#10230;13. Como resultado, el peso es actualizado como se muestra:
 
 <br>
 
 **14. Updating weights ― In a neural network, weights are updated as follows:**
 
-&#10230;
+&#10230;14. Actualizando pesos - En una red neuronal, los pesos son actualizados como se muestra:
 
 <br>
 
 **15. Step 1: Take a batch of training data.**
 
-&#10230;
+&#10230;15. Paso 1: Toma un lote de datos de entrenamiento.
 
 <br>
 
 **16. Step 2: Perform forward propagation to obtain the corresponding loss.**
 
-&#10230;
+&#10230;16. Paso 2: Realiza una propagación hacia delante(forward propagation) para obtener la pérdida correspondiente.
 
 <br>
 
 **17. Step 3: Backpropagate the loss to get the gradients.**
 
-&#10230;
+&#10230;17. Realice una propagación hacia atrás(Backpropagation) con la pérdida para obtener los gradientes.
 
 <br>
 
 **18. Step 4: Use the gradients to update the weights of the network.**
 
-&#10230;
+&#10230;18. Paso 4: Use los gradientes para actualizar los pesos de la red.
 
 <br>
 
@@ -138,7 +138,7 @@
 
 **24. Recurrent Neural Networks**
 
-&#10230;
+&#10230;24. Redes Neuronales Recurrentes
 
 <br>
 
@@ -258,13 +258,13 @@
 
 **44. 1) We initialize the value:**
 
-&#10230;
+&#10230;44. 1) Inicializamos el valor:
 
 <br>
 
 **45. 2) We iterate the value based on the values before:**
 
-&#10230;
+&#10230;45. 2) Iteramos el valor basado en los valores anteriores:
 
 <br>
 
@@ -288,4 +288,4 @@
 
 **49. Q-learning ― Q-learning is a model-free estimation of Q, which is done as follows:**
 
-&#10230;
+&#10230;49. Q-learning ― Q-learning es un modelo libre de estimación de Q, que se hace como se muestra:

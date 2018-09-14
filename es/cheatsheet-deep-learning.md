@@ -1,12 +1,12 @@
 **1. Deep Learning cheatsheet**
 
-&#10230;
+&#10230;1. Chuleta Deep learning
 
 <br>
 
 **2. Neural Networks**
 
-&#10230; Redes Neuronales
+&#10230;2. Redes Neuronales
 
 <br>
 
@@ -36,7 +36,7 @@
 
 **7. where we note w, b, z the weight, bias and output respectively.**
 
-&#10230;7. donde vemos w, b, z el peso, bias y la salida respectivamente
+&#10230;7. donde tenemos w, b, z para el peso, bias y la salida respectivamente
 
 <br>
 
@@ -48,7 +48,7 @@
 
 **9. [Sigmoid, Tanh, ReLU, Leaky ReLU]**
 
-&#10230;
+&#10230;9. [Sigmoide, Tanh, ReLU, Leaky ReLU]
 
 <br>
 

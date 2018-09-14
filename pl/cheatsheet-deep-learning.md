@@ -162,31 +162,31 @@
 
 **28. LSTM ― A long short-term memory (LSTM) network is a type of RNN model that avoids the vanishing gradient problem by adding 'forget' gates.**
 
-&#10230;
+&#10230; LSTM ― 
 
 <br>
 
 **29. Reinforcement Learning and Control**
 
-&#10230;
+&#10230; Uczenie Wspomagane i Kontrola
 
 <br>
 
 **30. The goal of reinforcement learning is for an agent to learn how to evolve in an environment.**
 
-&#10230;
+&#10230; Celem uczenia wspomaganego jest nauczenie agenta tego, w jaki sposób ewoluować w danym środowisku.
 
 <br>
 
 **31. Definitions**
 
-&#10230;
+&#10230; Definicje:
 
 <br>
 
 **32. Markov decision processes ― A Markov decision process (MDP) is a 5-tuple (S,A,{Psa},γ,R) where:**
 
-&#10230;
+&#10230; Proces decyzyjny Markowa ― Proces decyzyjny markowa (MDP) jest 5-krotką (S,A,{Psa},γ,R), gdzie: 
 
 <br>
 
@@ -194,29 +194,29 @@
 
 &#10230;
 
-<br>
+<br> S jest zbiorem stanów
 
 **34. A is the set of actions**
 
-&#10230;
+&#10230; A jest zbiorem działań
 
 <br>
 
 **35. {Psa} are the state transition probabilities for s∈S and a∈A**
 
-&#10230;
+&#10230; {Psa} to zbiór prawdopodobieństw przejść pomiędzy stanami dla s∈S i a∈A 
 
 <br>
 
 **36. γ∈[0,1[ is the discount factor**
 
-&#10230;
+&#10230; γ∈[0,1[ jest współczynnikiem dyskontującym. 
 
 <br>
 
 **37. R:S×A⟶R or R:S⟶R is the reward function that the algorithm wants to maximize**
 
-&#10230;
+&#10230; R:S×A⟶R lub R:S⟶R to funkcja nagrody, którą algorytm ma za zadanie zmaksymalizować.
 
 <br>
 
@@ -246,7 +246,7 @@
 
 **42. Remark: we note that the optimal policy π∗ for a given state s is such that:**
 
-&#10230; Przypomnienie: zauważamy, że optymalna strategia π∗ dla danego stanu s jest taka, że:
+&#10230; Przypomnienie: zauważmy, że optymalna strategia π∗ dla danego stanu s jest taka, że:
 
 <br>
 

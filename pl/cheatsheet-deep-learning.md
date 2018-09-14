@@ -222,25 +222,25 @@
 
 **38. Policy ― A policy π is a function π:S⟶A that maps states to actions.**
 
-&#10230;
+&#10230; Strategia - Strategia π jest funkcją π:S⟶A, która mapuje stany na działania.
 
 <br>
 
 **39. Remark: we say that we execute a given policy π if given a state a we take the action a=π(s).**
 
-&#10230;
+&#10230; Przypomnienie: mówimy, że wykonujemy daną strategię π w danym stanie s, gdy wykonujemy działanie a=π(s).
 
 <br>
 
 **40. Value function ― For a given policy π and a given state s, we define the value function Vπ as follows:**
 
-&#10230;
+&#10230; Funkcja wartości ― Dla danej strategii π w danym stanie s, definiujemy wartość funkcji Vπ w następujący sposób:    
 
 <br>
 
 **41. Bellman equation ― The optimal Bellman equations characterizes the value function Vπ∗ of the optimal policy π∗:**
 
-&#10230; Równanie Bellmana - 
+&#10230; Równanie Bellmana - Optymalne równania Bellmana charakteryzują wartość funkcji Vπ∗ optymalnej strategii π∗:
 
 <br>
 

@@ -138,154 +138,154 @@
 
 **24. Recurrent Neural Networks**
 
-&#10230;
+&#10230; Recurrent Neural Networks
 
 <br>
 
 **25. Types of gates ― Here are the different types of gates that we encounter in a typical recurrent neural network:**
 
-&#10230;
+&#10230; Types de gates ― Voici les différents types de gates que l'on rencontre dans un recurrent neural network typique :
 
 <br>
 
 **26. [Input gate, forget gate, gate, output gate]**
 
-&#10230;
+&#10230; [Input gate, forget gate, gate, output gate]
 
 <br>
 
 **27. [Write to cell or not?, Erase a cell or not?, How much to write to cell?, How much to reveal cell?]**
 
-&#10230;
+&#10230; [Écrire dans la cellule ou non ?, Supprimer la cellule ou non ? Combien écrire à la cellule ? A quel point révéler la cellule ?]
 
 <br>
 
 **28. LSTM ― A long short-term memory (LSTM) network is a type of RNN model that avoids the vanishing gradient problem by adding 'forget' gates.**
 
-&#10230;
+&#10230; LSTM ― Un réseau de long court terme (LSTM) est un type de modèle RNN qui empêche le phénomène de vanishing gradient en ajoutant des forget gates.
 
 <br>
 
 **29. Reinforcement Learning and Control**
 
-&#10230;
+&#10230; Reinforcement Learning et Control
 
 <br>
 
 **30. The goal of reinforcement learning is for an agent to learn how to evolve in an environment.**
 
-&#10230;
+&#10230; Le but du reinforcement learning est pour un agent d'apprendre comment évoluer dans un environnement.
 
 <br>
 
 **31. Definitions**
 
-&#10230;
+&#10230; Définitions
 
 <br>
 
 **32. Markov decision processes ― A Markov decision process (MDP) is a 5-tuple (S,A,{Psa},γ,R) where:**
 
-&#10230;
+&#10230; Processus de décision markovien ― Un processus de décision markovien (MDP) est décrite par 5 quantités (S,A,{Psa},γ,R), où :
 
 <br>
 
 **33. S is the set of states**
 
-&#10230;
+&#10230; S est l'ensemble des états
 
 <br>
 
 **34. A is the set of actions**
 
-&#10230;
+&#10230; A est l'ensemble des actions
 
 <br>
 
 **35. {Psa} are the state transition probabilities for s∈S and a∈A**
 
-&#10230;
+&#10230; {Psa} sont les probabilités d'états de transition pour s∈S et a∈A
 
 <br>
 
 **36. γ∈[0,1[ is the discount factor**
 
-&#10230;
+&#10230; γ∈[0,1[ est le discount factor
 
 <br>
 
 **37. R:S×A⟶R or R:S⟶R is the reward function that the algorithm wants to maximize**
 
-&#10230;
+&#10230; R:S×A⟶R ou R:S⟶R est la fonction récompense que l'algorithme veut maximizer
 
 <br>
 
 **38. Policy ― A policy π is a function π:S⟶A that maps states to actions.**
 
-&#10230;
+&#10230; Politique ― Une politique π est une fonction π:S⟶A qui lie les états aux actions.
 
 <br>
 
 **39. Remark: we say that we execute a given policy π if given a state a we take the action a=π(s).**
 
-&#10230;
+&#10230; Remarque : on dit que l'on effectue une politique donnée π si étant donné un état s, on prend l'action a=π(s).
 
 <br>
 
 **40. Value function ― For a given policy π and a given state s, we define the value function Vπ as follows:**
 
-&#10230;
+&#10230; Fonction de valeurs ― Pour une politique donnée π et un état donné s, on définie la fonction de valeurs Vπ comme suit :
 
 <br>
 
 **41. Bellman equation ― The optimal Bellman equations characterizes the value function Vπ∗ of the optimal policy π∗:**
 
-&#10230;
+&#10230; Équation de Bellman ― Les équations de Bellman optimales caractérisent la fonction de valeurs Vπ∗ de la politique optimale π∗ :
 
 <br>
 
 **42. Remark: we note that the optimal policy π∗ for a given state s is such that:**
 
-&#10230;
+&#10230; Remarque : on note que la politique optimale π∗ pour un état donné s est tel que :
 
 <br>
 
 **43. Value iteration algorithm ― The value iteration algorithm is in two steps:**
 
-&#10230;
+&#10230; Algorithme d'itération sur la valeur ― L'algorithme d'itération sur la valeur est faite de deux étapes :
 
 <br>
 
 **44. 1) We initialize the value:**
 
-&#10230;
+&#10230; 1) On initialise la valeur :
 
 <br>
 
 **45. 2) We iterate the value based on the values before:**
 
-&#10230;
+&#10230; 2) On itère la valeur, basé sur les valeurs précédentes :
 
 <br>
 
 **46. Maximum likelihood estimate ― The maximum likelihood estimates for the state transition probabilities are as follows:**
 
-&#10230;
+&#10230; Maximum de vraisemblance ― Les estimations du maximum de vraisemblance pour les transitions de probabilité d'état sont comme suit :
 
 <br>
 
 **47. times took action a in state s and got to s′**
 
-&#10230;
+&#10230; nombre de fois où l'action a dans l'état s est prise pour arriver à l'état s'
 
 <br>
 
 **48. times took action a in state s**
 
-&#10230;
+&#10230; nombre de fois où l'action a dans l'état s est prise
 
 <br>
 
 **49. Q-learning ― Q-learning is a model-free estimation of Q, which is done as follows:**
 
-&#10230;
+&#10230; Q-learning ― Le Q-learning est une estimation non-paramétrique de Q, qui est faite de la manière suivante :

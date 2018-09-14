@@ -1,78 +1,78 @@
 **1. Machine Learning tips and tricks cheatsheet**
 
-&#10230;
+&#10230; Pense-bête de petites astuces de Machine Learning
 
 <br>
 
 **2. Classification metrics**
 
-&#10230;
+&#10230; Indicateurs dans le contexte de classification
 
 <br>
 
 **3. In a context of a binary classification, here are the main metrics that are important to track in order to assess the performance of the model.**
 
-&#10230;
+&#10230; Dans le contexte de classification binaire, voici les indicateurs principaux qui sont importants à surveiller pour évaluer la performance d'un modèle.
 
 <br>
 
 **4. Confusion matrix ― The confusion matrix is used to have a more complete picture when assessing the performance of a model. It is defined as follows:**
 
-&#10230;
+&#10230; Matrice de confusion ― Une matrice de confusion est utilisée pour avoir une image plus complète lors de l'évaluation de la performance d'un modèle. Elle est définie de la manière suivante :
 
 <br>
 
 **5. [Predicted class, Actual class]**
 
-&#10230;
+&#10230; [Classe prédite, classe actuelle]
 
 <br>
 
 **6. Main metrics ― The following metrics are commonly used to assess the performance of classification models:**
 
-&#10230;
+&#10230; Indicateurs principaux ― Les indicateurs suivants sont communément utilisés pour évaluer la performance des modèles de classification :
 
 <br>
 
 **7. [Metric, Formula, Interpretation]**
 
-&#10230;
+&#10230; [Indicateur, Formule, Interprétation]
 
 <br>
 
 **8. Overall performance of model**
 
-&#10230;
+&#10230; Performance globale du modèle
 
 <br>
 
 **9. How accurate the positive predictions are**
 
-&#10230;
+&#10230; A quel point les prédictions positives sont précises
 
 <br>
 
 **10. Coverage of actual positive sample**
 
-&#10230;
+&#10230; Couverture des observations actuellement positives
 
 <br>
 
 **11. Coverage of actual negative sample**
 
-&#10230;
+&#10230; Couverture des observations actuellement négatives
 
 <br>
 
 **12. Hybrid metric useful for unbalanced classes**
 
-&#10230;
+&#10230; Indicateur hybride utilie pour les classes non-balancées
 
 <br>
 
 **13. ROC ― The receiver operating curve, also noted ROC, is the plot of TPR versus FPR by varying the threshold. These metrics are are summed up in the table below:**
 
-&#10230;
+&#10230; Courbe ROC - La fonction d'efficacité du récepteur, plus fréquemment appelée courbe ROC, est une courbe
 
 <br>
 

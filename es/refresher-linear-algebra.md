@@ -16,7 +16,7 @@
 
 <br> 
 
-**4. Vector ― Sea x∈Rn un vector con n entradas, donde xi∈R es la enésima entrada: **
+**4. Vector ― Sea x∈Rn un vector con n entradas, donde xi∈R es la enésima entrada:**
 
 &#10230; 
 

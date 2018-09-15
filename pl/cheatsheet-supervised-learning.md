@@ -1,84 +1,84 @@
 **1. Supervised Learning cheatsheet**
 
-&#10230;
+&#10230; Uczenie nadzorowane - ściąga
 
 <br>
 
 **2. Introduction to Supervised Learning**
 
-&#10230;
+&#10230; Wprowadzenie do Uczenia nadzorowanego
 
 <br>
 
 **3. Given a set of data points {x(1),...,x(m)} associated to a set of outcomes {y(1),...,y(m)}, we want to build a classifier that learns how to predict y from x.**
 
-&#10230;
+&#10230; Mając zbiór danych {x(1),...,x(m)} i powiązany z nimi zbiór wyników {y(1),...,y(m)}, chcemy zbudować klasyfikator, który nauczy się predykcji y na podstawie x.
 
 <br>
 
 **4. Type of prediction ― The different types of predictive models are summed up in the table below:**
 
-&#10230;
+&#10230; Rodzaje predykcji ― Różne rodzaje predykcji opisane są w tabelce poniżej:
 
 <br>
 
 **5. [Regression, Classifier, Outcome, Examples]**
 
-&#10230;
+&#10230; [Regresja, Klasyfikacja, Wynik, Przykład]
 
 <br>
 
 **6. [Continuous, Class, Linear regression, Logistic regression, SVM, Naive Bayes]**
 
-&#10230;
+&#10230; [Ciągłość, Klasa, Regresja liniowa, Regresja logistyczna, SVM, Naive Bayes]
 
 <br>
 
 **7. Type of model ― The different models are summed up in the table below:**
 
-&#10230;
+&#10230; Rodzaj modelu ― Różne rodzaje modeli opisane są w tabelce poniżej:
 
 <br>
 
 **8. [Discriminative model, Generative model, Goal, What's learned, Illustration, Examples]**
 
-&#10230;
+&#10230; [Model dyskryminacyjny, Model generatywny, Cel, Co jest uczone?, Obrazek, Przykład]
 
 <br>
 
 **9. [Directly estimate P(y|x), Estimate P(x|y) to then deduce P(y|x), Decision boundary,  	Probability distributions of the data, Regressions, SVMs, GDA, Naive Bayes]**
 
-&#10230;
+&#10230; [Bezpośrednia estymata P(y|x), Estymata P(x|y) aby wydedukować P(y|x), Rozgraniczenie decyzyjne, Rozkład prawdopodobieństwa danych, Regresja, SVM, GDA, Naive Bayes]
 
 <br>
 
 **10. Notations and general concepts**
 
-&#10230;
+&#10230; Zapis i stwierdzenia ogólne
 
 <br>
 
 **11. Hypothesis ― The hypothesis is noted hθ and is the model that we choose. For a given input data x(i) the model prediction output is hθ(x(i)).**
 
-&#10230;
+&#10230; Hipoteza ― Hipoteze zapisujemy jako h0 i jest wybranym przez nas modelem. Dla danych danech wejściowych x(i) model tworzy predykcje wyniku h0(x(i)).
 
 <br>
 
 **12. Loss function ― A loss function is a function L:(z,y)∈R×Y⟼L(z,y)∈R that takes as inputs the predicted value z corresponding to the real data value y and outputs how different they are. The common loss functions are summed up in the table below:**
 
-&#10230;
+&#10230; Funkcja straty - Funkcja straty jest funkcją L:(z,y)∈R×Y⟼L(z,y)∈R która bierze za wejście predykowany wynik modelu oraz odpowiadający mu wynik rzeczywisty y i wyraża jak różne są od siebie. Częśto stosowane funkcje straty przedstawione są w tabelce poniżej:
 
 <br>
 
 **13. [Least squared error, Logistic loss, Hinge loss, Cross-entropy]**
 
-&#10230;
+&#10230; [Błąd najmniejszych kwadratów, Strata logistyczny, Strata Hinge-a, Strata logarytmiczny (Cross-entropy)]
 
 <br>
 
 **14. [Linear regression, Logistic regression, SVM, Neural Network]**
 
-&#10230;
+&#10230; [Regresja liniowa, Regresja logistyczna, SVM, Sieć neuronowa]
 
 <br>
 

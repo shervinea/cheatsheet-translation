@@ -1,6 +1,7 @@
 **1. Deep Learning cheatsheet**
 
 &#10230; Derin Öğrenme El Kitabı
+
 <br>
 
 **2. Neural Networks**
@@ -89,19 +90,19 @@
 
 **16. Step 2: Perform forward propagation to obtain the corresponding loss.**
 
-&#10230; 2.Adım: Denk gelen kaybı elde etmek için, ileri yayılım gerçekleştirilir. 
+&#10230; 2. Adım: Denk gelen kaybı elde etmek için, ileri yayılım gerçekleştirilir. 
 
 <br>
 
 **17. Step 3: Backpropagate the loss to get the gradients.**
 
-&#10230; 3.Adım: Gradyanları elde etmek için kayba geri yayılım uygulanır.
+&#10230; 3. Adım: Gradyanları elde etmek için kayba geri yayılım uygulanır.
 
 <br>
 
 **18. Step 4: Use the gradients to update the weights of the network.**
 
-&#10230; 4.Adım: Ağın ağırlıklarını güncellemek için gradyanlar kullanılır.
+&#10230; 4. Adım: Ağın ağırlıklarını güncellemek için gradyanlar kullanılır.
 
 <br>
 
@@ -207,9 +208,9 @@
 
 <br>
 
-**36. γ∈[0,1] is the discount factor**
+**36. γ∈[0,1[ is the discount factor**
 
-&#10230; γ ∈ [0,1] azaltma unsurudur
+&#10230; γ ∈ [0,1[ azaltma unsurudur
 
 <br>
 

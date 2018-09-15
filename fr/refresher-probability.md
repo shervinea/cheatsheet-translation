@@ -210,43 +210,43 @@
 
 **36. Jointly Distributed Random Variables**
 
-&#10230;
+&#10230; Variables aléatoires conjointement distribuées
 
 <br>
 
 **37. Marginal density and cumulative distribution ― From the joint density probability function fXY , we have**
 
-&#10230;
+&#10230; Densité marginale et fonction de répartition ― A partir de la densité de probabilité fXY, on a :
 
 <br>
 
 **38. [Case, Marginal density, Cumulative function]**
 
-&#10230;
+&#10230; [Cas, Densité marginale, Fonction de répartition]
 
 <br>
 
 **39. Conditional density ― The conditional density of X with respect to Y, often noted fX|Y, is defined as follows:**
 
-&#10230;
+&#10230; Densité conditionnelle ― La densité conditionnelle de X par rapport à Y, souvent notée fX|Y, est définie de la manière suivante :
 
 <br>
 
 **40. Independence ― Two random variables X and Y are said to be independent if we have:**
 
-&#10230;
+&#10230; Indépendance ― Deux variables aléatoires X et Y sont dits indépendants si on a :
 
 <br>
 
 **41. Covariance ― We define the covariance of two random variables X and Y, that we note σ2XY or more commonly Cov(X,Y), as follows:**
 
-&#10230;
+&#10230; Covariance ― On définit la covariance de deux variables aléatoires X et Y, que l'on note σ2XY ou plus souvent Cov(X,Y), de la manière suivante :
 
 <br>
 
 **42. Correlation ― By noting σX,σY the standard deviations of X and Y, we define the correlation between the random variables X and Y, noted ρXY, as follows:**
 
-&#10230;
+&#10230; Corrélation ― En notant σX,σY les écart-types de X et Y, on définit la corrélation entre les variables aléatoires X et Y, que l'on note ρXY, de la manière suivante :
 
 <br>
 

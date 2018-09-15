@@ -1,6 +1,6 @@
 **1. Probabilities and Statistics refresher**
 
-&#10230; Rappel de probabilités et de statistiques
+&#10230; Rappels de probabilités et de statistiques
 
 <br>
 

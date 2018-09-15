@@ -78,31 +78,31 @@
 
 **14. Updating weights ― In a neural network, weights are updated as follows:**
 
-&#10230;
+&#10230; Настройка весов - В нейронной сети настройка весов происходит следующим образом:
 
 <br>
 
 **15. Step 1: Take a batch of training data.**
 
-&#10230;
+&#10230; 
 
 <br>
 
 **16. Step 2: Perform forward propagation to obtain the corresponding loss.**
 
-&#10230;
+&#10230; Шаг 2: Выполним прямой проход, чтобы получить соответсвующую ошибку.
 
 <br>
 
 **17. Step 3: Backpropagate the loss to get the gradients.**
 
-&#10230;
+&#10230; Шаг 3: Распространим ошибку обратно, чтобы получить градиенты.
 
 <br>
 
 **18. Step 4: Use the gradients to update the weights of the network.**
 
-&#10230;
+&#10230; Шаг 4: Используем градиенты, чтобы настроить веса сети.
 
 <br>
 
@@ -114,7 +114,7 @@
 
 **20. Convolutional Neural Networks**
 
-&#10230;
+&#10230; Сверточные нейронные сети
 
 <br>
 
@@ -138,7 +138,7 @@
 
 **24. Recurrent Neural Networks**
 
-&#10230;
+&#10230; Рекуррентные нейронные сети
 
 <br>
 

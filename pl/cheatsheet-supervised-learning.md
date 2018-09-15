@@ -156,13 +156,13 @@
 
 **27. LWR ― Locally Weighted Regression, also known as LWR, is a variant of linear regression that weights each training example in its cost function by w(i)(x), which is defined with parameter τ∈R as:**
 
-&#10230; LWR ― 
+&#10230; LWR ― XXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 <br>
 
 **28. Classification and logistic regression**
 
-&#10230;
+&#10230; Klasyfikacja i regresja logistyczna
 
 <br>
 

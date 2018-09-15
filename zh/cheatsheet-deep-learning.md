@@ -30,13 +30,13 @@
 
 6. **By noting i the ith layer of the network and j the jth hidden unit of the layer, we have:**
 
-&#10230; 已知***i***是网络的第*i*层，***j***是网络的第*j*层，我们有：
+&#10230; 已知***i***是网络的第i层，***j***是网络的第j层，我们有：
 
 <br>
 
 7. **where we note w, b, z the weight, bias and output respectively.**
 
-&#10230; 我们用***w***,***b***, ***z***分别表示权重，偏差和输出。
+&#10230; 我们用*w*, *b*, *z*分别表示权重，偏差和输出。
 
 <br>
 
@@ -54,73 +54,73 @@
 
 10. **Cross-entropy loss ― In the context of neural networks, the cross-entropy loss L(z,y) is commonly used and is defined as follows:**
 
-&#10230;
+&#10230; 交叉墒损失 —— 在神经网络中，交叉墒损失*L(z, y)*通常如下定义：
 
 <br>
 
 11. **Learning rate ― The learning rate, often noted α or sometimes η, indicates at which pace the weights get updated. This can be fixed or adaptively changed. The current most popular method is called Adam, which is a method that adapts the learning rate.**
 
-&#10230;
+&#10230; 学习率 —— 学习率，通常记为*α*或*η*，表示权重更新的速度。它可以被修复或自适应改变。现阶段最常用的方法是一种调整学习率的算法，叫做Adam。
 
 <br>
 
 12. **Backpropagation ― Backpropagation is a method to update the weights in the neural network by taking into account the actual output and the desired output. The derivative with respect to weight w is computed using chain rule and is of the following form:**
 
-&#10230;
+&#10230; 反向传播 —— 反向传播是一种通过考虑实际输出和期望输出来更新神经网络中权重的方法。权重*w*的导数由链式法则计算，模式如下：
 
 <br>
 
 13. **As a result, the weight is updated as follows:**
 
-&#10230;
+&#10230; 作为结果，权重更新如下：
 
 <br>
 
 14. **Updating weights ― In a neural network, weights are updated as follows:**
 
-&#10230;
+&#10230; 更新权重 —— 在一个神经网络中，权重如下所示更新：
 
 <br>
 
 15. **Step 1: Take a batch of training data.**
 
-&#10230;
+&#10230; 第一步：分出第一批次的训练数据。
 
 <br>
 
 16. **Step 2: Perform forward propagation to obtain the corresponding loss.**
 
-&#10230;
+&#10230; 第二步：通过前向传播来得到相关损失。
 
 <br>
 
 17. **Step 3: Backpropagate the loss to get the gradients.**
 
-&#10230;
+&#10230; 第三步：通过反向传播损失来得到梯度。
 
 <br>
 
 18. **Step 4: Use the gradients to update the weights of the network.**
 
-&#10230;
+&#10230; 第四步：利用梯度更新网络的权重。
 
 <br>
 
 19. **Dropout ― Dropout is a technique meant at preventing overfitting the training data by dropping out units in a neural network. In practice, neurons are either dropped with probability p or kept with probability 1−p**
 
-&#10230;
+&#10230; Dropout —— Dropout是一种通过丢弃神经网络单元来防止训练数据过拟合的技术。实际上，神经元以概率*p*被丢弃或以概率*1-p*被保留。
 
 <br>
 
 20. **Convolutional Neural Networks**
 
-&#10230;
+&#10230; 卷积神经网络
 
 <br>
 
 21. **Convolutional layer requirement ― By noting W the input volume size, F the size of the convolutional layer neurons, P the amount of zero padding, then the number of neurons N that fit in a given volume is such that:**
 
-&#10230;
+&#10230; 
 
 <br>
 

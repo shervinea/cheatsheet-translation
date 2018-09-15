@@ -96,7 +96,7 @@
 
 **17. Remark: Stochastic gradient descent (SGD) is updating the parameter based on each training example, and batch gradient descent is on a batch of training examples.**
 
-&#10230; Lembrete: O gradiente descendente estocástico (GDE) atualiza o parâmetro baseado em cada exemplo de treinamento e o gradiente descendente em lote em um conjunto de exemplos de treinamento.
+&#10230; Observação: O gradiente descendente estocástico (GDE) atualiza o parâmetro baseado em cada exemplo de treinamento e o gradiente descendente em lote em um conjunto de exemplos de treinamento.
 
 <br>
 
@@ -115,7 +115,7 @@ log-probabilidade (log-likelihood) ℓ(θ)=log(L(θ)) que é mais simples para s
 
 **20. Remark: the multidimensional generalization, also known as the Newton-Raphson method, has the following update rule:**
 
-&#10230; Lembrete: a generalização multidimensional, também conhecida como o método de Newton-Raphson, tem a seguinte regra de atualização:
+&#10230; Observação: a generalização multidimensional, também conhecida como o método de Newton-Raphson, tem a seguinte regra de atualização:
 
 <br>
 
@@ -151,7 +151,7 @@ log-probabilidade (log-likelihood) ℓ(θ)=log(L(θ)) que é mais simples para s
 
 **26. Remark: the update rule is a particular case of the gradient ascent.**
 
-&#10230; Lembrete: a regra de atualização é umc aso particular do gradiente ascendente.
+&#10230; Observação: a regra de atualização é umc aso particular do gradiente ascendente.
 
 <br>
 
@@ -181,7 +181,7 @@ log-probabilidade (log-likelihood) ℓ(θ)=log(L(θ)) que é mais simples para s
 
 **31. Remark: there is no closed form solution for the case of logistic regressions.**
 
-&#10230; Lembrete: não existe uma fórmula de solução fechada para o caso de regressão logística.
+&#10230; Observação: não existe uma fórmula de solução fechada para o caso de regressão logística.
 
 <br>
 
@@ -229,7 +229,7 @@ log-probabilidade (log-likelihood) ℓ(θ)=log(L(θ)) que é mais simples para s
 
 **39. Remark: ordinary least squares and logistic regression are special cases of generalized linear models.**
 
-&#10230; Lembrete: mínimos quadrados ordinários e regressão logística são casos especiais de modelos lineares generalizados.
+&#10230; Observação: mínimos quadrados ordinários e regressão logística são casos especiais de modelos lineares generalizados.
 
 <br>
 
@@ -271,7 +271,7 @@ log-probabilidade (log-likelihood) ℓ(θ)=log(L(θ)) que é mais simples para s
 
 **46. Remark: the line is defined as wTx−b=0.**
 
-&#10230; Lembrete: a linha é definida como wTx−b=0.
+&#10230; Observação: a linha é definida como wTx−b=0.
 
 <br>
 
@@ -301,7 +301,7 @@ log-probabilidade (log-likelihood) ℓ(θ)=log(L(θ)) que é mais simples para s
 
 **51. Remark: we say that we use the "kernel trick" to compute the cost function using the kernel because we actually don't need to know the explicit mapping ϕ, which is often very complicated. Instead, only the values K(x,z) are needed.**
 
-&#10230; Lembrete: é dito que é usado o "truque de kernel" (kernel trick) para calcular a função de custo usando o kernel porque na verdade não precisamos saber o mapeamento explítico de ϕ, que é muito complicado. Ao invés, apenas os valores K(x,z) são necessários.
+&#10230; Observação: é dito que é usado o "truque de kernel" (kernel trick) para calcular a função de custo usando o kernel porque na verdade não precisamos saber o mapeamento explítico de ϕ, que é muito complicado. Ao invés, apenas os valores K(x,z) são necessários.
 
 <br>
 
@@ -313,7 +313,7 @@ log-probabilidade (log-likelihood) ℓ(θ)=log(L(θ)) que é mais simples para s
 
 **53. Remark: the coefficients βi are called the Lagrange multipliers.**
 
-&#10230; Lembrete: os coeficientes βi são chamados de multiplicadores Lagrangeanos.
+&#10230; Observação: os coeficientes βi são chamados de multiplicadores Lagrangeanos.
 
 <br>
 

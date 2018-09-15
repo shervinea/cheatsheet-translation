@@ -66,67 +66,67 @@
 
 **12. Backpropagation ― Backpropagation is a method to update the weights in the neural network by taking into account the actual output and the desired output. The derivative with respect to weight w is computed using chain rule and is of the following form:**
 
-&#10230; Retropropagación - 
+&#10230; Retropropagación - La retropropagación es un método de actualización de los pesos en una red neuronal, tomando en cuenta la salida actual y la salida esperada. La derivada respecto al peso w es computada utilizando la regla de la cadena y se expresa de la siguiente forma:
 
 <br>
 
 **13. As a result, the weight is updated as follows:**
 
-&#10230;
+&#10230; Como resultado, el peso es actualizado de la siguiente forma:
 
 <br>
 
 **14. Updating weights ― In a neural network, weights are updated as follows:**
 
-&#10230;
+&#10230; Actualizando pesos - En una red neuronal, los pesos son actualizados de la siguiente forma:
 
 <br>
 
 **15. Step 1: Take a batch of training data.**
 
-&#10230;
+&#10230; Paso 1: Tomar un grupo de los datos de entrenamiento.
 
 <br>
 
 **16. Step 2: Perform forward propagation to obtain the corresponding loss.**
 
-&#10230;
+&#10230; Paso 2: Realizar prealimentación para obtener la pérdida correspondiente.
 
 <br>
 
 **17. Step 3: Backpropagate the loss to get the gradients.**
 
-&#10230;
+&#10230; Paso 3: Propagar retroactivamente la pérdida para obtener los gradientes.
 
 <br>
 
 **18. Step 4: Use the gradients to update the weights of the network.**
 
-&#10230;
+&#10230; Paso 4: Utiliza los gradientes para actualizar los pesos de la red.
 
 <br>
 
 **19. Dropout ― Dropout is a technique meant at preventing overfitting the training data by dropping out units in a neural network. In practice, neurons are either dropped with probability p or kept with probability 1−p**
 
-&#10230;
+&#10230;Abandono - El abandono es una técnica para prevenir el sobreajuste de los datos de aprendizaje descartando unidades en una red neuronal. En la práctica, las neuronas son abandonadas con una probabilidad de p o se mantienen con una probabilidad de 1-p.
 
 <br>
 
 **20. Convolutional Neural Networks**
 
-&#10230;
+&#10230; Redes neuronales convolucionales.
 
 <br>
 
 **21. Convolutional layer requirement ― By noting W the input volume size, F the size of the convolutional layer neurons, P the amount of zero padding, then the number of neurons N that fit in a given volume is such that:**
 
-&#10230;
+&#10230; Requerimiento de la capa convolucional. Notando que W es el volumen de la entrada, F el tamaño de las neuronas de la capa convolucional, P la cantidad de relleno con ceros, entonces el número de neuronas N que entran en dado volumen es tal que:
 
 <br>
 
 **22. Batch normalization ― It is a step of hyperparameter γ,β that normalizes the batch {xi}. By noting μB,σ2B the mean and variance of that we want to correct to the batch, it is done as follows:**
 
-&#10230;
+&#10230; Normalización de grupo - Es 
 
 <br>
 

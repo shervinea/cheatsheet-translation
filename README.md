@@ -37,7 +37,7 @@ If your favorite language is missing, please feel free to add it!
 
 5. Submit a [pull request](https://help.github.com/articles/creating-a-pull-request/) and call it `[code of language name] Topic name`. For example, a translation in Spanish of the deep learning cheatsheet will be called `[es] Deep learning`.
 
-Submissions will have to be reviewed by a fellow native speaker before being accepted.
+Please first check for [existing pull requests](https://github.com/shervinea/cheatsheet-translation/pulls). Submissions will have to be reviewed by a fellow native speaker before being accepted.
 
 ## Acknowledgements
 Thank you everyone for your help! Please do not forget to add your name to the `CONTRIBUTORS` file so that we can give you proper credit in the cheatsheets' [official website](https://stanford.edu/~shervine/teaching/cs-229.html).

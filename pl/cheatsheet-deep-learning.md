@@ -226,7 +226,7 @@
 
 <br>
 
-**39. Remark: we say that we execute a given policy π if given a state a we take the action a=π(s).**
+**39. Remark: we say that we execute a given policy π if given a state s we take the action a=π(s).**
 
 &#10230; Przypomnienie: mówimy, że wykonujemy daną strategię π w danym stanie s, gdy wykonujemy działanie a=π(s).
 

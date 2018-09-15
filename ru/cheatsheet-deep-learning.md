@@ -180,37 +180,37 @@
 
 **31. Definitions**
 
-&#10230;
+&#10230; Определения
 
 <br>
 
 **32. Markov decision processes ― A Markov decision process (MDP) is a 5-tuple (S,A,{Psa},γ,R) where:**
 
-&#10230;
+&#10230; Марковский процесс принятия решений - Марковский процесс принятия решений (MDP) - это кортеж из 5 составляющих (S,A,{Psa},γ,R), где:
 
 <br>
 
 **33. S is the set of states**
 
-&#10230;
+&#10230; S - множество всех состояний
 
 <br>
 
 **34. A is the set of actions**
 
-&#10230;
+&#10230; A - множество всех действий
 
 <br>
 
 **35. {Psa} are the state transition probabilities for s∈S and a∈A**
 
-&#10230;
+&#10230; {Psa} - вероятности переходов для состояний и дейстквий, где s∈S и a∈A
 
 <br>
 
 **36. γ∈[0,1[ is the discount factor**
 
-&#10230;
+&#10230; γ∈[0,1) - коэффициент дисконтирования
 
 <br>
 
@@ -222,7 +222,7 @@
 
 **38. Policy ― A policy π is a function π:S⟶A that maps states to actions.**
 
-&#10230;
+&#10230; Стратегия - Стратегия π - это фукнция π:S⟶A, сопоставляющая множество состояний множеству действий.
 
 <br>
 

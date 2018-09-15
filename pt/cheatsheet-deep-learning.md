@@ -1,6 +1,6 @@
 **1. Deep Learning cheatsheet**
 
-&#10230; Resumo de Aprendizagem Profunda
+&#10230; Dicas de Aprendizagem Profunda
 
 <br>
 
@@ -30,13 +30,13 @@
 
 **6. By noting i the ith layer of the network and j the jth hidden unit of the layer, we have:**
 
-&#10230; Note que i é a i-ésima camada da rede e j a j-ésima unidade escondida da camada, nós temos:
+&#10230; Datdo que i é a i-ésima camada da rede e j a j-ésima unidade escondida da camada, nós temos:
 
 <br>
 
 **7. where we note w, b, z the weight, bias and output respectively.**
 
-&#10230; onde notamos w, b, z, o peso, o viés e a saída respectivamente. 
+&#10230; onde é definido que w, b, z, o peso, o viés e a saída respectivamente. 
 
 <br>
 
@@ -60,7 +60,7 @@
 
 **11. Learning rate ― The learning rate, often noted α or sometimes η, indicates at which pace the weights get updated. This can be fixed or adaptively changed. The current most popular method is called Adam, which is a method that adapts the learning rate.**
 
-&#10230; Taxa de apredizado - A taxa de aprendizado, frequentemente notada por α ou às vezes η, indica a que ritmo os pesos são atualizados. Isso pode ser fixado ou alterado de modo adaptativo. O método atual mais popular é chamado Adam, o qual é um método que adapta a taxa de apredizado.
+&#10230; Taxa de apredizado - A taxa de aprendizado, frequentemente indicada por α ou às vezes η, indica a que ritmo os pesos são atualizados. Isso pode ser fixado ou alterado de modo adaptativo. O método atual mais popular é chamado Adam, o qual é um método que adapta a taxa de apredizado.
 
 <br>
 
@@ -84,7 +84,7 @@
 
 **15. Step 1: Take a batch of training data.**
 
-&#10230; Passo 1: Pegue um lote de dados de treinamento.
+&#10230; Passo 1: Pegue um conjunto de dados de treinamento.
 
 <br>
 
@@ -108,7 +108,7 @@
 
 **19. Dropout ― Dropout is a technique meant at preventing overfitting the training data by dropping out units in a neural network. In practice, neurons are either dropped with probability p or kept with probability 1−p**
 
-&#10230; Abandono - Abandono é uma técnica que pretende prevenir o sobreajuste dos dados de treinamente abandonando unidades na rede neural. Na prática, neurônios são ou abandonados com a propabilidade p ou mantidos com a propabilidade 1-p
+&#10230; Abandono (Dropout) - Abandono (Dropout) é uma técnica que pretende prevenir o sobreajuste dos dados de treinamente abandonando unidades na rede neural. Na prática, neurônios são ou abandonados com a propabilidade p ou mantidos com a propabilidade 1-p
 
 <br>
 
@@ -120,13 +120,13 @@
 
 **21. Convolutional layer requirement ― By noting W the input volume size, F the size of the convolutional layer neurons, P the amount of zero padding, then the number of neurons N that fit in a given volume is such that:**
 
-&#10230; Requisito de camada convolucional - Note que W é o tamanho do volume de entrada, F o tamanho dos neurônios da camada convolucional, P a quantidade de preenchimento de zeros, então o número de neurônios N que cabem em um dado volume é tal que:
+&#10230; Requisito de camada convolucional - Dado que W é o tamanho do volume de entrada, F o tamanho dos neurônios da camada convolucional, P a quantidade de preenchimento de zeros, então o número de neurônios N que cabem em um dado volume é tal que:
 
 <br>
 
 **22. Batch normalization ― It is a step of hyperparameter γ,β that normalizes the batch {xi}. By noting μB,σ2B the mean and variance of that we want to correct to the batch, it is done as follows:**
 
-&#10230; Normalização em lote - É uma etapa de hiperparâmetro γ,β que normaliza o lote {xi}. Note que μB,σ2B são a média e a variância daquilo que queremos conectar ao lote, isso é feito como se segue:
+&#10230; Normalização em lote - É uma etapa de hiperparâmetro γ,β que normaliza o lote {xi}. Dado que μB,σ2B são a média e a variância daquilo que queremos conectar ao lote, isso é feito como se segue:
 
 <br>
 
@@ -144,7 +144,7 @@
 
 **25. Types of gates ― Here are the different types of gates that we encounter in a typical recurrent neural network:**
 
-&#10230; Tipos de portas - Aqui estão os diferentes tipos de portas que encontramos em uma rede neural recorrente típica:
+&#10230; Tipos de portas (gates) - Aqui estão os diferentes tipos de portas (gates) que encontramos em uma rede neural recorrente típica:
 
 <br>
 
@@ -246,7 +246,7 @@
 
 **42. Remark: we note that the optimal policy π∗ for a given state s is such that:**
 
-&#10230; Observação: notamos que a ótima diretriz π∗ para um dado estado s é tal que: 
+&#10230; Observação: definimos que a ótima diretriz π∗ para um dado estado s é tal que: 
 
 <br>
 

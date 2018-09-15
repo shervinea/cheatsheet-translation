@@ -145,43 +145,43 @@ log-probabilidade (log-likelihood) ℓ(θ)=log(L(θ)) que é mais simples para s
 
 **25. LMS algorithm ― By noting α the learning rate, the update rule of the Least Mean Squares (LMS) algorithm for a training set of m data points, which is also known as the Widrow-Hoff learning rule, is as follows:**
 
-&#10230;
+&#10230; Algoritimo LMS - Definindo α como a taxa de aprendizado, a regra de atualização do algoritmo de Média de Mínimos Quadrados para um conjunto de treinamento de m pontos, também conhecida como a regra de atualização de Widrow-Hoff, é dada por:
 
 <br>
 
 **26. Remark: the update rule is a particular case of the gradient ascent.**
 
-&#10230;
+&#10230; Lembrete: a regra de atualização é umc aso particular do gradiente ascendente.
 
 <br>
 
 **27. LWR ― Locally Weighted Regression, also known as LWR, is a variant of linear regression that weights each training example in its cost function by w(i)(x), which is defined with parameter τ∈R as:**
 
-&#10230;
+&#10230; LWR - Regressão Ponderada Localmente (Locally Weighted Regression), também conhecida como LWR, é uma variação da regressão linear que sempre pondera cada exemplo de treinamento em sua função de custo por w(i)(x), que é definida com o parâmetro τ∈R como:
 
 <br>
 
 **28. Classification and logistic regression**
 
-&#10230;
+&#10230; Classificação e regressão logística
 
 <br>
 
 **29. Sigmoid function ― The sigmoid function g, also known as the logistic function, is defined as follows:**
 
-&#10230;
+&#10230; Função sigmóide - A função sigmóide g, também conhecida como função logística, é definida como:
 
 <br>
 
 **30. Logistic regression ― We assume here that y|x;θ∼Bernoulli(ϕ). We have the following form:**
 
-&#10230;
+&#10230; Regressão logística - Se assume que y|x;θ∼Bernoulli(ϕ). Tem-se a seguinte fórmula:
 
 <br>
 
 **31. Remark: there is no closed form solution for the case of logistic regressions.**
 
-&#10230;
+&#10230; Lembrete: não existe uma fórmula de solução fechada para o caso de regressão logística.
 
 <br>
 

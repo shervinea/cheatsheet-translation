@@ -84,79 +84,79 @@
 
 **15. Cost function ― The cost function J is commonly used to assess the performance of a model, and is defined with the loss function L as follows:**
 
-&#10230;
+&#10230; Funkcja kosztu - Funkcja kosztu J jest często używana w celu określenia efektywności modelu, definiuje sie ją za pomocą funkcji straty L w następujący sposób:
 
 <br>
 
 **16. Gradient descent ― By noting α∈R the learning rate, the update rule for gradient descent is expressed with the learning rate and the cost function J as follows:**
 
-&#10230;
+&#10230; Schodzenie gradientu (Gradient descent) ― Przyjmując, że współczynnik uczenia to α∈R, zasadę aktualizacji przy schodzeniu gradientu można wyrazić za pomocą współczynnika uczenia i funkcji kosztu J w następujący sposób:
 
 <br>
 
 **17. Remark: Stochastic gradient descent (SGD) is updating the parameter based on each training example, and batch gradient descent is on a batch of training examples.**
 
-&#10230;
+&#10230; Przypomnienie: Stochastyczne schodzenie gradientu (Stochastic Gradient Descent, SGD) aktualizuje współczynniki funkcji (wagi) w oparciu o każdy przykład z danych treningowych z osobna, a pakietowe schodzenie gradientu (batch gradient descent) aktualizuje je na podstawie całego pakietu (podzbioru) przykładów z danych treningowych.
 
 <br>
 
 **18. Likelihood ― The likelihood of a model L(θ) given parameters θ is used to find the optimal parameters θ through maximizing the likelihood. In practice, we use the log-likelihood ℓ(θ)=log(L(θ)) which is easier to optimize. We have:**
 
-&#10230;
+&#10230; Prawdopodobieństwo ― Prawdopodobieństwo modelu L(θ) przy parametrze θ jest wykorzystywane do znalezienia optymalnego parametru θ, maksymalizującego prawdopodobieństwo. W praktyce, używamy prawdopodobieństwa logarytmicznego ℓ(θ)=log(L(θ)) które łatwiej zoptymalizować. Mamy więc:
 
 <br>
 
 **19. Newton's algorithm ― The Newton's algorithm is a numerical method that finds θ such that ℓ′(θ)=0. Its update rule is as follows:**
 
-&#10230;
+&#10230; Algorytm Newtona ― Algorytm Newtona to numeryczna metoda znalezienia takiego parametru θ, dla którego ℓ′(θ)=0. Zasada jego aktualizacji:
 
 <br>
 
 **20. Remark: the multidimensional generalization, also known as the Newton-Raphson method, has the following update rule:**
 
-&#10230;
+&#10230; Przypomnienie: wielowymiarowa generalizacja, znana także jako metoda Newtona-Raphsona, ma następującą zasadę aktualizacji:
 
 <br>
 
 **21. Linear models**
 
-&#10230;
+&#10230; Modele liniowy
 
 <br>
 
 **22. Linear regression**
 
-&#10230;
+&#10230; Regresja liniowa
 
 <br>
 
 **23. We assume here that y|x;θ∼N(μ,σ2)**
 
-&#10230;
+&#10230; Zakładając że y|x;θ∼N(μ,σ2)
 
 <br>
 
 **24. Normal equations ― By noting X the matrix design, the value of θ that minimizes the cost function is a closed-form solution such that:**
 
-&#10230;
+&#10230; Równania normalnej - Przyjmując za X macierz, wartość θ minimalizująca funkcje kosztu ma zamknięte rozwiązanie:
 
 <br>
 
 **25. LMS algorithm ― By noting α the learning rate, the update rule of the Least Mean Squares (LMS) algorithm for a training set of m data points, which is also known as the Widrow-Hoff learning rule, is as follows:**
 
-&#10230;
+&#10230; Algorytm aproksymacji średniokwadratowej - Przyjmując, że α to współczynnik uczenia, zasada aktualizacji aproksymacji średniokwadratowej (Least Mean Square, LMS) z wykorzystaniem m przykładów z danych treningowych (zwana także algorytmem Widrow-Hoffa) wygląda następująco:
 
 <br>
 
 **26. Remark: the update rule is a particular case of the gradient ascent.**
 
-&#10230;
+&#10230; Przypomnienie: zasada aktualizacji to szczególny przypadek wchodzenia gradientu.
 
 <br>
 
 **27. LWR ― Locally Weighted Regression, also known as LWR, is a variant of linear regression that weights each training example in its cost function by w(i)(x), which is defined with parameter τ∈R as:**
 
-&#10230;
+&#10230; LWR ― 
 
 <br>
 

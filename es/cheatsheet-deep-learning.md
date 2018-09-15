@@ -288,4 +288,4 @@
 
 **49. Q-learning ― Q-learning is a model-free estimation of Q, which is done as follows:**
 
-&#10230; Q-learning - Q-learning es una estimación libre de modelo
+&#10230; Q-learning - Q-learning es una estimación libre de modelo de Q, que se realiza de la siguiente forma:

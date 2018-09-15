@@ -7,7 +7,7 @@ This repository aims at collaboratively translating our [Machine Learning cheats
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Deep learning|0%|0%|0%|**100%**|0%|0%|0%|
 |Supervised learning|0%|0%|0%|0%|0%|0%|1%|
-|Unsupervised learning|0%|0%|0%|0%|0%|0%|0%|
+|Unsupervised learning|0%|0%|0%|**100%**|0%|0%|0%|
 |ML tips and tricks|0%|0%|0%|**100%**|0%|0%|0%|
 |Probabilities and Statistics|0%|0%|0%|**100%**|0%|0%|0%|
 |Linear algebra|0%|0%|0%|**100%**|0%|0%|0%|

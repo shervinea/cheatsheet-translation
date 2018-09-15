@@ -54,7 +54,7 @@
 
 **10. Cross-entropy loss ― In the context of neural networks, the cross-entropy loss L(z,y) is commonly used and is defined as follows:**
 
-&#10230; Koszt logarytmiczny (Cross-entropy loss) ― W kontekście sieci neuronowych koszt logarytmiczny L(z,y) jest często stosowany i wygląda następująco:
+&#10230; Strata logarytmiczna (Cross-entropy loss) ― W kontekście sieci neuronowych strata logarytmiczna L(z,y) jest często stosowany i wygląda następująco:
 
 <br>
 
@@ -90,13 +90,13 @@
 
 **16. Step 2: Perform forward propagation to obtain the corresponding loss.**
 
-&#10230; Krok 2: dokonaj propagacji do przodu aby uzyskać wartość kosztu.
+&#10230; Krok 2: dokonaj propagacji do przodu aby uzyskać wartość straty.
 
 <br>
 
 **17. Step 3: Backpropagate the loss to get the gradients.**
 
-&#10230; Step 3: Z wykorzystaniem propagacji wstecznej użyj koszt aby uzyskać gradient.
+&#10230; Step 3: Z wykorzystaniem propagacji wstecznej użyj straty aby uzyskać gradient.
 
 <br>
 

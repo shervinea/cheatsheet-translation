@@ -1,132 +1,132 @@
 **1. Linear Algebra and Calculus refresher**
 
-&#10230;
+&#10230; Revisão de Cálculo e Álgebra Linear
 
 <br>
 
 **2. General notations**
 
-&#10230;
+&#10230; Notações gerais
 
 <br>
 
 **3. Definitions**
 
-&#10230;
+&#10230; Definições
 
 <br>
 
 **4. Vector ― We note x∈Rn a vector with n entries, where xi∈R is the ith entry:**
 
-&#10230;
+&#10230; Vetor - Indicamos por x∈Rn um vetor com n elementos, onde xi∈R é o i-ésimo elemento:
 
 <br>
 
 **5. Matrix ― We note A∈Rm×n a matrix with m rows and n columns, where Ai,j∈R is the entry located in the ith row and jth column:**
 
-&#10230;
+&#10230; Matriz - Indicamos por A∈Rm×n uma matriz com m linhas e n colunas, onde Ai,j∈R é o elementos localizado na i-ésima linha e j-ésima coluna:
 
 <br>
 
 **6. Remark: the vector x defined above can be viewed as a n×1 matrix and is more particularly called a column-vector.**
 
-&#10230;
+&#10230; Observação: o vetor x defindo acima pode ser visto como uma matriz nx1 e é mais particularmente chamado de vetor coluna. 
 
 <br>
 
 **7. Main matrices**
 
-&#10230;
+&#10230; Matrizes principais
 
 <br>
 
 **8. Identity matrix ― The identity matrix I∈Rn×n is a square matrix with ones in its diagonal and zero everywhere else:**
 
-&#10230;
+&#10230; Matriz identidade - A matriz identidade é uma matriz quadrada com uns na sua diagonal e zeros nas demais posições:
 
 <br>
 
 **9. Remark: for all matrices A∈Rn×n, we have A×I=I×A=A.**
 
-&#10230;
+&#10230; Observação: para todas as matrizes A∈Rn×n, nós temos A×I=I×A=A.
 
 <br>
 
 **10. Diagonal matrix ― A diagonal matrix D∈Rn×n is a square matrix with nonzero values in its diagonal and zero everywhere else:**
 
-&#10230;
+&#10230; Matriz diagonal - Uma matriz diagonal D∈Rn×n é uma matriz quadrada com valores não nulos na sua diagonal e zeros nas demais posições:
 
 <br>
 
 **11. Remark: we also note D as diag(d1,...,dn).**
 
-&#10230;
+&#10230; Observação: nós também indicasmos D como diag(d1,...,dn).
 
 <br>
 
 **12. Matrix operations**
 
-&#10230;
+&#10230; Operações de matriz
 
 <br>
 
 **13. Multiplication**
 
-&#10230;
+&#10230; Multiplicação
 
 <br>
 
 **14. Vector-vector ― There are two types of vector-vector products:**
 
-&#10230;
+&#10230; Vetor-vetor - Há dois tipos de produtos vetoriais:
 
 <br>
 
 **15. inner product: for x,y∈Rn, we have:**
 
-&#10230;
+&#10230; produto interno: para x,y∈Rn, temos:
 
 <br>
 
 **16. outer product: for x∈Rm,y∈Rn, we have:**
 
-&#10230;
+&#10230; produto tensorial: para x∈Rm,y∈Rn, temos:
 
 <br>
 
 **17. Matrix-vector ― The product of matrix A∈Rm×n and vector x∈Rn is a vector of size Rn, such that:**
 
-&#10230;
+&#10230; Matriz-vetor - O produto de uma matriz A∈Rm×n e um vetor x∈Rn é um vetor de tamanho Rn, tal que:
 
-<br>
+<br> 
 
 **18. where aTr,i are the vector rows and ac,j are the vector columns of A, and xi are the entries of x.**
 
-&#10230;
+&#10230; onde aTr,i são vetores linhas e ac,j vetores colunas de A, e xi são os elementos de x.
 
 <br>
 
 **19. Matrix-matrix ― The product of matrices A∈Rm×n and B∈Rn×p is a matrix of size Rn×p, such that:**
 
-&#10230;
+&#10230; Matriz-matriz - O produto das matrizes A∈Rm×n e B∈Rn×p é uma matriz de tamanho Rn×p, tal que:
 
 <br>
 
 **20. where aTr,i,bTr,i are the vector rows and ac,j,bc,j are the vector columns of A and B respectively**
 
-&#10230;
+&#10230; onde aTr,i,bTr,i são vetores linhas e ac,j,bc,j vetores colunas de A e B respectivamente
 
 <br>
 
 **21. Other operations**
 
-&#10230;
+&#10230; Outras operações
 
 <br>
 
 **22. Transpose ― The transpose of a matrix A∈Rm×n, noted AT, is such that its entries are flipped:**
 
-&#10230;
+&#10230; Transposta - A transposta de uma matriz A∈Rm×n, indicada por AT, é tal que suas linhas são trocadas por suas colunas: 
 
 <br>
 

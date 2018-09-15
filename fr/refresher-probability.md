@@ -12,73 +12,73 @@
 
 **3. Sample space ― The set of all possible outcomes of an experiment is known as the sample space of the experiment and is denoted by S.**
 
-&#10230;
+&#10230; Univers de probabilités ― L'ensemble de toutes les issues possibles d'une expérience aléatoire est appelé l'univers de probabilités d'une expérience aléatoire et est noté S.
 
 <br>
 
 **4. Event ― Any subset E of the sample space is known as an event. That is, an event is a set consisting of possible outcomes of the experiment. If the outcome of the experiment is contained in E, then we say that E has occurred.**
 
-&#10230;
+&#10230; Évènement ― Toute partie E d'un univers est appelé un évènement. Ainsi, un évènement est un ensemble d'issues possibles d'une expérience aléatoire. Si l'issue de l'expérience aléatoire est contenue dans E, alors on dit que E s'est produit.
 
 <br>
 
 **5. Axioms of probability For each event E, we denote P(E) as the probability of event E occuring.**
 
-&#10230;
+&#10230; Axiomes de probabilités. Pour chaque évènement E, on note P(E) la probabilité que l'évènement E se produise.
 
 <br>
 
 **6. Axiom 1 ― Every probability is between 0 and 1 included, i.e:**
 
-&#10230;
+&#10230; Axiome 1 ― Toute probabilité est comprise entre 0 et 1 inclus, i.e.
 
 <br>
 
 **7. Axiom 2 ― The probability that at least one of the elementary events in the entire sample space will occur is 1, i.e:**
 
-&#10230;
+&#10230; Axiome 2 ― La probabilité qu'au moins un des évènements élementaires de tout l'univers se produise est 1, i.e. 
 
 <br>
 
 **8. Axiom 3 ― For any sequence of mutually exclusive events E1,...,En, we have:**
 
-&#10230;
+&#10230; Axiome 3 ― Pour toute séquence d'évènements mutuellement exclusifs E1, ..., En, on a :
 
 <br>
 
 **9. Permutation ― A permutation is an arrangement of r objects from a pool of n objects, in a given order. The number of such arrangements is given by P(n,r), defined as:**
 
-&#10230;
+&#10230; Permutation ― Une permutation est un arrangement de r objets parmi n objets, dans un ordre donné. Le nombre de tels arrangements est donné par P(n,r), défini par :
 
 <br>
 
 **10. Combination ― A combination is an arrangement of r objects from a pool of n objects, where the order does not matter. The number of such arrangements is given by C(n,r), defined as:**
 
-&#10230;
+&#10230; Combinaison ― Une combinaison est un arrangement de r objets parmi n objets, où l'ordre ne compte pas. Le nombre de tels arrangements est donné par C(n,r), défini par : 
 
 <br>
 
 **11. Remark: we note that for 0⩽r⩽n, we have P(n,r)⩾C(n,r)**
 
-&#10230;
+&#10230; Remarque : on note que pour 0⩽r⩽n, on a P(n,r)⩾C(n,r)
 
 <br>
 
 **12. Conditional Probability**
 
-&#10230;
+&#10230; Probabilité conditionnelle 
 
 <br>
 
 **13. Bayes' rule ― For events A and B such that P(B)>0, we have:**
 
-&#10230;
+&#10230; Théorème de Bayes ― Pour des évènements A et B tel que P(B)>0, on a :
 
 <br>
 
 **14. Remark: we have P(A∩B)=P(A)P(B|A)=P(A|B)P(B)**
 
-&#10230;
+&#10230; Remarque : on a P(A∩B)=P(A)P(B|A)=P(A|B)P(B)
 
 <br>
 

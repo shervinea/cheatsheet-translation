@@ -1,96 +1,96 @@
 **1. Unsupervised Learning cheatsheet**
 
-&#10230;
+&#10230; Aprendizaje no Supervisado
 
 <br>
 
 **2. Introduction to Unsupervised Learning**
 
-&#10230;
+&#10230; Introducción al Aprendizaje no Supervisado
 
 <br>
 
 **3. Motivation ― The goal of unsupervised learning is to find hidden patterns in unlabeled data {x(1),...,x(m)}.**
 
-&#10230;
+&#10230; Motivación - El objetivo del aprendizaje no supervisado es encontrar patrones ocultos en datos no etiquetados {x(1),...,x(m)}.
 
 <br>
 
 **4. Jensen's inequality ― Let f be a convex function and X a random variable. We have the following inequality:**
 
-&#10230;
+&#10230; Desigualdad de Jensen - Sea f una función convexa y X una variable aleatoria. Tenemos la siguiente desigualdad:
 
 <br>
 
 **5. Clustering**
 
-&#10230;
+&#10230; Clusterización (Agrupamiento)
 
 <br>
 
 **6. Expectation-Maximization**
 
-&#10230;
+&#10230; Expectativa-Maximización
 
 <br>
 
 **7. Latent variables ― Latent variables are hidden/unobserved variables that make estimation problems difficult, and are often denoted z. Here are the most common settings where there are latent variables:**
 
-&#10230;
+&#10230; Variables Latentes - Las variables latentes son variables ocultas / no observadas que dificultan los problemas de estimación y a menudo son denotadas como z. Estos son los ajustes más comunes más comunes en los que hay variables latentes:
 
 <br>
 
 **8. [Setting, Latent variable z, Comments]**
 
-&#10230;
+&#10230; [Ajustes, Variable latente z, Comentarios]
 
 <br>
 
 **9. [Mixture of k Gaussians, Factor analysis]**
 
-&#10230;
+&#10230; [Mezcla de k Gaussianos, Análisis factorial]
 
 <br>
 
 **10. Algorithm ― The Expectation-Maximization (EM) algorithm gives an efficient method at estimating the parameter θ through maximum likelihood estimation by repeatedly constructing a lower-bound on the likelihood (E-step) and optimizing that lower bound (M-step) as follows:**
 
-&#10230;
+&#10230; Algorimo - El algoritmo Expectativa-Maximización (EM) proporciona un método eficiente para estimar el parámetro θ a través de la estimación de máxima probabilidad construyendo repetidamente un límite inferior en la probabilidad (E-step) y optimizando ese límite inferior (M-step) de la siguiente manera:
 
 <br>
 
 **11. E-step: Evaluate the posterior probability Qi(z(i)) that each data point x(i) came from a particular cluster z(i) as follows:**
 
-&#10230;
+&#10230; Paso E: Evalúa la probabilidad posterior Qi(z(i)) de que cada punto de datos x(i) provenga de un determinado clúster z(i) de la siguiente manera:
 
 <br>
 
 **12. M-step: Use the posterior probabilities Qi(z(i)) as cluster specific weights on data points x(i) to separately re-estimate each cluster model as follows:**
 
-&#10230;
+&#10230; M-step: Usa las probabilidades posteriores Qi(z(i)) como pesos específicos del clúster en los puntos de datos x(i) para re-estimar por separado cada modelo de clúster de la siguiente manera:
 
 <br>
 
 **13. [Gaussians initialization, Expectation step, Maximization step, Convergence]**
 
-&#10230;
+&#10230; [Inicialización Gaussiana, Etapa de Expectativa, Etapa de Maximización, Convergencia]
 
 <br>
 
 **14. k-means clustering**
 
-&#10230;
+&#10230; Agrupamiento k-means
 
 <br>
 
 **15. We note c(i) the cluster of data point i and μj the center of cluster j.**
 
-&#10230;
+&#10230; Denotamos c(i) el clúster de datos al punto i, y μj el centro del clúster j.
 
 <br>
 
 **16. Algorithm ― After randomly initializing the cluster centroids μ1,μ2,...,μk∈Rn, the k-means algorithm repeats the following step until convergence:**
 
-&#10230;
+&#10230; Algoritmo - Después de haber iniciado aleatoriamente los centroides del clúster μ1,μ2,...,μk∈Rn, el algorimo k-means repite el siguiente paso hasta la convergencia:
 
 <br>
 

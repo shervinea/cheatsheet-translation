@@ -12,7 +12,7 @@
 
 **3. Neural networks are a class of models that are built with layers. Commonly used types of neural networks include convolutional and recurrent neural networks.**
 
-&#10230; Les réseaux de neurones sont une classe de modèles qui sont construits à l'aide de couches de neurones. Les réseaux de neurones convolutionnels ainsi que les réseaux de neurones récurrents font parti des principaux types de réseaux de neurones.
+&#10230; Les réseaux de neurones (en anglais *neural networks*) sont une classe de modèles qui sont construits à l'aide de couches de neurones. Les réseaux de neurones convolutionnels (en anglais *convolutional neural networks*) ainsi que les réseaux de neurones récurrents (en anglais *recurrent neural networks*) font parti des principaux types de réseaux de neurones.
 
 <br>
 
@@ -36,13 +36,13 @@
 
 **7. where we note w, b, z the weight, bias and output respectively.**
 
-&#10230; où l'on note w, b, z le coefficient, biais et la sortie respectivement.
+&#10230; où l'on note w, b, z le coefficient, le biais ainsi que la variable sortie respectivement.
 
 <br>
 
 **8. Activation function ― Activation functions are used at the end of a hidden unit to introduce non-linear complexities to the model. Here are the most common ones:**
 
-&#10230; Les fonctions d'activation sont utilisées à la fin d'une unité de couche cachée pour introduire des complexités non-linéaires au modèle. Voici les plus fréquentes :
+&#10230; Les fonctions d'activation sont utilisées à la fin d'une unité de couche cachée pour introduire des complexités non linéaires au modèle. En voici les plus fréquentes :
 
 <br>
 
@@ -60,13 +60,13 @@
 
 **11. Learning rate ― The learning rate, often noted α or sometimes η, indicates at which pace the weights get updated. This can be fixed or adaptively changed. The current most popular method is called Adam, which is a method that adapts the learning rate.**
 
-&#10230; Taux d'apprentissage ― Le taux d'apprentissage, souvent noté α ou parfois η, indique à quelle vitesse les coefficients se font actualiser, qui peut être une quantité fixe ou variable. L'une des méthodes les plus populaires actuelles est Adam, qui a un taux d'apprentissage adaptatif.
+&#10230; Taux d'apprentissage ― Le taux d'apprentissage (appelé en anglais *learning rate*), souvent noté α ou parfois η, indique la vitesse à laquelle les coefficients évoluent. Cette quantité peut être fixe ou variable. L'une des méthodes les plus populaires à l'heure actuelle s'appelle Adam, qui a un taux d'apprentissage qui s'adapte au file du temps.
 
 <br>
 
 **12. Backpropagation ― Backpropagation is a method to update the weights in the neural network by taking into account the actual output and the desired output. The derivative with respect to weight w is computed using chain rule and is of the following form:**
 
-&#10230; Rétropropagation du gradient ― La rétropropagation du gradient est une méthode destinée à actualiser les coefficients d'un réseau de neurones en prenant en compte la sortie obtenue et la sortie désirée. La dérivée par rapport au coefficient w est calculée à l'aide de la règle de la dérivation de la chaîne et est de la forme suivante :
+&#10230; Rétropropagation du gradient ― La rétropropagation du gradient (en anglais *backpropagation*) est une méthode destinée à mettre à jour les coefficients d'un réseau de neurones en comparant la sortie obtenue et la sortie désirée. La dérivée par rapport au coefficient w est calculée à l'aide du théorème de dérivation des fonctions composées, et s'écrit de la manière suivante :
 
 <br>
 
@@ -108,49 +108,49 @@
 
 **19. Dropout ― Dropout is a technique meant at preventing overfitting the training data by dropping out units in a neural network. In practice, neurons are either dropped with probability p or kept with probability 1−p**
 
-&#10230; Dropout ― Le dropout est une technique qui est destinée à empêcher à overfitter le training data en abandonnant des unités dans un réseau de neurones. En pratique, les neurones sont soit abandonnés avec une probabilité p ou gardés avec une probabilité 1-p 
+&#10230; Dropout ― Le dropout est une technique qui est destinée à empêcher le sur-ajustement sur les données de training en abandonnant des unités dans un réseau de neurones. En pratique, les neurones sont soit abandonnés avec une probabilité p ou gardés avec une probabilité 1-p 
 
 <br>
 
 **20. Convolutional Neural Networks**
 
-&#10230; Convolutional Neural Networks
+&#10230; Réseaux de neurones convolutionels (en anglais *Convolutional Neural Networks*, *CNN*)
 
 <br>
 
 **21. Convolutional layer requirement ― By noting W the input volume size, F the size of the convolutional layer neurons, P the amount of zero padding, then the number of neurons N that fit in a given volume is such that:**
 
-&#10230; Pré-requis de la couche convolutionelle ― Si on note W la taille du volume d'entrée, F la taille de la couche de neurones convolutionelle, P la quantité de zero padding, alors le nombre de neurones N qui tient dans un volume donné est tel que :
+&#10230; Pré-requis de la couche convolutionelle ― Si l'on note W la taille du volume d'entrée, F la taille de la couche de neurones convolutionelle, P la quantité de zero padding, alors le nombre de neurones N qui tient dans un volume donné est tel que :
 
 <br>
 
 **22. Batch normalization ― It is a step of hyperparameter γ,β that normalizes the batch {xi}. By noting μB,σ2B the mean and variance of that we want to correct to the batch, it is done as follows:**
 
-&#10230; Normalisation de batch ― C'est une étape d'hyperparamètre γ,β qui normalise le batch {xi}. En notant μB,σ2B la moyenne et la variance de ce que l'on veut corriger au batch, ceci est fait de la manière suivante :
+&#10230; Normalisation de batch ― C'est une étape possédant les paramètres γ,β qui normalise le batch {xi}. En notant μB,σ2B la moyenne et la variance de ce que l'on veut corriger au batch, ceci est fait de la manière suivante :
 
 <br>
 
 **23. It is usually done after a fully connected/convolutional layer and before a non-linearity layer and aims at allowing higher learning rates and reducing the strong dependence on initialization.**
 
-&#10230; C'est normalement effectué après un fully connected/couche convolutionelle et avant une couche de non-linéarité et a pour but de permettre un taux d'apprentissage plus grand et réduire une dépendance trop forte de l'initialisation.
+&#10230; Cela est normalement effectué après une couche fully-connected/couche convolutionelle et avant une couche de non-linéarité et a pour but de permettre un taux d'apprentissage plus grand et de réduire une dépendance trop forte à l'initialisation.
 
 <br>
 
 **24. Recurrent Neural Networks**
 
-&#10230; Recurrent Neural Networks
+&#10230; Réseaux de neurones récurrents (en anglais *Recurrent Neural Networks*, *RNN*)
 
 <br>
 
 **25. Types of gates ― Here are the different types of gates that we encounter in a typical recurrent neural network:**
 
-&#10230; Types de gates ― Voici les différents types de gates que l'on rencontre dans un recurrent neural network typique :
+&#10230; Types de porte ― Voici les différents types de porte que l'on rencontre dans un réseau de neurones récurrent typique :
 
 <br>
 
 **26. [Input gate, forget gate, gate, output gate]**
 
-&#10230; [Input gate, forget gate, gate, output gate]
+&#10230; [Porte d'entrée, porte d'oubli, gate, porte de sortie]
 
 <br>
 
@@ -162,7 +162,7 @@
 
 **28. LSTM ― A long short-term memory (LSTM) network is a type of RNN model that avoids the vanishing gradient problem by adding 'forget' gates.**
 
-&#10230; LSTM ― Un réseau de long court terme (LSTM) est un type de modèle RNN qui empêche le phénomène de vanishing gradient en ajoutant des forget gates.
+&#10230; LSTM ― Un réseau de long court terme (en anglais *long sort-term memory*, *LSTM*) est un type de modèle RNN qui empêche le phénomène de *vanishing gradient* en ajoutant des portes d'oubli.
 
 <br>
 
@@ -210,13 +210,13 @@
 
 **36. γ∈[0,1[ is the discount factor**
 
-&#10230; γ∈[0,1[ est le discount factor
+&#10230; γ∈[0,1[ est le taux d'actualisation (en anglais *discount factor*)
 
 <br>
 
 **37. R:S×A⟶R or R:S⟶R is the reward function that the algorithm wants to maximize**
 
-&#10230; R:S×A⟶R ou R:S⟶R est la fonction récompense que l'algorithme veut maximizer
+&#10230; R:S×A⟶R ou R:S⟶R est la fonction de récompense que l'algorithme veut maximizer
 
 <br>
 
@@ -264,7 +264,7 @@
 
 **45. 2) We iterate the value based on the values before:**
 
-&#10230; 2) On itère la valeur, basé sur les valeurs précédentes :
+&#10230; 2) On itère la valeur en se basant sur les valeurs précédentes :
 
 <br>
 

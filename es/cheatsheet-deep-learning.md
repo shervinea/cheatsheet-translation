@@ -1,72 +1,72 @@
 **1. Deep Learning cheatsheet**
 
-&#10230;
+&#10230; Chuleta/Acordeón de Deep Learning
 
 <br>
 
 **2. Neural Networks**
 
-&#10230;
+&#10230; Redes Neuronales
 
 <br>
 
 **3. Neural networks are a class of models that are built with layers. Commonly used types of neural networks include convolutional and recurrent neural networks.**
 
-&#10230;
+&#10230; Las redes neuronales son una clase de modelos construidos a base de capas. Los tipos más utilizados de redes neuronales incluyen las redes neuronales convolucionales y las redes neuronales recurrentes.
 
 <br>
 
 **4. Architecture ― The vocabulary around neural networks architectures is described in the figure below:**
 
-&#10230;
+&#10230; Arquitectura - el vocabulario en torno a arquitecturas de redes neuronales se describe en la figura siguiente:
 
 <br>
 
 **5. [Input layer, hidden layer, output layer]**
 
-&#10230;
+&#10230; [Capa de entrada, capa oculta, capa de salida]
 
 <br>
 
 **6. By noting i the ith layer of the network and j the jth hidden unit of the layer, we have:**
 
-&#10230;
+&#10230; Resaltando i en la i-ésima capa de la red y j en la j-ésima unidad oculta de la capa, tenemos:
 
 <br>
 
 **7. where we note w, b, z the weight, bias and output respectively.**
 
-&#10230;
+&#10230; donde w, b y z  son el peso, el sesgo y la salida,respectivamente.
 
 <br>
 
 **8. Activation function ― Activation functions are used at the end of a hidden unit to introduce non-linear complexities to the model. Here are the most common ones:**
 
-&#10230;
+&#10230; Función de activación - Las funciones de activación son utilizadas al final de una unidad oculta para introducir complejidades no lineales al modelo. A continuación las más comunes:
 
 <br>
 
 **9. [Sigmoid, Tanh, ReLU, Leaky ReLU]**
 
-&#10230;
+&#10230; [Sigmoide, Tanh, ReLU, ReLU filtrante]
 
 <br>
 
 **10. Cross-entropy loss ― In the context of neural networks, the cross-entropy loss L(z,y) is commonly used and is defined as follows:**
 
-&#10230;
+&#10230; Pérdida de entropía cruzada - En el contexto de las redes neuronales, la pérdida de entropía cruzada L(z,y) es utilizada comunmente y definida de la siguiente manera:
 
 <br>
 
 **11. Learning rate ― The learning rate, often noted α or sometimes η, indicates at which pace the weights get updated. This can be fixed or adaptively changed. The current most popular method is called Adam, which is a method that adapts the learning rate.**
 
-&#10230;
+&#10230; Tasa de aprendizaje - La tasa de aprendizaje, denotada como α o algunas veces η, indica a que ritmo los pesos son actualizados. Este valor puede ser fijo o cambiar de forma adaptativa. El método más popular en este momento es llamado Adam, que es un método que se adapta a la tasa de aprendizaje.
 
 <br>
 
 **12. Backpropagation ― Backpropagation is a method to update the weights in the neural network by taking into account the actual output and the desired output. The derivative with respect to weight w is computed using chain rule and is of the following form:**
 
-&#10230;
+&#10230; Retropropagación - 
 
 <br>
 

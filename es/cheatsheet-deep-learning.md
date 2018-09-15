@@ -18,7 +18,7 @@
 
 **4. Architecture ― The vocabulary around neural networks architectures is described in the figure below:**
 
-&#10230; Arquitectura - el vocabulario en torno a arquitecturas de redes neuronales se describe en la figura siguiente:
+&#10230; Arquitectura - el vocabulario en torno a arquitecturas de redes neuronales se describe en la siguiente figura:
 
 <br>
 
@@ -36,7 +36,7 @@
 
 **7. where we note w, b, z the weight, bias and output respectively.**
 
-&#10230; donde w, b y z  son el peso, el sesgo y la salida,respectivamente.
+&#10230; donde w, b y z son el peso, el sesgo y la salida, respectivamente.
 
 <br>
 

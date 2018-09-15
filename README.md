@@ -14,7 +14,7 @@ This repository aims at collaboratively translating our [Machine Learning cheats
 
 |Cheatsheet topic|العَرَبِيَّة|עִבְרִית|[हिन्दी](https://github.com/shervinea/cheatsheet-translation/tree/master/hi)|[ಕನ್ನಡ](https://github.com/shervinea/cheatsheet-translation/tree/master/kn)|[मराठी](https://github.com/shervinea/cheatsheet-translation/tree/master/mr)|[తెలుగు](https://github.com/shervinea/cheatsheet-translation/tree/master/te)|[Türkçe](https://github.com/shervinea/cheatsheet-translation/tree/master/tr)|[Русский](https://github.com/shervinea/cheatsheet-translation/tree/master/ru)
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|Deep learning|0%|0%|0%|0%|0%|0%|0%|0%|
+|Deep learning|0%|0%|0%|0%|0%|0%|**100%**|0%|
 |Supervised learning|0%|0%|0%|0%|0%|0%|0%|0%|
 |Unsupervised learning|0%|0%|0%|0%|0%|0%|0%|0%|
 |ML tips and tricks|0%|0%|0%|0%|0%|0%|0%|0%|

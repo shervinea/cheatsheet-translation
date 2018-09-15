@@ -6,13 +6,13 @@
 
 **2. Neural Networks**
 
-&#10230;
+&#10230; Нейронные сети
 
 <br>
 
 **3. Neural networks are a class of models that are built with layers. Commonly used types of neural networks include convolutional and recurrent neural networks.**
 
-&#10230;
+&#10230; Нейронные сети - это класс моделей, строящихся с помощью слоев. Широко используемые виды нейронных сетей включают в себя сверточные и рекуррентные нейронные сети.
 
 <br>
 
@@ -24,7 +24,7 @@
 
 **5. [Input layer, hidden layer, output layer]**
 
-&#10230;
+&#10230; Входной слой, скрытый слой, выходной слой
 
 <br>
 

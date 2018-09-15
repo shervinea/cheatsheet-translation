@@ -102,7 +102,7 @@
 
 **18. Likelihood ― The likelihood of a model L(θ) given parameters θ is used to find the optimal parameters θ through maximizing the likelihood. In practice, we use the log-likelihood ℓ(θ)=log(L(θ)) which is easier to optimize. We have:**
 
-&#10230; Prawdopodobieństwo ― Prawdopodobieństwo modelu L(θ) przy parametrze θ jest wykorzystywane do znalezienia optymalnego parametru θ, maksymalizującego prawdopodobieństwo. W praktyce, używamy prawdopodobieństwa logarytmicznego ℓ(θ)=log(L(θ)) które łatwiej zoptymalizować. Mamy więc:
+&#10230; Prawdopodobieństwo ― Prawdopodobieństwo modelu L(θ) przy parametrze θ jest wykorzystywane do znalezienia optymalnego parametru θ poprzez maksymalizacje prawdopodobieństwa. W praktyce, używamy prawdopodobieństwa logarytmicznego ℓ(θ)=log(L(θ)) które łatwiej zoptymalizować (logspace). Mamy więc:
 
 <br>
 

@@ -226,9 +226,9 @@
 
 <br>
 
-**39. Remark: we say that we execute a given policy π if given a state a we take the action a=π(s).**
+**39. Remark: we say that we execute a given policy π if given a state s we take the action a=π(s).**
 
-&#10230; Observação: dizemos que executamos uma dada diretriz π se em um dado estado nós tomamos a ação a=π(s).
+&#10230; Observação: dizemos que executamos uma dada diretriz π se dado um estado s nós tomamos a ação a=π(s).
 
 <br>
 

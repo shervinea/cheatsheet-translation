@@ -31,7 +31,7 @@ If your favorite language is missing, please feel free to add it!
 3. Translate anything you want by keeping the following template:
 > 34. **English blabla**
 >
-> &#10230; **Translated blabla**
+> &#10230; Translated blabla
 
 4. Commit the changes to your forked repository.
 

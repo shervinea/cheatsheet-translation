@@ -187,37 +187,37 @@ log-probabilidade (log-likelihood) ℓ(θ)=log(L(θ)) que é mais simples para s
 
 **32. Softmax regression ― A softmax regression, also called a multiclass logistic regression, is used to generalize logistic regression when there are more than 2 outcome classes. By convention, we set θK=0, which makes the Bernoulli parameter ϕi of each class i equal to:**
 
-&#10230;
+&#10230; Regressão softmax - A regressão softmax, também chamada de regressão logística multiclasse, é usada para generalizar a regressão logística quando existem mais de 2 classes. Por convenção, definimos θK=0, que faz com que o parâmetro de Bernoulli ϕi de cada classe i seja igual a:
 
 <br>
 
 **33. Generalized Linear Models**
 
-&#10230;
+&#10230; Modelos Lineares Generalizados
 
 <br>
 
 **34. Exponential family ― A class of distributions is said to be in the exponential family if it can be written in terms of a natural parameter, also called the canonical parameter or link function, η, a sufficient statistic T(y) and a log-partition function a(η) as follows:**
 
-&#10230;
+&#10230; Família exponencial - Uma classe de distribuições é chamada de família exponencial se ela puder ser escrita em termos de um parâmetro natural, também chamado de parâmetro canônico ou função de link η, uma estatítica suficiente T(y) e de uma função de partição de log a(η) e é dada por:
 
 <br>
 
 **35. Remark: we will often have T(y)=y. Also, exp(−a(η)) can be seen as a normalization parameter that will make sure that the probabilities sum to one.**
 
-&#10230;
+&#10230; Lembrte: em geral tem-se T(y)=y. Também, exp(−a(η)) pode ser definido como o parâmetro de normalização que garantirá que as probabilidade somem um.
 
 <br>
 
 **36. Here are the most common exponential distributions summed up in the following table:**
 
-&#10230;
+&#10230; Na tabela a seguir estão resumidas as distribuições exponenciais mais comuns:
 
 <br>
 
 **37. [Distribution, Bernoulli, Gaussian, Poisson, Geometric]**
 
-&#10230;
+&#10230; [Distribuição, Bernoulli, Gaussiana, Poisson, Geométrica]
 
 <br>
 

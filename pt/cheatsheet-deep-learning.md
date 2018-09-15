@@ -30,7 +30,7 @@
 
 **6. By noting i the ith layer of the network and j the jth hidden unit of the layer, we have:**
 
-&#10230; Datdo que i é a i-ésima camada da rede e j a j-ésima unidade escondida da camada, nós temos:
+&#10230; Dado que i é a i-ésima camada da rede e j a j-ésima unidade escondida da camada, nós temos:
 
 <br>
 

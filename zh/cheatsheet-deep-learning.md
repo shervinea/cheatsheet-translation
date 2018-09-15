@@ -1,54 +1,54 @@
 1. **Deep Learning cheatsheet**
 
-&#10230;1. **深度学习速查表**
+&#10230; 深度学习小结
 
 <br>
 
 2. **Neural Networks**
 
-&#10230; 2. **神经网络**
+&#10230; 神经网络
 
 <br>
 
 3. **Neural networks are a class of models that are built with layers. Commonly used types of neural networks include convolutional and recurrent neural networks.**
 
-&#10230; 3. **神经网络是一类按层构建的模型。常用的神经网络类型包括卷积和递归神经网络。**
+&#10230; 神经网络是一种由层结构搭建的模型。常用的神经网络包括卷积神经网络和递归神经网络。
 
 <br>
 
 4. **Architecture ― The vocabulary around neural networks architectures is described in the figure below:**
 
-&#10230; 4. **架构 - 下表列举了用来描述神经网络架构的词汇: **
+&#10230; 结构 —— 神经网络的基本结构如下图所示：
 
 <br>
 
 5. **[Input layer, hidden layer, output layer]**
 
-&#10230; 5. **[输入层, 隐藏层，输出层]**
+&#10230; [输入层，隐层，输出层]
 
 <br>
 
 6. **By noting i the ith layer of the network and j the jth hidden unit of the layer, we have:**
 
-&#10230;
+&#10230; 已知***i***是网络的第*i*层，***j***是网络的第*j*层，我们有：
 
 <br>
 
 7. **where we note w, b, z the weight, bias and output respectively.**
 
-&#10230;
+&#10230; 我们用***w***,***b***, ***z***分别表示权重，偏差和输出。
 
 <br>
 
 8. **Activation function ― Activation functions are used at the end of a hidden unit to introduce non-linear complexities to the model. Here are the most common ones:**
 
-&#10230;
+&#10230; 激活函数 —— 激活函数被用在隐含单元之后来向模型引入非线性复杂度。比较常见的如下所示：
 
 <br>
 
 9. **[Sigmoid, Tanh, ReLU, Leaky ReLU]**
 
-&#10230;
+&#10230; [逻辑函数(Sigmoid), 双曲正切函数(Tanh), 线性整流函数(ReLU), 带泄露线性整流函数(Leaky ReLU)]
 
 <br>
 
@@ -287,35 +287,5 @@
 <br>
 
 49. **Q-learning ― Q-learning is a model-free estimation of Q, which is done as follows:**
-
-&#10230;
-
-<br>
-
-50. **View PDF version on GitHub**
-
-&#10230;
-
-<br>
-
-51. **[Neural Networks, Architecture, Activation function, Backpropagation, Dropout]**
-
-&#10230;
-
-<br>
-
-52. **[Convolutional Neural Networks, Convolutional layer, Batch normalization]**
-
-&#10230;
-
-<br>
-
-53. **[Recurrent Neural Networks, Gates, LSTM]**
-
-&#10230;
-
-<br>
-
-54. **[Reinforcement learning, Markov decision processes, Value/policy iteration, Approximate dynamic programming, Policy search]**
 
 &#10230;

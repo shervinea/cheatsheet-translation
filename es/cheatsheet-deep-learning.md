@@ -126,166 +126,166 @@
 
 **22. Batch normalization ― It is a step of hyperparameter γ,β that normalizes the batch {xi}. By noting μB,σ2B the mean and variance of that we want to correct to the batch, it is done as follows:**
 
-&#10230; Normalización de grupo - Es 
+&#10230; Normalización de grupo - Es un paso de híperparámetro y,β que normaliza el grupo {xi}. Notando μB,σ2B la media y la varianza de qué queremos corregir en el grupo, se realiza de la siguiente manera:
 
 <br>
 
 **23. It is usually done after a fully connected/convolutional layer and before a non-linearity layer and aims at allowing higher learning rates and reducing the strong dependence on initialization.**
 
-&#10230;
+&#10230; Se realiza usualmente después de una capa completamente conectada/convolucional y antes de una capa no-lineal y su objetivo es permitir tasas más altas de aprendizaje y reducir su fuerte dependencia hacia la inicialización.
 
 <br>
 
 **24. Recurrent Neural Networks**
 
-&#10230;
+&#10230;Redes Neuronales Recurrentes
 
 <br>
 
 **25. Types of gates ― Here are the different types of gates that we encounter in a typical recurrent neural network:**
 
-&#10230;
+&#10230; Tipos de compuertas - A continuación, tenemos los diferentes tipos de compuertas que encontramos en una red neuronal recurrente típica:
 
 <br>
 
 **26. [Input gate, forget gate, gate, output gate]**
 
-&#10230;
+&#10230; [Compuerta de entrada, compuerta de olvido, compuerta, compuerta de salida]
 
 <br>
 
 **27. [Write to cell or not?, Erase a cell or not?, How much to write to cell?, How much to reveal cell?]**
 
-&#10230;
+&#10230; [¿Escribir o no en la celda?, ¿Borrar o no la celda?, ¿Cuánto escribir en la celda?, ¿Cuánto revelar la celda?]
 
 <br>
 
 **28. LSTM ― A long short-term memory (LSTM) network is a type of RNN model that avoids the vanishing gradient problem by adding 'forget' gates.**
 
-&#10230;
+&#10230; LSTM - Una red de memoria de corto plazo larga (LSTM por sus siglas en inglés) es un tipo de modelo de red neuronal recurrente que evita el problema del gradiente desvaneciente añadiendo puertas de 'olvido'.
 
 <br>
 
 **29. Reinforcement Learning and Control**
 
-&#10230;
+&#10230; Aprendizaje reforzado y control.
 
 <br>
 
 **30. The goal of reinforcement learning is for an agent to learn how to evolve in an environment.**
 
-&#10230;
+&#10230; El objetivo del aprendizaje reforzado es hacer que un agente aprenda como evolucionar en un ambiente.
 
 <br>
 
 **31. Definitions**
 
-&#10230;
+&#10230; Definiciones
 
 <br>
 
 **32. Markov decision processes ― A Markov decision process (MDP) is a 5-tuple (S,A,{Psa},γ,R) where:**
 
-&#10230;
+&#10230; Procesos decisivos de Markov - Un proceso decisivo de Markov (MDP) es una 5-tupla (S,A,{Psa},γ,R) donde:
 
 <br>
 
 **33. S is the set of states**
 
-&#10230;
+&#10230; S es el conjunto de estados
 
 <br>
 
 **34. A is the set of actions**
 
-&#10230;
+&#10230; A es el conjunto de acciones
 
 <br>
 
 **35. {Psa} are the state transition probabilities for s∈S and a∈A**
 
-&#10230;
+&#10230; {Psa] es el estado de probabilidades de transición para s∈S y a∈A
 
 <br>
 
 **36. γ∈[0,1[ is the discount factor**
 
-&#10230;
+&#10230; γ∈[0,1[ es el factor de descuento
 
 <br>
 
 **37. R:S×A⟶R or R:S⟶R is the reward function that the algorithm wants to maximize**
 
-&#10230;
+&#10230; R:S×A⟶R o R:S⟶R es la función recompensa que el algoritmo pretende maximizar**
 
 <br>
 
 **38. Policy ― A policy π is a function π:S⟶A that maps states to actions.**
 
-&#10230;
+&#10230; Política - Una política π es una función π:S⟶A que mapea estados a acciones.
 
 <br>
 
 **39. Remark: we say that we execute a given policy π if given a state a we take the action a=π(s).**
 
-&#10230;
+&#10230; Observación: decimos que ejecutamos una política π dada si dado un estado a tomamos la acción a=π(s).
 
 <br>
 
 **40. Value function ― For a given policy π and a given state s, we define the value function Vπ as follows:**
 
-&#10230;
+&#10230; Función valor - Para una política dada π y un estado dado s, definimos el valor de la función Vπ de la siguiente manera:
 
 <br>
 
 **41. Bellman equation ― The optimal Bellman equations characterizes the value function Vπ∗ of the optimal policy π∗:**
 
-&#10230;
+&#10230; La ecuación de Bellman - Las ecuaciones óptimas de Bellman, caracterizan la función valor Vπ* de la política óptima π*:
 
 <br>
 
 **42. Remark: we note that the optimal policy π∗ for a given state s is such that:**
 
-&#10230;
+&#10230; Observación: notamos que la política óptima π* para un estado dado s es tal que:
 
 <br>
 
 **43. Value iteration algorithm ― The value iteration algorithm is in two steps:**
 
-&#10230;
+&#10230; Algoritmo de iteración valor - El algoritmo de iteración valor es en dos pasos:
 
 <br>
 
 **44. 1) We initialize the value:**
 
-&#10230;
+&#10230; 1) Inicializamos el valor:
 
 <br>
 
 **45. 2) We iterate the value based on the values before:**
 
-&#10230;
+&#10230; Iteramos el valor con base en los valores de antes:
 
 <br>
 
 **46. Maximum likelihood estimate ― The maximum likelihood estimates for the state transition probabilities are as follows:**
 
-&#10230;
+&#10230; Estimado de probabilidad máximo - El estimaado de probabilidad máximo para las probabilidades de transición de estado son como se muestra a continuación:
 
 <br>
 
 **47. times took action a in state s and got to s′**
 
-&#10230;
+&#10230; veces que se tomó la acción a en el estado s y llevó a s'
 
 <br>
 
 **48. times took action a in state s**
 
-&#10230;
+&#10230; veces que se tomó la acción a en el estado s
 
 <br>
 
 **49. Q-learning ― Q-learning is a model-free estimation of Q, which is done as follows:**
 
-&#10230;
+&#10230; Q-learning - Q-learning es una estimación libre de modelo

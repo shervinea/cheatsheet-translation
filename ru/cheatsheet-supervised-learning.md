@@ -6,7 +6,7 @@
 
 **2. Introduction to Supervised Learning**
 
-&#10230;
+&#10230; Введение в обучение в подкреплением
 
 <br>
 
@@ -18,13 +18,13 @@
 
 **4. Type of prediction ― The different types of predictive models are summed up in the table below:**
 
-&#10230;
+&#10230; Тип предсказания - Различные типы предсказывающих моделей перечислены в таблице ниже:
 
 <br>
 
 **5. [Regression, Classifier, Outcome, Examples]**
 
-&#10230;
+&#10230; [Регрессия, классификатор, вывод, примеры]
 
 <br>
 
@@ -36,7 +36,7 @@
 
 **7. Type of model ― The different models are summed up in the table below:**
 
-&#10230;
+&#10230; Тип модели - Различные типы моделей перечислены в таблице ниже:
 
 <br>
 
@@ -54,13 +54,13 @@
 
 **10. Notations and general concepts**
 
-&#10230;
+&#10230; 10. Обозначения и основные понятия
 
 <br>
 
 **11. Hypothesis ― The hypothesis is noted hθ and is the model that we choose. For a given input data x(i) the model prediction output is hθ(x(i)).**
 
-&#10230;
+&#10230; Гипотеза - Гипотеза, обозначаемая как hθ, является выбранной нами моделью. Для входных данных x(i) предсказания модели будут обозначаться hθ(x(i)).
 
 <br>
 
@@ -120,19 +120,19 @@
 
 **21. Linear models**
 
-&#10230;
+&#10230; Линейные модели 
 
 <br>
 
 **22. Linear regression**
 
-&#10230;
+&#10230; Линейная регрессия
 
 <br>
 
 **23. We assume here that y|x;θ∼N(μ,σ2)**
 
-&#10230;
+&#10230; Положим, что y|x;θ∼N(μ,σ2)
 
 <br>
 
@@ -162,7 +162,7 @@
 
 **28. Classification and logistic regression**
 
-&#10230;
+&#10230; Классификация и логистическая регрессия
 
 <br>
 
@@ -192,7 +192,7 @@
 
 **33. Generalized Linear Models**
 
-&#10230;
+&#10230; Обобщенные линейные модели
 
 <br>
 

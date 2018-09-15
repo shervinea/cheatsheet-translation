@@ -252,96 +252,96 @@
 
 **43. Remark 1: we note that for any random variables X,Y, we have ρXY∈[−1,1].**
 
-&#10230;
+&#10230; Remarque 1 : on note que pour toute variable aléatoire X, Y, on a ρXY∈[−1,1].
 
 <br>
 
 **44. Remark 2: If X and Y are independent, then ρXY=0.**
 
-&#10230;
+&#10230; Remarque 2 : Si X et Y sont indépendants, alors ρXY=0.
 
 <br>
 
 **45. Parameter estimation**
 
-&#10230;
+&#10230; Estimation des paramètres
 
 <br>
 
 **46. Definitions**
 
-&#10230;
+&#10230; Définitions
 
 <br>
 
 **47. Random sample ― A random sample is a collection of n random variables X1,...,Xn that are independent and identically distributed with X.**
 
-&#10230;
+&#10230; Échantillon aléatoire ― Un échantillon aléatoire est une collection de n variables aléatoires X1,...,Xn qui sont indépendantes et identiquement distribuées avec X.
 
 <br>
 
 **48. Estimator ― An estimator is a function of the data that is used to infer the value of an unknown parameter in a statistical model.**
 
-&#10230;
+&#10230; Estimateur ― Un estimateur est une fonction des données qui est utilisée pour trouver la valeur d'un paramètre inconnue dans un modèle statistique.
 
 <br>
 
 **49. Bias ― The bias of an estimator ^θ is defined as being the difference between the expected value of the distribution of ^θ and the true value, i.e.:**
 
-&#10230;
+&#10230; Biais ― Le biais d'un estimateur ^θ est défini comme étant la différence entre l'espérance de la distribution de ^θ et de la valeur vraie, i.e. :
 
 <br>
 
 **50. Remark: an estimator is said to be unbiased when we have E[^θ]=θ.**
 
-&#10230;
+&#10230; Remarque : un estimateur est dit non-biaisé lorsque l'on a E[^θ]=θ.
 
 <br>
 
 **51. Estimating the mean**
 
-&#10230;
+&#10230; Estimer la moyenne
 
 <br>
 
 **52. Sample mean ― The sample mean of a random sample is used to estimate the true mean μ of a distribution, is often noted ¯¯¯¯¯X and is defined as follows:**
 
-&#10230;
+&#10230; Moyenne empirique ― La moyenne empirique d'un échantillon aléatoire est utilisée pour estimer la valeur vraie μ d'une distribution, est notée ¯¯¯¯¯X et est définie de la manière suivante :
 
 <br>
 
 **53. Remark: the sample mean is unbiased, i.e E[¯¯¯¯¯X]=μ.**
 
-&#10230;
+&#10230; Remarque : la moyenne empirique est non-biaisée, i.e. E[¯¯¯¯¯X]=μ.
 
 <br>
 
 **54. Central Limit Theorem ― Let us have a random sample X1,...,Xn following a given distribution with mean μ and variance σ2, then we have:**
 
-&#10230;
+&#10230; Théorème de la limite centrale ― Soit un échantillon aléatoire X1,...,Xn suivant une distribution donnée de moyenne μ et de variance σ2, alors on a :
 
 <br>
 
 **55. Estimating the variance**
 
-&#10230;
+&#10230; Estimer la variance
 
 <br>
 
 **56. Sample variance ― The sample variance of a random sample is used to estimate the true variance σ2 of a distribution, is often noted s2 or ^σ2 and is defined as follows:**
 
-&#10230;
+&#10230; Variance empirique ― La variance empirique d'un échantillon aléatoire est utilisée pour estimer la variance vraie σ2 d'une distribution, est souvent notée s2 ou ^σ2 et est définie de la manière suivante :
 
 <br>
 
 **57. Remark: the sample variance is unbiased, i.e E[s2]=σ2.**
 
-&#10230;
+&#10230; Remarque : la variance empirique est non-biaisée, i.e. E[s2]=σ2.
 
 <br>
 
 **58. Chi-Squared relation with sample variance ― Let s2 be the sample variance of a random sample. We have:**
 
-&#10230;
+&#10230; Relation du <Insert sign> avec la variance empirique ― Soit s2 la variance empirique d'un échantillon empirique. On a :
 
 <br>

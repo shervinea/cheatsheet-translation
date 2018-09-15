@@ -1,162 +1,162 @@
 **1. Supervised Learning cheatsheet**
 
-&#10230; 
+&#10230; Pense-bête d'apprentissage supervisé
 
 <br>
 
 **2. Introduction to Supervised Learning**
 
-&#10230;
+&#10230; Introduction à l'apprentissage supervisé
 
 <br>
 
 **3. Given a set of data points {x(1),...,x(m)} associated to a set of outcomes {y(1),...,y(m)}, we want to build a classifier that learns how to predict y from x.**
 
-&#10230;
+&#10230; Étant donné un ensemble de points {x(1),...,x(m)} associés à un ensemble d'issues {y(1),...,y(m)}, on veut construire un classfieur qui apprend comment prédire y à partir de x.  
 
 <br>
 
 **4. Type of prediction ― The different types of predictive models are summed up in the table below:**
 
-&#10230;
+&#10230; Type de prédiction ― Les différents types de modèles prédictifs sont récapitulés dans le tableau ci-dessous :
 
 <br>
 
 **5. [Regression, Classifier, Outcome, Examples]**
 
-&#10230;
+&#10230; [Régression, Classifieur, Issue, Exemples]
 
 <br>
 
 **6. [Continuous, Class, Linear regression, Logistic regression, SVM, Naive Bayes]**
 
-&#10230;
+&#10230; [Continu, Classe, Régression linéaire, Régression logistique, SVM, Naive Bayes]
 
 <br>
 
 **7. Type of model ― The different models are summed up in the table below:**
 
-&#10230;
+&#10230; Type de modèle ― Les différents modèles sont récapitulés dans le tableau ci-dessous :
 
 <br>
 
 **8. [Discriminative model, Generative model, Goal, What's learned, Illustration, Examples]**
 
-&#10230;
+&#10230; [Modèle discriminatif, Modèle génératif, But, Ce qui est appris, Illustration, Exemples]
 
 <br>
 
 **9. [Directly estimate P(y|x), Estimate P(x|y) to then deduce P(y|x), Decision boundary,  	Probability distributions of the data, Regressions, SVMs, GDA, Naive Bayes]**
 
-&#10230;
+&#10230; [Estimer directement P(y|x), Estimer P(x|y) puis déduire P(y|x), Frontière de décision, Distribution de probabilité des données, Régressions, SVMs, GDA Naive Bayes]
 
 <br>
 
 **10. Notations and general concepts**
 
-&#10230;
+&#10230; Notations et concepts généraux
 
 <br>
 
 **11. Hypothesis ― The hypothesis is noted hθ and is the model that we choose. For a given input data x(i) the model prediction output is hθ(x(i)).**
 
-&#10230;
+&#10230; Hypothèse ― Une hypothèse est noté hθ et est le modèle que l'on choisit. Pour un input donné x(i), la prédiction donnée par le modèle est hθ(x(i)).
 
 <br>
 
 **12. Loss function ― A loss function is a function L:(z,y)∈R×Y⟼L(z,y)∈R that takes as inputs the predicted value z corresponding to the real data value y and outputs how different they are. The common loss functions are summed up in the table below:**
 
-&#10230;
+&#10230; Fonction de loss ― Une fonction de loss est une fonction L:(z,y)∈R×Y⟼L(z,y)∈R qui prend comme entrée une valeur prédite z correspondant à une valeur réelle y et donne une indication de la mesure dans laquelle ils diffèrent. Les fonctions de loss principales sont récapitulées dans le tableau ci-dessous :
 
 <br>
 
 **13. [Least squared error, Logistic loss, Hinge loss, Cross-entropy]**
 
-&#10230;
+&#10230; [Erreur des moindres carrés, Logistic loss, Hinge loss, Cross-entropie]
 
 <br>
 
 **14. [Linear regression, Logistic regression, SVM, Neural Network]**
 
-&#10230;
+&#10230; [Régression linéaire, régression logistique, SVM, Réseau de neurones]
 
 <br>
 
 **15. Cost function ― The cost function J is commonly used to assess the performance of a model, and is defined with the loss function L as follows:**
 
-&#10230;
+&#10230; Fonction de cost ― La fonction de cost J est communément utilisée pour évaluer la performance d'un modèle, et est définie avec la fonction de loss L par :
 
 <br>
 
 **16. Gradient descent ― By noting α∈R the learning rate, the update rule for gradient descent is expressed with the learning rate and the cost function J as follows:**
 
-&#10230;
+&#10230; Algorithme du gradient ― En notant α∈R le learning rate, la règle de mise à jour pour l'algorithme est exprimé avec le learning rate de la fonction de cost J de la manière suivante :
 
 <br>
 
 **17. Remark: Stochastic gradient descent (SGD) is updating the parameter based on each training example, and batch gradient descent is on a batch of training examples.**
 
-&#10230;
+&#10230; Remarque : L'algorithme du gradient stochastique (SGC) met à jour le paramètre à partir de chaque exemple du training, tandis que l'algorithme du gradient de batch le fait à partir de chaque batch d'exemples.
 
 <br>
 
 **18. Likelihood ― The likelihood of a model L(θ) given parameters θ is used to find the optimal parameters θ through maximizing the likelihood. In practice, we use the log-likelihood ℓ(θ)=log(L(θ)) which is easier to optimize. We have:**
 
-&#10230;
+&#10230; Vraisemblance ― La vraisemblance d'un modèle L(θ) de paramètre θ est utilisée pour trouver le paramètre optimal θ par le biais du maximum de vraisemblance. En pratique, on utilise la log vraisemblance ℓ(θ)=log(L(θ)) qui est plus facile à optimiser. On a :
 
 <br>
 
 **19. Newton's algorithm ― The Newton's algorithm is a numerical method that finds θ such that ℓ′(θ)=0. Its update rule is as follows:**
 
-&#10230;
+&#10230; Algorithme de Newton ― L'algorithme de Newton est une méthode numerique qui trouve θ tel que ℓ′(θ)=0. La règle de mise à jour est :
 
 <br>
 
 **20. Remark: the multidimensional generalization, also known as the Newton-Raphson method, has the following update rule:**
 
-&#10230;
+&#10230; Remarque : la généralisation multidimensionnelle, aussi connue sous le nom de la méthode de Newton-Raphson, a la règle de mise à jour suivante :
 
 <br>
 
 **21. Linear models**
 
-&#10230;
+&#10230; Modèles linéaires
 
 <br>
 
 **22. Linear regression**
 
-&#10230;
+&#10230; Régression linéaire
 
 <br>
 
 **23. We assume here that y|x;θ∼N(μ,σ2)**
 
-&#10230;
+&#10230; On suppose ici que y|x;θ∼N(μ,σ2)
 
 <br>
 
 **24. Normal equations ― By noting X the matrix design, the value of θ that minimizes the cost function is a closed-form solution such that:**
 
-&#10230;
+&#10230; Équations normales ― En notant X la matrice de design, la valeur de θ qui minimize la fonction de cost a une solution de forme fermée tel que :
 
 <br>
 
 **25. LMS algorithm ― By noting α the learning rate, the update rule of the Least Mean Squares (LMS) algorithm for a training set of m data points, which is also known as the Widrow-Hoff learning rule, is as follows:**
 
-&#10230;
+&#10230; Algorithme LMS ― En notant α le learning rate, la règle de mise à jour d'algorithme des moindres carrés (LMS) pour un training set de m points, qui est aussi connu sous le nom de règle de Widrow-Hoff, est :
 
 <br>
 
 **26. Remark: the update rule is a particular case of the gradient ascent.**
 
-&#10230;
+&#10230; Remarque : la règle de mise à jour est un cas particulier de l'algorithme du gradient.
 
 <br>
 
 **27. LWR ― Locally Weighted Regression, also known as LWR, is a variant of linear regression that weights each training example in its cost function by w(i)(x), which is defined with parameter τ∈R as:**
 
-&#10230;
+&#10230; LWR - Locally Weighted Regression, aussi connus ou
 
 <br>
 

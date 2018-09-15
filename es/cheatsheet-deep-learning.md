@@ -1,26 +1,26 @@
-**1. Deep Learning cheatsheet**
+**1. Hoja de referencia de aprendizaje profundo**
+
+&#10230;
+
+<br> 
+
+**2. Redes Neuronales**
+
+&#10230;
+
+<br> 
+
+**3. Las redes neuronales son una clase de modelos que an sido construidos con capas. Los tipos de redes neuronales comúnmente utilizados incluyen redes neuronales convolucionales y recurrentes.**
 
 &#10230;
 
 <br>
 
-**2. Neural Networks**
+**4. Arquitectura - el vocabulario relacionados con la arquitectura de las redes neuronales es descrito en la siguiente figura:**
 
 &#10230;
 
-<br>
-
-**3. Neural networks are a class of models that are built with layers. Commonly used types of neural networks include convolutional and recurrent neural networks.**
-
-&#10230;
-
-<br>
-
-**4. Architecture ― The vocabulary around neural networks architectures is described in the figure below:**
-
-&#10230;
-
-<br>
+<br> 
 
 **5. [Input layer, hidden layer, output layer]**
 
@@ -40,11 +40,11 @@
 
 <br>
 
-**8. Activation function ― Activation functions are used at the end of a hidden unit to introduce non-linear complexities to the model. Here are the most common ones:**
+**8. Función de activación - Las funciones de activación son usadas al final de una unidad oculta a para introducir complejidades no lineales en el modelo. Aqui estan los más comunes:**
 
 &#10230;
 
-<br>
+<br> 
 
 **9. [Sigmoid, Tanh, ReLU, Leaky ReLU]**
 
@@ -52,29 +52,29 @@
 
 <br>
 
-**10. Cross-entropy loss ― In the context of neural networks, the cross-entropy loss L(z,y) is commonly used and is defined as follows:**
+**10. Perdida de entropía cruzada . En el contexto de las redes neuronales, la perdida de entropía cruzada L(z,y) es comunmente usada y se define de la siguiente manera:**
 
 &#10230;
 
 <br>
 
-**11. Learning rate ― The learning rate, often noted α or sometimes η, indicates at which pace the weights get updated. This can be fixed or adaptively changed. The current most popular method is called Adam, which is a method that adapts the learning rate.**
+**11. Tasa de aprendizaje - la taza de aprendizaje, amenudo anotado  α o a veces η, indica a que ritmo se actualizan los pesos. Este puede ser fijo o adaptivo. El metodo actual más popular es llamado Adam, que es un metodo que se adapta a la taza de aprendizaje.**	
 
 &#10230;
 
-<br>
+<br> 
 
-**12. Backpropagation ― Backpropagation is a method to update the weights in the neural network by taking into account the actual output and the desired output. The derivative with respect to weight w is computed using chain rule and is of the following form:**
-
-&#10230;
-
-<br>
-
-**13. As a result, the weight is updated as follows:**
+**12. Propagación hacia atrás - La propagación hacia atrás es un metodo para actualizar los pesos en la red neuroral tomando en consideración la salida actual y la salida deseada. La derivada con respecto al peso w se calcula utilizando la regla de la cadena y es de la siguiente forma:**
 
 &#10230;
 
-<br>
+<br> 
+
+**13. Como resultado, el peso es actualizado de la siguiente manera:**
+
+&#10230;
+
+<br> 
 
 **14. Updating weights ― In a neural network, weights are updated as follows:**
 

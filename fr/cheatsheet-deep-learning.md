@@ -1,6 +1,6 @@
 **1. Deep Learning cheatsheet**
 
-&#10230; Pense-bête de Deep Learning
+&#10230; Pense-bête d'apprentissage profond
 
 <br>
 

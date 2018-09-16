@@ -1,6 +1,6 @@
 1. **Machine Learning tips and tricks cheatsheet**
 
-&#10230;
+&#10230; 
 
 <br>
 

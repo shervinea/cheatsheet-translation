@@ -216,7 +216,7 @@
 
 **37. R:S×A⟶R or R:S⟶R is the reward function that the algorithm wants to maximize**
 
-&#10230; R:S×A⟶R ou R:S⟶R est la fonction de récompense que l'algorithme veut maximizer
+&#10230; R:S×A⟶R ou R:S⟶R est la fonction de récompense que l'algorithme veut maximiser
 
 <br>
 

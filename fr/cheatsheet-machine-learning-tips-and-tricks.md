@@ -66,7 +66,7 @@
 
 **12. Hybrid metric useful for unbalanced classes**
 
-&#10230; Indicateur hybride utilie pour les classes non-balancées
+&#10230; Indicateur hybride utilisé pour les classes non-balancées
 
 <br>
 

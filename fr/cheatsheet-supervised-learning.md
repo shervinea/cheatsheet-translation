@@ -12,13 +12,13 @@
 
 **3. Given a set of data points {x(1),...,x(m)} associated to a set of outcomes {y(1),...,y(m)}, we want to build a classifier that learns how to predict y from x.**
 
-&#10230; Étant donné un ensemble de points {x(1),...,x(m)} associés à un ensemble d'issues {y(1),...,y(m)}, on veut construire un classfieur qui apprend comment prédire y à partir de x.  
+&#10230; Étant donné un ensemble de points {x(1),...,x(m)} associés à un ensemble d'issues {y(1),...,y(m)}, on veut construire un classifieur qui apprend à prédire y depuis x.  
 
 <br>
 
 **4. Type of prediction ― The different types of predictive models are summed up in the table below:**
 
-&#10230; Type de prédiction ― Les différents types de modèles prédictifs sont récapitulés dans le tableau ci-dessous :
+&#10230; Type de prédiction ― Les différents types de modèle prédictifs sont résumés dans le tableau ci-dessous :
 
 <br>
 
@@ -36,7 +36,7 @@
 
 **7. Type of model ― The different models are summed up in the table below:**
 
-&#10230; Type de modèle ― Les différents modèles sont récapitulés dans le tableau ci-dessous :
+&#10230; Type de modèle ― Les différents modèles sont présentés dans le tableau ci-dessous :
 
 <br>
 
@@ -48,7 +48,7 @@
 
 **9. [Directly estimate P(y|x), Estimate P(x|y) to then deduce P(y|x), Decision boundary,  	Probability distributions of the data, Regressions, SVMs, GDA, Naive Bayes]**
 
-&#10230; [Estimer directement P(y|x), Estimer P(x|y) puis déduire P(y|x), Frontière de décision, Distribution de probabilité des données, Régressions, SVMs, GDA Naive Bayes]
+&#10230; [Estimer directement P(y|x), Estimer P(x|y) puis déduire P(y|x), Frontière de décision, Distribution de probabilité des données, Régressions, SVMs, GDA, Naive Bayes]
 
 <br>
 
@@ -60,19 +60,19 @@
 
 **11. Hypothesis ― The hypothesis is noted hθ and is the model that we choose. For a given input data x(i) the model prediction output is hθ(x(i)).**
 
-&#10230; Hypothèse ― Une hypothèse est noté hθ et est le modèle que l'on choisit. Pour un input donné x(i), la prédiction donnée par le modèle est hθ(x(i)).
+&#10230; Hypothèse ― Une hypothèse est notée hθ et est le modèle que l'on choisit. Pour une entrée donnée x(i), la prédiction donnée par le modèle est hθ(x(i)).
 
 <br>
 
 **12. Loss function ― A loss function is a function L:(z,y)∈R×Y⟼L(z,y)∈R that takes as inputs the predicted value z corresponding to the real data value y and outputs how different they are. The common loss functions are summed up in the table below:**
 
-&#10230; Fonction de loss ― Une fonction de loss est une fonction L:(z,y)∈R×Y⟼L(z,y)∈R qui prend comme entrée une valeur prédite z correspondant à une valeur réelle y et donne une indication de la mesure dans laquelle ils diffèrent. Les fonctions de loss principales sont récapitulées dans le tableau ci-dessous :
+&#10230; Fonction de loss ― Une fonction de loss est une fonction L:(z,y)∈R×Y⟼L(z,y)∈R prennant comme entrée une valeur prédite z correspondant à une valeur réelle y, et nous renseigne sur la ressemblance de ces deux valeurs. Les fonctions de loss courantes sont récapitulées dans le tableau ci-dessous :
 
 <br>
 
 **13. [Least squared error, Logistic loss, Hinge loss, Cross-entropy]**
 
-&#10230; [Erreur des moindres carrés, Logistic loss, Hinge loss, Cross-entropie]
+&#10230; [Erreur des moindres carrés, Loss logistique, Hinge loss, Cross-entropie]
 
 <br>
 
@@ -84,19 +84,19 @@
 
 **15. Cost function ― The cost function J is commonly used to assess the performance of a model, and is defined with the loss function L as follows:**
 
-&#10230; Fonction de cost ― La fonction de cost J est communément utilisée pour évaluer la performance d'un modèle, et est définie avec la fonction de loss L par :
+&#10230; Fonction de coût ― La fonction de coût J est communément utilisée pour évaluer la performance d'un modèle, et est définie avec la fonction de loss L par :
 
 <br>
 
 **16. Gradient descent ― By noting α∈R the learning rate, the update rule for gradient descent is expressed with the learning rate and the cost function J as follows:**
 
-&#10230; Algorithme du gradient ― En notant α∈R le learning rate, la règle de mise à jour pour l'algorithme est exprimé avec le learning rate de la fonction de cost J de la manière suivante :
+&#10230; Algorithme du gradient ― En notant α∈R le taux d'apprentissage (en anglais *learning rate*), la règle de mise à jour de l'algorithme est exprimée en fonction du taux d'apprentissage et de la fonction de cost J de la manière suivante :
 
 <br>
 
 **17. Remark: Stochastic gradient descent (SGD) is updating the parameter based on each training example, and batch gradient descent is on a batch of training examples.**
 
-&#10230; Remarque : L'algorithme du gradient stochastique (SGC) met à jour le paramètre à partir de chaque exemple du training, tandis que l'algorithme du gradient de batch le fait à partir de chaque batch d'exemples.
+&#10230; Remarque : L'algorithme du gradient stochastique (en anglais *SGD - Stochastic Gradient Descent*) met à jour le paramètre à partir de chaque élément du jeu d'entrainement, tandis que l'algorithme du gradient de batch le fait sur chaque lot d'exemples.
 
 <br>
 
@@ -108,7 +108,7 @@
 
 **19. Newton's algorithm ― The Newton's algorithm is a numerical method that finds θ such that ℓ′(θ)=0. Its update rule is as follows:**
 
-&#10230; Algorithme de Newton ― L'algorithme de Newton est une méthode numerique qui trouve θ tel que ℓ′(θ)=0. La règle de mise à jour est :
+&#10230; Algorithme de Newton ― L'algorithme de Newton est une méthode numérique qui trouve θ tel que ℓ′(θ)=0. La règle de mise à jour est :
 
 <br>
 
@@ -144,7 +144,7 @@
 
 **25. LMS algorithm ― By noting α the learning rate, the update rule of the Least Mean Squares (LMS) algorithm for a training set of m data points, which is also known as the Widrow-Hoff learning rule, is as follows:**
 
-&#10230; Algorithme LMS ― En notant α le learning rate, la règle de mise à jour d'algorithme des moindres carrés (LMS) pour un training set de m points, qui est aussi connu sous le nom de règle de Widrow-Hoff, est :
+&#10230; Algorithme LMS ― En notant α le taux d'apprentissage, la règle de mise à jour d'algorithme des moindres carrés (LMS) pour un jeu de données d'entrainement de m points, aussi connu sous le nom de règle de Widrow-Hoff, est donné par :
 
 <br>
 
@@ -156,7 +156,7 @@
 
 **27. LWR ― Locally Weighted Regression, also known as LWR, is a variant of linear regression that weights each training example in its cost function by w(i)(x), which is defined with parameter τ∈R as:**
 
-&#10230; LWR - Locally Weighted Regression, souvent noté LWR, est une variante de la simple régression linéaire qui applique un coefficient à chaque exemple par sa fonction de cost via w(i)(x), qui est défini par le paramètre τ∈R de la manière suivante :
+&#10230; LWR - Locally Weighted Regression, souvent noté LWR, est une variante de la régression linéaire appliquant un coefficient à chaque exemple dans sa fonction de coût via w(i)(x), qui est défini avec un paramètre τ∈R de la manière suivante :
 
 <br>
 
@@ -198,19 +198,19 @@
 
 **34. Exponential family ― A class of distributions is said to be in the exponential family if it can be written in terms of a natural parameter, also called the canonical parameter or link function, η, a sufficient statistic T(y) and a log-partition function a(η) as follows:**
 
-&#10230; Famille exponentielle ― Une classe de distributions est dite d'appartenir à la famille exponentielle lorsqu'elle peut être écrite en terme de paramètre naturel, aussi appelé paramètre canonique ou fonction de lien η, une statistique suffisante T(y) et une fonction de log-partition a(η) de la manière suivante :
+&#10230; Famille exponentielle ― Une classe de distributions est issue de la famille exponentielle lorsqu'elle peut être écrite en termes d'un paramètre naturel, aussi appelé paramètre canonique ou fonction de lien η, d'une statistique suffisante T(y) et d'une fonction de log-partition a(η) de la manière suivante :
 
 <br>
 
 **35. Remark: we will often have T(y)=y. Also, exp(−a(η)) can be seen as a normalization parameter that will make sure that the probabilities sum to one.**
 
-&#10230; Remarque : on aura souvent T(y)=y. Aussi, exp(−a(η)) peut être vu comme un paramètre normalisant qui s'assurera que les probabilités somment à un.
+&#10230; Remarque : on aura souvent T(y)=y. Aussi, exp(−a(η)) peut être vu comme un paramètre de normalisation s'assurant que les probabilités somment à un.
 
 <br>
 
 **36. Here are the most common exponential distributions summed up in the following table:**
 
-&#10230; Voici les distributions exponentielles les plus communémment rencontrées, récapitulées dans le tableau ci-dessous : 
+&#10230; Les distributions exponentielles les plus communémment rencontrées sont récapitulées dans le tableau ci-dessous : 
 
 <br>
 
@@ -222,13 +222,13 @@
 
 **38. Assumptions of GLMs ― Generalized Linear Models (GLM) aim at predicting a random variable y as a function fo x∈Rn+1 and rely on the following 3 assumptions:**
 
-&#10230; Hypothèses pour les GLMs ― Les modèles linéaires généralisés (GLM) ont pour but de prédire une variable aléatoire y comme une fonction de x∈Rn+1 et repose sur les 3 hypothèses suivantes :
+&#10230; Hypothèses pour les GLMs ― Les modèles linéaires généralisés (GLM) ont pour but de prédire une variable aléatoire y comme une fonction de x∈Rn+1 et reposent sur les 3 hypothèses suivantes :
 
 <br>
 
 **39. Remark: ordinary least squares and logistic regression are special cases of generalized linear models.**
 
-&#10230; Remarque : la méthode des moindres carrés ordinaires et la régression logistique sont des cas spéciaux des modèle linéaires généralisés.
+&#10230; Remarque : la méthode des moindres carrés ordinaires et la régression logistique sont des cas spéciaux des modèles linéaires généralisés.
 
 <br>
 
@@ -246,7 +246,7 @@
 
 **42: Optimal margin classifier ― The optimal margin classifier h is such that:**
 
-&#10230; Classifieur à marges optimales ― Le classifier à marges optimales h est tel que :
+&#10230; Classifieur à marges optimales ― Le classifieur à marges optimales h est tel que :
 
 <br>
 
@@ -288,19 +288,19 @@
 
 **49. In practice, the kernel K defined by K(x,z)=exp(−||x−z||22σ2) is called the Gaussian kernel and is commonly used.**
 
-&#10230; En pratique, le noyau K défini par K(x,z)=exp(−||x−z||22σ2) est appelé le noyau gaussien, et est communément utilisé.
+&#10230; En pratique, le noyau K défini par K(x,z)=exp(−||x−z||22σ2) est nommé noyau gaussien et est communément utilisé.
 
 <br>
 
 **50. [Non-linear separability, Use of a kernel mapping, Decision boundary in the original space]**
 
-&#10230; [Séparabilité non-linéaire, Utilisation d'un kernel mapping, Frontière de décision dans l'espace original]
+&#10230; [Séparabilité non-linéaire, Utilisation d'un mapping de noyaux, Frontière de décision dans l'espace original]
 
 <br>
 
 **51. Remark: we say that we use the "kernel trick" to compute the cost function using the kernel because we actually don't need to know the explicit mapping ϕ, which is often very complicated. Instead, only the values K(x,z) are needed.**
 
-&#10230; Remarque : on dit que l'on utilise le "kernel trick" pour calculer la fonction de cost en utilisant le noyau parce que l'on a pas besoin de savoir le mapping explicite, qui est souvent compliquée, mais on a juste besoin d'avoir les valeurs de K(x,z).
+&#10230; Remarque : on dit que l'on utilise "l'astuce du noyau" (en anglais *kernel trick*) pour calculer la fonction de coût en utilisant le noyau parce qu'il se trouve que l'on n'a pas besoin de trouver le mapping explicite, qui est souvent compliqué. Il suffit de connaître les valeurs de K(x,z).
 
 <br>
 
@@ -318,13 +318,13 @@
 
 **54. Generative Learning**
 
-&#10230; Generative learning
+&#10230; Apprentissage génératif
 
 <br>
 
 **55. A generative model first tries to learn how the data is generated by estimating P(x|y), which we can then use to estimate P(y|x) by using Bayes' rule.**
 
-&#10230; Un modèle génératif essaie d'abord d'apprendre comment les données sont générées en estimant P(x|y), qui va nous servir à estimer P(y|x) en utilisant le théorème de Bayes. 
+&#10230; Un modèle génératif essaie d'abord d'apprendre comment les données sont générées en estimant P(x|y), nous permettant ensuite d'estimer P(y|x) par le biais du théorème de Bayes. 
 
 <br>
 
@@ -336,7 +336,7 @@
 
 **57. Setting ― The Gaussian Discriminant Analysis assumes that y and x|y=0 and x|y=1 are such that:**
 
-&#10230; Cadre ― Le Gaussian Discriminant Analysis suppose que y et x|y=0 et x|y=1 sont tel que :
+&#10230; Cadre ― Le Gaussian Discriminant Analysis suppose que y et x|y=0 et x|y=1 sont tels que :
 
 <br>
 
@@ -354,13 +354,13 @@
 
 **60. Assumption ― The Naive Bayes model supposes that the features of each data point are all independent:**
 
-&#10230; Hypothèse ― Le modèle de Naive Bayes suppose que les caractéristiques de chaque point sont tous indépendants :
+&#10230; Hypothèse ― Le modèle de Naive Bayes suppose que les caractéristiques de chaque point sont toutes indépendantes :
 
 <br>
 
 **61. Solutions ― Maximizing the log-likelihood gives the following solutions, with k∈{0,1},l∈[[1,L]]**
 
-&#10230; Solutions ― Maximiser la log vraisemblance donne les solutions suivantes, avec k∈{0,1},l∈[[1,L]]
+&#10230; Solutions ― Maximiser la log vraisemblance donne les solutions suivantes, où k∈{0,1},l∈[[1,L]]
 
 <br>
 
@@ -378,13 +378,13 @@
 
 **64. These methods can be used for both regression and classification problems.**
 
-&#10230; Ces méthode peuvent être utilisées pour des problèmes de régression et de classification.
+&#10230; Ces méthodes peuvent être utilisées pour des problèmes de régression et de classification.
 
 <br>
 
 **65. CART ― Classification and Regression Trees (CART), commonly known as decision trees, can be represented as binary trees. They have the advantage to be very interpretable.**
 
-&#10230; CART ― Classification and Regression Trees (CART), aussi connu sous le nom d'arbre de décision, peut être représenté sous la forme d'arbres binaires. Ils ont l'avantage d'être très interprétable.
+&#10230; CART ― Les arbres de classification et de régression (en anglais *CART - Classification And Regression Trees*), aussi connus sous le nom d'arbres de décision, peuvent être représentés sous la forme d'arbres binaires. Ils ont l'avantage d'être très interprétables.
 
 <br>
 
@@ -396,19 +396,19 @@
 
 **67. Remark: random forests are a type of ensemble methods.**
 
-&#10230; Remarque : les random forests sont un type de méthodes d'ensemble.
+&#10230; Remarque : les random forests sont un type de méthode ensembliste.
 
 <br>
 
 **68. Boosting ― The idea of boosting methods is to combine several weak learners to form a stronger one. The main ones are summed up in the table below:**
 
-&#10230; Boosting ― L'idée des méthodes de boosting est de combiner plusieurs modèles faibles pour former un modèle meilleurs. Les principales méthodes de boosting sont récapitulées dans le tableau ci-dessous :
+&#10230; Boosting ― L'idée des méthodes de boosting est de combiner plusieurs modèles faibles pour former un modèle meilleur. Les principales méthodes de boosting sont récapitulées dans le tableau ci-dessous :
 
 <br>
 
 **69. [Adaptive boosting, Gradient boosting]**
 
-&#10230; [Adaptive boosting, Gradient boosting]
+&#10230; [Boosting adaptif, Boosting par gradient]
 
 <br>
 
@@ -420,7 +420,7 @@
 
 **71. Weak learners trained on remaining errors**
 
-&#10230; Les modèles faibles sont trainés sur les erreurs restantes
+&#10230; Les modèles faibles sont entrainés sur les erreurs résiduelles
 
 <br>
 
@@ -432,7 +432,7 @@
 
 **73. k-nearest neighbors ― The k-nearest neighbors algorithm, commonly known as k-NN, is a non-parametric approach where the response of a data point is determined by the nature of its k neighbors from the training set. It can be used in both classification and regression settings.**
 
-&#10230; k-nearest neighbors ― L'algorithme des k-nearest neighbors, aussi connu sous le nom de k-NN, est une approche non-paramétrique où la réponse d'un point est déterminée par la nature de ses k voisins dans le training set. Il peut être utilisé dans des cadres de classification et de régression.
+&#10230; k-nearest neighbors ― L'algorithme des k voisins les plus proches (en anglais *k-nearest neighbors*), aussi connu sous le nom de k-NN, est une approche non-paramétrique où la réponse d'un point est déterminée par la nature de ses k voisins du jeu de données d'entrainement. Il peut être utilisé dans des cadres de classification et de régression.
 
 <br>
 
@@ -444,7 +444,7 @@
 
 **75. Learning Theory**
 
-&#10230; Learning Theory
+&#10230; Théorie d'apprentissage
 
 <br>
 
@@ -468,37 +468,37 @@
 
 **79. Training error ― For a given classifier h, we define the training error ˆϵ(h), also known as the empirical risk or empirical error, to be as follows:**
 
-&#10230; Erreur de training ― Pour un classifieur donné h, on définit l'erreur de training ˆϵ(h), aussi connu sous le nom de risque empirique ou d'erreur empirique, par :
+&#10230; Erreur de training ― Pour un classifieur donné h, on définit l'erreur d'entrainement ˆϵ(h), aussi connu sous le nom de risque empirique ou d'erreur empirique, par :
 
 <br>
 
 **80. Probably Approximately Correct (PAC) ― PAC is a framework under which numerous results on learning theory were proved, and has the following set of assumptions: **
 
-&#10230; Probablement Approximativement Correct (PAC) ― PAC est un cadre dans lequel de nombreux résultats sur la learning theory ont été prouvé, et a les ensembles d'hypothèses suivants :
+&#10230; Probablement Approximativement Correct (PAC) ― PAC est un cadre dans lequel de nombreux résultats d'apprentissages ont été prouvés, et contient l'ensemble d'hypothèses suivant :
 
 <br>
 
 **81: the training and testing sets follow the same distribution **
 
-&#10230; les training et testing sets suivent la même distribution
+&#10230; les jeux d'entrainement et de test suivent la même distribution
 
 <br>
 
 **82. the training examples are drawn independently**
 
-&#10230; les exemples de training sont tirés indépendamment
+&#10230; les exemples du jeu d'entrainement sont tirés indépendamment
 
 <br>
 
 **83. Shattering ― Given a set S={x(1),...,x(d)}, and a set of classifiers H, we say that H shatters S if for any set of labels {y(1),...,y(d)}, we have:**
 
-&#10230; Shattering ― Étant donné un ensemble S={x(1),...,x(d)}, et un ensemble de classifieurs H, on dit que H brise S si pour tout ensemble de labels {y(1),...,y(d)}, on a :
+&#10230; Éclatement ― Étant donné un ensemble S={x(1),...,x(d)}, et un ensemble de classifieurs H, on dit que H brise S si pour tout ensemble de labels {y(1),...,y(d)}, on a :
 
 <br>
 
 **84. Upper bound theorem ― Let H be a finite hypothesis class such that |H|=k and let δ and the sample size m be fixed. Then, with probability of at least 1−δ, we have:**
 
-&#10230; Théorème de la borne supérieure ― Soit H une hypothèse finie de classe tel que |H|=k et soit δ et la taille de l'échantillon m fixes. Alors, avec un probabilité d'au moins 1−δ, on a :
+&#10230; Théorème de la borne supérieure ― Soit H une hypothèse finie de classe telle que |H|=k, soit δ, et soit m la taille fixée d'un échantillon. Alors, avec une probabilité d'au moins 1−δ, on a :
 
 <br>
 
@@ -510,10 +510,10 @@
 
 **86. Remark: the VC dimension of H={set of linear classifiers in 2 dimensions} is 3.**
 
-&#10230; Remarque : la dimension VC de H={ensemble of classifieurs linéaires à 2 dimensions} est 3.
+&#10230; Remarque : la dimension VC de H={ensemble of classifieurs linéaires à 2 dimensions} est égale à 3.
 
 <br>
 
 **87. Theorem (Vapnik) ― Let H be given, with VC(H)=d and m the number of training examples. With probability at least 1−δ, we have:**
 
-&#10230; Théorème (Vapnik) ― Soit H donné, avec VC(H) = d avec m le nombre d'exemples de training. Avec une probabilité d'au moins 1−δ, on a :
+&#10230; Théorème (Vapnik) ― Soit H donné, avec VC(H) = d avec m le nombre d'exemples d'entrainement. Avec une probabilité d'au moins 1−δ, on a :

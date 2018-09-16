@@ -289,3 +289,34 @@
 **49. Q-learning ― Q-learning is a model-free estimation of Q, which is done as follows:**
 
 &#10230; Aprendizado Q - Aprendizado Q é um modelo livre de estimativa de Q, o qual é feito como se segue:
+
+<br>
+
+**50. View PDF version on GitHub**
+
+&#10230; Veja a versão em PDF no GitHub
+
+<br>
+
+**51. [Neural Networks, Architecture, Activation function, Backpropagation, Dropout]**
+
+&#10230; [Redes Neurais, Arquitetura, Função de ativação, Retropropagação, Abandono (Dropout)]
+
+<br>
+
+**52. [Convolutional Neural Networks, Convolutional layer, Batch normalization]**
+
+&#10230; [Redes Neurais Convolucionais, Camada convolucional, Normalização em lote]
+
+<br>
+
+**53. [Recurrent Neural Networks, Gates, LSTM]**
+
+&#10230;[Redes Nerais Recorrentes, Portas (Gates), LSTM]
+
+<br>
+
+**54. [Reinforcement learning, Markov decision processes, Value/policy iteration, Approximate dynamic programming, Policy search]**
+
+&#10230; [Aprendizado reforçado, Processo de decisão de Markov, Iteração de valor/diretriz, Programação dinâmica aproximada, Busca de diretriz]
+

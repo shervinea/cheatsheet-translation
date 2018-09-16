@@ -22,15 +22,15 @@
 
 <br>
 
-**5. Matrix ― We note A∈Rm×n a matrix with n rows and m, where Ai,j∈R is the entry located in the ith row and jth column:**
+**5. Matrix ― We note A∈Rm×n a matrix with m rows and n columns, where Ai,j∈R is the entry located in the ith row and jth column:**
 
-&#10230; Matrice ― On note A∈Rm×n une matrice à n lignes et m colonnes, où Ai,j∈R est l'entrée située à la ième ligne et jième colonne : 
+&#10230; Matrice ― On note A∈Rm×n une matrice à m lignes et n colonnes, où Ai,j∈R est l'entrée située à la ième ligne et jième colonne : 
 
 <br>
 
 **6. Remark: the vector x defined above can be viewed as a n×1 matrix and is more particularly called a column-vector.**
 
-&#10230; Remarque : le vecteur x défini ci-dessus peut être vu comme un matrix n×1 et est plus particulièrement appelé un vecteur colonne.
+&#10230; Remarque : le vecteur x défini ci-dessus peut être vu comme une matrice n×1 et est aussi appelé vecteur colonne.
 
 <br>
 
@@ -42,7 +42,7 @@
 
 **8. Identity matrix ― The identity matrix I∈Rn×n is a square matrix with ones in its diagonal and zero everywhere else:**
 
-&#10230; Matrice identitée ― La matrice identitée I∈Rn×n est une matrice carrée avec des uns sur sa diagonale et des zéros partout ailleurs :
+&#10230; Matrice identitée ― La matrice identitée I∈Rn×n est une matrice carrée avec des 1 sur sa diagonale et des 0 partout ailleurs :
 
 <br>
 
@@ -54,7 +54,7 @@
 
 **10. Diagonal matrix ― A diagonal matrix D∈Rn×n is a square matrix with nonzero values in its diagonal and zero everywhere else:**
 
-&#10230; Matrice diagonale ― Une matrice diagonale D∈Rn×n est une matrice carée avec des valeurs non nulles sur sa diagonale et des zéros partout ailleurs.
+&#10230; Matrice diagonale ― Une matrice diagonale D∈Rn×n est une matrice carrée avec des valeurs non nulles sur sa diagonale et des zéros partout ailleurs.
 
 <br>
 
@@ -66,7 +66,7 @@
 
 **12. Matrix operations**
 
-&#10230; Opérations de matrice
+&#10230; Opérations matricielles
 
 <br>
 
@@ -102,7 +102,7 @@
 
 **18. where aTr,i are the vector rows and ac,j are the vector columns of A, and xi are the entries of x.**
 
-&#10230; où aTr,i sont les vecteurs lignes et ac,j sont les vecteurs colonnes de A et xi sont les entrées de x.
+&#10230; où aTr,i sont les vecteurs-ligne et ac,j sont les vecteurs-colonne de A et xi sont les entrées de x.
 
 <br>
 
@@ -114,7 +114,7 @@
 
 **20. where aTr,i,bTr,i are the vector rows and ac,j,bc,j are the vector columns of A and B respectively**
 
-&#10230; où aTr,i,bTr,i sont des vecteurs lignes et ac,j,bc,j sont des vecteurs colonnes de A et B respectivement.
+&#10230; où aTr,i,bTr,i sont des vecteurs-ligne et ac,j,bc,j sont des vecteurs-colonne de A et B respectivement.
 
 <br>
 
@@ -150,19 +150,19 @@
 
 **26. Trace ― The trace of a square matrix A, noted tr(A), is the sum of its diagonal entries:**
 
-&#10230; Trace ― La trace d'une matrice carée A, notée tr(A), est la somme de ses entrées diagonales :
+&#10230; Trace ― La trace d'une matrice carrée A, notée tr(A), est la somme de ses entrées diagonales :
 
 <br>
 
 **27. Remark: for matrices A,B, we have tr(AT)=tr(A) and tr(AB)=tr(BA)**
 
-&#10230; Remarque : pour toute matrices A, B, on a tr(AT)=tr(A) et tr(AB)=tr(BA).
+&#10230; Remarque : pour toutes matrices A, B, on a tr(AT)=tr(A) et tr(AB)=tr(BA).
 
 <br>
 
 **28. Determinant ― The determinant of a square matrix A∈Rn×n, noted |A| or det(A) is expressed recursively in terms of A∖i,∖j, which is the matrix A without its ith row and jth column, as follows:**
 
-&#10230; Déterminant ― Le déterminant d'une matrice carée A∈Rn×n, notée |A| ou det(A) est exprimée récursivement en termes de A∖i,∖j, qui est la matrice A sans sa ième ligne et jième colonne, de la manière suivante :
+&#10230; Déterminant ― Le déterminant d'une matrice carrée A∈Rn×n notée |A| ou det(A) est exprimée récursivement en termes de A∖i,∖j, qui est la matrice A sans sa ième ligne et jième colonne, de la manière suivante :
 
 <br>
 
@@ -174,7 +174,7 @@
 
 **30. Matrix properties**
 
-&#10230; Propriétés de matrice
+&#10230; Propriétés matricielles
 
 <br>
 
@@ -228,13 +228,13 @@
 
 **39. Linearly dependence ― A set of vectors is said to be linearly dependent if one of the vectors in the set can be defined as a linear combination of the others.**
 
-&#10230; Dépendance linéaire ― Un ensemble de vecteurs est considéré comme étant linéairement dépendant si un des vecteurs dans l'ensemble peut être défini comme une combinaison des autres.
+&#10230; Dépendance linéaire ― Un ensemble de vecteurs est considéré comme étant linéairement dépendant si un des vecteurs de cet ensemble peut être défini comme une combinaison des autres.
 
 <br>
 
 **40. Remark: if no vector can be written this way, then the vectors are said to be linearly independent**
 
-&#10230; Remarque : si aucun vecteur peut être noté de cette manière, alors les vecteurs sont dits être linéairement indépendants
+&#10230; Remarque : si aucun vecteur ne peut être noté de cette manière, alors les vecteurs sont dits linéairement indépendants.
 
 <br>
 
@@ -246,19 +246,19 @@
 
 **42. Positive semi-definite matrix ― A matrix A∈Rn×n is positive semi-definite (PSD) and is noted A⪰0 if we have:**
 
-&#10230; Matrice semi-définie positive ― Une matrice A∈Rn×n est semi-définie positive et est ntoée A⪰0 si l'on a :
+&#10230; Matrice semi-définie positive ― Une matrice A∈Rn×n est semi-définie positive et est notée A⪰0 si l'on a :
 
 <br>
 
 **43. Remark: similarly, a matrix A is said to be positive definite, and is noted A≻0, if it is a PSD matrix which satisfies for all non-zero vector x, xTAx>0.**
 
-&#10230; Remarque : de manière similaire, une matrice A est dite définie positive et est notée A≻0 si c'est une matrice semi-définie positive telle que pour tout vector x non-nul, xTAx>0.
+&#10230; Remarque : de manière similaire, une matrice A est dite définie positive et est notée A≻0 si elle est semi-définie positive et que pour tout vector x non-nul, on a xTAx>0.
 
 <br>
 
 **44. Eigenvalue, eigenvector ― Given a matrix A∈Rn×n, λ is said to be an eigenvalue of A if there exists a vector z∈Rn∖{0}, called eigenvector, such that we have:**
 
-&#10230; Valeur propre, vecteur propre ― Étant donné une matrice A∈Rn×n, λ est une valuer propre de A s'il existe un vecteur z∈Rn∖{0}, appelé vecteur propre, tel que l'on a :
+&#10230; Valeur propre, vecteur propre ― Étant donné une matrice A∈Rn×n, λ est une valeur propre de A s'il existe un vecteur z∈Rn∖{0}, appelé vecteur propre, tel que :
 
 <br>
 
@@ -276,40 +276,40 @@
 
 **47. Singular-value decomposition ― For a given matrix A of dimensions m×n, the singular-value decomposition (SVD) is a factorization technique that guarantees the existence of U m×m unitary, Σ m×n diagonal and V n×n unitary matrices, such that:**
 
-&#10230; Décomposition en valeurs singulières ― Pour une matrice donnée A de dimensions m×n, la décomposition en valeurs singulières est une technique de factorisation qui garantie l'existence d'une matrice unitaire U m×m, une matrice diagonale Σ m×n et d'une matrice unitaire V n×n, tel que :
+&#10230; Décomposition en valeurs singulières ― Pour une matrice A de dimensions m×n, la décomposition en valeurs singulières est une technique de factorisation qui garantit l'existence d'une matrice unitaire U m×m, d'une matrice diagonale Σ m×n et d'une matrice unitaire V n×n, tel que :
 
 <br>
 
 **48. Matrix calculus**
 
-&#10230; Analyse de matrices
+&#10230; Analyse matricielle
 
 <br>
 
 **49. Gradient ― Let f:Rm×n→R be a function and A∈Rm×n be a matrix. The gradient of f with respect to A is a m×n matrix, noted ∇Af(A), such that:**
 
-&#10230; Gradient ― Soit f:Rm×n→R une fonction et A∈Rm×n une matrice. Le gradient de f par rapport à A est une matrice m×n, notée ∇Af(A), telle que :
+&#10230; Gradient ― Soit f:Rm×n→R une fonction et A∈Rm×n une matrice. Le gradient de f par rapport à A est une matrice de taille m×n, notée ∇Af(A), telle que :
 
 <br>
 
 **50. Remark: the gradient of f is only defined when f is a function that returns a scalar.**
 
-&#10230; Remarque : le gradient de f est seulement définie lorsque f est une fonction qui retourne un scalaire.
+&#10230; Remarque : le gradient de f est seulement défini lorsque f est une fonction donnant un scalaire.
 
 <br>
 
 **51. Hessian ― Let f:Rn→R be a function and x∈Rn be a vector. The hessian of f with respect to x is a n×n symmetric matrix, noted ∇2xf(x), such that:**
 
-&#10230; Hessienne ― Soit f:Rn→R une fonction et x∈Rn un vecteur. La hessienne de f par rapport à x est une matrice symmetrique n×n, notée ∇2xf(x), tel que : 
+&#10230; Hessienne ― Soit f:Rn→R une fonction et x∈Rn un vecteur. La hessienne de f par rapport à x est une matrice symmetrique n×n, notée ∇2xf(x), telle que : 
 
 <br>
 
 **52. Remark: the hessian of f is only defined when f is a function that returns a scalar**
 
-&#10230; Remarque : la hessienne de f est seulement définie lorsque f est une fonction qui retourne un scalaire.
+&#10230; Remarque : la hessienne de f est seulement définie lorsque f est une fonction qui donne un scalaire.
 
 <br>
 
 **53. Gradient operations ― For matrices A,B,C, the following gradient properties are worth having in mind:**
 
-&#10230; Opérations de gradient ― Pour des matrices A,B,C, les propriétés de gradients suivants sont bons à savoir :
+&#10230; Opérations de gradient ― Pour des matrices A,B,C, les propriétés de gradient suivants sont bons à savoir :

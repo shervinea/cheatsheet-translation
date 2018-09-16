@@ -24,7 +24,7 @@
 
 **5. [Predicted class, Actual class]**
 
-&#10230; [Classe prédite, classe actuelle]
+&#10230; [Classe prédite, classe vraie]
 
 <br>
 

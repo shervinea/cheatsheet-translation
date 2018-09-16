@@ -30,7 +30,7 @@
 
 **6. By noting i the ith layer of the network and j the jth hidden unit of the layer, we have:**
 
-&#10230; En notant i la ième couche du réseau et j la jième unité de couche cachée, on a: 
+&#10230; En notant i la ième couche du réseau et j la jième unité de couche cachée, on a:
 
 <br>
 
@@ -54,7 +54,7 @@
 
 **10. Cross-entropy loss ― In the context of neural networks, the cross-entropy loss L(z,y) is commonly used and is defined as follows:**
 
-&#10230; Dans le contexte des réseaux de neurones, la fonction objectif de cross-entropie L(z,y) est communément utilisée et est définie de la manière suivante : 
+&#10230; Dans le contexte des réseaux de neurones, la fonction objectif de cross-entropie L(z,y) est communément utilisée et est définie de la manière suivante :
 
 <br>
 
@@ -108,7 +108,7 @@
 
 **19. Dropout ― Dropout is a technique meant at preventing overfitting the training data by dropping out units in a neural network. In practice, neurons are either dropped with probability p or kept with probability 1−p**
 
-&#10230; Dropout ― Le dropout est une technique qui est destinée à empêcher le sur-ajustement sur les données de training en abandonnant des unités dans un réseau de neurones. En pratique, les neurones sont soit abandonnés avec une probabilité p ou gardés avec une probabilité 1-p 
+&#10230; Dropout ― Le dropout est une technique qui est destinée à empêcher le sur-ajustement sur les données de training en abandonnant des unités dans un réseau de neurones. En pratique, les neurones sont soit abandonnés avec une probabilité p ou gardés avec une probabilité 1-p
 
 <br>
 

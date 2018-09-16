@@ -24,7 +24,7 @@
 
 **5. Matrix ― We note A∈Rm×n a matrix with m rows and n columns, where Ai,j∈R is the entry located in the ith row and jth column:**
 
-&#10230; Matrice ― On note A∈Rm×n une matrice à n lignes et m colonnes, où Ai,j∈R est l'entrée située à la ième ligne et jième colonne : 
+&#10230; Matrice ― On note A∈Rm×n une matrice à m lignes et n colonnes, où Ai,j∈R est l'entrée située à la ième ligne et jième colonne : 
 
 <br>
 

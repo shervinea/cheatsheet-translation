@@ -12,13 +12,13 @@
 
 **3. Sample space ― The set of all possible outcomes of an experiment is known as the sample space of the experiment and is denoted by S.**
 
-۳. فضای نمونه - مجموعه‌ی همه‌ی پیشامدهای یک آزمایش را فضای نمونه‌ی آن آزمایش گویند که با $S$ نمایش داده می‌شود.
+فضای نمونه - مجموعه‌ی همه‌ی پیشامدهای یک آزمایش را فضای نمونه‌ی آن آزمایش گویند که با $S$ نمایش داده می‌شود.
 
 <br>
 
 **4. Event ― Any subset E of the sample space is known as an event. That is, an event is a set consisting of possible outcomes of the experiment. If the outcome of the experiment is contained in E, then we say that E has occurred.**
 
-۴. پدیده - هر زیرمجموعه‌ی $E$از فضای نمونه یک پدیده در نظر گرفته می‌شود.
+پدیده - هر زیرمجموعه‌ی $E$از فضای نمونه یک پدیده در نظر گرفته می‌شود.
 به عبارت دیگر، یک پدیده مجموعه‌ای از پیشامدهای یک آزمایش است.
 اگر پیشامد یک آزمایش عضوی از مجموعه‌ی $E$ باشد، در این حالت می‌گوییم که پدیده‌ی $E$ اتفاق افتاده است.
 

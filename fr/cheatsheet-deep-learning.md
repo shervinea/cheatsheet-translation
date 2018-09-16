@@ -234,7 +234,7 @@
 
 **40. Value function ― For a given policy π and a given state s, we define the value function Vπ as follows:**
 
-&#10230; Fonction de valeurs ― Pour une politique donnée π et un état donné s, on définie la fonction de valeurs Vπ comme suit :
+&#10230; Fonction de valeurs ― Pour une politique donnée π et un état donné s, on définit la fonction de valeurs Vπ comme suit :
 
 <br>
 

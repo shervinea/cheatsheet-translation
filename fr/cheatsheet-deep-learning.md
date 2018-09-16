@@ -150,7 +150,7 @@
 
 **26. [Input gate, forget gate, gate, output gate]**
 
-&#10230; [Porte d'entrée, porte d'oubli, gate, porte de sortie]
+&#10230; [Porte d'entrée, porte d'oubli, porte, porte de sortie]
 
 <br>
 

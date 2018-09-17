@@ -1,120 +1,121 @@
 **1. Unsupervised Learning cheatsheet**
 
-&#10230;
+راهنمای کوتاه یادگیری بدون نظارت
 
 <br>
 
 **2. Introduction to Unsupervised Learning**
 
-&#10230;
+مبانی یادگیری بدون نظارت
 
 <br>
 
 **3. Motivation ― The goal of unsupervised learning is to find hidden patterns in unlabeled data {x(1),...,x(m)}.**
 
-&#10230;
+انگیزه - هدف از یادگیری بدون نظارت کشف الگوهای پنهان در داده‌های بدون برچسب $\{x_1, \dots, x_m\}$ است.
 
 <br>
 
 **4. Jensen's inequality ― Let f be a convex function and X a random variable. We have the following inequality:**
 
-&#10230;
+نابرابری ینسن - فرض کنید $f$ تابعی محدب و $X$ یک متغیر تصادفی باشد. در این صورت نابرابری زیر را داریم:
 
 <br>
 
 **5. Clustering**
 
-&#10230;
+خوشه‌بندی
 
 <br>
 
 **6. Expectation-Maximization**
 
-&#10230;
+بیشینه‌سازی امید ریاضی
 
 <br>
 
 **7. Latent variables ― Latent variables are hidden/unobserved variables that make estimation problems difficult, and are often denoted z. Here are the most common settings where there are latent variables:**
 
-&#10230;
+متغیرهای نهفته - متغیرهای نهفته متغیرهای پنهان یا مشاهده‌نشده‌ای هستند که مسائل تخمین را دشوار می‌کنند، و معمولاً با $z$ نمایش داده می‌شوند. شرایط معمول که در آن‌ها متغیرهای نهفته وجود دارند در زیر آمده‌اند:
 
 <br>
 
 **8. [Setting, Latent variable z, Comments]**
 
-&#10230;
+[موقعیت، متغیر نفهته‌ی $z$، توضیح]
 
 <br>
 
 **9. [Mixture of k Gaussians, Factor analysis]**
 
-&#10230;
+[ترکیب $k$ توزیع گاوسی، تحلیل عامل]
 
 <br>
 
 **10. Algorithm ― The Expectation-Maximization (EM) algorithm gives an efficient method at estimating the parameter θ through maximum likelihood estimation by repeatedly constructing a lower-bound on the likelihood (E-step) and optimizing that lower bound (M-step) as follows:**
 
-&#10230;
+الگوریتم - الگوریتم بیشینه‌سازی امید ریاضی روشی بهینه برای تخمین پارامترهای $
+theta$ از طریق تخمین درستی بشینه در اختیار قرار می‌دهد. این کار با تکرار مرحله‌ی به دست آوردن یک کران پایین برای درستی (مرحله‌ی امید ریاضی) و همچنین بهینه‌سازی آن کران پایین (مرحله‌ی بیشینه‌سازی) طبق توضیح زیر انجام می‌شود:
 
 <br>
 
 **11. E-step: Evaluate the posterior probability Qi(z(i)) that each data point x(i) came from a particular cluster z(i) as follows:**
 
-&#10230;
+مرحله‌ی امید ریاضی:‌احتمال پسین $Q_i(z(i))$ که هر نمونه داده $x(i)$ متعلق به خوشه‌ی $z(i)$ باشد به صورت زیر محاسب می‌شود:
 
 <br>
 
 **12. M-step: Use the posterior probabilities Qi(z(i)) as cluster specific weights on data points x(i) to separately re-estimate each cluster model as follows:**
 
-&#10230;
+مرحله‌ی بیشینه‌سازی: با استفاده از احتمالات پسین $Q_i(z(i))$ به عنوان وزن‌های وابسته به خوشه‌ها برای نمونه‌های داده‌ی $x(i)$، مدل مربوط به هر کدام از خوشه‌ها، طبق توضیح زیر، دوباره تخمین زده می‌شوند: 
 
 <br>
 
 **13. [Gaussians initialization, Expectation step, Maximization step, Convergence]**
 
-&#10230;
+[مقداردهی اولیه‌ی توزیع‌های گاوسی، مرحله‌ی امید ریاضی، مرحله‌ی بیشینه‌سازی، هم‌گرایی]
 
 <br>
 
 **14. k-means clustering**
 
-&#10230;
+خوشه‌بندی $k$-میانگین
 
 <br>
 
 **15. We note c(i) the cluster of data point i and μj the center of cluster j.**
 
-&#10230;
+توجه کنید که $c(i)$ خوشه‌ی نمونه داده‌ی $i$ و $\mu_j$ مرکز خوشه‌ی $j$ است.
 
 <br>
 
 **16. Algorithm ― After randomly initializing the cluster centroids μ1,μ2,...,μk∈Rn, the k-means algorithm repeats the following step until convergence:**
 
-&#10230;
+الگوریتم - بعد از مقداردهی اولیه‌ی تصادفی مراکز خوشه‌ها $\mu_1, \mu_2, \dots, \mu_k \in \mathbb{R}^n$، الگوریتم $k$-میانگین مراحل زیر را تا هم‌گرایی تکرار می‌کند:
 
 <br>
 
 **17. [Means initialization, Cluster assignment, Means update, Convergence]**
 
-&#10230;
+[مقداردهی اولیه‌ی میانگین‌ها، تخصیص خوشه، به‌روزرسانی میانگین‌ها، هم‌گرایی]
 
 <br>
 
 **18. Distortion function ― In order to see if the algorithm converges, we look at the distortion function defined as follows:**
 
-&#10230;
+تابع اعوجاج - برای تشخیص اینکه الگوریتم به هم‌گرایی رسیده است، با تابع اعوجاج که به صورت زیر تعریف می‌شود رجوع می‌کنیم:
 
 <br>
 
 **19. Hierarchical clustering**
 
-&#10230;
+خوشه‌بندی سلسله‌مراتبی
 
 <br>
 
 **20. Algorithm ― It is a clustering algorithm with an agglomerative hierarchical approach that build nested clusters in a successive manner.**
 
-&#10230;
+الگوریتم - یک الگوریتم خوشه‌بندی سلسله‌مراتبی تجمعی است که خوشه‌های تودرتو را به صورت پی‌در‌پی ایجاد می‌کند.
 
 <br>
 

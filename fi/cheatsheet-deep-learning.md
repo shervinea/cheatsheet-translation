@@ -1,54 +1,54 @@
 **1. Deep Learning cheatsheet**
 
-&#10230;
+&#10230; Syväoppimisen lunttilappu
 
 <br>
 
 **2. Neural Networks**
 
-&#10230;
+&#10230; Neuroverkot
 
 <br>
 
 **3. Neural networks are a class of models that are built with layers. Commonly used types of neural networks include convolutional and recurrent neural networks.**
 
-&#10230;
+&#10230; Neuroverkot ovat laskennallisia malleja, jotka ovat rakenteeltaan kerroksellisia. Esimerkiksi konvoluutioneuroverkot sekä takaisinkytkeytyvät neuroverkot ovat yleisiä neuroverkkojen tyyppejä.
 
 <br>
 
 **4. Architecture ― The vocabulary around neural networks architectures is described in the figure below:**
 
-&#10230;
+&#10230; Arkkitehtuuri - Neuroverkkojen arkkitehtuuriin liittyvää sanastoa on kuvattu alla olevassa kaaviossa:
 
 <br>
 
 **5. [Input layer, hidden layer, output layer]**
 
-&#10230;
+&#10230; [Syötekerros, piilokerros, ulostulokerros]
 
 <br>
 
 **6. By noting i the ith layer of the network and j the jth hidden unit of the layer, we have:**
 
-&#10230;
+&#10230; Merkitsemällä i:llä verkon kerrosta i, sekä j:llä kerroksen piilotettua solmua j, saadaan:
 
 <br>
 
 **7. where we note w, b, z the weight, bias and output respectively.**
 
-&#10230;
+&#10230; jossa w, b ja z merkitsevät painokertoimia, vakiotermiä (bias) ja ulostulosignaalia.
 
 <br>
 
 **8. Activation function ― Activation functions are used at the end of a hidden unit to introduce non-linear complexities to the model. Here are the most common ones:**
 
-&#10230;
+&#10230; Aktivaatiofunktio - Aktivaatiofunktion avulla saadaan neuronin tuloste, ja malliin on mahdollista tuoda epälineaarisia elementtejä. Alla ovat yleisimmin käytetyt aktivaatiofunktiot: 
 
 <br>
 
 **9. [Sigmoid, Tanh, ReLU, Leaky ReLU]**
 
-&#10230;
+&#10230; [Sigmoidi, Tanh, ReLU, Leaky ReLU]
 
 <br>
 

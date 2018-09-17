@@ -6,13 +6,13 @@
 
 **2. Classification metrics**
 
-&#10230; Metricas de clasificación
+&#10230; Métricas de clasificación
 
 <br>
 
 **3. In a context of a binary classification, here are the main metrics that are important to track in order to assess the performance of the model.**
 
-&#10230; En el contexto de una clasificacion binaría, estas son las principales metricas que se tienen que checar para evaluar el desempeño del modelo
+&#10230; En el contexto de una clasificacion binaría, estas son las principales métricas que se tienen que seguir para evaluar el desempeño del modelo
 
 <br>
 
@@ -72,7 +72,7 @@
 
 **13. ROC ― The receiver operating curve, also noted ROC, is the plot of TPR versus FPR by varying the threshold. These metrics are are summed up in the table below:**
 
-&#10230; Curva ROC ― La curva receptora de operaciones, por sus siglás en inglés ROC, es la gráfica de los Verdaderos Valores Positivos (TPR) contra los Valores Falsos Positivos (FPR) variando el umbral. Estas métricas son englobadas en la tabla siguiente: 
+&#10230; Curva Curva de operación del receptor (ROC) ― La curva receptora de operaciones, por sus siglás en inglés ROC, es la gráfica de los Tasa de verdaderos positivos" (TPR) contra los Tasa de falsos positivos (FPR) variando el umbral. Estas métricas son resumidas en la tabla siguiente: 
 
 <br>
 
@@ -84,13 +84,13 @@
 
 **15. AUC ― The area under the receiving operating curve, also noted AUC or AUROC, is the area below the ROC as shown in the following figure:**
 
-&#10230; AUC ― Área bajo la curva ROC, también llamda AUC o AUROC, es la área debajo de la curva ROC como se muestra en la siguiente figura:
+&#10230; AUC ― Área bajo la curva ROC, también llamda AUC o AUROC, es la área bajo de la curva ROC como se muestra en la siguiente figura:
 
 <br>
 
 **16. [Actual, Predicted]**
 
-&#10230; [Valor actual, Predecido]
+&#10230; [Valor actual, Predicho]
 
 <br>
 

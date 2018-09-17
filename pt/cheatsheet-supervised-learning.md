@@ -282,7 +282,7 @@
 
 **48. Kernel ― Given a feature mapping ϕ, we define the kernel K to be defined as:**
 
-&#10230; Kernel - Dado um mapeamento de feature ϕ, o kernel K é definido como::
+&#10230; Kernel - Dado um mapeamento de parâmetro ϕ, o kernel K é definido como:
 
 <br>
 

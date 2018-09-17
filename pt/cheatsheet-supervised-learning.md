@@ -330,205 +330,205 @@
 
 **56. Gaussian Discriminant Analysis**
 
-&#10230;
+&#10230; Análise Discriminante Gaussiana
 
 <br>
 
 **57. Setting ― The Gaussian Discriminant Analysis assumes that y and x|y=0 and x|y=1 are such that:**
 
-&#10230;
+&#10230; Configuração - A Análise Discriminante Gaussiana assume que y e x|y=0 e x|y=1 são tais que:
 
 <br>
 
 **58. Estimation ― The following table sums up the estimates that we find when maximizing the likelihood:**
 
-&#10230;
+&#10230; Estimação - A tabela a seguir resume as estimativas que encontramos ao maximizar a probabilidade:
 
 <br>
 
 **59. Naive Bayes**
 
-&#10230;
+&#10230; Naive Bayes
 
 <br>
 
 **60. Assumption ― The Naive Bayes model supposes that the features of each data point are all independent:**
 
-&#10230;
+&#10230; Premissas - O modelo de Naive Bayes assume que os parâmetros (features) de cada dado do conjunto são independentes:
 
 <br>
 
 **61. Solutions ― Maximizing the log-likelihood gives the following solutions, with k∈{0,1},l∈[[1,L]]**
 
-&#10230;
+&#10230; Soluções -  Maximizar o logaritimo da probabilidade nos dá as seguintes soluções, com k∈{0,1},l∈[[1,L]]
 
 <br>
 
 **62. Remark: Naive Bayes is widely used for text classification and spam detection.**
 
-&#10230;
+&#10230; Observação: Naive Bayes é amplamente utilizado para classificação de texto e detecção de spam.
 
 <br>
 
 **63. Tree-based and ensemble methods**
 
-&#10230;
+&#10230; Métodos em conjunto (ensemble) e baseados em árvore
 
 <br>
 
 **64. These methods can be used for both regression and classification problems.**
 
-&#10230;
+&#10230; Esses métodos podem ser usados tanto para problemas de regressão quanto de classificação.
 
 <br>
 
 **65. CART ― Classification and Regression Trees (CART), commonly known as decision trees, can be represented as binary trees. They have the advantage to be very interpretable.**
 
-&#10230;
+&#10230; CART - Árvores de Classificação e Regressão (CART), normalmente conhecida como árvores de decisão (decision trees), podem ser representadas como árvores binárias. Elas tem a vantagem de serem facilmente interpretadas.
 
 <br>
 
 **66. Random forest ― It is a tree-based technique that uses a high number of decision trees built out of randomly selected sets of features. Contrary to the simple decision tree, it is highly uninterpretable but its generally good performance makes it a popular algorithm.**
 
-&#10230;
+&#10230; Floresta aleatória (Random forest) - É uma técnica baseada em árvore que usa um grande número de árvores de decisão construídas a partir de um conjunto aleatórios de parâmetros. Ao contrário de uma simples árvore de decisão, esta técnica é de difícil interpretação mas geralmente alcança uma boa performance, sendo um algorítimo popular.
 
 <br>
 
 **67. Remark: random forests are a type of ensemble methods.**
 
-&#10230;
+&#10230; Observação: florestas aleatórias são um tipo de métodos de conjunto (ensemble). 
 
 <br>
 
 **68. Boosting ― The idea of boosting methods is to combine several weak learners to form a stronger one. The main ones are summed up in the table below:**
 
-&#10230;
+&#10230; Boosting - A ideia dos métodos de boosting é combinar vários tipo de aprendizes fracos (weak learners) para formar um mais forte. Os principais tipos estão resumidos na tabela abaixo:
 
 <br>
 
 **69. [Adaptive boosting, Gradient boosting]**
 
-&#10230;
+&#10230; [Boosting adaptativo, Gradiente de boosting]
 
 <br>
 
 **70. High weights are put on errors to improve at the next boosting step**
 
-&#10230;
+&#10230; Pesos altos são adicionados aos erros para melhorar o próximo passo de boosting.
 
 <br>
 
 **71. Weak learners trained on remaining errors**
 
-&#10230;
+&#10230; Aprendizes fracos treinados nos erros remanescentes
 
 <br>
 
 **72. Other non-parametric approaches**
 
-&#10230;
+&#10230; Outras abordagens não paramétricas
 
 <br>
 
 **73. k-nearest neighbors ― The k-nearest neighbors algorithm, commonly known as k-NN, is a non-parametric approach where the response of a data point is determined by the nature of its k neighbors from the training set. It can be used in both classification and regression settings.**
 
-&#10230;
+&#10230; k-vizinhos próximos (k-nearest neighbors) - O algortimo de k-vizinhos próximos, normalmente conhecido como k-NN, é uma abordagem não paramétrica onde a resposta do dado é determinada pela natureza dos seus k vizinhos no conjunto de treinamento. Ele pode ser usado tanto em configurações de classificação como regressão.
 
 <br>
 
 **74. Remark: The higher the parameter k, the higher the bias, and the lower the parameter k, the higher the variance.**
 
-&#10230;
+&#10230; Observação: Quanto maior o parâmetro k, maior o viés, e quanto menor o parâmetro k, maior a variância.
 
 <br>
 
 **75. Learning Theory**
 
-&#10230;
+&#10230; Teoria de Aprendizagem
 
 <br>
 
 **76. Union bound ― Let A1,...,Ak be k events. We have:**
 
-&#10230;
+&#10230; Limite de união (union bound) - Dado que A1,...,Ak são k eventos. Temos que:
 
 <br>
 
 **77. Hoeffding inequality ― Let Z1,..,Zm be m iid variables drawn from a Bernoulli distribution of parameter ϕ. Let ˆϕ be their sample mean and γ>0 fixed. We have:**
 
-&#10230;
+&#10230; Inequalidade de Hoeffding - Dado que Z1,...,Zm são m iid variáveis desenhadas a partir de uma distribuição de Bernoulli do parâmetro ϕ. Seja ˆϕ  a média do conjunto e γ>0. Temos que:
 
 <br>
 
 **78. Remark: this inequality is also known as the Chernoff bound.**
 
-&#10230;
+&#10230; Observação: essa inequalidade também é chamada de fronteira Chernoff.
 
 <br>
 
 **79. Training error ― For a given classifier h, we define the training error ˆϵ(h), also known as the empirical risk or empirical error, to be as follows:**
 
-&#10230;
+&#10230; Erro de treinamento - Para um dado classificador h, é definido o erro de treinamento ˆϵ(h), também conhecido como o risco empírico ou o erro empírico, como:
 
 <br>
 
 **80. Probably Approximately Correct (PAC) ― PAC is a framework under which numerous results on learning theory were proved, and has the following set of assumptions: **
 
-&#10230;
+&#10230; Provavelmente Aproximadamente Correto (PAC) - PAC é uma estrutura (framework) em que numerosos resultados da teoria de aprendizagem foram provados, e tem o seguinte conjunto de premissas:
 
 <br>
 
 **81: the training and testing sets follow the same distribution **
 
-&#10230;
+&#10230; o conjunto de treino e teste seguem a mesma distribuição
 
 <br>
 
 **82. the training examples are drawn independently**
 
-&#10230;
+&#10230; os exemplos de treinamento foram extraídos de forma independente
 
 <br>
 
 **83. Shattering ― Given a set S={x(1),...,x(d)}, and a set of classifiers H, we say that H shatters S if for any set of labels {y(1),...,y(d)}, we have:**
 
-&#10230;
+&#10230; Shattering - Dado um conjunto S={x(1),...,x(d)}, e um conjunto de classificadores H, diz-se que H destrói (shatters) S se para qualquer conjunto de rótulos {y(1),...,y(d)}, temos:
 
 <br>
 
 **84. Upper bound theorem ― Let H be a finite hypothesis class such that |H|=k and let δ and the sample size m be fixed. Then, with probability of at least 1−δ, we have:**
 
-&#10230;
+&#10230; Teorema da fronteira superior - Seja H uma class de hipótese finita tal que |H|=k e seja δ e o tamanho da amostra m fixado. Então, com a probabilidade de ao menos 1−δ, temos:
 
 <br>
 
 **85. VC dimension ― The Vapnik-Chervonenkis (VC) dimension of a given infinite hypothesis class H, noted VC(H) is the size of the largest set that is shattered by H.**
 
-&#10230;
+&#10230; Dimensão VC - A dimensão Vapnik-Chervonenkis (VC) de uma classe de hipótese infinita H, denominada VC(H) é o tamanho do maior conjunto que é destruído (shattered) por H.
 
 <br>
 
 **86. Remark: the VC dimension of H={set of linear classifiers in 2 dimensions} is 3.**
 
-&#10230;
+&#10230; Observação: a dimensão VC de H={conjunto de classificadores lineares em 2 dimensões} é 3.
 
 <br>
 
 **87. Theorem (Vapnik) ― Let H be given, with VC(H)=d and m the number of training examples. With probability at least 1−δ, we have:**
 
-&#10230;
+&#10230; Teorema (Vapnik) - Dado H , com VC(H)=d e m o número de exemplos de treinamento. Com a probabilidade de ao menos 1−δ, temos que:
 
 <br>
 
 **88. [Introduction, Type of prediction, Type of model]**
 
-&#10230;
+&#10230; [Introdução, Tipo de predição, Tipo de modelo] 
 
 <br>
 
 **89. [Notations and general concepts, loss function, gradient descent, likelihood]**
 
-&#10230;
+&#10230; [Notações e conceitos gerais, funções de perda, gradiente descendente, probabilidade]
 
 <br>
 
@@ -564,4 +564,3 @@
 
 **95. [Learning theory, Hoeffding inequality, PAC, VC dimension]**
 
-&#10230;

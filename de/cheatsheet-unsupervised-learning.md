@@ -297,3 +297,8 @@ dimensions by maximizing the variance of the data as follows:**
 
 &#10230;
 
+<br>
+
+**51. The Machine Learning cheatsheets are now available in German.**
+
+&#10230;

@@ -296,3 +296,8 @@
 
 &#10230;
 
+<br>
+
+51. **The Machine Learning cheatsheets are now available in Mandarin.**
+
+&#10230;

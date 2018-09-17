@@ -234,7 +234,7 @@ d'apprentissage l'apprentissage l'ensemble d'apprentissage **1. Machine Learning
 
 **40. [High training error, Training error close to test error, High bias, Training error slightly lower than test error, Very low training error, Training error much lower than test error, High variance]**
 
-&#10230; [Erreur d'apprentissage  élevé, Erreur de d'apprentissage  proche de l'erreur sur l'ensemble d'évaluation , Biais élevé, Erreur d'apprentissage  légèrement inférieure à l'erreur sur l'ensemble d'évaluation Erreur d'apprentissage  très faible, Erreur d'apprentissage  beaucoup plus faible que l'erreur sur l'ensemble d'évaluation, Variance élevée]
+&#10230; [Erreur d'apprentissage élevée, Erreur de d'apprentissage  proche de l'erreur sur l'ensemble d'évaluation , Biais élevé, Erreur d'apprentissage  légèrement inférieure à l'erreur sur l'ensemble d'évaluation Erreur d'apprentissage  très faible, Erreur d'apprentissage  beaucoup plus faible que l'erreur sur l'ensemble d'évaluation, Variance élevée]
 
 <br>
 

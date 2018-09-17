@@ -36,7 +36,7 @@
 
 **7. Axiom 2 ― The probability that at least one of the elementary events in the entire sample space will occur is 1, i.e:**
 
-&#10230; Axiome 2 ― La probabilité qu'au moins un des évènements élementaires de tout l'univers se produise est 1, i.e. 
+&#10230; Axiome 2 ― La probabilité qu'au moins un des évènements élementaires de tout l'univers se produise est 1, i.e.
 
 <br>
 
@@ -54,7 +54,7 @@
 
 **10. Combination ― A combination is an arrangement of r objects from a pool of n objects, where the order does not matter. The number of such arrangements is given by C(n,r), defined as:**
 
-&#10230; Combinaison ― Une combinaison est un arrangement de r objets parmi n objets, où l'ordre ne compte pas. Le nombre de tels arrangements est donné par C(n,r), défini par : 
+&#10230; Combinaison ― Une combinaison est un arrangement de r objets parmi n objets, où l'ordre ne compte pas. Le nombre de tels arrangements est donné par C(n,r), défini par :
 
 <br>
 
@@ -66,7 +66,7 @@
 
 **12. Conditional Probability**
 
-&#10230; Probabilité conditionnelle 
+&#10230; Probabilité conditionnelle
 
 <br>
 

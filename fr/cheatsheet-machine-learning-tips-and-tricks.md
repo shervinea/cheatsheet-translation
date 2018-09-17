@@ -1,4 +1,4 @@
-**1. Machine Learning tips and tricks cheatsheet**
+d'apprentissage l'apprentissage l'ensemble d'apprentissage **1. Machine Learning tips and tricks cheatsheet**
 
 &#10230; Pense-bête de petites astuces de Machine Learning
 
@@ -136,7 +136,7 @@
 
 <br>
 
-**24. [Training set, Validation set, Testing set]**
+**24. [ensemble d'apprentissage , Ensemble de validation, Ensemble d'evaluation]**
 
 &#10230; [Training set, Validation set, Testing set]
 
@@ -144,7 +144,7 @@
 
 **25. [Model is trained, Model is assessed, Model gives predictions]**
 
-&#10230; [Modèle est trainé, Moèle est évalué, Modèle donne des prédictions]
+&#10230; [Modèle est entrainé, Moèle est évalué, Modèle donne des prédictions]
 
 <br>
 
@@ -162,19 +162,19 @@
 
 **28. Once the model has been chosen, it is trained on the entire dataset and tested on the unseen test set. These are represented in the figure below:**
 
-&#10230; Une fois que le modèle a été choisi, il est trainé sur le dataset entier et testé sur test set jamais vu. Ces derniers sont représentés dans la figure ci-dessous :
+&#10230; Une fois que le modèle a été choisi, il est trainé sur le dataset entier et testé sur l'ensemble d'évaluation jamais vu. Ces derniers sont représentés dans la figure ci-dessous :
 
 <br>
 
 **29. Cross-validation ― Cross-validation, also noted CV, is a method that is used to select a model that does not rely too much on the initial training set. The different types are summed up in the table below:**
 
-&#10230; Validation croisée ― La validation croisée, aussi notée CV, est une méthode qui est utilisée pour sélectionner un modèle qui ne s'appuie pas trop sur le training set de départ. Les différents types rencontrés sont récapitulés dans le tableau ci-dessous :
+&#10230; Validation croisée ― La validation croisée, aussi notée CV, est une méthode qui est utilisée pour sélectionner un modèle qui ne s'appuie pas trop sur l'ensemble d'apprentissage  de départ. Les différents types rencontrés sont récapitulés dans le tableau ci-dessous :
 
 <br>
 
 **30. [Training on k−1 folds and assessment on the remaining one, Training on n−p observations and assessment on the p remaining ones]**
 
-&#10230; [Training sur k-1 folds et évaluations sur le fold restant, Training sur n-p observations et évaluation sur les p restantes]
+&#10230; [l'apprentissage  sur k-1 folds et évaluations sur le fold restant, l'apprentissage  sur n-p observations et évaluation sur les p restantes]
 
 <br>
 
@@ -186,7 +186,7 @@
 
 **32. The most commonly used method is called k-fold cross-validation and splits the training data into k folds to validate the model on one fold while training the model on the k−1 other folds, all of this k times. The error is then averaged over the k folds and is named cross-validation error.**
 
-&#10230; La méthode la plus utilisée est appelée validation croisée k-fold et partage le training data en k folds de manière à valider le modèle sur un fold tout en trainant le modèle sur les k-1 autres folds, tout ceci k fois. L'erreur est alors moyennée sur k folds et est appelée erreur de validation croisée.
+&#10230; La méthode la plus utilisée est appelée validation croisée k-fold et partage l'ensemble d'apprentissage en k folds de manière à valider le modèle sur un fold tout en trainant le modèle sur les k-1 autres folds, tout ceci k fois. L'erreur est alors moyennée sur k folds et est appelée erreur de validation croisée.
 
 <br>
 
@@ -234,13 +234,13 @@
 
 **40. [High training error, Training error close to test error, High bias, Training error slightly lower than test error, Very low training error, Training error much lower than test error, High variance]**
 
-&#10230; [Erreur de training élevé, Erreur de training proche de l'errur de testing, Biais élevé, Erreur de training légèrement inférieure à l'erreur de testing, Erreur de training très faible, Erreur de training beaucoup plus faible que l'erreur de testing, Variance élevée]
+&#10230; [Erreur d'apprentissage  élevé, Erreur de d'apprentissage  proche de l'erreur sur l'ensemble d'évaluation , Biais élevé, Erreur d'apprentissage  légèrement inférieure à l'erreur sur l'ensemble d'évaluation Erreur d'apprentissage  très faible, Erreur d'apprentissage  beaucoup plus faible que l'erreur sur l'ensemble d'évaluation, Variance élevée]
 
 <br>
 
 **41. [Complexify model, Add more features, Train longer, Perform regularization, Get more data]**
 
-&#10230; [Complexifier le modèle, Ajouter plus de variables, Trainer plus longtemps, Effectuer la régularisation, Avoir plus de données]
+&#10230; [Complexifier le modèle, Ajouter plus de variables, apprendre plus longtemps, Effectuer la régularisation, Avoir plus de données]
 
 <br>
 

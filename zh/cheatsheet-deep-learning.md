@@ -289,3 +289,33 @@
 49. **Q-learning ― Q-learning is a model-free estimation of Q, which is done as follows:**
 
 &#10230; Q学习 —— Q学习是一种Q的无模型(model-free)预测，如下所示：
+
+<br>
+
+50. **View PDF version on GitHub**
+
+&#10230; 在GitHub上查看PDF版本
+
+<br>
+
+51. **[Neural Networks, Architecture, Activation function, Backpropagation, Dropout]**
+
+&#10230; [神经网络，架构，激活函数，反向传播，降层]
+
+<br>
+
+52. **[Convolutional Neural Networks, Convolutional layer, Batch normalization]**
+
+&#10230; [卷积神经网络，卷积层，批量归一化]
+
+<br>
+
+53. **[Recurrent Neural Networks, Gates, LSTM]**
+
+&#10230; [递归神经网络，门，长短期记忆网络]
+
+<br>
+
+54. **[Reinforcement learning, Markov decision processes, Value/policy iteration, Approximate dynamic programming, Policy search]**
+
+&#10230; [强化学习，马尔可夫决策过程，价值/策略迭代，近似动态规划，策略检索]

@@ -1,4 +1,4 @@
-d'apprentissage l'apprentissage l'ensemble d'apprentissage **1. Machine Learning tips and tricks cheatsheet**
+**1. Machine Learning tips and tricks cheatsheet**
 
 &#10230; Pense-bête de petites astuces de Machine Learning
 
@@ -234,13 +234,13 @@ d'apprentissage l'apprentissage l'ensemble d'apprentissage **1. Machine Learning
 
 **40. [High training error, Training error close to test error, High bias, Training error slightly lower than test error, Very low training error, Training error much lower than test error, High variance]**
 
-&#10230; [Erreur d'apprentissage élevée, Erreur de d'apprentissage  proche de l'erreur sur l'ensemble d'évaluation , Biais élevé, Erreur d'apprentissage  légèrement inférieure à l'erreur sur l'ensemble d'évaluation Erreur d'apprentissage  très faible, Erreur d'apprentissage  beaucoup plus faible que l'erreur sur l'ensemble d'évaluation, Variance élevée]
+&#10230; [Erreur d'apprentissage élevée, Erreur de d'apprentissage  proche de l'erreur sur l'ensemble d'évaluation , Biais élevé, Erreur d'apprentissage  légèrement inférieure à l'erreur sur l'ensemble d'évaluatio,  Erreur d'apprentissage  très faible, Erreur d'apprentissage  beaucoup plus faible que l'erreur sur l'ensemble d'évaluation, Variance élevée]
 
 <br>
 
 **41. [Complexify model, Add more features, Train longer, Perform regularization, Get more data]**
 
-&#10230; [Complexifier le modèle, Ajouter plus de variables, apprendre plus longtemps, Effectuer la régularisation, Avoir plus de données]
+&#10230; [Complexifier le modèle, Ajouter plus de variables, apprendre pendant plus longtemps, Effectuer la régularisation, Avoir plus de données]
 
 <br>
 

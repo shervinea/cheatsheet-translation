@@ -1,6 +1,6 @@
 **1. Deep Learning cheatsheet**
 
-&#10230; Chuleta/Acordeón de Deep Learning
+&#10230; Hoja de referencia de Deep Learning
 
 <br>
 
@@ -48,7 +48,7 @@
 
 **9. [Sigmoid, Tanh, ReLU, Leaky ReLU]**
 
-&#10230; [Sigmoide, Tanh, ReLU, ReLU filtrante]
+&#10230; [Sigmoide, Tanh, ReLU, Leaky ReLU]
 
 <br>
 
@@ -96,7 +96,7 @@
 
 **17. Step 3: Backpropagate the loss to get the gradients.**
 
-&#10230; Paso 3: Propagar retroactivamente la pérdida para obtener los gradientes.
+&#10230; Paso 3: Retropropagar la pérdida para obtener los gradientes.
 
 <br>
 

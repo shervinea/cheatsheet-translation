@@ -288,7 +288,7 @@
 
 **49. Q-learning ― Q-learning is a model-free estimation of Q, which is done as follows:**
 
-&#10230;
+&#10230; Q-Öğrenimi ― Q-Öğrenimi modelden bağımsız bir Q tahmini yapılan bir yöntemdir ve aşağıdaki gibi yapılır:
 
 <br>
 
@@ -318,4 +318,4 @@
 
 **54. [Reinforcement learning, Markov decision processes, Value/policy iteration, Approximate dynamic programming, Policy search]**
 
-&#10230; Q-Öğrenimi ― Q-Öğrenimi modelden bağımsız bir Q tahmini yapılan bir yöntemdir ve aşağıdaki gibi yapılır:
+&#10230;

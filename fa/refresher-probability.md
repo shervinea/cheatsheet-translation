@@ -159,7 +159,7 @@
 
 **27. Expectation and Moments of the Distribution ― Here are the expressions of the expected value E[X], generalized expected value E[g(X)], kth moment E[Xk] and characteristic function ψ(ω) for the discrete and continuous cases:**
 
-امید ریاضی و ممان‌های یک توزیع - عبارت‌های مربوط به امید ریاضی $E[X]$، امید ریاضی تعمیم یافته $E[g(X)]$، $k$-مین ممان $E[X^k]$، و تابع ویژگی $\psi(\omega)$ برای حالات پیوسته و گسسته به صورت زیر هستند:
+امید ریاضی و گشتاورهای یک توزیع - عبارت‌های مربوط به امید ریاضی $E[X]$، امید ریاضی تعمیم یافته $E[g(X)]$، $k$-مین گشتاور $E[X^k]$، و تابع ویژگی $\psi(\omega)$ برای حالات پیوسته و گسسته به صورت زیر هستند:
 
 <br>
 

@@ -302,3 +302,39 @@ dimensions by maximizing the variance of the data as follows:**
 **51. The Machine Learning cheatsheets are now available in Hebrew.**
 
 &#10230;
+
+<br>
+
+**52. Original authors**
+
+&#10230;
+
+<br>
+
+**53. Translated by X, Y and Z**
+
+&#10230;
+
+<br>
+
+**54. Reviewed by X, Y and Z**
+
+&#10230;
+
+<br>
+
+**55. [Introduction, Motivation, Jensen's inequality]**
+
+&#10230;
+
+<br>
+
+**56. [Clustering, Expectation-Maximization, k-means, Hierarchical clustering, Metrics]**
+
+&#10230;
+
+<br>
+
+**57. [Dimension reduction, PCA, ICA]**
+
+&#10230;

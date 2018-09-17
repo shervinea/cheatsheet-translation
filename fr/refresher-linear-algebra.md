@@ -1,6 +1,6 @@
 **1. Linear Algebra and Calculus refresher**
 
-&#10230; Rappels sur l'algèbre lineaire et el l'analyse
+&#10230; Rappels sur l'algèbre lineaire et l'analyse
 
 <br>
 

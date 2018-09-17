@@ -18,16 +18,16 @@
 
 **4. Event ― Any subset E of the sample space is known as an event. That is, an event is a set consisting of possible outcomes of the experiment. If the outcome of the experiment is contained in E, then we say that E has occurred.**
 
-پدیده - هر زیرمجموعه‌ی $E$از فضای نمونه یک پدیده در نظر گرفته می‌شود.
-به عبارت دیگر، یک پدیده مجموعه‌ای از پیشامدهای یک آزمایش است.
-اگر پیشامد یک آزمایش عضوی از مجموعه‌ی $E$ باشد، در این حالت می‌گوییم که پدیده‌ی $E$ اتفاق افتاده است.
+رخداد - هر زیرمجموعه‌ی $E$از فضای نمونه یک رخداد در نظر گرفته می‌شود.
+به عبارت دیگر، یک رخداد مجموعه‌ای از پیشامدهای یک آزمایش است.
+اگر پیشامد یک آزمایش عضوی از مجموعه‌ی $E$ باشد، در این حالت می‌گوییم که رخداد $E$ اتفاق افتاده است.
 
 <br>
 
 **5. Axioms of probability For each event E, we denote P(E) as the probability of event E occuring.**
 
 اصول موضوعه‌ی احتمالات.
-برای هر پدیده‌ی $E$، $P(E)$ احتمال اتفاق افتادن پدیده‌ی $E$ می‌باشد.
+برای هر رخداد $E$، $P(E)$ احتمال اتفاق افتادن رخداد $E$ می‌باشد.
 
 <br>
 
@@ -39,13 +39,13 @@
 
 **7. Axiom 2 ― The probability that at least one of the elementary events in the entire sample space will occur is 1, i.e:**
 
-اصل ۲ - احتمال اینکه حداقل یکی از پدیده‌های موجود در فضای نمونه اتفاق بیوفتد، ۱ است.
+اصل ۲ - احتمال اینکه حداقل یکی از رخدادهای موجود در فضای نمونه اتفاق بیوفتد، ۱ است.
 
 <br>
 
 **8. Axiom 3 ― For any sequence of mutually exclusive events E1,...,En, we have:**
 
-اصل ۳ - برای هر دنباله از پدیده‌هایی که دو به دو اشتراک نداشته باشند، داریم:
+اصل ۳ - برای هر دنباله از رخدادهایی که دو به دو اشتراک نداشته باشند، داریم:
 
 <br>
 
@@ -75,7 +75,7 @@
 
 **13. Bayes' rule ― For events A and B such that P(B)>0, we have:**
 
-قضیه‌ی بیز - برای پدیده‌های $A$ و $B$ به طوری که $P(B) > 0$ داریم:
+قضیه‌ی بیز - برای رخدادهای $A$ و $B$ به طوری که $P(B) > 0$ داریم:
 
 <br>
 
@@ -93,7 +93,7 @@
 
 **16. Remark: for any event B in the sample space, we have P(B)=n∑i=1P(B|Ai)P(Ai).**
 
-نکته: برای هر پدیده‌ی $B$ در فضای نمونه داریم $P(B) = \sum_{i=1}^n P(B | A_i) P(A_i)$.
+نکته: برای هر رخداد $B$ در فضای نمونه داریم $P(B) = \sum_{i=1}^n P(B | A_i) P(A_i)$.
 
 <br>
 
@@ -105,7 +105,7 @@
 
 **18. Independence ― Two events A and B are independent if and only if we have:**
 
-استقلال - دو پدیده‌ی $A$ و $B$ مستقل هستند اگر و فقط اگر داشته باشیم:
+استقلال - دو رخداد $A$ و $B$ مستقل هستند اگر و فقط اگر داشته باشیم:
 
 <br>
 

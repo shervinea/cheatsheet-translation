@@ -141,7 +141,7 @@
 
 **24. Probability density function (PDF) ― The probability density function f is the probability that X takes on values between two adjacent realizations of the random variable.**
 
-تابع توزیع احتمالی (PDF) - تابع توزیع احتمالی $f$ احتمال آن است که متغیر تصادفی $X$ مقداری بین دو تحقق همجوار این متغیر تصادفی را بگیرد.
+تابع چگالی احتمال (PDF) - تابع چگالی احتمال $f$ احتمال آن است که متغیر تصادفی $X$ مقداری بین دو تحقق همجوار این متغیر تصادفی را بگیرد.
 
 <br>
 
@@ -219,7 +219,7 @@
 
 **37. Marginal density and cumulative distribution ― From the joint density probability function fXY , we have**
 
-چگالی حاشیه‌ای و توزیع تجمعی - از تابع توزیع احتمالی مشترک $f_{XY}$ داریم
+چگالی حاشیه‌ای و توزیع تجمعی - از تابع چگالی احتمالی مشترک $f_{XY}$ داریم
 
 <br>
 

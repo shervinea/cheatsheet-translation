@@ -1,144 +1,144 @@
 **1. Probabilities and Statistics refresher**
 
-&#10230;
+&#10230; Relembrando Probabilidades e Estatística
 
 <br>
 
 **2. Introduction to Probability and Combinatorics**
 
-&#10230;
+&#10230; Introdução a Probabilidade e Combinatória
 
 <br>
 
 **3. Sample space ― The set of all possible outcomes of an experiment is known as the sample space of the experiment and is denoted by S.**
 
-&#10230;
+&#10230; Espaço amostral - O conjunto de todos os resultados possíveis é chamado de espaço amostral do experimento e é denotado por S.
 
 <br>
 
 **4. Event ― Any subset E of the sample space is known as an event. That is, an event is a set consisting of possible outcomes of the experiment. If the outcome of the experiment is contained in E, then we say that E has occurred.**
 
-&#10230;
+&#10230; Evento - Qualquer subconjunto E do espaço amostral é chamado de evento. Isso é, um evento é um conjunto de possíveis resultados do experimento. Se o resultado do experimento está contido em E, então é dito que o evento ocorreu.
 
 <br>
 
 **5. Axioms of probability For each event E, we denote P(E) as the probability of event E occuring.**
 
-&#10230;
+&#10230; Axiomas de probabilidade Para cada evento E, denotamos P(E) a probabilidade do evento E ocorrer. 
 
 <br>
 
 **6. Axiom 1 ― Every probability is between 0 and 1 included, i.e:**
 
-&#10230;
+&#10230; Axioma 1 - Toda probabilidade está entre 0 e 1 incluído, i.e:
 
 <br>
 
 **7. Axiom 2 ― The probability that at least one of the elementary events in the entire sample space will occur is 1, i.e:**
 
-&#10230;
+&#10230; Axioma 2 - A probabilidade de ao menos um dos eventos elementares do espaço amostral inteiro ocorrer é 1, i.e:
 
 <br>
 
 **8. Axiom 3 ― For any sequence of mutually exclusive events E1,...,En, we have:**
 
-&#10230;
+&#10230; Axioma 3 - Para qualquer sequência de eventos mutuamente exclusivos E1,...En, temos:
 
 <br>
 
 **9. Permutation ― A permutation is an arrangement of r objects from a pool of n objects, in a given order. The number of such arrangements is given by P(n,r), defined as:**
 
-&#10230;
+&#10230; Permutação - A permutação é um arranjo de r objetos de um conjunto de n objetos, em uma determinada ordem. O número desses arranjos é dado por P(n,r), definido como:
 
 <br>
 
 **10. Combination ― A combination is an arrangement of r objects from a pool of n objects, where the order does not matter. The number of such arrangements is given by C(n,r), defined as:**
 
-&#10230;
+&#10230; Combinação - A combinação de um arranjo de r objetos de um conjunto de n objetos, onde a ordem não importa. O número desses arranjos é dado por C(n,r), definido como:
 
 <br>
 
 **11. Remark: we note that for 0⩽r⩽n, we have P(n,r)⩾C(n,r)**
 
-&#10230;
+&#10230; Observação: dado que  0⩽r⩽n, então temos que P(n,r)⩾C(n,r)
 
 <br>
 
 **12. Conditional Probability**
 
-&#10230;
+&#10230; Probabilidade Condicional
 
 <br>
 
 **13. Bayes' rule ― For events A and B such that P(B)>0, we have:**
 
-&#10230;
+&#10230; Regra de Bayes - Para eventos A e B tal que P(B)>0, temos que:
 
 <br>
 
 **14. Remark: we have P(A∩B)=P(A)P(B|A)=P(A|B)P(B)**
 
-&#10230;
+&#10230; Observação: temos que P(A∩B)=P(A)P(B|A)=P(A|B)P(B)
 
 <br>
 
 **15. Partition ― Let {Ai,i∈[[1,n]]} be such that for all i, Ai≠∅. We say that {Ai} is a partition if we have:**
 
-&#10230;
+&#10230; Partição - Dado que {Ai,i∈[[1,n]]} seja tal que para todo i, Ai≠∅. Dizemos que {Ai} é uma partição se temos: 
 
 <br>
 
 **16. Remark: for any event B in the sample space, we have P(B)=n∑i=1P(B|Ai)P(Ai).**
 
-&#10230;
+&#10230; Observação: para qualquer evento B no espaço amostral temos que P(B)=n∑i=1P(B|Ai)P(Ai).
 
 <br>
 
 **17. Extended form of Bayes' rule ― Let {Ai,i∈[[1,n]]} be a partition of the sample space. We have:**
 
-&#10230;
+&#10230; Extensão da regra de Bayes -  Seja {Ai,i∈[[1,n]]} uma partição do espaço amostral. Temos que:
 
 <br>
 
 **18. Independence ― Two events A and B are independent if and only if we have:**
 
-&#10230;
+&#10230; Independência - Dois eventos A e B são independentes se e apenas se tivermos:
 
 <br>
 
 **19. Random Variables**
 
-&#10230;
+&#10230; Variáveis Aleatórias
 
 <br>
 
 **20. Definitions**
 
-&#10230;
+&#10230; Definições
 
 <br>
 
 **21. Random variable ― A random variable, often noted X, is a function that maps every element in a sample space to a real line.**
 
-&#10230;
+&#10230; Variável aleatória - Uma variável aleatória, normalmente denominada X, é uma função que mapeia todo elemento em um espaço amostral para uma linha verdadeira.
 
 <br>
 
 **22. Cumulative distribution function (CDF) ― The cumulative distribution function F, which is monotonically non-decreasing and is such that limx→−∞F(x)=0 and limx→+∞F(x)=1, is defined as:**
 
-&#10230;
+&#10230; Função de distribuição cumulativa (CDF) - A função de distribuição cumulativa F, que é monotonicamente não decrescente e é tal que limx→−∞F(x)=0 e limx→+∞F(x)=1, é definida como:
 
 <br>
 
 **23. Remark: we have P(a<X⩽B)=F(b)−F(a).**
 
-&#10230;
+&#10230; Lembrete: temos que P(a<X⩽B)=F(b)−F(a).
 
 <br>
 
 **24. Probability density function (PDF) ― The probability density function f is the probability that X takes on values between two adjacent realizations of the random variable.**
 
-&#10230;
+&#10230; Função densidade de probabilidade (PDF) - A função densidade de probabilidade f é a probabilidade de que X assuma valores entre duas realizações adjacentes da variável aleatória.
 
 <br>
 

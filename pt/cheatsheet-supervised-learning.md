@@ -534,33 +534,34 @@
 
 **90. [Linear models, linear regression, logistic regression, generalized linear models]**
 
-&#10230;
+&#10230; [Modelos lineares, regressão linear, regressão logística, modelos lineares generalizados]
 
 <br>
 
 **91. [Support vector machines, Optimal margin classifier, Hinge loss, Kernel]**
 
-&#10230;
+&#10230; [Máquinas de vetores de suporte, Classificador de margem ideal, Perda de Hinge, Kernel]
 
 <br>
 
 **92. [Generative learning, Gaussian Discriminant Analysis, Naive Bayes]**
 
-&#10230;
+&#10230; [Aprendizado generativo, Análise Discriminante Gaussiana, Naive Bayes]
 
 <br>
 
 **93. [Trees and ensemble methods, CART, Random forest, Boosting]**
 
-&#10230;
+&#10230; [Métodos de conjunto e árvores, CART, Florestas aleatórias, Boosting]
 
 <br>
 
 **94. [Other methods, k-NN]**
 
-&#10230;
+&#10230; [Outros métodos, k-NN]
 
 <br>
 
 **95. [Learning theory, Hoeffding inequality, PAC, VC dimension]**
 
+&#10230; [Teoria de aprendizagem, Inequalidade de Hoeffding, PAC, dimensão VC]

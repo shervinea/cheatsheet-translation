@@ -297,7 +297,7 @@
 
 **50. Remark: an estimator is said to be unbiased when we have E[^θ]=θ.**
 
-نکته: یک تخمین‌گر پیش‌قدر است اگر داشته باشیم $E[\hat{\theta}] = \theta$.
+نکته: یک تخمین‌گر بدون پیش‌قدر است اگر داشته باشیم $E[\hat{\theta}] = \theta$.
 
 <br>
 

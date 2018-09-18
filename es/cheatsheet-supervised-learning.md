@@ -72,7 +72,7 @@
 
 **13. [Least squared error, Logistic loss, Hinge loss, Cross-entropy]**
 
-&#10230; [Mínimo error cuadrático, Logistic loss, Hinge loss, Cross-entropy]
+&#10230; [Mínimo error cuadrático, Función de pérdida logística, Función de pérdida de tipo bisagra, Entropía cruzada]
 
 <br>
 
@@ -516,3 +516,51 @@
 **87. Theorem (Vapnik) ― Let H be given, with VC(H)=d and m the number of training examples. With probability at least 1−δ, we have:**
 
 &#10230; Teorema (Vapnik) - Dado H, con VC(H)=d y m el número de ejemplos de entrenamiento. Con probabilidad de al menos 1−δ, tenemos que:
+
+<br>
+
+**88. [Introduction, Type of prediction, Type of model]**
+
+&#10230; [Introducción, Tipo de predicción, Tipo de modelo]
+
+<br>
+
+**89. [Notations and general concepts, loss function, gradient descent, likelihood]**
+
+&#10230; [Notaciones y conceptos generales, función de perdida, descenso por gradiente, probabilidad]
+
+<br>
+
+**90. [Linear models, linear regression, logistic regression, generalized linear models]**
+
+&#10230; [Modelos lineales, regresión lineal, regresión logística, modelos lineales generalizados]
+
+<br>
+
+**91. [Support vector machines, Optimal margin classifier, Hinge loss, Kernel]**
+
+&#10230; [Máquinas de vectores de soporte, Clasificador de margen óptimo, Función de pérdida de tipo bisagra, Núcleo]
+
+<br>
+
+**92. [Generative learning, Gaussian Discriminant Analysis, Naive Bayes]**
+
+&#10230; [Aprendizaje generativo, Análisis discriminante Gaussiano, Naive Bayes]
+
+<br>
+
+**93. [Trees and ensemble methods, CART, Random forest, Boosting]**
+
+&#10230; [Métodos de árboles y conjuntos, CART, Bósques aleatorios, Potenciamiento]
+
+<br>
+
+**94. [Other methods, k-NN]**
+
+&#10230; [Otros métodos, k-NN]
+
+<br>
+
+**95. [Learning theory, Hoeffding inequality, PAC, VC dimension]**
+
+&#10230; [Teoría del aprendizaje, Desigualdad de Hoeffding, PAC, Dimensión VC]

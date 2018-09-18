@@ -121,73 +121,73 @@ theta$ از طریق تخمین درستی بشینه در اختیار قرار
 
 **21. Types ― There are different sorts of hierarchical clustering algorithms that aims at optimizing different objective functions, which is summed up in the table below:**
 
-&#10230;
+انواع - انواع مختلفی الگوریتم خوشه‌بندی سلسله‌مراتبی وجود دارند که هر کدام به دنبال بهینه‌سازی توابع هدف مختلفی هستند، که در جدول زیر به اختصار آمده‌اند:
 
 <br>
 
 **22. [Ward linkage, Average linkage, Complete linkage]**
 
-&#10230;
+[پیوند بخشی، پیوند میانگین، پیوند کاملّ]
 
 <br>
 
 **23. [Minimize within cluster distance, Minimize average distance between cluster pairs, Minimize maximum distance of between cluster pairs]**
 
-&#10230;
+[کمینه‌کردن فاصله‌ی درونِ خوشه، کمینه‌کردن فاصله‌ی میانگین بین هر دو جفت خوشه، کمینه‌کردن حداکثر فاصله بین هر دو جفت خوشه]
 
 <br>
 
 **24. Clustering assessment metrics**
 
-&#10230;
+معیارهای ارزیابی خوشه‌بندی
 
 <br>
 
 **25. In an unsupervised learning setting, it is often hard to assess the performance of a model since we don't have the ground truth labels as was the case in the supervised learning setting.**
 
-&#10230;
+در یک وضعیت یادگیری بدون نظارت، معمولاً ارزیابی یک مدل کار دشواری است، زیرا برخلاف حالت یادگیری نظارتی اطلاعاتی در مورد برچسب‌های حقیقی داده‌ها نداریم.
 
 <br>
 
 **26. Silhouette coefficient ― By noting a and b the mean distance between a sample and all other points in the same class, and between a sample and all other points in the next nearest cluster, the silhouette coefficient s for a single sample is defined as follows:**
 
-&#10230;
+ضریب نیم‌رخ - با نمایش $a$ به عنوان میانگین فاصله‌ی یک نمونه با همه‌ی نمونه‌های دیگر در همان کلاس، و با نمایش $b$ به عنوان میانگین فاصله‌ی یک نمونه با همه‌ی نمونه‌های دیگر از نزدیک‌ترین خوش، ضریب نیم‌رخ $s$ به صورت زیر تعریف می‌شود:
 
 <br>
 
 **27. Calinski-Harabaz index ― By noting k the number of clusters, Bk and Wk the between and within-clustering dispersion matrices respectively defined as**
 
-&#10230;
+شاخص Calinski-Harabasz - با در نظر گرفتن $k$ به عنوان تعداد خوشه‌ها، ماتریس پراکندگی درون خوشه‌ای $B_k$ و ماتریس پراکندگی میان‌خوشه‌ای $W_k$ به صورت زیر تعریف می‌شوند:
 
 <br>
 
 **28. the Calinski-Harabaz index s(k) indicates how well a clustering model defines its clusters, such that the higher the score, the more dense and well separated the clusters are. It is defined as follows:**
 
-&#10230;
+شاخص Calinski-Harabasz $s(k)$ بیان می‌کند که یک مدل خوشه‌بندی چگونه خوشه‌های خود را مشخص می‌کند، به گونه‌ای که هر چقدر مقدار این شاخص بیشتر باشد، خوشه‌ها متراکم‌تر و از هم تفکیک‌یافته‌تر خواهند بود. این شاخص به صورت زیر تعریف می‌شود:
 
 <br>
 
 **29. Dimension reduction**
 
-&#10230;
+کاهش ابعاد
 
 <br>
 
 **30. Principal component analysis**
 
-&#10230;
+تحلیل مولفه‌های اصلی
 
 <br>
 
 **31. It is a dimension reduction technique that finds the variance maximizing directions onto which to project the data.**
 
-&#10230;
+روشی برای کاهش ابعاد است که جهت‌هایی را با حداکثر واریانس پیدا می‌کند تا داده‌ها را در آن جهت‌ها تصویر کند.
 
 <br>
 
 **32. Eigenvalue, eigenvector ― Given a matrix A∈Rn×n, λ is said to be an eigenvalue of A if there exists a vector z∈Rn∖{0}, called eigenvector, such that we have:**
 
-&#10230;
+مقدار ویژه، بردار ویژه - برای ماتریس دلخواه $A \in \mathbb{R}^{n \times n}$، $\lambda$ مقدار ویژه‌ی ماتریس $A$ است اگر وجود داشته باشد بردار $z \in \mathbb{R}^n \\ \{0\}$ که به آن بردار ویژه می‌گویند، به طوری که:
 
 <br>
 

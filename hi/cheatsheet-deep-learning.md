@@ -120,19 +120,19 @@
 
 **21. Convolutional layer requirement ― By noting W the input volume size, F the size of the convolutional layer neurons, P the amount of zero padding, then the number of neurons N that fit in a given volume is such that:**
 
-&#10230;
+&#10230; कनवॉल्यूशनल लेयर आवश्यकता - डब्ल्यू(w) इनपुट इनपुट वॉल्यूम आकार, एफ(F) कनवॉल्यूशनल लेयर न्यूरॉन्स का आकार, पी(P) शून्य पैडिंग की मात्रा, फिर दिए गए वॉल्यूम में फिट न्यूरॉन्स एन(N) की संख्या ऐसी है कि:
 
 <br>
 
 **22. Batch normalization ― It is a step of hyperparameter γ,β that normalizes the batch {xi}. By noting μB,σ2B the mean and variance of that we want to correct to the batch, it is done as follows:**
 
-&#10230;
+&#10230; बैच सामान्यीकरण - यह हाइपरपेरामीटर γ, β का एक कदम है जो बैच को सामान्य करता है {xi}। μB को ध्यान में रखते हुए, σ2B इसका अर्थ और भिन्नता है जिसे हम बैच को सही करना चाहते हैं, यह निम्नानुसार किया जाता है:
 
 <br>
 
 **23. It is usually done after a fully connected/convolutional layer and before a non-linearity layer and aims at allowing higher learning rates and reducing the strong dependence on initialization.**
 
-&#10230;
+&#10230; यह आमतौर पर पूरी तरह से जुड़े / कनवॉल्यूशनल परत के बाद और गैर-रैखिकता लेयर से पहले किया जाता है और इसका उद्देश्य उच्च लर्निंग रेट की अनुमति देना और प्रारंभिकता पर मजबूत निर्भरता को कम करना है।
 
 <br>
 
@@ -144,25 +144,25 @@
 
 **25. Types of gates ― Here are the different types of gates that we encounter in a typical recurrent neural network:**
 
-&#10230;
+&#10230; गेट के प्रकार - यहां विभिन्न प्रकार के गेट हैं जिन्हें हम एक सामान्य रेकर्रेंट न्यूरला नेटवर्क में सामना करते हैं:
 
 <br>
 
 **26. [Input gate, forget gate, gate, output gate]**
 
-&#10230;
+&#10230; [इनपुट गेट, फॉरगेट गेट, गेट, आउटपुट गेट]
 
 <br>
 
 **27. [Write to cell or not?, Erase a cell or not?, How much to write to cell?, How much to reveal cell?]**
 
-&#10230;
+&#10230; [सेल को लिखें या नहीं ?, एक सेल मिटाएं या नहीं ?, सेल को कितना लिखना है ?, सेल को कितना खुलासा करना है?]
 
 <br>
 
 **28. LSTM ― A long short-term memory (LSTM) network is a type of RNN model that avoids the vanishing gradient problem by adding 'forget' gates.**
 
-&#10230;
+&#10230; एलएसटीएम - ए लॉन्ग शार्ट टर्म मेमोरी (एलएसटीएम) नेटवर्क एक प्रकार का आरएनएन मॉडल है जो 'फॉरगेट' गेट जोड़कर होने वाली वैनिशिंग ग्रेडिएंट समस्या से बचाता है।
 
 <br>
 
@@ -174,7 +174,7 @@
 
 **30. The goal of reinforcement learning is for an agent to learn how to evolve in an environment.**
 
-&#10230;
+&#10230;रएंफोर्रसमेंट लर्निंग का लक्ष्य एक एजेंट के लिए सीखना है कि पर्यावरण में कैसे विकसित किया जाए।
 
 <br>
 
@@ -186,50 +186,50 @@
 
 **32. Markov decision processes ― A Markov decision process (MDP) is a 5-tuple (S,A,{Psa},γ,R) where:**
 
-&#10230;
+&#10230; मार्कोव डिसिजन प्रोसेस - एक मार्कोव डिसिजन प्रोसेस (एमडीपी) 5-टुपल (एस(S), ए(A), {Psa}, γ, आर(R)) है जहां:
 
 <br>
 
 **33. S is the set of states**
 
-&#10230;
-
+&#10230; S स्टेट्स का सेट है
+ 
 <br>
 
 **34. A is the set of actions**
 
-&#10230;
-
+&#10230; A एक्शन का सेट है
+ 
 <br>
 
 **35. {Psa} are the state transition probabilities for s∈S and a∈A**
 
-&#10230;
-
+&#10230; {Psa} s∈S और a∈A के लिए स्टेट ट्रांजीशन प्रॉबब्लिटी हैं
+ 
 <br>
 
 **36. γ∈[0,1[ is the discount factor**
 
-&#10230;
-
+&#10230; γ∈ [0,1 डिस्काउंट फैक्टर  है
+ 
 <br>
 
 **37. R:S×A⟶R or R:S⟶R is the reward function that the algorithm wants to maximize**
 
-&#10230;
+&#10230; R:S×A⟶R या R:S⟶R रिवॉर्ड फंक्शन है कि एल्गोरिदम अधिकतम करना चाहता है
 
 <br>
 
 **38. Policy ― A policy π is a function π:S⟶A that maps states to actions.**
 
-&#10230;
+&#10230; पालिसी - एक पालिसी π एक फंक्शन π:S⟶A जो एक्शन्स को स्टेट्स को मानचित्र बनाता है।
 
 <br>
 
 **39. Remark: we say that we execute a given policy π if given a state s we take the action a=π(s).**
 
-&#10230;
-
+&#10230; टिप्पणी: हम कहते हैं कि हम किसी दिए गए नीति को निष्पादित करते हैं π अगर स्टेट दिया जाता है तो हम कार्रवाई को a = π (ओं) लेते हैं।
+ 
 <br>
 
 **40. Value function ― For a given policy π and a given state s, we define the value function Vπ as follows:**

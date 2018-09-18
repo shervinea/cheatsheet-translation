@@ -256,6 +256,30 @@
 
 <br>
 
-**44. Regression metrics**
+44. **Regression metrics**
+
+&#10230;
+
+<br>
+
+45. **[Classification metrics, confusion matrix, accuracy, precision, recall, F1 score, ROC]**
+
+&#10230;
+
+<br>
+
+46. **[Regression metrics, R squared, Mallow's CP, AIC, BIC]**
+
+&#10230;
+
+<br>
+
+47. **[Model selection, cross-validation, regularization]**
+
+&#10230;
+
+<br>
+
+48. **[Diagnostics, Bias/variance tradeoff, error/ablative analysis]**
 
 &#10230;

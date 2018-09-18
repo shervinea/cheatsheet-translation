@@ -30,7 +30,7 @@
 
 **6. By noting i the ith layer of the network and j the jth hidden unit of the layer, we have:**
 
-&#10230; Ağın i. sırasındaki katmana i ve katmandaki j. sırasındaki gizli birime j dersek, elimizde: 
+&#10230; Ağın i. sırasındaki katmana i ve katmandaki j. sırasındaki gizli birime j dersek, elimizde:
 
 <br>
 
@@ -42,7 +42,7 @@
 
 **8. Activation function ― Activation functions are used at the end of a hidden unit to introduce non-linear complexities to the model. Here are the most common ones:**
 
-&#10230; Etkinleştirme fonksiyonu ― Etkinleştirme fonksiyonları gizli birimlerin sonunda, modele lineer olmayan karmaşıklıklar katmak için kullanılır. Aşağıda en yaygın kullanılanlarını görebilirsiniz: 
+&#10230; Etkinleştirme fonksiyonu ― Etkinleştirme fonksiyonları gizli birimlerin sonunda, modele lineer olmayan karmaşıklıklar katmak için kullanılır. Aşağıda en yaygın kullanılanlarını görebilirsiniz:
 
 <br>
 
@@ -66,19 +66,19 @@
 
 **12. Backpropagation ― Backpropagation is a method to update the weights in the neural network by taking into account the actual output and the desired output. The derivative with respect to weight w is computed using chain rule and is of the following form:**
 
-&#10230; Geri yayılım ― Geri yayılım sinir ağındaki ağırlıkları güncellemek için kullanılan ve bunu yaparken de asıl sonuç ile istenilen sonucu hesaba katan bir yöntemdir. Ağırlık w değerine göre türev, zincir kuralı kullanılarak hesaplanılır ve aşağıdaki şekildedir: 
+&#10230; Geri yayılım ― Geri yayılım sinir ağındaki ağırlıkları güncellemek için kullanılan ve bunu yaparken de asıl sonuç ile istenilen sonucu hesaba katan bir yöntemdir. Ağırlık w değerine göre türev, zincir kuralı kullanılarak hesaplanılır ve aşağıdaki şekildedir:
 
 <br>
 
 **13. As a result, the weight is updated as follows:**
 
-&#10230; Sonuç olarak, ağırlık güncellenmesi aşağıdaki gibidir: 
+&#10230; Sonuç olarak, ağırlık güncellenmesi aşağıdaki gibidir:
 
 <br>
 
 **14. Updating weights ― In a neural network, weights are updated as follows:**
 
-&#10230; Ağırlıkları güncelleme ― Sinir ağında ağırlıklar, aşağıdaki gibi güncellenir: 
+&#10230; Ağırlıkları güncelleme ― Sinir ağında ağırlıklar, aşağıdaki gibi güncellenir:
 
 <br>
 
@@ -90,7 +90,7 @@
 
 **16. Step 2: Perform forward propagation to obtain the corresponding loss.**
 
-&#10230; 2. Adım: Denk gelen kaybı elde etmek için, ileri yayılım gerçekleştirilir. 
+&#10230; 2. Adım: Denk gelen kaybı elde etmek için, ileri yayılım gerçekleştirilir.
 
 <br>
 
@@ -126,7 +126,7 @@
 
 **22. Batch normalization ― It is a step of hyperparameter γ,β that normalizes the batch {xi}. By noting μB,σ2B the mean and variance of that we want to correct to the batch, it is done as follows:**
 
-&#10230; Küme normalleştirmesi ― γ,β Hiper-parametresinin, {xi} kümesini normalleştiren bir adımıdır. μB, σ2B ifadelerine düzeltmek istediğimiz kümenin ortalaması ve varyansı dersek, normalleştirme işlemi şu şekilde yapılır: 
+&#10230; Küme normalleştirmesi ― γ,β Hiper-parametresinin, {xi} kümesini normalleştiren bir adımıdır. μB, σ2B ifadelerine düzeltmek istediğimiz kümenin ortalaması ve varyansı dersek, normalleştirme işlemi şu şekilde yapılır:
 
 <br>
 
@@ -228,7 +228,7 @@
 
 **39. Remark: we say that we execute a given policy π if given a state s we take the action a=π(s).**
 
-&#10230; Dipnot: Eğer s hali verildiğinde a = π(s) aksiyonunu uyguluyorsak, π prensibini yerine getirdik deriz 
+&#10230; Dipnot: Eğer s hali verildiğinde a = π(s) aksiyonunu uyguluyorsak, π prensibini yerine getirdik deriz
 
 <br>
 
@@ -242,11 +242,11 @@
 
 &#10230; Bellman denklemi ― Ideal Bellman denklemleri, ideal prensip π∗ değerinin değer fonksiyonu Vπ∗ değerini simgeler:
 
-<br> 
+<br>
 
 **42. Remark: we note that the optimal policy π∗ for a given state s is such that:**
 
-&#10230; Dipnot: s hali verildiğinde, ideal π∗ prensibini şu şekilde tanımlarız: 
+&#10230; Dipnot: s hali verildiğinde, ideal π∗ prensibini şu şekilde tanımlarız:
 
 <br>
 
@@ -288,7 +288,7 @@
 
 **49. Q-learning ― Q-learning is a model-free estimation of Q, which is done as follows:**
 
-&#10230;
+&#10230; Q-Öğrenimi ― Q-Öğrenimi modelden bağımsız bir Q tahmini yapılan bir yöntemdir ve aşağıdaki gibi yapılır:
 
 <br>
 
@@ -319,5 +319,3 @@
 **54. [Reinforcement learning, Markov decision processes, Value/policy iteration, Approximate dynamic programming, Policy search]**
 
 &#10230;
-
-&#10230; Q-Öğrenimi ― Q-Öğrenimi modelden bağımsız bir Q tahmini yapılan bir yöntemdir ve aşağıdaki gibi yapılır:

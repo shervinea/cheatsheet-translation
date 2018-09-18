@@ -319,4 +319,3 @@
 **54. [Reinforcement learning, Markov decision processes, Value/policy iteration, Approximate dynamic programming, Policy search]**
 
 &#10230; [Aprendizado reforçado, Processo de decisão de Markov, Iteração de valor/diretriz, Programação dinâmica aproximada, Busca de diretriz]
-

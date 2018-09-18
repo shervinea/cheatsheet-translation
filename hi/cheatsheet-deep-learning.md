@@ -319,5 +319,3 @@
 **54. [Reinforcement learning, Markov decision processes, Value/policy iteration, Approximate dynamic programming, Policy search]**
 
 &#10230;
-
-&#10230;

@@ -313,3 +313,27 @@
 **53. Gradient operations ― For matrices A,B,C, the following gradient properties are worth having in mind:**
 
 &#10230; Operações com gradiente - Para matrizes A,B,C, as seguintes propriedade de gradiente valem a pena ter em mente:
+
+<br>
+
+**54. [General notations, Definitions, Main matrices]**
+
+&#10230; [Notações gerais, Definições, Matrizes principais]
+
+<br>
+
+**55. [Matrix operations, Multiplication, Other operations]**
+
+&#10230; [Operações com matrizes, Multiplicação, Outras operações]
+
+<br>
+
+**56. [Matrix properties, Norm, Eigenvalue/Eigenvector, Singular-value decomposition]**
+
+&#10230; {propriedades das matrizes, Norma, Autovalor/Autovetor, Decomposição em valor singular]
+
+<br>
+
+**57. [Matrix calculus, Gradient, Hessian, Operations]**
+
+&#10230; [Cálculo com matrizes, Gradiente, Hessiano, Operações]

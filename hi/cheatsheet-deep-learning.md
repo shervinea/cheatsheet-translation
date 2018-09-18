@@ -228,64 +228,64 @@
 
 **39. Remark: we say that we execute a given policy π if given a state s we take the action a=π(s).**
 
-&#10230; टिप्पणी: हम कहते हैं कि हम किसी दिए गए नीति को निष्पादित करते हैं π अगर स्टेट दिया जाता है तो हम कार्रवाई को a = π (ओं) लेते हैं।
+&#10230; टिप्पणी: हम कहते हैं कि हम किसी दिए गए पालिसी π को निष्पादित करते हैं अगर स्टेट s दिया जाता है तो हम एक्शन को a = π(s) लेते हैं।
  
 <br>
 
 **40. Value function ― For a given policy π and a given state s, we define the value function Vπ as follows:**
 
-&#10230;
+&#10230; वैल्यू फ़ंक्शन - किसी दिए गए पालिसी के लिए π और एक दी गई स्टेट s, हम वैल्यू फ़ंक्शन Vπ को निम्नानुसार परिभाषित करते हैं:
 
 <br>
 
 **41. Bellman equation ― The optimal Bellman equations characterizes the value function Vπ∗ of the optimal policy π∗:**
 
-&#10230;
+&#10230; बेलमैन समीकरण - ऑप्टीमल बेलमैन समीकरण ऑप्टीमल पालिसी π* के वैल्यू फ़ंक्शन Vπ* को दर्शाता है:
 
 <br>
 
 **42. Remark: we note that the optimal policy π∗ for a given state s is such that:**
 
-&#10230;
+&#10230; टिप्पणी: हम ध्यान देते हैं कि किसी दिए गए स्टेट के लिए ऑप्टीमल पालिसी π* ऐसा है:
 
 <br>
 
 **43. Value iteration algorithm ― The value iteration algorithm is in two steps:**
 
-&#10230;
+&#10230; वैल्यू  िटेरशन एल्गोरिदम - वैल्यू िटेरशन एल्गोरिदम दो चरणों में है:
 
 <br>
 
 **44. 1) We initialize the value:**
 
-&#10230;
+&#10230; 1) हम मूल्य शुरू करते हैं:
 
 <br>
 
 **45. 2) We iterate the value based on the values before:**
 
-&#10230;
+&#10230; 2) हम पहले मूल्यों के आधार पर मूल्य को फिर से शुरू करते हैं:
 
 <br>
 
 **46. Maximum likelihood estimate ― The maximum likelihood estimates for the state transition probabilities are as follows:**
 
-&#10230;
-
+&#10230; मैक्सिमम लइकेलीहुड एस्टीमेट - स्टेट ट्रांजीशन प्रॉबब्लिट के लिए अधिकतम प्रॉबब्लिट अनुमान निम्नानुसार हैं:
+ 
 <br>
 
 **47. times took action a in state s and got to s′**
 
-&#10230;
+&#10230; कई बार स्टेट्स s में एक्शन a किया गया और उन्हें s' पाने के लिए
 
 <br>
 
 **48. times took action a in state s**
 
-&#10230;
+&#10230; कई बार स्टेट्स s में एक्शन a लिया गया
 
 <br>
 
 **49. Q-learning ― Q-learning is a model-free estimation of Q, which is done as follows:**
 
-&#10230;
+&#10230; क्यू-लर्निंग - क्यू-लर्निंग क्यू का मॉडल-मुक्त अनुमान है, जो निम्नानुसार किया जाता है:

@@ -37,7 +37,7 @@ If your favorite language is missing, please feel free to add it!
 
 5. Submit a [pull request](https://help.github.com/articles/creating-a-pull-request/) and call it `[code of language name] Topic name`. For example, a translation in Spanish of the deep learning cheatsheet will be called `[es] Deep learning`.
 
-*Note*: Please first check for [existing pull requests](https://github.com/shervinea/cheatsheet-translation/pulls) before submitting yours. Also, please propose only the translation of **one** cheatsheet per pull request -- it simplifies a lot the review process.
+*Note*: Please first check for [existing pull requests](https://github.com/shervinea/cheatsheet-translation/pulls) before submitting yours. Also, please propose the translation of **only one** cheatsheet per pull request -- it simplifies a lot the review process.
 
 Submissions will have to be reviewed by a fellow native speaker before being accepted.
 

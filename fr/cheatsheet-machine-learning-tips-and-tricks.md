@@ -136,9 +136,9 @@
 
 <br>
 
-**24. [ensemble d'apprentissage , Ensemble de validation, Ensemble d'evaluation]**
+**24. [Training set, Validation set, Testing set]**
 
-&#10230; [Training set, Validation set, Testing set]
+&#10230; [Ensemble d'apprentissage, Ensemble de validation, Ensemble d'évaluation]
 
 <br>
 
@@ -174,7 +174,7 @@
 
 **30. [Training on k−1 folds and assessment on the remaining one, Training on n−p observations and assessment on the p remaining ones]**
 
-&#10230; [l'apprentissage  sur k-1 folds et évaluations sur le fold restant, l'apprentissage  sur n-p observations et évaluation sur les p restantes]
+&#10230; [Apprentissage sur k-1 folds et évaluation sur le fold restant, Apprentissage sur n-p observations et évaluation sur les p restantes]
 
 <br>
 
@@ -234,13 +234,13 @@
 
 **40. [High training error, Training error close to test error, High bias, Training error slightly lower than test error, Very low training error, Training error much lower than test error, High variance]**
 
-&#10230; [Erreur d'apprentissage élevée, Erreur de d'apprentissage  proche de l'erreur sur l'ensemble d'évaluation , Biais élevé, Erreur d'apprentissage  légèrement inférieure à l'erreur sur l'ensemble d'évaluatio,  Erreur d'apprentissage  très faible, Erreur d'apprentissage  beaucoup plus faible que l'erreur sur l'ensemble d'évaluation, Variance élevée]
+&#10230; [Erreur d'apprentissage élevée, Erreur d'apprentissage proche de l'erreur d'évaluation, Biais élevé, Erreur d'apprentissage légèrement inférieure à l'erreur d'évaluation, Erreur d'apprentissage très faible, Erreur d'apprentissage beaucoup plus faible que l'erreur d'évaluation, Variance élevée]
 
 <br>
 
 **41. [Complexify model, Add more features, Train longer, Perform regularization, Get more data]**
 
-&#10230; [Complexifier le modèle, Ajouter plus de variables, apprendre pendant plus longtemps, Effectuer la régularisation, Avoir plus de données]
+&#10230; [Complexifier le modèle, Ajouter plus de variables, Entrainer pendant plus de temps, Effectuer une régularisation, Avoir plus de données]
 
 <br>
 

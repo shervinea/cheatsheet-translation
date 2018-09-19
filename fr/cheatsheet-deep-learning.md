@@ -1,6 +1,6 @@
 **1. Deep Learning cheatsheet**
 
-&#10230; Pense-bête de Deep Learning
+&#10230; Pense-bête d'apprentissage profond
 
 <br>
 
@@ -42,7 +42,7 @@
 
 **8. Activation function ― Activation functions are used at the end of a hidden unit to introduce non-linear complexities to the model. Here are the most common ones:**
 
-&#10230; Les fonctions d'activation sont utilisées à la fin d'une unité de couche cachée pour introduire des complexités non linéaires au modèle. En voici les plus fréquentes :
+&#10230; Fonction d'activation ― Les fonctions d'activation sont utilisées à la fin d'une unité de couche cachée pour introduire des complexités non linéaires au modèle. En voici les plus fréquentes :
 
 <br>
 
@@ -150,7 +150,7 @@
 
 **26. [Input gate, forget gate, gate, output gate]**
 
-&#10230; [Porte d'entrée, porte d'oubli, gate, porte de sortie]
+&#10230; [Porte d'entrée, porte d'oubli, porte, porte de sortie]
 
 <br>
 
@@ -216,7 +216,7 @@
 
 **37. R:S×A⟶R or R:S⟶R is the reward function that the algorithm wants to maximize**
 
-&#10230; R:S×A⟶R ou R:S⟶R est la fonction de récompense que l'algorithme veut maximizer
+&#10230; R:S×A⟶R ou R:S⟶R est la fonction de récompense que l'algorithme veut maximiser
 
 <br>
 
@@ -234,7 +234,7 @@
 
 **40. Value function ― For a given policy π and a given state s, we define the value function Vπ as follows:**
 
-&#10230; Fonction de valeurs ― Pour une politique donnée π et un état donné s, on définie la fonction de valeurs Vπ comme suit :
+&#10230; Fonction de valeurs ― Pour une politique donnée π et un état donné s, on définit la fonction de valeurs Vπ comme suit :
 
 <br>
 

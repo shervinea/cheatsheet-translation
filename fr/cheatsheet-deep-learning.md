@@ -1,4 +1,4 @@
-l'ensemble d'apprentissage **1. Deep Learning cheatsheet**
+**1. Deep Learning cheatsheet**
 
 &#10230; Pense-bête de Deep Learning
 
@@ -84,7 +84,7 @@ l'ensemble d'apprentissage **1. Deep Learning cheatsheet**
 
 **15. Step 1: Take a batch of training data.**
 
-&#10230; Étape 1 : Prendre un groupe d'observations appartenant au données de l'ensemble d'apprentissage .
+&#10230; Étape 1 : Prendre un groupe d'observations appartenant au données de l'ensemble d'apprentissage.
 
 <br>
 

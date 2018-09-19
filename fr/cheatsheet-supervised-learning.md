@@ -480,7 +480,7 @@
 
 **81: the training and testing sets follow the same distribution **
 
-&#10230; les ensembles d'apprentissage d'évaluation suivent la même distribution
+&#10230; les ensembles d'apprentissage et d'évaluation suivent la même distribution
 
 <br>
 

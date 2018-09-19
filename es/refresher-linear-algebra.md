@@ -1,6 +1,6 @@
 **1. Linear Algebra and Calculus refresher**
 
-&#10230; Revisión rápida de Algebra Linea y Cálculo
+&#10230; Hoja de referencia de Álgebra lineal y cálculo
 
 <br> 
 

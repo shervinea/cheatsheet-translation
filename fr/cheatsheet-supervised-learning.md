@@ -1,4 +1,4 @@
-d'apprentissage l'ensemble d'apprentissage **1. Supervised Learning cheatsheet**
+**1. Supervised Learning cheatsheet**
 
 &#10230; Pense-bête d'apprentissage supervisé
 
@@ -96,7 +96,7 @@ d'apprentissage l'ensemble d'apprentissage **1. Supervised Learning cheatsheet**
 
 **17. Remark: Stochastic gradient descent (SGD) is updating the parameter based on each training example, and batch gradient descent is on a batch of training examples.**
 
-&#10230; Remarque : L'algorithme du gradient stochastique (SGC) met à jour le paramètre à partir de chaque exemple de l'ensemble d'apprentisage , tandis que l'algorithme du gradient de batch le fait à partir de chaque batch d'exemples.
+&#10230; Remarque : L'algorithme du gradient stochastique (SGC) met à jour le paramètre à partir de chaque exemple de l'ensemble d'apprentissage, tandis que l'algorithme du gradient de batch le fait à partir de chaque batch d'exemples.
 
 <br>
 
@@ -144,7 +144,7 @@ d'apprentissage l'ensemble d'apprentissage **1. Supervised Learning cheatsheet**
 
 **25. LMS algorithm ― By noting α the learning rate, the update rule of the Least Mean Squares (LMS) algorithm for a training set of m data points, which is also known as the Widrow-Hoff learning rule, is as follows:**
 
-&#10230; Algorithme LMS ― En notant α le learning rate, la règle de mise à jour d'algorithme des moindres carrés (LMS) pour un ensemble d'apprentissage  de m points, qui est aussi connu sous le nom de règle de Widrow-Hoff, est :
+&#10230; Algorithme LMS ― En notant α le learning rate, la règle de mise à jour d'algorithme des moindres carrés (LMS) pour un ensemble d'apprentissage de m points, qui est aussi connu sous le nom de règle de Widrow-Hoff, est :
 
 <br>
 
@@ -432,7 +432,7 @@ d'apprentissage l'ensemble d'apprentissage **1. Supervised Learning cheatsheet**
 
 **73. k-nearest neighbors ― The k-nearest neighbors algorithm, commonly known as k-NN, is a non-parametric approach where the response of a data point is determined by the nature of its k neighbors from the training set. It can be used in both classification and regression settings.**
 
-&#10230; k-nearest neighbors ― L'algorithme des k-nearest neighbors, aussi connu sous le nom de k-NN, est une approche non-paramétrique où la réponse d'un point est déterminée par la nature de ses k voisins dans l'ensemble d'apprentissage . Il peut être utilisé dans des cadres de classification et de régression.
+&#10230; k-nearest neighbors ― L'algorithme des k-nearest neighbors, aussi connu sous le nom de k-NN, est une approche non-paramétrique où la réponse d'un point est déterminée par la nature de ses k voisins dans l'ensemble d'apprentissage. Il peut être utilisé dans des cadres de classification et de régression.
 
 <br>
 
@@ -468,7 +468,7 @@ d'apprentissage l'ensemble d'apprentissage **1. Supervised Learning cheatsheet**
 
 **79. Training error ― For a given classifier h, we define the training error ˆϵ(h), also known as the empirical risk or empirical error, to be as follows:**
 
-&#10230; Erreur d'apprentissage  ― Pour un classifieur donné h, on définit l'erreur d'apprentissage  ˆϵ(h), aussi connu sous le nom de risque empirique ou d'erreur empirique, par :
+&#10230; Erreur d'apprentissage  ― Pour un classifieur donné h, on définit l'erreur d'apprentissage ˆϵ(h), aussi connu sous le nom de risque empirique ou d'erreur empirique, par :
 
 <br>
 
@@ -480,13 +480,13 @@ d'apprentissage l'ensemble d'apprentissage **1. Supervised Learning cheatsheet**
 
 **81: the training and testing sets follow the same distribution **
 
-&#10230; l'ensemble d'apprentissage et l'ensemble d'évaluation  suivent la même distribution
+&#10230; les ensembles d'apprentissage d'évaluation suivent la même distribution
 
 <br>
 
 **82. the training examples are drawn independently**
 
-&#10230; les exemples d'apprentissage  sont tirés indépendamment
+&#10230; les exemples d'apprentissage sont tirés indépendamment
 
 <br>
 
@@ -516,4 +516,4 @@ d'apprentissage l'ensemble d'apprentissage **1. Supervised Learning cheatsheet**
 
 **87. Theorem (Vapnik) ― Let H be given, with VC(H)=d and m the number of training examples. With probability at least 1−δ, we have:**
 
-&#10230; Théorème (Vapnik) ― Soit H donné, avec VC(H) = d avec m le nombre d'exemples d'apprentissage . Avec une probabilité d'au moins 1−δ, on a :
+&#10230; Théorème (Vapnik) ― Soit H donné, avec VC(H) = d avec m le nombre d'exemples d'apprentissage. Avec une probabilité d'au moins 1−δ, on a :

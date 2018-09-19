@@ -98,202 +98,202 @@
 
 &#10230;
 
-<br>
+<br> [Inicialización de medias, Asignación de Cluster, Actualización de medias, Convergencia]
 
 **18. Distortion function ― In order to see if the algorithm converges, we look at the distortion function defined as follows:**
 
-&#10230;
+&#10230; Función de Distorción - Para ver si el algoritmo converge, observamos la función de distorción definida de la siguiente manera:
 
 <br>
 
 **19. Hierarchical clustering**
 
-&#10230;
+&#10230; Agrupación Jerárquica
 
 <br>
 
 **20. Algorithm ― It is a clustering algorithm with an agglomerative hierarchical approach that build nested clusters in a successive manner.**
 
-&#10230;
+&#10230; Algoritmo - Es un algoritmo de agrupamiento con un enfoque de aglomeramiento jerárquico que constriye clústeres anidados de forma sucesiva.
 
 <br>
 
 **21. Types ― There are different sorts of hierarchical clustering algorithms that aims at optimizing different objective functions, which is summed up in the table below:**
 
-&#10230;
+&#10230; Tipos - Hay diferentes tipos de algoritmos de agrupamiento jerárquico que apuntan a optimizar diferentes funciones objetivo, que se resumen en la tabla a continuación:
 
 <br>
 
 **22. [Ward linkage, Average linkage, Complete linkage]**
 
-&#10230;
+&#10230; [Enlace Ward, Enlace promedio, Enlace completo]
 
 <br>
 
 **23. [Minimize within cluster distance, Minimize average distance between cluster pairs, Minimize maximum distance of between cluster pairs]**
 
-&#10230;
+&#10230; [Minimizar dentro de la distancia del clúster, Minimizar la distancia promedio entre pares de clúster, Minimizar la distancia máxima entre pares de clúster]
 
 <br>
 
 **24. Clustering assessment metrics**
 
-&#10230;
+&#10230; Métricas de evaluación de agrupamiento
 
 <br>
 
 **25. In an unsupervised learning setting, it is often hard to assess the performance of a model since we don't have the ground truth labels as was the case in the supervised learning setting.**
 
-&#10230;
+&#10230; En un entorno de aprendizaje no supervisado, a menudo es difícil evaluar el rendimiento de un modelo ya que no contamos con las etiquetas de verdad, a como es el caso del aprendizaje supervisado.
 
 <br>
 
 **26. Silhouette coefficient ― By noting a and b the mean distance between a sample and all other points in the same class, and between a sample and all other points in the next nearest cluster, the silhouette coefficient s for a single sample is defined as follows:**
 
-&#10230;
+&#10230; Coeficiente de silueta - Sea a y b la distancia media entre una muestra y todos los demás puntos en la misma clase, y entre una muestra y todos los demás puntos en el siguiente grupo más cercano, el coeficiente de silueta s para una muestra individual se define de la siguiente manera:
 
 <br>
 
 **27. Calinski-Harabaz index ― By noting k the number of clusters, Bk and Wk the between and within-clustering dispersion matrices respectively defined as**
 
-&#10230;
+&#10230; Índice de Calinski-Harabaz - Sea k el número de conglomerados, Bk y Wk las matrices de dispersión entre y dentro de la agrupación, respectivamente, se definen como:
 
 <br>
 
 **28. the Calinski-Harabaz index s(k) indicates how well a clustering model defines its clusters, such that the higher the score, the more dense and well separated the clusters are. It is defined as follows:**
 
-&#10230;
+&#10230; El índice de Calinski-Harabaz s(k) indica qué tan bien un modelo de agrupamiento define sus grupos, de tal manera que cuanto mayor sea el puntaje, más denso y bien separados estarán los conglomerados. Se define de la siguiente manera:
 
 <br>
 
 **29. Dimension reduction**
 
-&#10230;
+&#10230; Reducción de dimensión
 
 <br>
 
 **30. Principal component analysis**
 
-&#10230;
+&#10230; Análisis de los componentes principales
 
 <br>
 
 **31. It is a dimension reduction technique that finds the variance maximizing directions onto which to project the data.**
 
-&#10230;
+&#10230; Es una técnica de reducción de dimensión que encuentra la varianza maximizando las direcciones sobre las proyectar los datos.
 
 <br>
 
 **32. Eigenvalue, eigenvector ― Given a matrix A∈Rn×n, λ is said to be an eigenvalue of A if there exists a vector z∈Rn∖{0}, called eigenvector, such that we have:**
 
-&#10230;
+&#10230; Autovalor (Eigenvalue), Autovector (Eigenvector) ― Dada una matriz A∈Rn×n, se dice que λ es un autovalor de A si existe un vector z∈Rn∖{0}, llamado autovector,  de tal manera que tenemos:
 
 <br>
 
 **33. Spectral theorem ― Let A∈Rn×n. If A is symmetric, then A is diagonalizable by a real orthogonal matrix U∈Rn×n. By noting Λ=diag(λ1,...,λn), we have:**
 
-&#10230;
+&#10230; Teorema espectral - Sea A∈Rn×n. Si A es simétrica, entonces A es diagonizable por una matriz ortogonal real U∈Rn×n. Al observar Λ=diag(λ1,...,λn), tenemos:
 
 <br>
 
 **34. diagonal**
 
-&#10230;
+&#10230; diagonal
 
 <br>
 
 **35. Remark: the eigenvector associated with the largest eigenvalue is called principal eigenvector of matrix A.**
 
-&#10230;
+&#10230; Observación: el autovector asociado con el autovalor más grande se denomina autovector principal de la matriz A.
 
 <br>
 
 **36. Algorithm ― The Principal Component Analysis (PCA) procedure is a dimension reduction technique that projects the data on k
 dimensions by maximizing the variance of the data as follows:**
 
-&#10230;
+&#10230; Algoritmo - El procedimiento de Análisis de Componentes Principales (ACP) es una técnica de reducción de dimensión que proyecta los datos en k dimensiones maximizando la varianza de los datos de la siguiente manera:
 
 <br>
 
 **37. Step 1: Normalize the data to have a mean of 0 and standard deviation of 1.**
 
-&#10230;
+&#10230; Paso 1: Normalizar los datos para obtener una media de 0 y una desviación estándar de 1.
 
 <br>
 
 **38. Step 2: Compute Σ=1mm∑i=1x(i)x(i)T∈Rn×n, which is symmetric with real eigenvalues.**
 
-&#10230;
+&#10230; Paso 2: Calcular Σ=1mm∑i=1x(i)x(i)T∈Rn×n, que es simétrico con autovalores reales.
 
 <br>
 
 **39. Step 3: Compute u1,...,uk∈Rn the k orthogonal principal eigenvectors of Σ, i.e. the orthogonal eigenvectors of the k largest eigenvalues.**
 
-&#10230;
+&#10230; Paso 3: Calcular u1,...,uk∈Rn los k autovectores ortogonales principales de Σ, es decir, los autovectores ortogonales de los k mayores autovalores. 
 
 <br>
 
 **40. Step 4: Project the data on spanR(u1,...,uk).**
 
-&#10230;
+&#10230; Paso 4: Proyectar los datos en spanR(u1,...,uk).
 
 <br>
 
 **41. This procedure maximizes the variance among all k-dimensional spaces.**
 
-&#10230;
+&#10230; Este procedimiento maximiza la varianza entre todos los espacios dimensionales k.
 
 <br>
 
 **42. [Data in feature space, Find principal components, Data in principal components space]**
 
-&#10230;
+&#10230; [Datos en el espacio de funciones, Buscar componentes principales, Datos en el espacio de componentes principales]
 
 <br>
 
 **43. Independent component analysis**
 
-&#10230;
+&#10230; Análisis de componentes independientes
 
 <br>
 
 **44. It is a technique meant to find the underlying generating sources.**
 
-&#10230;
+&#10230; Es una técnica destinada a encontrar las fuentes generadoras subyacentes.
 
 <br>
 
 **45. Assumptions ― We assume that our data x has been generated by the n-dimensional source vector s=(s1,...,sn), where si are independent random variables, via a mixing and non-singular matrix A as follows:**
 
-&#10230;
+&#10230; Suposiciones - Suponemos que nuestros datos x han sido generados por el vector fuente n-dimensional s=(s1,...,sn), donde si son variables aleatorias independientes, a través de una matriz A de mezcla y no singular de la siguiente manera:
 
 <br>
 
 **46. The goal is to find the unmixing matrix W=A−1.**
 
-&#10230;
+&#10230; El objetivo es encontrar la matriz desmezcladora W=A−1.
 
 <br>
 
 **47. Bell and Sejnowski ICA algorithm ― This algorithm finds the unmixing matrix W by following the steps below:**
 
-&#10230;
+&#10230; Algoritmo ICA de Bell y Sejnowski - Este algoritmo encuentra la matriz desmezcladora W siguiente los siguientes pasos: 
 
 <br>
 
 **48. Write the probability of x=As=W−1s as:**
 
-&#10230;
+&#10230; Escribir la probabilidad de x=As=W−1s como:
 
 <br>
 
 **49. Write the log likelihood given our training data {x(i),i∈[[1,m]]} and by noting g the sigmoid function as:**
 
-&#10230;
+&#10230; Escriba la probabilidad dado nuestros datos de entrenamiento {x(i),i∈[[1,m]]} y denotando g, la función sigmoide, como:
 
 <br>
 
 **50. Therefore, the stochastic gradient ascent learning rule is such that for each training example x(i), we update W as follows:**
 
-&#10230;
+&#10230; Por lo tanto, la regla de aprendizaje de ascenso de gradiente estocástica es tal que para cada ejemplo de entrenamiento x(i), actualizamos W de la siguiente manera:
 

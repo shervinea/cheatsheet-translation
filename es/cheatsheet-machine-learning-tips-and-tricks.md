@@ -1,6 +1,6 @@
 **1. Machine Learning tips and tricks cheatsheet**
 
-&#10230; Hoja de trucos y ayudas de aprendizaje automático
+&#10230; Hoja de referencia y ayudas de aprendizaje automático
 
 <br>
 
@@ -12,25 +12,25 @@
 
 **3. In a context of a binary classification, here are the main metrics that are important to track in order to assess the performance of the model.**
 
-&#10230; En el contexto de una clasificacion binaría, estas son las principales métricas que se tienen que seguir para evaluar el desempeño del modelo
+&#10230; En el contexto de una clasificación binaría, estas son las principales métricas que se tienen que seguir para evaluar el rendimiento del modelo
 
 <br>
 
 **4. Confusion matrix ― The confusion matrix is used to have a more complete picture when assessing the performance of a model. It is defined as follows:**
 
-&#10230; Matriz de confusión ― La matriz de confusión es usada para tener un mejor panorama cuandpo se evalua el desempeño del modelo. Se define como:
+&#10230; Matriz de confusión ― La matriz de confusión es usada para tener un mejor panorama cuando se evalua el rendimiento del modelo. Se define como:
 
 <br>
 
 **5. [Predicted class, Actual class]**
 
-&#10230; [Clase predecida, Clase Real]
+&#10230; [Clase Predicha, Clase Real]
 
 <br>
 
 **6. Main metrics ― The following metrics are commonly used to assess the performance of classification models:**
 
-&#10230; Métricas principales ― Las siguientes métricas son comumente usadas para evaluar el desempeño de modelos clasificatorios
+&#10230; Métricas principales ― Las siguientes métricas son comúnmente usadas para evaluar el desempeño de modelos clasificatorios
  
 <br>
 
@@ -48,19 +48,19 @@
 
 **9. How accurate the positive predictions are**
 
-&#10230; ¿Qué tan precisan son las precisiones positivas?
+&#10230; ¿Qué tan precisan son las predicciones positivas?
 
 <br>
 
 **10. Coverage of actual positive sample**
 
-&#10230; Covertura de las pruebas positivas
+&#10230; Cobertura de los ejemplos positivos
 
 <br>
 
 **11. Coverage of actual negative sample**
 
-&#10230; Covertura de las pruebas negativas
+&#10230; Cobertura de los ejemplos negativos
 
 <br>
 
@@ -72,7 +72,7 @@
 
 **13. ROC ― The receiver operating curve, also noted ROC, is the plot of TPR versus FPR by varying the threshold. These metrics are are summed up in the table below:**
 
-&#10230; Curva Curva de operación del receptor (ROC) ― La curva receptora de operaciones, por sus siglás en inglés ROC, es la gráfica de los Tasa de verdaderos positivos" (TPR) contra los Tasa de falsos positivos (FPR) variando el umbral. Estas métricas son resumidas en la tabla siguiente: 
+&#10230; Curva de operación del receptor (ROC, por sus siglás en Inglés) ― La curva receptora de operaciones, por sus siglás en inglés ROC, es la gráfica de los Tasa de verdaderos positivos (TPR) contra los Tasa de falsos positivos (FPR) variando el umbral. Estas métricas son resumidas en la tabla siguiente: 
 
 <br>
 
@@ -84,7 +84,7 @@
 
 **15. AUC ― The area under the receiving operating curve, also noted AUC or AUROC, is the area below the ROC as shown in the following figure:**
 
-&#10230; AUC ― Área bajo la curva ROC, también llamda AUC o AUROC, es la área bajo de la curva ROC como se muestra en la siguiente figura:
+&#10230; AUC ― El área bajo la curva ROC, también llamda AUC o AUROC, es la área bajo de la curva ROC como se muestra en la siguiente figura:
 
 <br>
 
@@ -96,25 +96,25 @@
 
 **17. Basic metrics ― Given a regression model f, the following metrics are commonly used to assess the performance of the model:**
 
-&#10230; Métricas básicas ― Dado un modelo de regresión f, las siguientes métricas son comunmente usadas para evaluar el desempeño del modelo:
+&#10230; Métricas básicas ― Dado un modelo de regresión f, las siguientes métricas son comúnmente usadas para evaluar el desempeño del modelo:
 
 <br>
 
 **18. [Total sum of squares, Explained sum of squares, Residual sum of squares]**
 
-&#10230; [Suma total de los cuadrados, Explicaicón de la suma de cuadrados, Residio de la suma de cuadrados]
+&#10230; [Suma de cuadrados explicada, Explicación de la suma de cuadrados, Suma de los cuadrados de los residuales]
 
 <br> 
 
 **19. Coefficient of determination ― The coefficient of determination, often noted R2 or r2, provides a measure of how well the observed outcomes are replicated by the model and is defined as follows:**
 
-&#10230; Coefficientes de determinante ― El coeficiente de determinante, usualmente llamado R2 o r2, provee una medida 
+&#10230; Coeficiente de determinación ― El coeficiente de determinación, usualmente llamado R2 o r2, provee una medida de que tan bien los resultados observados son replicados por el modelo y se define como:
 
 <br>
 
 **20. Main metrics ― The following metrics are commonly used to assess the performance of regression models, by taking into account the number of variables n that they take into consideration:**
 
-&#10230; Métricas principales ― Las siguientes métricas son comunmente usadas para evaluar el desempeño de los modelos de regresión, tomando el número de variables n que son consideradas:
+&#10230; Métricas principales ― Las siguientes métricas son comúnmente usadas para evaluar el desempeño de los modelos de regresión, teniendo en cuenta el número de variables n que son consideradas:
 
 <br>
 
@@ -132,13 +132,13 @@
 
 **23. Vocabulary ― When selecting a model, we distinguish 3 different parts of the data that we have as follows:**
 
-&#10230; Vocabulario ― Cuando se selección un modelo, se tienen 3 diferentes partes de la información como se muestra:
+&#10230; Vocabulario ― Cuándo se selección un modelo, se tienen 3 diferentes partes de la información como se muestra:
 
 <br>
 
 **24. [Training set, Validation set, Testing set]**
 
-&#10230; [conjunto de entrenamiento, conjunto de validación, conjunto de prueba]
+&#10230; [Conjunto de entrenamiento, Conjunto de validación, Conjunto de prueba]
 
 <br>
 
@@ -150,7 +150,7 @@
 
 **26. [Usually 80% of the dataset, Usually 20% of the dataset]**
 
-&#10230; [Usualmente 80% del dataset, Usualmente 20% del dataset]
+&#10230; [Usualmente 80% del conjunto, Usualmente 20% del conjunto]
 
 <br>
 
@@ -168,7 +168,7 @@
 
 **29. Cross-validation ― Cross-validation, also noted CV, is a method that is used to select a model that does not rely too much on the initial training set. The different types are summed up in the table below:**
 
-&#10230; Validación cruzada ― También nombrada CV, es un método que se usa para seleccionar un modelo que no se basa demasaido en el test de entrenamiento inicial. Los diferentes tipos estan englobados en la siguiente tabla:
+&#10230; Validación cruzada ― También nombrada CV, es un método que se usa para seleccionar un modelo que no se basa demasiado en el conjunto de entrenamiento inicial. Los diferentes tipos estan englobados en la siguiente tabla:
 
 <br>
 

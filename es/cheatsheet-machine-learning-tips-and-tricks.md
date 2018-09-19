@@ -54,13 +54,13 @@
 
 **10. Coverage of actual positive sample**
 
-&#10230; Cobertura de los ejemplos positivos
+&#10230; Cobertura de la muestra positiva
 
 <br>
 
 **11. Coverage of actual negative sample**
 
-&#10230; Cobertura de los ejemplos negativos
+&#10230; Cobertura de la muestra negativa
 
 <br>
 
@@ -132,7 +132,7 @@
 
 **23. Vocabulary ― When selecting a model, we distinguish 3 different parts of the data that we have as follows:**
 
-&#10230; Vocabulario ― Cuándo se selección un modelo, se tienen 3 diferentes partes de la información como se muestra:
+&#10230; Vocabulario ― Cuando se selecciona un modelo, se tienen 3 diferentes partes de la información como se muestra:
 
 <br>
 

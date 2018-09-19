@@ -1,6 +1,6 @@
 **1. Linear Algebra and Calculus refresher**
 
-&#10230; Rappels sur l'algèbre lineaire et l'analyse
+&#10230; Rappels d'algèbre lineaire et d'analyse
 
 <br>
 
@@ -66,7 +66,7 @@
 
 **12. Matrix operations**
 
-&#10230; Opérations sur les Matrices
+&#10230; Opérations matricielles
 
 <br>
 
@@ -222,7 +222,7 @@
 
 **38. [Norm, Notation, Definition, Use case]**
 
-&#10230; [Norme, Notation, Définition, Cas d'Utilisation]
+&#10230; [Norme, Notation, Définition, Cas d'utilisation]
 
 <br>
 
@@ -282,7 +282,7 @@
 
 **48. Matrix calculus**
 
-&#10230; Calcul Matricielle
+&#10230; Calcul matriciel
 
 <br>
 

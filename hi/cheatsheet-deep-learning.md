@@ -289,3 +289,31 @@
 **49. Q-learning ― Q-learning is a model-free estimation of Q, which is done as follows:**
 
 &#10230; क्यू-लर्निंग - क्यू-लर्निंग क्यू का मॉडल-मुक्त अनुमान है, जो निम्नानुसार किया जाता है:
+
+**50. View PDF version on GitHub**
+
+&#10230; गिटहब पर पीडीएफ संस्करण देखें
+
+<br>
+
+**51. [Neural Networks, Architecture, Activation function, Backpropagation, Dropout]**
+
+&#10230; [न्यूरल  नेटवर्क, आर्किटेक्चर, एक्टिवेशन फंक्शन, बैकप्रोपेगेशन, ड्रॉपआउट]
+
+<br>
+
+**52. [Convolutional Neural Networks, Convolutional layer, Batch normalization]**
+
+&#10230; [कोंवोलुशनल न्यूरल नेटवर्क, कोंवोलुशनल लेयर, बैच नॉर्मलाइज़शन]
+
+<br>
+
+**53. [Recurrent Neural Networks, Gates, LSTM]**
+
+&#10230; [रीकरंट न्यूरल नेटवर्क, गेट्स , लसटीम] 
+
+<br>
+
+**54. [Reinforcement learning, Markov decision processes, Value/policy iteration, Approximate dynamic programming, Policy search]**
+
+&#10230; [रएंफोर्रसमेंट लर्निंग, मार्कोव डिसिजन प्रोसेस, वैल्यू/पालिसी िटेरशन, अप्प्रोक्सिमेट डायनामिक प्रोग्रामिंग, पालिसी सर्च]

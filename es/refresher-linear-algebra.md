@@ -316,28 +316,26 @@ es una matriz simétrica de n×n, para ∇2xf(x), tal que:
 
 &#10230; Operaciones de gradiente ― Para matrices A,B,C, las siguientes propiedades del gradiente vale la pena tener en cuenta:
 
-&#10230;
-
 <br>
 
 **54. [General notations, Definitions, Main matrices]**
 
-&#10230;
+&#10230; [Notaciones generales, Definiciones, Matrices principales]
 
 <br>
 
 **55. [Matrix operations, Multiplication, Other operations]**
 
-&#10230;
+&#10230; [Operaciones matriciales, Multiplicación, Otras operaciones]
 
 <br>
 
 **56. [Matrix properties, Norm, Eigenvalue/Eigenvector, Singular-value decomposition]**
 
-&#10230;
+&#10230; [Propiedades matriciales, Norma, Eigenvalor/Eigenvector, Descomposición de valores singulares]
 
 <br>
 
 **57. [Matrix calculus, Gradient, Hessian, Operations]**
 
-&#10230;
+&#10230; [Cálculo matricial, Gradiante, Matriz Hessiana, Operaciones]

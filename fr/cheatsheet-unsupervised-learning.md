@@ -289,7 +289,7 @@ dimensions by maximizing the variance of the data as follows:**
 
 **49. Write the log likelihood given our training data {x(i),i∈[[1,m]]} and by noting g the sigmoid function as:**
 
-&#10230; Écire la log vraisemblance de notre ensemble d'apprentisage {x(i),i∈[[1,m]]} et en notant g la fonction sigmoïde par :
+&#10230; Écrire la log vraisemblance de notre ensemble d'apprentissage {x(i),i∈[[1,m]]} et en notant g la fonction sigmoïde par :
 
 <br>
 

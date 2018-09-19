@@ -24,7 +24,7 @@
 
 **5. Axioms of probability - For each event E, we denote P(E) as the probability of event E occuring.**
 
-&#10230; Axiomas de la probabilidad Para cada evento E, P(E) denota la probabilidad de que el evento E ocurra.
+&#10230; Axiomas de la probabilidad - Para cada evento E, denotamos P(E) como la probabilidad de que el evento E ocurra.
 
 <br>
 
@@ -156,192 +156,192 @@
 
 **27. Expectation and Moments of the Distribution ― Here are the expressions of the expected value E[X], generalized expected value E[g(X)], kth moment E[Xk] and characteristic function ψ(ω) for the discrete and continuous cases:**
 
-&#10230;
+&#10230; Valor Esperado y Momentos de la Distribución - Aquí están las expresiones del valor esperado E[X], valor esperado generalizado E[g(X)], k-ésimo momento E[Xk] y función característica ψ(ω) para los casos discreto y contínuo:
 
 <br>
 
 **28. Variance ― The variance of a random variable, often noted Var(X) or σ2, is a measure of the spread of its distribution function. It is determined as follows:**
 
-&#10230;
+&#10230; Varianza - La varianza de una variable aleatoria, frecuentemente denotada por Var(X) or σ2, es una medida de la dispersión de su función de distribución. Esta determinada de la siguiente manera:
 
 <br>
 
 **29. Standard deviation ― The standard deviation of a random variable, often noted σ, is a measure of the spread of its distribution function which is compatible with the units of the actual random variable. It is determined as follows:**
 
-&#10230;
+&#10230; Desviación estándar - La desviación estándar de una variable aleatoria, frecuentemente denotada por σ, es una medida de la dispersión de su función de distribución la cual es compatible con las unidades de la correspondiente variable aleatoria. Esta determinada de la siguiente manera:
 
 <br>
 
 **30. Transformation of random variables ― Let the variables X and Y be linked by some function. By noting fX and fY the distribution function of X and Y respectively, we have:**
 
-&#10230;
+&#10230; Transformación de variables aleatorias - Sean las variables X y Y asociadas por alguna función. Denotemos como fX y fY la función de distribución de X y Y respectivamente, se tiene:
 
 <br>
 
 **31. Leibniz integral rule ― Let g be a function of x and potentially c, and a,b boundaries that may depend on c. We have:**
 
-&#10230;
+&#10230; Regla integral de Leibniz - Sea g una función de x y posiblemente de c, y además sea a,b un intervalo que puede depender de c. Se tiene: 
 
 <br>
 
 **32. Probability Distributions**
 
-&#10230;
+&#10230; Distribuciones de Probabilidad
 
 <br>
 
 **33. Chebyshev's inequality ― Let X be a random variable with expected value μ. For k,σ>0, we have the following inequality:**
 
-&#10230;
+&#10230; Desigualdad de Chebyshev - Sea X una variable aleatoria con valor esperado μ. Para k,σ>0, se tiene la siguiente desigualdad:
 
 <br>
 
 **34. Main distributions ― Here are the main distributions to have in mind:**
 
-&#10230;
+&#10230; Distribuciones importantes - Aquí están las distribuciones mas importantes para tomar en cuenta: 
 
 <br>
 
 **35. [Type, Distribution]**
 
-&#10230;
+&#10230; [Tipo, Distribución]
 
 <br>
 
 **36. Jointly Distributed Random Variables**
 
-&#10230;
+&#10230; Variables aleatorias conjuntas
 
 <br>
 
 **37. Marginal density and cumulative distribution ― From the joint density probability function fXY , we have**
 
-&#10230;
+&#10230; Densidad marginal y distribución acumulada - De la función conjunta de densidad de probabilidad fXY , se tiene
 
 <br>
 
 **38. [Case, Marginal density, Cumulative function]**
 
-&#10230;
+&#10230; [Caso, Densidad marginal, Función acumulativa]
 
 <br>
 
 **39. Conditional density ― The conditional density of X with respect to Y, often noted fX|Y, is defined as follows:**
 
-&#10230;
+&#10230; Densidad condicional - La densidad condicional de X con respecto a Y, frecuentemente denotada como fX|Y, es definida como:
 
 <br>
 
-**40. Independence ― Two random variables X and Y are said to be independent if we have:**
+**40. Independence ― Two random variables X and Y are said to be independent if we have:** 
 
-&#10230;
+&#10230; Independencia - Dos variables aleatorias X y Y son consideradas independientes si se tiene:
 
 <br>
 
 **41. Covariance ― We define the covariance of two random variables X and Y, that we note σ2XY or more commonly Cov(X,Y), as follows:**
 
-&#10230;
+&#10230; Covarianza - Definimos la covarianza de dos variables aleatorias X y Y, denotada como σ2XY o comúnmente como Cov(X,Y), de la siguiente manera:
 
 <br>
 
 **42. Correlation ― By noting σX,σY the standard deviations of X and Y, we define the correlation between the random variables X and Y, noted ρXY, as follows:**
 
-&#10230;
+&#10230; Correlación - Sean σX,σY las desviaciones estándard de X y Y, definimos la correlación entre estas variables, denotada como ρXY, de la siguiente manera:
 
 <br>
 
 **43. Remark 1: we note that for any random variables X,Y, we have ρXY∈[−1,1].**
 
-&#10230;
+&#10230; Observación 1: Cabe resaltar que para X,Y variables aleatorias cualesquiera, se tiene que ρXY∈[−1,1].
 
 <br>
 
 **44. Remark 2: If X and Y are independent, then ρXY=0.**
 
-&#10230;
+&#10230; Observación 1: Si X y Y son independientes, entonces ρXY=0.
 
 <br>
 
 **45. Parameter estimation**
 
-&#10230;
+&#10230; Estimación de Parámetros
 
 <br>
 
 **46. Definitions**
 
-&#10230;
+&#10230; Definiciones
 
 <br>
 
 **47. Random sample ― A random sample is a collection of n random variables X1,...,Xn that are independent and identically distributed with X.**
 
-&#10230;
+&#10230; Muestra Aleatoria - Una muestra aleatoria es una colección de n variables aleatorias X1,...,Xn que son independientes e idénticamente distribuidas a X.
 
 <br>
 
 **48. Estimator ― An estimator is a function of the data that is used to infer the value of an unknown parameter in a statistical model.**
 
-&#10230;
+&#10230; Estimador - Un estimador es una función de los datos que es usada para inferir el valor de un parámetro desconocido en un modelo estadístico.
 
 <br>
 
 **49. Bias ― The bias of an estimator ^θ is defined as being the difference between the expected value of the distribution of ^θ and the true value, i.e.:**
 
-&#10230;
+&#10230; Sesgo - El sesgo de un estimador ^θ se define como la diferencia entre el valor esperado de la distribución de ^θ y el valor exacto, esto es:
 
 <br>
 
 **50. Remark: an estimator is said to be unbiased when we have E[^θ]=θ.**
 
-&#10230;
+&#10230; Observación: se dice que un estimador es insesgado cuando se tiene E[^θ]=θ.
 
 <br>
 
 **51. Estimating the mean**
 
-&#10230;
+&#10230; Estimación de la media
 
 <br>
 
 **52. Sample mean ― The sample mean of a random sample is used to estimate the true mean μ of a distribution, is often noted ¯¯¯¯¯X and is defined as follows:**
 
-&#10230;
+&#10230; Media de la muestra - La media de la muestra aleatoria se usa para estimar el valor exacto de la media μ de la distribución, se denota frecuentemente como ¯¯¯¯¯X y se define de la siguiente manera:
 
 <br>
 
 **53. Remark: the sample mean is unbiased, i.e E[¯¯¯¯¯X]=μ.**
 
-&#10230;
+&#10230; Observación: La media de la muestra es insesgada, esto es E[¯¯¯¯¯X]=μ.
 
 <br>
 
 **54. Central Limit Theorem ― Let us have a random sample X1,...,Xn following a given distribution with mean μ and variance σ2, then we have:**
 
-&#10230;
+&#10230; Teorema Central del Límite - Sea X1,...,Xn una muestra aleatoria que sigue una distribución con media μ y varianza σ2, entonces se tiene:
 
 <br>
 
 **55. Estimating the variance**
 
-&#10230;
+&#10230; Estimación de la varianza
 
 <br>
 
 **56. Sample variance ― The sample variance of a random sample is used to estimate the true variance σ2 of a distribution, is often noted s2 or ^σ2 and is defined as follows:**
 
-&#10230;
+&#10230; Varianza de la muestra - La varianza de la muestra aleatoria se usa para estimar el valor exacto de la varianza σ2 de una distribución, se denota frecuentemente como s2 o ^σ2 y se define de la siguiente manera:
 
 <br>
 
 **57. Remark: the sample variance is unbiased, i.e E[s2]=σ2.**
 
-&#10230;
+&#10230; Observación: La varianza de la muestra es insesgada, esto es E[s2]=σ2.
 
 <br>
 
 **58. Chi-Squared relation with sample variance ― Let s2 be the sample variance of a random sample. We have:**
 
-&#10230;
+&#10230; Relación Chi-cuadrada con la varianza de la muestra - Sea s2 la varianza de la muestra de una variable aleatoria. Se tiene:
 
 <br>

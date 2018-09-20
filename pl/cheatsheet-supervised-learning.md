@@ -472,13 +472,13 @@
 
 <br>
 
-**80. Probably Approximately Correct (PAC) ― PAC is a framework under which numerous results on learning theory were proved, and has the following set of assumptions: **
+**80. Probably Approximately Correct (PAC) ― PAC is a framework under which numerous results on learning theory were proved, and has the following set of assumptions:**
 
-&#10230;
+&#10230; 
 
 <br>
 
-**81: the training and testing sets follow the same distribution **
+**81: the training and testing sets follow the same distribution**
 
 &#10230;
 

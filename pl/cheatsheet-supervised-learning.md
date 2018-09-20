@@ -360,37 +360,37 @@
 
 **61. Solutions ― Maximizing the log-likelihood gives the following solutions, with k∈{0,1},l∈[[1,L]]**
 
-&#10230; Rozwiązanie ― 
+&#10230; Rozwiązanie ― Maksymalizując logarytmiczne prawdopodobieństwo otrzymujemy następująze rozwiązanie z k∈{0,1},l∈[[1,L]]
 
 <br>
 
 **62. Remark: Naive Bayes is widely used for text classification and spam detection.**
 
-&#10230;
+&#10230; Przypomnienie: Naiwny klasyfikator bayesowski jest powszechnie używany do klasyfikacji tekstu i detekcji spamu.
 
 <br>
 
 **63. Tree-based and ensemble methods**
 
-&#10230;
+&#10230; Metody oparte o drzewa i "ensembling"
 
 <br>
 
 **64. These methods can be used for both regression and classification problems.**
 
-&#10230;
+&#10230; Te metody mogą być używane zarówno do problemów regresyjnych jak i klasyfikacyjnych.
 
 <br>
 
 **65. CART ― Classification and Regression Trees (CART), commonly known as decision trees, can be represented as binary trees. They have the advantage to be very interpretable.**
 
-&#10230;
+&#10230; CART ― Drzewa klasyfikacyjne i regresyjne (Classification and Regression Trees), zwane także drzewami decyzyjnymi, mogą być reprezentowane jako drzewa binarne. Zaletą tych metod jest ich wysoka interpretowalność.
 
 <br>
 
 **66. Random forest ― It is a tree-based technique that uses a high number of decision trees built out of randomly selected sets of features. Contrary to the simple decision tree, it is highly uninterpretable but its generally good performance makes it a popular algorithm.**
 
-&#10230;
+&#10230; Las losowy
 
 <br>
 

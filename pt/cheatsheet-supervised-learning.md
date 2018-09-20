@@ -66,7 +66,7 @@
 
 **12. Loss function ― A loss function is a function L:(z,y)∈R×Y⟼L(z,y)∈R that takes as inputs the predicted value z corresponding to the real data value y and outputs how different they are. The common loss functions are summed up in the table below:**
 
-&#10230; Função de perda - A função de perda é definida como L:(z,y)∈R×Y⟼L(z,y)∈R que recebe de entrada o valor z resultado da prefição e o real valor de y e retorna quão diferentes eles são. As funções de valor mais comuns estão resumidas na tabela abaixo:
+&#10230; Função de perda - A função de perda é definida como L:(z,y)∈R×Y⟼L(z,y)∈R que recebe como entradas o valor z previsto correspondente ao valor real y e retorna o quão diferente eles são.
 
 <br>
 
@@ -342,7 +342,7 @@
 
 **58. Estimation ― The following table sums up the estimates that we find when maximizing the likelihood:**
 
-&#10230; Estimação - A tabela a seguir resume as estimativas que encontramos ao maximizar a probabilidade:
+&#10230; Estimativa - A tabela a seguir resume as estimativas que encontramos ao maximizar a probabilidade:
 
 <br>
 
@@ -456,25 +456,25 @@
 
 **77. Hoeffding inequality ― Let Z1,..,Zm be m iid variables drawn from a Bernoulli distribution of parameter ϕ. Let ˆϕ be their sample mean and γ>0 fixed. We have:**
 
-&#10230; Inequalidade de Hoeffding - Dado que Z1,...,Zm são m iid variáveis desenhadas a partir de uma distribuição de Bernoulli do parâmetro ϕ. Seja ˆϕ  a média do conjunto e γ>0. Temos que:
+&#10230; Desigualdade de Hoeffding - Dado que Z1,...,Zm são m iid variáveis extraídas de uma distribuição de Bernoulli do parâmetro ϕ. Seja ˆϕ  a média amostral deles e fixado γ>0. Temos que:
 
 <br>
 
 **78. Remark: this inequality is also known as the Chernoff bound.**
 
-&#10230; Observação: essa inequalidade também é chamada de fronteira Chernoff.
+&#10230; Observação: essa desigualdade também é chamada de fronteira Chernoff.
 
 <br>
 
 **79. Training error ― For a given classifier h, we define the training error ˆϵ(h), also known as the empirical risk or empirical error, to be as follows:**
 
-&#10230; Erro de treinamento - Para um dado classificador h, é definido o erro de treinamento ˆϵ(h), também conhecido como o risco empírico ou o erro empírico, como:
+&#10230; Erro de treinamento - Para um dado classificador h, é definido o erro de treinamento ˆϵ(h), também conhecido como o risco ou o erro empírico, como:
 
 <br>
 
 **80. Probably Approximately Correct (PAC) ― PAC is a framework under which numerous results on learning theory were proved, and has the following set of assumptions: **
 
-&#10230; Provavelmente Aproximadamente Correto (PAC) - PAC é uma estrutura (framework) em que numerosos resultados da teoria de aprendizagem foram provados, e tem o seguinte conjunto de premissas:
+&#10230; Provavelmente Aproximadamente Correto (PAC - Probably Approximately Corrent) - PAC é uma estrutura (framework) em que numerosos resultados da teoria de aprendizagem foram provados, e tem o seguinte conjunto de premissas:
 
 <br>
 
@@ -564,4 +564,4 @@
 
 **95. [Learning theory, Hoeffding inequality, PAC, VC dimension]**
 
-&#10230; [Teoria de aprendizagem, Inequalidade de Hoeffding, PAC, dimensão VC]
+&#10230; [Teoria de aprendizagem, Desigualdade de Hoeffding, PAC, dimensão VC]

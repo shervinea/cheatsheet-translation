@@ -1,6 +1,6 @@
 **1. Deep Learning cheatsheet**
 
-&#10230; Pense-bête de Deep Learning
+&#10230; Pense-bête d'apprentissage profond
 
 <br>
 
@@ -30,7 +30,7 @@
 
 **6. By noting i the ith layer of the network and j the jth hidden unit of the layer, we have:**
 
-&#10230; En notant i la ième couche du réseau et j la jième unité de couche cachée, on a: 
+&#10230; En notant i la ième couche du réseau et j la jième unité de couche cachée, on a:
 
 <br>
 
@@ -42,7 +42,7 @@
 
 **8. Activation function ― Activation functions are used at the end of a hidden unit to introduce non-linear complexities to the model. Here are the most common ones:**
 
-&#10230; Les fonctions d'activation sont utilisées à la fin d'une unité de couche cachée pour introduire des complexités non linéaires au modèle. En voici les plus fréquentes :
+&#10230; Fonction d'activation ― Les fonctions d'activation sont utilisées à la fin d'une unité de couche cachée pour introduire des complexités non linéaires au modèle. En voici les plus fréquentes :
 
 <br>
 
@@ -54,7 +54,7 @@
 
 **10. Cross-entropy loss ― In the context of neural networks, the cross-entropy loss L(z,y) is commonly used and is defined as follows:**
 
-&#10230; Dans le contexte des réseaux de neurones, la fonction objectif de cross-entropie L(z,y) est communément utilisée et est définie de la manière suivante : 
+&#10230; Dans le contexte des réseaux de neurones, la fonction objectif de cross-entropie L(z,y) est communément utilisée et est définie de la manière suivante :
 
 <br>
 
@@ -84,7 +84,7 @@
 
 **15. Step 1: Take a batch of training data.**
 
-&#10230; Étape 1 : Prendre un groupe d'observations appartenant au données du training set.
+&#10230; Étape 1 : Prendre un groupe d'observations appartenant au données de l'ensemble d'apprentissage.
 
 <br>
 
@@ -108,7 +108,7 @@
 
 **19. Dropout ― Dropout is a technique meant at preventing overfitting the training data by dropping out units in a neural network. In practice, neurons are either dropped with probability p or kept with probability 1−p**
 
-&#10230; Dropout ― Le dropout est une technique qui est destinée à empêcher le sur-ajustement sur les données de training en abandonnant des unités dans un réseau de neurones. En pratique, les neurones sont soit abandonnés avec une probabilité p ou gardés avec une probabilité 1-p 
+&#10230; Dropout ― Le dropout est une technique qui est destinée à empêcher le sur-ajustement sur les données de training en abandonnant des unités dans un réseau de neurones. En pratique, les neurones sont soit abandonnés avec une probabilité p ou gardés avec une probabilité 1-p
 
 <br>
 
@@ -150,7 +150,7 @@
 
 **26. [Input gate, forget gate, gate, output gate]**
 
-&#10230; [Porte d'entrée, porte d'oubli, gate, porte de sortie]
+&#10230; [Porte d'entrée, porte d'oubli, porte, porte de sortie]
 
 <br>
 
@@ -216,7 +216,7 @@
 
 **37. R:S×A⟶R or R:S⟶R is the reward function that the algorithm wants to maximize**
 
-&#10230; R:S×A⟶R ou R:S⟶R est la fonction de récompense que l'algorithme veut maximizer
+&#10230; R:S×A⟶R ou R:S⟶R est la fonction de récompense que l'algorithme veut maximiser
 
 <br>
 
@@ -234,7 +234,7 @@
 
 **40. Value function ― For a given policy π and a given state s, we define the value function Vπ as follows:**
 
-&#10230; Fonction de valeurs ― Pour une politique donnée π et un état donné s, on définie la fonction de valeurs Vπ comme suit :
+&#10230; Fonction de valeurs ― Pour une politique donnée π et un état donné s, on définit la fonction de valeurs Vπ comme suit :
 
 <br>
 

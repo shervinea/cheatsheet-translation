@@ -42,13 +42,13 @@
 
 **8. [Discriminative model, Generative model, Goal, What's learned, Illustration, Examples]**
 
-&#10230; [Modelo discriminatorio, Modelo generativo, Objetivo, Qué se aprende?, Ilustración, Ejemplos]
+&#10230; [Modelo discriminatorio, Modelo generativo, Objetivo, Qué se aprende, Ilustración, Ejemplos]
 
 <br>
 
 **9. [Directly estimate P(y|x), Estimate P(x|y) to then deduce P(y|x), Decision boundary,  	Probability distributions of the data, Regressions, SVMs, GDA, Naive Bayes]**
 
-&#10230; [Estima P(y|x), Estima P(x|y) para luego deducir P(y|x), Límite de decisión,  	Distribución probabilistica de los datos, Regresiones, SVMs, GDA, Naive Bayes]
+&#10230; [Estima P(y|x), Estima P(x|y) para luego deducir P(y|x), Límite de decisión,  	Distribución probabilística de los datos, Regresiones, SVMs, GDA, Naive Bayes]
 
 <br>
 
@@ -60,19 +60,19 @@
 
 **11. Hypothesis ― The hypothesis is noted hθ and is the model that we choose. For a given input data x(i) the model prediction output is hθ(x(i)).**
 
-&#10230; Hipótesis ― La hipótesos se representa con h0 y es el modelo que elegimos. Para un dato de entrada x(i), la predicción dada por el modelo se representa como h0(x(i)).
+&#10230; Hipótesis ― La hipótesis se representa con h0 y es el modelo que elegimos. Para un dato de entrada x(i), la predicción dada por el modelo se representa como h0(x(i)).
 
 <br>
 
 **12. Loss function ― A loss function is a function L:(z,y)∈R×Y⟼L(z,y)∈R that takes as inputs the predicted value z corresponding to the real data value y and outputs how different they are. The common loss functions are summed up in the table below:**
 
-&#10230; Función de pérdida ― Una función de pérdida es una función L:(z,y)∈R×Y⟼L(z,y)∈R que toma como entrada el valor z predecido y el valor real esperado y da como resultado qué tan diferentes son ambos. Las funciones de pérdida más comunes son detalladas en la siguiente tabla:
+&#10230; Función de pérdida ― Una función de pérdida es una función L:(z,y)∈R×Y⟼L(z,y)∈R que toma como entrada el valor predicho z y el valor real esperado, dando como resultado qué tan diferentes son ambos. Las funciones de pérdida más comunes son detalladas en la siguiente tabla:
 
 <br>
 
 **13. [Least squared error, Logistic loss, Hinge loss, Cross-entropy]**
 
-&#10230; [Mínimo error cuadrático, Función de pérdida logística, Función de pérdida de tipo bisagra, Entropía cruzada]
+&#10230; [Mínimo error cuadrático, Pérdida logística, Pérdida de bisagra, Entropía cruzada]
 
 <br>
 
@@ -84,19 +84,19 @@
 
 **15. Cost function ― The cost function J is commonly used to assess the performance of a model, and is defined with the loss function L as follows:**
 
-&#10230; Función de costo ― La función de costo J es comunmente utilizada para evaluar el rendimiento de un modelo y se define utilizando la función de pérdida L de la siguiente forma:
+&#10230; Función de costo ― La función de costo J es comúnmente utilizada para evaluar el rendimiento de un modelo y se define utilizando la función de pérdida L de la siguiente forma:
 
 <br>
 
 **16. Gradient descent ― By noting α∈R the learning rate, the update rule for gradient descent is expressed with the learning rate and the cost function J as follows:**
 
-&#10230; Descenso por gradiente ― Siendo α∈R la tasa de aprendizaje, la regla de actualización de descenso por gradiente se expresa junto a la tasa de aprendizaje y la función de costo J de la siguiente manejra:
+&#10230; Descenso del gradiente ― Siendo α∈R la tasa de aprendizaje, la regla de actualización de descenso del gradiente se expresa junto a la tasa de aprendizaje y la función de costo J de la siguiente manejra:
 
 <br>
 
 **17. Remark: Stochastic gradient descent (SGD) is updating the parameter based on each training example, and batch gradient descent is on a batch of training examples.**
 
-&#10230; Observación: El descenso por gradiente estocástico (SGD, por sus siglas en inglés) actualiza el parámetro basandose en cada ejemplo de entenamiento mientras que el descenso por lotes realiza la actualización del parámetro basandose en un conjunto (un lote) de ejemplos de entrenamiento.
+&#10230; Observación: El descenso del gradiente estocástico (SGD, por sus siglas en inglés) actualiza el parámetro basándose en cada ejemplo de entenamiento mientras que el descenso por lotes realiza la actualización del parámetro basándose en un conjunto (un lote) de ejemplos de entrenamiento.
 
 <br>
 
@@ -156,7 +156,7 @@
 
 **27. LWR ― Locally Weighted Regression, also known as LWR, is a variant of linear regression that weights each training example in its cost function by w(i)(x), which is defined with parameter τ∈R as:**
 
-&#10230; LWR ― Regreción local ponderada, conocida por sus siglas en inglés LWR (Locally Weighted Regression), es una variante de la regresión lineal que pondera cada ejemplo de entrenamoento en su función de costo utilizando w(i)(x), la cual se define con el parámetro τ∈R as:
+&#10230; LWR ― Regresión local ponderada, conocida por sus siglas en inglés LWR (Locally Weighted Regression), es una variante de la regresión lineal que pondera cada ejemplo de entrenamiento en su función de costo utilizando w(i)(x), la cual se define con el parámetro τ∈R as:
 
 <br>
 
@@ -180,13 +180,13 @@
 
 **31. Remark: there is no closed form solution for the case of logistic regressions.**
 
-&#10230; Observación: no existe solición en forma cerrada para los casos de regresiones logísticas.
+&#10230; Observación: no existe solución en forma cerrada para los casos de regresiones logísticas.
 
 <br>
 
 **32. Softmax regression ― A softmax regression, also called a multiclass logistic regression, is used to generalize logistic regression when there are more than 2 outcome classes. By convention, we set θK=0, which makes the Bernoulli parameter ϕi of each class i equal to:**
 
-&#10230; egresión Softmax ― La regresión softmax, también llamada regresión logística multiclase, es utilizada para generalizar regresiones logísticas cuando hay más de dos clases resultantes. Por convención, se define θK=0, lo que hace al parámetro de Bernoulli ϕi de cada clase i igual a:
+&#10230; Regresión Softmax ― La regresión softmax, también llamada regresión logística multiclase, es utilizada para generalizar regresiones logísticas cuando hay más de dos clases resultantes. Por convención, se define θK=0, lo que hace al parámetro de Bernoulli ϕi de cada clase i igual a:
 
 <br>
 
@@ -198,13 +198,13 @@
 
 **34. Exponential family ― A class of distributions is said to be in the exponential family if it can be written in terms of a natural parameter, also called the canonical parameter or link function, η, a sufficient statistic T(y) and a log-partition function a(η) as follows:**
 
-&#10230; Familia exponencial - Se dice que una clase de distribuciónes está en una familia exponencial si es posible escribirla en terminos de un parámetro natural, también llamado parámetro canonico o función de enlace, η, un estadístico suficiente T(y) y una función de log-partición (_log-partition function_) a(η) de la siguiente manera:
+&#10230; Familia exponencial - Se dice que una clase de distribuciones está en una familia exponencial si es posible escribirla en términos de un parámetro natural, también llamado parámetro canónico o función de enlace, η, un estadístico suficiente T(y) y una función de log-partición (_log-partition function_) a(η) de la siguiente manera:
 
 <br>
 
 **35. Remark: we will often have T(y)=y. Also, exp(−a(η)) can be seen as a normalization parameter that will make sure that the probabilities sum to one.**
 
-&#10230; Observación: comunmente se tiene T(y)=y. Además, exp(−a(η)) puede ser visto como un parámetro de normalización que asegura que las probabilidades sumen uno.
+&#10230; Observación: comúnmente se tiene T(y)=y. Además, exp(−a(η)) puede ser visto como un parámetro de normalización que asegura que las probabilidades sumen uno.
 
 <br>
 
@@ -246,7 +246,7 @@
 
 **42: Optimal margin classifier ― The optimal margin classifier h is such that:**
 
-&#10230; Clasificador de margen óptio - El clasificador de márgen óptimo h se define de la siguiente manera:
+&#10230; Clasificador de margen óptimo - El clasificador de márgen óptimo h se define de la siguiente manera:
 
 <br>
 
@@ -288,7 +288,7 @@
 
 **49. In practice, the kernel K defined by K(x,z)=exp(−||x−z||22σ2) is called the Gaussian kernel and is commonly used.**
 
-&#10230; En la práctica, el núcleo K definido por K(x,z)=exp(−||x−z||22σ2) es conocido como núcleo Gaussiano y es comunmente utilizado.
+&#10230; En la práctica, el núcleo K definido por K(x,z)=exp(−||x−z||22σ2) es conocido como núcleo Gaussiano y es comúnmente utilizado.
 
 <br>
 
@@ -306,7 +306,7 @@
 
 **52. Lagrangian ― We define the Lagrangian L(w,b) as follows:**
 
-&#10230; Lagrangiana - Se define la Lagrangiana L(w,b) de la siguiente manera:
+&#10230; Lagrangiana - Se define el Lagrangiana L(w,b) de la siguiente manera:
 
 <br>
 
@@ -365,7 +365,7 @@
 
 **62. Remark: Naive Bayes is widely used for text classification and spam detection.**
 
-&#10230; Observación: Naive Bayes es comunmente utilizado para la clasificación de texto y la detección de correo no deseado (spam).
+&#10230; Observación: Naive Bayes es comúnmente utilizado para la clasificación de texto y la detección de correo no deseado (spam).
 
 <br>
 
@@ -377,19 +377,19 @@
 
 **64. These methods can be used for both regression and classification problems.**
 
-&#10230; Estos métodos pueden ser utilizados tanto en problemas de regresión como clasificación.
+&#10230; Estos métodos pueden ser utilizados tanto en problemas de regresión como de clasificación.
 
 <br>
 
 **65. CART ― Classification and Regression Trees (CART), commonly known as decision trees, can be represented as binary trees. They have the advantage to be very interpretable.**
 
-&#10230; CART - Árboles de clasificación y regresión (en inglés, Classification and Regression Trees) (CART), comunmente conocidos como árboles de desición, pueden ser representados como árboles binarios. Presentan la ventaja de ser muy interpretables.
+&#10230; CART - Árboles de clasificación y regresión (en inglés, Classification and Regression Trees) (CART), comúnmente conocidos como árboles de decisión, pueden ser representados como árboles binarios. Presentan la ventaja de ser muy interpretables.
 
 <br>
 
 **66. Random forest ― It is a tree-based technique that uses a high number of decision trees built out of randomly selected sets of features. Contrary to the simple decision tree, it is highly uninterpretable but its generally good performance makes it a popular algorithm.**
 
-&#10230; Bosques aleatórios (en inglés Random forest) - Es una téctica basada en árboles que utiliza una gran cantidad de árboles de desición cionstruidos a partir de conjuntos de características seleccionadas al azar. A diferencia del árbol de desición simple, la solición del método de bosques aleatórios es dificilmente inrerpretable aunque por su frecuente buen rendimiento es un algoritmo muy popular.
+&#10230; Bosques aleatórios (en inglés Random forest) - Es una téctica basada en árboles que utiliza una gran cantidad de árboles de decisión construidos a partir de conjuntos de características seleccionadas al azar. A diferencia del árbol de decisión simple, la solución del método de bosques aleatórios es difícilmente interpretable aunque por su frecuente buen rendimiento es un algoritmo muy popular.
 
 <br>
 
@@ -425,13 +425,13 @@
 
 **72. Other non-parametric approaches**
 
-&#10230; Otros métodos no paramétrico
+&#10230; Otros métodos no paramétricos
 
 <br>
 
 **73. k-nearest neighbors ― The k-nearest neighbors algorithm, commonly known as k-NN, is a non-parametric approach where the response of a data point is determined by the nature of its k neighbors from the training set. It can be used in both classification and regression settings.**
 
-&#10230; k vecinos más cercanos = El algorítmo de k vecinos más cercanos (en inglés, k-nearest neighbors algorithm), comunmente conocido como k-NN, es un método no parametrico en el que la respuesta a un punto de los datos está determinada por la naturaleza de sus k vecinos del conjunto de datos. El método puede ser utilizado tanto en clasificaciones como regresiones.
+&#10230; k-Vecinos más cercanos - El algorítmo de k vecinos más cercanos (en inglés, k-nearest neighbors algorithm), comunmente conocido como k-NN, es un método no paramétrico en el que la respuesta a un punto de los datos está determinada por la naturaleza de sus k vecinos del conjunto de datos. El método puede ser utilizado tanto en clasificaciones como regresiones.
 
 <br>
 
@@ -479,13 +479,13 @@
 
 **81: the training and testing sets follow the same distribution **
 
-&#10230; los conjuntos de entrenamiento y de prueba siguien la misma distribución
+&#10230; los conjuntos de entrenamiento y de prueba siguen la misma distribución
 
 <br>
 
 **82. the training examples are drawn independently**
 
-&#10230; los ejemplos de entrenamiento son sorteados de forma independiente
+&#10230; los ejemplos de entrenamiento son escogidos de forma independiente
 
 <br>
 
@@ -503,7 +503,7 @@
 
 **85. VC dimension ― The Vapnik-Chervonenkis (VC) dimension of a given infinite hypothesis class H, noted VC(H) is the size of the largest set that is shattered by H.**
 
-&#10230; Dimensión VC - La dimensión de Vapnik-Chervonenkis (VC) de una clase de hipótesis finita H, denotada como VC(H), es el tamaño del conjunto más trande destrozado (shattered) por H.
+&#10230; Dimensión VC - La dimensión de Vapnik-Chervonenkis (VC) de una clase de hipótesis finita H, denotada como VC(H), es el tamaño del conjunto más grande destrozado (shattered) por H.
 
 <br>
 
@@ -527,7 +527,7 @@
 
 **89. [Notations and general concepts, loss function, gradient descent, likelihood]**
 
-&#10230; [Notaciones y conceptos generales, función de perdida, descenso por gradiente, probabilidad]
+&#10230; [Notaciones y conceptos generales, función de perdida, descenso del gradiente, probabilidad]
 
 <br>
 

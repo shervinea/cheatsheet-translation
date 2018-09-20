@@ -301,40 +301,40 @@ dimensions by maximizing the variance of the data as follows:**
 
 **51. The Machine Learning cheatsheets are now available in Spanish.**
 
-&#10230;
+&#10230; Aprendizaje no Supervisado ahora están disponibles en Español.
 
 <br>
 
 **52. Original authors**
 
-&#10230;
+&#10230; Autores Originales
 
 <br>
 
 **53. Translated by X, Y and Z**
 
-&#10230;
+&#10230; Traducido por X, Y y Z
 
 <br>
 
 **54. Reviewed by X, Y and Z**
 
-&#10230;
+&#10230; Revisado por X, Y y Z
 
 <br>
 
 **55. [Introduction, Motivation, Jensen's inequality]**
 
-&#10230;
+&#10230; [Introducción, Motivación, Desigualdad de Jensen]
 
 <br>
 
 **56. [Clustering, Expectation-Maximization, k-means, Hierarchical clustering, Metrics]**
 
-&#10230;
+&#10230; [Clusterización, Expectativa-Maximización, k-means, Agrupación jerárquica, Métricas]
 
 <br>
 
 **57. [Dimension reduction, PCA, ICA]**
 
-&#10230;
+&#10230; [Reducción de dimensión, ACP, ICA]

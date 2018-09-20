@@ -96,7 +96,7 @@
 
 **17. Remark: Stochastic gradient descent (SGD) is updating the parameter based on each training example, and batch gradient descent is on a batch of training examples.**
 
-&#10230; Remarque : L'algorithme du gradient stochastique (en anglais *SGD - Stochastic Gradient Descent*) met à jour le paramètre à partir de chaque élément du jeu d'entrainement, tandis que l'algorithme du gradient de batch le fait sur chaque lot d'exemples.
+&#10230; Remarque : L'algorithme du gradient stochastique (en anglais *SGD - Stochastic Gradient Descent*) met à jour le paramètre à partir de chaque élément de l'ensemble d'apprentissage, tandis que l'algorithme du gradient de batch le fait à partir de chaque lot d'exemples.
 
 <br>
 
@@ -144,7 +144,7 @@
 
 **25. LMS algorithm ― By noting α the learning rate, the update rule of the Least Mean Squares (LMS) algorithm for a training set of m data points, which is also known as the Widrow-Hoff learning rule, is as follows:**
 
-&#10230; Algorithme LMS ― En notant α le taux d'apprentissage, la règle de mise à jour d'algorithme des moindres carrés (LMS) pour un jeu de données d'entrainement de m points, aussi connu sous le nom de règle de Widrow-Hoff, est donné par :
+&#10230; Algorithme LMS ― En notant α le taux d'apprentissage, la règle de mise à jour d'algorithme des moindres carrés (LMS) pour un ensemble d'apprentissage de m points, aussi connu sous le nom de règle de Widrow-Hoff, est donné par :
 
 <br>
 
@@ -432,7 +432,7 @@
 
 **73. k-nearest neighbors ― The k-nearest neighbors algorithm, commonly known as k-NN, is a non-parametric approach where the response of a data point is determined by the nature of its k neighbors from the training set. It can be used in both classification and regression settings.**
 
-&#10230; k-nearest neighbors ― L'algorithme des k voisins les plus proches (en anglais *k-nearest neighbors*), aussi connu sous le nom de k-NN, est une approche non-paramétrique où la réponse d'un point est déterminée par la nature de ses k voisins du jeu de données d'entrainement. Il peut être utilisé dans des cadres de classification et de régression.
+&#10230; k-nearest neighbors ― L'algorithme des k voisins les plus proches (en anglais *k-nearest neighbors*), aussi connu sous le nom de k-NN, est une approche non-paramétrique où la réponse d'un point est déterminée par la nature de ses k voisins dans l'ensemble d'apprentissage. Il peut être utilisé dans des cadres de classification et de régression.
 
 <br>
 
@@ -468,7 +468,7 @@
 
 **79. Training error ― For a given classifier h, we define the training error ˆϵ(h), also known as the empirical risk or empirical error, to be as follows:**
 
-&#10230; Erreur de training ― Pour un classifieur donné h, on définit l'erreur d'entrainement ˆϵ(h), aussi connu sous le nom de risque empirique ou d'erreur empirique, par :
+&#10230; Erreur d'apprentissage  ― Pour un classifieur donné h, on définit l'erreur d'apprentissage ˆϵ(h), aussi connu sous le nom de risque empirique ou d'erreur empirique, par :
 
 <br>
 
@@ -480,13 +480,13 @@
 
 **81: the training and testing sets follow the same distribution **
 
-&#10230; les jeux d'entrainement et de test suivent la même distribution
+&#10230; les ensembles d'apprentissage et d'évaluation suivent la même distribution
 
 <br>
 
 **82. the training examples are drawn independently**
 
-&#10230; les exemples du jeu d'entrainement sont tirés indépendamment
+&#10230; les exemples d'apprentissage sont tirés indépendamment
 
 <br>
 
@@ -504,7 +504,7 @@
 
 **85. VC dimension ― The Vapnik-Chervonenkis (VC) dimension of a given infinite hypothesis class H, noted VC(H) is the size of the largest set that is shattered by H.**
 
-&#10230; Dimension VC ― La dimension de Vapnik-Chervonenkis (VC) d'une classe d'hypothèses de classes infinies donnée H, que l'on note VC(H), est la taille de l'ensemble le plus grand qui est brisé par H. 
+&#10230; Dimension VC ― La dimension de Vapnik-Chervonenkis (VC) d'une classe d'hypothèses de classes infinies donnée H, que l'on note VC(H), est la taille de l'ensemble le plus grand qui est brisé par H.
 
 <br>
 
@@ -516,4 +516,4 @@
 
 **87. Theorem (Vapnik) ― Let H be given, with VC(H)=d and m the number of training examples. With probability at least 1−δ, we have:**
 
-&#10230; Théorème (Vapnik) ― Soit H donné, avec VC(H) = d avec m le nombre d'exemples d'entrainement. Avec une probabilité d'au moins 1−δ, on a :
+&#10230; Théorème (Vapnik) ― Soit H donné, avec VC(H) = d avec m le nombre d'exemples d'apprentissage. Avec une probabilité d'au moins 1−δ, on a :

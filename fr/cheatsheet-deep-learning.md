@@ -84,7 +84,7 @@
 
 **15. Step 1: Take a batch of training data.**
 
-&#10230; Étape 1 : Prendre un groupe d'observations appartenant au données du training set.
+&#10230; Étape 1 : Prendre un groupe d'observations appartenant au données de l'ensemble d'apprentissage.
 
 <br>
 

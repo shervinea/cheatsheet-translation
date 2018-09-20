@@ -6,7 +6,7 @@
 
 **2. Introduction to Probability and Combinatorics**
 
-&#10230; Introducción a las Probabilidades y Combinatoria
+&#10230; Introducción a la Probabilidad y Combinatoria
 
 <br>
 
@@ -18,7 +18,7 @@
 
 **4. Event ― Any subset E of the sample space is known as an event. That is, an event is a set consisting of possible outcomes of the experiment. If the outcome of the experiment is contained in E, then we say that E has occurred.**
 
-&#10230; Evento - Cualquier subconjunto de el espacio muestral es conocido como un evento. Esto significa que un evento es un conjunto de posibles resultados de un experimento. Si el resultado de un experimento esta contenido en E, entonces decimos que el evento E ha ocurrido.
+&#10230; Evento - Cualquier subconjunto del espacio muestral es conocido como un evento. Esto significa que un evento es un conjunto de posibles resultados de un experimento. Si el resultado de un experimento esta contenido en E, entonces decimos que el evento E ha ocurrido.
 
 <br>
 
@@ -30,7 +30,7 @@
 
 **6. Axiom 1 ― Every probability is between 0 and 1 included, i.e:**
 
-&#10230; Axioma 1 - Cada probabilidad tiene valores entre 0 y 1 inclusive, esto es:
+&#10230; Axioma 1 - Cada probabilidad tiene valores inclusivos entre 0 y 1, esto es:
 
 <br>
 
@@ -54,7 +54,7 @@
 
 **10. Combination ― A combination is an arrangement of r objects from a pool of n objects, where the order does not matter. The number of such arrangements is given by C(n,r), defined as:**
 
-&#10230; Combinación - Una combinación es un arreglo de r objetos tomados de un grupo de n objetos, donde el orden no importa. The número de estos arreglos es dado por C(n,r), definido como:
+&#10230; Combinación - Una combinación es un arreglo de r objetos tomados de un grupo de n objetos, donde el orden no importa. El número de estos arreglos es dado por C(n,r), definido como:
 
 <br>
 
@@ -162,7 +162,7 @@
 
 **28. Variance ― The variance of a random variable, often noted Var(X) or σ2, is a measure of the spread of its distribution function. It is determined as follows:**
 
-&#10230; Varianza - La varianza de una variable aleatoria, frecuentemente denotada por Var(X) or σ2, es una medida de la dispersión de su función de distribución. Esta determinada de la siguiente manera:
+&#10230; Varianza - La varianza de una variable aleatoria, frecuentemente denotada por Var(X) o σ2, es la medida de dispersión de su función de distribución. Esta determinada de la siguiente manera:
 
 <br>
 
@@ -294,7 +294,7 @@
 
 **50. Remark: an estimator is said to be unbiased when we have E[^θ]=θ.**
 
-&#10230; Observación: se dice que un estimador es insesgado cuando se tiene E[^θ]=θ.
+&#10230; Observación: se dice que un estimador es no sesgado cuando se tiene E[^θ]=θ.
 
 <br>
 
@@ -312,7 +312,7 @@
 
 **53. Remark: the sample mean is unbiased, i.e E[¯¯¯¯¯X]=μ.**
 
-&#10230; Observación: La media de la muestra es insesgada, esto es E[¯¯¯¯¯X]=μ.
+&#10230; Observación: La media de la muestra es no sesgada, esto es E[¯¯¯¯¯X]=μ.
 
 <br>
 
@@ -336,7 +336,7 @@
 
 **57. Remark: the sample variance is unbiased, i.e E[s2]=σ2.**
 
-&#10230; Observación: La varianza de la muestra es insesgada, esto es E[s2]=σ2.
+&#10230; Observación: La varianza de la muestra es no sesgada, esto es E[s2]=σ2.
 
 <br>
 
@@ -345,3 +345,37 @@
 &#10230; Relación Chi-cuadrada con la varianza de la muestra - Sea s2 la varianza de la muestra de una variable aleatoria. Se tiene:
 
 <br>
+
+**59. [Introduction, Sample space, Event, Permutation]**
+
+&#10230; [Introducción, Espacio Muestral, Evento, Permutación]
+
+<br>
+
+**60. [Conditional probability, Bayes' rule, Independence]**
+
+&#10230; [Probabilidad condicional, Regla de Bayes, Independencia]
+
+<br>
+
+**61. [Random variables, Definitions, Expectation, Variance]**
+
+&#10230; [Variables aleatorias, Definiciones, Valor esperado, Varianza]
+
+<br>
+
+**62. [Probability distributions, Chebyshev's inequality, Main distributions]**
+
+&#10230; [Distribuciones de probabilidad, Desigualdad de Chebyshev, Principales Distribuciones]
+
+<br>
+
+**63. [Jointly distributed random variables, Density, Covariance, Correlation]**
+
+&#10230; [Variables aleatorias distribuidas conjuntamente, Densidad, Covarianza, Correlación]
+
+<br>
+
+**64. [Parameter estimation, Mean, Variance]**
+
+&#10230; [Estimación de Parámetros, Media, Varianza]

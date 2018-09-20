@@ -10,7 +10,7 @@ This repository aims at collaboratively translating our [Machine Learning cheats
 |Unsupervised learning|0%|0%|0%|**100%**|0%|0%|0%|
 |ML tips and tricks|0%|0%|0%|**100%**|0%|0%|0%|
 |Probabilities and Statistics|0%|0%|0%|**100%**|0%|0%|0%|
-|Linear algebra|0%|0%|0%|**100%**|0%|0%|0%|
+|Linear algebra|0%|**100%**|0%|**100%**|0%|0%|0%|
 
 |Cheatsheet topic|العَرَبِيَّة|עִבְרִית|[हिन्दी](https://github.com/shervinea/cheatsheet-translation/tree/master/hi)|[ಕನ್ನಡ](https://github.com/shervinea/cheatsheet-translation/tree/master/kn)|[मराठी](https://github.com/shervinea/cheatsheet-translation/tree/master/mr)|[తెలుగు](https://github.com/shervinea/cheatsheet-translation/tree/master/te)|[Türkçe](https://github.com/shervinea/cheatsheet-translation/tree/master/tr)|[Русский](https://github.com/shervinea/cheatsheet-translation/tree/master/ru)
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -24,6 +24,8 @@ This repository aims at collaboratively translating our [Machine Learning cheats
 If your favorite language is missing, please feel free to add it!
 
 ## Contribution guidelines
+Please first check for [existing pull requests](https://github.com/shervinea/cheatsheet-translation/pulls) before submitting yours. Also, please propose the translation of **only one** cheatsheet per pull request -- it simplifies a lot the review process.
+
 1. Fork the repository.
 
 2. Go to the folder associated to the language of your choice (e.g. `es/` for Spanish, `zh/` for Mandarin Chinese).
@@ -37,7 +39,7 @@ If your favorite language is missing, please feel free to add it!
 
 5. Submit a [pull request](https://help.github.com/articles/creating-a-pull-request/) and call it `[code of language name] Topic name`. For example, a translation in Spanish of the deep learning cheatsheet will be called `[es] Deep learning`.
 
-Please first check for [existing pull requests](https://github.com/shervinea/cheatsheet-translation/pulls). Submissions will have to be reviewed by a fellow native speaker before being accepted.
+Submissions will have to be reviewed by a fellow native speaker before being accepted.
 
 ## Acknowledgements
 Thank you everyone for your help! Please do not forget to add your name to the `CONTRIBUTORS` file so that we can give you proper credit in the cheatsheets' [official website](https://stanford.edu/~shervine/teaching/cs-229.html).

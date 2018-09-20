@@ -330,7 +330,7 @@
 
 **56. [Matrix properties, Norm, Eigenvalue/Eigenvector, Singular-value decomposition]**
 
-&#10230; {propriedades das matrizes, Norma, Autovalor/Autovetor, Decomposição em valor singular]
+&#10230; [Propriedades das matrizes, Norma, Autovalor/Autovetor, Decomposição em valor singular]
 
 <br>
 

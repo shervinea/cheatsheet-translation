@@ -228,61 +228,61 @@
 
 **39. Remark: ordinary least squares and logistic regression are special cases of generalized linear models.**
 
-&#10230; 
+&#10230; Przypomnienie: zwykła metoda najmniejszych kwadratów i regresja logistyczna to przypadki szczególne generalnych modeli liniowych.
 
 <br>
 
 **40. Support Vector Machines**
 
-&#10230;
+&#10230; Maszyny wektorów nośnych (Support Vector Machines)
 
 <br>
 
 **41: The goal of support vector machines is to find the line that maximizes the minimum distance to the line.**
 
-&#10230;
+&#10230; Celem maszyn wektorów nośnych jest znalezienie hiperpłaszczyzny, która maksymalizuje margines pomiędzy przykładami oddzielnych klas.
 
 <br>
 
 **42: Optimal margin classifier ― The optimal margin classifier h is such that:**
 
-&#10230;
+&#10230; Klasyfikator optymalnego marginesu ― Klasyfikator optymalnego marginesu h jest opisany następująco:
 
 <br>
 
 **43: where (w,b)∈Rn×R is the solution of the following optimization problem:**
 
-&#10230;
+&#10230; gdzie (w,b)∈Rn×R jest rozwiązaniem następującego problemu optymalizacyjnego:
 
 <br>
 
 **44. such that**
 
-&#10230;
+&#10230; takich, że
 
 <br>
 
 **45. support vectors**
 
-&#10230;
+&#10230; wektory nośne 
 
 <br>
 
 **46. Remark: the line is defined as wTx−b=0.**
 
-&#10230;
+&#10230; Przypomnienie: linia zdefiniowana jest jako wTx−b=0.
 
 <br>
 
 **47. Hinge loss ― The hinge loss is used in the setting of SVMs and is defined as follows:**
 
-&#10230;
+&#10230; Strata Hinge'a ― Strata Hinge'a jest wykorzystywana w maszynach wektorów nośnych, definiowana jest następująco:
 
 <br>
 
 **48. Kernel ― Given a feature mapping ϕ, we define the kernel K to be defined as:**
 
-&#10230;
+&#10230; 
 
 <br>
 

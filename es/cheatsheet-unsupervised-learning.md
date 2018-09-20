@@ -96,9 +96,9 @@
 
 **17. [Means initialization, Cluster assignment, Means update, Convergence]**
 
-&#10230;
+&#10230; [Inicialización de medias, Asignación de Cluster, Actualización de medias, Convergencia]
 
-<br> [Inicialización de medias, Asignación de Cluster, Actualización de medias, Convergencia]
+<br> 
 
 **18. Distortion function ― In order to see if the algorithm converges, we look at the distortion function defined as follows:**
 

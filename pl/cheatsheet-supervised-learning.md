@@ -474,31 +474,31 @@
 
 **80. Probably Approximately Correct (PAC) ― PAC is a framework under which numerous results on learning theory were proved, and has the following set of assumptions:**
 
-&#10230; 
+&#10230; Probably Approximately Correct (PAC) ― PAC jest sposobem, którym dowiedziono wiele teorii Teorii Uczenia i ma następujący zbiór założeń:
 
 <br>
 
 **81: the training and testing sets follow the same distribution**
 
-&#10230;
+&#10230; zbiór treningowy i testowy mają taki sam rozkład.
 
 <br>
 
 **82. the training examples are drawn independently**
 
-&#10230;
+&#10230; przykłady ze zbioru treningowego są wybierane niezależnie.
 
 <br>
 
 **83. Shattering ― Given a set S={x(1),...,x(d)}, and a set of classifiers H, we say that H shatters S if for any set of labels {y(1),...,y(d)}, we have:**
 
-&#10230;
+&#10230; Shattering ― Mając zbiór S={x(1),...,x(d)} i zbiór klasyfikatorów H, mówimy, że H "shatteruje" S jeśli dla jakiegokolwiek zbioru etykiet {y(1),...,y(d)}, mamy:
 
 <br>
 
 **84. Upper bound theorem ― Let H be a finite hypothesis class such that |H|=k and let δ and the sample size m be fixed. Then, with probability of at least 1−δ, we have:**
 
-&#10230;
+&#10230; 
 
 <br>
 

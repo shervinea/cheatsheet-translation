@@ -390,55 +390,55 @@
 
 **66. Random forest ― It is a tree-based technique that uses a high number of decision trees built out of randomly selected sets of features. Contrary to the simple decision tree, it is highly uninterpretable but its generally good performance makes it a popular algorithm.**
 
-&#10230; Las losowy
+&#10230; Las losowy ― Jest to metoda oparta na drzewach, która wykorzystuje dużą ilość drzew decyzyjnych, opeartych na losowo dobieranych cechach. W przeciwieństwie do prostego drzewa decyzyjnego, jest on wysoce nieinterpretowalny, jednak dobra efektywność czyni go popularnym algorytmem.
 
 <br>
 
 **67. Remark: random forests are a type of ensemble methods.**
 
-&#10230;
+&#10230; Przypomnienie: las losowy jest rodzajem algorytmu opartego na ensemblingu.
 
 <br>
 
 **68. Boosting ― The idea of boosting methods is to combine several weak learners to form a stronger one. The main ones are summed up in the table below:**
 
-&#10230;
+&#10230; Boostowanie ― pomysł polega na połączeniu kilku słabszych modeli w celu otworzenia jednego silniejszego. Poniżej przedstawione są główne rodzaje:
 
 <br>
 
 **69. [Adaptive boosting, Gradient boosting]**
 
-&#10230;
+&#10230; [Boostowanie adaptacyjne, Boostowanie gradientowe]
 
 <br>
 
 **70. High weights are put on errors to improve at the next boosting step**
 
-&#10230;
+&#10230; Duża waga kładziona jest na błędy w celu polepszenia wyniku w następnym kroku boostującym 
 
 <br>
 
 **71. Weak learners trained on remaining errors**
 
-&#10230;
+&#10230; Słabe modele trenowane są na pozostałych błędach
 
 <br>
 
 **72. Other non-parametric approaches**
 
-&#10230;
+&#10230; Inne nie sparametryzowane podejścia
 
 <br>
 
 **73. k-nearest neighbors ― The k-nearest neighbors algorithm, commonly known as k-NN, is a non-parametric approach where the response of a data point is determined by the nature of its k neighbors from the training set. It can be used in both classification and regression settings.**
 
-&#10230;
+&#10230; k-najbliżsi sąsiedzi ― Algorytm k-najbliższych sąsiadów, znany powszechnie jako k-NN, jest nie sparametryzowanym podejściem, gdzie przynależność danego przykładu do danej klasy zależy od przynależności k-najbliższych punktów. Może być wykorzystywane zarówno przy klasyfikacji, jak i regresji.
 
 <br>
 
 **74. Remark: The higher the parameter k, the higher the bias, and the lower the parameter k, the higher the variance.**
 
-&#10230;
+&#10230; Re
 
 <br>
 

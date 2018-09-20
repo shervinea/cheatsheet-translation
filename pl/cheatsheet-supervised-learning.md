@@ -186,49 +186,49 @@
 
 **32. Softmax regression ― A softmax regression, also called a multiclass logistic regression, is used to generalize logistic regression when there are more than 2 outcome classes. By convention, we set θK=0, which makes the Bernoulli parameter ϕi of each class i equal to:**
 
-&#10230; Regresja softmax ― 
+&#10230; Regresja softmax ―  Regresja softmax, zwana także wieloklasową regresją logistyczną, używana jest jako uogólnienie regresji logistycznej w przypadku, gdy mamy więcej niż 2 klasy wynikowe. Konwencją jest, że θK=0, czyni to parametr Bernoulliego ϕi każdej klasy i równy:
 
 <br>
 
 **33. Generalized Linear Models**
 
-&#10230;
+&#10230; Generalne modeli liniowych
 
 <br>
 
 **34. Exponential family ― A class of distributions is said to be in the exponential family if it can be written in terms of a natural parameter, also called the canonical parameter or link function, η, a sufficient statistic T(y) and a log-partition function a(η) as follows:**
 
-&#10230;
+&#10230; Rodzina wykładnicza ― O klasie rozkładu mówi się, że należy do rodziny wykładniczej jeśli można ją zapisać z wykorzystaniem parametrów naturalnych, zwanych także kanonicznymi parametrami η, wystarczającej statystyki T(y) i podzału logarytmicznego funkcji a(η) w nastepujący sposób:
 
 <br>
 
 **35. Remark: we will often have T(y)=y. Also, exp(−a(η)) can be seen as a normalization parameter that will make sure that the probabilities sum to one.**
 
-&#10230;
+&#10230; Przypomnienie: często zdarzy się, że T(y)=y. Więc exp(-a(η)) może być rozumiany jako parametr normalizujący, który zapewni, że suma prawdopodobieństw będzie wynosiła 1.
 
 <br>
 
 **36. Here are the most common exponential distributions summed up in the following table:**
 
-&#10230;
+&#10230; W tabeli przedstawione są najczęściej spotykane rozkłady wykładnicze:
 
 <br>
 
 **37. [Distribution, Bernoulli, Gaussian, Poisson, Geometric]**
 
-&#10230;
+&#10230; [Rozkład, Bernoulli, Gaussian, Poisson, Geometric]
 
 <br>
 
 **38. Assumptions of GLMs ― Generalized Linear Models (GLM) aim at predicting a random variable y as a function fo x∈Rn+1 and rely on the following 3 assumptions:**
 
-&#10230;
+&#10230; Założenia generalnych modeli liniowych ― generalne modele liniowe mają za zadanie przewidzieć losową zmienną y jako funkcje x∈Rn+1 i opieraja się na 3 założeniach:
 
 <br>
 
 **39. Remark: ordinary least squares and logistic regression are special cases of generalized linear models.**
 
-&#10230;
+&#10230; 
 
 <br>
 

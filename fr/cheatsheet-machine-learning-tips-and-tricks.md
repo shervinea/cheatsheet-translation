@@ -138,13 +138,13 @@
 
 **24. [Training set, Validation set, Testing set]**
 
-&#10230; [Training set, Validation set, Testing set]
+&#10230; [Ensemble d'apprentissage, Ensemble de validation, Ensemble d'évaluation]
 
 <br>
 
 **25. [Model is trained, Model is assessed, Model gives predictions]**
 
-&#10230; [Modèle est entrainé, Modèle est évalué, Modèle donne des prédictions]
+&#10230; [Modèle est entrainé, Moèle est évalué, Modèle donne des prédictions]
 
 <br>
 
@@ -162,19 +162,19 @@
 
 **28. Once the model has been chosen, it is trained on the entire dataset and tested on the unseen test set. These are represented in the figure below:**
 
-&#10230; Une fois que le modèle a été choisi, il est entrainé sur le jeu de données entier et testé sur test set (qui n'a jamais été vu). Ces derniers sont représentés dans la figure ci-dessous :
+&#10230; Une fois que le modèle a été choisi, il est trainé sur le dataset entier et testé sur l'ensemble d'évaluation jamais vu. Ces derniers sont représentés dans la figure ci-dessous :
 
 <br>
 
 **29. Cross-validation ― Cross-validation, also noted CV, is a method that is used to select a model that does not rely too much on the initial training set. The different types are summed up in the table below:**
 
-&#10230; Validation croisée ― La validation croisée, aussi notée CV (de l'anglais *Cross-Validation*), est une méthode qui est utilisée pour sélectionner un modèle qui ne s'appuie pas trop sur le training set de départ. Les différents types de validation croisée rencontrés sont resumés dans le tableau ci-dessous :
+&#10230; Validation croisée ― La validation croisée, aussi notée CV (de l'anglais *Cross-Validation*), est une méthode qui est utilisée pour sélectionner un modèle qui ne s'appuie pas trop sur l'ensemble d'apprentissage de départ. Les différents types de validation croisée rencontrés sont récapitulés dans le tableau ci-dessous :
 
 <br>
 
 **30. [Training on k−1 folds and assessment on the remaining one, Training on n−p observations and assessment on the p remaining ones]**
 
-&#10230; [Entrainement sur k-1 folds et évaluation sur le fold restant, Entrainement sur n-p observations et évaluation sur les p restantes]
+&#10230; [Apprentissage sur k-1 folds et évaluation sur le fold restant, Apprentissage sur n-p observations et évaluation sur les p restantes]
 
 <br>
 
@@ -186,7 +186,7 @@
 
 **32. The most commonly used method is called k-fold cross-validation and splits the training data into k folds to validate the model on one fold while training the model on the k−1 other folds, all of this k times. The error is then averaged over the k folds and is named cross-validation error.**
 
-&#10230; La méthode la plus utilisée est appelée validation croisée k-fold et partage le jeu de données d'entrainement en k folds, de manière à valider le modèle sur un fold tout en trainant le modèle sur les k-1 autres folds, tout ceci k fois. L'erreur est alors moyennée sur k folds et est appelée erreur de validation croisée.
+&#10230; La méthode la plus utilisée est appelée validation croisée k-fold et partage l'ensemble d'apprentissage en k folds, de manière à valider le modèle sur un fold tout en entrainant le modèle sur les k-1 autres folds, tout ceci k fois. L'erreur est alors moyennée sur k folds et est appelée erreur de validation croisée.
 
 <br>
 
@@ -234,7 +234,7 @@
 
 **40. [High training error, Training error close to test error, High bias, Training error slightly lower than test error, Very low training error, Training error much lower than test error, High variance]**
 
-&#10230; [Erreur d'entrainement élevé, Erreur d'entrainement proche de l'erreur de test, Biais élevé, Erreur d'entrainement légèrement inférieure à l'erreur de test, Erreur d'entrainement très faible, Erreur d'entrainement beaucoup plus faible que l'erreur de test, Variance élevée]
+&#10230; [Erreur d'apprentissage élevée, Erreur d'apprentissage proche de l'erreur d'évaluation, Biais élevé, Erreur d'apprentissage légèrement inférieure à l'erreur d'évaluation, Erreur d'apprentissage très faible, Erreur d'apprentissage beaucoup plus faible que l'erreur d'évaluation, Variance élevée]
 
 <br>
 

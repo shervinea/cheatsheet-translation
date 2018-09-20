@@ -24,7 +24,7 @@
 
 **5. Matrix ― We note A∈Rm×n a matrix with m rows and n columns, where Ai,j∈R is the entry located in the ith row and jth column:**
 
-&#10230; Matrice ― On note A∈Rm×n une matrice à m lignes et n colonnes, où Ai,j∈R est l'entrée située à la ième ligne et jième colonne : 
+&#10230; Matrice ― On note A∈Rm×n une matrice à n lignes et m colonnes, où Ai,j∈R est le coefficient située à la ième ligne et jième colonne :
 
 <br>
 
@@ -78,7 +78,7 @@
 
 **14. Vector-vector ― There are two types of vector-vector products:**
 
-&#10230; Vecteur-vecteur ― Il y a deux types de multiplication vecteur-vecteur : 
+&#10230; Vecteur-vecteur ― Il y a deux types de multiplication vecteur-vecteur :
 
 <br>
 
@@ -150,7 +150,7 @@
 
 **26. Trace ― The trace of a square matrix A, noted tr(A), is the sum of its diagonal entries:**
 
-&#10230; Trace ― La trace d'une matrice carrée A, notée tr(A), est la somme de ses entrées diagonales :
+&#10230; Trace ― La trace d'une matrice carée A, notée tr(A), est définie comme la somme de ses coefficients diagonaux:
 
 <br>
 
@@ -186,13 +186,13 @@
 
 **32. Symmetric decomposition ― A given matrix A can be expressed in terms of its symmetric and antisymmetric parts as follows:**
 
-&#10230; Décomposition symmétrique ― Une matrice donnée A peut être exprimée en termes de ses parties symmétrique et antisymmétrique de la manière suivante :
+&#10230; Décomposition symmétrique ― Une matrice donnée A peut être exprimée en termes de ses parties symétrique et antisymétrique de la manière suivante :
 
 <br>
 
 **33. [Symmetric, Antisymmetric]**
 
-&#10230; [Symmétrique, Antisymmétrique]
+&#10230; [Symétrique, antisymétrique]
 
 <br>
 
@@ -222,13 +222,13 @@
 
 **38. [Norm, Notation, Definition, Use case]**
 
-&#10230; [Norme, Notation, Définition, Cas]
+&#10230; [Norme, Notation, Définition, Cas d'utilisation]
 
 <br>
 
 **39. Linearly dependence ― A set of vectors is said to be linearly dependent if one of the vectors in the set can be defined as a linear combination of the others.**
 
-&#10230; Dépendance linéaire ― Un ensemble de vecteurs est considéré comme étant linéairement dépendant si un des vecteurs de cet ensemble peut être défini comme une combinaison des autres.
+&#10230; Dépendance linéaire ― Un ensemble de vecteurs est considéré comme étant linéairement dépendant si un des vecteurs dans l'ensemble peut être défini comme une combinaison linéaire des autres.
 
 <br>
 
@@ -282,7 +282,7 @@
 
 **48. Matrix calculus**
 
-&#10230; Analyse matricielle
+&#10230; Calcul matriciel
 
 <br>
 

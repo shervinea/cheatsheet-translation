@@ -1,16 +1,18 @@
-Please input your name in the form: First name Last Name
-
 --ar
 
 --de
 
 --es
-
-+ Jaime Noel Alvarez Luna
+  
+  Jaime Noel Alvarez Luna (translation of Unsupervised Learning)
+  Fernando Gonzalez-Herrera (translation of linear algrebra)
+  Fernando Diaz (review of linear algebra)
+  Gustavo Velasco-Hernández (review of linear algebra)
 
 --fa
 
 --fr
+  Original authors
 
 --he
 
@@ -25,5 +27,9 @@ Please input your name in the form: First name Last Name
 --pt
 
 --te
+
+--tr
+  Ekrem Çetinkaya (translation of deep learning)
+  Omer Bukte (review of deep learning)
 
 --zh

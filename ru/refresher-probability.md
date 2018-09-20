@@ -345,3 +345,37 @@
 &#10230;
 
 <br>
+
+**59. [Introduction, Sample space, Event, Permutation]**
+
+&#10230;
+
+<br>
+
+**60. [Conditional probability, Bayes' rule, Independence]**
+
+&#10230;
+
+<br>
+
+**61. [Random variables, Definitions, Expectation, Variance]**
+
+&#10230;
+
+<br>
+
+**62. [Probability distributions, Chebyshev's inequality, Main distributions]**
+
+&#10230;
+
+<br>
+
+**63. [Jointly distributed random variables, Density, Covariance, Correlation]**
+
+&#10230;
+
+<br>
+
+**64. [Parameter estimation, Mean, Variance]**
+
+&#10230;

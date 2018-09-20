@@ -438,37 +438,37 @@
 
 **74. Remark: The higher the parameter k, the higher the bias, and the lower the parameter k, the higher the variance.**
 
-&#10230; Re
+&#10230; Przypomnienie: Im wyższy parametr k, tym niższe dopasowanie, im mniejszy parametr k, tym wyższe dopasowanie.
 
 <br>
 
 **75. Learning Theory**
 
-&#10230;
+&#10230; Teoria uczenia
 
 <br>
 
 **76. Union bound ― Let A1,...,Ak be k events. We have:**
 
-&#10230;
+&#10230; Nierównośc Boole'a (Boole's inequality, union bound) ― Przyjmując, że A1,...,Ak są k zdarzeniami. Mamy:
 
 <br>
 
 **77. Hoeffding inequality ― Let Z1,..,Zm be m iid variables drawn from a Bernoulli distribution of parameter ϕ. Let ˆϕ be their sample mean and γ>0 fixed. We have:**
 
-&#10230;
+&#10230; Nierówność Hoeffding'a ― Przyjmując, że Z1,...,Zm są m zmiennymi pobranymi z rozkładu Bernoulli'ego parametru ϕ. Przyjmując, ze ˆϕ jest średnią próbki i y>0, mamy:
 
 <br>
 
 **78. Remark: this inequality is also known as the Chernoff bound.**
 
-&#10230;
+&#10230; Przypomnienie: nierówność ta zwana jest także "Chernoff bound".
 
 <br>
 
 **79. Training error ― For a given classifier h, we define the training error ˆϵ(h), also known as the empirical risk or empirical error, to be as follows:**
 
-&#10230;
+&#10230; Błąd uczenia ― Dla danego klasyfikatora h, definiujemy błąd treningowy ˆϵ(h), znana także jako błąd empiryczny lub ryzyko empiryczne. Wygląda następująco:
 
 <br>
 

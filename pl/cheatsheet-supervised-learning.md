@@ -156,7 +156,7 @@
 
 **27. LWR ― Locally Weighted Regression, also known as LWR, is a variant of linear regression that weights each training example in its cost function by w(i)(x), which is defined with parameter τ∈R as:**
 
-&#10230; LWR ― XXXXXXXXXXXXXXXXXXXXXXXXXXX
+&#10230; LWR ― Regresja ważona lokalnie, jest odmianą regresji liniowej, w której waży się każdy przykład ze zbioru treningowego funkcją kosztu w(i)(x), która jest zdefiniowana z wykorzystaniem parametru t∈R w sposób następujący:
 
 <br>
 
@@ -168,25 +168,25 @@
 
 **29. Sigmoid function ― The sigmoid function g, also known as the logistic function, is defined as follows:**
 
-&#10230;
+&#10230; Funkcja sigmoidalna - Funkcja sigmoidalna g, anana także jako funkcja logistyczna, jest zdefiniowana w następujący sposób:
 
 <br>
 
 **30. Logistic regression ― We assume here that y|x;θ∼Bernoulli(ϕ). We have the following form:**
 
-&#10230;
+&#10230; Regresja logistyczna ―  Zakładając, że y|x;θ∼Bernoulli(ϕ). Mamy następującą formułę:
 
 <br>
 
 **31. Remark: there is no closed form solution for the case of logistic regressions.**
 
-&#10230;
+&#10230; Przypomnienie: nie istnieje zamknięte rozwiązanie przypadku regresji logistycznej.
 
 <br>
 
 **32. Softmax regression ― A softmax regression, also called a multiclass logistic regression, is used to generalize logistic regression when there are more than 2 outcome classes. By convention, we set θK=0, which makes the Bernoulli parameter ϕi of each class i equal to:**
 
-&#10230;
+&#10230; Regresja softmax ― 
 
 <br>
 

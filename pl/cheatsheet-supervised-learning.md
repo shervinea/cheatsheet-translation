@@ -500,20 +500,20 @@
 
 &#10230; 
 
-<br>
+<br> Teoria górnej granicy (Upper bound theorem)  ― Przyjmując, że H jest skończoną hipotezą klasy, taką, że |H|=k, przyjmijmy, że δ i rozmiar przykładu jest stały. To, z prawdopodobieństwem co najmniej 1−δ mamy:
 
 **85. VC dimension ― The Vapnik-Chervonenkis (VC) dimension of a given infinite hypothesis class H, noted VC(H) is the size of the largest set that is shattered by H.**
 
 &#10230;
 
-<br>
+<br> Wymiar Vapnika-Chervonenkisa ― wymiar danej nieskończonej hipotezy klasy H, zapisywany VC(H) jest rozmiarem największego zbioru, który jest "shattered" przez H.
 
 **86. Remark: the VC dimension of H={set of linear classifiers in 2 dimensions} is 3.**
 
-&#10230;
+&#10230; Przypomnienie: wymiar VC z H={zbiór liniowych klasyfikatorów w 2 wymiarach} wynosi 3.
 
 <br>
 
 **87. Theorem (Vapnik) ― Let H be given, with VC(H)=d and m the number of training examples. With probability at least 1−δ, we have:**
 
-&#10230;
+&#10230; Teoria Vapnika ― Przyjmując że mamy H, które VC(H)=d i m jest liczbą przykładów treningowych. Z prawdopodobieństwem co najmniej 1−δ mamy:

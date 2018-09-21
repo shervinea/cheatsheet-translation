@@ -144,13 +144,13 @@
 
 **25. LMS algorithm ― By noting α the learning rate, the update rule of the Least Mean Squares (LMS) algorithm for a training set of m data points, which is also known as the Widrow-Hoff learning rule, is as follows:**
 
-&#10230; Algoritimo LMS - Definindo α como a taxa de aprendizado, a regra de atualização do algoritmo de Média de Mínimos Quadrados para um conjunto de treinamento de m pontos, também conhecida como a regra de atualização de Widrow-Hoff, é dada por:
+&#10230; Algoritimo MMQ (Least Mean Squares - LMS) - Definindo α como a taxa de aprendizado, a regra de atualização do algoritmo de Média de Mínimos Quadrados para um conjunto de treinamento de m pontos, também conhecida como a regra de atualização de Widrow-Hoff, é dada por:
 
 <br>
 
 **26. Remark: the update rule is a particular case of the gradient ascent.**
 
-&#10230; Observação: a regra de atualização é umc aso particular do gradiente ascendente.
+&#10230; Observação: a regra de atualização é um caso particular do gradiente ascendente.
 
 <br>
 
@@ -168,7 +168,7 @@
 
 **29. Sigmoid function ― The sigmoid function g, also known as the logistic function, is defined as follows:**
 
-&#10230; Função sigmóide - A função sigmóide g, também conhecida como função logística, é definida como:
+&#10230; Função sigmoide - A função sigmoide g, também conhecida como função logística, é definida como:
 
 <br>
 
@@ -204,7 +204,7 @@
 
 **35. Remark: we will often have T(y)=y. Also, exp(−a(η)) can be seen as a normalization parameter that will make sure that the probabilities sum to one.**
 
-&#10230; Lembrte: em geral tem-se T(y)=y. Também, exp(−a(η)) pode ser definido como o parâmetro de normalização que garantirá que as probabilidade somem um.
+&#10230; Observação: em geral tem-se T(y)=y. Também, exp(−a(η)) pode ser definido como o parâmetro de normalização que garantirá que as probabilidades somem um.
 
 <br>
 

@@ -96,7 +96,7 @@
 
 **17. Step 3: Backpropagate the loss to get the gradients.**
 
-&#10230; Paso 3: Retropropagar la pérdida para obtener los gradientes.
+&#10230; Paso 3: Propagar inversamente la pérdida para obtener los gradientes.
 
 <br>
 

@@ -1,48 +1,48 @@
 **1. Supervised Learning cheatsheet**
 
-&#10230;
+راهنمای کوتاه یاگیری با ناظر
 
 <br>
 
 **2. Introduction to Supervised Learning**
 
-&#10230;
+مبانی یادگیری با ناظر
 
 <br>
 
 **3. Given a set of data points {x(1),...,x(m)} associated to a set of outcomes {y(1),...,y(m)}, we want to build a classifier that learns how to predict y from x.**
 
-&#10230;
+با در نظر گرفتن اینکه مجموعه‌ای از نمومه‌های داده \{x^{(1)}, ..., x^{(m)}\} با مجموعه‌ای از نتایج \{y^{(1)}, ..., y^{(m)}\}  مرتبط شده‌است، می‌خواهیم طبقه‌بندی بسازیم که یاد بگیرد چگونه از روی x، y را پیش‌بینی کند.
 
 <br>
 
 **4. Type of prediction ― The different types of predictive models are summed up in the table below:**
 
-&#10230;
+انواع پیش‌بینی - انواع مختلف مدل‌های پیش‌بینی کنند در جدول زیر به اختصار آمده‌اند:
 
 <br>
 
 **5. [Regression, Classifier, Outcome, Examples]**
 
-&#10230;
+[رگرسیون، طبقه‌بند، حاصل، مثال]
 
 <br>
 
 **6. [Continuous, Class, Linear regression, Logistic regression, SVM, Naive Bayes]**
 
-&#10230;
+[اعداد پیوسته، کلاس، رگرسیون خطی، رگرسیون لجستیک، SVM، طبقه‌بند بیز ساده ]
 
 <br>
 
 **7. Type of model ― The different models are summed up in the table below:**
 
-&#10230;
+انواع مدل ـ انواع مختلف مدل‌ها در جدول زیر به اختصار آمده‌اند.
 
 <br>
 
 **8. [Discriminative model, Generative model, Goal, What's learned, Illustration, Examples]**
 
-&#10230;
+[مدل تمیزدهنده، مدل مولد، هدف، چه چیزی یاد می‌گیرد، تصویر، مثال]
 
 <br>
 

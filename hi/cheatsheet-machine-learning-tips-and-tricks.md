@@ -1,83 +1,84 @@
 **1. Machine Learning tips and tricks cheatsheet**
 
-&#10230;
+&#10230; मशीन लर्निंग टिप्स और ट्रिक्स चीटशीट
+
 
 <br>
 
 **2. Classification metrics**
 
 &#10230;
-
+वर्गीकरण मेट्रिक्स
 <br>
 
 **3. In a context of a binary classification, here are the main metrics that are important to track in order to assess the performance of the model.**
 
 &#10230;
-
+बाइनरी वर्गीकरण के संदर्भ में, यहां मुख्य मेट्रिक्स हैं जो मॉडल के प्रदर्शन का आकलन करने के लिए ट्रैक करने के लिए महत्वपूर्ण हैं
 <br>
 
 **4. Confusion matrix ― The confusion matrix is used to have a more complete picture when assessing the performance of a model. It is defined as follows:**
 
 &#10230;
-
+भ्रम मैट्रिक्स - एक मॉडल के प्रदर्शन का आकलन करते समय भ्रम मैट्रिक्स का उपयोग एक और पूर्ण तस्वीर के लिए किया जाता है। इसे निम्नानुसार परिभाषित किया गया है
 <br>
 
 **5. [Predicted class, Actual class]**
 
 &#10230;
-
+[अनुमानित वर्ग, वास्तविक वर्ग]
 <br>
 
 **6. Main metrics ― The following metrics are commonly used to assess the performance of classification models:**
 
 &#10230;
-
+मुख्य मीट्रिक - वर्गीकरण मॉडल के प्रदर्शन का आकलन करने के लिए निम्न मीट्रिक का उपयोग आमतौर पर किया जाता है:
 <br>
 
 **7. [Metric, Formula, Interpretation]**
 
 &#10230;
-
+[मीट्रिक, फॉर्मूला, व्याख्या]
 <br>
 
 **8. Overall performance of model**
 
 &#10230;
-
+मॉडल का कुल प्रदर्शन
 <br>
 
 **9. How accurate the positive predictions are**
 
 &#10230;
-
+सकारात्मक भविष्यवाणियां कितनी सटीक हैं
 <br>
 
 **10. Coverage of actual positive sample**
 
 &#10230;
-
+वास्तविक सकारात्मक नमूना का कवरेज
 <br>
 
 **11. Coverage of actual negative sample**
 
 &#10230;
-
+वास्तविक नकारात्मक नमूना का कवरेज
 <br>
 
 **12. Hybrid metric useful for unbalanced classes**
 
 &#10230;
-
+असंतुलित वर्गों के लिए उपयोगी हाइब्रिड मीट्रिक
 <br>
 
 **13. ROC ― The receiver operating curve, also noted ROC, is the plot of TPR versus FPR by varying the threshold. These metrics are are summed up in the table below:**
 
 &#10230;
-
+आरओसी - रिसीवर ऑपरेटिंग वक्र, आरओसी भी उल्लेख किया गया है, टीएसआर बनाम एफपीआर बनाम थ्रेसहोल्ड बदलकर साजिश है। ये मेट्रिक्स नीचे दी गई तालिका में संक्षेप में हैं
 <br>
 
 **14. [Metric, Formula, Equivalent]**
-
+[मीट्रिक, फॉर्मूला, समतुल्य]
 &#10230;
 
 <br>
@@ -85,13 +86,13 @@
 **15. AUC ― The area under the receiving operating curve, also noted AUC or AUROC, is the area below the ROC as shown in the following figure:**
 
 &#10230;
-
+एयूसी - प्राप्त करने वाले ऑपरेटिंग वक्र के तहत क्षेत्र, एयूसी या एयूआरओसी भी नोट किया गया है, आरओसी के नीचे का क्षेत्र है जैसा कि निम्न चित्र में दिखाया गया है:
 <br>
 
 **16. [Actual, Predicted]**
 
 &#10230;
-
+[वास्तविक, अनुमानित]
 <br>
 
 **17. Basic metrics ― Given a regression model f, the following metrics are commonly used to assess the performance of the model:**

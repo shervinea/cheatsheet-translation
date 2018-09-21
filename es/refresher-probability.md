@@ -168,7 +168,7 @@
 
 **29. Standard deviation ― The standard deviation of a random variable, often noted σ, is a measure of the spread of its distribution function which is compatible with the units of the actual random variable. It is determined as follows:**
 
-&#10230; Desviación estándar - La desviación estándar de una variable aleatoria, frecuentemente denotada por σ, es una medida de la dispersión de su función de distribución la cual es compatible con las unidades de la correspondiente variable aleatoria. Esta determinada de la siguiente manera:
+&#10230; Desviación estándar - La desviación estándar de una variable aleatoria, frecuentemente denotada por σ, es una medida de la dispersión de su función de distribución la cual es compatible con las unidades de la correspondiente variable aleatoria. Se determina de la siguiente manera:
 
 <br>
 
@@ -198,7 +198,7 @@
 
 **34. Main distributions ― Here are the main distributions to have in mind:**
 
-&#10230; Distribuciones importantes - Aquí están las distribuciones mas importantes para tomar en cuenta: 
+&#10230; Distribuciones importantes - Aquí están las distribuciones más importantes para tomar en cuenta:
 
 <br>
 
@@ -318,7 +318,7 @@
 
 **54. Central Limit Theorem ― Let us have a random sample X1,...,Xn following a given distribution with mean μ and variance σ2, then we have:**
 
-&#10230; Teorema Central del Límite - Sea X1,...,Xn una muestra aleatoria que sigue una distribución con media μ y varianza σ2, entonces se tiene:
+&#10230; Teorema del Límite Central - Sea X1,...,Xn una muestra aleatoria que sigue una distribución con media μ y varianza σ2, entonces se tiene:
 
 <br>
 

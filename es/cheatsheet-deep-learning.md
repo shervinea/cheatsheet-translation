@@ -18,7 +18,7 @@
 
 **4. Architecture ― The vocabulary around neural networks architectures is described in the figure below:**
 
-&#10230; Arquitectura - el vocabulario en torno a arquitecturas de redes neuronales se describe en la siguiente figura:
+&#10230; Arquitectura - El vocabulario en torno a arquitecturas de redes neuronales se describe en la siguiente figura:
 
 <br>
 
@@ -54,19 +54,19 @@
 
 **10. Cross-entropy loss ― In the context of neural networks, the cross-entropy loss L(z,y) is commonly used and is defined as follows:**
 
-&#10230; Pérdida de entropía cruzada - En el contexto de las redes neuronales, la pérdida de entropía cruzada L(z,y) es utilizada comunmente y definida de la siguiente manera:
+&#10230; Pérdida de cross-entropy - En el contexto de las redes neuronales, la pérdida de cross-entropy L(z,y) es utilizada comunmente y definida de la siguiente manera:
 
 <br>
 
 **11. Learning rate ― The learning rate, often noted α or sometimes η, indicates at which pace the weights get updated. This can be fixed or adaptively changed. The current most popular method is called Adam, which is a method that adapts the learning rate.**
 
-&#10230; Tasa de aprendizaje - La tasa de aprendizaje, denotada como α o algunas veces η, indica a que ritmo los pesos son actualizados. Este valor puede ser fijo o cambiar de forma adaptativa. El método más popular en este momento es llamado Adam, que es un método que se adapta a la tasa de aprendizaje.
+&#10230; Velocidad de aprendizaje - La velocidad de aprendizaje, denotada como α o algunas veces η, indica a que ritmo los pesos son actualizados. Este valor puede ser fijo o cambiar de forma adaptativa. El método más popular en este momento es llamado Adam, que es un método que se adapta a la velocidad de aprendizaje.
 
 <br>
 
 **12. Backpropagation ― Backpropagation is a method to update the weights in the neural network by taking into account the actual output and the desired output. The derivative with respect to weight w is computed using chain rule and is of the following form:**
 
-&#10230; Retropropagación - La retropropagación es un método de actualización de los pesos en una red neuronal, tomando en cuenta la salida actual y la salida esperada. La derivada respecto al peso w es computada utilizando la regla de la cadena y se expresa de la siguiente forma:
+&#10230; Retropropagación - La retropropagación, o propagación inversa, es un método de actualización de los pesos en una red neuronal, tomando en cuenta la salida actual y la salida esperada. La derivada respecto al peso w es computada utilizando la regla de la cadena y se expresa de la siguiente forma:
 
 <br>
 
@@ -90,7 +90,7 @@
 
 **16. Step 2: Perform forward propagation to obtain the corresponding loss.**
 
-&#10230; Paso 2: Realizar prealimentación para obtener la pérdida correspondiente.
+&#10230; Paso 2: Realizar propagación hacia adelante para obtener la pérdida correspondiente.
 
 <br>
 
@@ -108,7 +108,7 @@
 
 **19. Dropout ― Dropout is a technique meant at preventing overfitting the training data by dropping out units in a neural network. In practice, neurons are either dropped with probability p or kept with probability 1−p**
 
-&#10230;Abandono - El abandono es una técnica para prevenir el sobreajuste de los datos de aprendizaje descartando unidades en una red neuronal. En la práctica, las neuronas son abandonadas con una probabilidad de p o se mantienen con una probabilidad de 1-p.
+&#10230;Abandono - El retiro es una técnica para prevenir el sobreajuste de los datos de aprendizaje descartando unidades en una red neuronal. En la práctica, las neuronas son retiradas con una probabilidad de p o se mantienen con una probabilidad de 1-p.
 
 <br>
 
@@ -120,7 +120,7 @@
 
 **21. Convolutional layer requirement ― By noting W the input volume size, F the size of the convolutional layer neurons, P the amount of zero padding, then the number of neurons N that fit in a given volume is such that:**
 
-&#10230; Requerimiento de la capa convolucional. Notando que W es el volumen de la entrada, F el tamaño de las neuronas de la capa convolucional, P la cantidad de relleno con ceros, entonces el número de neuronas N que entran en dado volumen es tal que:
+&#10230; Requerimiento de la capa convolucional. Notando que W es el volumen de la entrada, F el tamaño de las neuronas de la capa convolucional, P la cantidad de relleno con ceros, entonces el número de neuronas N que entran en el volumen dado es tal que:
 
 <br>
 
@@ -186,7 +186,7 @@
 
 **32. Markov decision processes ― A Markov decision process (MDP) is a 5-tuple (S,A,{Psa},γ,R) where:**
 
-&#10230; Procesos decisivos de Markov - Un proceso decisivo de Markov (MDP) es una 5-tupla (S,A,{Psa},γ,R) donde:
+&#10230; Procesos decisivos de Markov - Un proceso decisivo de Markov (MDP por sus siglas en inglés) es una 5-tupla (S,A,{Psa},γ,R) donde:
 
 <br>
 
@@ -204,7 +204,7 @@
 
 **35. {Psa} are the state transition probabilities for s∈S and a∈A**
 
-&#10230; {Psa] es el estado de probabilidades de transición para s∈S y a∈A
+&#10230; {Psa] son las probabilidades de transición des estado para s∈S y a∈A
 
 <br>
 
@@ -270,7 +270,7 @@
 
 **46. Maximum likelihood estimate ― The maximum likelihood estimates for the state transition probabilities are as follows:**
 
-&#10230; Estimado de probabilidad máximo - El estimaado de probabilidad máximo para las probabilidades de transición de estado son como se muestra a continuación:
+&#10230; Estimado de verosimilitud máximo - El estimado de probabilidad máximo para las probabilidades de transición de estado son como se muestra a continuación:
 
 <br>
 

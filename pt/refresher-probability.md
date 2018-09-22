@@ -144,238 +144,238 @@
 
 **25. Relationships involving the PDF and CDF ― Here are the important properties to know in the discrete (D) and the continuous (C) cases.**
 
-&#10230;
+&#10230; Relações envolvendo a PDF e a CDF - Aqui estão as propriedades mais importantes que se deve conhecer dos casos discretos (D) e contínuos (C).
 
 <br>
 
 **26. [Case, CDF F, PDF f, Properties of PDF]**
 
-&#10230;
+&#10230; [Caso, CDF, F, PDF f, Propriedades da PDF]
 
 <br>
 
 **27. Expectation and Moments of the Distribution ― Here are the expressions of the expected value E[X], generalized expected value E[g(X)], kth moment E[Xk] and characteristic function ψ(ω) for the discrete and continuous cases:**
 
-&#10230;
+&#10230; Expectativas e Momentos da Distribuição - Aqui estão as expressões do valor esperado E[X], do valor esperado generalizado E[g(X)], do k-ésimo momento E[Xk] e função característica ψ(ω) para os casos discretos e contínuos:
 
 <br>
 
 **28. Variance ― The variance of a random variable, often noted Var(X) or σ2, is a measure of the spread of its distribution function. It is determined as follows:**
 
-&#10230;
+&#10230; Variância - A variância de uma variável aleatória, normalmente denominada Var(X) ou σ2, é a medida do espalhamento da sua função de distribuição. Ela é determinada por:
 
 <br>
 
 **29. Standard deviation ― The standard deviation of a random variable, often noted σ, is a measure of the spread of its distribution function which is compatible with the units of the actual random variable. It is determined as follows:**
 
-&#10230;
+&#10230; Desvio padrão - O desvio padrão de uma variável aleatória, normalmente denominado σ, é a medida do espalhamento da sua função de distribuição que é compatível com a unidade da variável aleatória. Ele é determinado por:
 
 <br>
 
 **30. Transformation of random variables ― Let the variables X and Y be linked by some function. By noting fX and fY the distribution function of X and Y respectively, we have:**
 
-&#10230;
+&#10230; Transformação das variáveis aleatórias - Sejam as variáveis X e Y ligadas por alguma função. Ao denotador fX e fY para as funções de distribuição de X e de Y respectivamente, temos que:
 
 <br>
 
 **31. Leibniz integral rule ― Let g be a function of x and potentially c, and a,b boundaries that may depend on c. We have:**
 
-&#10230;
+&#10230; Regra integral de Leibniz - Seja g uma função de x e possivelmente de c, e a,b fronteiras que podem depender de c. Temos que:
 
 <br>
 
 **32. Probability Distributions**
 
-&#10230;
+&#10230; Distribuições de Probabilidade
 
 <br>
 
 **33. Chebyshev's inequality ― Let X be a random variable with expected value μ. For k,σ>0, we have the following inequality:**
 
-&#10230;
+&#10230; Desigualdade de Chebyshev - Seja X uma variável aleatória com valor esperado μ. Para k,σ>0, temos a seguinte desigualdade: 
 
 <br>
 
 **34. Main distributions ― Here are the main distributions to have in mind:**
 
-&#10230;
+&#10230; Distribuições principais - Aqui estão as principais distribuições que não devem ser esquecidas:
 
 <br>
 
 **35. [Type, Distribution]**
 
-&#10230;
+&#10230; [Tipo, Distribuição]
 
 <br>
 
 **36. Jointly Distributed Random Variables**
 
-&#10230;
+&#10230; Variáveis Aleatórias Distribuídas Conjuntamente
 
 <br>
 
 **37. Marginal density and cumulative distribution ― From the joint density probability function fXY , we have**
 
-&#10230;
+&#10230; Densidade marginal e distribuição cumulativa - A partir da função de probabilidade de densidade conjunta fXY, temos que:
 
 <br>
 
 **38. [Case, Marginal density, Cumulative function]**
 
-&#10230;
+&#10230; [Caso, Densidade marginal, Função cumulativa]
 
 <br>
 
 **39. Conditional density ― The conditional density of X with respect to Y, often noted fX|Y, is defined as follows:**
 
-&#10230;
+&#10230; Densidade condicional - A densidade condicional de X com respeito a Y, normalmente denotada como fX|Y, é definida como:
 
 <br>
 
 **40. Independence ― Two random variables X and Y are said to be independent if we have:**
 
-&#10230;
+&#10230; Independência - Duas variáveis aleatórias X e Y são ditas independentes se:
 
 <br>
 
 **41. Covariance ― We define the covariance of two random variables X and Y, that we note σ2XY or more commonly Cov(X,Y), as follows:**
 
-&#10230;
+&#10230; Coveriância - Definimos covariância de duas variáveis aleatórias X e Y, que chamamos de σ2XY ou mais comumente de Cov(X,Y), como:
 
 <br>
 
 **42. Correlation ― By noting σX,σY the standard deviations of X and Y, we define the correlation between the random variables X and Y, noted ρXY, as follows:**
 
-&#10230;
+&#10230; Correlação - Dado que σX,σY são os desvios padrão de X e Y, definimos a correlação entre as variáveis aleatórias X e Y, denominada ρXY, como:
 
 <br>
 
 **43. Remark 1: we note that for any random variables X,Y, we have ρXY∈[−1,1].**
 
-&#10230;
+&#10230; Observação 1: é definido que para qualquer variáveis aleatórias X,Y temos que ρXY∈[−1,1].
 
 <br>
 
 **44. Remark 2: If X and Y are independent, then ρXY=0.**
 
-&#10230;
+&#10230; Observação 2: Se X e Y são independentes, então ρXY=0.
 
 <br>
 
 **45. Parameter estimation**
 
-&#10230;
+&#10230; Estimativa de parâmetro
 
 <br>
 
 **46. Definitions**
 
-&#10230;
+&#10230; Definições
 
 <br>
 
 **47. Random sample ― A random sample is a collection of n random variables X1,...,Xn that are independent and identically distributed with X.**
 
-&#10230;
+&#10230; Amostra aleatória - Uma amostra aleatória é uma coleção de n variáveis aleatórias X1,...,Xn que são independentes e igualmente distribuidas com X.
 
 <br>
 
 **48. Estimator ― An estimator is a function of the data that is used to infer the value of an unknown parameter in a statistical model.**
 
-&#10230;
+&#10230; Estimador - Um estimador é uma função dos dados que é usada para inferir o valor de um parâmetro desconhecido em um modelo estatístico.
 
 <br>
 
 **49. Bias ― The bias of an estimator ^θ is defined as being the difference between the expected value of the distribution of ^θ and the true value, i.e.:**
 
-&#10230;
+&#10230; Viés (Bias) - O viés de um estimador ^θ é definido como a diferença entre o valor esperado da distribuição de ^θ e o seu real valor, i.e.:
 
 <br>
 
 **50. Remark: an estimator is said to be unbiased when we have E[^θ]=θ.**
 
-&#10230;
+&#10230; Observação: um estimador é chamado de imparcial (unbiased) quando E[^θ]=θ. 
 
 <br>
 
 **51. Estimating the mean**
 
-&#10230;
+&#10230; Estimando a média
 
 <br>
 
 **52. Sample mean ― The sample mean of a random sample is used to estimate the true mean μ of a distribution, is often noted ¯¯¯¯¯X and is defined as follows:**
 
-&#10230;
+&#10230; Média da amostra - A média da amostra de uma amostra aleatória é usada para estimar a verdadeira média μ de uma distribuição, e é denominada ¯¯¯¯¯X e é definida como:
 
 <br>
 
 **53. Remark: the sample mean is unbiased, i.e E[¯¯¯¯¯X]=μ.**
 
-&#10230;
+&#10230; Observação: a média da amostra é imparcial, i.e E[¯¯¯¯¯X]=μ.
 
 <br>
 
 **54. Central Limit Theorem ― Let us have a random sample X1,...,Xn following a given distribution with mean μ and variance σ2, then we have:**
 
-&#10230;
+&#10230; Teorema do Limite Central - Dado que temos uma amostra aleatória X1,...,Xn seguindo uma determinada distribuição com a média μ e a variância σ2, temos que:
 
 <br>
 
 **55. Estimating the variance**
 
-&#10230;
+&#10230; Estimando a variância
 
 <br>
 
 **56. Sample variance ― The sample variance of a random sample is used to estimate the true variance σ2 of a distribution, is often noted s2 or ^σ2 and is defined as follows:**
 
-&#10230;
+&#10230; Amostra da variância - A amostra da variância de uma amostra aleatória é usada para estimar a verdadeira variância σ2 da distribuição, e é normalmente denominada s2 ou ^σ2 e definida por:
 
 <br>
 
 **57. Remark: the sample variance is unbiased, i.e E[s2]=σ2.**
 
-&#10230;
+&#10230; Observação: a variância da amostra é imparcial, i.e E[s2]=σ2.
 
 <br>
 
 **58. Chi-Squared relation with sample variance ― Let s2 be the sample variance of a random sample. We have:**
 
-&#10230;
+&#10230; Relação qui-quadrado com a variância da amostra - Seja s2 a variância da amostra de uma amostra aleatória. Nós temos:
 
 <br>
 
 **59. [Introduction, Sample space, Event, Permutation]**
 
-&#10230;
+&#10230; [Introdução, Espaço amostral, Evento, Permutação]
 
 <br>
 
 **60. [Conditional probability, Bayes' rule, Independence]**
 
-&#10230;
+&#10230; [Probabilidade condicional, Regra de Bayes, Independência]
 
 <br>
 
 **61. [Random variables, Definitions, Expectation, Variance]**
 
-&#10230;
+&#10230; [Variáveis aleatórias, Definições, Expectativa, Variância]
 
 <br>
 
 **62. [Probability distributions, Chebyshev's inequality, Main distributions]**
 
-&#10230;
+&#10230; [Distribuições de probabilidade, Desigualdade de Chebyshev, Distribuições principais]
 
 <br>
 
 **63. [Jointly distributed random variables, Density, Covariance, Correlation]**
 
-&#10230;
+&#10230; [Variáveis aleatórias distribuidas em conjunto, Densidade, Covariância, Correlação]
 
 <br>
 
 **64. [Parameter estimation, Mean, Variance]**
 
-&#10230;
+&#10230; [Estimativa de parâmetro, Média, Variância]

@@ -5,12 +5,12 @@ This repository aims at collaboratively translating our [Machine Learning cheats
 ## Progression
 |Cheatsheet topic|[Deutsch](https://github.com/shervinea/cheatsheet-translation/tree/master/de)|[Español](https://github.com/shervinea/cheatsheet-translation/tree/master/es)|[فارسی](https://github.com/shervinea/cheatsheet-translation/tree/master/fa)|[Français](https://github.com/shervinea/cheatsheet-translation/tree/master/fr)|[日本語](https://github.com/shervinea/cheatsheet-translation/tree/master/ja)|[Português](https://github.com/shervinea/cheatsheet-translation/tree/master/pt)|[简体中文](https://github.com/shervinea/cheatsheet-translation/tree/master/zh)|
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|Deep learning|0%|0%|0%|**100%**|0%|0%|0%|
+|Deep learning|0%|0%|0%|**100%**|0%|**100%**|0%|
 |Supervised learning|0%|0%|0%|**100%**|0%|0%|1%|
 |Unsupervised learning|0%|0%|0%|**100%**|0%|0%|0%|
 |ML tips and tricks|0%|0%|0%|**100%**|0%|0%|0%|
-|Probabilities and Statistics|0%|0%|0%|**100%**|0%|0%|0%|
-|Linear algebra|0%|**100%**|0%|**100%**|0%|0%|0%|
+|Probabilities and Statistics|0%|**100%**|0%|**100%**|0%|0%|0%|
+|Linear algebra|0%|**100%**|0%|**100%**|0%|**100%**|0%|
 
 |Cheatsheet topic|العَرَبِيَّة|עִבְרִית|[हिन्दी](https://github.com/shervinea/cheatsheet-translation/tree/master/hi)|[ಕನ್ನಡ](https://github.com/shervinea/cheatsheet-translation/tree/master/kn)|[मराठी](https://github.com/shervinea/cheatsheet-translation/tree/master/mr)|[తెలుగు](https://github.com/shervinea/cheatsheet-translation/tree/master/te)|[Türkçe](https://github.com/shervinea/cheatsheet-translation/tree/master/tr)|[Русский](https://github.com/shervinea/cheatsheet-translation/tree/master/ru)|[Polski](https://github.com/shervinea/cheatsheet-translation/tree/master/pl)
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|

@@ -144,7 +144,7 @@
 
 **25. [Model is trained, Model is assessed, Model gives predictions]**
 
-&#10230; [Modèle est entrainé, Moèle est évalué, Modèle donne des prédictions]
+&#10230; [Modèle est entrainé, Modèle est évalué, Modèle donne des prédictions]
 
 <br>
 

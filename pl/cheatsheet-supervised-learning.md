@@ -330,7 +330,7 @@
 
 **56. Gaussian Discriminant Analysis**
 
-&#10230; Analiza dykryminanty Gaussa
+&#10230; Analiza dyskryminanty Gaussa
 
 <br>
 
@@ -517,3 +517,51 @@
 **87. Theorem (Vapnik) ― Let H be given, with VC(H)=d and m the number of training examples. With probability at least 1−δ, we have:**
 
 &#10230; Teoria Vapnika ― Przyjmując że mamy H, które VC(H)=d i m jest liczbą przykładów treningowych. Z prawdopodobieństwem co najmniej 1−δ mamy:
+
+<br>
+
+**88. [Introduction, Type of prediction, Type of model]**
+
+&#10230; [Wprowadzenie, Rodzaje predykcji, Roszaje modelu]
+
+<br>
+
+**89. [Notations and general concepts, loss function, gradient descent, likelihood]**
+
+&#10230; [Zapis i ogólne założenia, funkcja straty, opadanie gradientu, prawdopodobieństwo]
+
+<br>
+
+**90. [Linear models, linear regression, logistic regression, generalized linear models]**
+
+&#10230; [Modele liniowe, regresja liniowa, regresja logistyczna, generalne modele liniowe]
+
+<br>
+
+**91. [Support vector machines, Optimal margin classifier, Hinge loss, Kernel]**
+
+&#10230; [Maszyny wektorów nośnych, Klasyfikator optymalnego marginesu, Strata Hinge'a, Jądro]
+
+<br>
+
+**92. [Generative learning, Gaussian Discriminant Analysis, Naive Bayes]**
+
+&#10230; [Uczenie generatywne, Analiza dyskryminanty Gaussa, Naiwny Klasyfikator Bayesowski (Naive Bayes)]
+
+<br>
+
+**93. [Trees and ensemble methods, CART, Random forest, Boosting]**
+
+&#10230; [Drzewa i "ensembling", CART, Las losowy, Boostowanie]
+
+<br>
+
+**94. [Other methods, k-NN]**
+
+&#10230; [Inne metody, k-NN]
+
+<br>
+
+**95. [Learning theory, Hoeffding inequality, PAC, VC dimension]**
+
+&#10230; [Teoria uczenia, Nierówność Hoeffding'a, PAC, wymiary VC]

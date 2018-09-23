@@ -255,3 +255,31 @@
 &#10230; Analiza ablacyjna - analiza głównych powodów różnicy efektywności modelu testowanego i modelu podstawowego. W celu uproszczenia modelu.
 
 <br>
+
+**44. Regression metrics**
+
+&#10230; Miary regresji
+
+<br>
+
+**45. [Classification metrics, confusion matrix, accuracy, precision, recall, F1 score, ROC]**
+
+&#10230; [Miary klasyfikacji, macierz pomyłek, dokładność, precyzja, czułość, F1, ROC]
+
+<br>
+
+**46. [Regression metrics, R squared, Mallow's CP, AIC, BIC]**
+
+&#10230; [Miary regresji, R kwadrat, CP Mallow'a, AIC, BIC]
+
+<br>
+
+**47. [Model selection, cross-validation, regularization]**
+
+&#10230; [Wybór modelu, walidacja krzyżowa, regularyzacja]
+
+<br>
+
+**48. [Diagnostics, Bias/variance tradeoff, error/ablative analysis]**
+
+&#10230; [Diagnostyka, Niedostateczne/nadmierne dopasowanie modelu, analiza ablacyjna/błędu]

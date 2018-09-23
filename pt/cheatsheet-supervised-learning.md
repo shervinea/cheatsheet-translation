@@ -72,7 +72,7 @@
 
 **13. [Least squared error, Logistic loss, Hinge loss, Cross-entropy]**
 
-&#10230; [Erro quadrático mínimo, Perda logística, Hinge loss, Entropia cruzada]
+&#10230; [Erro quadrático mínimo, Perda logística, Perda de Hinge, Entropia cruzada]
 
 <br>
 
@@ -540,7 +540,7 @@
 
 **91. [Support vector machines, Optimal margin classifier, Hinge loss, Kernel]**
 
-&#10230; [Máquinas de vetores de suporte, Classificador de margem ideal, Perda de Hinge, Kernel]
+&#10230; [Máquinas de vetores de suporte, Classificador de margem ideal, Perda de Articulação, Kernel]
 
 <br>
 

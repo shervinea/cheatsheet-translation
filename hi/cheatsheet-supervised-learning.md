@@ -1,84 +1,84 @@
 **1. Supervised Learning cheatsheet**
 
-&#10230;
+&#10230;पर्यवेक्षित शिक्षा धोखा शीट
 
 <br>
 
 **2. Introduction to Supervised Learning**
 
-&#10230;
+&#10230;पर्यवेक्षित शिक्षा का परिचय
 
 <br>
 
 **3. Given a set of data points {x(1),...,x(m)} associated to a set of outcomes {y(1),...,y(m)}, we want to build a classifier that learns how to predict y from x.**
 
-&#10230;
+&#10230;हम एक वर्गीकरण बनाना चाहते हैं जो सीखता है कि एक्स(X) से वाई(Y) का अनुमान कैसे लगायें। आँकड़ो का एक समुच्चय {x (1), ..., x (m)} जो परिणामों के एक समुच्चय {y (1), ..., y (m)} से जुड़ा है।
 
 <br>
 
 **4. Type of prediction ― The different types of predictive models are summed up in the table below:**
 
-&#10230;
+&#10230;पूर्वानुमान का प्रकार - विभिन्न प्रकार के पूर्वानुमान मॉडल को नीचे दी गई तालिका में सारांशित किया गया है
 
 <br>
 
 **5. [Regression, Classifier, Outcome, Examples]**
 
-&#10230;
+&#10230;[प्रतिगमन, वर्गीकारक, परिणाम, ]उदाहरण
 
 <br>
 
 **6. [Continuous, Class, Linear regression, Logistic regression, SVM, Naive Bayes]**
 
-&#10230;
+&#10230;[अखण्ड, कक्षा, रेखीय प्रतिगमन, रसद प्रतिगमन, एसवीएम, नायईव (बेवक़ूफ़) बेएस]
 
 <br>
 
 **7. Type of model ― The different models are summed up in the table below:**
 
-&#10230;
+&#10230;मॉडल (निदर्श)) के प्रकार - विभिन्न मॉडलों को नीचे दी गई तालिका में सारांशित किया गया है:
 
 <br>
 
 **8. [Discriminative model, Generative model, Goal, What's learned, Illustration, Examples]**
 
-&#10230;
+&#10230;[विशेषक मॉडल, उत्पादक मॉडल, लक्ष्य, क्या सीखा है, चित्रण, उदाहरण]
 
 <br>
 
 **9. [Directly estimate P(y|x), Estimate P(x|y) to then deduce P(y|x), Decision boundary,  	Probability distributions of the data, Regressions, SVMs, GDA, Naive Bayes]**
 
-&#10230;
+&#10230;[Directly estimate P(y|x), Estimate P(x|y) to then deduce P(y|x), Decision boundary,  	Probability distributions of the data, Regressions, SVMs, GDA, Naive Bayes]
 
-<br>
+<br>[सीधे P(y|x) का अनुमान लगाएं, P(y|x) का परिणाम निकालने के लिए P(x|y) का अनुमान लगाए, निर्णय सीमा, आँकड़ो का सम्भावित वितरण, प्रतिगमन, एसवीएम , जीडीए, नायईव बेएस]
 
 **10. Notations and general concepts**
 
-&#10230;
+&#10230;अंकन एवं सामान्य अवधारणाएं
 
 <br>
 
 **11. Hypothesis ― The hypothesis is noted hθ and is the model that we choose. For a given input data x(i) the model prediction output is hθ(x(i)).**
 
-&#10230;
+&#10230;परिकल्पना - परिकल्पना मॉडल है जिसे हम चुनते है, तथा इसे hθ से अंकित किया जाता है। दिए गए इनपुट आँकड़ो x(i) के लिए hθ(x(i)) मॉडल पूर्वानुमान आउटपुट है।
 
 <br>
 
 **12. Loss function ― A loss function is a function L:(z,y)∈R×Y⟼L(z,y)∈R that takes as inputs the predicted value z corresponding to the real data value y and outputs how different they are. The common loss functions are summed up in the table below:**
 
-&#10230;
+&#10230;क्षति फ़लन - क्षति फ़लन एक फ़लन L:(z,y)∈R×Y⟼L(z,y)∈R है। इसका इनपुट अनुमानित मूल्य z जो वास्तविक आँकड़ा मान y के अनुरूप है। परिणाम देता है कि वे कितने अलग हैं। सामान्य क्षति फलनो को नीचे दी गई तालिका में सारांशित किया गया है:
 
 <br>
 
 **13. [Least squared error, Logistic loss, Hinge loss, Cross-entropy]**
 
-&#10230;
+&#10230;[न्यूनतम वर्ग त्रुटि, रसद नुकसान, हिंग नुकसान, क्रॉस-एन्ट्रॉपी]
 
 <br>
 
 **14. [Linear regression, Logistic regression, SVM, Neural Network]**
 
-&#10230;
+&#10230;[रेखीय प्रतिगमन, रसद प्रतिगमन, एसवीएम, न्यूरल नेट्वर्क ]
 
 <br>
 

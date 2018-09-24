@@ -1,12 +1,12 @@
 **1. Supervised Learning cheatsheet**
 
-&#10230; Hoja de referencia de Aprendizaje supervisado
+&#10230; Hoja de referencia de Aprendizaje Supervisado
 
 <br>
 
 **2. Introduction to Supervised Learning**
 
-&#10230; Introducción al aprendizaje supervisado
+&#10230; Introducción al Aprendizaje Supervisado
 
 <br>
 
@@ -30,7 +30,7 @@
 
 **6. [Continuous, Class, Linear regression, Logistic regression, SVM, Naive Bayes]**
 
-&#10230; [Continuo, Clases, Regresión lineal, Regresión logística, SVM, Naive Bayes]
+&#10230; [Continuo, Clase, Regresión lineal, Regresión logística, SVM, Naive Bayes]
 
 <br>
 
@@ -48,7 +48,7 @@
 
 **9. [Directly estimate P(y|x), Estimate P(x|y) to then deduce P(y|x), Decision boundary,  	Probability distributions of the data, Regressions, SVMs, GDA, Naive Bayes]**
 
-&#10230; [Estima P(y|x), Estima P(x|y) para luego deducir P(y|x), Límite de decisión,  	Distribución probabilística de los datos, Regresiones, SVMs, GDA, Naive Bayes]
+&#10230; [Estima directamente P(y|x), Estima P(x|y) para luego deducir P(y|x), Límite de decisión,  	Distribución probabilística de los datos, Regresiones, SVMs, GDA, Naive Bayes]
 
 <br>
 
@@ -66,7 +66,7 @@
 
 **12. Loss function ― A loss function is a function L:(z,y)∈R×Y⟼L(z,y)∈R that takes as inputs the predicted value z corresponding to the real data value y and outputs how different they are. The common loss functions are summed up in the table below:**
 
-&#10230; Función de pérdida ― Una función de pérdida es una función L:(z,y)∈R×Y⟼L(z,y)∈R que toma como entrada el valor predicho z y el valor real esperado, dando como resultado qué tan diferentes son ambos. Las funciones de pérdida más comunes son detalladas en la siguiente tabla:
+&#10230; Función de pérdida ― Una función de pérdida es una función L:(z,y)∈R×Y⟼L(z,y)∈R que toma como entrada el valor predicho z y el valor real esperado, dando como resultado qué tan diferentes son ambos. Las funciones de pérdida más comunes se detallan en la siguiente tabla:
 
 <br>
 
@@ -90,19 +90,19 @@
 
 **16. Gradient descent ― By noting α∈R the learning rate, the update rule for gradient descent is expressed with the learning rate and the cost function J as follows:**
 
-&#10230; Descenso del gradiente ― Siendo α∈R la tasa de aprendizaje, la regla de actualización de descenso del gradiente se expresa junto a la tasa de aprendizaje y la función de costo J de la siguiente manejra:
+&#10230; Descenso de gradiente ― Siendo α∈R la tasa de aprendizaje, la regla de actualización de descenso en gradiente se expresa junto a la tasa de aprendizaje y la función de costo J de la siguiente manera:
 
 <br>
 
 **17. Remark: Stochastic gradient descent (SGD) is updating the parameter based on each training example, and batch gradient descent is on a batch of training examples.**
 
-&#10230; Observación: El descenso del gradiente estocástico (SGD, por sus siglas en inglés) actualiza el parámetro basándose en cada ejemplo de entenamiento mientras que el descenso por lotes realiza la actualización del parámetro basándose en un conjunto (un lote) de ejemplos de entrenamiento.
+&#10230; Observación: El descenso en gradiente estocástico (SGD, por sus siglas en inglés) actualiza el parámetro basándose en cada ejemplo de entenamiento, mientras que el descenso por lotes realiza la actualización del parámetro basándose en un conjunto (un lote) de ejemplos de entrenamiento.
 
 <br>
 
 **18. Likelihood ― The likelihood of a model L(θ) given parameters θ is used to find the optimal parameters θ through maximizing the likelihood. In practice, we use the log-likelihood ℓ(θ)=log(L(θ)) which is easier to optimize. We have:**
 
-&#10230; Probabilidad ― La probabilidad de un modelo L(θ) dados los parámetros θ es utilizada para hallar los valores óptimos de  θ a través de la probabilidad. En la práctica se utiliza la log-probabilidad ℓ(θ)=log(L(θ)) la cual es fácil de optimizar. Tenemos:
+&#10230; Verosimilitud - La verosimilitud de un modelo L(θ) dados los parámetros θ es utilizada para hallar los valores óptimos de θ a través de la verosimilitud. En la práctica se utiliza la log-verosimilitud ℓ(θ)=log(L(θ)) la cual es fácil de optimizar. Tenemos:
 
 <br>
 
@@ -150,13 +150,13 @@
 
 **26. Remark: the update rule is a particular case of the gradient ascent.**
 
-&#10230; Observación: la regla de actualización es un caso particular del ascenso por gradiente.
+&#10230; Observación: la regla de actualización es un caso particular del ascenso de gradiente.
 
 <br>
 
 **27. LWR ― Locally Weighted Regression, also known as LWR, is a variant of linear regression that weights each training example in its cost function by w(i)(x), which is defined with parameter τ∈R as:**
 
-&#10230; LWR ― Regresión local ponderada, conocida por sus siglas en inglés LWR (Locally Weighted Regression), es una variante de la regresión lineal que pondera cada ejemplo de entrenamiento en su función de costo utilizando w(i)(x), la cual se define con el parámetro τ∈R as:
+&#10230; LWR ― Regresión local ponderada, LWR (Locally Weighted Regression) por sus siglas en inglés, es una variante de la regresión lineal que pondera cada ejemplo de entrenamiento en su función de costo utilizando w(i)(x), la cual se define con el parámetro τ∈R as:
 
 <br>
 
@@ -306,7 +306,7 @@
 
 **52. Lagrangian ― We define the Lagrangian L(w,b) as follows:**
 
-&#10230; Lagrangiana - Se define el Lagrangiana L(w,b) de la siguiente manera:
+&#10230; Lagrangiano - Se define el Lagrangiano L(w,b) de la siguiente manera:
 
 <br>
 
@@ -527,7 +527,7 @@
 
 **89. [Notations and general concepts, loss function, gradient descent, likelihood]**
 
-&#10230; [Notaciones y conceptos generales, función de perdida, descenso del gradiente, probabilidad]
+&#10230; [Notaciones y conceptos generales, función de perdida, descenso en gradiente, probabilidad]
 
 <br>
 

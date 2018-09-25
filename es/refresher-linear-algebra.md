@@ -114,7 +114,7 @@
 
 **20. where aTr,i,bTr,i are the vector rows and ac,j,bc,j are the vector columns of A and B respectively**
 
-&#10230; donde aTr,i,bTr,i son los vectores fila and ac,j,bc,j son los vectores columna de A y B respectivamente
+&#10230; donde aTr,i,bTr,i son los vectores fila y ac,j,bc,j son los vectores columna de A y B respectivamente
 
 <br>
 
@@ -126,7 +126,7 @@
 
 **22. Transpose ― The transpose of a matrix A∈Rm×n, noted AT, is such that its entries are flipped:**
 
-&#10230; Transpuesta ― La transpuesta de una matriz A∈Rm×n, denotada AT, está dada por el siguiente cambio de posición de sus entradas:
+&#10230; Transpuesta ― La transpuesta de una matriz A∈Rm×n, denotada AT, es tal que sus entradas se intercambian de la siguiente forma:
 
 <br>
 
@@ -162,13 +162,13 @@
 
 **28. Determinant ― The determinant of a square matrix A∈Rn×n, noted |A| or det(A) is expressed recursively in terms of A∖i,∖j, which is the matrix A without its ith row and jth column, as follows:**
 
-&#10230; Determinante ― El determinante de una matriz cuadrada A∈Rn×n, denotado |A| or det(A), es expresado recursivamente en términos de A∖i,∖j, que es la matriz A sin su i-ésima fila ni su j-ésima columna, de la siguiente forma:
+&#10230; Determinante ― El determinante de una matriz cuadrada A∈Rn×n, denotado |A| o det(A), es expresado recursivamente en términos de A∖i,∖j, que es la matriz A sin su i-ésima fila ni su j-ésima columna, de la siguiente forma:
 
 <br>
 
 **29. Remark: A is invertible if and only if |A|≠0. Also, |AB|=|A||B| and |AT|=|A|.**
 
-&#10230; Observación: A es inversible si y solo si |A|≠0. Además, |AB|=|A||B| y |AT|=|A|.
+&#10230; Observación: A es invertible si y solo si |A|≠0. Además, |AB|=|A||B| y |AT|=|A|.
 
 <br>
 
@@ -186,13 +186,13 @@
 
 **32. Symmetric decomposition ― A given matrix A can be expressed in terms of its symmetric and antisymmetric parts as follows:**
 
-&#10230; Descomposición simétrica ― Una matriz dada A puede ser expresada en términos de sus partes simétricas y antismétricas de la siguiente forma:
+&#10230; Descomposición simétrica ― Una matriz dada A puede ser expresada en términos de sus partes simétricas y antisimétricas de la siguiente forma:
 
 <br>
 
 **33. [Symmetric, Antisymmetric]**
 
-&#10230; [Simétrica, Antismétricas]
+&#10230; [Simétrica, Antisimétricas]
 
 <br>
 
@@ -216,7 +216,7 @@
 
 **37. For x∈V, the most commonly used norms are summed up in the table below:**
 
-&#10230; Sea x∈V, las normas comunmente utilizadas se resumen en la siguiente tabla:
+&#10230; Para x∈V, las normas comúnmente utilizadas se resumen en la siguiente tabla:
 
 <br>
 
@@ -258,13 +258,13 @@
 
 **44. Eigenvalue, eigenvector ― Given a matrix A∈Rn×n, λ is said to be an eigenvalue of A if there exists a vector z∈Rn∖{0}, called eigenvector, such that we have:**
 
-&#10230; Valor propio, vector propio ― Dada una matriz A∈Rn×n, λ se dice que es un valor propio de A si existe un vector z∈Rn∖{0}, llamado vector propio, tal que:
+&#10230; Valor propio, vector propio ― Dada una matriz A∈Rn×n, λ se dice que es un valor propio (eigenvalue, en inglés) de A si existe un vector z∈Rn∖{0}, llamado vector propio (eigenvector, en inglés), tal que:
 
 <br>
 
 **45. Spectral theorem ― Let A∈Rn×n. If A is symmetric, then A is diagonalizable by a real orthogonal matrix U∈Rn×n. By noting Λ=diag(λ1,...,λn), we have:**
 
-&#10230; Teorema espectral ― Sea A∈Rn×n. Si A es simétrica, entonces A es diagonalizable por una matriz real ortogonal U∈Rn×n. Denotando Λ=diag(λ1,...,λn), se tiene que:
+&#10230; Teorema espectral ― Sea A∈Rn×n. Si A es simétrica, entonces A es diagonalizable a través de una matriz real ortogonal U∈Rn×n. Denotando Λ=diag(λ1,...,λn), se tiene que:
 
 <br>
 
@@ -276,7 +276,7 @@
 
 **47. Singular-value decomposition ― For a given matrix A of dimensions m×n, the singular-value decomposition (SVD) is a factorization technique that guarantees the existence of U m×m unitary, Σ m×n diagonal and V n×n unitary matrices, such that:**
 
-&#10230; Descomposición en valores singulares ― Para una matriz dada A de dimensiones m×n, la descomposición en valores singulares (SVD, por sus siglas en inglés de _Singular-value decomposition_) es una técnica de factorización que garantiza la existencia de las matrices U m×m unitaria, Σ m×n diagonal y V n×n unitaria, tal que:
+&#10230; Descomposición en valores singulares ― Para una matriz dada A de dimensiones m×n, la descomposición en valores singulares (SVD, por sus siglas en inglés de _Singular-Value Decomposition_) es una técnica de factorización que garantiza la existencia de las matrices U m×m unitaria, Σ m×n diagonal y V n×n unitaria, tal que:
 
 <br>
 
@@ -306,7 +306,7 @@
 
 **52. Remark: the hessian of f is only defined when f is a function that returns a scalar**
 
-&#10230; Observación: la matriz hessiana de f se define únicamente cuando f es una función que retorna un escalar
+&#10230; Observación: la matriz hessiana de f se define únicamente cuando f es una función que devuelve un escalar
 
 <br>
 
@@ -336,4 +336,4 @@
 
 **57. [Matrix calculus, Gradient, Hessian, Operations]**
 
-&#10230; [Cálculo de matrices, Gradiante, Hessiana, Operaciones]
+&#10230; [Cálculo de matrices, Gradiente, Hessiana, Operaciones]

@@ -1,6 +1,6 @@
-**1. Consejos y trucos sobre Aprendizaje Automático**
+**1. Machine learning tips and tricks cheatsheet**
 
-&#10230; Consejos y trucos sobre Aprendizaje Automático
+&#10230; Hoja de referencia de consejos y trucos sobre Aprendizaje Automático
 
 <br>
 
@@ -12,7 +12,7 @@
 
 **3. In a context of a binary classification, here are the main metrics that are important to track in order to assess the performance of the model.**
 
-&#10230; En el contexto de una clasificación binaria, estas son las principales métricas que es importante seguir para evaluar el rendimiento del modelo.
+&#10230; En el contexto de una clasificación binaria, estas son las principales métricas que son importantes seguir para evaluar el rendimiento del modelo.
 
 <br>
 
@@ -48,7 +48,7 @@
 
 **9. How accurate the positive predictions are**
 
-&#10230; Cuán precisas son las predicciones positivas?
+&#10230; Que tan precisas son las predicciones positivas
 
 <br>
 
@@ -108,7 +108,7 @@
 
 **19. Coefficient of determination ― The coefficient of determination, often noted R2 or r2, provides a measure of how well the observed outcomes are replicated by the model and is defined as follows:**
 
-&#10230; Coeficiente de determinación: el coeficiente de determinación, a menudo indicado como R2 o r2, proporciona una medida de qué tan bien los resultados observados son replicados por el modelo y se define de la siguiente manera:
+&#10230; Coeficiente de determinación: el coeficiente de determinación, a menudo indicado como R2 o r2, proporciona una medida de lo bien que los resultados observados son replicados por el modelo y se define de la siguiente manera:
 
 <br>
 
@@ -168,7 +168,7 @@
 
 **29. Cross-validation ― Cross-validation, also noted CV, is a method that is used to select a model that does not rely too much on the initial training set. The different types are summed up in the table below:**
 
-&#10230; Validación cruzada - la validación cruzada, también denominada CV, es un método que se utiliza para seleccionar un modelo que no confíe demasiado en el conjunto de entrenamiento inicial. Los diferentes tipos se resumen en la tabla a continuación:
+&#10230; Validación cruzada - la validación cruzada, también denominada CV (por sus siglas en ingles), es un método que se utiliza para seleccionar un modelo que no confíe demasiado en el conjunto de entrenamiento inicial. Los diferentes tipos se resumen en la tabla a continuación:
 
 <br>
 
@@ -240,7 +240,7 @@
 
 **41. [Complexify model, Add more features, Train longer, Perform regularization, Get more data]**
 
-&#10230; [Complementar el modelo, agregar más funciones, entrenar más tiempo, realizar la regularización, obtener más datos]
+&#10230; [Incrementar la complejidad del modelo, agregar más funciones, entrenar más tiempo, realizar la regularización, obtener más datos]
 
 <br>
 

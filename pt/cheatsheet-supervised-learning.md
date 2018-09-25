@@ -30,7 +30,7 @@
 
 **6. [Continuous, Class, Linear regression, Logistic regression, SVM, Naive Bayes]**
 
-&#10230; [Contínuo, Classe, Regressão Linear, Regressão Logística, Máquina de Vetores de Suporte, Naive Bayes]
+&#10230; [Contínuo, Classe, Regressão Linear, Regressão Logística, SVM, Naive Bayes]
 
 <br>
 
@@ -234,7 +234,7 @@
 
 **40. Support Vector Machines**
 
-&#10230; Máquinas de Vetores de Suporte
+&#10230; Máquinas de Vetores de Suporte (Support Vector Machines)
 
 <br>
 

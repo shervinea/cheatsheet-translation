@@ -276,7 +276,7 @@
 
 **47. Hinge loss ― The hinge loss is used in the setting of SVMs and is defined as follows:**
 
-&#10230; Perda de articulação (Hinge loss) - A perda de articulação é usada na configuração das máquinas de vetores de suporte (SVMs) e é definida como:
+&#10230; Perda de Hinge (Hinge loss) - A perda de articulação é usada na configuração das máquinas de vetores de suporte (SVMs) e é definida como:
 
 <br>
 

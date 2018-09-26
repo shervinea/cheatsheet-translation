@@ -1,90 +1,90 @@
 1. **Unsupervised Learning cheatsheet**
 
-&#10230;
+&#10230; 无监督学习简明手册
 
 <br>
 
 2. **Introduction to Unsupervised Learning**
 
-&#10230;
+&#10230; 无监督学习导引
 
 <br>
 
 3. **Motivation ― The goal of unsupervised learning is to find hidden patterns in unlabeled data {x(1),...,x(m)}.**
 
-&#10230;
+&#10230; 动机 - 无监督学习的目标是找到在未标记数据 {x(1),...,x(m)} 中的隐含模式。
 
 <br>
 
 4. **Jensen's inequality ― Let f be a convex function and X a random variable. We have the following inequality:**
 
-&#10230;
+&#10230; Jensen 不等式 - 令 f 为一个凸函数而 X 为一个随机变量。我们有下列不等式：
 
 <br>
 
 5. **Clustering**
 
-&#10230;
+&#10230; 聚类
 
 <br>
 
 6. **Expectation-Maximization**
 
-&#10230;
+&#10230; E-M 算法
 
 <br>
 
 7. **Latent variables ― Latent variables are hidden/unobserved variables that make estimation problems difficult, and are often denoted z. Here are the most common settings where there are latent variables:**
 
-&#10230;
+&#10230; 隐变量 - 隐变量是隐含/不可观测的变量，使得估计问题变得困难，通常被表示成 z。这里是包含隐变量的常见设定：
 
 <br>
 
 8. **[Setting, Latent variable z, Comments]**
 
-&#10230;
+&#10230; [设定，隐变量 z，评论]
 
 <br>
 
 9. **[Mixture of k Gaussians, Factor analysis]**
 
-&#10230;
+&#10230; k 元混合高斯分布，因子分析
 
 <br>
 
 10. **Algorithm ― The Expectation-Maximization (EM) algorithm gives an efficient method at estimating the parameter θ through maximum likelihood estimation by repeatedly constructing a lower-bound on the likelihood (E-step) and optimizing that lower bound (M-step) as follows:**
 
-&#10230;
+&#10230; 算法 - E-M 算法给出了通过重复构建似然函数的下界（E-步）和最优化下界（M-步）进行极大似然估计给出参数 θ 的高效估计方法：
 
 <br>
 
 11. **E-step: Evaluate the posterior probability Qi(z(i)) that each data point x(i) came from a particular cluster z(i) as follows:**
 
-&#10230;
+&#10230; E-步：计算后验概率 Qi(z(i))，其中每个数据点 x(i) 来自特定的簇 z(i) ，过程如下：
 
 <br>
 
 12. **M-step: Use the posterior probabilities Qi(z(i)) as cluster specific weights on data points x(i) to separately re-estimate each cluster model as follows:**
 
-&#10230;
+&#10230; M-步：使用后验概率 Qi(z(i)) 作为簇在数据点 x(i) 上的特定权重来分别重新估计每个簇模型，过程如下：
 
 <br>
 
 13. **[Gaussians initialization, Expectation step, Maximization step, Convergence]**
 
-&#10230;
+&#10230; [高斯初始化，E-步，M-步，收敛]
 
 <br>
 
 14. **k-means clustering**
 
-&#10230;
+&#10230; k-均值聚类
 
 <br>
 
 15. **We note c(i) the cluster of data point i and μj the center of cluster j.**
 
-&#10230;
+&#10230; 我们记 c(i) 为数据
 
 <br>
 

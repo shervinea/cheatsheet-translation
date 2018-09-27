@@ -1,96 +1,96 @@
 1. **Supervised Learning cheatsheet**
 
-&#10230;
+&#10230; 监督学习备忘录
 
 <br>
 
 2. **Introduction to Supervised Learning**
 
-&#10230;
+&#10230; 监督学习简介
 
 <br>
 
 3. **Given a set of data points {x(1),...,x(m)} associated to a set of outcomes {y(1),...,y(m)}, we want to build a classifier that learns how to predict y from x.**
 
-&#10230;
+&#10230; 给定一组数据点 {x(1),...,x(m)} 和与其对应的输出 {y(1),...,y(m)} ， 我们想要建立一个分类器，学习如何从 x 预测 y。
 
 <br>
 
 4. **Type of prediction ― The different types of predictive models are summed up in the table below:**
 
-&#10230;
+&#10230;  预测类型 - 不同类型的预测模型总结如下表：
 
 <br>
 
 5. **[Regression, Classifier, Outcome, Examples]**
 
-&#10230;
+&#10230;  [回归，分类，输出，例子]
 
 <br>
 
 6. **[Continuous, Class, Linear regression, Logistic regression, SVM, Naive Bayes]**
 
-&#10230;
+&#10230; [连续，类，线性回归，Logistic回归，SVM，朴素贝叶斯]
 
 <br>
 
 7. **Type of model ― The different models are summed up in the table below:**
 
-&#10230;
+&#10230; 型号类型 - 不同型号总结如下表：
 
 <br>
 
 8. **[Discriminative model, Generative model, Goal, What's learned, Illustration, Examples]**
 
-&#10230;
+&#10230; [判别模型，生成模型，目标，所学内容，例图，示例]
 
 <br>
 
 9. **[Directly estimate P(y|x), Estimate P(x|y) to then deduce P(y|x), Decision boundary,  	Probability distributions of the data, Regressions, SVMs, GDA, Naive Bayes]**
 
-&#10230;
+&#10230; [直接估计P(y|x)，估计P(x|y) 然后推导 P(y|x)，决策边界，数据的概率分布，回归，SVMs，GDA，朴素贝叶斯]
 
 <br>
 
 10. **Notations and general concepts**
 
-&#10230;
+&#10230; 符号和一般概念
 
 <br>
 
 11. **Hypothesis ― The hypothesis is noted hθ and is the model that we choose. For a given input data x(i) the model prediction output is hθ(x(i)).**
 
-&#10230;
+&#10230; 假设 - 假设我们选择的模型是hθ 。 对于给定的输入数据 x(i)，模型预测输出是 hθ(x(i))。
 
 <br>
 
 12. **Loss function ― A loss function is a function L:(z,y)∈R×Y⟼L(z,y)∈R that takes as inputs the predicted value z corresponding to the real data value y and outputs how different they are. The common loss functions are summed up in the table below:**
 
-&#10230;
+&#10230; 损失函数 - 损失函数是一个 L:(z,y)∈R×Y⟼L(z,y)∈R 的函数，其将真实数据值 y 和其预测值 z 作为输入，输出它们的不同程度。 常见的损失函数总结如下表：
 
 <br>
 
 13. **[Least squared error, Logistic loss, Hinge loss, Cross-entropy]**
 
-&#10230;
+&#10230; [最小二乘误差，Logistic损失，铰链损失，交叉熵]
 
 <br>
 
 14. **[Linear regression, Logistic regression, SVM, Neural Network]**
 
-&#10230;
+&#10230; [线性回归，Logistic回归，SVM，神经网络]
 
 <br>
 
 15. **Cost function ― The cost function J is commonly used to assess the performance of a model, and is defined with the loss function L as follows:**
 
-&#10230;
+&#10230; 成本函数 - 成本函数 J 通常用于评估模型的性能，使用损失函数 L 定义如下：
 
 <br>
 
 16. **Gradient descent ― By noting α∈R the learning rate, the update rule for gradient descent is expressed with the learning rate and the cost function J as follows:**
 
-&#10230;
+&#10230; 梯度下降 - 记学习率为 α∈R，梯度下降的更新规则使用学习率和成本函数 J 表示如下：
 
 <br>
 

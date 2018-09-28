@@ -30,7 +30,7 @@
 
 **6. Remark: the vector x defined above can be viewed as a n×1 matrix and is more particularly called a column-vector.**
 
-&#10230; Uyarı: Yukarıda tanımlanan x vektörü n×1 tipinde bir matris olarak ele alınabilir ve genellikle sütun vektörü olarak adlandırılır.
+&#10230; Dipnot: Yukarıda tanımlanan x vektörü n×1 tipinde bir matris olarak ele alınabilir ve genellikle sütun vektörü olarak adlandırılır.
 
 <br>
 
@@ -48,7 +48,7 @@
 
 **9. Remark: for all matrices A∈Rn×n, we have A×I=I×A=A.**
 
-&#10230; Uyarı: Her A∈Rn×n matrisi için A×I=I×A=A eşitliği sağlanır.
+&#10230; Dipnot: Her A∈Rn×n matrisi için A×I=I×A=A eşitliği sağlanır.
 
 <br>
 
@@ -60,7 +60,7 @@
 
 **11. Remark: we also note D as diag(d1,...,dn).**
 
-&#10230; Uyarı: D matrisi diag(d1,...,dn) olarak da gösterilir.
+&#10230; Dipnot: D matrisi diag(d1,...,dn) olarak da gösterilir.
 
 <br>
 
@@ -132,7 +132,7 @@
 
 **23. Remark: for matrices A,B, we have (AB)T=BTAT**
 
-&#10230; Uyarı: Her A,B için (AB)T=BTAT vardır.
+&#10230; Dipnot: Her A,B için (AB)T=BTAT vardır.
 
 <br>
 
@@ -144,7 +144,7 @@
 
 **25. Remark: not all square matrices are invertible. Also, for matrices A,B, we have (AB)−1=B−1A−1**
 
-&#10230; Uyarı: Her karesel matris tersinir değildir. Ayrıca, Her tersinir A,B matrisi için (AB)−1=B−1A−1 dir.
+&#10230; Dipnot: Her karesel matris tersinir değildir. Ayrıca, Her tersinir A,B matrisi için (AB)−1=B−1A−1 dir.
 
 <br>
 
@@ -156,7 +156,7 @@
 
 **27. Remark: for matrices A,B, we have tr(AT)=tr(A) and tr(AB)=tr(BA)**
 
-&#10230; Uyarı: A,B matrisleri için tr(AT)=tr(A) ve tr(AB)=tr(BA) vardır.
+&#10230; Dipnot: A,B matrisleri için tr(AT)=tr(A) ve tr(AB)=tr(BA) vardır.
 
 <br>
 
@@ -170,7 +170,7 @@
 
 &#10230;
 
-<br> Uyarı: A tersinirdir ancak ve ancak |A|≠0. Ayrıca, |AB|=|A||B| ve |AT|=|A|.
+<br> Dipnot: A tersinirdir ancak ve ancak |A|≠0. Ayrıca, |AB|=|A||B| ve |AT|=|A|.
 
 **30. Matrix properties**
 
@@ -234,7 +234,7 @@
 
 **40. Remark: if no vector can be written this way, then the vectors are said to be linearly independent**
 
-&#10230; Uyarı: Eğer bu şekilde yazılabilen herhangi bir vektör yoksa bu vektörlere doğrusal bağımsız denir.
+&#10230; Dipnot: Eğer bu şekilde yazılabilen herhangi bir vektör yoksa bu vektörlere doğrusal bağımsız denir.
 
 <br>
 
@@ -252,7 +252,7 @@
 
 **43. Remark: similarly, a matrix A is said to be positive definite, and is noted A≻0, if it is a PSD matrix which satisfies for all non-zero vector x, xTAx>0.**
 
-&#10230; Uyarı: Benzer olarak, pozitif yarı-tanımlı bir A matrisi sıfırdan farklı her x vektörü için xTAx>0 koşulunu sağlıyorsa A matrisine pozitif tanımlı denir ve A≻0 ile gösterilir.
+&#10230; Dipnot: Benzer olarak, pozitif yarı-tanımlı bir A matrisi sıfırdan farklı her x vektörü için xTAx>0 koşulunu sağlıyorsa A matrisine pozitif tanımlı denir ve A≻0 ile gösterilir.
 
 <br>
 
@@ -288,13 +288,13 @@
 
 **49. Gradient ― Let f:Rm×n→R be a function and A∈Rm×n be a matrix. The gradient of f with respect to A is a m×n matrix, noted ∇Af(A), such that:**
 
-&#10230; Gradiyent ― f:Rm×n→R bir fonksiyon ve A∈Rm×n bir matris olsun. f nin A ya göre gradiyenti m×n tipinde bir matristir, ve ∇Af(A) ile gösterilir:
+&#10230; Gradyan ― f:Rm×n→R bir fonksiyon ve A∈Rm×n bir matris olsun. f nin A ya göre gradyanı m×n tipinde bir matristir, ve ∇Af(A) ile gösterilir:
 
 <br>
 
 **50. Remark: the gradient of f is only defined when f is a function that returns a scalar.**
 
-&#10230; Uyarı: f fonksiyonunun gradiyenti yalnızca f skaler döndüren bir fonksiyon ise tanımlıdır.
+&#10230; Dipnot: f fonksiyonunun gradyanı yalnızca f skaler döndüren bir fonksiyon ise tanımlıdır.
 
 <br>
 
@@ -306,13 +306,13 @@
 
 **52. Remark: the hessian of f is only defined when f is a function that returns a scalar**
 
-&#10230; Uyarı: f fonksiyonunun Hessian’ı yalnızca f skaler döndüren bir fonksiyon ise tanımlıdır.
+&#10230; Dipnot: f fonksiyonunun Hessian’ı yalnızca f skaler döndüren bir fonksiyon ise tanımlıdır.
 
 <br>
 
 **53. Gradient operations ― For matrices A,B,C, the following gradient properties are worth having in mind:**
 
-&#10230; Gradiyent işlemleri ― A,B,C matrisleri için aşağıdaki işlemlerin akılda bulunmasında fayda vardır:
+&#10230; Gradyan işlemleri ― A,B,C matrisleri için aşağıdaki işlemlerin akılda bulunmasında fayda vardır:
 
 <br>
 
@@ -336,4 +336,4 @@
 
 **57. [Matrix calculus, Gradient, Hessian, Operations]**
 
-&#10230; [Matris kalkülüsü, Gradiyent, Hessian, İşlemler]
+&#10230; [Matris kalkülüsü, Gradyan, Hessian, İşlemler]

@@ -3,18 +3,22 @@
 --de
 
 --es
-
-  Fernando González-Herrera (translation of linear algrebra)
+  Fernando González-Herrera (translation of linear algebra)
   Fernando Diaz (review of linear algebra)
   Gustavo Velasco-Hernández (review of linear algebra)
-  
-  Jaime Noel Alvarez Luna (translation of Unsupervised Learning)
-  
+  Juan P. Chavat (review of linear algebra)
 
   Fermin Ordaz (translation of probabilities and statistics)
   Fernando González-Herrera (review of probabilities and statistics)
   Alonso Melgar López (review of probabilities and statistics)
 
+  Juan P. Chavat (translation of Supervised Learning)
+  Fernando Gonzalez-Herrera (review of Supervised Learning)
+  Fernando Diaz (review of Supervised Learning)
+  Alonso Melgar-Lopez (review of Supervised Learning)
+
+  Jaime Noel Alvarez Luna (translation of Unsupervised learning)
+  
 --fa
 
 --fr
@@ -30,12 +34,19 @@
 
 --mr
 
---pt 
+--pt
   Gabriel Fonseca (translation of deep learning)
   Leticia Portella (review of deep learning)
-  
+
   Gabriel Fonseca (translation of linear algebra)
   Leticia Portella (review of linear algebra)
+
+  Leticia Portella (translation of probability)
+  Flavio Clesio (review of probability)
+
+  Leticia Portella (translation of supervised learning)
+  Gabriel Fonseca (review of supervised learning)
+  Flavio Clesio (review of supervised learning)
 
 --te
 

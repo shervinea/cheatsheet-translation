@@ -1,6 +1,6 @@
 **1. Unsupervised Learning cheatsheet**
 
-&#10230; Aprendizaje no Supervisado
+&#10230; Hoja de Referencia de Aprendizaje no Supervisado
 
 <br>
 
@@ -24,7 +24,7 @@
 
 **5. Clustering**
 
-&#10230; Clusterización (Agrupamiento)
+&#10230; Agrupamiento
 
 <br>
 
@@ -36,7 +36,7 @@
 
 **7. Latent variables ― Latent variables are hidden/unobserved variables that make estimation problems difficult, and are often denoted z. Here are the most common settings where there are latent variables:**
 
-&#10230; Variables Latentes - Las variables latentes son variables ocultas / no observadas que dificultan los problemas de estimación y a menudo son denotadas como z. Estos son los ajustes más comunes más comunes en los que hay variables latentes:
+&#10230; Variables Latentes - Las variables latentes son variables ocultas / no observadas que dificultan los problemas de estimación y a menudo son denotadas como z. Estos son los ajustes más comunes en los que hay variables latentes:
 
 <br>
 
@@ -54,7 +54,7 @@
 
 **10. Algorithm ― The Expectation-Maximization (EM) algorithm gives an efficient method at estimating the parameter θ through maximum likelihood estimation by repeatedly constructing a lower-bound on the likelihood (E-step) and optimizing that lower bound (M-step) as follows:**
 
-&#10230; Algoritmo - El algoritmo Expectativa-Maximización (EM) proporciona un método eficiente para estimar el parámetro θ a través de la estimación de máxima probabilidad construyendo repetidamente un límite inferior en la probabilidad (E-step) y optimizando ese límite inferior (M-step) de la siguiente manera:
+&#10230; Algoritmo - El algoritmo Expectativa-Maximización (EM) proporciona un método eficiente para estimar el parámetro θ a través de la estimación por máxima verosimilitud construyendo repetidamente un límite inferior en la probabilidad (E-step) y optimizando ese límite inferior (M-step) de la siguiente manera:
 
 <br>
 
@@ -84,7 +84,7 @@
 
 **15. We note c(i) the cluster of data point i and μj the center of cluster j.**
 
-&#10230; Denotamos c(i) el clúster de datos al punto i, y μj el centro del clúster j.
+&#10230; Denotamos c(i) al clúster de puntos de datos i, y μj al centro del clúster j.
 
 <br>
 
@@ -96,7 +96,7 @@
 
 **17. [Means initialization, Cluster assignment, Means update, Convergence]**
 
-&#10230; [Inicialización de medias, Asignación de Cluster, Actualización de medias, Convergencia]
+&#10230; [Inicialización de medias, Asignación de Clúster, Actualización de medias, Convergencia]
 
 <br> 
 
@@ -120,13 +120,13 @@
 
 **21. Types ― There are different sorts of hierarchical clustering algorithms that aims at optimizing different objective functions, which is summed up in the table below:**
 
-&#10230; Tipos - Hay diferentes tipos de algoritmos de agrupamiento jerárquico que apuntan a optimizar diferentes funciones objetivo, que se resumen en la tabla a continuación:
+&#10230; Tipos - Hay diferentes tipos de algoritmos de agrupamiento jerárquico que tienen por objetivo optimizar diferentes funciones objetivo, que se resumen en la tabla a continuación:
 
 <br>
 
 **22. [Ward linkage, Average linkage, Complete linkage]**
 
-&#10230; [Enlace Ward, Enlace promedio, Enlace completo]
+&#10230; [Enlace de Ward, Enlace promedio, Enlace completo]
 
 <br>
 
@@ -144,7 +144,7 @@
 
 **25. In an unsupervised learning setting, it is often hard to assess the performance of a model since we don't have the ground truth labels as was the case in the supervised learning setting.**
 
-&#10230; En un entorno de aprendizaje no supervisado, a menudo es difícil evaluar el rendimiento de un modelo ya que no contamos con las etiquetas verdaderas, como es el caso del aprendizaje supervisado.
+&#10230; En un entorno de aprendizaje no supervisado, a menudo es difícil evaluar el rendimiento de un modelo ya que no contamos con las etiquetas verdaderas, como en el caso del aprendizaje supervisado.
 
 <br>
 
@@ -156,13 +156,13 @@
 
 **27. Calinski-Harabaz index ― By noting k the number of clusters, Bk and Wk the between and within-clustering dispersion matrices respectively defined as**
 
-&#10230; Índice de Calinski-Harabaz - Sea k el número de conglomerados, Bk y Wk las matrices de dispersión entre y dentro de la agrupación, respectivamente, se definen como:
+&#10230; Índice de Calinski-Harabaz - Sea k el número de conglomerados, Bk y Wk las matrices de dispersión entre y dentro de la agrupación, respectivamente definidas como:
 
 <br>
 
 **28. the Calinski-Harabaz index s(k) indicates how well a clustering model defines its clusters, such that the higher the score, the more dense and well separated the clusters are. It is defined as follows:**
 
-&#10230; El índice de Calinski-Harabaz s(k) indica qué tan bien un modelo de agrupamiento define sus grupos, de tal manera que cuanto mayor sea el puntaje, más denso y bien separados estarán los conglomerados. Se define de la siguiente manera:
+&#10230; El índice de Calinski-Harabaz s(k) indica qué tan bien un modelo de agrupamiento define sus grupos, de tal manera que cuanto mayor sea la puntuación, más denso y bien separados estarán los conglomerados. Se define de la siguiente manera:
 
 <br>
 
@@ -174,13 +174,13 @@
 
 **30. Principal component analysis**
 
-&#10230; Análisis de los componentes principales
+&#10230; Análisis de componentes principales
 
 <br>
 
 **31. It is a dimension reduction technique that finds the variance maximizing directions onto which to project the data.**
 
-&#10230; Es una técnica de reducción de dimensión que encuentra la varianza maximizando las direcciones sobre las cuales se proyectan los datos.
+&#10230; Es una técnica de educción de dimensión que encuentra la varianza maximizando las direcciones sobre las cuales se proyectan los datos.
 
 <br>
 
@@ -192,7 +192,7 @@
 
 **33. Spectral theorem ― Let A∈Rn×n. If A is symmetric, then A is diagonalizable by a real orthogonal matrix U∈Rn×n. By noting Λ=diag(λ1,...,λn), we have:**
 
-&#10230; Teorema espectral - Sea A∈Rn×n. Si A es simétrica, entonces A es diagonizable por una matriz ortogonal real U∈Rn×n. Al observar Λ=diag(λ1,...,λn), tenemos:
+&#10230; Teorema espectral - Sea A∈Rn×n. Si A es simétrica, entonces A es diagonizable a través de una matriz ortogonal real U∈Rn×n. Al observar Λ=diag(λ1,...,λn), tenemos:
 
 <br>
 
@@ -211,7 +211,7 @@
 **36. Algorithm ― The Principal Component Analysis (PCA) procedure is a dimension reduction technique that projects the data on k
 dimensions by maximizing the variance of the data as follows:**
 
-&#10230; Algoritmo - El procedimiento de Análisis de Componentes Principales (ACP) es una técnica de reducción de dimensión que proyecta los datos en k dimensiones maximizando la varianza de los datos de la siguiente manera:
+&#10230; Algoritmo - El procedimiento de Análisis de Componentes Principales (ACP) es una técnica de educción de dimensión que proyecta los datos en k dimensiones maximizando la varianza de los datos de la siguiente manera:
 
 <br>
 
@@ -267,19 +267,17 @@ dimensions by maximizing the variance of the data as follows:**
 
 &#10230; Suposiciones - Suponemos que nuestros datos x han sido generados por el vector fuente n-dimensional s=(s1,...,sn), donde si son variables aleatorias independientes; a través de una matriz A de mezcla y no singular, de la siguiente manera:
 
-&#10230; Suposiciones - Suponemos que nuestros datos x han sido generados por el vector fuente n-dimensional s=(s1,...,sn), donde si son variables aleatorias independientes; a través de una matriz A de mezcla y no singular, de la siguiente manera:
-
 <br>
 
 **46. The goal is to find the unmixing matrix W=A−1.**
 
-&#10230; El objetivo es encontrar la matriz desmezcladora W=A−1.
+&#10230; El objetivo es encontrar la matriz separadora W=A−1.
 
 <br>
 
 **47. Bell and Sejnowski ICA algorithm ― This algorithm finds the unmixing matrix W by following the steps below:**
 
-&#10230; Algoritmo ICA de Bell y Sejnowski - Este algoritmo encuentra la matriz desmezcladora W siguiente los siguientes pasos: 
+&#10230; Algoritmo ICA de Bell y Sejnowski - Este algoritmo encuentra la matriz separadora W siguiendo los siguientes pasos: 
 
 <br>
 
@@ -303,7 +301,7 @@ dimensions by maximizing the variance of the data as follows:**
 
 **51. The Machine Learning cheatsheets are now available in Spanish.**
 
-&#10230; Aprendizaje no Supervisado ahora están disponibles en Español.
+&#10230; Las hojas de referencia de Machine Learning ahora están disponibles en Español.
 
 <br>
 
@@ -333,7 +331,7 @@ dimensions by maximizing the variance of the data as follows:**
 
 **56. [Clustering, Expectation-Maximization, k-means, Hierarchical clustering, Metrics]**
 
-&#10230; [Clusterización, Expectativa-Maximización, k-means, Agrupación jerárquica, Métricas]
+&#10230; [Agrupamiento, Expectativa-Maximización, k-means, Agrupación jerárquica, Métricas]
 
 <br>
 

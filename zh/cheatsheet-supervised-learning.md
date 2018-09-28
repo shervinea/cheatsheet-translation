@@ -478,9 +478,9 @@
 
 <br>
 
-81: **the training and testing sets follow the same distribution **
+81. **the training and testing sets follow the same distribution **
 
-&#10230; 训练和测试集遵循相同的分布 
+&#10230; 训练和测试集遵循相同的分布
 
 <br>
 

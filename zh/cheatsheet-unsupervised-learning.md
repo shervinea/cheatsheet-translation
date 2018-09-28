@@ -1,150 +1,150 @@
 1. **Unsupervised Learning cheatsheet**
 
-&#10230;
+&#10230; 无监督学习
 
 <br>
 
 2. **Introduction to Unsupervised Learning**
 
-&#10230;
+&#10230; 无监督学习介绍
 
 <br>
 
 3. **Motivation ― The goal of unsupervised learning is to find hidden patterns in unlabeled data {x(1),...,x(m)}.**
 
-&#10230;
+&#10230; 动机 — 无监督学习的目标是在无标签数据{x(1),...,x(m)}中找到模式
 
 <br>
 
 4. **Jensen's inequality ― Let f be a convex function and X a random variable. We have the following inequality:**
 
-&#10230;
+&#10230; Jensen不等式 — 假设f是凸函数，X是随机变量，以下不等式成立： 
 
 <br>
 
 5. **Clustering**
 
-&#10230;
+&#10230; 聚类
 
 <br>
 
 6. **Expectation-Maximization**
 
-&#10230;
+&#10230; 期望值最大化
 
 <br>
 
 7. **Latent variables ― Latent variables are hidden/unobserved variables that make estimation problems difficult, and are often denoted z. Here are the most common settings where there are latent variables:**
 
-&#10230;
+&#10230; 潜在变量 — 潜在变量指隐藏/未观察的变量，通常用z指代。它们的存在增高了估计问题的难度。潜在变量经常在以下环境中出现
 
 <br>
 
 8. **[Setting, Latent variable z, Comments]**
 
-&#10230;
+&#10230; 【环境，潜在变量z，注释】
 
 <br>
 
 9. **[Mixture of k Gaussians, Factor analysis]**
 
-&#10230;
+&#10230; 【k个高斯混合，因子分析】
 
 <br>
 
 10. **Algorithm ― The Expectation-Maximization (EM) algorithm gives an efficient method at estimating the parameter θ through maximum likelihood estimation by repeatedly constructing a lower-bound on the likelihood (E-step) and optimizing that lower bound (M-step) as follows:**
 
-&#10230;
+&#10230; 算法 — 期望值最大化（em）提供了有效估计参数θ的方法；通过概率最大化，它不断地计算概率的下限（E-step），从而优化此下限（M-step）：
 
 <br>
 
 11. **E-step: Evaluate the posterior probability Qi(z(i)) that each data point x(i) came from a particular cluster z(i) as follows:**
 
-&#10230;
+&#10230; 期望步骤：用以下方法求数据点x(i)为聚类z(i)一份子的后验概率Qi(z(i))：
 
 <br>
 
 12. **M-step: Use the posterior probabilities Qi(z(i)) as cluster specific weights on data points x(i) to separately re-estimate each cluster model as follows:**
 
-&#10230;
+&#10230; 最大化步骤：让后验概率Qi(z(i))作为数据点x(i)的聚类特有始加权，然后用以下方法重新估计每个聚类模型：
 
 <br>
 
 13. **[Gaussians initialization, Expectation step, Maximization step, Convergence]**
 
-&#10230;
+&#10230; 【高斯初始化，期望步骤，最大化步骤，收敛】
 
 <br>
 
 14. **k-means clustering**
 
-&#10230;
+&#10230; k均值聚类
 
 <br>
 
 15. **We note c(i) the cluster of data point i and μj the center of cluster j.**
 
-&#10230;
+&#10230; 我们用c(i)代指数据i所属的聚类，用μj代指聚类j的中心。
 
 <br>
 
 16. **Algorithm ― After randomly initializing the cluster centroids μ1,μ2,...,μk∈Rn, the k-means algorithm repeats the following step until convergence:**
 
-&#10230;
+&#10230; 算法 — 在随机初始化聚类质心μ1,μ2,...,μk∈R 后，k均值算法在达成收敛之前不断地重复以下步骤：
 
 <br>
 
 17. **[Means initialization, Cluster assignment, Means update, Convergence]**
 
-&#10230;
+&#10230; 【均值初始化，聚类分配，均值跟新，收敛】
 
 <br>
 
 18. **Distortion function ― In order to see if the algorithm converges, we look at the distortion function defined as follows:**
 
-&#10230;
+&#10230; 畸变函数 — 用如下定义的畸变函数来决定算法的收敛性:
 
 <br>
 
 19. **Hierarchical clustering**
 
-&#10230;
+&#10230; 分级聚类
 
 <br>
 
 20. **Algorithm ― It is a clustering algorithm with an agglomerative hierarchical approach that build nested clusters in a successive manner.**
 
-&#10230;
+&#10230; 算法 — 凝聚式分级聚类算法使用连续的方法组建巢式聚类。
 
 <br>
 
 21. **Types ― There are different sorts of hierarchical clustering algorithms that aims at optimizing different objective functions, which is summed up in the table below:**
 
-&#10230;
+&#10230; 类型 — 分级聚类算法分为几种，每种算法优化的目标函数都不同，不同的目标在以下制表中总结：
 
 <br>
 
 22. **[Ward linkage, Average linkage, Complete linkage]**
 
-&#10230;
+&#10230; 
 
 <br>
 
 23. **[Minimize within cluster distance, Minimize average distance between cluster pairs, Minimize maximum distance of between cluster pairs]**
 
-&#10230;
+&#10230; 
 
-<br>
+<br> 
 
 24. **Clustering assessment metrics**
 
-&#10230;
+&#10230; 聚类评价方法
 
 <br>
 
 25. **In an unsupervised learning setting, it is often hard to assess the performance of a model since we don't have the ground truth labels as was the case in the supervised learning setting.**
 
-&#10230;
+&#10230; 与监督学习不同，无监督学习算法的数据没有真值标签，因此无监督学习模型的表现时常难以估测
 
 <br>
 

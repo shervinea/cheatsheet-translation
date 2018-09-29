@@ -148,7 +148,7 @@
 
 <br>
 
-**26. Remark: the update rule is a particular case of the grअद्यतनient ascent.**
+**26. Remark: the update rule is a particular case of the gradient ascent.**
 
 &#10230;
 

@@ -351,34 +351,34 @@
 
 **59. [Introduction, Sample space, Event, Permutation]**
 
-&#10230;
+[معرفی، فضای نمونه، رخداد، جایگشت]
 
 <br>
 
 **60. [Conditional probability, Bayes' rule, Independence]**
 
-&#10230;
+[احتمال شرطی، قضیه‌ی بیز، استقلال] 
 
 <br>
 
 **61. [Random variables, Definitions, Expectation, Variance]**
 
-&#10230;
+[متغیرهای تصادفی، تعاریف، امید ریاضی، واریانس]
 
 <br>
 
 **62. [Probability distributions, Chebyshev's inequality, Main distributions]**
 
-&#10230;
+[توزیع‌های احتمالی، نابرابری چبیشف، توزیع‌های اصلی]
 
 <br>
 
 **63. [Jointly distributed random variables, Density, Covariance, Correlation]**
 
-&#10230;
+[متغیرهای تصادفی با توزیع مشترک، چگالی، کواریانس، هم‌بستگی]
 
 <br>
 
 **64. [Parameter estimation, Mean, Variance]**
 
-&#10230;
+[تخمین عامل، میانگین، واریانس]

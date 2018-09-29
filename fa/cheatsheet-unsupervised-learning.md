@@ -42,7 +42,7 @@
 
 **8. [Setting, Latent variable z, Comments]**
 
-[موقعیت، متغیر نفهته‌ی $z$، توضیح]
+[موقعیت، متغیر نهفته‌ی $z$، توضیحات]
 
 <br>
 
@@ -54,20 +54,20 @@
 
 **10. Algorithm ― The Expectation-Maximization (EM) algorithm gives an efficient method at estimating the parameter θ through maximum likelihood estimation by repeatedly constructing a lower-bound on the likelihood (E-step) and optimizing that lower bound (M-step) as follows:**
 
-الگوریتم - الگوریتم بیشینه‌سازی امید ریاضی روشی بهینه برای تخمین پارامترهای $
+الگوریتم - الگوریتم بیشینه‌سازی امید ریاضی روشی بهینه برای تخمین پارامتر $
 theta$ از طریق تخمین درستی بشینه در اختیار قرار می‌دهد. این کار با تکرار مرحله‌ی به دست آوردن یک کران پایین برای درستی (مرحله‌ی امید ریاضی) و همچنین بهینه‌سازی آن کران پایین (مرحله‌ی بیشینه‌سازی) طبق توضیح زیر انجام می‌شود:
 
 <br>
 
 **11. E-step: Evaluate the posterior probability Qi(z(i)) that each data point x(i) came from a particular cluster z(i) as follows:**
 
-مرحله‌ی امید ریاضی:‌احتمال پسین $Q_i(z(i))$ که هر نمونه داده $x(i)$ متعلق به خوشه‌ی $z(i)$ باشد به صورت زیر محاسب می‌شود:
+مرحله‌ی امید ریاضی:‌احتمال پسین $Q_i(z(i))$ که هر نمونه داده $x(i)$ متعلق به خوشه‌ی $z(i)$ باشد به صورت زیر محاسبه می‌شود:
 
 <br>
 
 **12. M-step: Use the posterior probabilities Qi(z(i)) as cluster specific weights on data points x(i) to separately re-estimate each cluster model as follows:**
 
-مرحله‌ی بیشینه‌سازی: با استفاده از احتمالات پسین $Q_i(z(i))$ به عنوان وزن‌های وابسته به خوشه‌ها برای نمونه‌های داده‌ی $x(i)$، مدل مربوط به هر کدام از خوشه‌ها، طبق توضیح زیر، دوباره تخمین زده می‌شوند: 
+مرحله‌ی بیشینه‌سازی: با استفاده از احتمالات پسین $Q_i(z(i))$ به عنوان وزن‌های وابسته به خوشه‌ها برای نمونه‌های داده‌ی $x(i)$، مدل مربوط به هر کدام از خوشه‌ها، طبق توضیح زیر، دوباره تخمین زده می‌شوند:
 
 <br>
 
@@ -103,7 +103,7 @@ theta$ از طریق تخمین درستی بشینه در اختیار قرار
 
 **18. Distortion function ― In order to see if the algorithm converges, we look at the distortion function defined as follows:**
 
-تابع اعوجاج - برای تشخیص اینکه الگوریتم به هم‌گرایی رسیده است، با تابع اعوجاج که به صورت زیر تعریف می‌شود رجوع می‌کنیم:
+تابع اعوجاج - برای تشخیص اینکه الگوریتم به هم‌گرایی رسیده است، به تابع اعوجاج که به صورت زیر تعریف می‌شود رجوع می‌کنیم:
 
 <br>
 
@@ -127,7 +127,7 @@ theta$ از طریق تخمین درستی بشینه در اختیار قرار
 
 **22. [Ward linkage, Average linkage, Complete linkage]**
 
-[پیوند بخشی، پیوند میانگین، پیوند کاملّ]
+[پیوند بخشی، پیوند میانگین، پیوند کامل]
 
 <br>
 
@@ -151,7 +151,7 @@ theta$ از طریق تخمین درستی بشینه در اختیار قرار
 
 **26. Silhouette coefficient ― By noting a and b the mean distance between a sample and all other points in the same class, and between a sample and all other points in the next nearest cluster, the silhouette coefficient s for a single sample is defined as follows:**
 
-ضریب نیم‌رخ - با نمایش $a$ به عنوان میانگین فاصله‌ی یک نمونه با همه‌ی نمونه‌های دیگر در همان کلاس، و با نمایش $b$ به عنوان میانگین فاصله‌ی یک نمونه با همه‌ی نمونه‌های دیگر از نزدیک‌ترین خوش، ضریب نیم‌رخ $s$ به صورت زیر تعریف می‌شود:
+ضریب نیم‌رخ - با نمایش $a$ به عنوان میانگین فاصله‌ی یک نمونه با همه‌ی نمونه‌های دیگر در همان کلاس، و با نمایش $b$ به عنوان میانگین فاصله‌ی یک نمونه با همه‌ی نمونه‌های دیگر از نزدیک‌ترین خوشه، ضریب نیم‌رخ $s$ به صورت زیر تعریف می‌شود:
 
 <br>
 
@@ -193,108 +193,149 @@ theta$ از طریق تخمین درستی بشینه در اختیار قرار
 
 **33. Spectral theorem ― Let A∈Rn×n. If A is symmetric, then A is diagonalizable by a real orthogonal matrix U∈Rn×n. By noting Λ=diag(λ1,...,λn), we have:**
 
-&#10230;
+قضیه‌ی طیفی - فرض کنید $A \in \mathbb{R}^{n \times n}$ باشد. اگر $A$ متقارن باشد، در این صورت $A$ توسط یک ماتریس حقیقی متعامد $U \in \mathbb{R} ^{n \times n}$ قطری‌پذیر است. با نمایش $\Lambda = \diag(\lambda_1, \dots, \lambda_n)$ داریم:
 
 <br>
 
 **34. diagonal**
 
-&#10230;
+قطری
 
 <br>
 
 **35. Remark: the eigenvector associated with the largest eigenvalue is called principal eigenvector of matrix A.**
 
-&#10230;
+نکته: بردار ویژه‌ی متناظر با بزرگ‌ترین مقدار ویژه، بردار ویژه‌ی اصلی ماتریس $A$ نام دارد.
 
 <br>
 
 **36. Algorithm ― The Principal Component Analysis (PCA) procedure is a dimension reduction technique that projects the data on k
 dimensions by maximizing the variance of the data as follows:**
 
-&#10230;
+الگوریتم - رویه‌ی تحلیل مولفه‌های اصلی یک روش کاهش ابعاد است که داده‌ها را در فضای $k$-بعدی با بیشینه کردن واریانس داده‌ها، به صورت زیر تصویر می‌کند:
 
 <br>
 
 **37. Step 1: Normalize the data to have a mean of 0 and standard deviation of 1.**
 
-&#10230;
+مرحله‌ی ۱: داده‌ها به گونه‌ای نرمال‌سازی می‌شوند که میانگین ۰ و انحراف معیار ۱ داشته باشند.
 
 <br>
 
 **38. Step 2: Compute Σ=1mm∑i=1x(i)x(i)T∈Rn×n, which is symmetric with real eigenvalues.**
 
-&#10230;
+مرحله‌ی ۲: مقدار $\Sigma = \frac{1}{m} \sum_{i=1}^m x(i) x(i)^T \in \mathbb{R}^{n \times n}$، که ماتریسی متقارن با مقادیر ویژه‌ی حقیقی است محاسبه می‌شود.
 
 <br>
 
 **39. Step 3: Compute u1,...,uk∈Rn the k orthogonal principal eigenvectors of Σ, i.e. the orthogonal eigenvectors of the k largest eigenvalues.**
 
-&#10230;
+مرحله‌ی ۳: بردارهای $u_1, \dots, u_k \in \mathbb{R}^n$ که $k$ بردارهای ویژه‌ی اصلی متعامد $\Sigma$ هستند محاسبه می‌شوند. این بردارهای ویژه متناظر با $k$ مقدار ویژه با بزرگ‌ترین مقدار هستند.
 
 <br>
 
 **40. Step 4: Project the data on spanR(u1,...,uk).**
 
-&#10230;
+مرحله‌ی ۴: داده‌ها بر روی فضای $\text{span}_ {\mathbb{R}} (u_1, \dots, u_k)$ تصویر می‌شوند.
 
 <br>
 
 **41. This procedure maximizes the variance among all k-dimensional spaces.**
 
-&#10230;
+این رویه واریانس را در فضای $k$-بعدی به دست آمده بیشینه می‌کند.
 
 <br>
 
 **42. [Data in feature space, Find principal components, Data in principal components space]**
 
-&#10230;
+[داده‌ها در فضای ویژگی، پیدا کردن مولفه‌های اصلی، داده‌ها در فضای مولفه‌های اصلی]
 
 <br>
 
 **43. Independent component analysis**
 
-&#10230;
+تحلیل مولفه‌های مستقل
 
 <br>
 
 **44. It is a technique meant to find the underlying generating sources.**
 
-&#10230;
+روشی است که برای پیدا کردن منابع مولد داده به کار می‌رود.
 
 <br>
 
 **45. Assumptions ― We assume that our data x has been generated by the n-dimensional source vector s=(s1,...,sn), where si are independent random variables, via a mixing and non-singular matrix A as follows:**
 
-&#10230;
+فرضیه‌ها - فرض می‌کنیم که داده‌ی $x$ توسط بردار $n$-بعدی $s=(s_1, \dots, s_n)$ تولید شده است، که $s_i$ها متغیرهای تصادفی مستقل  هستند، و این تولید داده از طریق بردار منبع به وسیله‌ی یک ماتریس معکوس‌پذیر و ترکیب‌کننده‌ی $A$ به صورت زیر انجام می‌گیرد:
 
 <br>
 
 **46. The goal is to find the unmixing matrix W=A−1.**
 
-&#10230;
+هدف پیدا کردن ماتریس ضدترکیب $W=A^{-1}$ است.
 
 <br>
 
 **47. Bell and Sejnowski ICA algorithm ― This algorithm finds the unmixing matrix W by following the steps below:**
 
-&#10230;
+الگوریتم تحلیل مولفه‌های مستقل Bell و Sejnowski - این الگوریتم ماتریس ضدترکیب $W$ را در مراحل زیر پیدا می‌کند:
 
 <br>
 
 **48. Write the probability of x=As=W−1s as:**
 
-&#10230;
+احتمال $x = As = W^{-1}s$ به صورت زیر نوشته می‌شود:
 
 <br>
 
 **49. Write the log likelihood given our training data {x(i),i∈[[1,m]]} and by noting g the sigmoid function as:**
 
-&#10230;
+با نمایش تابع سیگموئید با $g$، لگاریتم درست‌نمایی با توجه به داده‌های $\{x(i), \in [1, m]\}$ به صورت زیر نوشته می‌شود:
 
 <br>
 
 **50. Therefore, the stochastic gradient ascent learning rule is such that for each training example x(i), we update W as follows:**
 
-&#10230;
+بنابراین، رویه‌ی یادگیری گرادیان تصادفی افزایشی برای هر نمونه از داده‌های آموزش $x(i)$ به گونه‌ای است که برای به‌روزرسانی $W$ داریم:
 
+<br>
+
+**51. The Machine Learning cheatsheets are now available in Farsi.**
+
+راهنماهای کوتاه یادگیری ماشین هم‌اکنون به زبان فارسی نیز در دسترس می‌باشند.
+
+<br>
+
+**52. Original authors**
+
+نویسنده‌های اصلی
+
+<br>
+
+**53. Translated by X, Y and Z**
+
+ترجمه‌شده توسط X، Y، و Z
+
+<br>
+
+**54. Reviewed by X, Y and Z**
+
+بازبینی‌شده توسط X، Y، و Z
+
+<br>
+
+**55. [Introduction, Motivation, Jensen's inequality]**
+
+[معرفی، انگیزه، نابرابری جنسن]
+
+<br>
+
+**56. [Clustering, Expectation-Maximization, k-means, Hierarchical clustering, Metrics]**
+
+[خوشه‌بندی، بیشینه‌سازی امید ریاضی، k-میانگین، خوشه‌بندی سلسله‌مراتبی، معیارها]
+
+<br>
+
+**57. [Dimension reduction, PCA, ICA]**
+
+[کاهش ابعاد، تحلیل مولفه‌های اصلی، تحلیل مولفه‌های مستقل]

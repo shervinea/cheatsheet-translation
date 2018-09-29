@@ -84,25 +84,25 @@
 
 **15. Cost function ― The cost function J is commonly used to assess the performance of a model, and is defined with the loss function L as follows:**
 
-&#10230;
+&#10230;लागत फ़लन - लागत फ़लन J का उपयोग आमतौर पर मॉडल के प्रदर्शन का आकलन करने के लिए किया जाता है, और इसे निम्नानुसार हानि फ़लन L के साथ परिभाषित किया जाता है:
 
 <br>
 
 **16. Gradient descent ― By noting α∈R the learning rate, the update rule for gradient descent is expressed with the learning rate and the cost function J as follows:**
 
-&#10230;
+&#10230; ढलान अवतरण - सीखने की दर α∈R को ध्यान में रखते हुए, ढलान अवतरण के अद्यतन नियम सीखने की दर और लागत फ़लन J के साथ व्यक्त किया गया है:
 
 <br>
 
 **17. Remark: Stochastic gradient descent (SGD) is updating the parameter based on each training example, and batch gradient descent is on a batch of training examples.**
 
-&#10230;
+&#10230;टिप्पणी: स्टोकेस्टिक (अनेक संभावनाओं में से चुना हुआ) ढलान अवतरण (SGD) प्रत्येक प्रशिक्षण उदाहरण के आधार पर प्राचल अद्यतन कर रहा है। बैच ढलान अवतरण, प्रशिक्षण उदाहरण के खेप पर प्राचल अद्यतन कर रहा है
 
 <br>
 
 **18. Likelihood ― The likelihood of a model L(θ) given parameters θ is used to find the optimal parameters θ through maximizing the likelihood. In practice, we use the log-likelihood ℓ(θ)=log(L(θ)) which is easier to optimize. We have:**
 
-&#10230;
+&#10230;संभावना -
 
 <br>
 
@@ -148,7 +148,7 @@
 
 <br>
 
-**26. Remark: the update rule is a particular case of the gradient ascent.**
+**26. Remark: the update rule is a particular case of the grअद्यतनient ascent.**
 
 &#10230;
 

@@ -6,7 +6,7 @@
 
 **2. General notations**
 
-نشانه‌گذاری‌ها
+نمادها
 
 <br>
 
@@ -42,7 +42,7 @@
 
 **8. Identity matrix ― The identity matrix I∈Rn×n is a square matrix with ones in its diagonal and zero everywhere else:**
 
-ماتریس یکانی - ماتریس یکانی $I \in \mathbb{R}^{n \times n}$ یک ماتریس مربعی است که درایه‌های قطری آن همه مقدار ۱ و بقیه‌ی درایه‌ها مقدار ۰ دارند:
+ماتریس همانی - ماتریس همانی $I \in \mathbb{R}^{n \times n}$ یک ماتریس مربعی است که درایه‌های قطری آن همه مقدار ۱ و بقیه‌ی درایه‌ها مقدار ۰ دارند:
 
 <br>
 
@@ -162,7 +162,7 @@
 
 **28. Determinant ― The determinant of a square matrix A∈Rn×n, noted |A| or det(A) is expressed recursively in terms of A∖i,∖j, which is the matrix A without its ith row and jth column, as follows:**
 
-دترمینان - دترمینان یک ماتریس مربعی $A \in \mathbb{R}^{n \times n}$ که با $|A|$ یا $\det(A)$ نمایش داده می‌شود، به صورت یک عبارت بازگشتی بر روی $A_{\\i, \\j}$، که ماتریس $A$ بدون سطر $i$-ام و ستون $j$-ام است، به صورت زیر تعریف می‌شود: 
+دترمینان - دترمینان یک ماتریس مربعی $A \in \mathbb{R}^{n \times n}$ که با $|A|$ یا $\det(A)$ نمایش داده می‌شود، به صورت یک عبارت بازگشتی بر روی $A_{\\i, \\j}$، که ماتریس $A$ بدون سطر $i$-ام و ستون $j$-ام است، به صورت زیر تعریف می‌شود:
 
 <br>
 
@@ -204,7 +204,7 @@
 
 **35. N(ax)=|a|N(x) for a scalar**
 
-$N(a x) = |a| N(x)$ برای عدد اسکالر 
+$N(a x) = |a| N(x)$ برای عدد اسکالر
 
 <br>
 
@@ -222,7 +222,7 @@ $N(a x) = |a| N(x)$ برای عدد اسکالر
 
 **38. [Norm, Notation, Definition, Use case]**
 
-[نرم، نماد، تعریف، کاربرد]
+[نُرم، نماد، تعریف، کاربرد]
 
 <br>
 
@@ -313,3 +313,27 @@ $N(a x) = |a| N(x)$ برای عدد اسکالر
 **53. Gradient operations ― For matrices A,B,C, the following gradient properties are worth having in mind:**
 
 عملیات گرادیانی - برای ماتریس‌های $A$، $B$، و $C$، ویژگی‌های زیر را به خاطر داشته باشید:
+
+<br>
+
+**54. [General notations, Definitions, Main matrices]**
+
+[نمادها، تعاریف، ماتریس‌های اصلی]
+
+<br>
+
+**55. [Matrix operations, Multiplication, Other operations]**
+
+[عملیات ماتریسی، ضرب، بقیه‌ی عملیات]
+
+<br>
+
+**56. [Matrix properties, Norm, Eigenvalue/Eigenvector, Singular-value decomposition]**
+
+[ویژگی‌های ماتریس، نُرم، مقدار ویژه/بردار ویژه، تجزیه‌ی مقدار منفرد]
+
+<br>
+
+**57. [Matrix calculus, Gradient, Hessian, Operations]**
+
+[حسابان ماتریسی، گرادیان، هسیان، عملیات]

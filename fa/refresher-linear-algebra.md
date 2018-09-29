@@ -22,7 +22,7 @@
 
 <br>
 
-**5. Matrix ― We note A∈Rm×n a matrix with n rows and m, where Ai,j∈R is the entry located in the ith row and jth column:**
+**5. Matrix ― We note A∈Rm×n a matrix with m rows and n columns, where Ai,j∈R is the entry located in the ith row and jth column:**
 
 ماتریس - $A \in \mathbb{R} ^ {m \times n}$ یک بردار با $n$ سطر و $m$ ستون است، که در آن $A_{i, j} \in \mathbb{R}$ درایه‌ای است که در سطر $i$ام و ستون $j$ام قرار دارد:
 

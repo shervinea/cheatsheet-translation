@@ -9,7 +9,7 @@ This repository aims at collaboratively translating our [Machine Learning cheats
 |Supervised learning|0%|**100%**|0%|**100%**|0%|**100%**|1%|
 |Unsupervised learning|0%|0%|0%|**100%**|0%|0%|0%|
 |ML tips and tricks|0%|0%|0%|**100%**|0%|0%|0%|
-|Probabilities and Statistics|0%|**100%**|0%|**100%**|0%|**100%**|0%|
+|Probabilities and Statistics|0%|**100%**|**100%**|**100%**|0%|**100%**|0%|
 |Linear algebra|0%|**100%**|**100%**|**100%**|0%|**100%**|0%|
 
 |Cheatsheet topic|العَرَبِيَّة|עִבְרִית|[हिन्दी](https://github.com/shervinea/cheatsheet-translation/tree/master/hi)|[Türkçe](https://github.com/shervinea/cheatsheet-translation/tree/master/tr)|[Русский](https://github.com/shervinea/cheatsheet-translation/tree/master/ru)

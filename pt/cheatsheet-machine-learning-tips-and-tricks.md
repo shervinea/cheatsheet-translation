@@ -174,7 +174,7 @@
 
 **30. [Training on k−1 folds and assessment on the remaining one, Training on n−p observations and assessment on the p remaining ones]**
 
-&#10230; [Treinando em k-dobras e avaliando sobre o restante, Treinando em n-p observações e avaliando sobre p restantes]
+&#10230; [Treino em k-1 partes e teste sobre o restante, Treino em n-p observações e teste sobre p restantes]
 
 <br>
 
@@ -186,7 +186,7 @@
 
 **32. The most commonly used method is called k-fold cross-validation and splits the training data into k folds to validate the model on one fold while training the model on the k−1 other folds, all of this k times. The error is then averaged over the k folds and is named cross-validation error.**
 
-&#10230; O método mais comumente usado é chamado k-fold cross validation (K-Dobras de Validação Cruzada) e divide os dados de treinamento em k dobras enquanto treina o modelo em k-1 outras dobras, todas estas em k vezes. O erro é então calculado sobre as k dobras e é chamado cross-validation error (erro de validação cruzada).
+&#10230; O método mais comumente usado é chamado k-fold cross validation e divide os dados de treinamento em k partes enquanto treina o modelo nas outras k-1 partes, todas estas em k vezes. O erro é então calculado sobre as k partes e é chamado cross-validation error (erro de validação cruzada).
 
 <br>
 

@@ -66,13 +66,13 @@
 
 **12. Hybrid metric useful for unbalanced classes**
 
-&#10230; 
+&#10230; Métrica híbrida útil para classes desequilibradas
 
 <br>
 
 **13. ROC ― The receiver operating curve, also noted ROC, is the plot of TPR versus FPR by varying the threshold. These metrics are are summed up in the table below:**
 
-&#10230;
+&#10230; ROC - A curva de operação do receptor, também chamada ROC, é a área de TPR versus FPR variando o limiar. Essa métricas estão resumidas na tabela abaixo:
 
 <br>
 
@@ -84,7 +84,7 @@
 
 **15. AUC ― The area under the receiving operating curve, also noted AUC or AUROC, is the area below the ROC as shown in the following figure:**
 
-&#10230;
+&#10230; AUC - A área sob a curva de operação de recebimento, também chamado AUC ou AUROC, é a área abaixo da ROC como mostrada na figura a seguir:
 
 <br>
 
@@ -102,7 +102,7 @@
 
 **18. [Total sum of squares, Explained sum of squares, Residual sum of squares]**
 
-&#10230;
+&#10230; [Soma total dos quadrados, Soma explicada dos quadrados, Soma residual dos quadrados]
 
 <br>
 
@@ -132,7 +132,7 @@
 
 **23. Vocabulary ― When selecting a model, we distinguish 3 different parts of the data that we have as follows:**
 
-&#10230; Vocabulário - Ao selecionar um modelo, nós distinguimos 3 diferentes partes dos dados que temos conforme a seguir:
+&#10230; Vocabulário - Ao selecionar um modelo, nós diferenciamos 3 diferentes partes dos dados que possuímos conforme a seguir:
 
 <br>
 
@@ -174,31 +174,31 @@
 
 **30. [Training on k−1 folds and assessment on the remaining one, Training on n−p observations and assessment on the p remaining ones]**
 
-&#10230;
+&#10230; [Treinando em k-dobras e avaliando sobre o restante, Treinando em n-p observações e avaliando sobre p restantes]
 
 <br>
 
 **31. [Generally k=5 or 10, Case p=1 is called leave-one-out]**
 
-&#10230; [Geralmente k=5 ou 10, caso p=1 é chamado deixe-um-fora]
+&#10230; [Geralmente k=5 ou 10, caso p=1 é chamado leave-one-out (deixe-um-fora)]
 
 <br>
 
 **32. The most commonly used method is called k-fold cross-validation and splits the training data into k folds to validate the model on one fold while training the model on the k−1 other folds, all of this k times. The error is then averaged over the k folds and is named cross-validation error.**
 
-&#10230;
+&#10230; O método mais comumente usado é chamado k-fold cross validation (K-Dobras de Validação Cruzada) e divide os dados de treinamento em k dobras enquanto treina o modelo em k-1 outras dobras, todas estas em k vezes. O erro é então calculado sobre as k dobras e é chamado cross-validation error (erro de validação cruzada).
 
 <br>
 
 **33. Regularization ― The regularization procedure aims at avoiding the model to overfit the data and thus deals with high variance issues. The following table sums up the different types of commonly used regularization techniques:**
 
-&#10230;
+&#10230; Regularização -  O procedimento de regularização visa evitar que o modelo sobreajuste os dados e portanto lide com os problemas de alta variância. A tabela a seguir resume os diferentes tipos de técnicas de regularização comumente utilizadas: 
 
 <br>
 
 **34. [Shrinks coefficients to 0, Good for variable selection, Makes coefficients smaller, Tradeoff between variable selection and small coefficients]**
 
-&#10230;
+&#10230; [Diminui coeficientes para 0, Bom para seleção de variáveis, Faz o coeficiente menor, Troca entre seleção de variáveis e coeficientes pequenos]
 
 <br>
 
@@ -210,7 +210,7 @@
 
 **36. Bias ― The bias of a model is the difference between the expected prediction and the correct model that we try to predict for given data points.**
 
-&#10230;
+&#10230; Viés (tendência) - O viés de um modelo é a diferença entre a predição esperada e o modelo correto que nós tentamos prever para determinados pontos de dados.
 
 <br>
 
@@ -222,37 +222,37 @@
 
 **38. Bias/variance tradeoff ― The simpler the model, the higher the bias, and the more complex the model, the higher the variance.**
 
-&#10230;
+&#10230; Relação Viés/Variância (bias/variance tradeoff) - Quanto mais simples o modelo, maior o viés e, quanto mais complexo o modelo, maior a variância.
 
 <br>
 
 **39. [Symptoms, Regression illustration, classification illustration, deep learning illustration, possible remedies]**
 
-&#10230;
+&#10230; Sintomas, Exemplo de Regressão, Exemplo de Classificação, Exemplo de Deep Learning, possíveis remédios
 
 <br>
 
 **40. [High training error, Training error close to test error, High bias, Training error slightly lower than test error, Very low training error, Training error much lower than test error, High variance]**
 
-&#10230;
+&#10230; [Erro de treinamento elevado, Erro de treinamento próximo ao erro de teste, Viés elevado, Erro de treinamento ligeiramente menor que erro de teste, Erro de treinamento muito baixo, Erro de treinamento muito menor que erro de teste. Alta Variância]
 
 <br>
 
 **41. [Complexify model, Add more features, Train longer, Perform regularization, Get more data]**
 
-&#10230;
+&#10230; [Modelo de complexificação, Adicionar mais recursos, Treinar mais, Executar a regularização, Obter mais dados]
 
 <br>
 
 **42. Error analysis ― Error analysis is analyzing the root cause of the difference in performance between the current and the perfect models.**
 
-&#10230;
+&#10230; Análise de erro - Análise de erro é a análise da causa raiz da diferença no desempenho entre o modelo atual e o modelo perfeito.
 
 <br>
 
 **43. Ablative analysis ― Ablative analysis is analyzing the root cause of the difference in performance between the current and the baseline models.**
 
-&#10230;
+&#10230; Ablative Analysis (Análise ablativa) - Ablative analysis é a análise da causa raiz da diferença no desempenho entre o modelo atual e o modelo base.  
 
 <br>
 
@@ -264,7 +264,7 @@
 
 **45. [Classification metrics, confusion matrix, accuracy, precision, recall, F1 score, ROC]**
 
-&#10230; 
+&#10230;  [Métricas de classificação, Matriz de confusão, acurácia, precisão, recall, F1 score, ROC]
 
 <br>
 
@@ -282,4 +282,4 @@
 
 **48. [Diagnostics, Bias/variance tradeoff, error/ablative analysis]**
 
-&#10230;
+&#10230; [Diagnóstico, Relação Viés/Variância, Análise de Erro/Ablativa]

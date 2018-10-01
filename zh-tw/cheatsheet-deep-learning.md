@@ -37,13 +37,13 @@
 7. **where we note w, b, z the weight, bias and output respectively.**
 
 &#10230;
-其中，我們分別使用 w 來代表權重、b 代表偏差、z 代表輸出。
+其中，我們分別使用 w 來代表權重、b 代表偏差項、z 代表輸出的結果。
 <br>
 
 8. **Activation function ― Activation functions are used at the end of a hidden unit to introduce non-linear complexities to the model. Here are the most common ones:**
 
 &#10230;
-激勵函數 - 激勵函數是為了在神經元中帶入非線性的轉換而設計。底下是一些常見函數：
+Activation function - Activation function 是為了在每一層尾端的神經元帶入非線性轉換而設計的。底下是一些常見 Activation function：
 <br>
 
 9. **[Sigmoid, Tanh, ReLU, Leaky ReLU]**
@@ -61,7 +61,7 @@
 11. **Learning rate ― The learning rate, often noted α or sometimes η, indicates at which pace the weights get updated. This can be fixed or adaptively changed. The current most popular method is called Adam, which is a method that adapts the learning rate.**
 
 &#10230;
-學習速率 - 學習速率通常用 α 或 η 來表示，目的是用來控制權重更新的速度。學習速度可以是一個固定值，或是隨著訓練的過程改變。現在最熱門的方法叫做 Adam，是一種隨著訓練過程改變的學習速度。
+學習速率 - 學習速率通常用 α 或 η 來表示，目的是用來控制權重更新的速度。學習速度可以是一個固定值，或是隨著訓練的過程改變。現在最熱門的最佳化方法叫作 Adam，是一種隨著訓練過程改變學習速率的最佳化方法。
 <br>
 
 12. **Backpropagation ― Backpropagation is a method to update the weights in the neural network by taking into account the actual output and the desired output. The derivative with respect to weight w is computed using chain rule and is of the following form:**
@@ -121,7 +121,7 @@ Dropout - Dropout 是一種透過丟棄一些神經元，來避免過擬和的�
 21. **Convolutional layer requirement ― By noting W the input volume size, F the size of the convolutional layer neurons, P the amount of zero padding, then the number of neurons N that fit in a given volume is such that:**
 
 &#10230;
-卷積層的需求 - 我們使用 W 來表示輸入的尺寸、F 代表卷積層的 filter 尺寸、P 代表使用的 pad 數量，S 代表 stride 的數量，則輸出的尺寸可以透過以下的公式表示：
+卷積層的需求 - 我們使用 W 來表示輸入資料的維度大小、F 代表卷積層的 filter 尺寸、P 代表對資料墊零 (zero padding) 使資料長度齊一後的長度，S 代表卷積後取出的特徵 stride 數量，則輸出的維度大小可以透過以下的公式表示：
 <br>
 
 22. **Batch normalization ― It is a step of hyperparameter γ,β that normalizes the batch {xi}. By noting μB,σ2B the mean and variance of that we want to correct to the batch, it is done as follows:**
@@ -133,7 +133,7 @@ Dropout - Dropout 是一種透過丟棄一些神經元，來避免過擬和的�
 23. **It is usually done after a fully connected/convolutional layer and before a non-linearity layer and aims at allowing higher learning rates and reducing the strong dependence on initialization.**
 
 &#10230;
-批次正規化的動作通常在全連接層/卷積層之後、在非線性層之前進行。目的在於容許更高的學習速率，並且減少對於初始化資料的依賴
+批次正規化的動作通常在全連接層/卷積層之後、在非線性層之前進行。目的在於接納更高的學習速率，並且減少該批次學習初期對取樣資料特徵的依賴性。
 <br>
 
 24. **Recurrent Neural Networks**
@@ -300,7 +300,7 @@ Q-learning 演算法 - Q-learning 演算法是針對 Q 的一個 model-free 的�
 51. **[Neural Networks, Architecture, Activation function, Backpropagation, Dropout]**
 
 &#10230;
-[神經網路, 架構, 激勵函數, 反向傳播演算法, Dropout]
+[神經網路, 架構, Activation function, 反向傳播演算法, Dropout]
 <br>
 
 52. **[Convolutional Neural Networks, Convolutional layer, Batch normalization]**

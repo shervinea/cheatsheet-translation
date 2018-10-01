@@ -72,7 +72,7 @@
 
 **13. ROC ― The receiver operating curve, also noted ROC, is the plot of TPR versus FPR by varying the threshold. These metrics are are summed up in the table below:**
 
-&#10230; ROC ― La curva Característica Operativa del Receptor, también conocida como ROC, es una representación gráfica de la sensibilidad frente a la especificidad según se varía el umbral. Estas métricas se resumen en la tabla a continuación:
+&#10230; ROC ― La curva Característica Operativa del Receptor, también conocida como ROC, es una representación gráfica de la sensibilidad frente a la especificidad según se varía el umbral. Estas métricas se resumen en la siguiente tabla:
 
 <br>
 
@@ -102,7 +102,7 @@
 
 **18. [Total sum of squares, Explained sum of squares, Residual sum of squares]**
 
-&#10230; [Suma total de cuadrados, suma de cuadrados explicada, suma residual de cuadrados]
+&#10230; [Suma total de cuadrados, Suma de cuadrados explicada, Suma residual de cuadrados]
 
 <br>
 
@@ -144,7 +144,7 @@
 
 **25. [Model is trained, Model is assessed, Model gives predictions]**
 
-&#10230; [Modelo es entrenado, modelo es evaluado, modelo da predicciones]
+&#10230; [Modelo es entrenado, Modelo es evaluado, Modelo da predicciones]
 
 <br>
 

@@ -1,6 +1,6 @@
 **1. Supervised Learning cheatsheet**
 
-&#10230; 
+&#10230;
 
 <br>
 
@@ -515,5 +515,53 @@
 <br>
 
 **87. Theorem (Vapnik) ― Let H be given, with VC(H)=d and m the number of training examples. With probability at least 1−δ, we have:**
+
+&#10230;
+
+<br>
+
+**88. [Introduction, Type of prediction, Type of model]**
+
+&#10230;
+
+<br>
+
+**89. [Notations and general concepts, loss function, gradient descent, likelihood]**
+
+&#10230;
+
+<br>
+
+**90. [Linear models, linear regression, logistic regression, generalized linear models]**
+
+&#10230;
+
+<br>
+
+**91. [Support vector machines, Optimal margin classifier, Hinge loss, Kernel]**
+
+&#10230;
+
+<br>
+
+**92. [Generative learning, Gaussian Discriminant Analysis, Naive Bayes]**
+
+&#10230;
+
+<br>
+
+**93. [Trees and ensemble methods, CART, Random forest, Boosting]**
+
+&#10230;
+
+<br>
+
+**94. [Other methods, k-NN]**
+
+&#10230;
+
+<br>
+
+**95. [Learning theory, Hoeffding inequality, PAC, VC dimension]**
 
 &#10230;

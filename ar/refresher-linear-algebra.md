@@ -22,7 +22,7 @@
 
 <br>
 
-**5. Matrix ― We note A∈Rm×n a matrix with n rows and m, where Ai,j∈R is the entry located in the ith row and jth column:**
+**5. Matrix ― We note A∈Rm×n a matrix with m rows and n columns, where Ai,j∈R is the entry located in the ith row and jth column:**
 
 &#10230;
 
@@ -311,5 +311,29 @@
 <br>
 
 **53. Gradient operations ― For matrices A,B,C, the following gradient properties are worth having in mind:**
+
+&#10230;
+
+<br>
+
+**54. [General notations, Definitions, Main matrices]**
+
+&#10230;
+
+<br>
+
+**55. [Matrix operations, Multiplication, Other operations]**
+
+&#10230;
+
+<br>
+
+**56. [Matrix properties, Norm, Eigenvalue/Eigenvector, Singular-value decomposition]**
+
+&#10230;
+
+<br>
+
+**57. [Matrix calculus, Gradient, Hessian, Operations]**
 
 &#10230;

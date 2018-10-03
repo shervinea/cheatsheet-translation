@@ -114,7 +114,7 @@
 
 **20. Main metrics ― The following metrics are commonly used to assess the performance of regression models, by taking into account the number of variables n that they take into consideration:**
 
-&#10230; Métricas principales: las siguientes métricas se utilizan comúnmente para evaluar el rendimiento de los modelos de regresión, teniendo en cuenta la cantidad de variables n que tienen en cuenta:
+&#10230; Métricas principales: las siguientes métricas se utilizan comúnmente para evaluar el rendimiento de los modelos de regresión, teniendo en cuenta la cantidad de variables n que tienen en consideración:
 
 <br>
 

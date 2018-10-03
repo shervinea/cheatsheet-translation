@@ -54,7 +54,7 @@
 
 10. **Cross-entropy loss ― In the context of neural networks, the cross-entropy loss L(z,y) is commonly used and is defined as follows:**
 
-&#10230; 交叉墒损失 —— 在神经网络中，交叉墒损失L(z, y)通常如下定义：
+&#10230; 交叉熵损失 —— 在神经网络中，交叉熵损失L(z, y)通常如下定义：
 
 <br>
 
@@ -108,7 +108,7 @@
 
 19. **Dropout ― Dropout is a technique meant at preventing overfitting the training data by dropping out units in a neural network. In practice, neurons are either dropped with probability p or kept with probability 1−p**
 
-&#10230; 降层(Dropout) —— 降层是一种通过丢弃神经网络单元来防止训练数据过拟合的技术。实际上，神经元以概率p被丢弃或以概率1-p被保留。
+&#10230; 随机丢弃(Dropout) —— 随机丢弃是一种通过丢弃神经网络单元来防止训练数据过拟合的技术。实际上，神经元以概率p被丢弃或以概率1-p被保留。
 
 <br>
 
@@ -126,7 +126,7 @@
 
 22. **Batch normalization ― It is a step of hyperparameter γ,β that normalizes the batch {xi}. By noting μB,σ2B the mean and variance of that we want to correct to the batch, it is done as follows:**
 
-&#10230; 批标准化 —— 它是超参数γ, β标准化样本批{xi}的一个步骤。将我们希望修正这一批样本的均值和方差记作μB, σ2B，会得到：
+&#10230; 批量规范化 —— 它是超参数γ, β标准化样本批{xi}的一个步骤。将我们希望修正这一批样本的均值和方差记作μB, σ2B，会得到：
 
 <br>
 
@@ -288,7 +288,7 @@
 
 49. **Q-learning ― Q-learning is a model-free estimation of Q, which is done as follows:**
 
-&#10230; Q学习 —— Q学习是一种Q的无模型(model-free)预测，如下所示：
+&#10230; Q学习 —— Q学习是一种Q的无模型(model-free)估计，如下所示：
 
 <br>
 
@@ -300,13 +300,13 @@
 
 51. **[Neural Networks, Architecture, Activation function, Backpropagation, Dropout]**
 
-&#10230; [神经网络，架构，激活函数，反向传播，降层]
+&#10230; [神经网络，架构，激活函数，反向传播，随机丢弃]
 
 <br>
 
 52. **[Convolutional Neural Networks, Convolutional layer, Batch normalization]**
 
-&#10230; [卷积神经网络，卷积层，批量归一化]
+&#10230; [卷积神经网络，卷积层，批量规范化]
 
 <br>
 
@@ -318,4 +318,4 @@
 
 54. **[Reinforcement learning, Markov decision processes, Value/policy iteration, Approximate dynamic programming, Policy search]**
 
-&#10230; [强化学习，马尔可夫决策过程，价值/策略迭代，近似动态规划，策略检索]
+&#10230; [强化学习，马尔可夫决策过程，价值/策略迭代，近似动态规划，策略搜索]

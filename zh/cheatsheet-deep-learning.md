@@ -30,13 +30,13 @@
 
 6. **By noting i the ith layer of the network and j the jth hidden unit of the layer, we have:**
 
-&#10230; 已知***i***是网络的第i层，***j***是网络的第j层，我们有：
+&#10230; 已知 ***i*** 是网络的第 i 层，***j*** 是网络的第 j 层，我们有：
 
 <br>
 
 7. **where we note w, b, z the weight, bias and output respectively.**
 
-&#10230; 我们用w, b, z分别表示权重，偏差和输出。
+&#10230; 我们用 w, b, z 分别表示权重，偏差和输出。
 
 <br>
 
@@ -54,19 +54,19 @@
 
 10. **Cross-entropy loss ― In the context of neural networks, the cross-entropy loss L(z,y) is commonly used and is defined as follows:**
 
-&#10230; 交叉熵损失 —— 在神经网络中，交叉熵损失L(z, y)通常如下定义：
+&#10230; 交叉熵损失 —— 在神经网络中，交叉熵损失 L(z, y) 通常如下定义：
 
 <br>
 
 11. **Learning rate ― The learning rate, often noted α or sometimes η, indicates at which pace the weights get updated. This can be fixed or adaptively changed. The current most popular method is called Adam, which is a method that adapts the learning rate.**
 
-&#10230; 学习率 —— 学习率，通常记为α或η，表示权重更新的速度。它可以被修复或自适应改变。现阶段最常用的方法是一种调整学习率的算法，叫做Adam。
+&#10230; 学习率 —— 学习率，通常记为 α 或 η ，表示权重更新的速度。它可以被修复或自适应改变。现阶段最常用的方法是一种调整学习率的算法，叫做Adam。
 
 <br>
 
 12. **Backpropagation ― Backpropagation is a method to update the weights in the neural network by taking into account the actual output and the desired output. The derivative with respect to weight w is computed using chain rule and is of the following form:**
 
-&#10230; 反向传播 —— 反向传播是一种通过考虑实际输出和期望输出来更新神经网络中权重的方法。权重*w*的导数由链式法则计算，模式如下：
+&#10230; 反向传播 —— 反向传播是一种通过考虑实际输出和期望输出来更新神经网络中权重的方法。权重 *w* 的导数由链式法则计算，模式如下：
 
 <br>
 
@@ -108,7 +108,7 @@
 
 19. **Dropout ― Dropout is a technique meant at preventing overfitting the training data by dropping out units in a neural network. In practice, neurons are either dropped with probability p or kept with probability 1−p**
 
-&#10230; 随机丢弃(Dropout) —— 随机丢弃是一种通过丢弃神经网络单元来防止训练数据过拟合的技术。实际上，神经元以概率p被丢弃或以概率1-p被保留。
+&#10230; 随机丢弃(Dropout) —— 随机丢弃是一种通过丢弃神经网络单元来防止训练数据过拟合的技术。实际上，神经元以概率 p 被丢弃或以概率 1-p 被保留。
 
 <br>
 
@@ -120,13 +120,13 @@
 
 21. **Convolutional layer requirement ― By noting W the input volume size, F the size of the convolutional layer neurons, P the amount of zero padding, then the number of neurons N that fit in a given volume is such that:**
 
-&#10230; 卷积神经网络要求 —— 记W为输入图像尺寸，F为卷积层神经元尺寸，P为零填充的大小，那么给定的输入图像能够容纳的神经元数目N为：
+&#10230; 卷积神经网络要求 —— 记 W 为输入图像尺寸，F 为卷积层神经元尺寸，P 为零填充的大小，那么给定的输入图像能够容纳的神经元数目 N 为：
 
 <br>
 
 22. **Batch normalization ― It is a step of hyperparameter γ,β that normalizes the batch {xi}. By noting μB,σ2B the mean and variance of that we want to correct to the batch, it is done as follows:**
 
-&#10230; 批量规范化 —— 它是超参数γ, β标准化样本批{xi}的一个步骤。将我们希望修正这一批样本的均值和方差记作μB, σ2B，会得到：
+&#10230; 批量规范化 —— 它是超参数 γ, β 标准化样本批{xi}的一个步骤。将我们希望修正这一批样本的均值和方差记作 μB, σ2B，会得到：
 
 <br>
 
@@ -192,61 +192,61 @@
 
 33. **S is the set of states**
 
-&#10230; S是状态的集合
+&#10230; S 是状态的集合
 
 <br>
 
 34. **A is the set of actions**
 
-&#10230; A是动作的集合
+&#10230; A 是动作的集合
 
 <br>
 
 35. **{Psa} are the state transition probabilities for s∈S and a∈A**
 
-&#10230; {Psa}是对于s属于S并且a属于A的状态转换概率
+&#10230; {Psa}是对于 s 属于 S 并且 a 属于 A 的状态转换概率
 
 <br>
 
 36. **γ∈[0,1] is the discount factor**
 
-&#10230; γ∈[0,1]是折扣系数
+&#10230; γ∈[0,1] 是折扣系数
 
 <br>
 
 37. **R:S×A⟶R or R:S⟶R is the reward function that the algorithm wants to maximize**
 
-&#10230; R:S×A⟶R或R:S⟶R是算法希望最大化的回报函数
+&#10230; R:S×A⟶R 或 R:S⟶R 是算法希望最大化的回报函数
 
 <br>
 
 38. **Policy ― A policy π is a function π:S⟶A that maps states to actions.**
 
-&#10230; 策略 —— 策略π是映射状态到动作的π:S⟶A函数。
+&#10230; 策略 —— 策略 π 是映射状态到动作的π:S⟶A函数。
 
 <br>
 
 39. **Remark: we say that we execute a given policy π if given a state s we take the action a=π(s).**
 
-&#10230; 注意：如果对于一个指定的状态s我们完成了行动a=π(s)，我们认为执行了一个指定的策略π。
+&#10230; 注意：如果对于一个指定的状态 s 我们完成了行动 a=π(s)，我们认为执行了一个指定的策略 π。
 
 <br>
 
 40. **Value function ― For a given policy π and a given state s, we define the value function Vπ as follows:**
 
-&#10230; 价值函数 —— 对于一个指定的策略π和指定的状态s，我们定义如下价值函数Vπ：
+&#10230; 价值函数 —— 对于一个指定的策略 π 和指定的状态 s ，我们定义如下价值函数Vπ：
 
 <br>
 
 41. **Bellman equation ― The optimal Bellman equations characterizes the value function Vπ∗ of the optimal policy π∗:**
 
-&#10230; 贝尔曼方程 —— 最优贝尔曼方程描述了最优策略π∗的价值方程Vπ∗：
+&#10230; 贝尔曼方程 —— 最优贝尔曼方程描述了最优策略 π∗ 的价值方程Vπ∗：
 
 <br>
 
 42. **Remark: we note that the optimal policy π∗ for a given state s is such that:**
 
-&#10230; 注意：我们注意到对于一个特定的状态s的最优策略π∗是：
+&#10230; 注意：我们注意到对于一个特定的状态s的最优策略 π∗ 是：
 
 <br>
 
@@ -276,19 +276,19 @@
 
 47. **times took action a in state s and got to s′**
 
-&#10230; 状态s下进行动作a并且进入状态s‘的次数：
+&#10230; 状态 s 下进行动作 a 并且进入状态 s‘ 的次数：
 
 <br>
 
 48. **times took action a in state s**
 
-&#10230; 状态s下进行动作a的次数
+&#10230; 状态 s 下进行动作 a 的次数
 
 <br>
 
 49. **Q-learning ― Q-learning is a model-free estimation of Q, which is done as follows:**
 
-&#10230; Q学习 —— Q学习是一种Q的无模型(model-free)估计，如下所示：
+&#10230; Q 学习 —— Q 学习是一种 Q 的无模型(model-free)估计，如下所示：
 
 <br>
 

@@ -226,7 +226,7 @@
 
 <br>
 
-**39. Remark: we say that we execute a given policy π if given a state a we take the action a=π(s).**
+**39. Remark: we say that we execute a given policy π if given a state s we take the action a=π(s).**
 
 &#10230;
 
@@ -287,5 +287,35 @@
 <br>
 
 **49. Q-learning ― Q-learning is a model-free estimation of Q, which is done as follows:**
+
+&#10230;
+
+<br>
+
+**50. View PDF version on GitHub**
+
+&#10230;
+
+<br>
+
+**51. [Neural Networks, Architecture, Activation function, Backpropagation, Dropout]**
+
+&#10230;
+
+<br>
+
+**52. [Convolutional Neural Networks, Convolutional layer, Batch normalization]**
+
+&#10230;
+
+<br>
+
+**53. [Recurrent Neural Networks, Gates, LSTM]**
+
+&#10230;
+
+<br>
+
+**54. [Reinforcement learning, Markov decision processes, Value/policy iteration, Approximate dynamic programming, Policy search]**
 
 &#10230;

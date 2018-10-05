@@ -347,3 +347,35 @@ AUC - ناحیه‌ی زیر منحنی عملیاتی گیرنده، که با 
 <div dir="rtl">
 معیارهای وایازش
 </div>
+
+<br>
+
+**45. [Classification metrics, confusion matrix, accuracy, precision, recall, F1 score, ROC]**
+
+<div dir="rtl">
+[معیارهای دسته‌بندی، ماتریس درهم‌ریختگی، صحت، دقت، فراخوانی، امتیاز F1، ROC]
+</div>
+
+<br>
+
+**46. [Regression metrics, R squared, Mallow's CP, AIC, BIC]**
+
+<div dir="rtl">
+[معیارهای وایازش، $R^2$، عدد CP از Mallow، AIC، BIC]
+</div>
+
+<br>
+
+**47. [Model selection, cross-validation, regularization]**
+
+<div dir="rtl">
+[انتخاب مدل، اعتبارسنجی متقاطع، نظام‌بخشی]
+</div>
+
+<br>
+
+**48. [Diagnostics, Bias/variance tradeoff, error/ablative analysis]**
+
+<div dir="rtl">
+[عیب‌شناسی، تقابل تعادل پیش‌قدر/واریانس، تحلیل خطا/تقطیعی]
+</div>

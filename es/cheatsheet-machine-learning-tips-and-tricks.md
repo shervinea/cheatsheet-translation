@@ -258,28 +258,28 @@
 
 **44. Regression metrics**
 
-&#10230;
+&#10230; Métricas de regresión
 
 <br>
 
 **45. [Classification metrics, confusion matrix, accuracy, precision, recall, F1 score, ROC]**
 
-&#10230;
+&#10230; [Métricas de clasificación, matriz de confusión, precisión, sensibilidad (ó exhaustividad), puntuación F1, Característica Operativa del Receptor (ROC, por sus siglas en inglés)]
 
 <br>
 
 **46. [Regression metrics, R squared, Mallow's CP, AIC, BIC]**
 
-&#10230;
+&#10230; [Métricas de regresión, R cuadrado, CP de Mallow, Criterio de información de Akaike (AIC, por sus siglas en inglés), Criterio de información bayesiano (BIC, por sus siglas en inglés)]
 
 <br>
 
 **47. [Model selection, cross-validation, regularization]**
 
-&#10230;
+&#10230; [Selección de modelo, validación cruzada, regularización]
 
 <br>
 
 **48. [Diagnostics, Bias/variance tradeoff, error/ablative analysis]**
 
-&#10230;
+&#10230; [Diagnósticos, Compensación sesgo/varianza, error/análisis ablativo]

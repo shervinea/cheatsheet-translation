@@ -6,7 +6,7 @@ This repository aims at collaboratively translating our [Machine Learning cheats
 |Cheatsheet topic|[Deutsch](https://github.com/shervinea/cheatsheet-translation/tree/master/de)|[Español](https://github.com/shervinea/cheatsheet-translation/tree/master/es)|[فارسی](https://github.com/shervinea/cheatsheet-translation/tree/master/fa)|[Français](https://github.com/shervinea/cheatsheet-translation/tree/master/fr)|[日本語](https://github.com/shervinea/cheatsheet-translation/tree/master/ja)|[Português](https://github.com/shervinea/cheatsheet-translation/tree/master/pt)|[简体中文](https://github.com/shervinea/cheatsheet-translation/tree/master/zh)|
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Deep learning|0%|0%|0%|**100%**|0%|**100%**|0%|
-|Supervised learning|0%|**100%**|0%|**100%**|0%|**100%**|1%|
+|Supervised learning|0%|**100%**|**100%**|**100%**|0%|**100%**|1%|
 |Unsupervised learning|0%|0%|**100%**|**100%**|0%|0%|0%|
 |ML tips and tricks|0%|**100%**|**100%**|**100%**|0%|0%|0%|
 |Probabilities and Statistics|0%|**100%**|**100%**|**100%**|0%|**100%**|0%|

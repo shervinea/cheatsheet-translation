@@ -132,7 +132,7 @@
 
 **23. Vocabulary ― When selecting a model, we distinguish 3 different parts of the data that we have as follows:**
 
-&#10230;
+&#10230; Vocabulário - Quando selecionando um modelo, nós distinguimos 3 partes diferentes dos dados temos que:
 
 <br>
 

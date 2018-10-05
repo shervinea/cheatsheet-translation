@@ -3,13 +3,50 @@
 --de
 
 --es
+  Fernando González-Herrera (translation of linear algebra)
+  Fernando Diaz (review of linear algebra)
+  Gustavo Velasco-Hernández (review of linear algebra)
+  Juan P. Chavat (review of linear algebra)
+  
+  David Jiménez Paredes (translation of machine learning tips and tricks)
+  Fernando Diaz (translation of machine learning tips and tricks)
+  Gustavo Velasco-Hernández (review of machine learning tips and tricks)
+  Alonso Melgar-Lopez (review of machine learning tips and tricks)
+
+  Fermin Ordaz (translation of probabilities and statistics)
+  Fernando González-Herrera (review of probabilities and statistics)
+  Alonso Melgar López (review of probabilities and statistics)
+
+  Juan P. Chavat (translation of supervised Learning)
+  Fernando Gonzalez-Herrera (review of supervised Learning)
+  Fernando Diaz (review of supervised Learning)
+  Alonso Melgar-Lopez (review of supervised Learning)
 
 --fa
   AlisterTA (translation of deep learning)
   Mohammad Karimi (review of deep learning)
   Erfan Noury (review of deep learning)
+
+  Erfan Noury (translation of linear algebra)
+  Mohammad Karimi (review of linear algebra)
+  
+  AlisterTA (translation of machine learning tips and tricks)
+  Mohammad Reza (translation of machine learning tips and tricks)
+  Erfan Noury (review of machine learning tips and tricks)
+  Mohammad Karimi (review of machine learning tips and tricks)
+
+  Erfan Noury (translation of probabilities and statistics)
+  Mohammad Karimi (review of probabilities and statistics)
+  
+  Amirhosein Kazemnejad (translation of supervised learning)
+  Erfan Noury (review of supervised learning)
+  Mohammad Karimi (review of supervised learning)
+  
+  Erfan Noury (translation of unsupervised learning)
+  Mohammad Karimi (review of unsupervised learning)
   
 --fr
+  Original authors
 
 --he
 
@@ -17,12 +54,25 @@
 
 --ja
 
---kn
-
---mr
-
 --pt
+  Gabriel Fonseca (translation of deep learning)
+  Leticia Portella (review of deep learning)
 
---te
+  Gabriel Fonseca (translation of linear algebra)
+  Leticia Portella (review of linear algebra)
 
+  Leticia Portella (translation of probability)
+  Flavio Clesio (review of probability)
+
+  Leticia Portella (translation of supervised learning)
+  Gabriel Fonseca (review of supervised learning)
+  Flavio Clesio (review of supervised learning)
+
+--tr
+  Ekrem Çetinkaya (translation of deep learning)
+  Omer Bukte (review of deep learning)
+  
+  Kadir Tekeli (translation of linear algebra)
+  Ekrem Çetinkaya (review of linear algebra)
+  
 --zh

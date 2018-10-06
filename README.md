@@ -5,21 +5,21 @@ This repository aims at collaboratively translating our [Machine Learning cheats
 ## Progression
 |Cheatsheet topic|[Deutsch](https://github.com/shervinea/cheatsheet-translation/tree/master/de)|[Español](https://github.com/shervinea/cheatsheet-translation/tree/master/es)|[فارسی](https://github.com/shervinea/cheatsheet-translation/tree/master/fa)|[Français](https://github.com/shervinea/cheatsheet-translation/tree/master/fr)|[日本語](https://github.com/shervinea/cheatsheet-translation/tree/master/ja)|[Português](https://github.com/shervinea/cheatsheet-translation/tree/master/pt)|[简体中文](https://github.com/shervinea/cheatsheet-translation/tree/master/zh)|
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|Deep learning|0%|0%|**100%**|**100%**|0%|**100%**|0%|
-|Supervised learning|0%|**100%**|**100%**|**100%**|0%|**100%**|1%|
-|Unsupervised learning|0%|0%|**100%**|**100%**|0%|0%|0%|
-|ML tips and tricks|0%|**100%**|**100%**|**100%**|0%|0%|0%|
-|Probabilities and Statistics|0%|**100%**|**100%**|**100%**|0%|**100%**|0%|
-|Linear algebra|0%|**100%**|**100%**|**100%**|0%|**100%**|0%|
+|Deep learning|not started|not started|**done**|**done**|not started|**done**|not started|
+|Supervised learning|not started|**done**|**done**|**done**|not started|**done**|not started|
+|Unsupervised learning|not started|not started|**done**|**done**|not started|not started|not started|
+|ML tips and tricks|not started|**done**|**done**|**done**|not started|not started|not started|
+|Probabilities and Statistics|not started|**done**|**done**|**done**|not started|**done**|not started|
+|Linear algebra|not started|**done**|**done**|**done**|not started|**done**|not started|
 
 |Cheatsheet topic|العَرَبِيَّة|עִבְרִית|[हिन्दी](https://github.com/shervinea/cheatsheet-translation/tree/master/hi)|[Türkçe](https://github.com/shervinea/cheatsheet-translation/tree/master/tr)|[Русский](https://github.com/shervinea/cheatsheet-translation/tree/master/ru)
 |:---|:---:|:---:|:---:|:---:|:---:|
-|Deep learning|0%|0%|0%|**100%**|0%|
-|Supervised learning|0%|0%|0%|0%|0%|
-|Unsupervised learning|0%|0%|0%|0%|0%|
-|ML tips and tricks|0%|0%|0%|0%|0%|
-|Probabilities and Statistics|0%|0%|0%|0%|0%|
-|Linear algebra|0%|0%|0%|0%|0%|
+|Deep learning|not started|not started|not started|**done**|not started|
+|Supervised learning|not started|not started|not started|not started|not started|
+|Unsupervised learning|not started|not started|not started|not started|not started|
+|ML tips and tricks|not started|not started|not started|not started|not started|
+|Probabilities and Statistics|not started|not started|not started|not started|not started|
+|Linear algebra|not started|not started|not started|not started|not started|
 
 If your favorite language is missing, please feel free to add it!
 

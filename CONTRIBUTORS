@@ -17,11 +17,15 @@
   Fernando González-Herrera (review of probabilities and statistics)
   Alonso Melgar López (review of probabilities and statistics)
 
-  Juan P. Chavat (translation of supervised Learning)
-  Fernando Gonzalez-Herrera (review of supervised Learning)
-  Fernando Diaz (review of supervised Learning)
-  Alonso Melgar-Lopez (review of supervised Learning)
+  Juan P. Chavat (translation of supervised learning)
+  Fernando Gonzalez-Herrera (review of supervised learning)
+  Fernando Diaz (review of supervised learning)
+  Alonso Melgar-Lopez (review of supervised learning)
 
+  Jaime Noel Alvarez Luna (translation of unsupervised learning)
+  Alonso Melgar López (review of unsupervised learning)
+  Fernando Diaz (review of unsupervised learning)
+  
 --fa
   AlisterTA (translation of deep learning)
   Mohammad Karimi (review of deep learning)
@@ -76,3 +80,7 @@
   Ekrem Çetinkaya (review of linear algebra)
   
 --zh
+
+--zh-tw
+  kevingo (translation of deep learning)
+  TobyOoO (review of deep learning)

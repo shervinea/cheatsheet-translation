@@ -348,34 +348,34 @@
 
 **59. [Introduction, Sample space, Event, Permutation]**
 
-&#10230;
+&#10230 [Вступ, Простір елементарних подій, Подія, Підстановка];
 
 <br>
 
 **60. [Conditional probability, Bayes' rule, Independence]**
 
-&#10230; 
+&#10230 [Умовна ймовірність, Теорема Баєса, Незалежність];
 
 <br>
 
 **61. [Random variables, Definitions, Expectation, Variance]**
 
-&#10230; 
+&#10230; [Випадкові змінні, Означення, Очікування, Дисперсія]
 
 <br>
 
 **62. [Probability distributions, Chebyshev's inequality, Main distributions]**
 
-&#10230; 
+&#10230; [Розподіли ймовірності, Нерівність Чебишова, Головні розподіли]
 
 <br>
 
 **63. [Jointly distributed random variables, Density, Covariance, Correlation]**
 
-&#10230; 
+&#10230; [Спільно розподілені випадкові величини, Щільність, Коваріація, Кореляція]
 
 <br>
 
 **64. [Parameter estimation, Mean, Variance]**
 
-&#10230; 
+&#10230; [Оцінювання параметрів, Середнє значення, Дисперсія]

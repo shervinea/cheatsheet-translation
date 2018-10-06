@@ -3,7 +3,7 @@
 This repository aims at collaboratively translating our [Machine Learning cheatsheets](https://github.com/afshinea/stanford-cs-229-machine-learning) into a ton of languages, so that this content can be enjoyed by anyone from any part of the world!
 
 ## Progression
-|Cheatsheet topic|[Español](https://github.com/shervinea/cheatsheet-translation/tree/master/es)|[فارسی](https://github.com/shervinea/cheatsheet-translation/tree/master/fa)|[Français](https://github.com/shervinea/cheatsheet-translation/tree/master/fr)|[日本語](https://github.com/shervinea/cheatsheet-translation/tree/master/ja)|[Português](https://github.com/shervinea/cheatsheet-translation/tree/master/pt)|[简体中文](https://github.com/shervinea/cheatsheet-translation/tree/master/zh)|
+|Cheatsheet topic|Español|فارسی|Français|日本語|Português|简体中文|
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|
 |Deep learning|not started|**done**|**done**|not started|**done**|not started|
 |Supervised learning|**done**|**done**|**done**|not started|**done**|not started|
@@ -12,7 +12,7 @@ This repository aims at collaboratively translating our [Machine Learning cheats
 |Probabilities and Statistics|**done**|**done**|**done**|not started|**done**|not started|
 |Linear algebra|**done**|**done**|**done**|not started|**done**|not started|
 
-|Cheatsheet topic|العَرَبِيَّة|עִבְרִית|[हिन्दी](https://github.com/shervinea/cheatsheet-translation/tree/master/hi)|[Türkçe](https://github.com/shervinea/cheatsheet-translation/tree/master/tr)|[Русский](https://github.com/shervinea/cheatsheet-translation/tree/master/ru)
+|Cheatsheet topic|العَرَبِيَّة|עִבְרִית|हिन्दी|Türkçe|Русский|
 |:---|:---:|:---:|:---:|:---:|:---:|
 |Deep learning|not started|not started|not started|**done**|not started|
 |Supervised learning|not started|not started|not started|not started|not started|

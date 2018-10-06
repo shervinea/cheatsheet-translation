@@ -180,7 +180,7 @@
 
 **31. It is a dimension reduction technique that finds the variance maximizing directions onto which to project the data.**
 
-&#10230; Es una técnica de educción de dimensión que encuentra la varianza maximizando las direcciones sobre las cuales se proyectan los datos.
+&#10230; Es una técnica de reducción de dimensión que encuentra la varianza maximizando las direcciones sobre las cuales se proyectan los datos.
 
 <br>
 
@@ -192,7 +192,7 @@
 
 **33. Spectral theorem ― Let A∈Rn×n. If A is symmetric, then A is diagonalizable by a real orthogonal matrix U∈Rn×n. By noting Λ=diag(λ1,...,λn), we have:**
 
-&#10230; Teorema espectral - Sea A∈Rn×n. Si A es simétrica, entonces A es diagonizable a través de una matriz ortogonal real U∈Rn×n. Al observar Λ=diag(λ1,...,λn), tenemos:
+&#10230; Teorema espectral - Sea A∈Rn×n. Si A es simétrica, entonces A es diagonalizable a través de una matriz ortogonal real U∈Rn×n. Al observar Λ=diag(λ1,...,λn), tenemos:
 
 <br>
 
@@ -211,7 +211,7 @@
 **36. Algorithm ― The Principal Component Analysis (PCA) procedure is a dimension reduction technique that projects the data on k
 dimensions by maximizing the variance of the data as follows:**
 
-&#10230; Algoritmo - El procedimiento de Análisis de Componentes Principales (ACP) es una técnica de educción de dimensión que proyecta los datos en k dimensiones maximizando la varianza de los datos de la siguiente manera:
+&#10230; Algoritmo - El procedimiento de Análisis de Componentes Principales (ACP) es una técnica de reducción de dimensión que proyecta los datos en k dimensiones maximizando la varianza de los datos de la siguiente manera:
 
 <br>
 

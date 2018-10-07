@@ -84,7 +84,7 @@
 
 **15. Step 1: Take a batch of training data.**
 
-&#10230; Paso 1: Tomar un grupo de los datos de entrenamiento.
+&#10230; Paso 1: Tomar un lote de los datos de entrenamiento.
 
 <br>
 
@@ -120,19 +120,19 @@
 
 **21. Convolutional layer requirement ― By noting W the input volume size, F the size of the convolutional layer neurons, P the amount of zero padding, then the number of neurons N that fit in a given volume is such that:**
 
-&#10230; Requerimiento de la capa convolucional. Notando que W es el volumen de la entrada, F el tamaño de las neuronas de la capa convolucional, P la cantidad de relleno con ceros, entonces el número de neuronas N que entran en el volumen dado es tal que:
+&#10230; Requisito de la capa convolucional. Notando que W es el volumen de la entrada, F el tamaño de las neuronas de la capa convolucional, P la cantidad de relleno con ceros, entonces el número de neuronas N que entran en el volumen dado es tal que:
 
 <br>
 
 **22. Batch normalization ― It is a step of hyperparameter γ,β that normalizes the batch {xi}. By noting μB,σ2B the mean and variance of that we want to correct to the batch, it is done as follows:**
 
-&#10230; Normalización de grupo - Es un paso de híperparámetro y,β que normaliza el grupo {xi}. Notando μB,σ2B la media y la varianza de qué queremos corregir en el grupo, se realiza de la siguiente manera:
+&#10230; Normalización por lotes - Es un paso de híperparámetro y,β que normaliza el lote {xi}. Denotando μB,σ2B la media y la varianza de qué queremos corregir en el lote, se realiza de la siguiente manera:
 
 <br>
 
 **23. It is usually done after a fully connected/convolutional layer and before a non-linearity layer and aims at allowing higher learning rates and reducing the strong dependence on initialization.**
 
-&#10230; Se realiza usualmente después de una capa completamente conectada/convolucional y antes de una capa no-lineal y su objetivo es permitir tasas más altas de aprendizaje y reducir su fuerte dependencia hacia la inicialización.
+&#10230; Se realiza usualmente después de una capa completamente conectada/convolucional y antes de una capa no-lineal y su objetivo es permitir velocidades de aprendizaje más altas de aprendizaje y reducir su fuerte dependencia sobre la inicialización.
 
 <br>
 
@@ -144,13 +144,13 @@
 
 **25. Types of gates ― Here are the different types of gates that we encounter in a typical recurrent neural network:**
 
-&#10230; Tipos de compuertas - A continuación, tenemos los diferentes tipos de compuertas que encontramos en una red neuronal recurrente típica:
+&#10230; Tipos de puertas - A continuación, tenemos los diferentes tipos de puertas que encontramos en una red neuronal recurrente típica:
 
 <br>
 
 **26. [Input gate, forget gate, gate, output gate]**
 
-&#10230; [Compuerta de entrada, compuerta de olvido, compuerta, compuerta de salida]
+&#10230; [Puerta de entrada, puerta de olvido, puerta, puerta de salida]
 
 <br>
 

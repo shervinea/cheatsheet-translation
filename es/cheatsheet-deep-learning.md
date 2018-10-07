@@ -54,7 +54,7 @@
 
 **10. Cross-entropy loss ― In the context of neural networks, the cross-entropy loss L(z,y) is commonly used and is defined as follows:**
 
-&#10230; Pérdida de cross-entropy - En el contexto de las redes neuronales, la pérdida de cross-entropy L(z,y) es utilizada comúnmente y definida de la siguiente manera:
+&#10230; Pérdida de entropía cruzada - En el contexto de las redes neuronales, la pérdida de entropía cruzada L(z,y) es utilizada comúnmente y definida de la siguiente manera:
 
 <br>
 
@@ -126,7 +126,7 @@
 
 **22. Batch normalization ― It is a step of hyperparameter γ,β that normalizes the batch {xi}. By noting μB,σ2B the mean and variance of that we want to correct to the batch, it is done as follows:**
 
-&#10230; Normalización por lotes - Es un paso de híperparámetro y,β que normaliza el lote {xi}. Denotando μB,σ2B la media y la varianza de qué queremos corregir en el lote, se realiza de la siguiente manera:
+&#10230; Normalización por lotes - Es un paso de híperparámetro y,β que normaliza el lote {xi}. Denotando μB,σ2B la media y la varianza de lo que queremos corregir en el lote, se realiza de la siguiente manera:
 
 <br>
 
@@ -270,7 +270,7 @@
 
 **46. Maximum likelihood estimate ― The maximum likelihood estimates for the state transition probabilities are as follows:**
 
-&#10230; Estimado por máxima verosimilitud - El estimado por máxima verosimilitud para las probabilidades de transición de estado son como se muestra a continuación:
+&#10230; Estimación por máxima verosimilitud - Las estimaciones por máxima verosimilitud para las probabilidades de transición de estado son como se muestra a continuación:
 
 <br>
 

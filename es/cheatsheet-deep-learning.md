@@ -162,19 +162,19 @@
 
 **28. LSTM ― A long short-term memory (LSTM) network is a type of RNN model that avoids the vanishing gradient problem by adding 'forget' gates.**
 
-&#10230; LSTM - Una red de memoria de corto plazo larga (LSTM por sus siglas en inglés) es un tipo de modelo de red neuronal recurrente que evita el problema del gradiente desvaneciente añadiendo puertas de 'olvido'.
+&#10230; LSTM - Una red de memoria de corto y largo plazo (LSTM por sus siglas en inglés) es un tipo de modelo de red neuronal recurrente que evita el problema del gradiente desvaneciente añadiendo puertas de 'olvido'.
 
 <br>
 
 **29. Reinforcement Learning and Control**
 
-&#10230; Aprendizaje reforzado y control.
+&#10230; Aprendizaje por refuerzo y control.
 
 <br>
 
 **30. The goal of reinforcement learning is for an agent to learn how to evolve in an environment.**
 
-&#10230; El objetivo del aprendizaje reforzado es hacer que un agente aprenda como evolucionar en un ambiente.
+&#10230; El objetivo del aprendizaje por refuerzo es hacer que un agente aprenda como evolucionar en un ambiente.
 
 <br>
 

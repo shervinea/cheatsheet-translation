@@ -1,6 +1,6 @@
 **1. Deep Learning cheatsheet**
 
-&#10230; Hoja de referencia de Deep Learning
+&#10230; Hoja de referencia de Aprendizaje Profundo (Deep learning)
 
 <br>
 
@@ -30,7 +30,7 @@
 
 **6. By noting i the ith layer of the network and j the jth hidden unit of the layer, we have:**
 
-&#10230; Resaltando i en la i-ésima capa de la red y j en la j-ésima unidad oculta de la capa, tenemos:
+&#10230; Denotando i en la i-ésima capa de la red y j en la j-ésima unidad oculta de la capa, tenemos:
 
 <br>
 
@@ -54,19 +54,19 @@
 
 **10. Cross-entropy loss ― In the context of neural networks, the cross-entropy loss L(z,y) is commonly used and is defined as follows:**
 
-&#10230; Pérdida de cross-entropy - En el contexto de las redes neuronales, la pérdida de cross-entropy L(z,y) es utilizada comunmente y definida de la siguiente manera:
+&#10230; Pérdida de cross-entropy - En el contexto de las redes neuronales, la pérdida de cross-entropy L(z,y) es utilizada comúnmente y definida de la siguiente manera:
 
 <br>
 
 **11. Learning rate ― The learning rate, often noted α or sometimes η, indicates at which pace the weights get updated. This can be fixed or adaptively changed. The current most popular method is called Adam, which is a method that adapts the learning rate.**
 
-&#10230; Velocidad de aprendizaje - La velocidad de aprendizaje, denotada como α o algunas veces η, indica a que ritmo los pesos son actualizados. Este valor puede ser fijo o cambiar de forma adaptativa. El método más popular en este momento es llamado Adam, que es un método que se adapta a la velocidad de aprendizaje.
+&#10230; Velocidad de aprendizaje - La velocidad de aprendizaje, denotada como α o algunas veces η, indica a que ritmo los pesos son actualizados. Este valor puede ser fijo o cambiar de forma adaptativa. El método más popular en este momento es llamado Adam, que es un método que adapta la velocidad de aprendizaje.
 
 <br>
 
 **12. Backpropagation ― Backpropagation is a method to update the weights in the neural network by taking into account the actual output and the desired output. The derivative with respect to weight w is computed using chain rule and is of the following form:**
 
-&#10230; Retropropagación - La retropropagación, o propagación inversa, es un método de actualización de los pesos en una red neuronal, tomando en cuenta la salida actual y la salida esperada. La derivada respecto al peso w es computada utilizando la regla de la cadena y se expresa de la siguiente forma:
+&#10230; Retropropagación - La retropropagación, o propagación inversa, es un método de actualización de los pesos en una red neuronal, teniendo en cuenta la salida actual y la salida esperada. La derivada respecto al peso w es calculada utilizando la regla de la cadena y se expresa de la siguiente forma:
 
 <br>
 
@@ -186,7 +186,7 @@
 
 **32. Markov decision processes ― A Markov decision process (MDP) is a 5-tuple (S,A,{Psa},γ,R) where:**
 
-&#10230; Procesos decisivos de Markov - Un proceso decisivo de Markov (MDP por sus siglas en inglés) es una 5-tupla (S,A,{Psa},γ,R) donde:
+&#10230; Procesos de decisión de Markov - Un proceso de decisión de Markov (MDP por sus siglas en inglés) es una 5-tupla (S,A,{Psa},γ,R) donde:
 
 <br>
 
@@ -204,7 +204,7 @@
 
 **35. {Psa} are the state transition probabilities for s∈S and a∈A**
 
-&#10230; {Psa] son las probabilidades de transición des estado para s∈S y a∈A
+&#10230; {Psa] son las probabilidades de transición de estado para s∈S y a∈A
 
 <br>
 
@@ -222,7 +222,7 @@
 
 **38. Policy ― A policy π is a function π:S⟶A that maps states to actions.**
 
-&#10230; Política - Una política π es una función π:S⟶A que mapea estados a acciones.
+&#10230; Política - Una política π es una función π:S⟶A que asigna estados a acciones.
 
 <br>
 
@@ -246,7 +246,7 @@
 
 **42. Remark: we note that the optimal policy π∗ for a given state s is such that:**
 
-&#10230; Observación: notamos que la política óptima π* para un estado dado s es tal que:
+&#10230; Observación: denotamos que la política óptima π* para un estado dado s es tal que:
 
 <br>
 
@@ -270,7 +270,7 @@
 
 **46. Maximum likelihood estimate ― The maximum likelihood estimates for the state transition probabilities are as follows:**
 
-&#10230; Estimado de verosimilitud máximo - El estimado de probabilidad máximo para las probabilidades de transición de estado son como se muestra a continuación:
+&#10230; Estimado por máxima verosimilitud - El estimado por máxima verosimilitud para las probabilidades de transición de estado son como se muestra a continuación:
 
 <br>
 

@@ -1,6 +1,6 @@
 1. **Supervised Learning cheatsheet**
 
-&#10230; 监督学习备忘录
+&#10230; 监督学习简明指南
 
 <br>
 

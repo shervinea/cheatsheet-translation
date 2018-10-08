@@ -2,7 +2,16 @@
 
 --de
 
---es Erick Gabriel Mendoza Flores (translation of deep learning)
+--es 
+  Erick Gabriel Mendoza Flores (translation of deep learning)
+  Fernando Diaz (review of deep learning)
+  Fernando González-Herrera (review of deep learning)
+  Mariano Ramirez (review of deep learning)
+  Juan P. Chavat (review of deep learning)
+  Alonso Melgar López (review of deep learning)
+  Gustavo Velasco-Hernández (review of deep learning)
+  Juan Manuel Nava Zamudio (review of deep learning)
+  
   Fernando González-Herrera (translation of linear algebra)
   Fernando Diaz (review of linear algebra)
   Gustavo Velasco-Hernández (review of linear algebra)
@@ -16,7 +25,6 @@
   Fermin Ordaz (translation of probabilities and statistics)
   Fernando González-Herrera (review of probabilities and statistics)
   Alonso Melgar López (review of probabilities and statistics)
->>>>>>> master
 
   Juan P. Chavat (translation of supervised learning)
   Fernando Gonzalez-Herrera (review of supervised learning)

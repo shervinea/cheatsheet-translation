@@ -54,7 +54,7 @@
 
 **10. Algorithm ― The Expectation-Maximization (EM) algorithm gives an efficient method at estimating the parameter θ through maximum likelihood estimation by repeatedly constructing a lower-bound on the likelihood (E-step) and optimizing that lower bound (M-step) as follows:**
 <div dir="rtl">
-الگوریتم - الگوریتم بیشینه‌سازی امید ریاضی روشی بهینه برای تخمین پارامتر $theta$ از طریق تخمین درستی بشینه در اختیار قرار می‌دهد. این کار با تکرار مرحله‌ی به دست آوردن یک کران پایین برای درستی (مرحله‌ی امید ریاضی) و همچنین بهینه‌سازی آن کران پایین (مرحله‌ی بیشینه‌سازی) طبق توضیح زیر انجام می‌شود:
+الگوریتم - الگوریتم بیشینه‌سازی امید ریاضی روشی بهینه برای تخمین پارامتر $theta$ از طریق تخمین درستی بیشینه در اختیار قرار می‌دهد. این کار با تکرار مرحله‌ی به دست آوردن یک کران پایین برای درستی (مرحله‌ی امید ریاضی) و همچنین بهینه‌سازی آن کران پایین (مرحله‌ی بیشینه‌سازی) طبق توضیح زیر انجام می‌شود:
 </div>
 <br>
 

@@ -1,30 +1,30 @@
 1. **Deep Learning cheatsheet**
 
-&#10230;
+&#10230;深度学习备忘录
 
 <br>
 
 2. **Neural Networks**
 
-&#10230;
+&#10230;神经网络
 
 <br>
 
 3. **Neural networks are a class of models that are built with layers. Commonly used types of neural networks include convolutional and recurrent neural networks.**
 
-&#10230;
+&#10230;神经网络是基于分层建模构造的计算模型的一种，
 
 <br>
 
 4. **Architecture ― The vocabulary around neural networks architectures is described in the figure below:**
 
-&#10230;
+&#10230;架构 - 关于神经网络架构的词汇如下图所示:
 
 <br>
 
 5. **[Input layer, hidden layer, output layer]**
 
-&#10230;
+&#10230;[输入层，隐藏层，输出层]
 
 <br>
 

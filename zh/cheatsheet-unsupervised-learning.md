@@ -258,7 +258,7 @@
 
 44. **It is a technique meant to find the underlying generating sources.**
 
-&#10230; 这是期望找到背后生成源的技术。
+&#10230; 这是旨在找到背后生成源的技术。
 
 <br>
 

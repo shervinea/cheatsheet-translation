@@ -6,31 +6,31 @@
 
 **2. Classification metrics**
 
-&#10230; Métricas de Classificação
+&#10230; Métricas de classificação
 
 <br>
 
 **3. In a context of a binary classification, here are the main metrics that are important to track in order to assess the performance of the model.**
 
-&#10230; Em um contexto de classificação binária, essas são as principais métricas que são importantes acompanhar para avaliar a desempenho do modelo.
+&#10230; Em um contexto de classificação binária, estas são as principais métricas que são importantes acompanhar para avaliar a desempenho do modelo.
 
 <br>
 
 **4. Confusion matrix ― The confusion matrix is used to have a more complete picture when assessing the performance of a model. It is defined as follows:**
 
-&#10230; Matriz de Confusão - A matriz de confusão é usada para termos uma figura mais completa quando estamos avaliando o desempenho de um modelo. Ela é definida conforme a seguir:
+&#10230; Matriz de confusão ― A matriz de confusão (confusion matrix) é usada para termos um cenário mais completo quando estamos avaliando o desempenho de um modelo. Ela é definida conforme a seguir:
 
 <br>
 
 **5. [Predicted class, Actual class]**
 
-&#10230; [Classe prevista, classe real]
+&#10230; [Classe prevista, Classe real]
 
 <br>
 
 **6. Main metrics ― The following metrics are commonly used to assess the performance of classification models:**
 
-&#10230; Principais métricas - As seguintes métricas são comumente usadas para avaliar o desempenho de modelos de classificação. 
+&#10230; Principais métricas - As seguintes métricas são comumente usadas para avaliar o desempenho de modelos de classificação:
 
 <br>
 
@@ -48,7 +48,7 @@
 
 **9. How accurate the positive predictions are**
 
-&#10230; Quão preciso as predições positivas são
+&#10230; Quão precisas são as predições positivas
 
 <br>
 
@@ -72,7 +72,7 @@
 
 **13. ROC ― The receiver operating curve, also noted ROC, is the plot of TPR versus FPR by varying the threshold. These metrics are are summed up in the table below:**
 
-&#10230; ROC - A curva de operação do receptor, também chamada ROC, é a área de TPR versus FPR variando o limiar. Essa métricas estão resumidas na tabela abaixo:
+&#10230; ROC - A curva de operação do receptor, também chamada ROC (Receiver Operating Characteristic), é o gráfico de TPR versus FPR variando o limiar. Essas métricas estão resumidas na tabela abaixo:
 
 <br>
 
@@ -108,19 +108,19 @@
 
 **19. Coefficient of determination ― The coefficient of determination, often noted R2 or r2, provides a measure of how well the observed outcomes are replicated by the model and is defined as follows:**
 
-&#10230; Coeficiente de determinação - O coeficiente de determinação, frequentemente escrito como R2 ou r2, fornece uma medida de quão bem os resultados observados são replicados pelo modelo e é definido conforme o seguinte:
+&#10230; Coeficiente de determinação - O coeficiente de determinação, frequentemente escrito como R2 ou r2, fornece uma medida de quão bem os resultados observados são replicados pelo modelo e é definido como se segue:
 
 <br>
 
 **20. Main metrics ― The following metrics are commonly used to assess the performance of regression models, by taking into account the number of variables n that they take into consideration:**
 
-&#10230; Principais métricas - A seguintes métricas são comumente utilizadas para avaliar o desempenho de modelos de regressão, levando em conta o número de variáveis n que eles consideram:
+&#10230; Principais métricas - As seguintes métricas são comumente utilizadas para avaliar o desempenho de modelos de regressão, levando em conta o número de variáveis n que eles consideram:
 
 <br>
 
 **21. where L is the likelihood and ˆσ2 is an estimate of the variance associated with each response.**
 
-&#10230; onde L é a probabilidade e ˆσ2 é a estimativa da variância associada com cada resposta.
+&#10230; onde L é a probabilidade e ˆσ2 é uma estimativa da variância associada com cada resposta.
 
 <br>
 
@@ -132,7 +132,7 @@
 
 **23. Vocabulary ― When selecting a model, we distinguish 3 different parts of the data that we have as follows:**
 
-&#10230; Vocabulário - Ao selecionar um modelo, nós diferenciamos 3 diferentes partes dos dados que possuímos conforme a seguir:
+&#10230; Vocabulário ― Ao selecionar um modelo, nós consideramos 3 diferentes partes dos dados que possuímos conforme a seguir:
 
 <br>
 
@@ -168,7 +168,7 @@
 
 **29. Cross-validation ― Cross-validation, also noted CV, is a method that is used to select a model that does not rely too much on the initial training set. The different types are summed up in the table below:**
 
-&#10230; Validação cruzada - Validação cruzada, também chamada de CV (Cross-validation), é um método utilizado para selecionar um modelo que não depende muito do conjunto de treinamento inicial. Os diferente tipos são resumidos na tabela abaixo:  
+&#10230; Validação cruzada - Validação cruzada, também chamada de CV (Cross-Validation), é um método utilizado para selecionar um modelo que não depende muito do conjunto de treinamento inicial. Os diferente tipos estão resumidos na tabela abaixo:  
 
 <br>
 
@@ -186,19 +186,18 @@
 
 **32. The most commonly used method is called k-fold cross-validation and splits the training data into k folds to validate the model on one fold while training the model on the k−1 other folds, all of this k times. The error is then averaged over the k folds and is named cross-validation error.**
 
-&#10230; O método mais comumente usado é chamado k-fold cross validation e divide os dados de treinamento em k partes enquanto treina o modelo nas outras k-1 partes, todas estas em k vezes. O erro é então calculado sobre as k partes e é chamado cross-validation error (erro de validação cruzada).
+&#10230; O método mais frequentemente usado é chamado k-fold cross validation e divide os dados de treinamento em k partes enquanto treina o modelo nas outras k-1 partes, todas estas em k vezes. O erro é então calculado sobre as k partes e é chamado erro de validação cruzada (cross-validation error).
 
 <br>
 
 **33. Regularization ― The regularization procedure aims at avoiding the model to overfit the data and thus deals with high variance issues. The following table sums up the different types of commonly used regularization techniques:**
 
-&#10230; Regularização -  O procedimento de regularização visa evitar que o modelo sobreajuste os dados e portanto lide com os problemas de alta variância. A tabela a seguir resume os diferentes tipos de técnicas de regularização comumente utilizadas: 
-
+&#10230; Regularização ― O procedimento de regularização (regularization) visa evitar que o modelo sobreajuste os dados e portanto lide com os problemas de alta variância. A tabela a seguir resume os diferentes tipos de técnicas de regularização comumente utilizadas:
 <br>
 
 **34. [Shrinks coefficients to 0, Good for variable selection, Makes coefficients smaller, Tradeoff between variable selection and small coefficients]**
 
-&#10230; [Diminui coeficientes para 0, Bom para seleção de variáveis, Faz o coeficiente menor, Troca entre seleção de variáveis e coeficientes pequenos]
+&#10230; [Diminui coeficientes para 0, Bom para seleção de variáveis, Faz o coeficiente menor, Balanço entre seleção de variáveis e coeficientes pequenos]
 
 <br>
 
@@ -210,25 +209,25 @@
 
 **36. Bias ― The bias of a model is the difference between the expected prediction and the correct model that we try to predict for given data points.**
 
-&#10230; Viés (tendência) - O viés de um modelo é a diferença entre a predição esperada e o modelo correto que nós tentamos prever para determinados pontos de dados.
+&#10230; Viés - O viés (bias) de um modelo é a diferença entre a predição esperada e o modelo correto que nós tentamos prever para determinados pontos de dados.
 
 <br>
 
 **37. Variance ― The variance of a model is the variability of the model prediction for given data points.**
 
-&#10230; Variância - A variância de um modelo é a variabilidade da previsão do modelo para determinados pontos de dados.
+&#10230;  Variância - A variância (variance) de um modelo é a variabilidade da previsão do modelo para determinados pontos de dados.
 
 <br>
 
 **38. Bias/variance tradeoff ― The simpler the model, the higher the bias, and the more complex the model, the higher the variance.**
 
-&#10230; Relação Viés/Variância (bias/variance tradeoff) - Quanto mais simples o modelo, maior o viés e, quanto mais complexo o modelo, maior a variância.
+&#10230; Balanço viés/variância ― Quanto mais simples o modelo, maior o viés e, quanto mais complexo o modelo, maior a variância.
 
 <br>
 
 **39. [Symptoms, Regression illustration, classification illustration, deep learning illustration, possible remedies]**
 
-&#10230; Sintomas, Exemplo de Regressão, Exemplo de Classificação, Exemplo de Deep Learning, possíveis remédios
+&#10230; Sintomas, Exemplo de regressão, Exemplo de classificação, Exemplo de Deep Learning, possíveis remédios
 
 <br>
 
@@ -246,40 +245,40 @@
 
 **42. Error analysis ― Error analysis is analyzing the root cause of the difference in performance between the current and the perfect models.**
 
-&#10230; Análise de erro - Análise de erro é a análise da causa raiz da diferença no desempenho entre o modelo atual e o modelo perfeito.
+&#10230; Análise de erro - Análise de erro (error analysis) é a análise da causa raiz da diferença no desempenho entre o modelo atual e o modelo perfeito.
 
 <br>
 
 **43. Ablative analysis ― Ablative analysis is analyzing the root cause of the difference in performance between the current and the baseline models.**
 
-&#10230; Ablative Analysis (Análise ablativa) - Ablative analysis é a análise da causa raiz da diferença no desempenho entre o modelo atual e o modelo base.  
+&#10230; Análise ablativa - Análise ablativa (ablative analysis) é a análise da causa raiz da diferença no desempenho entre o modelo atual e o modelo base.  
 
 <br>
 
 **44. Regression metrics**
 
-&#10230; Métricas de Regressão
+&#10230; Métricas de regressão
 
 <br>
 
-**45. [Classification metrics, confusion matrix, accuracy, precision, recall, F1 score, ROC]**
+**45. [Classification metrics, confusion matrix, accuracy, precision, recall, specificity, F1 score, ROC]**
 
-&#10230;  [Métricas de classificação, Matriz de confusão, acurácia, precisão, recall, F1 score, ROC]
+&#10230;  [Métricas de classificação, Matriz de confusão, acurácia, precisão, revocação/sensibilidade, especifidade, F1 score, ROC]
 
 <br>
 
 **46. [Regression metrics, R squared, Mallow's CP, AIC, BIC]**
 
-&#10230; [Métricas de Regressão, R Quadrado, Mallow's CP, AIC, BIC]
+&#10230; [Métricas de Regressão, R quadrado, Mallow's CP, AIC, BIC]
 
 <br>
 
 **47. [Model selection, cross-validation, regularization]**
 
-&#10230; [Seleção de Modelo, Validação Cruzada, Regularização]
+&#10230; [Seleção de modelo, validação cruzada, regularização]
 
 <br>
 
 **48. [Diagnostics, Bias/variance tradeoff, error/ablative analysis]**
 
-&#10230; [Diagnóstico, Relação Viés/Variância, Análise de Erro/Ablativa]
+&#10230; [Diagnóstico, Balanço viés/variância, Análise de erro/ablativa]

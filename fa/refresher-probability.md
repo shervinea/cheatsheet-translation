@@ -39,7 +39,7 @@
 
 **7. Axiom 2 ― The probability that at least one of the elementary events in the entire sample space will occur is 1, i.e:**
 <div dir="rtl">
-اصل ۲ - احتمال اینکه حداقل یکی از رخدادهای موجود در فضای نمونه اتفاق بیوفتد، ۱ است.
+اصل ۲ - احتمال اینکه حداقل یکی از رخدادهای موجود در فضای نمونه اتفاق بیافتد، ۱ است.
 </div>
 <br>
 
@@ -243,7 +243,7 @@
 
 **41. Covariance ― We define the covariance of two random variables X and Y, that we note σ2XY or more commonly Cov(X,Y), as follows:**
 <div dir="rtl">
-کواریانس - کواریانس دو متغیر تصادفی $X$ و $Y$ که با $\sigma_{XY}$ یا به صورت معمول‌تر با $Cov{X,Y}$ نمایش داده می‌شود، به صورت زیر است:
+کوواریانس - کوواریانس دو متغیر تصادفی $X$ و $Y$ که با $\sigma_{XY}$ یا به صورت معمول‌تر با $Cov{X,Y}$ نمایش داده می‌شود، به صورت زیر است:
 </div>
 <br>
 

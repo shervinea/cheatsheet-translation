@@ -18,7 +18,7 @@
 
 **4. Jensen's inequality ― Let f be a convex function and X a random variable. We have the following inequality:**
 
-&#10230; Desigualdade  de Jensen's ― Seja f um função convexa e X uma variável aleatória. Temos a seguinte desigualdade:
+&#10230; Desigualdade  de Jensen's ― Seja f uma função convexa e X uma variável aleatória. Temos a seguinte desigualdade:
 
 <br>
 
@@ -210,7 +210,7 @@
 
 **36. Algorithm ― The Principal Component Analysis (PCA) procedure is a dimension reduction technique that projects the data on k dimensions by maximizing the variance of the data as follows:**
 
-&#10230; Algoritmo ― O processo de Análise de Componente Principal (PCA) é uma técnica de redução de dimensção que projeta os dados em dimensções k ao maximizar a variância dos dados como se segue:
+&#10230; Algoritmo ― O processo de Análise de Componente Principal (PCA) é uma técnica de redução de dimensão que projeta os dados em dimensões k ao maximizar a variância dos dados como se segue:
 
 <br>
 
@@ -240,7 +240,7 @@
 
 **41. This procedure maximizes the variance among all k-dimensional spaces.**
 
-&#10230; Esse processo maximiza a variância entre todos espaços dimensionais k.
+&#10230; Esse processo maximiza a variância entre todos os espaços dimensionais k.
 
 <br>
 
@@ -252,7 +252,7 @@
 
 **43. Independent component analysis**
 
-&#10230; Análise de componente independete
+&#10230; Análise de componente independente
 
 <br>
 

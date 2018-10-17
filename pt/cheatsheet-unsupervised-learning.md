@@ -204,7 +204,7 @@
 
 **35. Remark: the eigenvector associated with the largest eigenvalue is called principal eigenvector of matrix A.**
 
-&#10230; Observação: o autovetor associado com o maior autovalor é chamado de autorvetor principal da matriz A.
+&#10230; Observação: o autovetor associado com o maior autovalor é chamado de autovetor principal da matriz A.
 
 <br>
 

@@ -38,7 +38,7 @@ Please first check for [existing pull requests](https://github.com/shervinea/che
 
 1. Fork the repository.
 
-2. Go to the folder associated to the language of your choice (e.g. `es/` for Spanish, `zh/` for Mandarin Chinese).
+2. Go to the folder associated to the language of your choice (e.g. `es/` for Spanish, `zh/` for Mandarin Chinese). If it is not created yet, copy `template/` into a language folder with a naming that follows the [ISO 639-1 notation](https://www.loc.gov/standards/iso639-2/php/code_list.php).
 
 3. Translate anything you want by keeping the following template:
 > 34. **English blabla**

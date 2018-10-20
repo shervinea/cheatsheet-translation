@@ -8,13 +8,13 @@
 **2. Classification metrics**
 
 &#10230;
-قياسات التصنيف
+مقاييس التصنيف
 <br>
 
 **3. In a context of a binary classification, here are the main metrics that are important to track in order to assess the performance of the model.**
 
 &#10230;
-في سياق التصنيف الثنائي، هذه أهم القياسات التي يجب اتباعها لتقييم أداء النموذج
+في سياق التصنيف الثنائي، هذه أهم المقاييس التي يجب اتباعها لتقييم أداء النموذج
 <br>
 
 **4. Confusion matrix ― The confusion matrix is used to have a more complete picture when assessing the performance of a model. It is defined as follows:**

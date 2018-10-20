@@ -1,132 +1,133 @@
-**1. Supervised Learning cheatsheet**
+﻿**1. Supervised Learning cheatsheet**
 
-&#10230;
+مرجع سريع للتعلّم تحت الإشراف
 
 <br>
 
 **2. Introduction to Supervised Learning**
 
-&#10230;
+مقدمة للتعلّم تحت الإشراف
 
 <br>
 
 **3. Given a set of data points {x(1),...,x(m)} associated to a set of outcomes {y(1),...,y(m)}, we want to build a classifier that learns how to predict y from x.**
 
-&#10230;
+إذا كان لدينا مجموعة من نقاط البيانات {x(1),...,x(m)} مرتبطة بمجموعة مخرجات {y(1),...,y(m)}، نريد أن نبني نموذج تصنيف يتعلم كيف يتوقع y من x.
+
 
 <br>
 
 **4. Type of prediction ― The different types of predictive models are summed up in the table below:**
 
-&#10230;
+نوع التوقّع - أنواع نماذج التوقّع المختلفة موضحة في الجدول التالي:
 
 <br>
 
 **5. [Regression, Classifier, Outcome, Examples]**
 
-&#10230;
+[الارتباط (Regression)، التصنيف (Classification)، المُخرَج، أمثلة]
 
 <br>
 
 **6. [Continuous, Class, Linear regression, Logistic regression, SVM, Naive Bayes]**
 
-&#10230;
+[مستمر، فئة، ارتباط خطّي (Linear regression)، ارتباط لوجستي (Logistic regression)، SVM، بايز البسيط (Naive Bayes)]
 
 <br>
 
 **7. Type of model ― The different models are summed up in the table below:**
 
-&#10230;
+نوع النموذج - أنواع النماذج المختلفة موضحة في الجدول التالي:
 
 <br>
 
 **8. [Discriminative model, Generative model, Goal, What's learned, Illustration, Examples]**
 
-&#10230;
+[النماذج التمييزية (Discriminative)، النماذج التوليدية (Generative)، الهدف، ماذا تتعلم، توضيح، أمثلة]
 
 <br>
 
 **9. [Directly estimate P(y|x), Estimate P(x|y) to then deduce P(y|x), Decision boundary,  	Probability distributions of the data, Regressions, SVMs, GDA, Naive Bayes]**
 
-&#10230;
+[التقدير المباشر لـ P(y|x)، تقدير P(x|y) ثم استنتاج P(y|x)، حدود القرار، التوزيع الاحتمالي للبيانات، الارتباط (Regression)، SVM، GDA، بايز البسيط (Naive Bayes)]
 
 <br>
 
 **10. Notations and general concepts**
 
-&#10230;
+تعريفات ومفاهيم أساسية
 
 <br>
 
 **11. Hypothesis ― The hypothesis is noted hθ and is the model that we choose. For a given input data x(i) the model prediction output is hθ(x(i)).**
 
-&#10230;
+الفرضية (Hypothesis) - الفرضية، ويرمز لها بـ hθ، هي النموذج الذي نختاره. إذا كان لدينا المدخل x(i)، فإن المخرج الذي سيتوقعه النموذج هو hθ(x(i)).
 
 <br>
 
 **12. Loss function ― A loss function is a function L:(z,y)∈R×Y⟼L(z,y)∈R that takes as inputs the predicted value z corresponding to the real data value y and outputs how different they are. The common loss functions are summed up in the table below:**
 
-&#10230;
+دالة الفرق (Loss function) - دالة الفرق هي الدالة L:(z,y)∈R×Y⟼L(z,y)∈R التي تأخذ كمدخلات القيمة المتوقعة z والقيمة الحقيقية y وتعطينا الفرق بينهما. الجدول التالي يحتوي على بعض دوال الفرق المستخدمة بكثرة:
 
 <br>
 
 **13. [Least squared error, Logistic loss, Hinge loss, Cross-entropy]**
 
-&#10230;
+[مربع الخطأ الأصغر (Least squared error)، الفرق اللوجستي (Logistic loss)، الفرق المفصلي (Hinge loss)، Cross-entropy]
 
 <br>
 
 **14. [Linear regression, Logistic regression, SVM, Neural Network]**
 
-&#10230;
+[الارتباط الخطّي (Linear regression)، الارتباط اللوجستي (Logistic regression)، SVM، الشبكات العصبية (Neural Network)]
 
 <br>
 
 **15. Cost function ― The cost function J is commonly used to assess the performance of a model, and is defined with the loss function L as follows:**
 
-&#10230;
+دالة التكلفة (Cost function) - دالة التكلفة J تستخدم عادة لتقييم أداء نموذج ما، ويتم تعريفها مع دالة الفرق L كالتالي:
 
 <br>
 
 **16. Gradient descent ― By noting α∈R the learning rate, the update rule for gradient descent is expressed with the learning rate and the cost function J as follows:**
 
-&#10230;
+الهبوط التفاضلي (Gradient descent) - لنعرّف معدل التعلّم α∈R، يمكن تعريف القانون الذي يتم تحديث خوارزمية الهبوط التفاضلي من خلاله باستخدام معدل التعلّم ودالة التكلفة J كالتالي:
 
 <br>
 
 **17. Remark: Stochastic gradient descent (SGD) is updating the parameter based on each training example, and batch gradient descent is on a batch of training examples.**
 
-&#10230;
+ملاحظة: في الهبوط التفاضلي العشوائي (Stochastic gradient descent (SGD)) يتم تحديث المُعاملات (parameters) بناءاً على كل نقطة تدريب على حدة، بينما في الهبوط التفاضلي الحُزَمي (batch gradient descent) يتم تحديثها باستخدام حُزَم من نقاط التدريب.
 
 <br>
 
 **18. Likelihood ― The likelihood of a model L(θ) given parameters θ is used to find the optimal parameters θ through maximizing the likelihood. In practice, we use the log-likelihood ℓ(θ)=log(L(θ)) which is easier to optimize. We have:**
 
-&#10230;
+الأرجحية (Likelihood) - تستخدم أرجحية النموذج L(θ)، حيث أن θ هي المعاملات، للبحث عن أفضل المُعاملات θ عن طريق تعظيم (maximizing) الأرجحية. عملياً يتم استخدام الأرجحية اللوغاريثمية (log-likelihood) ℓ(θ)=log(L(θ)) حيث أنها أسهل في التحسين (optimize). فيكون لدينا:
 
 <br>
 
 **19. Newton's algorithm ― The Newton's algorithm is a numerical method that finds θ such that ℓ′(θ)=0. Its update rule is as follows:**
 
-&#10230;
+خوارزمية نيوتن (Newton's algorithm) - خوارزمية نيوتن هي طريقة حسابية للعثور على θ بحيث يكون ℓ′(θ)=0. قاعدة التحديث للخوارزمية كالتالي:
 
 <br>
 
 **20. Remark: the multidimensional generalization, also known as the Newton-Raphson method, has the following update rule:**
 
-&#10230;
+ملاحظة: هناك خوارزمية أعم وهي متعددة الأبعاد (multidimensional)، يطلق عليها خوارزمية نيوتن-رافسون (Newton-Raphson)، ويتم تحديثها عبر القانون التالي:
 
 <br>
 
 **21. Linear models**
 
-&#10230;
+النماذج الخطيّة (Linear models)
 
 <br>
 
 **22. Linear regression**
 
-&#10230;
+الارتباط الخطّي (Linear regression)
 
 <br>
 

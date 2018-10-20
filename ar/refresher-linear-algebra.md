@@ -1,25 +1,29 @@
 **1. Linear Algebra and Calculus refresher**
 
-&#10230;
-
+<div dir="rtl">
+الجبر الخطي وحساب التفاضل والتكامل
+</div>
 <br>
 
 **2. General notations**
-
-&#10230;
+<div dir="rtl">
+الرموز العامة 
+</div> 
 
 <br>
 
 **3. Definitions**
 
-&#10230;
+<div dir="rtl">
+التعريفات  
+</div>
 
 <br>
 
 **4. Vector ― We note x∈Rn a vector with n entries, where xi∈R is the ith entry:**
-
-&#10230;
-
+<div dir="rtl">
+بردار - $x \in \mathbb{R}^n$ یک بردار با $n$ درایه است، که $x_i \in \mathbb{R}$ درایه‌ی $i$ام می‌باشد:
+</div>
 <br>
 
 **5. Matrix ― We note A∈Rm×n a matrix with m rows and n columns, where Ai,j∈R is the entry located in the ith row and jth column:**

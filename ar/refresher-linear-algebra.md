@@ -28,38 +28,42 @@
 
 **5. Matrix ― We note A∈Rm×n a matrix with m rows and n columns, where Ai,j∈R is the entry located in the ith row and jth column:**
 
-&#10230;
+<div dir="rtl">
+  مصفوفة - نرمز ل $A \in \mathbb{R}^{m\times n}$ مصفوفة تحتوي على $m$ صفوف و $n$ أعمدة، حيث $A_{i,j}$  يرمز للمدخل في الصف i و العمود j 
+</div>
 
 <br>
 
 **6. Remark: the vector x defined above can be viewed as a n×1 matrix and is more particularly called a column-vector.**
-
-&#10230;
+<div dir="rtl">
+ملاحظة : المتجه $x$ المعرف مسبقا يمكن اعتباره مصفوفة من الشكل $n \times 1$ والذي يتم تسميته ب مصفوفة من عمود واحد 
+</div>
 
 <br>
 
 **7. Main matrices**
 
-&#10230;
-
+<div dir="rtl">
+المصفوفات الأساسية
+</div>
 <br>
 
 **8. Identity matrix ― The identity matrix I∈Rn×n is a square matrix with ones in its diagonal and zero everywhere else:**
-
-&#10230;
-
+<div dir="rtl">
+مصفوفة الوحدة - مصفوفة الوحدة $I \in \mathbb{R^{n\times n}$ تعتبر مصفوفة مربعة تحتوي على المدخل 1 في قطر المصفوفة و 0 في بقية المدخلات
+</div>
 <br>
 
 **9. Remark: for all matrices A∈Rn×n, we have A×I=I×A=A.**
 
-&#10230;
-
+<div dir="rtl">
+ملاحظة : جميع المصفوفات من الشكل $A \in \mathbb{R^{n\times n}}$  فإن $A \times I = I \times A = A$.</div>
 <br>
 
 **10. Diagonal matrix ― A diagonal matrix D∈Rn×n is a square matrix with nonzero values in its diagonal and zero everywhere else:**
-
-&#10230;
-
+<div dir="rtl">
+مصفوفة قطرية - المصفوفة القطرية هي مصفوفة من الشكل $D \in \mathbb{R^{n\times n}}$  حيث أن جميع العناصر الواقعة خارج القطر الرئيسي تساوي الصفر والعناصر على القطر الرئيسي تحتوي أعداد لاتساوي الصفر.   
+</div>
 <br>
 
 **11. Remark: we also note D as diag(d1,...,dn).**

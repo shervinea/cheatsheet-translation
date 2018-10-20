@@ -2,67 +2,67 @@
 
 &#10230;
 
-<br>
+<br> ورقة غش التعلم العميق
 
 **2. Neural Networks**
 
 &#10230;
 
-<br>
+<br> الشبكة العصبونية الاصطناعية
 
 **3. Neural networks are a class of models that are built with layers. Commonly used types of neural networks include convolutional and recurrent neural networks.**
 
 &#10230;
 
-<br>
+<br> الشبكة العصبونية الاصطناعيةهي عبارة عن نوع من النماذج يبنى من عدة طبقات , اكثر هذة الانواع استخداما هي الشبكات الالتفافية و الشبكات العصبونية المتكرره
 
 **4. Architecture ― The vocabulary around neural networks architectures is described in the figure below:**
 
 &#10230;
 
-<br>
+<br> البنية - المصطلحات حول بنية الشبكة العصبونية موضح في الشكل ادناة
 
 **5. [Input layer, hidden layer, output layer]**
 
 &#10230;
 
-<br>
+<br> [طبقة ادخال, طبقة مخفية, طبقة اخراج ] 
 
 **6. By noting i the ith layer of the network and j the jth hidden unit of the layer, we have:**
 
 &#10230;
 
-<br>
+<br> عبر تدوين i كالطبقة رقم i و j للدلالة على رقم الوحده الخفية في تلك الطبقة , نحصل على: 
 
 **7. where we note w, b, z the weight, bias and output respectively.**
 
 &#10230;
 
-<br>
+<br> حيث نعرف w, b, z كالوزن , و معامل التعديل , و الخرج حسب الترتيب. 
 
 **8. Activation function ― Activation functions are used at the end of a hidden unit to introduce non-linear complexities to the model. Here are the most common ones:**
 
 &#10230;
 
-<br>
+<br> دالة التفعيل - دالة التفعيل تستخدم في نهاية الوحده الخفية لتضمن المكونات الغير خطية للنموذج. هنا بعض دوال التفعيل الشائعة
 
 **9. [Sigmoid, Tanh, ReLU, Leaky ReLU]**
 
 &#10230;
 
-<br>
+<br> [Sigmoid, Tanh, ReLU, Leaky ReLU] 
 
 **10. Cross-entropy loss ― In the context of neural networks, the cross-entropy loss L(z,y) is commonly used and is defined as follows:**
 
 &#10230;
 
-<br>
+<br> دالة الانتروبيا التقاطعية للخسارة - في سياق الشبكات العصبونية, دالة الاتاروبيا L(z,y) تستخدم و تعرف كالاتي: 
 
 **11. Learning rate ― The learning rate, often noted α or sometimes η, indicates at which pace the weights get updated. This can be fixed or adaptively changed. The current most popular method is called Adam, which is a method that adapts the learning rate.**
 
 &#10230;
 
-<br>
+<br> نسبة سرعة التعلم - نسبة التعلم, يرمز , و هو مؤشر في اي تجاة يتم تحديث الاوزان. يمكن تثبيت هذا المعامل او تحديثة بشكل تأقلمي . حاليا اكثر النسب شيوعا تدعى Adam , وهي طريقة تجعل هذه النسبة سرعة التعلم بشكل تأقلمي    α او η ب ,  
 
 **12. Backpropagation ― Backpropagation is a method to update the weights in the neural network by taking into account the actual output and the desired output. The derivative with respect to weight w is computed using chain rule and is of the following form:**
 

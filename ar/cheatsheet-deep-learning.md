@@ -74,37 +74,37 @@
 
 &#10230;
 
-<br>
+<br> كنتيجة , الوزن سيتم تحديثة كالتالي:
 
 **14. Updating weights ― In a neural network, weights are updated as follows:**
 
 &#10230;
 
-<br>
+<br> تحديث الاوزان - في الشبكات العصبونية , يتم تحديث الاوزان كما يلي:  
 
 **15. Step 1: Take a batch of training data.**
 
 &#10230;
 
-<br>
+<br> الخطوة 1: خذ حزمة من بيانات التدريب
 
 **16. Step 2: Perform forward propagation to obtain the corresponding loss.**
 
 &#10230;
 
-<br>
+<br> الخطوة 2: قم بعملية التغذيه الامامية لحساب الخسارة الناتجة
 
 **17. Step 3: Backpropagate the loss to get the gradients.**
 
 &#10230;
 
-<br>
+<br> الخطوة 3: قم بتغذية الخساره خلفيا للحصول على القريدينت 
 
 **18. Step 4: Use the gradients to update the weights of the network.**
 
 &#10230;
 
-<br>
+<br> الخطوة 4: استخدم القريدينت لتحديث اوزان الشبكة
 
 **19. Dropout ― Dropout is a technique meant at preventing overfitting the training data by dropping out units in a neural network. In practice, neurons are either dropped with probability p or kept with probability 1−p**
 

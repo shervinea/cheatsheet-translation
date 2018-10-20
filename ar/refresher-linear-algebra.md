@@ -22,7 +22,7 @@
 
 **4. Vector ― We note x∈Rn a vector with n entries, where xi∈R is the ith entry:**
 <div dir="rtl">
-بردار - $x \in \mathbb{R}^n$ یک بردار با $n$ درایه است، که $x_i \in \mathbb{R}$ درایه‌ی $i$ام می‌باشد:
+  متجه- نرمز ل $x \in \mathbb{R^n}$ متجه يحتوي على $n$ مدخلات، حيث $x_i \in \mathbb{R}$  يعتبر المدخل رقم i . 
 </div>
 <br>
 

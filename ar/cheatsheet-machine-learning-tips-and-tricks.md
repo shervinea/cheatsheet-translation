@@ -164,31 +164,31 @@
 **28. Once the model has been chosen, it is trained on the entire dataset and tested on the unseen test set. These are represented in the figure below:**
 
 &#10230;
-
+بمجرد اختيار النموذج، يتم تدريبه على مجموع البيانات واختباره على مجموعة اختبار لم يشاهدها من قبل. وهي ممثلة في الشكل أسفله:
 <br>
 
 **29. Cross-validation ― Cross-validation, also noted CV, is a method that is used to select a model that does not rely too much on the initial training set. The different types are summed up in the table below:**
 
 &#10230;
-
+التصديق المتقاطع ― هي طريقة تستعمل لاختيار النموذج الذي لا يعتمد كثيرا على مجموعة التدريب الأولية. الأنواع المختلفة ملخصة في الجدول أسفله:
 <br>
 
 **30. [Training on k−1 folds and assessment on the remaining one, Training on n−p observations and assessment on the p remaining ones]**
 
 &#10230;
-
+[التدريب على k-1 طية والتقييم على الطيات المتبقية، التدريب على n-p ملاحظة والتقييم على الملاحظات p المتبقية]
 <br>
 
 **31. [Generally k=5 or 10, Case p=1 is called leave-one-out]**
 
 &#10230;
-
+[عامة k=5 أو 10، الحالة p=1 ]
 <br>
 
 **32. The most commonly used method is called k-fold cross-validation and splits the training data into k folds to validate the model on one fold while training the model on the k−1 other folds, all of this k times. The error is then averaged over the k folds and is named cross-validation error.**
 
 &#10230;
-
+الطريقة الأكثر استعمالا تسمى "ك" طية (k-folds) للتصديق المتقاطع وتقسم مجموعة التداريب إلى "ك" طية للتصديق على النموذج في طية واحدة بينما التدريب يتم على الطيات "ك-1" المتبقية، وتكرر العملية "ك" مرة. الخطأ يحتسب كمعدل لكل الطيات "ك" ويسمى خطأ التصديق المتقاطع.
 <br>
 
 **33. Regularization ― The regularization procedure aims at avoiding the model to overfit the data and thus deals with high variance issues. The following table sums up the different types of commonly used regularization techniques:**

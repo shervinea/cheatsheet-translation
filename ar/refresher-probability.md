@@ -1,24 +1,24 @@
 **1. Probabilities and Statistics refresher**
 
-&#10230;
+تذكير في الإحتمالات و الإحصاء
 
 <br>
 
 **2. Introduction to Probability and Combinatorics**
 
-&#10230;
-
+مقدمة في الإحتمالات و التركيبات
 <br>
 
 **3. Sample space ― The set of all possible outcomes of an experiment is known as the sample space of the experiment and is denoted by S.**
 
-&#10230;
-
+الفضاء العيني : 
+يتكون الفضاء العيني من جميع النتائج الممكنة للتجربة العشوائية، نرمز له ب S 
 <br>
 
 **4. Event ― Any subset E of the sample space is known as an event. That is, an event is a set consisting of possible outcomes of the experiment. If the outcome of the experiment is contained in E, then we say that E has occurred.**
 
-&#10230;
+الحادث : 
+كل مجموعة جزئية E من الفضاء العيني تسمى بالحادث، أي أن الحادث هو مجموعة من النتائج الممكنة للتجربة. إذا كانت نتيجة التجربة ضمن E نقول أن الحادث E قد وقع 
 
 <br>
 

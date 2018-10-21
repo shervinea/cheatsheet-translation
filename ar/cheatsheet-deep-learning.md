@@ -110,37 +110,37 @@
 
 &#10230;
 
-<br>
+<br> الاسقاط - الاسقاط هي طريقة الغرض منها منع التكيف الزائد للنموذج في بيانات التدريب عبر اسقاط بعض الواحدات في الشبكة العصبونية, العصبونات يتم اما اسقاطها باحتمالية p او الحفاظ عليها باحتمالية 1-p. 
 
 **20. Convolutional Neural Networks**
 
 &#10230;
 
-<br>
+<br> الشبكات العصبونية التداخلية
 
 **21. Convolutional layer requirement ― By noting W the input volume size, F the size of the convolutional layer neurons, P the amount of zero padding, then the number of neurons N that fit in a given volume is such that:**
 
 &#10230;
 
-<br>
+<br>احتياج الطبقة التداخلية - عبر رمز w لحجم المدخل , F حجم العصبونات للطبقة التداخلية , P عدد الحشوات الصفرية , فأن N عدد العصبونات لكل حجم معطى يحسب عبر الاتي: 
 
 **22. Batch normalization ― It is a step of hyperparameter γ,β that normalizes the batch {xi}. By noting μB,σ2B the mean and variance of that we want to correct to the batch, it is done as follows:**
 
 &#10230;
 
-<br>
+<br> تطبيع الحزمة - هي خطوه من قيم التحسين الخاصة γ,β  والتي تعدل الحزمة {xi}. لنجعل μB,σ2B المتوسط و الانحراف للحزمة المعنية و نريد تصحيح هذه الحزمة, يتم ذلك كالتالي:    
 
 **23. It is usually done after a fully connected/convolutional layer and before a non-linearity layer and aims at allowing higher learning rates and reducing the strong dependence on initialization.**
 
 &#10230;
 
-<br>
+<br> في الغالب تتم بعد الطبقة التداخلية المتصلة كليا و قبل طبقة التغيرات الغير خطية و تهدف للسماح للسرعات التعليم العالية للتقليل من الاعتمادية القوية للقيم الاولية.
 
 **24. Recurrent Neural Networks**
 
 &#10230;
 
-<br>
+<br> الشبكات العصبونية التكرارية
 
 **25. Types of gates ― Here are the different types of gates that we encounter in a typical recurrent neural network:**
 

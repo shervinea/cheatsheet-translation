@@ -68,182 +68,226 @@
 
 **11. Remark: we also note D as diag(d1,...,dn).**
 
-&#10230;
+<div dir="rtl">
+ملاحظة: نرمز كذلك ل $D$ ب $text{diag}(d_1, \dots, d_n)\$ 
+</div>
 
 <br>
 
 **12. Matrix operations**
 
-&#10230;
+<div dir="rtl">
+ عمليات المصفوفات
+</div>
 
 <br>
 
 **13. Multiplication**
 
-&#10230;
+<div dir="rtl">
+  الضرب
+</div>
 
 <br>
 
 **14. Vector-vector ― There are two types of vector-vector products:**
 
-&#10230;
+<div dir="rtl">
+  متجه و متجه - هناك نوعين من الضرب ل متجه - متجه : 
+</div>
 
 <br>
 
 **15. inner product: for x,y∈Rn, we have:**
 
-&#10230;
+<div dir="rtl">
+  ضرب داخلي: ل $x,y \in \mathbb{R}^n$ نستنتج :
+</div>
 
 <br>
 
 **16. outer product: for x∈Rm,y∈Rn, we have:**
 
-&#10230;
+<div dir="rtl">
+  ضرب خارجي:  ل $x \in \mathbb{m}, y \in \mathbb{R}^n$ نستنتج : 
+</div>
 
 <br>
 
 **17. Matrix-vector ― The product of matrix A∈Rm×n and vector x∈Rn is a vector of size Rn, such that:**
 
-&#10230;
+<div dir="rtl">
+  مصفوفة - متجه : ضرب المصفوفة $A \in \mathbb{R}^{n\times m}$ والمتجه $x \in \mathbb{R}^n$ ينتجه متجه من الشكل $x \in \mathbb{R}^n$ حيث : 
+</div>
 
 <br>
 
 **18. where aTr,i are the vector rows and ac,j are the vector columns of A, and xi are the entries of x.**
 
-&#10230;
+<div dir="rtl">
+  حيث $a^{T}_{r,i}$ يعتبر متجه الصفوف و $a_{c,j}$ يعتبر متجه الأعمدة ل $A$ كذلك $x_i$ يرمز لعناصر $x$.
+</div>
 
 <br>
 
 **19. Matrix-matrix ― The product of matrices A∈Rm×n and B∈Rn×p is a matrix of size Rn×p, such that:**
 
-&#10230;
+<div dir="rtl">
+  مصفوفة - مصفوفة - ضرب المصفوفة $A \in \mathbb{R}^{n \times m}$ و $A \in \mathbb{R}^{n \times p}$ ينتجه عنه المصفوفة $A \in \mathbb{R}^{n \times p}$ حيث أن : 
+</div>
 
 <br>
 
 **20. where aTr,i,bTr,i are the vector rows and ac,j,bc,j are the vector columns of A and B respectively**
 
-&#10230;
+<div dir="rtl">
+حيث $a^T_{r, i}$ و $b^T_{r, i}$ يعتبر متجه الصفوف $a_{c, j}$ و b_{c, j}$ متجه الأعمدة $A$ و $B$ على التوالي.
+</div>
 
 <br>
 
 **21. Other operations**
 
-&#10230;
+<div dir="rtl">
+  عمليات أخرى
+</div>
 
 <br>
 
 **22. Transpose ― The transpose of a matrix A∈Rm×n, noted AT, is such that its entries are flipped:**
 
-&#10230;
+<div dir="rtl">
+  المنقول  - منقول المصفوفة$A \in \mathbb{R}^{m \times n}$ يرمز له ب $A^T$ حيث الصفوف يتم تبديلها مع الأعمدة : 
+</div>
 
 <br>
 
 **23. Remark: for matrices A,B, we have (AB)T=BTAT**
 
-&#10230;
-
+<div dir="rtl">
+   ملاحظة: لأي مصفوفتين $A$ و $B$، نستنتج $(AB)^T = B^T A^T$. 
+</div>
 <br>
 
 **24. Inverse ― The inverse of an invertible square matrix A is noted A−1 and is the only matrix such that:**
 
-&#10230;
-
+<div dir="rtl">
+   المعكوس - معكوس أي مصفوفة $A$ قابلة للعكس يرمز له ب $A^{-1}$ وتعتبر المعكوس المصفوفة الوحيدة التي لديها الخاصية التالية :
+</div>
 <br>
 
 **25. Remark: not all square matrices are invertible. Also, for matrices A,B, we have (AB)−1=B−1A−1**
 
-&#10230;
+<div dir="rtl">
+ملاحظة: ليس جميع المصفوفات يمكن أيجاد معكوس لها. كذلك لأي مصفوفتين $A$ و $B$ نستنتج $(AB)^{-1} = B^{-1} A^{-1}$.
+</div>
 
 <br>
 
 **26. Trace ― The trace of a square matrix A, noted tr(A), is the sum of its diagonal entries:**
 
-&#10230;
-
+<div dir="rtl">
+أثر المصفوفة (trace) - أثر أي مصفوفة مربعة $A$ يرمز له ب $tr(A)$ يعتبر مجموع العناصر التي في القطر. 
+</div>
 <br>
 
 **27. Remark: for matrices A,B, we have tr(AT)=tr(A) and tr(AB)=tr(BA)**
 
-&#10230;
-
+<div dir="rtl">
+ ملاحظة : لأي مصفوفتين $A$ و $B$ لدينا $tr(A^T) = tr(A)$ و $tr(AB) = tr(BA)$. 
+</div>
 <br>
 
 **28. Determinant ― The determinant of a square matrix A∈Rn×n, noted |A| or det(A) is expressed recursively in terms of A∖i,∖j, which is the matrix A without its ith row and jth column, as follows:**
 
-&#10230;
-
+<div dir="rtl">
+المحدد - المحدد لأي مصفوفة مربعة من الشكل $A \in \mathbb{R}^{n \times n}$ يرمز له ب $|A|$ او $det(A)$يتم تعريفه بإستخدام $ِA_{\\i,\\j}$ والذي يعتبر المصفوفة $A$ مع حذف الصف $i$ والعمود $j$ كالتالي : 
+</div>
 <br>
 
 **29. Remark: A is invertible if and only if |A|≠0. Also, |AB|=|A||B| and |AT|=|A|.**
 
-&#10230;
-
+<div dir="rtl">
+ ملاحظة: $A$ يكون لديه معكوذ إذا وفقط إذا $\neq 0 |A|$. كذلك $|A B| = |A| |B|$ و $|A^T| = |A|$. 
+</div>
 <br>
 
 **30. Matrix properties**
 
-&#10230;
-
+<div dir="rtl">
+خواص المصفوفات
+</div>
 <br>
 
 **31. Definitions**
 
-&#10230;
-
+<div dir="rtl">
+التعريفات
+</div>
 <br>
 
 **32. Symmetric decomposition ― A given matrix A can be expressed in terms of its symmetric and antisymmetric parts as follows:**
 
-&#10230;
-
+<div dir="rtl">
+  التفكيك المتماثل - المصفوفة $A$ يمكن التعبير عنها بإستخدام جزئين مثماثل وغير متماثل كالتالي : 
+</div>
 <br>
 
 **33. [Symmetric, Antisymmetric]**
 
-&#10230;
+<div dir="rtl">
+[متماثل، غير متماثل]
+</div>
 
 <br>
 
 **34. Norm ― A norm is a function N:V⟶[0,+∞[ where V is a vector space, and such that for all x,y∈V, we have:**
 
-&#10230;
-
+<div dir="rtl">
+المعيار (norm) - المعيار يعتبر دالة $N: V \to [0, +\infity)$ حيث $V$ يعتبر فضاء متجه، حيث أن لكل $x,y \in V$ لدينا :
+</div>
 <br>
 
 **35. N(ax)=|a|N(x) for a scalar**
 
-&#10230;
-
+<div dir="rtl">
+لأي عدد $a$ فإن $N(ax) = |a| N(x)$
+</div>
 <br>
 
 **36. if N(x)=0, then x=0**
 
-&#10230;
-
+<div dir="rtl">
+$N(x) =0 \implies x = 0$
+</div>
 <br>
 
 **37. For x∈V, the most commonly used norms are summed up in the table below:**
 
-&#10230;
-
+<div dir="rtl">
+لأي $x \in V$ المعايير الأكثر إستخداماً ملخصة في الجدول التالي:
+</div>
 <br>
 
 **38. [Norm, Notation, Definition, Use case]**
 
-&#10230;
-
+<div dir="rtl">
+[المعيار، الرمز، التعريف، مثال للإستخدام]
+</div>
 <br>
 
 **39. Linearly dependence ― A set of vectors is said to be linearly dependent if one of the vectors in the set can be defined as a linear combination of the others.**
 
-&#10230;
-
+<div dir="rtl">
+الإتباع الخطي: مجموعة المتجهات تعتبر تابعة خطياً إذا وفقط إذا كل متجه يمكن كتابته بشكل خطي بإسخدام مجموعة من المتجهات الأخرى. 
+</div>
 <br>
 
 **40. Remark: if no vector can be written this way, then the vectors are said to be linearly independent**
 
-&#10230;
-
+<div dir="rtl">
+ملاحظة: إذا لم يتحقق هذا الشرط فإنها تسمى مستقلة خطياً . 
+</div>
 <br>
 
 **41. Matrix rank ― The rank of a given matrix A is noted rank(A) and is the dimension of the vector space generated by its columns. This is equivalent to the maximum number of linearly independent columns of A.**

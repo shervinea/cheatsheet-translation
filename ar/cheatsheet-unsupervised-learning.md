@@ -1,61 +1,73 @@
 **1. Unsupervised Learning cheatsheet**
 
-&#10230;
+<div dir="rtl">
+ورقة مراجعة للتعلم بدون إشراف
+</div>
 
 <br>
 
 **2. Introduction to Unsupervised Learning**
 
-&#10230;
+<div dir=\"rtl\">
+  مقدمة للتعلم بدون إشراف
+</div>
 
 <br>
 
 **3. Motivation ― The goal of unsupervised learning is to find hidden patterns in unlabeled data {x(1),...,x(m)}.**
 
-&#10230;
+<div dir=\"rtl\"> 
+  {x(1),...,x(m)} الحافز ― الهدف من التعلم بدون إشراف هو إيجاد الأنماط الخفية في البيانات الغير موسومة 
+</div> 
 
 <br>
 
 **4. Jensen's inequality ― Let f be a convex function and X a random variable. We have the following inequality:**
 
-&#10230;
+<div dir="rtl">
+متباينة جينسن  ― لتكن f دالة محدبة و X متغير عشوائي. لدينا المتفاوتة التالية
+:
+</div>
 
 <br>
 
 **5. Clustering**
 
-&#10230;
-
+<div dir="rtl">
+  تجميع
+</div>
 <br>
 
 **6. Expectation-Maximization**
 
-&#10230;
-
+<div dir="rtl">
+تحقيق أقصى قدر للتوقع
+</div>
 <br>
 
 **7. Latent variables ― Latent variables are hidden/unobserved variables that make estimation problems difficult, and are often denoted z. Here are the most common settings where there are latent variables:**
 
-&#10230;
-
+<div dir="rtl">
+المتغيرات الكامنة ― المتغيرات الكامنة هي متغيرات باطنية/غير معاينة تزيد من صعوبة مشاكل التقدير، غالبا ما ترمز بالحرف z. في مايلي الإعدادات الشائعة التي تحتوي على متغيرات كامنة.</div>
 <br>
 
 **8. [Setting, Latent variable z, Comments]**
 
-&#10230;
-
+<div dir="rtl">
+إعداد، متغير كامن z، تعاليق</div>
 <br>
 
 **9. [Mixture of k Gaussians, Factor analysis]**
 
-&#10230;
-
+<div dir="rtl">
+مزيج من k غاوسيات، تحليل العوامل </div>
 <br>
 
 **10. Algorithm ― The Expectation-Maximization (EM) algorithm gives an efficient method at estimating the parameter θ through maximum likelihood estimation by repeatedly constructing a lower-bound on the likelihood (E-step) and optimizing that lower bound (M-step) as follows:**
 
-&#10230;
-
+<div dir="rtl">
+خوارزمية ― خوارزمية تحقيق أقصى قدر للتوقع هي عبارة عن طريقة فعالة لتقدير المعامل θ عبر تقدير الاحتمال الأرجح، و يتم ذلك بشكل تكراري حيث يتم إيجاد حد أدنى لدالة الإمكان (الخطوة M) ثم يتم استمثال ذلك الحد الأدنى (الخطوة E) كما يلي:
+</div>
 <br>
 
 **11. E-step: Evaluate the posterior probability Qi(z(i)) that each data point x(i) came from a particular cluster z(i) as follows:**

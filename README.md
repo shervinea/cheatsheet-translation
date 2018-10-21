@@ -3,7 +3,7 @@
 This repository aims at collaboratively translating our [Machine Learning cheatsheets](https://github.com/afshinea/stanford-cs-229-machine-learning) into a ton of languages, so that this content can be enjoyed by anyone from any part of the world!
 
 ## Progression
-|Cheatsheet topic|Español|فارسی|Français|日本語|Português|简体中文|
+|Cheatsheet topic|Español|فارسی|Français|日本語|Português|中文|
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|
 |Deep learning|done|done|done|not started|done|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/12)|
 |Supervised learning|done|done|done|not started|done|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/52)|

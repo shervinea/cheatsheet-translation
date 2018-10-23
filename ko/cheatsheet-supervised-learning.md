@@ -1,66 +1,66 @@
 **1. Supervised Learning cheatsheet**
 
-&#10230;
+&#10230; 지도 학습 치트시트
 
 <br>
 
 **2. Introduction to Supervised Learning**
 
-&#10230;
+&#10230; 지도 학습 소개
 
 <br>
 
 **3. Given a set of data points {x(1),...,x(m)} associated to a set of outcomes {y(1),...,y(m)}, we want to build a classifier that learns how to predict y from x.**
 
-&#10230;
+&#10230; 일련의 데이터 포인트 {x(1),...,x(m)}와 연관된 출력 {y(1),...,y(m)}이 주어졌을 때 분류기가 x로부터 y를 예측하는 방법을 학습합니다.
 
 <br>
 
 **4. Type of prediction ― The different types of predictive models are summed up in the table below:**
 
-&#10230;
+&#10230; 예측의 종류 - 예측 모델의 종류가 아래 표에 정리되어 있습니다.
 
 <br>
 
 **5. [Regression, Classifier, Outcome, Examples]**
 
-&#10230;
+&#10230; [회귀(Regression), 분류(Classification), 출력, 샘플]
 
 <br>
 
 **6. [Continuous, Class, Linear regression, Logistic regression, SVM, Naive Bayes]**
 
-&#10230;
+&#10230; [연속, 클래스(Class), 선형 회귀(Linear regression), 로지스틱 회귀(Logistic regression), SVM, 나이브 베이즈(Naive Bayes)]
 
 <br>
 
 **7. Type of model ― The different models are summed up in the table below:**
 
-&#10230;
+&#10230; 모델의 종류 - 모델의 종류가 아래 표에 정리되어 있습니다.
 
 <br>
 
 **8. [Discriminative model, Generative model, Goal, What's learned, Illustration, Examples]**
 
-&#10230;
+&#10230; [판별 모델, 생성 모델, 목표, 학습하는 것, 그림, 예]
 
 <br>
 
 **9. [Directly estimate P(y|x), Estimate P(x|y) to then deduce P(y|x), Decision boundary,  	Probability distributions of the data, Regressions, SVMs, GDA, Naive Bayes]**
 
-&#10230;
+&#10230; [직접 P(y|x)를 추정, P(x|y)를 추정하여 P(y|x)를 추론하기 , 결정 경계, 데이터의 확률 분포, 회귀, SVM, GDA, 나이브 베이즈]
 
 <br>
 
 **10. Notations and general concepts**
 
-&#10230;
+&#10230; 표기법과 일반 개념
 
 <br>
 
 **11. Hypothesis ― The hypothesis is noted hθ and is the model that we choose. For a given input data x(i) the model prediction output is hθ(x(i)).**
 
-&#10230;
+&#10230; 가설 - 가설은 hθ로 표시하며 선택한 하나의 모델입니다. 입력 데이터 x(i)에 대한 모델의 예측 출력은 hθ(x(i))가 됩니다.
 
 <br>
 

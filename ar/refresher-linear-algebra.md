@@ -1,7 +1,7 @@
 **1. Linear Algebra and Calculus refresher**
 
 <div dir="rtl">
-الجبر الخطي وحساب التفاضل والتكامل
+  ملخص عن الجبر الخطي
 </div>
 <br>
 
@@ -22,21 +22,21 @@
 
 **4. Vector ― We note x∈Rn a vector with n entries, where xi∈R is the ith entry:**
 <div dir="rtl">
-  متجه- نرمز ل $x \in \mathbb{R^n}$ متجه يحتوي على $n$ مدخلات، حيث $x_i \in \mathbb{R}$  يعتبر المدخل رقم i . 
+  متجه (vector) - نرمز ل $x \in \mathbb{R^n}$ متجه يحتوي على $n$ مدخلات، حيث $x_i \in \mathbb{R}$  يعتبر المدخل رقم $i$ . 
 </div>
 <br>
 
 **5. Matrix ― We note A∈Rm×n a matrix with m rows and n columns, where Ai,j∈R is the entry located in the ith row and jth column:**
 
 <div dir="rtl">
-  مصفوفة - نرمز ل $A \in \mathbb{R}^{m\times n}$ مصفوفة تحتوي على $m$ صفوف و $n$ أعمدة، حيث $A_{i,j}$  يرمز للمدخل في الصف i و العمود j 
+ مصفوفة (Matrix) - نرمز ل ${A \in \mathbb{R}^{m\times n$ مصفوفة تحتوي على $m$ صفوف و $n$ أعمدة، حيث $A_{i,j}$  يرمز للمدخل في الصف$ i$ و العمود $j$  
 </div>
 
 <br>
 
 **6. Remark: the vector x defined above can be viewed as a n×1 matrix and is more particularly called a column-vector.**
 <div dir="rtl">
-ملاحظة : المتجه $x$ المعرف مسبقا يمكن اعتباره مصفوفة من الشكل $n \times 1$ والذي يتم تسميته ب مصفوفة من عمود واحد 
+ملاحظة : المتجه $x$ المعرف مسبقا يمكن اعتباره مصفوفة من الشكل $n \times 1$ والذي يتم تسميته ب مصفوفة من عمود واحد.
 </div>
 
 <br>
@@ -50,28 +50,30 @@
 
 **8. Identity matrix ― The identity matrix I∈Rn×n is a square matrix with ones in its diagonal and zero everywhere else:**
 <div dir="rtl">
-مصفوفة الوحدة - مصفوفة الوحدة $I \in \mathbb{R^{n\times n}$ تعتبر مصفوفة مربعة تحتوي على المدخل 1 في قطر المصفوفة و 0 في بقية المدخلات
+  مصفوفة الوحدة (Identity) - مصفوفة الوحدة $I \in \mathbb{R^{n\times n}$ تعتبر مصفوفة مربعة تحتوي على المدخل 1 في قطر المصفوفة و 0 في بقية المدخلات:
+
 </div>
 <br>
 
 **9. Remark: for all matrices A∈Rn×n, we have A×I=I×A=A.**
 
 <div dir="rtl">
-ملاحظة : جميع المصفوفات من الشكل $A \in \mathbb{R^{n\times n}}$  فإن $A \times I = I \times A = A$.</div>
+ملاحظة : جميع المصفوفات من الشكل $A \in \mathbb{R^}{n\times n}$  فإن $A \times I = I \times A = A$.
+</div>
 <br>
 
 **10. Diagonal matrix ― A diagonal matrix D∈Rn×n is a square matrix with nonzero values in its diagonal and zero everywhere else:**
 <div dir="rtl">
-مصفوفة قطرية - المصفوفة القطرية هي مصفوفة من الشكل $D \in \mathbb{R^{n\times n}}$  حيث أن جميع العناصر الواقعة خارج القطر الرئيسي تساوي الصفر والعناصر على القطر الرئيسي تحتوي أعداد لاتساوي الصفر.   
+مصفوفة قطرية (diagonal) - المصفوفة القطرية هي مصفوفة من الشكل
+ $D \in \mathbb{R}^{n\times n}$  حيث أن جميع العناصر الواقعة خارج القطر الرئيسي تساوي الصفر والعناصر على القطر الرئيسي تحتوي أعداد لاتساوي الصفر.   
 </div>
 <br>
 
 **11. Remark: we also note D as diag(d1,...,dn).**
 
 <div dir="rtl">
-ملاحظة: نرمز كذلك ل $D$ ب $text{diag}(d_1, \dots, d_n)\$ 
+ملاحظة: نرمز كذلك ل $D$ ب $text{diag}(d_1, \dots, d_n)\$.
 </div>
-
 <br>
 
 **12. Matrix operations**
@@ -101,7 +103,7 @@
 **15. inner product: for x,y∈Rn, we have:**
 
 <div dir="rtl">
-  ضرب داخلي: ل $x,y \in \mathbb{R}^n$ نستنتج :
+  ضرب داخلي (inner product): ل $x,y \in \mathbb{R}^n$ نستنتج :
 </div>
 
 <br>
@@ -109,7 +111,7 @@
 **16. outer product: for x∈Rm,y∈Rn, we have:**
 
 <div dir="rtl">
-  ضرب خارجي:  ل $x \in \mathbb{m}, y \in \mathbb{R}^n$ نستنتج : 
+  ضرب خارجي (outer product):  ل $x \in \mathbb{m}, y \in \mathbb{R}^n$ نستنتج : 
 </div>
 
 <br>
@@ -119,7 +121,6 @@
 <div dir="rtl">
   مصفوفة - متجه : ضرب المصفوفة $A \in \mathbb{R}^{n\times m}$ والمتجه $x \in \mathbb{R}^n$ ينتجه متجه من الشكل $x \in \mathbb{R}^n$ حيث : 
 </div>
-
 <br>
 
 **18. where aTr,i are the vector rows and ac,j are the vector columns of A, and xi are the entries of x.**
@@ -141,7 +142,7 @@
 **20. where aTr,i,bTr,i are the vector rows and ac,j,bc,j are the vector columns of A and B respectively**
 
 <div dir="rtl">
-حيث $a^T_{r, i}$ و $b^T_{r, i}$ يعتبر متجه الصفوف $a_{c, j}$ و b_{c, j}$ متجه الأعمدة $A$ و $B$ على التوالي.
+حيث $a^T_{r, i}$ و $b^T_{r, i}$ يعتبر متجه الصفوف $a_{c, j}$ و b_{c, j}$ متجه الأعمدة ل $A$ و $B$ على التوالي.
 </div>
 
 <br>
@@ -157,7 +158,7 @@
 **22. Transpose ― The transpose of a matrix A∈Rm×n, noted AT, is such that its entries are flipped:**
 
 <div dir="rtl">
-  المنقول  - منقول المصفوفة$A \in \mathbb{R}^{m \times n}$ يرمز له ب $A^T$ حيث الصفوف يتم تبديلها مع الأعمدة : 
+  المنقول (Transpose) - منقول المصفوفة$A \in \mathbb{R}^{m \times n}$ يرمز له ب $A^T$ حيث الصفوف يتم تبديلها مع الأعمدة : 
 </div>
 
 <br>
@@ -172,7 +173,7 @@
 **24. Inverse ― The inverse of an invertible square matrix A is noted A−1 and is the only matrix such that:**
 
 <div dir="rtl">
-   المعكوس - معكوس أي مصفوفة $A$ قابلة للعكس يرمز له ب $A^{-1}$ وتعتبر المعكوس المصفوفة الوحيدة التي لديها الخاصية التالية :
+   المعكوس (Inverse)- معكوس أي مصفوفة $A$ قابلة للعكس (Invertible) يرمز له ب $A^{-1}$ ويعتبر المعكوس المصفوفة الوحيدة التي لديها الخاصية التالية :
 </div>
 <br>
 
@@ -187,7 +188,7 @@
 **26. Trace ― The trace of a square matrix A, noted tr(A), is the sum of its diagonal entries:**
 
 <div dir="rtl">
-أثر المصفوفة (trace) - أثر أي مصفوفة مربعة $A$ يرمز له ب $tr(A)$ يعتبر مجموع العناصر التي في القطر. 
+أثر المصفوفة (Trace) - أثر أي مصفوفة مربعة $A$ يرمز له ب $tr(A)$ يعتبر مجموع العناصر التي في القطر:
 </div>
 <br>
 
@@ -201,7 +202,7 @@
 **28. Determinant ― The determinant of a square matrix A∈Rn×n, noted |A| or det(A) is expressed recursively in terms of A∖i,∖j, which is the matrix A without its ith row and jth column, as follows:**
 
 <div dir="rtl">
-المحدد - المحدد لأي مصفوفة مربعة من الشكل $A \in \mathbb{R}^{n \times n}$ يرمز له ب $|A|$ او $det(A)$يتم تعريفه بإستخدام $ِA_{\\i,\\j}$ والذي يعتبر المصفوفة $A$ مع حذف الصف $i$ والعمود $j$ كالتالي : 
+المحدد (Determinant) - المحدد لأي مصفوفة مربعة من الشكل $A \in \mathbb{R}^{n \times n}$ يرمز له ب $|A|$ او $det(A)$يتم تعريفه بإستخدام $ِA_{\\i,\\j}$ والذي يعتبر المصفوفة $A$ مع حذف الصف $i$ والعمود $j$ كالتالي : 
 </div>
 <br>
 
@@ -229,7 +230,7 @@
 **32. Symmetric decomposition ― A given matrix A can be expressed in terms of its symmetric and antisymmetric parts as follows:**
 
 <div dir="rtl">
-  التفكيك المتماثل - المصفوفة $A$ يمكن التعبير عنها بإستخدام جزئين مثماثل وغير متماثل كالتالي : 
+  التفكيك المتماثل (Symmetric Decomposition)- المصفوفة $A$ يمكن التعبير عنها بإستخدام جزئين مثماثل (Symmetric) وغير متماثل(Antisymmetric) كالتالي : 
 </div>
 <br>
 
@@ -244,7 +245,7 @@
 **34. Norm ― A norm is a function N:V⟶[0,+∞[ where V is a vector space, and such that for all x,y∈V, we have:**
 
 <div dir="rtl">
-المعيار (norm) - المعيار يعتبر دالة $N: V \to [0, +\infity)$ حيث $V$ يعتبر فضاء متجه، حيث أن لكل $x,y \in V$ لدينا :
+المعيار (Norm) - المعيار يعتبر دالة $N: V \to [0, +\infity)$ حيث $V$ يعتبر فضاء متجه (Vector Space)، حيث أن لكل $x,y \in V$ لدينا :
 </div>
 <br>
 
@@ -279,7 +280,7 @@ $N(x) =0 \implies x = 0$
 **39. Linearly dependence ― A set of vectors is said to be linearly dependent if one of the vectors in the set can be defined as a linear combination of the others.**
 
 <div dir="rtl">
-الإتباع الخطي: مجموعة المتجهات تعتبر تابعة خطياً إذا وفقط إذا كل متجه يمكن كتابته بشكل خطي بإسخدام مجموعة من المتجهات الأخرى. 
+الإتباع الخطي (Linear Dependence): مجموعة المتجهات تعتبر تابعة خطياً إذا وفقط إذا كل متجه يمكن كتابته بشكل خطي بإسخدام مجموعة من المتجهات الأخرى. 
 </div>
 <br>
 
@@ -300,7 +301,7 @@ $N(x) =0 \implies x = 0$
 **42. Positive semi-definite matrix ― A matrix A∈Rn×n is positive semi-definite (PSD) and is noted A⪰0 if we have:**
 
 <div dir="rtl">
-  مصفوفة شبه معرفة موجبة (positive semi definite) - هي مصفوفة   $A \in \mathbb{R}^{n \times n}$ تعتبر مصفوفة شبه معرفة موجبة (PSD) ويرمز لها بالرمز  $A \succed 0  $ إذا : 
+  مصفوفة شبه معرفة موجبة (Positive semi-definite) - المصفوفة  $A \in \mathbb{R}^{n \times n}$ تعتبر مصفوفة شبه معرفة موجبة (PSD) ويرمز لها بالرمز  $A \succed 0  $ إذا : 
 </div>
 <br>
 

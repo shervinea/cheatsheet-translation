@@ -11,6 +11,7 @@ This repository aims at collaboratively translating our [Machine Learning cheats
 |ML tips and tricks|done|done|done|not started|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/57)|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/7)|
 |Probabilities and Statistics|done|done|done|not started|done|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/73)|
 |Linear algebra|done|done|done|not started|done|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/72)|
+
 |Cheatsheet topic|العَرَبِيَّة|עִבְרִית|हिन्दी|Türkçe|Русский|
 |:---|:---:|:---:|:---:|:---:|:---:|
 |Deep learning|not started|not started|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/37)|done|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/21)|
@@ -37,7 +38,7 @@ Please first check for [existing pull requests](https://github.com/shervinea/che
 
 1. Fork the repository.
 
-2. Go to the folder associated to the language of your choice (e.g. `es/` for Spanish, `zh/` for Mandarin Chinese).
+2. Go to the folder associated to the language of your choice (e.g. `es/` for Spanish, `zh/` for Mandarin Chinese). If it is not created yet, copy `template/` into a language folder with a naming that follows the [ISO 639-1 notation](https://www.loc.gov/standards/iso639-2/php/code_list.php).
 
 3. Translate anything you want by keeping the following template:
 > 34. **English blabla**

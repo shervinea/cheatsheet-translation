@@ -133,115 +133,115 @@
 
 **23. We assume here that y|x;θ∼N(μ,σ2)**
 
-&#10230;
+هنا نفترض أن y|x;θ∼N(μ,σ2)
 
 <br>
 
 **24. Normal equations ― By noting X the matrix design, the value of θ that minimizes the cost function is a closed-form solution such that:**
 
-&#10230;
+معادلة Normal - إذا كان لدينا المصفوفة X، القيمة θ التي تقلل من دالة التكلفة يمكن حلها رياضياً بشكل مغلق (closed-form) عن طريق:
 
 <br>
 
 **25. LMS algorithm ― By noting α the learning rate, the update rule of the Least Mean Squares (LMS) algorithm for a training set of m data points, which is also known as the Widrow-Hoff learning rule, is as follows:**
 
-&#10230;
+خوارزمية LMS - إذا كان لدينا معدل التعلّم α، فإن قانون التحديث لخوارزمية معدل المربعات الأصغر (Least Mean Squares (LMS)) لمجموعة بيانات من m عينة، ويطلق عليه قانون تعلم ويدرو-هوف (Widrow-Hoff)، كالتالي:
 
 <br>
 
 **26. Remark: the update rule is a particular case of the gradient ascent.**
 
-&#10230;
+ملاحظة: قانون التحديث هذا يعتبر حالة خاصة من الهبوط التفاضلي (Gradient descent).
 
 <br>
 
 **27. LWR ― Locally Weighted Regression, also known as LWR, is a variant of linear regression that weights each training example in its cost function by w(i)(x), which is defined with parameter τ∈R as:**
 
-&#10230;
+LWR - الارتباط الموزون محلّياً (Locally Weighted Regression)، ويعرف بـ LWR، هو نوع من الارتباط الخطي يَزِن كل عينة تدريب أثناء حساب دالة التكلفة باستخدام w(i)(x)، التي يمكن تعريفها باستخدام المعامل τ∈R كالتالي:
 
 <br>
 
 **28. Classification and logistic regression**
 
-&#10230;
+التصنيف والارتباط اللوجستي
 
 <br>
 
 **29. Sigmoid function ― The sigmoid function g, also known as the logistic function, is defined as follows:**
 
-&#10230;
+دالة سيجمويد (Sigmoid) - دالة سيجمويد g، وتعرف كذلك بالدالة اللوجستية، تعرّف كالتالي:
 
 <br>
 
 **30. Logistic regression ― We assume here that y|x;θ∼Bernoulli(ϕ). We have the following form:**
 
-&#10230;
+الارتباط اللوجستي (Logistic regression) - نفترض هنا أن  y|x;θ∼Bernoulli(ϕ). فيكون لدينا:
 
 <br>
 
 **31. Remark: there is no closed form solution for the case of logistic regressions.**
 
-&#10230;
+ملاحظة: ليس هناك حل رياضي مغلق للارتباط اللوجستي.
 
 <br>
 
 **32. Softmax regression ― A softmax regression, also called a multiclass logistic regression, is used to generalize logistic regression when there are more than 2 outcome classes. By convention, we set θK=0, which makes the Bernoulli parameter ϕi of each class i equal to:**
 
-&#10230;
+Softmax regression - ويطلق عليه الارتباط اللوجستي متعدد الفئات (multiclass logistic regression)، يستخدم لتعميم الارتباط اللوجستي إذا كان لدينا أكثر من فئتين. في العرف يتم تعيين θK=0، بحيث تجعل معامل بيرنوللي (Bernoulli) ϕi لكل فئة i يساوي:
 
 <br>
 
 **33. Generalized Linear Models**
 
-&#10230;
+النماذج الخطية العامة (Generalized Linear Models)
 
 <br>
 
 **34. Exponential family ― A class of distributions is said to be in the exponential family if it can be written in terms of a natural parameter, also called the canonical parameter or link function, η, a sufficient statistic T(y) and a log-partition function a(η) as follows:**
 
-&#10230;
+العائلة الأسيّة (Exponential family) - يطلق على صنف من التوزيعات (distributions) بأنها تنتمي إلى العائلة الأسيّة إذا كان يمكن كتابتها ###########
 
 <br>
 
 **35. Remark: we will often have T(y)=y. Also, exp(−a(η)) can be seen as a normalization parameter that will make sure that the probabilities sum to one.**
 
-&#10230;
+ملاحظة: كثيراً ما سيكون T(y)=y. كذلك فإن exp(−a(η)) يمكن أن تفسر كمُعامل تسوية (normalization) للتأكد من أن الاحتمالات يكون حاصل جمعها واحد.
 
 <br>
 
 **36. Here are the most common exponential distributions summed up in the following table:**
 
-&#10230;
+أكثر التوزيعات الأسيّة استخداماً تم تلخيصها في الجدول التالي:
 
 <br>
 
 **37. [Distribution, Bernoulli, Gaussian, Poisson, Geometric]**
 
-&#10230;
+[التوزيع، بيرنوللي (Bernoulli)، Gaussian، Poisson، Geometric]
 
 <br>
 
 **38. Assumptions of GLMs ― Generalized Linear Models (GLM) aim at predicting a random variable y as a function fo x∈Rn+1 and rely on the following 3 assumptions:**
 
-&#10230;
+افتراضات GLMs - تهدف النماذج الخطيّة العامة (GLM) إلى توقع القيمة العشوائية y كدالة لـ x∈Rn+1، وتستند إلى ثلاثة افتراضات:
 
 <br>
 
 **39. Remark: ordinary least squares and logistic regression are special cases of generalized linear models.**
 
-&#10230;
+ملاحظة: المربعات الصغرى (least squares) الاعتيادية و الارتباط اللوجستي يعتبران من الحالات الخاصة للنماذج الخطيّة العامة.
 
 <br>
 
 **40. Support Vector Machines**
 
-&#10230;
+Support Vector Machines
 
 <br>
 
 **41: The goal of support vector machines is to find the line that maximizes the minimum distance to the line.**
 
-&#10230;
+تهدف Support Vector Machines إلى العثور على الخط الذي يعظم المسافة الدنيا إلى الخط:
 
 <br>
 

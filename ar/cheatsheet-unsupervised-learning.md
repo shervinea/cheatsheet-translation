@@ -17,7 +17,7 @@
 **3. Motivation ― The goal of unsupervised learning is to find hidden patterns in unlabeled data {x(1),...,x(m)}.**
 
 <div dir=\"rtl\"> 
-  {x(1),...,x(m)} الحافز ― الهدف من التعلم بدون إشراف هو إيجاد الأنماط الخفية في البيانات الغير موسومة 
+  {x(1),...,x(m)} الحافز ― الهدف من التعلم بدون إشراف هو إيجاد الأنماط الخفية في البيانات غير الموسومة 
 </div> 
 
 <br>
@@ -72,32 +72,37 @@
 
 **11. E-step: Evaluate the posterior probability Qi(z(i)) that each data point x(i) came from a particular cluster z(i) as follows:**
 
-&#10230;
-
+<div dir="rtl">
+الخطوة E : حساب الاحتمال البعدي Qi(z(i)) بأن تصدر كل نقطة x(i) من التجمع z(i) كما يلي:
+</div>
 <br>
 
 **12. M-step: Use the posterior probabilities Qi(z(i)) as cluster specific weights on data points x(i) to separately re-estimate each cluster model as follows:**
 
-&#10230;
-
+<div dir="rtl">
+الخطوة M : يتم استعمال الاحتمالات البعدية Qi(z(i)) كأثقال خاصة لكل تجمع على النقط x(i) ، لكي يتم تقدير نموذج لكل تجمع بشكل منفصل، و ذلك كما يلي: 
+</div>
 <br>
 
 **13. [Gaussians initialization, Expectation step, Maximization step, Convergence]**
 
-&#10230;
-
+<div dir="rtl">
+[تهيئة غاوسية، خطوة التوقع، خطوة التعظيم، التقاء]
+</div>
 <br>
 
 **14. k-means clustering**
 
-&#10230;
-
+<div dir="rtl">
+تجميع k-أوساط
+</div>
 <br>
 
 **15. We note c(i) the cluster of data point i and μj the center of cluster j.**
 
-&#10230;
-
+<div dir="rtl">
+نرمز تجمع النقط i ب c(i) ، و نرمز ب μj  j مركز التجمع
+</div>
 <br>
 
 **16. Algorithm ― After randomly initializing the cluster centroids μ1,μ2,...,μk∈Rn, the k-means algorithm repeats the following step until convergence:**

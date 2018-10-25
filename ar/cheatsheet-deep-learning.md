@@ -1,38 +1,38 @@
 **1. Deep Learning cheatsheet**
 
 &#10230;
-
-<br> ورقة غش التعلم العميق
+ورقة غش التعلم العميق
+<br> 
 
 **2. Neural Networks**
 
 &#10230;
-
-<br> الشبكة العصبونية الاصطناعية
-
+الشبكة العصبونية الاصطناعية
+<br> 
 **3. Neural networks are a class of models that are built with layers. Commonly used types of neural networks include convolutional and recurrent neural networks.**
 
 &#10230;
+الشبكة العصبونية الاصطناعيةهي عبارة عن نوع من النماذج يبنى من عدة طبقات , اكثر هذة الانواع استخداما هي الشبكات الالتفافية و الشبكات العصبونية المتكرره
 
-<br> الشبكة العصبونية الاصطناعيةهي عبارة عن نوع من النماذج يبنى من عدة طبقات , اكثر هذة الانواع استخداما هي الشبكات الالتفافية و الشبكات العصبونية المتكرره
+<br> 
 
 **4. Architecture ― The vocabulary around neural networks architectures is described in the figure below:**
 
 &#10230;
-
-<br> البنية - المصطلحات حول بنية الشبكة العصبونية موضح في الشكل ادناة
+البنية - المصطلحات حول بنية الشبكة العصبونية موضح في الشكل ادناة
+<br> 
 
 **5. [Input layer, hidden layer, output layer]**
 
 &#10230;
-
-<br> [طبقة ادخال, طبقة مخفية, طبقة اخراج ] 
+[طبقة ادخال, طبقة مخفية, طبقة اخراج ]
+<br>  
 
 **6. By noting i the ith layer of the network and j the jth hidden unit of the layer, we have:**
 
 &#10230;
-
-<br> عبر تدوين i كالطبقة رقم i و j للدلالة على رقم الوحده الخفية في تلك الطبقة , نحصل على: 
+عبر تدوين i كالطبقة رقم i و j للدلالة على رقم الوحده الخفية في تلك الطبقة , نحصل على:
+<br>  
 
 **7. where we note w, b, z the weight, bias and output respectively.**
 

@@ -98,7 +98,7 @@
 
 &#10230;
 
-<br> الخطوة 3: قم بتغذية الخساره خلفيا للحصول على القريدينت 
+<br> الخطوة 3: قم بتغذية الخساره خلفيا للحصول على دالة الانحدار 
 
 **18. Step 4: Use the gradients to update the weights of the network.**
 
@@ -116,25 +116,25 @@
 
 &#10230;
 
-<br> الشبكات العصبونية التداخلية
+<br> الشبكات العصبونية الالتفافية
 
 **21. Convolutional layer requirement ― By noting W the input volume size, F the size of the convolutional layer neurons, P the amount of zero padding, then the number of neurons N that fit in a given volume is such that:**
 
 &#10230;
 
-<br>احتياج الطبقة التداخلية - عبر رمز w لحجم المدخل , F حجم العصبونات للطبقة التداخلية , P عدد الحشوات الصفرية , فأن N عدد العصبونات لكل حجم معطى يحسب عبر الاتي: 
+<br>احتياج الطبقة الالتفافية - عبر رمز w لحجم المدخل , F حجم العصبونات للطبقة الالتفافية , P عدد الحشوات الصفرية , فأن N عدد العصبونات لكل حجم معطى يحسب عبر الاتي: 
 
 **22. Batch normalization ― It is a step of hyperparameter γ,β that normalizes the batch {xi}. By noting μB,σ2B the mean and variance of that we want to correct to the batch, it is done as follows:**
 
 &#10230;
 
-<br> تطبيع الحزمة - هي خطوه من قيم التحسين الخاصة γ,β  والتي تعدل الحزمة {xi}. لنجعل μB,σ2B المتوسط و الانحراف للحزمة المعنية و نريد تصحيح هذه الحزمة, يتم ذلك كالتالي:    
+<br> تنظيم الحزمة - هي خطوه من قيم التحسين الخاصة γ,β  والتي تعدل الحزمة {xi}. لنجعل μB,σ2B المتوسط و الانحراف للحزمة المعنية و نريد تصحيح هذه الحزمة, يتم ذلك كالتالي:    
 
 **23. It is usually done after a fully connected/convolutional layer and before a non-linearity layer and aims at allowing higher learning rates and reducing the strong dependence on initialization.**
 
 &#10230;
 
-<br> في الغالب تتم بعد الطبقة التداخلية المتصلة كليا و قبل طبقة التغيرات الغير خطية و تهدف للسماح للسرعات التعليم العالية للتقليل من الاعتمادية القوية للقيم الاولية.
+<br> في الغالب تتم بعد الطبقة الالتفافية المتصلة كليا و قبل طبقة التغيرات الغير خطية و تهدف للسماح للسرعات التعليم العالية للتقليل من الاعتمادية القوية للقيم الاولية.
 
 **24. Recurrent Neural Networks**
 
@@ -146,152 +146,151 @@
 
 &#10230;
 
-<br>
+<br> انواع البوابات - هنا الانواع المختلفة التي ممكن مواجهتها في الشبكة العصبونية الاعتيادية: 
 
 **26. [Input gate, forget gate, gate, output gate]**
 
 &#10230;
 
-<br>
+<br> [بوابة ادخال, بوابة نسيان, بوابة منفذ, بوابة اخراج ]
 
 **27. [Write to cell or not?, Erase a cell or not?, How much to write to cell?, How much to reveal cell?]**
 
 &#10230;
 
-<br>
+<br> [كتابة ام عدم كتابة الى الخلية؟, مسح ام عدم مسح الخلية؟, كمية الكتابة الى الخلية ؟ , مدى الافصاح عن الخلية ؟ ]
 
 **28. LSTM ― A long short-term memory (LSTM) network is a type of RNN model that avoids the vanishing gradient problem by adding 'forget' gates.**
 
 &#10230;
 
-<br>
+<br> LSTM - ذاكرة طويلة قصير الامد (long short-term memory) هي نوع من نموذج ال RNN تستخدم لتجنب مشكلة اختفاء الانحدار عبر اضافة بوابات النسيان. 
 
 **29. Reinforcement Learning and Control**
 
 &#10230;
 
-<br>
+<br> التعلم و التحكم المعزز
 
 **30. The goal of reinforcement learning is for an agent to learn how to evolve in an environment.**
 
 &#10230;
 
-<br>
+<br> الهدف من التعلم المعزز للعميل الذكي هو التعلم لكيفية التأقلم في اي بيئة. 
 
 **31. Definitions**
 
 &#10230;
 
-<br>
+<br> تعريفات
 
 **32. Markov decision processes ― A Markov decision process (MDP) is a 5-tuple (S,A,{Psa},γ,R) where:**
 
 &#10230;
 
-<br>
+<br> عملية ماركوف لاتخاذ القرار - عملية ماركوف لاتخاذ القرار هي سلسلة خماسية (S,A,{Psa},γ,R) حيث
 
 **33. S is the set of states**
 
 &#10230;
 
-<br>
+<br> S هي مجموعة من حالات البيئة
 
 **34. A is the set of actions**
 
 &#10230;
 
-<br>
+<br> A هي مجموعة من حالات الاجراءات
 
 **35. {Psa} are the state transition probabilities for s∈S and a∈A**
 
 &#10230;
 
-<br>
+<br> {Psa} هو حالة احتمال الانتقال من الحالة s∈S و a∈A 
 
 **36. γ∈[0,1[ is the discount factor**
 
 &#10230;
 
-<br>
+<br>  γ∈[0,1[ هي عامل الخصم 
 
 **37. R:S×A⟶R or R:S⟶R is the reward function that the algorithm wants to maximize**
 
 &#10230;
 
-<br>
+<br> R:S×A⟶R or R:S⟶R  هي دالة المكافأة والتي تعمل الخوارزمية على جعلها اعلى قيمة
 
 **38. Policy ― A policy π is a function π:S⟶A that maps states to actions.**
 
 &#10230;
 
-<br>
+<br> دالة القواعد - دالة القواعد π:S⟶A  هي التي تقوم بترجمة الاحالات الى اجراءات. 
 
 **39. Remark: we say that we execute a given policy π if given a state s we take the action a=π(s).**
 
 &#10230;
 
-<br>
-
+<br> تعليق: نقول ان النموذج ينفذ القاعدة المعينه π للحالة المعطاة s ان نتخذ الاجراءa=π(s).   
+ 
 **40. Value function ― For a given policy π and a given state s, we define the value function Vπ as follows:**
 
 &#10230;
 
-<br>
+<br>  دالة القاعدة - لاي قاعدة معطاة π و حالة s, نقوم بتعريف دالة القيمة Vπ  كما يلي:    
 
 **41. Bellman equation ― The optimal Bellman equations characterizes the value function Vπ∗ of the optimal policy π∗:**
 
 &#10230;
 
-<br>
+<br> معادلة بيلمان - معادلات بيلمان المثلى تشخص دالة القيمة دالة القيمة Vπ∗  π∗:للقاعدة المثلى  
 
 **42. Remark: we note that the optimal policy π∗ for a given state s is such that:**
 
 &#10230;
 
-<br>
+<br>   π∗ للحالة المعطاه s تعطى كاالتالي: تعليق: نلاحظ ان القاعدة المثلى 
 
 **43. Value iteration algorithm ― The value iteration algorithm is in two steps:**
 
 &#10230;
 
-<br>
+<br> خوارزمية تكرار القيمة - خوارزمية تكرار القيمة تكون في خطوتين: 
 
 **44. 1) We initialize the value:**
 
 &#10230;
 
-<br>
+<br> 1) نقوم بوضع قيمة اولية: 
 
 **45. 2) We iterate the value based on the values before:**
 
 &#10230;
 
-<br>
+<br> 2) نقوم بتكرير القيمة حسب القيم السابقة: 
 
 **46. Maximum likelihood estimate ― The maximum likelihood estimates for the state transition probabilities are as follows:**
 
 &#10230;
 
-<br>
+<br>  تقدير الامكانية القصوى - تقديرات الامكانية القصوى (تقدير الاحتمال الأرجح) لحتماليات انتقال الحالة تكون كما يلي :  
 
 **47. times took action a in state s and got to s′**
 
 &#10230;
 
-<br>
+<br> اوقات تنفيذ الاجراء a في الحالة s و انتقلت الى s' 
 
 **48. times took action a in state s**
 
 &#10230;
 
-<br>
+<br> اوقات تنفيذ الاجراء a في الحالة s 
 
 **49. Q-learning ― Q-learning is a model-free estimation of Q, which is done as follows:**
 
 &#10230;
 
-<br>
-
+<br> التعلم-Q (Q-learning) -هي طريقة لاتحتاج لنموذج للبيئة لتقدير Q , و تتم كالاتي: 
 **50. View PDF version on GitHub**
 
 &#10230;
@@ -302,20 +301,21 @@
 
 &#10230;
 
-<br>
+<br> [شبكات عصبونية, البنية , دالة التفعيل , التغذية الخلفية , الاسقاط ] 
 
 **52. [Convolutional Neural Networks, Convolutional layer, Batch normalization]**
 
 &#10230;
 
-<br>
+<br> [ الشبكة العصبونية الالتفافية , طبقة التفافية , تنظيم الحزمة ]  
 
 **53. [Recurrent Neural Networks, Gates, LSTM]**
 
 &#10230;
 
-<br>
+<br> [الشبكة العصبونية التكرارية , البوابات , LSTM] 
 
 **54. [Reinforcement learning, Markov decision processes, Value/policy iteration, Approximate dynamic programming, Policy search]**
 
 &#10230;
+[التعلم المعزز , عملية ماركوف لاتخاذ القرار , تكرير القيمة / القاعدة , بحث القاعدة]

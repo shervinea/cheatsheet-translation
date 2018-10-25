@@ -6,7 +6,7 @@
 
 **2. Introduction to Probability and Combinatorics**
 
-&#10230; Introduction aux probabilités et combinatoires
+&#10230; Introduction aux probabilités à l'analyse combinatoire
 
 <br>
 
@@ -36,7 +36,7 @@
 
 **7. Axiom 2 ― The probability that at least one of the elementary events in the entire sample space will occur is 1, i.e:**
 
-&#10230; Axiome 2 ― La probabilité qu'au moins un des évènements élementaires de tout l'univers se produise est 1, i.e. 
+&#10230; Axiome 2 ― La probabilité qu'au moins un des évènements élementaires de tout l'univers se produise est 1, i.e.
 
 <br>
 
@@ -54,7 +54,7 @@
 
 **10. Combination ― A combination is an arrangement of r objects from a pool of n objects, where the order does not matter. The number of such arrangements is given by C(n,r), defined as:**
 
-&#10230; Combinaison ― Une combinaison est un arrangement de r objets parmi n objets, où l'ordre ne compte pas. Le nombre de tels arrangements est donné par C(n,r), défini par : 
+&#10230; Combinaison ― Une combinaison est un arrangement de r objets parmi n objets, où l'ordre ne compte pas. Le nombre de tels arrangements est donné par C(n,r), défini par :
 
 <br>
 
@@ -66,13 +66,13 @@
 
 **12. Conditional Probability**
 
-&#10230; Probabilité conditionnelle 
+&#10230; Probabilité conditionnelle
 
 <br>
 
 **13. Bayes' rule ― For events A and B such that P(B)>0, we have:**
 
-&#10230; Théorème de Bayes ― Pour des évènements A et B tel que P(B)>0, on a :
+&#10230; Théorème de Bayes ― Pour des évènements A et B tels que P(B)>0, on a :
 
 <br>
 
@@ -126,7 +126,7 @@
 
 **22. Cumulative distribution function (CDF) ― The cumulative distribution function F, which is monotonically non-decreasing and is such that limx→−∞F(x)=0 and limx→+∞F(x)=1, is defined as:**
 
-&#10230; Fonction de répartition (CDF) ― La fonction de répartition F, qui est croissante monotone et telle que limx→−∞F(x)=0 et limx→+∞F(x)=1, est définie de la manière suivante :
+&#10230; Fonction de répartition (en anglais *CDF - Cumulative distribution function*) ― La fonction de répartition F, qui est croissante monotone et telle que limx→−∞F(x)=0 et limx→+∞F(x)=1, est définie de la manière suivante :
 
 <br>
 
@@ -138,25 +138,25 @@
 
 **24. Probability density function (PDF) ― The probability density function f is the probability that X takes on values between two adjacent realizations of the random variable.**
 
-&#10230; Densité de probabilité (PDF) ― La densité de probabilité f est une probabilité que X prend sur les valeurs entre deux réalisations adjacentes d'une variable aléatoire.
+&#10230; Densité de probabilité (en anglais *PDF - Probability density function*) ― La densité de probabilité f est la probabilité que X prenne des valeurs entre deux réalisations adjacentes d'une variable aléatoire.
 
 <br>
 
 **25. Relationships involving the PDF and CDF ― Here are the important properties to know in the discrete (D) and the continuous (C) cases.**
 
-&#10230; Relations avec le PDF et CDF ― Voici les propriétés importantes à savoir dans les cas discret (D) et continu (C).
+&#10230; Relations vérifiées par les PDF et CDF ― Voici les propriétés importantes à savoir dans les cas discret (D) et continu (C).
 
 <br>
 
 **26. [Case, CDF F, PDF f, Properties of PDF]**
 
-&#10230; [Cas, CDF F, PDF F, Propriétés du PDF]
+&#10230; [Cas, CDF F, PDF f, Propriétés du PDF]
 
 <br>
 
 **27. Expectation and Moments of the Distribution ― Here are the expressions of the expected value E[X], generalized expected value E[g(X)], kth moment E[Xk] and characteristic function ψ(ω) for the discrete and continuous cases:**
 
-&#10230; Espérance et Moments de la distribution ― Voici les expressions de l'espérance E[X], l'espérance généralisée E[g(X)], kième moment E[Xk] et fonction caractéristique ψ(ω) dans les cas discret et continu.
+&#10230; Espérance et moments de la distribution ― Voici les expressions de l'espérance E[X], l'espérance généralisée E[g(X)], k-ième moment E[Xk] et fonction caractéristique ψ(ω) dans les cas discret et continu.
 
 <br>
 
@@ -168,7 +168,7 @@
 
 **29. Standard deviation ― The standard deviation of a random variable, often noted σ, is a measure of the spread of its distribution function which is compatible with the units of the actual random variable. It is determined as follows:**
 
-&#10230; Écart-type ― L'écart-type d'une variable aléatoire, souvent notée σ, est une mesure de la dispersion de sa fonction de distribution, qui est compatible avec les unités de la variable aléatoire. Il est déterminé de la manière suivante :
+&#10230; Écart-type ― L'écart-type d'une variable aléatoire, souvent notée σ, est une mesure de la dispersion de sa fonction de distribution, exprimée avec les même unités que la variable aléatoire. Il est déterminé de la manière suivante :
 
 <br>
 
@@ -216,7 +216,7 @@
 
 **37. Marginal density and cumulative distribution ― From the joint density probability function fXY , we have**
 
-&#10230; Densité marginale et fonction de répartition ― A partir de la densité de probabilité fXY, on a :
+&#10230; Densité marginale et fonction de répartition ― À partir de la densité de probabilité fXY, on a :
 
 <br>
 
@@ -234,7 +234,7 @@
 
 **40. Independence ― Two random variables X and Y are said to be independent if we have:**
 
-&#10230; Indépendance ― Deux variables aléatoires X et Y sont dits indépendants si on a :
+&#10230; Indépendance ― Deux variables aléatoires X et Y sont dits indépendants si l'on a :
 
 <br>
 
@@ -294,7 +294,7 @@
 
 **50. Remark: an estimator is said to be unbiased when we have E[^θ]=θ.**
 
-&#10230; Remarque : un estimateur est dit non-biaisé lorsque l'on a E[^θ]=θ.
+&#10230; Remarque : un estimateur est dit non biaisé lorsque l'on a E[^θ]=θ.
 
 <br>
 
@@ -336,7 +336,7 @@
 
 **57. Remark: the sample variance is unbiased, i.e E[s2]=σ2.**
 
-&#10230; Remarque : la variance empirique est non-biaisée, i.e. E[s2]=σ2.
+&#10230; Remarque : la variance empirique est non biaisée, i.e. E[s2]=σ2.
 
 <br>
 

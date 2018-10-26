@@ -1,150 +1,150 @@
 **1. Linear Algebra and Calculus refresher**
 
-&#10230;
+&#10230; 선형대수와 미적분학 복습
 
 <br>
 
 **2. General notations**
 
-&#10230;
+&#10230; 일반적인 개념
 
 <br>
 
 **3. Definitions**
 
-&#10230;
+&#10230; 정의
 
 <br>
 
 **4. Vector ― We note x∈Rn a vector with n entries, where xi∈R is the ith entry:**
 
-&#10230;
+&#10230; 벡터 - x∈Rn는 n개의 요소를 가진 벡터이고, xi∈R는 i번째 요소이다.
 
 <br>
 
 **5. Matrix ― We note A∈Rm×n a matrix with m rows and n columns, where Ai,j∈R is the entry located in the ith row and jth column:**
 
-&#10230;
+&#10230; 행렬 - A∈Rm×n는 m개의 행과 n개의 열을 가진 행렬이고, Ai,j∈R는 i번째 행, j번째 열에 있는 원소이다.
 
 <br>
 
 **6. Remark: the vector x defined above can be viewed as a n×1 matrix and is more particularly called a column-vector.**
 
-&#10230;
+&#10230; 위에서 정의된 벡터 x는 n×1행렬로 볼 수 있으며, 열벡터라고도 불린다.
 
 <br>
 
 **7. Main matrices**
 
-&#10230;
+&#10230; 주요 행렬
 
 <br>
 
 **8. Identity matrix ― The identity matrix I∈Rn×n is a square matrix with ones in its diagonal and zero everywhere else:**
 
-&#10230;
+&#10230; 단위행렬 - 단위행렬 I∈Rn×n는 대각성분이 모두 1이고 대각성분이 아닌 성분은 모두 0인 정사각행렬이다.
 
 <br>
 
 **9. Remark: for all matrices A∈Rn×n, we have A×I=I×A=A.**
 
-&#10230;
+&#10230; remark: 모든 행렬 A∈Rn×n에 대하여, A×I=I×A=A를 만족한다.
 
 <br>
 
 **10. Diagonal matrix ― A diagonal matrix D∈Rn×n is a square matrix with nonzero values in its diagonal and zero everywhere else:**
 
-&#10230;
+&#10230; 대각행렬 - 대각행렬 D∈Rn×n는 대각성분은 모두 0이 아니고, 대각성분이 아닌 성분은 모두 0인 정사각행렬이다.
 
 <br>
 
 **11. Remark: we also note D as diag(d1,...,dn).**
 
-&#10230;
+&#10230; D를 diag(d1,...,dn)라고도 표시한다.
 
 <br>
 
 **12. Matrix operations**
 
-&#10230;
+&#10230; 행렬 연산
 
 <br>
 
 **13. Multiplication**
 
-&#10230;
+&#10230; 곱셈
 
 <br>
 
 **14. Vector-vector ― There are two types of vector-vector products:**
 
-&#10230;
+&#10230; 벡터-벡터 - 벡터간 연산에는 두가지 종류가 있다.
 
 <br>
 
 **15. inner product: for x,y∈Rn, we have:**
 
-&#10230;
+&#10230; 내적 : x,y∈Rn에 대하여, 
 
 <br>
 
 **16. outer product: for x∈Rm,y∈Rn, we have:**
 
-&#10230;
+&#10230; 외적 : x∈Rm,y∈Rn에 대하여, 
 
 <br>
 
 **17. Matrix-vector ― The product of matrix A∈Rm×n and vector x∈Rn is a vector of size Rn, such that:**
 
-&#10230;
+&#10230; 행렬-벡터 - 행렬 A∈Rm×n와 벡터 x∈Rn의 곱은 다음을 만족하는 Rn크기의 벡터이다.
 
 <br>
 
 **18. where aTr,i are the vector rows and ac,j are the vector columns of A, and xi are the entries of x.**
 
-&#10230;
+&#10230; aTr,i는 A의 벡터행, ac,j는 A의 벡터열, xi는 x의 성분이다.
 
 <br>
 
 **19. Matrix-matrix ― The product of matrices A∈Rm×n and B∈Rn×p is a matrix of size Rn×p, such that:**
 
-&#10230;
+&#10230; 행렬 A∈Rm×n와 행렬 B∈Rn×p의 곱은 다음을 만족하는 Rn×p크기의 행렬이다.
 
 <br>
 
 **20. where aTr,i,bTr,i are the vector rows and ac,j,bc,j are the vector columns of A and B respectively**
 
-&#10230;
+&#10230; aTr,i,bTr,i는 A,B의 벡터행, ac,j,bc,j는 A,B의 벡터열이다.
 
 <br>
 
 **21. Other operations**
 
-&#10230;
+&#10230; 그 외 연산
 
 <br>
 
 **22. Transpose ― The transpose of a matrix A∈Rm×n, noted AT, is such that its entries are flipped:**
 
-&#10230;
+&#10230; 전치 - 행렬 A∈Rm×n의 전치 AT는 모든 성분을 뒤집은 것이다.
 
 <br>
 
 **23. Remark: for matrices A,B, we have (AB)T=BTAT**
 
-&#10230;
+&#10230; 행렬 A,B에 대하여, (AB)T=BTAT가 성립힌다.
 
 <br>
 
 **24. Inverse ― The inverse of an invertible square matrix A is noted A−1 and is the only matrix such that:**
 
-&#10230;
+&#10230; 역행렬 - 가역행렬 A의 역행렬은 A-1로 표기하며, 유일하다.
 
 <br>
 
 **25. Remark: not all square matrices are invertible. Also, for matrices A,B, we have (AB)−1=B−1A−1**
 
-&#10230;
+&#10230; 모든 정사각행렬이 역행렬을 갖는 것은 아니다. 그리고, 행렬 A,B에 대하여 (AB)−1=B−1A−1가 성립힌다.
 
 <br>
 
@@ -156,13 +156,13 @@
 
 **27. Remark: for matrices A,B, we have tr(AT)=tr(A) and tr(AB)=tr(BA)**
 
-&#10230;
+&#10230; 행렬 A,B에 대하여, tr(AT)=tr(A)와 tr(AB)=tr(BA)가 성립힌다.
 
 <br>
 
 **28. Determinant ― The determinant of a square matrix A∈Rn×n, noted |A| or det(A) is expressed recursively in terms of A∖i,∖j, which is the matrix A without its ith row and jth column, as follows:**
 
-&#10230;
+&#10230; 행렬식 - 정사각행렬 A∈Rn×n의 행렬식 |A| 또는 det(A)는 
 
 <br>
 
@@ -174,7 +174,7 @@
 
 **30. Matrix properties**
 
-&#10230;
+&#10230; 행렬의 성질
 
 <br>
 

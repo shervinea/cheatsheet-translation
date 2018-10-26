@@ -1,4 +1,5 @@
 
+
 **1. Probabilities and Statistics refresher**
 
 &#10230;확률과 통계
@@ -43,49 +44,49 @@
 
 **8. Axiom 3 ― For any sequence of mutually exclusive events E1,...,En, we have:**
 
-&#10230;공리 3 ― 
+&#10230;공리 3 ― 서로 배반인 어떤 연속적인 사건 E1,...,En 에 대하여, 우리는:
 
 <br>
 
 **9. Permutation ― A permutation is an arrangement of r objects from a pool of n objects, in a given order. The number of such arrangements is given by P(n,r), defined as:**
 
-&#10230;
+&#10230;순열(Permutation) ― 순열은 n개의 객체들로부터 r개의 객체들의 순서를 고려한 배열입니다. 그러한 배열의 수는 P (n, r)에 의해 주어지며, 다음과 같이 정의됩니다.
 
 <br>
 
 **10. Combination ― A combination is an arrangement of r objects from a pool of n objects, where the order does not matter. The number of such arrangements is given by C(n,r), defined as:**
 
-&#10230;
+&#10230;조합(Combination) ― 조합은 n개의 객체들로부터 r개의 객체들의 순서를 고려하지 않은 배열입니다. 그러한 배열의 수는 다음과 같이 정의되는 C(n, r)에 의해 주어집니다.
 
 <br>
 
 **11. Remark: we note that for 0⩽r⩽n, we have P(n,r)⩾C(n,r)**
 
-&#10230;
+&#10230;비고 :우리는 for 0⩽r⩽n에 대해, P(n,r)⩾C(n,r)를 가집니다.
 
 <br>
 
 **12. Conditional Probability**
 
-&#10230;
+&#10230;조건부 확률
 
 <br>
 
 **13. Bayes' rule ― For events A and B such that P(B)>0, we have:**
 
-&#10230;
+&#10230;베이즈 규칙 ― P(B)>0인 사건 A, B에 대해, 우리는:
 
 <br>
 
 **14. Remark: we have P(A∩B)=P(A)P(B|A)=P(A|B)P(B)**
 
-&#10230;
+&#10230;비고 :우리는 P(A∩B)=P(A)P(B|A)=P(A|B)P(B)를 가집니다.
 
 <br>
 
 **15. Partition ― Let {Ai,i∈[[1,n]]} be such that for all i, Ai≠∅. We say that {Ai} is a partition if we have:**
 
-&#10230;
+&#10230;분할 ― 
 
 <br>
 

@@ -7,7 +7,7 @@
 
 **2. Introduction to Probability and Combinatorics**
 
-&#10230;확률과 조합론에 대한 소개
+&#10230;확률과 조합론 소개
 
 <br>
 
@@ -23,27 +23,27 @@
 
 <br>
 
-**5. Axioms of probability For each event E, we denote P(E) as the probability of event E occuring.**
+**5. Axioms of probability ― For each event E, we denote P(E) as the probability of event E occuring.**
 
-&#10230;
+&#10230;확률의 공리 ― 각 사건 E에 대하여, 우리는 사건 E가 발생할 확률을 P(E)로 나타냅니다.
 
 <br>
 
 **6. Axiom 1 ― Every probability is between 0 and 1 included, i.e:**
 
-&#10230;
+&#10230;공리 1 ― 모든 확률은 0과 1사이에 포함됩니다, 즉:
 
 <br>
 
 **7. Axiom 2 ― The probability that at least one of the elementary events in the entire sample space will occur is 1, i.e:**
 
-&#10230;
+&#10230;공리 2 ― 전체 표본 공간에서 적어도 하나의 근원 사건이 발생할 확률은 1입니다. 즉:
 
 <br>
 
 **8. Axiom 3 ― For any sequence of mutually exclusive events E1,...,En, we have:**
 
-&#10230;
+&#10230;공리 3 ― 
 
 <br>
 

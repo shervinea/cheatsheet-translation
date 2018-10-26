@@ -157,145 +157,144 @@
 
 **27. Expectation and Moments of the Distribution ― Here are the expressions of the expected value E[X], generalized expected value E[g(X)], kth moment E[Xk] and characteristic function ψ(ω) for the discrete and continuous cases:**
 
-&#10230;
+&#10230;분포의 기대값과 적률 ― 이산 혹은 연속일 때, 기대값 E[X], 일반화된 기대값 E[g(X)], k번째 적률 E[Xk] 및 특성 함수 ψ(ω) :
 
 <br>
 
 **28. Variance ― The variance of a random variable, often noted Var(X) or σ2, is a measure of the spread of its distribution function. It is determined as follows:**
 
-&#10230;
+&#10230;분산 (Variance) ― 주로 Var(X) 또는 σ2이라고 표기된 확률 변수의 분산은 분포 함수의 산포(Spread)를 측정한 값입니다. 이는 다음과 같이 결정됩니다:
 
 <br>
 
 **29. Standard deviation ― The standard deviation of a random variable, often noted σ, is a measure of the spread of its distribution function which is compatible with the units of the actual random variable. It is determined as follows:**
 
-&#10230;
-
+&#10230;표준 편차(Standard Deviation) ― 표준 편차는 실제 확률 변수의 단위를 사용할 수 있는 분포 함수의 산포(Spread)를 측정하는 측도입니다. 이는 다음과 같이 결정됩니다:
 <br>
 
 **30. Transformation of random variables ― Let the variables X and Y be linked by some function. By noting fX and fY the distribution function of X and Y respectively, we have:**
 
-&#10230;
+&#10230;확률 변수의 변환 ― 변수 X와 Y를 어떤 함수로 연결되도록 해봅시다. fX와 fY에 각각 X와 Y의 분포 함수를 표기하면 다음과 같습니다:
 
 <br>
 
 **31. Leibniz integral rule ― Let g be a function of x and potentially c, and a,b boundaries that may depend on c. We have:**
 
-&#10230;
+&#10230;라이프니츠 적분 규칙 ― g를 x의 함수로, 잠재적으로 c라고 해봅시다. 그리고 c에 종속적인 경계 a, b에 대해 우리는 다음을 가집니다:
 
 <br>
 
 **32. Probability Distributions**
 
-&#10230;
+&#10230;확률 분포
 
 <br>
 
 **33. Chebyshev's inequality ― Let X be a random variable with expected value μ. For k,σ>0, we have the following inequality:**
 
-&#10230;체비쇼프 부등식
+&#10230;체비쇼프 부등식 ― X를 기대값 μ의 확률 변수라고 해봅시다. k에 대하여, σ>0이면 다음과 같은 부등식을 가집니다:
 
 <br>
 
 **34. Main distributions ― Here are the main distributions to have in mind:**
 
-&#10230;
+&#10230;주요 분포들― 기억해야 할 주요 분포들이 여기 있습니다:
 
 <br>
 
 **35. [Type, Distribution]**
 
-&#10230;
+&#10230;[타입(Type), 분포]
 
 <br>
 
 **36. Jointly Distributed Random Variables**
 
-&#10230;
+&#10230;결합 분포 확률 변수
 
 <br>
 
 **37. Marginal density and cumulative distribution ― From the joint density probability function fXY , we have**
 
-&#10230;
+&#10230;주변 밀도와 누적 분포 ― 결합 밀도 확률 함수 fXY로부터 우리는 다음을 가집니다
 
 <br>
 
 **38. [Case, Marginal density, Cumulative function]**
 
-&#10230;
+&#10230;[예시, 주변 밀도, 누적 함수]
 
 <br>
 
 **39. Conditional density ― The conditional density of X with respect to Y, often noted fX|Y, is defined as follows:**
 
-&#10230;
+&#10230;조건부 밀도 ― 주로 fX|Y로 표기되는 Y에 대한 X의 조건부 밀도는 다음과 같이 정의됩니다:
 
 <br>
 
 **40. Independence ― Two random variables X and Y are said to be independent if we have:**
 
-&#10230;
+&#10230;독립성 ― 두 확률 변수 X와 Y는 다음과 같은 경우에 독립적이라고 합니다:
 
 <br>
 
 **41. Covariance ― We define the covariance of two random variables X and Y, that we note σ2XY or more commonly Cov(X,Y), as follows:**
 
-&#10230;
+&#10230;공분산 ― 다음과 같이 두 확률 변수 X와 Y의 공분산을 σ2XY 혹은 더 일반적으로는 Cov(X,Y)로 정의합니다:
 
 <br>
 
 **42. Correlation ― By noting σX,σY the standard deviations of X and Y, we define the correlation between the random variables X and Y, noted ρXY, as follows:**
 
-&#10230;
+&#10230;상관관계 ― σX, σY로 X와 Y의 표준 편차를 표기함으로써 ρXY로 표기된 임의의 변수 X와 Y 사이의 상관관계를 다음과 같이 정의합니다:
 
 <br>
 
 **43. Remark 1: we note that for any random variables X,Y, we have ρXY∈[−1,1].**
 
-&#10230;
+&#10230;비고 1 : 우리는 임의의 확률 변수 X, Y에 대해 ρXY∈ [-1,1]를 가진다고 말합니다. 
 
 <br>
 
 **44. Remark 2: If X and Y are independent, then ρXY=0.**
 
-&#10230;
+&#10230;비고 2 : X와 Y가 독립이라면 ρXY=0입니다.
 
 <br>
 
 **45. Parameter estimation**
 
-&#10230;
+&#10230;모수 추정
 
 <br>
 
 **46. Definitions**
 
-&#10230;
+&#10230;정의
 
 <br>
 
 **47. Random sample ― A random sample is a collection of n random variables X1,...,Xn that are independent and identically distributed with X.**
 
-&#10230;
+&#10230;확률 표본 ― 확률 표본은 X와 독립적으로 동일하게 분포하는 n개의 확률 변수 X1, ..., Xn의 모음입니다.
 
 <br>
 
 **48. Estimator ― An estimator is a function of the data that is used to infer the value of an unknown parameter in a statistical model.**
 
-&#10230;
+&#10230;추정량 ―  추정량은 통계 모델에서 알 수 없는 모수의 값을 추론하는 데 사용되는 데이터의 함수입니다.
 
 <br>
 
 **49. Bias ― The bias of an estimator ^θ is defined as being the difference between the expected value of the distribution of ^θ and the true value, i.e.:**
 
-&#10230;편향 ― 추정량 ^θ의 편향은 
+&#10230;편향 ― 추정량 ^θ의 편향은 ^θ 분포의 기대값과 실제값 사이의 차이로 정의됩니다. 즉,:
 
 <br>
 
 **50. Remark: an estimator is said to be unbiased when we have E[^θ]=θ.**
 
-&#10230;비고 : 추정량은 E [^ θ] = θ 일 때, 비 편향적이라고 말합니다.
+&#10230;비고 : 추정량은 E [^ θ]=θ 일 때, 비 편향적이라고 말합니다.
 
 <br>
 

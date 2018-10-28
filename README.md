@@ -26,10 +26,10 @@ This repository aims at collaboratively translating our [Machine Learning cheats
 |:---|:---:|:---:|:---:|:---:|:---:|
 |Deep learning|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/8)|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/34)|not started|not started|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/80)|
 |Supervised learning|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/8)|not started|not started|not started|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/90)|
-|Unsupervised learning|not started|not started|not started|not started|not started|
-|ML tips and tricks|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/8)|not started|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/47)|not started|not started|
-|Probabilities and Statistics|not started|not started|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/47)|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/64)|not started|
-|Linear algebra|not started|not started|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/47)|not started|not started|
+|Unsupervised learning|not started|not started|not started|not started|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/93)|
+|ML tips and tricks|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/8)|not started|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/47)|not started|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/91)|
+|Probabilities and Statistics|not started|not started|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/47)|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/64)|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/92)|
+|Linear algebra|not started|not started|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/47)|not started|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/94)|
 
 If your favorite language is missing, please feel free to add it!
 

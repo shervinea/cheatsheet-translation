@@ -192,7 +192,7 @@
 
 **33. Spectral theorem ― Let A∈Rn×n. If A is symmetric, then A is diagonalizable by a real orthogonal matrix U∈Rn×n. By noting Λ=diag(λ1,...,λn), we have:**
 
-&#10230; 스펠트럼 정리 - A∈Rn×n 이라고 하자 만약 A가 대칭이라면, A는 실수 직교 행렬 U∈Rn×n에 의해 대각행렬로 만들 수 있다.
+&#10230; 스펙트럼 정리 - A∈Rn×n 이라고 하자 만약 A가 대칭이라면, A는 실수 직교 행렬 U∈Rn×n에 의해 대각행렬로 만들 수 있다.
 
 <br>
 
@@ -204,7 +204,7 @@
 
 **35. Remark: the eigenvector associated with the largest eigenvalue is called principal eigenvector of matrix A.**
 
-&#10230;
+&#10230; 
 
 <br>
 

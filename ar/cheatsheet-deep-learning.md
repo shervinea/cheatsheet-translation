@@ -2,7 +2,7 @@
 **1. Deep Learning cheatsheet**
 
 &#10230;
-ورقة غش التعلم العميق
+ملخص مختصر التعلم العميق
 <br> 
 
 **2. Neural Networks**
@@ -62,7 +62,7 @@
 **11. Learning rate ― The learning rate, often noted α or sometimes η, indicates at which pace the weights get updated. This can be fixed or adaptively changed. The current most popular method is called Adam, which is a method that adapts the learning rate.**
 
 &#10230;
-نسبة سرعة التعلم - نسبة التعلم, يرمز , و هو مؤشر في اي تجاة يتم تحديث الاوزان. يمكن تثبيت هذا المعامل او تحديثة بشكل تأقلمي . حاليا اكثر النسب شيوعا تدعى Adam , وهي طريقة تجعل هذه النسبة سرعة التعلم بشكل تأقلمي    α او η ب , 
+معدل التعلم - معدل التعلم, يرمز , و هو مؤشر في اي تجاة يتم تحديث الاوزان. يمكن تثبيت هذا المعامل او تحديثة بشكل تأقلمي . حاليا اكثر النسب شيوعا تدعى Adam , وهي طريقة تجعل هذه النسبة سرعة التعلم بشكل تأقلمي    α او η ب , 
 <br>  
 
 **12. Backpropagation ― Backpropagation is a method to update the weights in the neural network by taking into account the actual output and the desired output. The derivative with respect to weight w is computed using chain rule and is of the following form:**
@@ -291,7 +291,7 @@ R:S×A⟶R or R:S⟶R  هي دالة المكافأة والتي تعمل الخ
 **49. Q-learning ― Q-learning is a model-free estimation of Q, which is done as follows:**
 
 &#10230;
-التعلم-Q (Q-learning) -هي طريقة لاتحتاج لنموذج للبيئة لتقدير Q , و تتم كالاتي:
+التعلم-Q (Q-learning) -هي طريقة غير منمذجة لتقدير Q , و تتم كالاتي:
 <br>  
 **50. View PDF version on GitHub**
 

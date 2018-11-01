@@ -331,10 +331,10 @@ dimensions by maximizing the variance of the data as follows:**
 
 **56. [Clustering, Expectation-Maximization, k-means, Hierarchical clustering, Metrics]**
 
-&#10230; 군집화, 기댓값-최대화, k-means, 
+&#10230; 군집화, 기댓값-최대화, k-means, 계층 군집화, 측정지표
 
 <br>
 
 **57. [Dimension reduction, PCA, ICA]**
 
-&#10230; 차원축소, 주성분분석(PCA), 
+&#10230; 차원축소, 주성분분석(PCA), 독립성분분석(ICA) 

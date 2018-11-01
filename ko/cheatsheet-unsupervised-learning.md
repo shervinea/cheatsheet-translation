@@ -331,7 +331,7 @@ dimensions by maximizing the variance of the data as follows:**
 
 **56. [Clustering, Expectation-Maximization, k-means, Hierarchical clustering, Metrics]**
 
-&#10230; 군집화, 기댓값-최대화, k-means, 계층 군집화, 측정지표
+&#10230; 군집화, 기댓값-최대화, k-means, 계층적 군집화, 측정지표
 
 <br>
 

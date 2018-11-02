@@ -301,7 +301,7 @@ dimensions by maximizing the variance of the data as follows:**
 
 **51. The Machine Learning cheatsheets are now available in Korean.**
 
-&#10230; 머신러닝 cheatsheets는 현재 일본어로 제공된다.
+&#10230; 머신러닝 cheatsheets는 현재 한국어로 제공된다.
 
 <br>
 

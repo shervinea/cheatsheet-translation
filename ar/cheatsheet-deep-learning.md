@@ -8,7 +8,7 @@
 **2. Neural Networks**
 
 &#10230;
-الشبكة العصبونية الاصطناعية
+الشبكة العصبونية الاصطناعية(Neural Networks)
 <br> 
 **3. Neural networks are a class of models that are built with layers. Commonly used types of neural networks include convolutional and recurrent neural networks.**
 
@@ -38,7 +38,7 @@
 **7. where we note w, b, z the weight, bias and output respectively.**
 
 &#10230;
-حيث نعرف w, b, z كالوزن , و معامل التعديل , و الخرج حسب الترتيب.
+حيث نعرف w, b, z كالوزن , و معامل التعديل , و الناتج حسب الترتيب.
 <br>  
 
 **8. Activation function ― Activation functions are used at the end of a hidden unit to introduce non-linear complexities to the model. Here are the most common ones:**
@@ -56,19 +56,19 @@
 **10. Cross-entropy loss ― In the context of neural networks, the cross-entropy loss L(z,y) is commonly used and is defined as follows:**
 
 &#10230;
-دالة الانتروبيا التقاطعية للخسارة - في سياق الشبكات العصبونية, دالة الاتاروبيا L(z,y) تستخدم و تعرف كالاتي:
+دالة الانتروبيا التقاطعية للخسارة(Cross-entropy loss) - في سياق الشبكات العصبونية, دالة الأنتروبيا L(z,y) تستخدم و تعرف كالاتي:
 <br>  
 
 **11. Learning rate ― The learning rate, often noted α or sometimes η, indicates at which pace the weights get updated. This can be fixed or adaptively changed. The current most popular method is called Adam, which is a method that adapts the learning rate.**
 
 &#10230;
-معدل التعلم - معدل التعلم, يرمز , و هو مؤشر في اي تجاة يتم تحديث الاوزان. يمكن تثبيت هذا المعامل او تحديثة بشكل تأقلمي . حاليا اكثر النسب شيوعا تدعى Adam , وهي طريقة تجعل هذه النسبة سرعة التعلم بشكل تأقلمي    α او η ب , 
+معدل التعلم(Learning rate) - معدل التعلم, يرمز , و هو مؤشر في اي تجاة يتم تحديث الاوزان. يمكن تثبيت هذا المعامل او تحديثة بشكل تأقلمي . حاليا اكثر النسب شيوعا تدعى Adam , وهي طريقة تجعل هذه النسبة سرعة التعلم بشكل تأقلمي    α او η ب , 
 <br>  
 
 **12. Backpropagation ― Backpropagation is a method to update the weights in the neural network by taking into account the actual output and the desired output. The derivative with respect to weight w is computed using chain rule and is of the following form:**
 
 &#10230;
-التغذية الخلفية - التغذية الخلفية هي طريقة لتحديث الاوزان في الشبكة العصبونية عبر اعتبار القيم الحقيقة للخرج مع القيمة المطلوبة للخرج. المشتقة بالنسبة للوزن w يتم حسابها باستخدام قاعدة التسلسل و تكون عبر الشكل الاتي: 
+التغذية الخلفية(Backpropagation) - التغذية الخلفية هي طريقة لتحديث الاوزان في الشبكة العصبونية عبر اعتبار القيم الحقيقة للخرج مع القيمة المطلوبة للخرج. المشتقة بالنسبة للوزن w يتم حسابها باستخدام قاعدة التسلسل و تكون عبر الشكل الاتي: 
 <br>
 
 **13. As a result, the weight is updated as follows:**
@@ -110,13 +110,13 @@
 **19. Dropout ― Dropout is a technique meant at preventing overfitting the training data by dropping out units in a neural network. In practice, neurons are either dropped with probability p or kept with probability 1−p**
 
 &#10230;
-الاسقاط - الاسقاط هي طريقة الغرض منها منع التكيف الزائد للنموذج في بيانات التدريب عبر اسقاط بعض الواحدات في الشبكة العصبونية, العصبونات يتم اما اسقاطها باحتمالية p او الحفاظ عليها باحتمالية 1-p.
+الاسقاط(Dropout) - الاسقاط هي طريقة الغرض منها منع التكيف الزائد للنموذج في بيانات التدريب عبر اسقاط بعض الواحدات في الشبكة العصبونية, العصبونات يتم اما اسقاطها باحتمالية p او الحفاظ عليها باحتمالية 1-p.
 <br>  
 
 **20. Convolutional Neural Networks**
 
 &#10230;
-الشبكات العصبونية الالتفافية
+الشبكات العصبونية الالتفافية(CNN) 
 <br> 
 
 **21. Convolutional layer requirement ― By noting W the input volume size, F the size of the convolutional layer neurons, P the amount of zero padding, then the number of neurons N that fit in a given volume is such that:**
@@ -134,7 +134,7 @@
 **23. It is usually done after a fully connected/convolutional layer and before a non-linearity layer and aims at allowing higher learning rates and reducing the strong dependence on initialization.**
 
 &#10230;
-في الغالب تتم بعد الطبقة الالتفافية المتصلة كليا و قبل طبقة التغيرات الغير خطية و تهدف للسماح للسرعات التعليم العالية للتقليل من الاعتمادية القوية للقيم الاولية.
+في الغالب تتم بعد الطبقة الالتفافية أو المتصلة كليا و قبل طبقة التغيرات الغير خطية و تهدف للسماح للسرعات التعليم العالية للتقليل من الاعتمادية القوية للقيم الاولية.
 
 
 <br>
@@ -142,7 +142,7 @@
 **24. Recurrent Neural Networks**
 
 &#10230;
-الشبكات العصبونية التكرارية
+(RNN)الشبكات العصبونية التكرارية
 <br> 
 
 **25. Types of gates ― Here are the different types of gates that we encounter in a typical recurrent neural network:**
@@ -172,7 +172,7 @@ LSTM - ذاكرة طويلة قصير الامد (long short-term memory) هي �
 **29. Reinforcement Learning and Control**
 
 &#10230;
-التعلم و التحكم المعزز
+التعلم و التحكم المعزز(Reinforcement Learning)
 <br> 
 
 **30. The goal of reinforcement learning is for an agent to learn how to evolve in an environment.**
@@ -225,13 +225,13 @@ R:S×A⟶R or R:S⟶R  هي دالة المكافأة والتي تعمل الخ
 **38. Policy ― A policy π is a function π:S⟶A that maps states to actions.**
 
 &#10230;
-دالة القواعد - دالة القواعد π:S⟶A  هي التي تقوم بترجمة الاحالات الى اجراءات.
+دالة القواعد - دالة القواعد π:S⟶A  هي التي تقوم بترجمة الحالات الى اجراءات.
 <br>  
 
 **39. Remark: we say that we execute a given policy π if given a state s we take the action a=π(s).**
 
 &#10230;
-تعليق: نقول ان النموذج ينفذ القاعدة المعينه π للحالة المعطاة s ان نتخذ الاجراءa=π(s).  
+ملاحظة: نقول ان النموذج ينفذ القاعدة المعينه π للحالة المعطاة s ان نتخذ الاجراءa=π(s).  
 <br>  
  
 **40. Value function ― For a given policy π and a given state s, we define the value function Vπ as follows:**
@@ -249,7 +249,7 @@ R:S×A⟶R or R:S⟶R  هي دالة المكافأة والتي تعمل الخ
 **42. Remark: we note that the optimal policy π∗ for a given state s is such that:**
 
 &#10230;
-  π∗ للحالة المعطاه s تعطى كاالتالي: تعليق: نلاحظ ان القاعدة المثلى
+  π∗ للحالة المعطاه s تعطى كاالتالي: ملاحظة: نلاحظ ان القاعدة المثلى
 <br>  
 
 **43. Value iteration algorithm ― The value iteration algorithm is in two steps:**

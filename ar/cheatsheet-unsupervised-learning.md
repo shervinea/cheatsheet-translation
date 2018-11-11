@@ -87,14 +87,14 @@
 **13. [Gaussians initialization, Expectation step, Maximization step, Convergence]**
 
 <div dir="rtl">
-[تهيئة غاوسية، خطوة التوقع، خطوة التعظيم، التقاء]
+[ استهلالات غاوسية، خطوة التوقع، خطوة التعظيم، تقارب]
 </div>
 <br>
 
 **14. k-means clustering**
 
 <div dir="rtl">
-تجميع k-أوساط
+تجميع k-متوسطات
 </div>
 <br>
 
@@ -107,32 +107,36 @@
 
 **16. Algorithm ― After randomly initializing the cluster centroids μ1,μ2,...,μk∈Rn, the k-means algorithm repeats the following step until convergence:**
 
-&#10230;
-
+<div dir="rtl">
+بعد الاستهلال العشوائي لمتوسطات التجمعات μ1,μ2,...,μk∈Rn، خوارزمية تجميع k-متوسطات تكرر الخطوة التالية حتى التقارب
+</div>
 <br>
 
 **17. [Means initialization, Cluster assignment, Means update, Convergence]**
 
-&#10230;
-
+<div dir="rtl">
+[استهلال المتوسطات، تعيين تجمع، تحديث المتوسطات، التقارب]</div>
 <br>
 
 **18. Distortion function ― In order to see if the algorithm converges, we look at the distortion function defined as follows:**
 
-&#10230;
-
+<div dir="rtl">
+  دالة التشويه - لكي نتأكد من أن الخوارزمية تقاربت، ننظر إلى دالة التشويه المعرفة كما يلي:
+</div>
 <br>
 
 **19. Hierarchical clustering**
 
-&#10230;
-
+<div dir="rtl">
+  التجميع الهرمي
+</div>
 <br>
 
 **20. Algorithm ― It is a clustering algorithm with an agglomerative hierarchical approach that build nested clusters in a successive manner.**
 
-&#10230;
-
+<div dir="rtl">
+  خوارزمية - هي عبارة عن خوارزمية تجميع تعتمد على طريقة تجميعية هرمية تبني مجموعات متداخلة بشكل متتال
+</div>
 <br>
 
 **21. Types ― There are different sorts of hierarchical clustering algorithms that aims at optimizing different objective functions, which is summed up in the table below:**

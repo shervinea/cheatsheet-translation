@@ -141,92 +141,101 @@
 
 **21. Types ― There are different sorts of hierarchical clustering algorithms that aims at optimizing different objective functions, which is summed up in the table below:**
 
-&#10230;
-
+<div dir="rtl">
+أنواع هنالك عدة أنواع من خوارزميات التجميع الهرمي التي ترمي إلى تحسين دوال هدف مختلفة، هاته الأنواع ملخصة في الجدول أسفله
+</div>
 <br>
 
 **22. [Ward linkage, Average linkage, Complete linkage]**
 
-&#10230;
-
+<div dir="rtl">
+[الربط البَينِي، الربط المتوسط، الربط الكامل]</div>
 <br>
 
 **23. [Minimize within cluster distance, Minimize average distance between cluster pairs, Minimize maximum distance of between cluster pairs]**
 
-&#10230;
-
+<div dir="rtl">
+[تقليل داخل مسافة التجمع، تقليل متوسط المسافات بين أزواج التجمعات، تقليل المسافة القصوى بين أزواج التجمعات]</div>
 <br>
 
 **24. Clustering assessment metrics**
 
-&#10230;
-
+<div dir="rtl">
+مقاييس تقدير التجميع
+</div>
 <br>
 
 **25. In an unsupervised learning setting, it is often hard to assess the performance of a model since we don't have the ground truth labels as was the case in the supervised learning setting.**
 
-&#10230;
-
+<div dir="rtl">
+في إعداد للتعلم بدون إشراف، من الصعب غالبا تقدير أداء نموذج ما لأننا لا نتوفر على القيم الحقيقية كما كان الحال في إعداد التعلم تحت إشراف 
+</div>
 <br>
 
 **26. Silhouette coefficient ― By noting a and b the mean distance between a sample and all other points in the same class, and between a sample and all other points in the next nearest cluster, the silhouette coefficient s for a single sample is defined as follows:**
 
-&#10230;
-
+<div dir="rtl">
+المعامل الظِلِّي - إذا رمزنا  aو b متوسط المسافة بين عينة و كل النقط المنتمية لنفس الصنف، و بين عينة  و كل النقط المنتمية لأقرب صنف، المعامل الظِلِّي s لعينة وحيدة معرف كالتالي:
+</div>
 <br>
 
 **27. Calinski-Harabaz index ― By noting k the number of clusters, Bk and Wk the between and within-clustering dispersion matrices respectively defined as**
 
-&#10230;
-
+<div dir="rtl">
+مؤشر كالينسكي هاراباز - إذا رمزنا بk لعدد التجمعات، Bk و Wk مصفوفات التشتت بين التجمعات و داخلها معرفة كالتالي: </div>
 <br>
 
 **28. the Calinski-Harabaz index s(k) indicates how well a clustering model defines its clusters, such that the higher the score, the more dense and well separated the clusters are. It is defined as follows:**
 
-&#10230;
-
+<div dir="rtl">
+مؤشر كالينسكي هاراباز s(k) يعطي تقييما للتجمعات الناتجة عن نموذج تجميعي، بحيث كلما كان التقييم أعلى كلما دل ذلك على  أن التجمعات أكثر كثافة و أكثر انفصالا. هذا المؤشر معرّف كالتالي</div>
 <br>
 
 **29. Dimension reduction**
 
-&#10230;
-
+<div dir="rtl">
+تخفيض الأبعاد</div>
 <br>
 
 **30. Principal component analysis**
 
-&#10230;
-
+<div dir="rtl">
+تحليل المكون الرئيسي
+</div>
 <br>
 
 **31. It is a dimension reduction technique that finds the variance maximizing directions onto which to project the data.**
 
-&#10230;
-
+<div dir="rtl">
+إنها تقنية لخفض الأبعاد ترمي إلى إيجاد الاتجاهات المكبرة للتباين و التي تسقط عليها البيانات
+</div>
 <br>
 
 **32. Eigenvalue, eigenvector ― Given a matrix A∈Rn×n, λ is said to be an eigenvalue of A if there exists a vector z∈Rn∖{0}, called eigenvector, such that we have:**
 
-&#10230;
-
+<div dir="rtl">
+  قيمة ذاتية، متجه ذاتي - لتكن A∈Rn×n مصفوفة ، نقول أن λ قيمة ذاتية للمصفوفة A إذا وُجِد متجه z∈Rn∖{0} يسمى متجها ذاتيا، بحيث:
+</div>
 <br>
 
 **33. Spectral theorem ― Let A∈Rn×n. If A is symmetric, then A is diagonalizable by a real orthogonal matrix U∈Rn×n. By noting Λ=diag(λ1,...,λn), we have:**
 
-&#10230;
-
+<div dir="rtl">
+  نظرية الطّيف لتكن A∈Rn×n. إذا كانت A متماثلة فإنها شبه قطرية بمصفوفة متعامدة U∈Rn×n. إذا رمزنا Λ=diag(λ1,...,λn) ، لدينا:
+</div>
 <br>
 
 **34. diagonal**
 
-&#10230;
-
+<div dir="rtl">
+قطري
+</div>
 <br>
 
 **35. Remark: the eigenvector associated with the largest eigenvalue is called principal eigenvector of matrix A.**
 
-&#10230;
-
+<div dir="rtl">
+ملحوظة: المتجه الذاتي المرتبط بأكبر قيمة ذاتية يسمى بالمتجه الذاتي الرئيسي للمصفوفة A</div>
 <br>
 
 **36. Algorithm ― The Principal Component Analysis (PCA) procedure is a dimension reduction technique that projects the data on k

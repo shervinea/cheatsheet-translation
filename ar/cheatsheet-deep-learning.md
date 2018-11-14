@@ -44,7 +44,7 @@
 **8. Activation function ― Activation functions are used at the end of a hidden unit to introduce non-linear complexities to the model. Here are the most common ones:**
 
 &#10230;
-دالة التفعيل - دالة التفعيل تستخدم في نهاية الوحده الخفية لتضمن المكونات الغير خطية للنموذج. هنا بعض دوال التفعيل الشائعة
+دالة التفعيل(Activation function) - دالة التفعيل تستخدم في نهاية الوحده الخفية لتضمن المكونات الغير خطية للنموذج. هنا بعض دوال التفعيل الشائعة
 <br> 
 
 **9. [Sigmoid, Tanh, ReLU, Leaky ReLU]**
@@ -68,7 +68,7 @@
 **12. Backpropagation ― Backpropagation is a method to update the weights in the neural network by taking into account the actual output and the desired output. The derivative with respect to weight w is computed using chain rule and is of the following form:**
 
 &#10230;
-التغذية الخلفية(Backpropagation) - التغذية الخلفية هي طريقة لتحديث الاوزان في الشبكة العصبونية عبر اعتبار القيم الحقيقة للخرج مع القيمة المطلوبة للخرج. المشتقة بالنسبة للوزن w يتم حسابها باستخدام قاعدة التسلسل و تكون عبر الشكل الاتي: 
+التغذية الخلفية(Backpropagation) - التغذية الخلفية هي طريقة لتحديث الاوزان في الشبكة العصبونية عبر اعتبار القيم الحقيقة للناتج مع القيمة المطلوبة للخرج. المشتقة بالنسبة للوزن w يتم حسابها باستخدام قاعدة التسلسل و تكون عبر الشكل الاتي: 
 <br>
 
 **13. As a result, the weight is updated as follows:**
@@ -128,7 +128,7 @@
 **22. Batch normalization ― It is a step of hyperparameter γ,β that normalizes the batch {xi}. By noting μB,σ2B the mean and variance of that we want to correct to the batch, it is done as follows:**
 
 &#10230;
-تنظيم الحزمة - هي خطوه من قيم التحسين الخاصة γ,β  والتي تعدل الحزمة {xi}. لنجعل μB,σ2B المتوسط و الانحراف للحزمة المعنية و نريد تصحيح هذه الحزمة, يتم ذلك كالتالي:    
+تنظيم الحزمة(Batch normalization) - هي خطوه من قيم التحسين الخاصة γ,β  والتي تعدل الحزمة {xi}. لنجعل μB,σ2B المتوسط و الانحراف للحزمة المعنية و نريد تصحيح هذه الحزمة, يتم ذلك كالتالي:    
 <br> 
 
 **23. It is usually done after a fully connected/convolutional layer and before a non-linearity layer and aims at allowing higher learning rates and reducing the strong dependence on initialization.**
@@ -255,7 +255,7 @@ R:S×A⟶R or R:S⟶R  هي دالة المكافأة والتي تعمل الخ
 **43. Value iteration algorithm ― The value iteration algorithm is in two steps:**
 
 &#10230;
-خوارزمية تكرار القيمة - خوارزمية تكرار القيمة تكون في خطوتين:
+خوارزمية تكرار القيمة(Value iteration algorithm) - خوارزمية تكرار القيمة تكون في خطوتين:
 <br>  
 
 **44. 1) We initialize the value:**

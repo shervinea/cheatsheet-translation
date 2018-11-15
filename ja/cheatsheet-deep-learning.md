@@ -114,61 +114,61 @@
 
 **20. Convolutional Neural Networks**
 
-&#10230;
+&#10230; 畳み込みニューラルネットワーク
 
 <br>
 
 **21. Convolutional layer requirement ― By noting W the input volume size, F the size of the convolutional layer neurons, P the amount of zero padding, then the number of neurons N that fit in a given volume is such that:**
 
-&#10230;
+&#10230; 畳み込みレイヤーの条件　ー Wを入力サイズ、Fを畳み込みレイヤーニューロンのサイズ、Pをゼロパディングの量とすると、与えられた体積に収まるニューロン数Nは次のようになります。
 
 <br>
 
 **22. Batch normalization ― It is a step of hyperparameter γ,β that normalizes the batch {xi}. By noting μB,σ2B the mean and variance of that we want to correct to the batch, it is done as follows:**
 
-&#10230;
+&#10230; バッチ正規化　ー バッチ{xi}を正規化するハイパーパラメータγ、βのステップです。バッチに修正したい平均値と分散値をμB,σ2Bとすると、正規化は以下のように行われます:
 
 <br>
 
 **23. It is usually done after a fully connected/convolutional layer and before a non-linearity layer and aims at allowing higher learning rates and reducing the strong dependence on initialization.**
 
-&#10230;
+&#10230; これは通常、学習率を高め、初期値への依存性を減らすことを目的でFully Connected層と畳み込み層の後、非線形化を行う前に行われます。
 
 <br>
 
 **24. Recurrent Neural Networks**
 
-&#10230;
+&#10230; 再帰型ニューラルネットワーク (RNN)
 
 <br>
 
 **25. Types of gates ― Here are the different types of gates that we encounter in a typical recurrent neural network:**
 
-&#10230;
+&#10230; ゲートの種類　ー　典型的なRNNに使われるゲートです:
 
 <br>
 
 **26. [Input gate, forget gate, gate, output gate]**
 
-&#10230;
+&#10230; [入力ゲート, 忘却ゲート, ゲート, 出力ゲート]
 
 <br>
 
 **27. [Write to cell or not?, Erase a cell or not?, How much to write to cell?, How much to reveal cell?]**
 
-&#10230;
+&#10230; [セルに追加するべき？, セルを削除するべき？, 情報をどれだけセルに追加するべき？, セルをどの程度通すべき？]
 
 <br>
 
 **28. LSTM ― A long short-term memory (LSTM) network is a type of RNN model that avoids the vanishing gradient problem by adding 'forget' gates.**
 
-&#10230;
+&#10230; LSTM - A long short-term memory (LSTM) ネットワークは勾配消失問題を解決するために忘却ゲートが追加されているRNNの一種です。
 
 <br>
 
 **29. Reinforcement Learning and Control**
 
-&#10230;
+&#10230; 強化学習と
 
 <br>
 
@@ -294,28 +294,28 @@
 
 **50. View PDF version on GitHub**
 
-&#10230;
+&#10230; GitHubでPDF版を見る
 
 <br>
 
 **51. [Neural Networks, Architecture, Activation function, Backpropagation, Dropout]**
 
-&#10230;
+&#10230; [ニューラルネットワーク, アーキテクチャ, 活性化関数, 誤差逆伝播法, ドロップアウト]
 
 <br>
 
 **52. [Convolutional Neural Networks, Convolutional layer, Batch normalization]**
 
-&#10230;
+&#10230; [畳み込みニューラルネットワーク, 畳み込み層, バッチノーマライゼーション]
 
 <br>
 
 **53. [Recurrent Neural Networks, Gates, LSTM]**
 
-&#10230;
+&#10230; [再帰型ニューラルネットワーク, ゲート, LSTM]
 
 <br>
 
 **54. [Reinforcement learning, Markov decision processes, Value/policy iteration, Approximate dynamic programming, Policy search]**
 
-&#10230;
+&#10230; [強化学習, マルコフ決定過程, バリュー/ポリシー反復, 近似動的計画法, ポリシーサーチ]

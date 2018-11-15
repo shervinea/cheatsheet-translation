@@ -204,7 +204,7 @@
 
 **35. {Psa} are the state transition probabilities for s∈S and a∈A**
 
-&#10230; {Psa}は状態s∈Sと行動a∈Aの条件付き分布
+&#10230; {Psa}は状態s∈Sと行動a∈Aの状態遷移確率
 
 <br>
 
@@ -216,79 +216,79 @@
 
 **37. R:S×A⟶R or R:S⟶R is the reward function that the algorithm wants to maximize**
 
-&#10230;
+&#10230; R:S×A⟶R or R:S⟶Rはアルゴリズムが最大化したい報酬関数
 
 <br>
 
 **38. Policy ― A policy π is a function π:S⟶A that maps states to actions.**
 
-&#10230;
+&#10230; 政策 - 政策πは状態と行動を写像する関数π:S⟶A
 
 <br>
 
 **39. Remark: we say that we execute a given policy π if given a state s we take the action a=π(s).**
 
-&#10230;
+&#10230; 備考: 状態sを与えられた際に行動a=π(s)を行うことを政策πを実行すると言う。
 
 <br>
 
 **40. Value function ― For a given policy π and a given state s, we define the value function Vπ as follows:**
 
-&#10230;
+&#10230; 価値関数 - ある政策πとある状態sにおいて価値関数Vπを以下のように定義する：
 
 <br>
 
 **41. Bellman equation ― The optimal Bellman equations characterizes the value function Vπ∗ of the optimal policy π∗:**
 
-&#10230;
+&#10230; ベルマン方程式 - 政策πをとった価値関数Vπ∗に対する最適なベルマン方程式：
 
 <br>
 
 **42. Remark: we note that the optimal policy π∗ for a given state s is such that:**
 
-&#10230;
+&#10230; 備考: 与えられた状態sに対する最適方針π*はこのようになります：
 
 <br>
 
 **43. Value iteration algorithm ― The value iteration algorithm is in two steps:**
 
-&#10230;
+&#10230; 価値反復法アルゴリズム - 価値反復法アルゴリズムは２段階で行われます：
 
 <br>
 
 **44. 1) We initialize the value:**
 
-&#10230;
+&#10230; 1) 値を初期化する。
 
 <br>
 
 **45. 2) We iterate the value based on the values before:**
 
-&#10230;
+&#10230; 2) 前の値を元に値を繰り返す：
 
 <br>
 
 **46. Maximum likelihood estimate ― The maximum likelihood estimates for the state transition probabilities are as follows:**
 
-&#10230;
+&#10230; 最尤推定 ー 状態遷移確率の最尤推定(maximum likelihood estimate; MLE)：
 
 <br>
 
 **47. times took action a in state s and got to s′**
 
-&#10230;
+&#10230; 状態sで行動aを行い状態s′に遷移した回数
 
 <br>
 
 **48. times took action a in state s**
 
-&#10230;
+&#10230; 状態sで行動aを行った回数
 
 <br>
 
 **49. Q-learning ― Q-learning is a model-free estimation of Q, which is done as follows:**
 
-&#10230;
+&#10230;  Q学習　ー Q学習は数学モデルを使わないQ値の評価手法であり、以下のように行われる：
 
 <br>
 

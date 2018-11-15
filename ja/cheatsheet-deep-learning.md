@@ -168,49 +168,49 @@
 
 **29. Reinforcement Learning and Control**
 
-&#10230; 強化学習と
+&#10230; 強化学習とコントロール
 
 <br>
 
 **30. The goal of reinforcement learning is for an agent to learn how to evolve in an environment.**
 
-&#10230;
+&#10230; 強化学習はある環境内においてエージェントが学習し、進化することを目標とします。
 
 <br>
 
 **31. Definitions**
 
-&#10230;
+&#10230; 定義
 
 <br>
 
 **32. Markov decision processes ― A Markov decision process (MDP) is a 5-tuple (S,A,{Psa},γ,R) where:**
 
-&#10230;
+&#10230; マルコフ決定過程 ー  マルコフ決定過程(Markov decision process; MDP)を5タプル(S,A,{Psa},γ,R)としたとき：
 
 <br>
 
 **33. S is the set of states**
 
-&#10230;
+&#10230; Sは状態の有限集合
 
 <br>
 
 **34. A is the set of actions**
 
-&#10230;
+&#10230; Aは行動の有限集合
 
 <br>
 
 **35. {Psa} are the state transition probabilities for s∈S and a∈A**
 
-&#10230;
+&#10230; {Psa}は状態s∈Sと行動a∈Aの条件付き分布
 
 <br>
 
 **36. γ∈[0,1[ is the discount factor**
 
-&#10230;
+&#10230; γ∈[0,1[は割引因子と呼ばれる値
 
 <br>
 

@@ -72,115 +72,115 @@
 
 **13. ROC ― The receiver operating curve, also noted ROC, is the plot of TPR versus FPR by varying the threshold. These metrics are are summed up in the table below:**
 
-&#10230;
+&#10230; ROC曲線 - 受信者動作特性曲線(ROC)は閾値を変えていく際のFPRに対するTPRのグラフです．
 
 <br>
 
 **14. [Metric, Formula, Equivalent]**
 
-&#10230;
+&#10230;　[評価指標,式,等価な指標]
 
 <br>
 
 **15. AUC ― The area under the receiving operating curve, also noted AUC or AUROC, is the area below the ROC as shown in the following figure:**
 
-&#10230;
+&#10230; AUC - ROC曲線下面積(AUC,AUROC)は次の図のようにROC曲線の下側の面積のことです．
 
 <br>
 
 **16. [Actual, Predicted]**
 
-&#10230;
+&#10230; [実際，予測]
 
 <br>
 
 **17. Basic metrics ― Given a regression model f, the following metrics are commonly used to assess the performance of the model:**
 
-&#10230;
+&#10230;　[基本的な評価指標] 回帰モデルfが与えられたとき，次のようなよう化指標がモデルの性能を評価するために一般的に用いられます．
 
 <br>
 
 **18. [Total sum of squares, Explained sum of squares, Residual sum of squares]**
 
-&#10230;
+&#10230;　[総平方和,説明された平方和,残差平方和]
 
 <br>
 
 **19. Coefficient of determination ― The coefficient of determination, often noted R2 or r2, provides a measure of how well the observed outcomes are replicated by the model and is defined as follows:**
 
-&#10230;
+&#10230;　決定係数 - よくR2やr2と書かれる決定係数は，実際の結果がモデルによってどの程度よく再現されているかを測る評価指標であり，次のように定義される．
 
 <br>
 
 **20. Main metrics ― The following metrics are commonly used to assess the performance of regression models, by taking into account the number of variables n that they take into consideration:**
 
-&#10230;
+&#10230; 主要な評価指標 - 次の評価指標は説明変数の数を考慮して回帰モデルの性能を評価するために，一般的に用いられています．
 
 <br>
 
 **21. where L is the likelihood and ˆσ2 is an estimate of the variance associated with each response.**
 
-&#10230;
+&#10230; ここでLは尤度であり，ˆσ2は各応答に対する誤差分散の推定値です．
 
 <br>
 
 **22. Model selection**
 
-&#10230;
+&#10230; モデル選択
 
 <br>
 
 **23. Vocabulary ― When selecting a model, we distinguish 3 different parts of the data that we have as follows:**
 
-&#10230;
+&#10230; 用語 - モデルを選択するときには，次のように，データの種類を異なる３つに区別します．
 
 <br>
 
 **24. [Training set, Validation set, Testing set]**
 
-&#10230;
+&#10230; [訓練データセット,検証データセット,テストセット]
 
 <br>
 
 **25. [Model is trained, Model is assessed, Model gives predictions]**
 
-&#10230;
+&#10230; [モデルが学習される,モデルが評価される,モデルを用いて予測する]
 
 <br>
 
 **26. [Usually 80% of the dataset, Usually 20% of the dataset]**
 
-&#10230;
+&#10230; [通常はデータセットの80%,通常はデータセットの20%]
 
 <br>
 
 **27. [Also called hold-out or development set, Unseen data]**
 
-&#10230;
+&#10230; [ホールドアウトセットや，開発セットとも呼ばれる,未知のデータ]
 
 <br>
 
 **28. Once the model has been chosen, it is trained on the entire dataset and tested on the unseen test set. These are represented in the figure below:**
 
-&#10230;
+&#10230;　一度モデル選択が行われた場合，学習はデータセットの全体を用いて行われ，またテストは未知のテストセットに対して行われます．これらは次のように表されます．
 
 <br>
 
 **29. Cross-validation ― Cross-validation, also noted CV, is a method that is used to select a model that does not rely too much on the initial training set. The different types are summed up in the table below:**
 
-&#10230;
+&#10230; 交差検証 - 交差検証(CV)は，初期の学習データセットに強く依存しないようにモデル選択を行う方法です．いくつかの種類を下にまとめます．
 
 <br>
 
 **30. [Training on k−1 folds and assessment on the remaining one, Training on n−p observations and assessment on the p remaining ones]**
 
-&#10230;
+&#10230; [k-1群で学習，残りの1群で評価,n-p個で学習，残りのp個で評価]
 
 <br>
 
 **31. [Generally k=5 or 10, Case p=1 is called leave-one-out]**
 
-&#10230;
+&#10230; [k=5か10が一般的,p=1の場合はLeave-one-out cross validation法と呼ばれます．]
 
 <br>
 

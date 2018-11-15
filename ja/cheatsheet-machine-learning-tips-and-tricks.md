@@ -18,7 +18,7 @@
 
 **4. Confusion matrix ― The confusion matrix is used to have a more complete picture when assessing the performance of a model. It is defined as follows:**
 
-&#10230; 混同行列 - 混同行列はモデルの性能を評価する際に，より完全な描像を得るために使われます．
+&#10230; 混同行列 - 混同行列はモデルの性能を評価する際に，より完全な描像を得るために用いられます．
 
 <br>
 
@@ -30,7 +30,7 @@
 
 **6. Main metrics ― The following metrics are commonly used to assess the performance of classification models:**
 
-&#10230; 主要な評価指標 - 次の指標が分類モデルの性能の評価のために一般的に使用されます．
+&#10230; 主要な評価指標 - 次の指標が分類モデルの性能の評価のために一般的に用いられます．
 
 <br>
 
@@ -258,28 +258,28 @@
 
 **44. Regression metrics**
 
-&#10230;
+&#10230; 回帰評価指標
 
 <br>
 
 **45. [Classification metrics, confusion matrix, accuracy, precision, recall, F1 score, ROC]**
 
-&#10230;
+&#10230; [分類評価指標,混同行列,正解率,適合率,再現率,F値,ROC]
 
 <br>
 
 **46. [Regression metrics, R squared, Mallow's CP, AIC, BIC]**
 
-&#10230;
+&#10230; [回帰評価指標,R二乗,マローズのCp,AIC,BIC]
 
 <br>
 
 **47. [Model selection, cross-validation, regularization]**
 
-&#10230;
+&#10230; [モデル選択，交差検証，正則化]
 
 <br>
 
 **48. [Diagnostics, Bias/variance tradeoff, error/ablative analysis]**
 
-&#10230;
+&#10230; [分析，バイアス・バリアンストレードオフ，エラー・アブレーション分析]

@@ -180,79 +180,79 @@
 
 **31. [Generally k=5 or 10, Case p=1 is called leave-one-out]**
 
-&#10230; [k=5か10が一般的,p=1の場合はLeave-one-out cross validation法と呼ばれます．]
+&#10230; [k=5か10が一般的,p=1の場合はLeave-one-out cross validation法と呼ばれる．]
 
 <br>
 
 **32. The most commonly used method is called k-fold cross-validation and splits the training data into k folds to validate the model on one fold while training the model on the k−1 other folds, all of this k times. The error is then averaged over the k folds and is named cross-validation error.**
 
-&#10230;
+&#10230;　最も一般的に用いられている方法はk交差検証法であり，データセットをk群に分け，1群を検証に，残りのk-1群を学習に用います．これをk回繰り返します．求められた検証誤差はk群全てにわたって平均化され，これは交差検証誤差と呼ばれています．
 
 <br>
 
 **33. Regularization ― The regularization procedure aims at avoiding the model to overfit the data and thus deals with high variance issues. The following table sums up the different types of commonly used regularization techniques:**
 
-&#10230;
+&#10230;　正則化 - 正則化はモデルが過学習するのを避ける目的としており，したがってバリアンスが大きくなる問題に対処します．次の表は一般的に使用されるいくつかの正則化法をまとめたものです．
 
 <br>
 
 **34. [Shrinks coefficients to 0, Good for variable selection, Makes coefficients smaller, Tradeoff between variable selection and small coefficients]**
 
-&#10230;
+&#10230; [係数を0にする,変数選択に適する,係数を小さくする,変数選択と係数を小さくすることのトレードオフ]
 
 <br>
 
 **35. Diagnostics**
 
-&#10230;
+&#10230; 分析
 
 <br>
 
 **36. Bias ― The bias of a model is the difference between the expected prediction and the correct model that we try to predict for given data points.**
 
-&#10230;
+&#10230; バイアス - モデルのバイアスとは，予測するあるデータ点における，予測した結果の期待値と正しいモデルによる結果との差です．
 
 <br>
 
 **37. Variance ― The variance of a model is the variability of the model prediction for given data points.**
 
-&#10230;
+&#10230; バリアンス - モデルのバリアンスとは，予測するあるデータ点における，予測した結果の分散です．
 
 <br>
 
 **38. Bias/variance tradeoff ― The simpler the model, the higher the bias, and the more complex the model, the higher the variance.**
 
-&#10230;
+&#10230; バイアス・バリアンストレードオフ - よりシンプルなモデルではバイアスが高くなり，より複雑なモデルはバリアンスが高くなります．
 
 <br>
 
 **39. [Symptoms, Regression illustration, classification illustration, deep learning illustration, possible remedies]**
 
-&#10230;
+&#10230; [症状,回帰モデルでの図,分類モデルでの図,深層学習での図,可能な解決策]
 
 <br>
 
 **40. [High training error, Training error close to test error, High bias, Training error slightly lower than test error, Very low training error, Training error much lower than test error, High variance]**
 
-&#10230;
+&#10230; [高い訓練誤差,訓練誤差がテスト誤差に近い，高いバイアス,訓練誤差がテスト誤差より少しだけ小さい,極端に小さい訓練誤差,訓練誤差がテスト誤差に比べて非常に小さい,高いバリアンス]
 
 <br>
 
 **41. [Complexify model, Add more features, Train longer, Perform regularization, Get more data]**
 
-&#10230;
+&#10230; [より複雑なモデルを試す,特徴量を増やす，より長く学習する,正則化を導入する,データ数を増やす]
 
 <br>
 
 **42. Error analysis ― Error analysis is analyzing the root cause of the difference in performance between the current and the perfect models.**
 
-&#10230;
+&#10230; エラー分析 - エラー分析は完璧なモデルと現在のモデル間の性能差の主要な要因を分析することです．
 
 <br>
 
 **43. Ablative analysis ― Ablative analysis is analyzing the root cause of the difference in performance between the current and the baseline models.**
 
-&#10230;
+&#10230; アブレーション分析 - アブレーション分析は，ベースラインとするモデルと現在のモデル間の性能差の主要な要因を分析することです．
 
 <br>
 

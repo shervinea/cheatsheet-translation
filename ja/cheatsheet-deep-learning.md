@@ -18,7 +18,7 @@
 
 **4. Architecture ― The vocabulary around neural networks architectures is described in the figure below:**
 
-&#10230; 構造　－ ニューラルネットワークを組む上で重要な単語：
+&#10230; 構造　－ ニューラルネットワークを組む上で重要な用語は以下の図により説明されます：
 
 <br>
 
@@ -30,85 +30,85 @@
 
 **6. By noting i the ith layer of the network and j the jth hidden unit of the layer, we have:**
 
-&#10230; []
+&#10230; iをネットワーク上のi層目の層とし、隠れ層のj個目のユニットをjとすると：
 
 <br>
 
 **7. where we note w, b, z the weight, bias and output respectively.**
 
-&#10230;
+&#10230; この場合重み付けをw、バイアス項をb、出力をzとします。
 
 <br>
 
 **8. Activation function ― Activation functions are used at the end of a hidden unit to introduce non-linear complexities to the model. Here are the most common ones:**
 
-&#10230;
+&#10230; 活性化関数　ー ユニットの出力に非線形性を与える関数を活性化関数といいます。一般的には以下の関数がよく使われます：
 
 <br>
 
 **9. [Sigmoid, Tanh, ReLU, Leaky ReLU]**
 
-&#10230;
+&#10230; [Sigmoid(シグモイド関数), Tanh(双曲線関数), ReLU(ランプ関数), Leaky ReLU]
 
 <br>
 
 **10. Cross-entropy loss ― In the context of neural networks, the cross-entropy loss L(z,y) is commonly used and is defined as follows:**
 
-&#10230;
+&#10230; 交差エントロピーロス　ー ニューラルネットにおいて交差エントロピーロスL(z,y)は頻繁に使われ、以下のように定義されています：
 
 <br>
 
 **11. Learning rate ― The learning rate, often noted α or sometimes η, indicates at which pace the weights get updated. This can be fixed or adaptively changed. The current most popular method is called Adam, which is a method that adapts the learning rate.**
 
-&#10230;
+&#10230; 学習率　ー αやηで表される学習率は勾配法による重み付けのアップデートをする速度を表します。学習率は固定または適応的に変更することができます。現在一般的に使われている学習法はAdam（アダム）であり、学習率を適用させる方法です。
 
 <br>
 
 **12. Backpropagation ― Backpropagation is a method to update the weights in the neural network by taking into account the actual output and the desired output. The derivative with respect to weight w is computed using chain rule and is of the following form:**
 
-&#10230;
+&#10230; 誤差逆伝播法（backpropagation）ー 誤差逆伝播法はニューラルネットの期待される出力値と実際の出力の差異を考慮し重み付けのアップデートをする方法の一つです。重みwに関する導関数は連鎖規則を使用して計算され、次の形式で表される：
 
 <br>
 
 **13. As a result, the weight is updated as follows:**
 
-&#10230;
+&#10230; 結果、重みは以下のようにアップデートされます：
 
 <br>
 
 **14. Updating weights ― In a neural network, weights are updated as follows:**
 
-&#10230;
+&#10230; 重みアップデート　ー ニューラルネットでは以下のように重みがアップデートされます：
 
 <br>
 
 **15. Step 1: Take a batch of training data.**
 
-&#10230;
+&#10230; ステップ１： 訓練データを１バッチ用意する。
 
 <br>
 
 **16. Step 2: Perform forward propagation to obtain the corresponding loss.**
 
-&#10230;
+&#10230; ステップ２：　フォワードプロパゲーションを行い誤差を求める。
 
 <br>
 
 **17. Step 3: Backpropagate the loss to get the gradients.**
 
-&#10230;
+&#10230; 求められた誤差を用い、傾斜を計算する。
 
 <br>
 
 **18. Step 4: Use the gradients to update the weights of the network.**
 
-&#10230;
+&#10230; 傾斜を使い誤差が小さくなるように重みを調整する。
 
 <br>
 
 **19. Dropout ― Dropout is a technique meant at preventing overfitting the training data by dropping out units in a neural network. In practice, neurons are either dropped with probability p or kept with probability 1−p**
 
-&#10230;
+&#10230;ドロップアウト　ー ドロップアウトはニューラルネット内の一部のユニットを非活性化させることにより過学習を防ぐテクニックである。実際には、ニューロンはある確率pで非活性、1-pの確率で活性化されるようになってる。
 
 <br>
 

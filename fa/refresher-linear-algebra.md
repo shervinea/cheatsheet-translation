@@ -300,13 +300,13 @@ $N(a x) = |a| N(x)$ برای عدد اسکالر
 
 **51. Hessian ― Let f:Rn→R be a function and x∈Rn be a vector. The hessian of f with respect to x is a n×n symmetric matrix, noted ∇2xf(x), such that:**
 <div dir="rtl">
-هسیان - فرض کنید $f: \mathbb{R}^n \rightarrow \mathbb{R}$ یک تابع و $x \in \mathbb{R}^n$ یک بردار باشد. هسیان $f$ نسبت به $x$ یک ماتریس متقارن با ابعاد $n \times n$ است و با $\nabla^2_x f(x)$ نمایش داده می‌شود، به طوری که:
+هشین - فرض کنید $f: \mathbb{R}^n \rightarrow \mathbb{R}$ یک تابع و $x \in \mathbb{R}^n$ یک بردار باشد. هشین $f$ نسبت به $x$ یک ماتریس متقارن با ابعاد $n \times n$ است و با $\nabla^2_x f(x)$ نمایش داده می‌شود، به طوری که:
 </div>
 <br>
 
 **52. Remark: the hessian of f is only defined when f is a function that returns a scalar**
 <div dir="rtl">
-نکته: هسیان تابع $f$ تنها زمانی تعریف شده است که $f$ تابعی با خروجی اسکالر باشد.
+نکته: هشین تابع $f$ تنها زمانی تعریف شده است که $f$ تابعی با خروجی اسکالر باشد.
 </div>
 <br>
 
@@ -336,5 +336,5 @@ $N(a x) = |a| N(x)$ برای عدد اسکالر
 
 **57. [Matrix calculus, Gradient, Hessian, Operations]**
 <div dir="rtl">
-[حسابان ماتریسی، گرادیان، هسیان، عملیات]
+[حسابان ماتریسی، گرادیان، هشین، عملیات]
 </div>

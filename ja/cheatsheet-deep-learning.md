@@ -1,36 +1,36 @@
 **1. Deep Learning cheatsheet**
 
-&#10230;
+&#10230; ディープラーニング虎の巻
 
 <br>
 
 **2. Neural Networks**
 
-&#10230;
+&#10230; ニューラルネットワーク
 
 <br>
 
 **3. Neural networks are a class of models that are built with layers. Commonly used types of neural networks include convolutional and recurrent neural networks.**
 
-&#10230;
+&#10230; ニューラルネットワークは階層で構成されるモデルの1つです。一般に使用されるニューラルネットワークには畳み込みや再帰型ニューラルネットワークがあります。
 
 <br>
 
 **4. Architecture ― The vocabulary around neural networks architectures is described in the figure below:**
 
-&#10230;
+&#10230; アーキテクチャ - 下図はニューラルネットワークのアーキテクチャ周辺のボキャブラリを示します。
 
 <br>
 
 **5. [Input layer, hidden layer, output layer]**
 
-&#10230;
+&#10230; 入力層, 隠れ層, 出力層
 
 <br>
 
 **6. By noting i the ith layer of the network and j the jth hidden unit of the layer, we have:**
 
-&#10230;
+&#10230; 
 
 <br>
 

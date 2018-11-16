@@ -120,25 +120,25 @@
 
 **21. Convolutional layer requirement ― By noting W the input volume size, F the size of the convolutional layer neurons, P the amount of zero padding, then the number of neurons N that fit in a given volume is such that:**
 
-&#10230;
+&#10230; 畳み込み層の要件 - W は入力データの数, F は畳み込み層のニューロンの数, P はゼロパディングの量, そしてニューロンの数 N に見合う量は次式: 
 
 <br>
 
 **22. Batch normalization ― It is a step of hyperparameter γ,β that normalizes the batch {xi}. By noting μB,σ2B the mean and variance of that we want to correct to the batch, it is done as follows:**
 
-&#10230;
+&#10230; バッチ正規化 - それはハイパーパラメータ γ, β を用いて正規化するバッチ処理　{xi} の方法です. μB, σ2B で表す正確な平均と分散を用いたバッチ処理は, 次式: 
 
 <br>
 
 **23. It is usually done after a fully connected/convolutional layer and before a non-linearity layer and aims at allowing higher learning rates and reducing the strong dependence on initialization.**
 
-&#10230;
+&#10230; それは通常, 全結合/畳み込み層の後, 非線形の層の前で処理され, 高い学習率と強い初期値依存性を軽減します. 
 
 <br>
 
 **24. Recurrent Neural Networks**
 
-&#10230;
+&#10230; 再帰型ニューラルネットワーク
 
 <br>
 

@@ -54,7 +54,7 @@
 
 **10. Cross-entropy loss ― In the context of neural networks, the cross-entropy loss L(z,y) is commonly used and is defined as follows:**
 
-&#10230; 交差エントロピー損失 - ニューラルネットワークの文脈で, 一般的に使われる交差エントロピー損失 L(z, y)の定義は以下: 
+&#10230; 交差エントロピー損失 - ニューラルネットワークの文脈で, 一般的に使われる交差エントロピー損失 L(z,y)の定義は以下: 
 
 <br>
 
@@ -126,7 +126,7 @@
 
 **22. Batch normalization ― It is a step of hyperparameter γ,β that normalizes the batch {xi}. By noting μB,σ2B the mean and variance of that we want to correct to the batch, it is done as follows:**
 
-&#10230; バッチ正規化 - それはハイパーパラメータ γ, β を用いて正規化するバッチ処理　{xi} の方法です. μB, σ2B で表す正確な平均と分散を用いたバッチ処理は, 次式: 
+&#10230; バッチ正規化 - それはハイパーパラメータ γ,β を用いて正規化するバッチ処理　{xi} の方法です. μB,σ2B で表す正確な平均と分散を用いたバッチ処理は, 次式: 
 
 <br>
 
@@ -144,103 +144,103 @@
 
 **25. Types of gates ― Here are the different types of gates that we encounter in a typical recurrent neural network:**
 
-&#10230;
+&#10230; ゲートの種類 - ここでは典型的な再帰型ニューラルネットワークを例に挙げ, 異なる種類のゲートを紹介します. 
 
 <br>
 
 **26. [Input gate, forget gate, gate, output gate]**
 
-&#10230;
+&#10230; [入力ゲート, 忘却ゲート, ゲート, 出力ゲート]
 
 <br>
 
 **27. [Write to cell or not?, Erase a cell or not?, How much to write to cell?, How much to reveal cell?]**
 
-&#10230;
+&#10230; [セルに書き込みするか否か?, セルから削除するか否か?, セルにどのくらい書き込むか?, どのくらいセルから出力するか?]
 
 <br>
 
 **28. LSTM ― A long short-term memory (LSTM) network is a type of RNN model that avoids the vanishing gradient problem by adding 'forget' gates.**
 
-&#10230;
+&#10230; LSTM - Long Short-Term Memory (LSTM) ネットワークは, '忘却'ゲートの追加により勾配消失問題を防ぐタイプの RNN モデルです. 
 
 <br>
 
 **29. Reinforcement Learning and Control**
 
-&#10230;
+&#10230; 強化学習とその制御
 
 <br>
 
 **30. The goal of reinforcement learning is for an agent to learn how to evolve in an environment.**
 
-&#10230;
+&#10230; 強化学習のゴールは, エージェントにある環境で進化する方法を学ばせることです.  
 
 <br>
 
 **31. Definitions**
 
-&#10230;
+&#10230; 定義
 
 <br>
 
 **32. Markov decision processes ― A Markov decision process (MDP) is a 5-tuple (S,A,{Psa},γ,R) where:**
 
-&#10230;
+&#10230; マルコフ決定過程 - マルコフ決定過程 (Markov Deision Process; MDP) は, 次の5つ組のタプル (S,A,{Psa},γ,R): 
 
 <br>
 
 **33. S is the set of states**
 
-&#10230;
+&#10230; S は状態の集合
 
 <br>
 
 **34. A is the set of actions**
 
-&#10230;
+&#10230; A は行動の集合
 
 <br>
 
 **35. {Psa} are the state transition probabilities for s∈S and a∈A**
 
-&#10230;
+&#10230; {Psa} は s∈S and a∈A の状態遷移確率
 
 <br>
 
 **36. γ∈[0,1[ is the discount factor**
 
-&#10230;
+&#10230; γ∈[0,1] は割引因子
 
 <br>
 
 **37. R:S×A⟶R or R:S⟶R is the reward function that the algorithm wants to maximize**
 
-&#10230;
+&#10230; R:S×A⟶R or R:S⟶R はアルゴリズムが最大化すべき報酬関数
 
 <br>
 
 **38. Policy ― A policy π is a function π:S⟶A that maps states to actions.**
 
-&#10230;
+&#10230; ポリシー(政策) - ポリシー π は状態に合わせるための行動を取る関数 π:S⟶A です.
 
 <br>
 
 **39. Remark: we say that we execute a given policy π if given a state s we take the action a=π(s).**
 
-&#10230;
+&#10230; 注釈: もし状態 s が与えられたら, 与えられたポリシー π に従って行動 a=π(s) を実行します. 
 
 <br>
 
 **40. Value function ― For a given policy π and a given state s, we define the value function Vπ as follows:**
 
-&#10230;
+&#10230; 価値関数 - 与えられたポリシー π と与えられた状態 s に対して, 定義された価値関数 Vπ は以下: 
 
 <br>
 
 **41. Bellman equation ― The optimal Bellman equations characterizes the value function Vπ∗ of the optimal policy π∗:**
 
-&#10230;
+&#10230; ベルマン方程式 - 最適化ポリシー π∗ を用いた価値関数 Vπ∗ の特徴を持つ最適化ベルマン方程式:
 
 <br>
 

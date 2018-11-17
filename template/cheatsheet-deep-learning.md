@@ -208,7 +208,7 @@
 
 <br>
 
-**36. γ∈[0,1[ is the discount factor**
+**36. γ∈[0,1] is the discount factor**
 
 &#10230;
 

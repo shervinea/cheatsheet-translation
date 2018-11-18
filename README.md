@@ -34,11 +34,16 @@ This repository aims at collaboratively translating our [Machine Learning cheats
 If your favorite language is missing, please feel free to add it!
 
 ## Contribution guidelines
-Please first check for [existing pull requests](https://github.com/shervinea/cheatsheet-translation/pulls) before submitting yours. Also, please propose the translation of **only one** cheatsheet per pull request -- it simplifies a lot the review process.
+First of all, thank you for helping us out! The translation process of each cheatsheet is divided in two steps:
+- **Translation**, where contributors follow a template of items to translate.
+- **Review**, where contributors go through each translated expressions of their peers and add their suggestions and remarks.
+
+### Translators
+0. Check for [existing pull requests](https://github.com/shervinea/cheatsheet-translation/pulls) to see which cheatsheet is yet to be translated.
 
 1. Fork the repository.
 
-2. Go to the folder associated to the language of your choice (e.g. `es/` for Spanish, `zh/` for Mandarin Chinese). If it is not created yet, copy `template/` into a language folder with a naming that follows the [ISO 639-1 notation](https://www.loc.gov/standards/iso639-2/php/code_list.php).
+2. Copy the template of the cheatsheet you wish to translate (provided in the `template/` folder) into the language folder with a naming that follows the [ISO 639-1 notation](https://www.loc.gov/standards/iso639-2/php/code_list.php).
 
 3. Translate anything you want by keeping the [following template](https://github.com/shervinea/cheatsheet-translation/tree/master/template):
 > 34. **English blabla**
@@ -49,7 +54,15 @@ Please first check for [existing pull requests](https://github.com/shervinea/che
 
 5. Submit a [pull request](https://help.github.com/articles/creating-a-pull-request/) and call it `[code of language name] Topic name`. For example, a translation in Spanish of the deep learning cheatsheet will be called `[es] Deep learning`.
 
-Submissions will have to be reviewed by a fellow native speaker before being accepted.
+### Reviewers
+1. Go to the [list of pull requests](https://github.com/shervinea/cheatsheet-translation/pulls) and filter them by your native language (e.g. `[es]` for Spanish, `[zh]` for Mandarin Chinese).
+
+2. Locate pull requests with the tag `reviewer wanted`.
+
+3. Review the content line per line by adding comments and suggestions when necessary.
+
+### Important note
+Please make sure to propose the translation of **only one** cheatsheet per pull request -- it simplifies a lot the review process.
 
 ## Acknowledgements
 Thank you everyone for your help! Please do not forget to add your name to the `CONTRIBUTORS` file so that we can give you proper credit in the cheatsheets' [official website](https://stanford.edu/~shervine/teaching/cs-229.html).

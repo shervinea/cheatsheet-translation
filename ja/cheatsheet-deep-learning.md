@@ -222,100 +222,100 @@
 
 **38. Policy ― A policy π is a function π:S⟶A that maps states to actions.**
 
-&#10230; ポリシー(政策) - ポリシー π は状態に合わせるための行動を取る関数 π:S⟶A です.
+&#10230; 政策(ポリシー) - 政策 π は状態に合わせるための行動を取る関数 π:S⟶A です.
 
 <br>
 
 **39. Remark: we say that we execute a given policy π if given a state s we take the action a=π(s).**
 
-&#10230; 注釈: もし状態 s が与えられたら, 与えられたポリシー π に従って行動 a=π(s) を実行します. 
+&#10230; 注記: もし状態 s が与えられたら, 与えられた政策 π に従って行動 a=π(s) を実行します. 
 
 <br>
 
 **40. Value function ― For a given policy π and a given state s, we define the value function Vπ as follows:**
 
-&#10230; 価値関数 - 与えられたポリシー π と与えられた状態 s に対して, 定義された価値関数 Vπ は以下: 
+&#10230; 価値関数 - 与えられた政策 π と与えられた状態 s に対して, 定義された価値関数 Vπ は以下: 
 
 <br>
 
 **41. Bellman equation ― The optimal Bellman equations characterizes the value function Vπ∗ of the optimal policy π∗:**
 
-&#10230; ベルマン方程式 - 最適化ポリシー π∗ を用いた価値関数 Vπ∗ の特徴を持つ最適化ベルマン方程式:
+&#10230; ベルマン方程式 - 最適政策 π∗ を用いた価値関数 Vπ∗ の特徴を持つ最適化ベルマン方程式:
 
 <br>
 
 **42. Remark: we note that the optimal policy π∗ for a given state s is such that:**
 
-&#10230;
+&#10230; 注記: 与えられた状態に対する最適政策 π∗ を表したものは次式:
 
 <br>
 
 **43. Value iteration algorithm ― The value iteration algorithm is in two steps:**
 
-&#10230;
+&#10230; 価値反復法 - 価値反復法の2ステップ:
 
 <br>
 
 **44. 1) We initialize the value:**
 
-&#10230;
+&#10230; 1) 価値の初期化:
 
 <br>
 
 **45. 2) We iterate the value based on the values before:**
 
-&#10230;
+&#10230; 2) 事前の価値を元に価値を繰り返し決定:
 
 <br>
 
 **46. Maximum likelihood estimate ― The maximum likelihood estimates for the state transition probabilities are as follows:**
 
-&#10230;
+&#10230; 最尤推定 - 状態遷移確率の最尤推定は次式:
 
 <br>
 
 **47. times took action a in state s and got to s′**
 
-&#10230;
+&#10230; 状態 s で行動 a を取り, 状態 s′ を得る回数
 
 <br>
 
 **48. times took action a in state s**
 
-&#10230;
+&#10230; 状態 s で行動 a を取る回数
 
 <br>
 
 **49. Q-learning ― Q-learning is a model-free estimation of Q, which is done as follows:**
 
-&#10230;
+&#10230; Q学習 (Q-learning) - モデルフリーな推定をするQ学習の Q は次式:
 
 <br>
 
 **50. View PDF version on GitHub**
 
-&#10230;
+&#10230; GitHub上のPDF版を参照
 
 <br>
 
 **51. [Neural Networks, Architecture, Activation function, Backpropagation, Dropout]**
 
-&#10230;
+&#10230; [ニューラルネットワーク, アーキテクチャ, 活性化関数, 誤差逆伝播法, ドロップアウト]
 
 <br>
 
 **52. [Convolutional Neural Networks, Convolutional layer, Batch normalization]**
 
-&#10230;
+&#10230; [畳み込みニューラルネットワーク, 畳み込み層, バッチ正規化]
 
 <br>
 
 **53. [Recurrent Neural Networks, Gates, LSTM]**
 
-&#10230;
+&#10230; [再帰型ニューラルネットワーク, ゲート, LSTM]
 
 <br>
 
 **54. [Reinforcement learning, Markov decision processes, Value/policy iteration, Approximate dynamic programming, Policy search]**
 
-&#10230;
+&#10230; [強化学習, マルコフ決定過程, 価値/政策反復法, 近似動的計画法]

@@ -3,9 +3,9 @@
 This repository aims at collaboratively translating our [Machine Learning cheatsheets](https://github.com/afshinea/stanford-cs-229-machine-learning) into a ton of languages, so that this content can be enjoyed by anyone from any part of the world!
 
 ## Contribution guidelines
-First of all, thank you for helping us out! The translation process of each cheatsheet is divided in two steps:
-- **Translation**, where contributors follow a template of items to translate.
-- **Review**, where contributors go through each translated expressions of their peers and add their suggestions and remarks.
+The translation process of each cheatsheet contains two steps:
+- the **translation** step, where contributors follow a template of items to translate,
+- the **review** step, where contributors go through each expression translated by their peers, on top of which they add their suggestions and remarks.
 
 ### Translators
 0. Check for [existing pull requests](https://github.com/shervinea/cheatsheet-translation/pulls) to see which cheatsheet is yet to be translated.
@@ -26,9 +26,9 @@ First of all, thank you for helping us out! The translation process of each chea
 ### Reviewers
 1. Go to the [list of pull requests](https://github.com/shervinea/cheatsheet-translation/pulls) and filter them by your native language (e.g. `[es]` for Spanish, `[zh]` for Mandarin Chinese).
 
-2. Locate pull requests with the tag `reviewer wanted`.
+2. Locate pull requests where help is needed. Those contain the tag `reviewer wanted`.
 
-3. Review the content line per line by adding comments and suggestions when necessary.
+3. Review the content line per line and add comments and suggestions when necessary.
 
 ### Important note
 Please make sure to propose the translation of **only one** cheatsheet per pull request -- it simplifies a lot the review process.
@@ -61,8 +61,6 @@ Please make sure to propose the translation of **only one** cheatsheet per pull 
 |ML tips and tricks|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/8)|not started|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/47)|not started|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/91)|
 |Probabilities and Statistics|not started|not started|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/47)|done|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/92)|
 |Linear algebra|not started|not started|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/47)|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/95)|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/94)|
-
-If your favorite language is missing, please feel free to add it!
 
 ## Acknowledgements
 Thank you everyone for your help! Please do not forget to add your name to the `CONTRIBUTORS` file so that we can give you proper credit in the cheatsheets' [official website](https://stanford.edu/~shervine/teaching/cs-229.html).

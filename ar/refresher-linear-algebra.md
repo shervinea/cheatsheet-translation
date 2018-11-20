@@ -180,7 +180,7 @@
 **25. Remark: not all square matrices are invertible. Also, for matrices A,B, we have (AB)−1=B−1A−1**
 
 <div dir="rtl">
-ملاحظة: ليس جميع المصفوفات يمكن أيجاد معكوس لها. كذلك لأي مصفوفتين $A$ و $B$ نستنتج $(AB)^{-1} = B^{-1} A^{-1}$.
+ملاحظة: ليس جميع المصفوفات يمكن إيجاد معكوس لها. كذلك لأي مصفوفتين $A$ و $B$ نستنتج $(AB)^{-1} = B^{-1} A^{-1}$.
 </div>
 
 <br>
@@ -280,7 +280,7 @@ $N(x) =0 \implies x = 0$
 **39. Linearly dependence ― A set of vectors is said to be linearly dependent if one of the vectors in the set can be defined as a linear combination of the others.**
 
 <div dir="rtl">
-الإتباع الخطي (Linear Dependence): مجموعة المتجهات تعتبر تابعة خطياً إذا وفقط إذا كل متجه يمكن كتابته بشكل خطي بإسخدام مجموعة من المتجهات الأخرى. 
+ الارتباط الخطي (Linear Dependence): مجموعة المتجهات تعتبر تابعة خطياً إذا وفقط إذا كل متجه يمكن كتابته بشكل خطي بإسخدام مجموعة من المتجهات الأخرى. 
 </div>
 <br>
 
@@ -336,7 +336,7 @@ $N(x) =0 \implies x = 0$
 **47. Singular-value decomposition ― For a given matrix A of dimensions m×n, the singular-value decomposition (SVD) is a factorization technique that guarantees the existence of U m×m unitary, Σ m×n diagonal and V n×n unitary matrices, such that:**
 
 <div dir="rtl">
-  تفكيك القيمة المنفردة (singular value decomposition) : لأي مصفوفة $A$ من الشكل $n\times m$ ، تفكيك القيمة المنفردة (SVD) يعتبر طريقة تحليل تضمن وجود $U \in \mathbb{R}^{m \times m}$ , مصفوفة قطرية  $\Sigma \in \mathbb{R}^{m \times n}$ و $V \in \mathbb{R}^{n \times n}$ حيث أن : 
+  مجزئ القيمة المفرده (singular value decomposition) : لأي مصفوفة $A$ من الشكل $n\times m$ ، تفكيك القيمة المنفردة (SVD) يعتبر طريقة تحليل تضمن وجود $U \in \mathbb{R}^{m \times m}$ , مصفوفة قطرية  $\Sigma \in \mathbb{R}^{m \times n}$ و $V \in \mathbb{R}^{n \times n}$ حيث أن : 
 </div>
 <br>
 

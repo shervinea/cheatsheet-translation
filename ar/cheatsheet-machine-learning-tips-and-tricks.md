@@ -194,31 +194,31 @@
 **33. Regularization ― The regularization procedure aims at avoiding the model to overfit the data and thus deals with high variance issues. The following table sums up the different types of commonly used regularization techniques:**
 
 &#10230;
-
+التنظيم ― التنظيم يهدف إلى تفادي التعلم الزائد للنموذج وبالتالي التعامل مع المشاكل التي قد تنتج قيم مرتفعة للتباين. الجدول التالي يختزل مختلف تقنيات التنظيم شائعة الإستعمال: 
 <br>
 
 **34. [Shrinks coefficients to 0, Good for variable selection, Makes coefficients smaller, Tradeoff between variable selection and small coefficients]**
 
 &#10230;
-
+[معاملات الإنكماش نحو الصفر، جيد لاختيار المتغيرات، يجعل المعاملات أصغر، مفاضلة بين اختيار المتغيرات ومعاملات أصغر]
 <br>
 
 **35. Diagnostics**
 
 &#10230;
-
+التشخيصات
 <br>
 
 **36. Bias ― The bias of a model is the difference between the expected prediction and the correct model that we try to predict for given data points.**
 
 &#10230;
-
+الإنحياز ― إنحياز نموذج هو الفرق بين التنبؤ المرتقب والنموذج الصحيح الذي نحاول التنبؤ به لنقط معينة من البيانات.
 <br>
 
 **37. Variance ― The variance of a model is the variability of the model prediction for given data points.**
 
 &#10230;
-
+التباين ― تباين نموذج هو تغير تنبؤ النموذج لنقط معينة من البيانات.
 <br>
 
 **38. Bias/variance tradeoff ― The simpler the model, the higher the bias, and the more complex the model, the higher the variance.**

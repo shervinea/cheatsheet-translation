@@ -1,6 +1,6 @@
 # Translation of VIP Cheatsheets
 ## Goal
-This repository aims at collaboratively translating our [Machine Learning cheatsheets](https://github.com/afshinea/stanford-cs-229-machine-learning) into a ton of languages, so that this content can be enjoyed by anyone from any part of the world!
+This repository aims at collaboratively translating our [Machine Learning](https://github.com/afshinea/stanford-cs-229-machine-learning) and [Deep Learning](https://github.com/afshinea/stanford-cs-230-deep-learning) cheatsheets into a ton of languages, so that this content can be enjoyed by anyone from any part of the world!
 
 ## Contribution guidelines
 The translation process of each cheatsheet contains two steps:
@@ -33,7 +33,28 @@ The translation process of each cheatsheet contains two steps:
 ### Important note
 Please make sure to propose the translation of **only one** cheatsheet per pull request -- it simplifies a lot the review process.
 
-## Progression
+
+## Progression for CS 230 (Deep Learning)
+|Cheatsheet topic|Español|فارسی|Français|日本語|Português|中文|
+|:---|:---:|:---:|:---:|:---:|:---:|:---:|
+|Convolutional Neural Nets|not started|not started|done|not started|not started|not started|
+|Recurrent Neural Nets|not started|not started|done|not started|not started|not started|
+|DL tips and tricks|not started|not started|done|not started|not started|not started|
+
+|Cheatsheet topic|العَرَبِيَّة|עִבְרִית|हिन्दी|Türkçe|Русский|Italiano|
+|:---|:---:|:---:|:---:|:---:|:---:|:---:|
+|Convolutional Neural Nets|not started|not started|not started|not started|not started|not started|
+|Recurrent Neural Nets|not started|not started|not started|not started|not started|not started|
+|DL tips and tricks|not started|not started|not started|not started|not started|not started|
+
+
+|Cheatsheet topic|Polski|Suomi|Català|Українська|한국어|
+|:---|:---:|:---:|:---:|:---:|:---:|
+|Convolutional Neural Nets|not started|not started|not started|not started|not started|
+|Recurrent Neural Nets|not started|not started|not started|not started|not started|
+|DL tips and tricks|not started|not started|not started|not started|not started|
+
+## Progression for CS 229 (Machine Learning)
 |Cheatsheet topic|Español|فارسی|Français|日本語|Português|中文|
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|
 |Deep learning|done|done|done|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/96)|done|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/12)|
@@ -63,4 +84,4 @@ Please make sure to propose the translation of **only one** cheatsheet per pull 
 |Linear algebra|not started|not started|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/47)|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/95)|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/94)|
 
 ## Acknowledgements
-Thank you everyone for your help! Please do not forget to add your name to the `CONTRIBUTORS` file so that we can give you proper credit in the cheatsheets' [official website](https://stanford.edu/~shervine/teaching/cs-229.html).
+Thank you everyone for your help! Please do not forget to add your name to the `CONTRIBUTORS` file so that we can give you proper credit in the cheatsheets' [official website](https://stanford.edu/~shervine/teaching.html).

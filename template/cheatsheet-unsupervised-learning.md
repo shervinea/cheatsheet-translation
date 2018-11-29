@@ -299,7 +299,7 @@ dimensions by maximizing the variance of the data as follows:**
 
 <br>
 
-**51. The Machine Learning cheatsheets are now available in Telugu.**
+**51. The Machine Learning cheatsheets are now available in [target language].**
 
 &#10230;
 

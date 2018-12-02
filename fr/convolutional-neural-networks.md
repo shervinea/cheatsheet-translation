@@ -3,52 +3,52 @@
 
 **1.** Convolutional Neural Networks cheatsheet
 
- &#10230;
+ &#10230; Pense-bête de réseaux de neurones convolutionnels
 
 
 **2.** CS 230 - Deep Learning
 
- &#10230;
+ &#10230; CS 230 - Apprentissage profond
 
 
 **3.** [Overview, Architecture structure]
 
- &#10230;
+ &#10230; [Vue d'ensemble, Structure de l'architecture]
 
 
 **4.** [Types of layer, Convolution, Pooling, Fully connected]
 
- &#10230;
+ &#10230; [Types de couche, Convolution, Pooling, Fully connected]
 
 
 **5.** [Filter hyperparameters, Dimensions, Stride, Padding]
 
- &#10230;
+ &#10230; [Paramètres du filtre, Dimensions, Pas, Padding]
 
 
 **6.** [Tuning hyperparameters, Parameter compatibility, Model complexity, Receptive field]
 
- &#10230;
+ &#10230; []
 
 
 **7.** [Activation functions, Rectified Linear Unit, Softmax]
 
- &#10230;
+ &#10230; [Fonctions d'activation, Unité de rectification linéaire, Softmax]
 
 
 **8.** [Object detection, Types of models, Detection, Intersection over Union, Non-max suppression, YOLO, R-CNN]
 
- &#10230;
+ &#10230; [Détection d'objet, Types de modèles, Détection, Intersection sur l'union, Non-max suppression, YOLO, R-CNN]
 
 
 **9.** [Face verification/recognition, One shot learning, Siamese network, Triplet loss]
 
- &#10230;
+ &#10230; [Vérification/reconnaissance de visage, Apprentissage par coup, Réseau siamois, Triplet loss]
 
 
 **10.** [Neural style transfer, Activation, Style matrix, Style/content cost function]
 
- &#10230;
+ &#10230; [Transfert de style neuronal, Activation, Matrice style, Fonction de coût de style/contenu]
 
 
 **11.** [Computational trick architectures, Generative Adversarial Net, ResNet, Inception Network]
@@ -58,7 +58,7 @@
 
 **12.** Overview
 
- &#10230;
+ &#10230; Vue d'ensemble
 
 
 **13.** Architecture of a traditional CNN ― Convolutional neural networks, also known as CNNs, are a specific type of neural networks that are generally composed of the following layers:

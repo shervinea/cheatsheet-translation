@@ -123,49 +123,49 @@
 
 **18. Pooling (POOL) ― The pooling layer (POOL) is a downsampling operation, typically applied after a convolution layer, which does some spatial invariance. In particular, max and average pooling are special kinds of pooling where the maximum and average value is taken, respectively.**
 
-&#10230; Pooling (POOL) ― La couche de pooling (en anglais *pooling layer*) (POOL)
+&#10230; Pooling (POOL) ― La couche de pooling (en anglais *pooling layer*) (POOL) est une opération de sous-échantillonnage typiquement appliquée après une couche convolutionnelle. En particulier, les types de pooling les plus populaires sont le max et l'average pooling, où les valeurs maximales et moyennes sont prises, respectivement.
 
 <br>
 
 
 **19. [Type, Purpose, Illustration, Comments]**
 
-&#10230; 
+&#10230; [Type, But, Illustration, Commentaires]
 
 <br>
 
 
 **20. [Max pooling, Average pooling, Each pooling operation selects the maximum value of the current view, Each pooling operation averages the values of the current view]**
 
-&#10230; 
+&#10230; [Max pooling, Average pooling, Chaque opération de pooling sélectionne la valeur maximale de la surface. Chaque opération de pooling sélectionne la valeur moyenne de la surface.]
 
 <br>
 
 
 **21. [Preserves detected features, Most commonly used, Downsamples feature map, Used in LeNet]**
 
-&#10230; 
+&#10230; [Garde les caractéristiques détectées. Plus communément utilisé, Sous-échantillonne la *feature map*, Utilisé dans LeNet]
 
 <br>
 
 
 **22. Fully Connected (FC) ― The fully connected layer (FC) operates on a flattened input where each input is connected to all neurons. If present, FC layers are usually found towards the end of CNN architectures and can be used to optimize objectives such as class scores.**
 
-&#10230; 
+&#10230; Fully Connected (FC) ― La couche de fully connected (en anglais *fully connected layer*) (FC)
 
 <br>
 
 
 **23. Filter hyperparameters**
 
-&#10230; 
+&#10230; Paramètres du filtre 
 
 <br>
 
 
 **24. The convolution layer contains filters for which it is important to know the meaning behind its hyperparameters.**
 
-&#10230; 
+&#10230; La couche convolutionnelle contient des filtres pour lesquels il est important de savoir comment ajuster ses paramètres.
 
 <br>
 

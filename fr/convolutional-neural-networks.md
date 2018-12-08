@@ -4,14 +4,14 @@
 
 **1. Convolutional Neural Networks cheatsheet**
 
-&#10230;
+&#10230; Pense-bête de réseaux de neurones convolutionnels
 
 <br>
 
 
 **2. CS 230 - Deep Learning**
 
-&#10230;
+&#10230; CS 230 - Apprentissage profond
 
 <br>
 

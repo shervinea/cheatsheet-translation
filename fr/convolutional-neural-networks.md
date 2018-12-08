@@ -18,112 +18,112 @@
 
 **3. [Overview, Architecture structure]**
 
-&#10230; 
+&#10230; [Vue d'ensemble, Structure de l'architecture]
 
 <br>
 
 
 **4. [Types of layer, Convolution, Pooling, Fully connected]**
 
-&#10230; 
+&#10230; [Types de couche, Convolution, Pooling, Fully connected]
 
 <br>
 
 
 **5. [Filter hyperparameters, Dimensions, Stride, Padding]**
 
-&#10230; 
+&#10230; [Paramètres du filtre, Dimensions, Stride, Padding]
 
 <br>
 
 
 **6. [Tuning hyperparameters, Parameter compatibility, Model complexity, Receptive field]**
 
-&#10230; 
+&#10230; [Réglage des paramètres, Compatibilité des paramètres, Complexité du modèle, Champ récepteur]
 
 <br>
 
 
 **7. [Activation functions, Rectified Linear Unit, Softmax]**
 
-&#10230; 
+&#10230; [Fonction d'activation, Unité linéaire rectifiée, Softmax]
 
 <br>
 
 
 **8. [Object detection, Types of models, Detection, Intersection over Union, Non-max suppression, YOLO, R-CNN]**
 
-&#10230; 
+&#10230; [Détection d'objet, Types de modèle, Détection, Intersection sur union, Suppression non-max, YOLO, R-CNN]
 
 <br>
 
 
 **9. [Face verification/recognition, One shot learning, Siamese network, Triplet loss]**
 
-&#10230; 
+&#10230; [Vérification/reconnaissance de visage, Apprentissage par coup, Réseau siamois, Loss triple]
 
 <br>
 
 
 **10. [Neural style transfer, Activation, Style matrix, Style/content cost function]**
 
-&#10230; 
+&#10230; [Transfert de style de neurones, Activation, Matrice de style, Fonction de coût de style/contenu]
 
 <br>
 
 
 **11. [Computational trick architectures, Generative Adversarial Net, ResNet, Inception Network]**
 
-&#10230; 
+&#10230; [Architectures à astuces calculatoires, Generative Adversarial Net, ResNet, Inception Network]
 
 <br>
 
 
 **12. Overview**
 
-&#10230; 
+&#10230; Vue d'ensemble
 
 <br>
 
 
 **13. Architecture of a traditional CNN ― Convolutional neural networks, also known as CNNs, are a specific type of neural networks that are generally composed of the following layers:**
 
-&#10230; 
+&#10230; Architecture d'un CNN traditionnel ― Les réseaux de neurones convolutionnels (en anglais *Convolutional neural networks*), aussi connus sous le nom de CNNs, sont un type spécifique de réseaux de neurones qui sont généralement composés des couches suivantes :
 
 <br>
 
 
 **14. The convolution layer and the pooling layer can be fine-tuned with respect to hyperparameters that are described in the next sections.**
 
-&#10230; 
+&#10230; La couche convolutionnelle et la couche de pooling peuvent être ajustées en utilisant des paramètres qui sont décrites dans les sections suivantes.
 
 <br>
 
 
 **15. Types of layer**
 
-&#10230; 
+&#10230; Types de couche
 
 <br>
 
 
 **16. Convolution layer (CONV) ― The convolution layer (CONV) uses filters that perform convolution operations as it is scanning the input I with respect to its dimensions. Its hyperparameters include the filter size F and stride S. The resulting output O is called feature map or activation map.**
 
-&#10230; 
+&#10230; Couche convolutionnelle (CONV) ― La couche convolutionnelle (en anglais *convolution layer*) (CONV) utilise des filtres qui scannent l'entrée I suivant ses dimensions en effectuant des opérations de convolution. Elle peut être réglée en ajustant la taille du filtre F et le stride S. La sortie O de cette opération est appelée *feature map* ou aussi *activation map*.
 
 <br>
 
 
 **17. Remark: the convolution step can be generalized to the 1D and 3D cases as well.**
 
-&#10230; 
+&#10230; Remarque : l'étape de convolution peut aussi être généralisée dans les cas 1D et 3D.
 
 <br>
 
 
 **18. Pooling (POOL) ― The pooling layer (POOL) is a downsampling operation, typically applied after a convolution layer, which does some spatial invariance. In particular, max and average pooling are special kinds of pooling where the maximum and average value is taken, respectively.**
 
-&#10230; 
+&#10230; Pooling (POOL) ― La couche de pooling (en anglais *pooling layer*) (POOL)
 
 <br>
 

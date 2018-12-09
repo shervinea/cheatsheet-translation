@@ -326,91 +326,91 @@
 
 **47. Softmax ― The softmax step can be seen as a generalized logistic function that takes as input a vector of scores x∈Rn and outputs a vector of output probability p∈Rn through a softmax function at the end of the architecture. It is defined as follows:**
 
-&#10230; 
+&#10230; Softmax ― L'étape softmax peut être vue comme une généralisation de la fonction logistique qui prend comme argument un vecteur de scores x∈Rn et qui renvoie un vecteur de probabilités p∈Rn à travers une fonction softmax à la fin de l'architecture. Elle est définie de la manière suivante :
 
 <br>
 
 
 **48. where**
 
-&#10230; 
+&#10230; où
 
 <br>
 
 
 **49. Object detection**
 
-&#10230; 
+&#10230; Détection d'objet
 
 <br>
 
 
 **50. Types of models ― There are 3 main types of object recognition algorithms, for which the nature of what is predicted is different. They are described in the table below:**
 
-&#10230; 
+&#10230; Types de modèles ― Il y a 3 principaux types d'algorithme de reconnaissance d'objet, pour lesquels la nature de ce qui est prédit est different. Ils sont décrits dans la table ci-dessous :
 
 <br>
 
 
 **51. [Image classification, Classification w. localization, Detection]**
 
-&#10230; 
+&#10230; [Classification d'image, Classification avec localisation, Détection]
 
 <br>
 
 
 **52. [Teddy bear, Book]**
 
-&#10230; 
+&#10230; [Ours en peluche, Livre]
 
 <br>
 
 
 **53. [Classifies a picture, Predicts probability of object, Detects an object in a picture, Predicts probability of object and where it is located, Detects up to several objects in a picture, Predicts probabilities of objects and where they are located]**
 
-&#10230; 
+&#10230; [Classifie une image, Predit la probabilité d'un objet, Détecte un objet dans une image, Prédit la probabilité de présence d'un objet et où il est situé, Peut détecter plusieurs objets dans une image, Prédit les probabilités de présence des objets et où ils sont situés]
 
 <br>
 
 
 **54. [Traditional CNN, Simplified YOLO, R-CNN, YOLO, R-CNN]**
 
-&#10230; 
+&#10230; [CNN traditionnel, YOLO simplifié, R-CNN, YOLO, R-CNN]
 
 <br>
 
 
 **55. Detection ― In the context of object detection, different methods are used depending on whether we just want to locate the object or detect a more complex shape in the image. The two main ones are summed up in the table below:**
 
-&#10230; 
+&#10230; Détection ― Dans le contexte de la détection d'objet, des methodes différentes sont utilisées selon si l'on veut juste localiser l'objet ou alors détecter une forme plus complexe dans l'image. Les deux méthodes principales sont résumées dans le tableau ci-dessous :
 
 <br>
 
 
 **56. [Bounding box detection, Landmark detection]**
 
-&#10230; 
+&#10230; [Détection de zone délimitante, Detection de forme complexe]
 
 <br>
 
 
 **57. [Detects the part of the image where the object is located, Detects a shape or characteristics of an object (e.g. eyes), More granular]**
 
-&#10230; 
+&#10230; [Détecte la partie de l'image où l'objet est situé, Détecte la forme ou les caractéristiques d'un objet (e.g. yeux), Plus granulaire]
 
 <br>
 
 
 **58. [Box of center (bx,by), height bh and width bw, Reference points (l1x,l1y), ..., (lnx,lny)]**
 
-&#10230; 
+&#10230; [Zone de centre (bx,by), hauteur bh et largeur bw, Points de référence (l1x,l1y), ..., (lnx,lny)]
 
 <br>
 
 
 **59. Intersection over Union ― Intersection over Union, also known as IoU, is a function that quantifies how correctly positioned a predicted bounding box Bp is over the actual bounding box Ba. It is defined as:**
 
-&#10230; 
+&#10230; Intersection sur Union ― Intersection sur Union (en anglais <i>Intersection over Union</i>, also known as IoU, is a function that quantifies how correctly positioned a predicted bounding box Bp is over the actual bounding box Ba. It is defined as:
 
 <br>
 

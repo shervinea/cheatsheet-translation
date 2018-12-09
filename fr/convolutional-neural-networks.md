@@ -410,28 +410,28 @@
 
 **59. Intersection over Union ― Intersection over Union, also known as IoU, is a function that quantifies how correctly positioned a predicted bounding box Bp is over the actual bounding box Ba. It is defined as:**
 
-&#10230; Intersection sur Union ― Intersection sur Union (en anglais <i>Intersection over Union</i>, also known as IoU, is a function that quantifies how correctly positioned a predicted bounding box Bp is over the actual bounding box Ba. It is defined as:
+&#10230; Intersection sur Union ― Intersection sur Union (en anglais <i>Intersection over Union</i>), aussi appelé IoU, est une fonction qui quantifie à quel point la zone délimitante prédite Bp est correctement positionnée par rapport à la zone délimitante vraie Ba. Elle est définie de la manière suivante :
 
 <br>
 
 
 **60. Remark: we always have IoU∈[0,1]. By convention, a predicted bounding box Bp is considered as being reasonably good if IoU(Bp,Ba)⩾0.5.**
 
-&#10230; 
+&#10230; Remarque : on a toujours IoU∈[0,1]. Par convention, la prédiction Bp d'une zone délimitante est considérée comme étant satisfaisante si l'on a IoU(Bp,Ba)⩾0.5.
 
 <br>
 
 
 **61. Anchor boxes ― Anchor boxing is a technique used to predict overlapping bounding boxes. In practice, the network is allowed to predict more than one box simultaneously, where each box prediction is constrained to have a given set of geometrical properties. For instance, the first prediction can potentially be a rectangular box of a given form, while the second will be another rectangular box of a different geometrical form.**
 
-&#10230; 
+&#10230; Zone d'accroche ― La technique des zones d'accroche (en anglais <i>anchor boxing</i>) sert à prédire des zones délimitantes qui se chevauchent. En pratique, on permet au réseau de prédire plus d'une zone délimitante simultanément, où chaque zone prédite doit respecter une forme géométrique particulière. Par example, la première prédiction peut potentiellement être une zone rectangulaire d'une forme donnée, tandis qu'une seconde prédiction doit être une zone rectangulaire d'une autre forme.
 
 <br>
 
 
 **62. Non-max suppression ― The non-max suppression technique aims at removing duplicate overlapping bounding boxes of a same object by selecting the most representative ones. After having removed all boxes having a probability prediction lower than 0.6, the following steps are repeated while there are boxes remaining:**
 
-&#10230; 
+&#10230; Suppression non-max ― La technique de suppression non-max (en anglais <i>non-max suppression</i>) a pour but d'enlever des zones délimitantes qui se chevauchent et qui prédisent un seul et même objet, en sélectionnant les zones les plus representatives. Après avoir enlevé toutes les zones ayant une probabilité prédite de moins de 0.6, les étapes suivantes sont répétées pour éliminer les zones redondantes :
 
 <br>
 

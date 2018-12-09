@@ -557,7 +557,7 @@
 
 **80. Triplet loss ― The triplet loss ℓ is a loss function computed on the embedding representation of a triplet of images A (anchor), P (positive) and N (negative). The anchor and the positive example belong to a same class, while the negative example to another one. By calling α∈R+ the margin parameter, this loss is defined as follows:**
 
-&#10230; 
+&#10230; Loss triple ― Le loss triple (en anglais <i>triplet loss</i>) ℓ est une fonction de loss calculée sur une représentation encodée d'un triplet d'images A (accroche), P (positif), et N (négatif). Les exemples d'accroche et positif appartiennent à la même classe, tandis que l'exemple négatif appartient à une autre. En notant α∈R+ la paramètre de marge, le loss est défini de la manière suivante :
 
 <br>
 

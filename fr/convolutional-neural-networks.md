@@ -172,63 +172,63 @@
 
 **25. Dimensions of a filter ― A filter of size F×F applied to an input containing C channels is a F×F×C volume that performs convolutions on an input of size I×I×C and produces an output feature map (also called activation map) of size O×O×1.**
 
-&#10230; 
+&#10230; Dimensions d'un filtre ― Un filtre de taille F×F appliqué à une entrée contenant C canaux est un volume de taille F×F×C qui effectue des convolutions sur une entrée de taille I×I×C et qui produit un *feature map* de sortie (aussi appelé *activation map*) de taille O×O×1.
 
 <br>
 
 
 **26. Filter**
 
-&#10230; 
+&#10230; Filtre
 
 <br>
 
 
 **27. Remark: the application of K filters of size F×F results in an output feature map of size O×O×K.**
 
-&#10230; 
+&#10230; Remarque : appliquer K filtres de taille F×F engendre un *feature map* de sortie de taille O×O×K.
 
 <br>
 
 
 **28. Stride ― For a convolutional or a pooling operation, the stride S denotes the number of pixels by which the window moves after each operation.**
 
-&#10230; 
+&#10230; Stride ― Dans le contexte d'une opération de convolution ou de pooling, la stride S est un paramètre qui dénote le nombre de pixels par lesquels la fenêtre se déplace après chaque opération.
 
 <br>
 
 
 **29. Zero-padding ― Zero-padding denotes the process of adding P zeroes to each side of the boundaries of the input. This value can either be manually specified or automatically set through one of the three modes detailed below:**
 
-&#10230; 
+&#10230; Zero-padding ― Le zero-padding est une technique consistant à ajouter P zeros à chaque côté des frontières de l'entrée. Cette valeur peut être spécifiée soit manuellement, soit automatiquement par le bias d'une des configurations détaillées ci-dessous :
 
 <br>
 
 
 **30. [Mode, Value, Illustration, Purpose, Valid, Same, Full]**
 
-&#10230; 
+&#10230; [Configuration, Valeur, Illustration, But, Valide, Pareil, Total]
 
 <br>
 
 
 **31. [No padding, Drops last convolution if dimensions do not match, Padding such that feature map size has size ⌈IS⌉, Output size is mathematically convenient, Also called 'half' padding, Maximum padding such that end convolutions are applied on the limits of the input, Filter 'sees' the input end-to-end]**
 
-&#10230; 
+&#10230; [Pas de padding, Enlève la dernière opération de convolution si les dimensions ne collent pas, Le padding tel que la feature map est de taille ⌈IS⌉, La taille de sortie est mathématiquement satisfaisante, Aussi appelé 'demi' padding, Padding maximum tel que les dernières convolutions sont appliquées sur les bords de l'entrée, Le filtre 'voit' l'entrée du début à la fin]
 
 <br>
 
 
 **32. Tuning hyperparameters**
 
-&#10230; 
+&#10230; Ajuster les paramètres
 
 <br>
 
 
 **33. Parameter compatibility in convolution layer ― By noting I the length of the input volume size, F the length of the filter, P the amount of zero padding, S the stride, then the output size O of the feature map along that dimension is given by:**
 
-&#10230; 
+&#10230; Compatibilité des paramètres dans la couche convolutionnelle ― En notant I le côté du volume d'entrée, F la taille du filtre, P la quantité de zero-padding, S la stride, la taille O de la feature map de sortie suivant cette dimension est telle que :
 
 <br>
 

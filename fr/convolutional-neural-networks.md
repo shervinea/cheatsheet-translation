@@ -235,49 +235,49 @@
 
 **34. [Input, Filter, Output]**
 
-&#10230; 
+&#10230; [Entrée, Filtre, Sortie]
 
 <br>
 
 
 **35. Remark: often times, Pstart=Pend≜P, in which case we can replace Pstart+Pend by 2P in the formula above.**
 
-&#10230; 
+&#10230; Remarque : on a souvent Pstart=Pend≜P, auquel cas on remplace Pstart+Pend par 2P dans la formule au-dessus.
 
 <br>
 
 
 **36. Understanding the complexity of the model ― In order to assess the complexity of a model, it is often useful to determine the number of parameters that its architecture will have. In a given layer of a convolutional neural network, it is done as follows:**
 
-&#10230; 
+&#10230; Comprendre la complexité du modèle ― Pour évaluer la complexité d'un modèle, il est souvent utile de déterminer le nombre de paramètres que l'architecture va avoir. Dans une couche donnée d'un réseau de neurones convolutionnels, on a :
 
 <br>
 
 
 **37. [Illustration, Input size, Output size, Number of parameters, Remarks]**
 
-&#10230; 
+&#10230; [Illustration, Taille d'entrée, Taille de sortie, Nombre de paramètres, Remarques]
 
 <br>
 
 
 **38. [One bias parameter per filter, In most cases, S<F, A common choice for K is 2C]**
 
-&#10230; 
+&#10230; [Un paramètre de biais par filtre, Dans la plupart des cas, S<F, 2C est un choix commun pour K]
 
 <br>
 
 
 **39. [Pooling operation done channel-wise, In most cases, S=F]**
 
-&#10230; 
+&#10230; [L'opération de pooling est effectuée pour chaque canal, Dans la plupart des cas, S=F]
 
 <br>
 
 
 **40. [Input is flattened, One bias parameter per neuron, The number of FC neurons is free of structural constraints]**
 
-&#10230; 
+&#10230; [L'entrée est aplatie, Un paramètre de bias par neurone, Le choix du nombre de neurones de FC est libre]
 
 <br>
 

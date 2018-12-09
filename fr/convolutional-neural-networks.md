@@ -298,28 +298,28 @@
 
 **43. Commonly used activation functions**
 
-&#10230; 
+&#10230; Fonctions d'activation communément utilisées
 
 <br>
 
 
 **44. Rectified Linear Unit ― The rectified linear unit layer (ReLU) is an activation function g that is used on all elements of the volume. It aims at introducing non-linearities to the network. Its variants are summarized in the table below:**
 
-&#10230; 
+&#10230; Unité linéaire rectifiée ― La couche d'unité linéaire rectifiée (en anglais *rectified linear unit layer*) (ReLU) est une fonction d'activiation g qui est utilisée sur tous les éléments du volume. Elle a pour but d'introduire des complexités non-linéaires au réseau. Ses variantes sont récapitulées dans le tableau suivant :
 
 <br>
 
 
 **45. [ReLU, Leaky ReLU, ELU, with]**
 
-&#10230; 
+&#10230; [ReLU, Leaky ReLU, ELU, avec]
 
 <br>
 
 
 **46. [Non-linearity complexities biologically interpretable, Addresses dying ReLU issue for negative values, Differentiable everywhere]**
 
-&#10230; 
+&#10230; [Complexités non-linéaires intereprétables d'un point de vue biologique, Repond au problème de *dying ReLU*, Dérivable partout]
 
 <br>
 

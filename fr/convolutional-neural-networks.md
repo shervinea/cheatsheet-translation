@@ -536,21 +536,21 @@
 
 **77. [Is this the correct person?, One-to-one lookup, Is this one of the K persons in the database?, One-to-many lookup]**
 
-&#10230; [Est-ce la bonne personne ?]
+&#10230; [Est-ce la bonne personne ?, , Est-ce une des K personnes dans la base de données ?, ]
 
 <br>
 
 
 **78. One Shot Learning ― One Shot Learning is a face verification algorithm that uses a limited training set to learn a similarity function that quantifies how different two given images are. The similarity function applied to two images is often noted d(image 1,image 2).**
 
-&#10230; 
+&#10230; Apprentissage par coup ― L'apprentissage par coup (en anglais <i>One Shot Learning</i>) est un algorithme de vérification de visage qui utilise un training set de petite taille pour apprendre une fonction de similarité qui quantifie à quel point deux images données sont différentes. La fonction de similarité appliquée à deux images est souvent notée d(image 1,image 2).
 
 <br>
 
 
 **79. Siamese Network ― Siamese Networks aim at learning how to encode images to then quantify how different two images are. For a given input image x(i), the encoded output is often noted as f(x(i)).**
 
-&#10230; 
+&#10230; Réseaux siamois ― Les réseaux siamois (en anglais <i>Siamese Networks</i>) ont pour but d'apprendre comment encoder des images pour quantifier le degré de difference de deux images données. Pour une image d'entrée donnée x(i), l'encodage de sortie est souvent notée f(x(i)).
 
 <br>
 

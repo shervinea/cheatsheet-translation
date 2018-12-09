@@ -284,14 +284,14 @@
 
 **41. Receptive field ― The receptive field at layer k is the area denoted Rk×Rk of the input that each pixel of the k-th activation map can 'see'. By calling Fj the filter size of layer j and Si the stride value of layer i and with the convention S0=1, the receptive field at layer k can be computed with the formula:**
 
-&#10230; 
+&#10230; Champ récepteur ― Le champ récepteur à la couche k est la surface notée Rk×Rk de l'entrée que chaque pixel de la k-ième *activation map* peut 'voir'. En notant Fj la taille du filtre de la couche j et Si la valeur de stride de la couche i et avec la convention S0=1, le champ récepteur à la couche k peut être calculé de la manière suivante :
 
 <br>
 
 
 **42. In the example below, we have F1=F2=3 and S1=S2=1, which gives R2=1+2⋅1+2⋅1=5.**
 
-&#10230; 
+&#10230; Dans l'exemple ci-dessous, on a F1=F2=3 et S1=S2=1, ce qui donne R2=1+2⋅1+2⋅1=5.
 
 <br>
 

@@ -494,49 +494,49 @@
 
 **71. R-CNN ― Region with Convolutional Neural Networks (R-CNN) is an object detection algorithm that first segments the image to find potential relevant bounding boxes and then run the detection algorithm to find most probable objects in those bounding boxes.**
 
-&#10230; 
+&#10230; R-CNN ― L'algorithme de région avec des réseaux de neurones convolutionnels (en anglais <i>Region with Convolutional Neural Networks</i>) (R-CNN) est un algorithme de détection d'objet qui segmente l'image d'entrée pour trouver des zones délimitantes pertinentes, puis fait tourner un algorithme de détection pour trouver les objets les plus probables d'apparaître dans ces zones délimitantes.
 
 <br>
 
 
 **72. [Original image, Segmentation, Bounding box prediction, Non-max suppression]**
 
-&#10230; 
+&#10230; [Image originale, Segmentation, Prédiction de zone délimitante, Suppression non-max]
 
 <br>
 
 
 **73. Remark: although the original algorithm is computationally expensive and slow, newer architectures enabled the algorithm to run faster, such as Fast R-CNN and Faster R-CNN.**
 
-&#10230; 
+&#10230; Remarque : bien que l'algorithme original soit lent et coûteux en temps de calcul, de nouvelles architectures ont permis de faire tourner l'algorithme plus rapidement, tels que le Fast R-CNN et le Faster R-CNN.
 
 <br>
 
 
 **74. Face verification and recognition**
 
-&#10230; 
+&#10230; Vérification et reconnaissance de visage
 
 <br>
 
 
 **75. Types of models ― Two main types of model are summed up in table below:**
 
-&#10230; 
+&#10230; Types de modèles ― Deux principaux types de modèle sont récapitulés dans le tableau ci-dessous :
 
 <br>
 
 
 **76. [Face verification, Face recognition, Query, Reference, Database]**
 
-&#10230; 
+&#10230; [Vérification de visage, Reconnaissance de visage, Requête, Référence, Base de données]
 
 <br>
 
 
 **77. [Is this the correct person?, One-to-one lookup, Is this one of the K persons in the database?, One-to-many lookup]**
 
-&#10230; 
+&#10230; [Est-ce la bonne personne ?]
 
 <br>
 

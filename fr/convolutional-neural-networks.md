@@ -88,7 +88,7 @@
 
 **13. Architecture of a traditional CNN ― Convolutional neural networks, also known as CNNs, are a specific type of neural networks that are generally composed of the following layers:**
 
-&#10230; Architecture d'un CNN traditionnel ― Les réseaux de neurones convolutionnels (en anglais *Convolutional neural networks*), aussi connus sous le nom de CNNs, sont un type spécifique de réseaux de neurones qui sont généralement composés des couches suivantes :
+&#10230; Architecture d'un CNN traditionnel ― Les réseaux de neurones convolutionnels (en anglais <i>Convolutional neural networks</i>), aussi connus sous le nom de CNNs, sont un type spécifique de réseaux de neurones qui sont généralement composés des couches suivantes :
 
 <br>
 
@@ -109,7 +109,7 @@
 
 **16. Convolution layer (CONV) ― The convolution layer (CONV) uses filters that perform convolution operations as it is scanning the input I with respect to its dimensions. Its hyperparameters include the filter size F and stride S. The resulting output O is called feature map or activation map.**
 
-&#10230; Couche convolutionnelle (CONV) ― La couche convolutionnelle (en anglais *convolution layer*) (CONV) utilise des filtres qui scannent l'entrée I suivant ses dimensions en effectuant des opérations de convolution. Elle peut être réglée en ajustant la taille du filtre F et le stride S. La sortie O de cette opération est appelée *feature map* ou aussi *activation map*.
+&#10230; Couche convolutionnelle (CONV) ― La couche convolutionnelle (en anglais <i>convolution layer</i>) (CONV) utilise des filtres qui scannent l'entrée I suivant ses dimensions en effectuant des opérations de convolution. Elle peut être réglée en ajustant la taille du filtre F et le stride S. La sortie O de cette opération est appelée *feature map* ou aussi *activation map*.
 
 <br>
 
@@ -123,7 +123,7 @@
 
 **18. Pooling (POOL) ― The pooling layer (POOL) is a downsampling operation, typically applied after a convolution layer, which does some spatial invariance. In particular, max and average pooling are special kinds of pooling where the maximum and average value is taken, respectively.**
 
-&#10230; Pooling (POOL) ― La couche de pooling (en anglais *pooling layer*) (POOL) est une opération de sous-échantillonnage typiquement appliquée après une couche convolutionnelle. En particulier, les types de pooling les plus populaires sont le max et l'average pooling, où les valeurs maximales et moyennes sont prises, respectivement.
+&#10230; Pooling (POOL) ― La couche de pooling (en anglais <i>pooling layer</i>) (POOL) est une opération de sous-échantillonnage typiquement appliquée après une couche convolutionnelle. En particulier, les types de pooling les plus populaires sont le max et l'average pooling, où les valeurs maximales et moyennes sont prises, respectivement.
 
 <br>
 
@@ -144,14 +144,14 @@
 
 **21. [Preserves detected features, Most commonly used, Downsamples feature map, Used in LeNet]**
 
-&#10230; [Garde les caractéristiques détectées. Plus communément utilisé, Sous-échantillonne la *feature map*, Utilisé dans LeNet]
+&#10230; [Garde les caractéristiques détectées. Plus communément utilisé, Sous-échantillonne la <i>feature map</i>, Utilisé dans LeNet]
 
 <br>
 
 
 **22. Fully Connected (FC) ― The fully connected layer (FC) operates on a flattened input where each input is connected to all neurons. If present, FC layers are usually found towards the end of CNN architectures and can be used to optimize objectives such as class scores.**
 
-&#10230; Fully Connected (FC) ― La couche de fully connected (en anglais *fully connected layer*) (FC) s'applique sur une entrée préalablement aplatie où chaque entrée est connectée à tous les neurones. Les couches de fully connected sont typiquement présentes à la fin des architectures de CNN et peuvent être utilisées pour optimiser des objectifs tels que les scores de classe.
+&#10230; Fully Connected (FC) ― La couche de fully connected (en anglais <i>fully connected layer</i>) (FC) s'applique sur une entrée préalablement aplatie où chaque entrée est connectée à tous les neurones. Les couches de fully connected sont typiquement présentes à la fin des architectures de CNN et peuvent être utilisées pour optimiser des objectifs tels que les scores de classe.
 
 <br>
 
@@ -172,7 +172,7 @@
 
 **25. Dimensions of a filter ― A filter of size F×F applied to an input containing C channels is a F×F×C volume that performs convolutions on an input of size I×I×C and produces an output feature map (also called activation map) of size O×O×1.**
 
-&#10230; Dimensions d'un filtre ― Un filtre de taille F×F appliqué à une entrée contenant C canaux est un volume de taille F×F×C qui effectue des convolutions sur une entrée de taille I×I×C et qui produit un *feature map* de sortie (aussi appelé *activation map*) de taille O×O×1.
+&#10230; Dimensions d'un filtre ― Un filtre de taille F×F appliqué à une entrée contenant C canaux est un volume de taille F×F×C qui effectue des convolutions sur une entrée de taille I×I×C et qui produit un <i>feature map</i> de sortie (aussi appelé <i>activation map</i>) de taille O×O×1.
 
 <br>
 
@@ -186,7 +186,7 @@
 
 **27. Remark: the application of K filters of size F×F results in an output feature map of size O×O×K.**
 
-&#10230; Remarque : appliquer K filtres de taille F×F engendre un *feature map* de sortie de taille O×O×K.
+&#10230; Remarque : appliquer K filtres de taille F×F engendre un <i>feature map</i> de sortie de taille O×O×K.
 
 <br>
 
@@ -284,7 +284,7 @@
 
 **41. Receptive field ― The receptive field at layer k is the area denoted Rk×Rk of the input that each pixel of the k-th activation map can 'see'. By calling Fj the filter size of layer j and Si the stride value of layer i and with the convention S0=1, the receptive field at layer k can be computed with the formula:**
 
-&#10230; Champ récepteur ― Le champ récepteur à la couche k est la surface notée Rk×Rk de l'entrée que chaque pixel de la k-ième *activation map* peut 'voir'. En notant Fj la taille du filtre de la couche j et Si la valeur de stride de la couche i et avec la convention S0=1, le champ récepteur à la couche k peut être calculé de la manière suivante :
+&#10230; Champ récepteur ― Le champ récepteur à la couche k est la surface notée Rk×Rk de l'entrée que chaque pixel de la k-ième <i>activation map</i> peut 'voir'. En notant Fj la taille du filtre de la couche j et Si la valeur de stride de la couche i et avec la convention S0=1, le champ récepteur à la couche k peut être calculé de la manière suivante :
 
 <br>
 
@@ -305,7 +305,7 @@
 
 **44. Rectified Linear Unit ― The rectified linear unit layer (ReLU) is an activation function g that is used on all elements of the volume. It aims at introducing non-linearities to the network. Its variants are summarized in the table below:**
 
-&#10230; Unité linéaire rectifiée ― La couche d'unité linéaire rectifiée (en anglais *rectified linear unit layer*) (ReLU) est une fonction d'activiation g qui est utilisée sur tous les éléments du volume. Elle a pour but d'introduire des complexités non-linéaires au réseau. Ses variantes sont récapitulées dans le tableau suivant :
+&#10230; Unité linéaire rectifiée ― La couche d'unité linéaire rectifiée (en anglais <i>rectified linear unit layer</i>) (ReLU) est une fonction d'activiation g qui est utilisée sur tous les éléments du volume. Elle a pour but d'introduire des complexités non-linéaires au réseau. Ses variantes sont récapitulées dans le tableau suivant :
 
 <br>
 
@@ -319,7 +319,7 @@
 
 **46. [Non-linearity complexities biologically interpretable, Addresses dying ReLU issue for negative values, Differentiable everywhere]**
 
-&#10230; [Complexités non-linéaires intereprétables d'un point de vue biologique, Repond au problème de *dying ReLU*, Dérivable partout]
+&#10230; [Complexités non-linéaires intereprétables d'un point de vue biologique, Repond au problème de <i>dying ReLU</i>, Dérivable partout]
 
 <br>
 

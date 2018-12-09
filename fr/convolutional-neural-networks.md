@@ -438,56 +438,56 @@
 
 **63. [For a given class, Step 1: Pick the box with the largest prediction probability., Step 2: Discard any box having an IoU⩾0.5 with the previous box.]**
 
-&#10230; 
+&#10230; [Pour une classe donnée, Étape 1 : Choisir la zone ayant la plus grande probabilité de prédiction., Étape 2 : Enlever toute zone ayant IoU⩾0.5 avec la zone choisie précédemment.]
 
 <br>
 
 
 **64. [Box predictions, Box selection of maximum probability, Overlap removal of same class, Final bounding boxes]**
 
-&#10230; 
+&#10230; [Zones prédites, Sélection de la zone de probabilité maximum, Suppression des chevauchements d'une même classe, Zones délimitantes finales]
 
 <br>
 
 
 **65. YOLO ― You Only Look Once (YOLO) is an object detection algorithm that performs the following steps:**
 
-&#10230; 
+&#10230; YOLO ― L'algorithme You Only Look Once (YOLO) est un algorithme de détection d'objet qui fonctionne de la manière suivante :
 
 <br>
 
 
 **66. [Step 1: Divide the input image into a G×G grid., Step 2: For each grid cell, run a CNN that predicts y of the following form:, repeated k times]**
 
-&#10230; 
+&#10230; [Étape 1 : Diviser l'image d'entrée en une grille de taille G×G., Étape 2 : Pour chaque cellule, faire tourner un CNN qui prédit y de la forme suivante :, répété k fois]
 
 <br>
 
 
 **67. where pc is the probability of detecting an object, bx,by,bh,bw are the properties of the detected bouding box, c1,...,cp is a one-hot representation of which of the p classes were detected, and k is the number of anchor boxes.**
 
-&#10230; 
+&#10230; où pc est la probabilité de détecter un objet, bx,by,bh,bw sont les propriétés de la zone délimitante détectée, c1,...,cp est une répresentation binaire (en anglais <i>one-hot representation</i>) de l'une des p classes détectée, et k est le nombre de zones d'accroche.
 
 <br>
 
 
 **68. Step 3: Run the non-max suppression algorithm to remove any potential duplicate overlapping bounding boxes.**
 
-&#10230; 
+&#10230; Étape 3 : Faire tourner l'algorithme de suppression non-max pour enlever des doublons potentiels qui chevauchent des zones délimitantes.
 
 <br>
 
 
 **69. [Original image, Division in GxG grid, Bounding box prediction, Non-max suppression]**
 
-&#10230; 
+&#10230; [Image originale, Division en une grille de taille GxG, Prediction de zone délimitante, Suppression non-max]
 
 <br>
 
 
 **70. Remark: when pc=0, then the network does not detect any object. In that case, the corresponding predictions bx,...,cp have to be ignored.**
 
-&#10230; 
+&#10230; Remarque : lorsque pc=0, le réseau ne détecte plus d'objet. Dans ce cas, les prédictions correspondantes bx,...,cp doivent être ignorées.
 
 <br>
 

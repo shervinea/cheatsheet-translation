@@ -648,69 +648,69 @@
 
 **93. [Training, Noise, Real-world image, Generator, Discriminator, Real Fake]**
 
-&#10230; 
+&#10230; [Training, Bruit, Image réelle, Générateur, Discriminant, Vrai faux]
 
 <br>
 
 
 **94. Remark: use cases using variants of GANs include text to image, music generation and synthesis.**
 
-&#10230; 
+&#10230; Remarque : les GANs sont utilisées dans des applications pouvant aller de la génération de musique au traitement de texte vers image.
 
 <br>
 
 
 **95. ResNet ― The Residual Network architecture (also called ResNet) uses residual blocks with a high number of layers meant to decrease the training error. The residual block has the following characterizing equation:**
 
-&#10230; 
+&#10230; ResNet ― L'architecture du réseau résiduel (en anglais <i>Residual Network</i>), aussi appelé ResNet, utilise des blocs résiduels avec un nombre élevé de couches et a pour but de réduire l'erreur de training. Le bloc résiduel est caractérisé par l'équation suivante :
 
 <br>
 
 
 **96. Inception Network ― This architecture uses inception modules and aims at giving a try at different convolutions in order to increase its performance through features diversification. In particular, it uses the 1×1 convolution trick to limit the computational burden.**
 
-&#10230; 
+&#10230; Inception Network ― Cette architecture utilise des modules d'<i>inception</i> et a pour but de tester toute sorte de configuration de convolution pour améliorer sa performance en diversifiant ses attributs. En particulier, elle utilise l'astuce de la convolution 1x1 pour limiter sa complexité de calcul.
 
 <br>
 
 
 **97. The Deep Learning cheatsheets are now available in [target language].**
 
-&#10230; 
+&#10230; Les pense-bêtes d'apprentissage profond sont maintenant disponibles en français.
 
 <br>
 
 
 **98. Original authors**
 
-&#10230; 
+&#10230; Auteurs
 
 <br>
 
 
 **99. Translated by X, Y and Z**
 
-&#10230; 
+&#10230; Traduit par X, Y et Z
 
 <br>
 
 
 **100. Reviewed by X, Y and Z**
 
-&#10230; 
+&#10230; Relu par X, Y et Z
 
 <br>
 
 
 **101. View PDF version on GitHub**
 
-&#10230; 
+&#10230; Voir la version PDF sur GitHub
 
 <br>
 
 
 **102. By X and Y**
 
-&#10230; 
+&#10230; Par X et Y
 
 <br>

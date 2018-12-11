@@ -592,7 +592,7 @@
 
 **85. Content cost function ― The content cost function Jcontent(C,G) is used to determine how the generated image G differs from the original content image C. It is defined as follows:**
 
-&#10230; Fonction de coût de contenu ― La fonction de coût de contenu (en anglais <i>content cost function</i>) Jcontenu(C,G) est utilisée pour quantifier à quel point l'image générée G diffère de l'image de contenu original C. Elle est définie de la manière suivante :
+&#10230; Fonction de coût de contenu ― La fonction de coût de contenu (en anglais <i>content cost function</i>), notée Jcontenu(C,G), est utilisée pour quantifier à quel point l'image générée G diffère de l'image de contenu original C. Elle est définie de la manière suivante :
 
 <br>
 
@@ -606,42 +606,42 @@
 
 **87. Remark: the style matrix for the style image and the generated image are noted G[l] (S) and G[l] (G) respectively.**
 
-&#10230; 
+&#10230; Remarque : les matrices de style de l'image de style et de l'image générée sont notées G[l] (S) and G[l] (G) respectivement.
 
 <br>
 
 
 **88. Style cost function ― The style cost function Jstyle(S,G) is used to determine how the generated image G differs from the style S. It is defined as follows:**
 
-&#10230; 
+&#10230; Fonction de coût de style ― La fonction de coût de style (en anglais <i>style cost function</i>), notée Jstyle(S,G), est utilisée pour quantifier à quel point l'image générée G diffère de l'image de style S. Elle est définie de la manière suivante :
 
 <br>
 
 
 **89. Overall cost function ― The overall cost function is defined as being a combination of the content and style cost functions, weighted by parameters α,β, as follows:**
 
-&#10230; 
+&#10230; Fonction de coût totale ― La fonction de coût totale (en anglais <i>overall cost function</i>) est définie comme étant une combinaison linéaire des fonctions de coût de contenu et de style, pondérées par les paramètres α,β, de la manière suivante :
 
 <br>
 
 
 **90. Remark: a higher value of α will make the model care more about the content while a higher value of β will make it care more about the style.**
 
-&#10230; 
+&#10230; Remarque : plus α est grand, plus le modèle privilégiera le contenu et plus β est grand, plus le modèle sera fidèle au style.
 
 <br>
 
 
 **91. Architectures using computational tricks**
 
-&#10230; 
+&#10230; Architectures utilisant des astuces de calcul
 
 <br>
 
 
 **92. Generative Adversarial Network ― Generative adversarial networks, also known as GANs, are composed of a generative and a discriminative model, where the generative model aims at generating the most truthful output that will be fed into the discriminative which aims at differentiating the generated and true image.**
 
-&#10230; 
+&#10230; Réseau antagoniste génératif ― Les réseaux antagonistes génératifs (en anglais <i>generative adversarial networks</i>), aussi connus sous le nom de GANs, sont composés d'un modèle génératif et d'un modèle discriminatif, où le modèle génératif a pour but de générer des prédictions aussi réalistes que possibles, qui seront ensuite envoyées dans un modèle discriminatif qui aura pour but de différencier une image générée d'une image réelle.
 
 <br>
 

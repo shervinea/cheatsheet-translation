@@ -557,49 +557,49 @@
 
 **80. Triplet loss ― The triplet loss ℓ is a loss function computed on the embedding representation of a triplet of images A (anchor), P (positive) and N (negative). The anchor and the positive example belong to a same class, while the negative example to another one. By calling α∈R+ the margin parameter, this loss is defined as follows:**
 
-&#10230; Loss triple ― Le loss triple (en anglais <i>triplet loss</i>) ℓ est une fonction de loss calculée sur une représentation encodée d'un triplet d'images A (accroche), P (positif), et N (négatif). Les exemples d'accroche et positif appartiennent à la même classe, tandis que l'exemple négatif appartient à une autre. En notant α∈R+ la paramètre de marge, le loss est défini de la manière suivante :
+&#10230; Loss triple ― Le loss triple (en anglais <i>triplet loss</i>) ℓ est une fonction de loss calculée sur une représentation encodée d'un triplet d'images A (accroche), P (positif), et N (négatif). L'exemple d'accroche et l'exemple positif appartiennent à la même classe, tandis que l'exemple négatif appartient à une autre. En notant α∈R+ le paramètre de marge, le loss est défini de la manière suivante :
 
 <br>
 
 
 **81. Neural style transfer**
 
-&#10230; 
+&#10230; Transfert de style neuronal
 
 <br>
 
 
 **82. Motivation ― The goal of neural style transfer is to generate an image G based on a given content C and a given style S.**
 
-&#10230; 
+&#10230; Motivation ― Le but du transfert de style neuronal (en anglais <i>neural style transfer</i>) est de générer une image G à partir d'un contenu C et d'un style S.
 
 <br>
 
 
 **83. [Content C, Style S, Generated image G]**
 
-&#10230; 
+&#10230; [Contenu C, Style S, Image générée G]
 
 <br>
 
 
 **84. Activation ― In a given layer l, the activation is noted a[l] and is of dimensions nH×nw×nc**
 
-&#10230; 
+&#10230; Activation ― Dans une couche l donnée, l'activation est notée a[l] et est de dimensions nH×nw×nc
 
 <br>
 
 
 **85. Content cost function ― The content cost function Jcontent(C,G) is used to determine how the generated image G differs from the original content image C. It is defined as follows:**
 
-&#10230; 
+&#10230; Fonction de coût de contenu ― La fonction de coût de contenu (en anglais <i>content cost function</i>) Jcontenu(C,G) est utilisée pour quantifier à quel point l'image générée G diffère de l'image de contenu original C. Elle est définie de la manière suivante :
 
 <br>
 
 
 **86. Style matrix ― The style matrix G[l] of a given layer l is a Gram matrix where each of its elements G[l]kk′ quantifies how correlated the channels k and k′ are. It is defined with respect to activations a[l] as follows:**
 
-&#10230; 
+&#10230; Matrice de style ― La matrice de style (en anglais <i>style matrix</i>) G[l] d'une couche l donnée est une matrice de Gram dans laquelle chacun des éléments G[l]kk′ quantifie le degré de corrélation des canaux k and k′. Elle est définie en fonction des activations a[l] de la manière suivante :
 
 <br>
 

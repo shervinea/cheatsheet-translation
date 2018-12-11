@@ -4,21 +4,21 @@
 
 **1. Recurrent Neural Networks cheatsheet**
 
-&#10230; 
+&#10230; Pense-bête de réseaux de neurones récurrents
 
 <br>
 
 
 **2. CS 230 - Deep Learning**
 
-&#10230; 
+&#10230; CS 230 - Apprentissage profond
 
 <br>
 
 
 **3. [Overview, Architecture structure, Applications of RNNs, Loss function, Backpropagation]**
 
-&#10230; 
+&#10230; [Vue d'ensemble, Structure d'architecture, Applications des RNNs, Fonction de loss, Backpropagation]
 
 <br>
 

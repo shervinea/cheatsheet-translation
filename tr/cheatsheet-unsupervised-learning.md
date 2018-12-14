@@ -1,42 +1,42 @@
 **1. Unsupervised Learning cheatsheet**
 
-&#10230;
+&#10230; Gözetimsiz Öğrenme El Kitabı
 
 <br>
 
 **2. Introduction to Unsupervised Learning**
 
-&#10230;
+&#10230; Gözetimsiz Öürenmeye Giriş
 
 <br>
 
 **3. Motivation ― The goal of unsupervised learning is to find hidden patterns in unlabeled data {x(1),...,x(m)}.**
 
-&#10230;
+&#10230; Motivasyon ― Gözetimsiz öğrenmenin amacı etiketlenmemiş verilerdeki gizli örüntüleri bulmaktır {x (1), ..., x (m)}.
 
 <br>
 
 **4. Jensen's inequality ― Let f be a convex function and X a random variable. We have the following inequality:**
 
-&#10230;
+&#10230; Jensen eşitsizliği - Bir konveks fonksiyon ve X bir rastgele değişken olsun. Aşağıdaki eşitsizliklerimiz:
 
 <br>
 
 **5. Clustering**
 
-&#10230;
+&#10230; Kümeleme
 
 <br>
 
 **6. Expectation-Maximization**
 
-&#10230;
+&#10230; Beklenti-Enbüyütme (Maksimizasyon) 
 
 <br>
 
 **7. Latent variables ― Latent variables are hidden/unobserved variables that make estimation problems difficult, and are often denoted z. Here are the most common settings where there are latent variables:**
 
-&#10230;
+&#10230; Gizli değişkenler - Gizli değişkenler, tahmin problemlerini zorlaştıran ve çoğunlukla z olarak adlandırılan gizli / gözlemlenmemiş değişkenlerdir. Gizli değişkenlerin bulunduğu en yaygın ortamlar şunlardır:
 
 <br>
 

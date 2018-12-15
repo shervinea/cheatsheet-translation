@@ -24,7 +24,7 @@
 
 **5. [Input layer, hidden layer, output layer]**
 
-&#10230; [Giriş katmanı, gizli katman, ürün katmanı]
+&#10230; [Giriş katmanı, gizli katman, çıkış katmanı]
 
 <br>
 
@@ -60,7 +60,7 @@
 
 **11. Learning rate ― The learning rate, often noted α or sometimes η, indicates at which pace the weights get updated. This can be fixed or adaptively changed. The current most popular method is called Adam, which is a method that adapts the learning rate.**
 
-&#10230; Öğrenme derecesi ― Öğrenme derecesi, sıklıkla α veya bazen η olarak belirtilir, ağırlıkların hangi tempoda güncellendiğini gösterir. Bu derece sabit olabilir veya uyarlamalı olarak değişebilir. Mevcut en gözde yöntem Adam olarak adlandırılan ve öğrenme oranını uyarlayan bir yöntemdir.
+&#10230; Öğrenme oranı ― Öğrenme oranı, sıklıkla α veya bazen η olarak belirtilir, ağırlıkların hangi tempoda güncellendiğini gösterir. Bu derece sabit olabilir veya uyarlamalı olarak değişebilir. Mevcut en gözde yöntem Adam olarak adlandırılan ve öğrenme oranını uyarlayan bir yöntemdir.
 
 <br>
 
@@ -150,7 +150,7 @@
 
 **26. [Input gate, forget gate, gate, output gate]**
 
-&#10230; [Girdi kapısı, unutma kapısı, kapı, ürün kapısı]
+&#10230; [Girdi kapısı, unutma kapısı, kapı, çıktı kapısı]
 
 <br>
 
@@ -294,28 +294,28 @@
 
 **50. View PDF version on GitHub**
 
-&#10230;
+&#10230; GitHub'da PDF sürümünü görüntüle
 
 <br>
 
 **51. [Neural Networks, Architecture, Activation function, Backpropagation, Dropout]**
 
-&#10230;
+&#10230; [Yapay Sinir Ağları, Mimari, Aktivasyon fonksiyonu, Geri yayılım, Seyreltme]
 
 <br>
 
 **52. [Convolutional Neural Networks, Convolutional layer, Batch normalization]**
 
-&#10230;
+&#10230; [Evrişimsel Sinir Ağları, Evreşim katmanı, Toplu normalizasyon]
 
 <br>
 
 **53. [Recurrent Neural Networks, Gates, LSTM]**
 
-&#10230;
+&#10230; [Yinelenen Sinir Ağları, Kapılar, LSTM]
 
 <br>
 
 **54. [Reinforcement learning, Markov decision processes, Value/policy iteration, Approximate dynamic programming, Policy search]**
 
-&#10230;
+&#10230; [Pekiştirmeli öğrenme, Markov karar süreçleri, Değer/politika iterasyonu, Yaklaşık dinamik programlama, Politika araştırması]

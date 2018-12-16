@@ -635,36 +635,36 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 
 **91. The Deep Learning cheatsheets are now available in [target language].**
 
-&#10230; 
+&#10230; Les pense-bêtes d'apprentissage profond sont maintenant disponibles en français.
 
 <br>
 
 **92. Original authors**
 
-&#10230; 
+&#10230; Auteurs
 
 <br>
 
 **93. Translated by X, Y and Z**
 
-&#10230; 
+&#10230; Traduit par X, Y et Z
 
 <br>
 
 **94. Reviewed by X, Y and Z**
 
-&#10230; 
+&#10230; Relu par X, Y et Z
 
 <br>
 
 **95. View PDF version on GitHub**
 
-&#10230; 
+&#10230; Voir la version PDF sur GitHub
 
 <br>
 
 **96. By X and Y**
 
-&#10230; 
+&#10230; Par X et Y
 
 <br>

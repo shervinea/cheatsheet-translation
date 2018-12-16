@@ -440,14 +440,14 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 
 **63. t-SNE ― t-SNE (t-distributed Stochastic Neighbor Embedding) is a technique aimed at reducing high-dimensional embeddings into a lower dimensional space. In practice, it is commonly used to visualize word vectors in the 2D space.**
 
-&#10230; 
+&#10230; t-SNE ― La méthode t-SNE (en anglais \textit{t-distributed Stochastic Neighbor Embedding}) est une technique visant à réduire une représentation dans un espace de haute dimension en un espace de plus faible dimension. En pratique, on visualise les vecteur-mots dans un espace 2D.
 
 <br>
 
 
 **64. [literature, art, book, culture, poem, reading, knowledge, entertaining, loveable, childhood, kind, teddy bear, soft, hug, cute, adorable]**
 
-&#10230; 
+&#10230; [littérature, art, livre, culture, poème, lecture, connaissance, divertissant, aimable, enfance, gentil, ours en peluche, doux, câlin, mignon, adorable]
 
 <br>
 

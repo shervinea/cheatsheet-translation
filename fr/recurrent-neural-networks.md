@@ -312,42 +312,42 @@
 
 **45. [1-hot representation, Word embedding]**
 
-&#10230; 
+&#10230; [Représentation binaire, Représentation du mot]
 
 <br>
 
 
 **46. [teddy bear, book, soft]**
 
-&#10230; 
+&#10230; [ours en peluche, livre, doux]
 
 <br>
 
 
 **47. [Noted ow, Naive approach, no similarity information, Noted ew, Takes into account words similarity]**
 
-&#10230; 
+&#10230; [Noté ow, Approche naïve, pas d'information de similarité, Noté ew, Prend en compte la similarité des mots]
 
 <br>
 
 
 **48. Embedding matrix ― For a given word w, the embedding matrix E is a matrix that maps its 1-hot representation ow to its embedding ew as follows:**
 
-&#10230; 
+&#10230; Matrice de représentation ― Pour un mot donné w, la matrice de représentation (en anglais \textit{embedding matrix}) E est une matrice qui relie une représentation binaire ow à sa représentation correspondante ew de la manière suivante :
 
 <br>
 
 
 **49. Remark: learning the embedding matrix can be done using target/context likelihood models.**
 
-&#10230; 
+&#10230; Remarque : l'apprentissage d'une matrice de représentation peut être effectuée en utilisant des modèles probabilistiques de cible/contexte.
 
 <br>
 
 
 **50. Word embeddings**
 
-&#10230; 
+&#10230; Représentation de mots
 
 <br>
 

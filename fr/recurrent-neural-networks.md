@@ -25,49 +25,49 @@
 
 **4. [Handling long term dependencies, Common activation functions, Vanishing/exploding gradient, Gradient clipping, GRU/LSTM, Types of gates, Bidirectional RNN, Deep RNN]**
 
-&#10230; [Gérer des dépendences à long terme, Fonctions d'activation communes, Gradient ]
+&#10230; [Dépendences à long terme, Fonctions d'activation communes, Gradient qui disparait/explose, Coupure de gradient, GRU/LSTM, Types de porte, RNN bi-directionnel, RNN profond]
 
 <br>
 
 
 **5. [Learning word representation, Notations, Embedding matrix, Word2vec, Skip-gram, Negative sampling, GloVe]**
 
-&#10230; 
+&#10230; [Apprentissage de la représentation de mots, Notations, Matrice de représentation, Word2vec, Skip-gram, Échantillonnage négatif, GloVe]
 
 <br>
 
 
 **6. [Comparing words, Cosine similarity, t-SNE]**
 
-&#10230; 
+&#10230; [Comparaison des mots, Similarité cosinus, t-SNE]
 
 <br>
 
 
 **7. [Language model, n-gram, Perplexity]**
 
-&#10230; 
+&#10230; [Modèle de langage, n-gram, Perplexité]
 
 <br>
 
 
 **8. [Machine translation, Beam search, Length normalization, Error analysis, Bleu score]**
 
-&#10230; 
+&#10230; [Traduction machine, Recherche en faisceau, Normalisation de longueur, Analyse d'erreur, Score bleu]
 
 <br>
 
 
 **9. [Attention, Attention model, Attention weights]**
 
-&#10230; 
+&#10230; [Attention, Modèle d'attention, Coefficients d'attention]
 
 <br>
 
 
 **10. Overview**
 
-&#10230; 
+&#10230; Vue d'ensemble
 
 <br>
 

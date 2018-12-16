@@ -368,28 +368,28 @@
 
 **53. [Train network on proxy task, Extract high-level representation, Compute word embeddings]**
 
-&#10230; 
+&#10230; [Entraîner le réseau, Extraire une représentation globale, Calculer une représentation des mots]
 
 <br>
 
 
 **54. Skip-gram ― The skip-gram word2vec model is a supervised learning task that learns word embeddings by assessing the likelihood of any given target word t happening with a context word c. By noting θt a parameter associated with t, the probability P(t|c) is given by:**
 
-&#10230; 
+&#10230; Skip-gram ― Le skip-gram est un modèle de type supervisé qui apprend comment représenter les mots en évaluant la probabilité de chaque mot cible t donné dans un mot contexte c. En notant θt le paramètre associé à t, la probabilité P(t|c) est donnée par :
 
 <br>
 
 
 **55. Remark: summing over the whole vocabulary in the denominator of the softmax part makes this model computationally expensive. CBOW is another word2vec model using the surrounding words to predict a given word.**
 
-&#10230; 
+&#10230; Remarque : le fait d'additionner tout le vocabulaire dans le dénominateur du softmax rend le modèle coûteux en temps de calcul. CBOW est un autre modèle utilisant les mots avoisinants pour prédire un mot donné.
 
 <br>
 
 
 **56. Negative sampling ― It is a set of binary classifiers using logistic regressions that aim at assessing how a given context and a given target words are likely to appear simultaneously, with the models being trained on sets of k negative examples and 1 positive example. Given a context word c and a target word t, the prediction is expressed by:**
 
-&#10230; 
+&#10230; Échantillonnage négatif ― Cette méthode utilise un ensemble de classifieurs binaires utilisant des régressions logistiques qui visent à évaluer dans quelle mesure des mots contexte et cible sont susceptible d'apparaître simultanément, avec des modèles étant entraînés sur des ensembles de k exemples négatifs et 1 exemple positif. Étant donnés un mot contexte c et un mot cible t, la prédiction est donnée par :
 
 <br>
 

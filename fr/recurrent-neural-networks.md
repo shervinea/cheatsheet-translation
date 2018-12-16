@@ -496,35 +496,35 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 
 **71. Overview ― A machine translation model is similar to a language model except it has an encoder network placed before. For this reason, it is sometimes referred as a conditional language model. The goal is to find a sentence y such that:**
 
-&#10230; 
+&#10230; Vue d'ensemble ― Un modèle de traduction machine est similaire à un modèle de langage ayant un auto-encodeur placé en amont. Pour cette raison, ce modèle est souvent surnommé modèle conditionnel de langage. Le but est de trouver une phrase y telle que :
 
 <br>
 
 
 **72. Beam search ― It is a heuristic search algorithm used in machine translation and speech recognition to find the likeliest sentence y given an input x.**
 
-&#10230; 
+&#10230; Recherche en faisceau ― Cette technique (en anglais \textit{beam search}) est un algorithme de recherche heuristique, utilisé dans le cadre de la traduction machine et de la reconnaissance vocale, qui vise à trouver la phrase la plus probable y sachant l'entrée x.
 
 <br>
 
 
 **73. [Step 1: Find top B likely words y<1>, Step 2: Compute conditional probabilities y<k>|x,y<1>,...,y<k−1>, Step 3: Keep top B combinations x,y<1>,...,y<k>, End process at a stop word]**
 
-&#10230; 
+&#10230; [Étape 1 : Trouver les B mots les plus probables y<1>, Étape 2 : Calculer les probabilités conditionnelles y<k>|x,y<1>,...,y<k−1>, Étape 3 : Garder les B combinaisons les plus probables x,y<1>,...,y<k>, Arrêter la procédure à un mot stop]
 
 <br>
 
 
 **74. Remark: if the beam width is set to 1, then this is equivalent to a naive greedy search.**
 
-&#10230; 
+&#10230; Remarque : si la largeur du faisceau est prise égale à 1, alors ceci est équivalent à un algorithme glouton.
 
 <br>
 
 
 **75. Beam width ― The beam width B is a parameter for beam search. Large values of B yield to better result but with slower performance and increased memory. Small values of B lead to worse results but is less computationally intensive. A standard value for B is around 10.**
 
-&#10230; 
+&#10230; Beam width ― The beam width B is a parameter for beam search. Large values of B yield to better result but with slower performance and increased memory. Small values of B lead to worse results but is less computationally intensive. A standard value for B is around 10.
 
 <br>
 

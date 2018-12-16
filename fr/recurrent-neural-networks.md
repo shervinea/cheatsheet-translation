@@ -74,42 +74,42 @@
 
 **11. Architecture of a traditional RNN ― Recurrent neural networks, also known as RNNs, are a class of neural networks that allow previous outputs to be used as inputs while having hidden states. They are typically as follows:**
 
-&#10230; 
+&#10230; Architecture d'un RNN traditionnel ― Les réseaux de neurones récurrents (en anglais \textit{recurrent neural networks}), aussi appelés RNNs, sont une classe de réseaux de neurones qui permettent aux prédictions antérieures d'être utilisées comme entrées, par le bias d'états cachés (en anglais \textit{hidden states}). Ils sont de la forme suivante :
 
 <br>
 
 
 **12. For each timestep t, the activation a<t> and the output y<t> are expressed as follows:**
 
-&#10230; 
+&#10230; À l'instant t, l'activation a<t> et la sortie y<t> sont de la forme suivante :
 
 <br>
 
 
 **13. and**
 
-&#10230; 
+&#10230; et
 
 <br>
 
 
 **14. where Wax,Waa,Wya,ba,by are coefficients that are shared temporally and g1,g2 activation functions.**
 
-&#10230; 
+&#10230; où Wax,Waa,Wya,ba,by sont des coefficients indépendents du temps et où g1,g2 sont des fonctions d'activation.
 
 <br>
 
 
 **15. The pros and cons of a typical RNN architecture are summed up in the table below:**
 
-&#10230; 
+&#10230; Les avantages et inconvénients des architectures de RNN traditionnelles sont résumés dans le tableau ci-dessous :
 
 <br>
 
 
 **16. [Advantages, Possibility of processing input of any length, Model size not increasing with size of input, Computation takes into account historical information, Weights are shared across time]**
 
-&#10230; 
+&#10230; []
 
 <br>
 

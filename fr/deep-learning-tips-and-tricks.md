@@ -228,42 +228,42 @@
 
 **33. Xavier initialization ― Instead of initializing the weights in a purely random manner, Xavier initialization enables to have initial weights that take into account characteristics that are unique to the architecture.**
 
-&#10230; 
+&#10230; Initialization de Xavier ― Au lieu de laisser les coefficients s'initialiser de manière purement aléatoire, l'initialisation de Xavier permet d'avoir des coefficients initiaux qui prennent en compte les caractéristiques uniques de l'architecture.
 
 <br>
 
 
 **34. Transfer learning ― Training a deep learning model requires a lot of data and more importantly a lot of time. It is often useful to take advantage of pre-trained weights on huge datasets that took days/weeks to train, and leverage it towards our use case. Depending on how much data we have at hand, here are the different ways to leverage this:**
 
-&#10230; 
+&#10230; Apprentissage de transfert ― Entraîner un modèle d'apprentissage profond requière beaucoup de données et beaucoup de temps. Il est souvent utile de profiter de coefficients pre-entraînés sur des données énormes qui ont pris des jours/semaines pour être entraînés, et profiter de cela pour notre cas. Selon la quantité de données que l'on a sous la main, voici différentes manières d'utiliser cette methode :
 
 <br>
 
 
 **35. [Training size, Illustration, Explanation]**
 
-&#10230; []
+&#10230; [Taille du training, Illustration, Explication]
 
 <br>
 
 
 **36. [Small, Medium, Large]**
 
-&#10230; []
+&#10230; [Petit, Moyen, Grand]
 
 <br>
 
 
 **37. [Freezes all layers, trains weights on softmax, Freezes most layers, trains weights on last layers and softmax, Trains weights on layers and softmax by initializing weights on pre-trained ones]**
 
-&#10230; []
+&#10230; [Gèle toutes les couches, entraîne les coefficients du softmax, Gèle la plupart des couches, entraîne les coefficients des dernières couches et du softmax, Entraîne les coefficients des couches et du softmax en initialisant les coefficients sur ceux qui ont été pré-entraînés]
 
 <br>
 
 
 **38. Optimizing convergence**
 
-&#10230; 
+&#10230; Optimisation de la convergence
 
 <br>
 

@@ -179,49 +179,49 @@
 
 **26. Backpropagation ― Backpropagation is a method to update the weights in the neural network by taking into account the actual output and the desired output. The derivative with respect to each weight w is computed using the chain rule.**
 
-&#10230; 
+&#10230; Backpropagation ― La backpropagation est une méthode de mise à jour des coefficients d'un réseau de neurones en prenant en compte les sorties vraies et désirées. La dérivée par rapport à chaque coefficient w est calculée en utilisant la règle de la chaîne.
 
 <br>
 
 
 **27. Using this method, each weight is updated with the rule:**
 
-&#10230; 
+&#10230; En utilisant cette méthode, chaque coefficient est mis à jour par :
 
 <br>
 
 
 **28. Updating weights ― In a neural network, weights are updated as follows:**
 
-&#10230; 
+&#10230; Mettre à jour les coefficients ― Dans un réseau de neurones, les coefficients sont mis à jour par :
 
 <br>
 
 
 **29. [Step 1: Take a batch of training data and perform forward propagation to compute the loss, Step 2: Backpropagate the loss to get the gradient of the loss with respect to each weight, Step 3: Use the gradients to update the weights of the network.]**
 
-&#10230; []
+&#10230; [Étape 1 : Prendre un lot de training data et effectuer une forward propagation pour calculer le loss, Étape 2 : Backpropaguer le loss pour obtenir le gradient du loss par rapport à chaque coefficient, Étape 3 : Utiliser les gradients pour mettre à jour les coefficients du réseau.]
 
 <br>
 
 
 **30. [Forward propagation, Backpropagation, Weights update]**
 
-&#10230; []
+&#10230; [Forward propagation, Backpropagation, Mise à jour des coefficients]
 
 <br>
 
 
 **31. Parameter tuning**
 
-&#10230; 
+&#10230; Réglage des paramètres
 
 <br>
 
 
 **32. Weights initialization**
 
-&#10230; 
+&#10230; Initialisation des coefficients
 
 <br>
 

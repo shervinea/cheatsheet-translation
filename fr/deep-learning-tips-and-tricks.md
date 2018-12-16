@@ -268,8 +268,7 @@
 <br>
 
 
-**39. Learning rate ― The learning rate, often noted α or sometimes η, indicates at which pace the weights get updated. It can be fixed or adaptively changed. The current most popular method is called Adam, which is a method that adapts the learning rate.
-**
+**39. Learning rate ― The learning rate, often noted α or sometimes η, indicates at which pace the weights get updated. It can be fixed or adaptively changed. The current most popular method is called Adam, which is a method that adapts the learning rate.**
 
 &#10230; 
 
@@ -425,33 +424,34 @@
 
 &#10230; Les pense-bêtes d'appentissage profond sont maintenant disponibles en français.
 
+<br>
 
 **61. Original authors**
 
-&#10230; 
+&#10230; Auteurs
 
-<br> Auteurs du contenu d'origine
+<br>
 
 **62.Translated by X, Y and Z**
 
-&#10230; 
+&#10230; Traduit par X, Y et Z
 
-<br> Traduit par X, Y et Z
+<br>
 
 **63.Reviewed by X, Y and Z**
 
-&#10230; 
+&#10230; Relu par X, Y et Z
 
-<br> Relu par X, Y et Z
+<br>
 
 **64.View PDF version on GitHub**
 
-&#10230; 
+&#10230; Voir la version PDF sur GitHub
 
-<br> Voir la version PDF sur GitHub
+<br>
 
 **65.By X and Y**
 
-&#10230; 
+&#10230; Par X et Y
 
-<br> De X et Y
+<br>

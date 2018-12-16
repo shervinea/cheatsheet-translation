@@ -25,7 +25,7 @@
 
 **4. [Handling long term dependencies, Common activation functions, Vanishing/exploding gradient, Gradient clipping, GRU/LSTM, Types of gates, Bidirectional RNN, Deep RNN]**
 
-&#10230; [Dépendences à long terme, Fonctions d'activation communes, Gradient qui disparait/explose, Coupure de gradient, GRU/LSTM, Types de porte, RNN bi-directionnel, RNN profond]
+&#10230; [Dépendances à long terme, Fonctions d'activation communes, Gradient qui disparait/explose, Coupure de gradient, GRU/LSTM, Types de porte, RNN bi-directionnel, RNN profond]
 
 <br>
 
@@ -109,77 +109,77 @@
 
 **16. [Advantages, Possibility of processing input of any length, Model size not increasing with size of input, Computation takes into account historical information, Weights are shared across time]**
 
-&#10230; []
+&#10230; [Avantages, Possibilité de prendre en compte des entrées de toute taille, La taille du modèle n'augmente pas avec la taille de l'entrée, Les calculs prennent en compte les informations antérieures, Les coefficients sont indépendents du temps]
 
 <br>
 
 
 **17. [Drawbacks, Computation being slow, Difficulty of accessing information from a long time ago, Cannot consider any future input for the current state]**
 
-&#10230; 
+&#10230; [Inconvénients, Le temps de calcul est long, Difficulté d'accéder à des informations d'un passé lointain, Impossibilité de prendre en compte des informations futures un état donné]
 
 <br>
 
 
 **18. Applications of RNNs ― RNN models are mostly used in the fields of natural language processing and speech recognition. The different applications are summed up in the table below:**
 
-&#10230; 
+&#10230; Applications des RNNs ― Les modèles RNN sont surtout utilisés dans les domaines du traitement automatique du langage naturel et de la reconnaissance vocale. Le tableau suivant détaille les applications principales à retenir :
 
 <br>
 
 
 **19. [Type of RNN, Illustration, Example]**
 
-&#10230; 
+&#10230; [Type de RNN, Illustration, Exemple]
 
 <br>
 
 
 **20. [One-to-one, One-to-many, Many-to-one, Many-to-many]**
 
-&#10230; 
+&#10230; [Un à un, Un à plusieurs, Plusieurs à un, Plusieurs à plusieurs]
 
 <br>
 
 
 **21. [Traditional neural network, Music generation, Sentiment classification, Name entity recognition, Machine translation]**
 
-&#10230; 
+&#10230; [Réseau de neurones traditionnel, Géneration de musique, Classification de sentiment, Reconnaissance d'entité, Traduction machine]
 
 <br>
 
 
 **22. Loss function ― In the case of a recurrent neural network, the loss function L of all time steps is defined based on the loss at every time step as follows:**
 
-&#10230; 
+&#10230; Fonction de loss ― Dans le contexte des réseaux de neurones récurrents, la fonction de loss L prend en compte le loss à chaque temps T de la manière suivante :
 
 <br>
 
 
 **23. Backpropagation through time ― Backpropagation is done at each point in time. At timestep T, the derivative of the loss L with respect to weight matrix W is expressed as follows:**
 
-&#10230; 
+&#10230; Backpropagation temporelle ― L'étape de backpropagation est appliquée dans la dimension temporelle. À l'instant T, la dérivée du loss L par rapport à la matrice de coefficients W est donnée par :
 
 <br>
 
 
 **24. Handling long term dependencies**
 
-&#10230; 
+&#10230; Dépendances à long terme 
 
 <br>
 
 
 **25. Commonly used activation functions ― The most common activation functions used in RNN modules are described below:**
 
-&#10230; 
+&#10230; Fonctions d'activation communément utilisées ― Les fonctions d'activation les plus utilisées dans les RNNs sont décrits ci-dessous :
 
 <br>
 
 
 **26. [Sigmoid, Tanh, RELU]**
 
-&#10230; 
+&#10230; [Sigmoïde, Tanh, RELU]
 
 <br>
 

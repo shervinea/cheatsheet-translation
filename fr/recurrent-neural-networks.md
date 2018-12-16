@@ -580,56 +580,56 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 
 **83. Remark: a brevity penalty may be applied to short predicted translations to prevent an artificially inflated bleu score.**
 
-&#10230; 
+&#10230; Remarque : une pénalité de brièveté peut être appliquée aux traductions prédites courtes pour empêcher que le score bleu soit artificiellement haut.
 
 <br>
 
 
 **84. Attention**
 
-&#10230; 
+&#10230; Attention
 
 <br>
 
 
 **85. Attention model ― This model allows an RNN to pay attention to specific parts of the input that is considered as being important, which improves the performance of the resulting model in practice. By noting α<t,t′> the amount of attention that the output y<t> should pay to the activation a<t′> and c<t> the context at time t, we have:**
 
-&#10230; 
+&#10230; Modèle d'attention ― Le modèle d'attention (en anglais \textit{attention model}) permet au RNN de mettre en valeur des parties spécifiques de l'entrée qui peuvent être considérées comme étant importantes, ce qui améliore la performance du modèle final en pratique. En notant α<t,t′> la quantité d'attention que la sortie y<t> devrait porter à l'activation a<t′> et au contexte c<t> à l'instant t, on a :
 
 <br>
 
 
 **86. with**
 
-&#10230; 
+&#10230; avec
 
 <br>
 
 
 **87. Remark: the attention scores are commonly used in image captioning and machine translation.**
 
-&#10230; 
+&#10230; Remarque : les scores d'attention sont communément utilisés dans la génération de légende d'image ainsi que dans la traduction machine.
 
 <br>
 
 
 **88. A cute teddy bear is reading Persian literature.**
 
-&#10230; 
+&#10230; Un ours en peluche mignon est en train de lire de la littérature persane.
 
 <br>
 
 
 **89. Attention weight ― The amount of attention that the output y<t> should pay to the activation a<t′> is given by α<t,t′> computed as follows:**
 
-&#10230; 
+&#10230; Coefficient d'attention ― La quantité d'attention que la sortie y<t> devrait porter à l'activation a<t′> est donné α<t,t′>, qui est calculé de la manière suivante :
 
 <br>
 
 
 **90. Remark: computation complexity is quadratic with respect to Tx.**
 
-&#10230; 
+&#10230; Remarque : la complexité de calcul est quadratique par rapport à Tx.
 
 <br>
 

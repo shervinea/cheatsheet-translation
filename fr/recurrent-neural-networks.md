@@ -25,7 +25,7 @@
 
 **4. [Handling long term dependencies, Common activation functions, Vanishing/exploding gradient, Gradient clipping, GRU/LSTM, Types of gates, Bidirectional RNN, Deep RNN]**
 
-&#10230; 
+&#10230; [Gérer des dépendences à long terme, Fonctions d'activation communes, Gradient ]
 
 <br>
 

@@ -396,7 +396,7 @@
 
 **57. Remark: this method is less computationally expensive than the skip-gram model.**
 
-&#10230; 
+&#10230; Remarque : cette méthode est moins coûteuse en calcul par rapport au modèle skip-gram.
 
 <br>
 
@@ -404,35 +404,36 @@
 **58. where f is a weighting function such that Xi,j=0⟹f(Xi,j)=0.
 Given the symmetry that e and θ play in this model, the final word embedding e(final)w is given by:**
 
-&#10230; 
+&#10230; où f est une fonction à coefficients telle que Xi,j=0⟹f(Xi,j)=0.
+Étant donné la symmétrie que e et θ ont dans un modèle, la représentation du mot final e(final)w est donnée par :
 
 <br>
 
 
 **59. Remark: the individual components of the learned word embeddings are not necessarily interpretable.**
 
-&#10230; 
+&#10230; Remarque : les composantes individuelles de la représentation d'un mot n'est pas nécessairement facilement interprétable.
 
 <br>
 
 
 **60. Comparing words**
 
-&#10230; 
+&#10230; Comparaison de mots
 
 <br>
 
 
 **61. Cosine similarity ― The cosine similarity between words w1 and w2 is expressed as follows:**
 
-&#10230; 
+&#10230; Similarité cosinus ― La similarité cosinus (en anglais \textit{cosine similarity}) entre les mots w1 et w2 est donnée par :
 
 <br>
 
 
 **62. Remark: θ is the angle between words w1 and w2.**
 
-&#10230; 
+&#10230; Remarque : θ est l'angle entre les mots w1 et w2.
 
 <br>
 

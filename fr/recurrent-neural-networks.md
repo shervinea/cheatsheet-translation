@@ -524,56 +524,56 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 
 **75. Beam width ― The beam width B is a parameter for beam search. Large values of B yield to better result but with slower performance and increased memory. Small values of B lead to worse results but is less computationally intensive. A standard value for B is around 10.**
 
-&#10230; Beam width ― The beam width B is a parameter for beam search. Large values of B yield to better result but with slower performance and increased memory. Small values of B lead to worse results but is less computationally intensive. A standard value for B is around 10.
+&#10230; Largeur du faisceau ― La largeur du faisceau (en anglais \textit{beam width}) B est un paramètre de la recherche en faisceau. De grandes valeurs de B conduisent à avoir de meilleurs résultats mais avec un coût de mémoire plus lourd et à un temps de calcul plus long. De faibles valeurs de B conduisent à de moins bons résultats mais avec un coût de calcul plus faible. Une valeur de B égale à 10 est standarde et est souvent utilisée.
 
 <br>
 
 
 **76. Length normalization ― In order to improve numerical stability, beam search is usually applied on the following normalized objective, often called the normalized log-likelihood objective, defined as:**
 
-&#10230; 
+&#10230; Normalisation de longueur ― Pour que la stabilité numérique puisse être améliorée, la recherche en faisceau utilise un objectif normalisé, souvent appelé l'objectif de log-probabilité normalisé, défini par :
 
 <br>
 
 
 **77. Remark: the parameter α can be seen as a softener, and its value is usually between 0.5 and 1.**
 
-&#10230; 
+&#10230; Remarque : le paramètre α est souvent comprise entre 0.5 et 1.
 
 <br>
 
 
 **78. Error analysis ― When obtaining a predicted translation ˆy that is bad, one can wonder why we did not get a good translation y∗ by performing the following error analysis:**
 
-&#10230; 
+&#10230; Analyse d'erreur ― Lorsque l'on obtient une mauvaise traduction prédite ˆy, on peut se demander la raison pour laquelle l'algorithme n'a pas obtenu une bonne traduction y∗ en faisant une analyse d'erreur de la manière suivante :
 
 <br>
 
 
 **79. [Case, Root cause, Remedies]**
 
-&#10230; 
+&#10230; [Cas, Cause, Remèdes]
 
 <br>
 
 
 **80. [Beam search faulty, RNN faulty, Increase beam width, Try different architecture, Regularize, Get more data]**
 
-&#10230; 
+&#10230; [Recherche en faisceau défectueuse, RNN défectueux, Augmenter la largeur du faisceau, Essayer une différente architecture, Régulariser, Obtenir plus de données]
 
 <br>
 
 
 **81. Bleu score ― The bilingual evaluation understudy (bleu) score quantifies how good a machine translation is by computing a similarity score based on n-gram precision. It is defined as follows:**
 
-&#10230; 
+&#10230; Score bleu ― Le score bleu (en anglais \textit{bilingual evaluation understudy}) a pour but de quantifier à quel point une traduction est bonne en calculant un score de similarité basé sur une précision n-gram. Il est défini de la manière suivante :
 
 <br>
 
 
 **82. where pn is the bleu score on n-gram only defined as follows:**
 
-&#10230; 
+&#10230; où pn est le score bleu uniqué basé sur les n-gram, défini par :
 
 <br>
 

@@ -4,7 +4,7 @@
 
 **1. Deep Learning Tips and Tricks cheatsheet**
 
-&#10230; 
+&#10230; Pense-bête de petites astuces d'apprentissage profond
 
 <br>
 
@@ -13,19 +13,19 @@
 
 &#10230; 
 
-<br>
+<br> CS 230 - Apprentissage profond
 
 
 **3. Tips and tricks**
 
-&#10230; 
+&#10230; Petites astuces
 
 <br>
 
 
 **4. [Data processing, Data augmentation, Batch normalization]**
 
-&#10230; 
+&#10230; [Traitement des données, Augmentation des données, Normalization de lot]
 
 <br>
 
@@ -34,75 +34,75 @@
 
 &#10230; 
 
-<br>
+<br> [Entrainement d'un réseau de neurones, Epoch, Mini-lot, Entropie croisée, Rétropropagation du gradient, Algorithme du gradient, Mise à jour des coefficients, Vérification de gradient]
 
 
 **6. [Parameter tuning, Xavier initialization, Transfer learning, Learning rate, Adaptive learning rates]**
 
 &#10230; 
 
-<br>
+<br> [Ajustement de paramètres, Initialisation de Xavier, Apprentissage par transfert, Taux d'apprentissage, Taux d'apprentissage adaptifs]
 
 
 **7. [Regularization, Dropout, Weight regularization, Early stopping]**
 
-&#10230; 
+&#10230; [Régularisation, Abandon, Régularisation des coefficients, Arrêt prématuré]
 
 <br>
 
 
 **8. [Good practices, Overfitting small batch, Gradient checking]**
 
-&#10230; 
+&#10230; [Bonnes pratiques, Surapprentissage d'un mini-lot, Vérification de gradient]
 
 <br>
 
 
 **9. View PDF version on GitHub**
 
-&#10230; 
+&#10230; Voir la version PDF sur GitHub
 
 <br>
 
 
 **10. Data processing**
 
-&#10230; 
+&#10230; Traitement des données
 
 <br>
 
 
 **11. Data augmentation ― Deep learning models usually need a lot of data to be properly trained. It is often useful to get more data from the existing ones using data augmentation techniques. The main ones are summed up in the table below. More precisely, given the following input image, here are the techniques that we can apply:**
 
-&#10230; 
+&#10230; Augmentation des données - Les modèles d'apprentissage profond ont typiquement besoin de beaucoup de données afin d'être entrainés convenablement. Il est souvent utile de générer plus de données à partir de celles déjà existantes à l'aide de techniques d'augmentation de données. Celles les plus souvent utilisées sont résumées dans le tableau ci-dessous. À partir d'une image, voici les techniques que l'on peut utiliser :
 
 <br>
 
 
 **12. [Original, Flip, Rotation, Random crop]**
 
-&#10230; 
+&#10230; [Original, Symétrie axiale, Rotation, Recadrage aléatoire]
 
 <br>
 
 
 **13. [Image without any modification, Flipped with respect to an axis for which the meaning of the image is preserved, Rotation with a slight angle, Simulates incorrect horizon calibration, Random focus on one part of the image, Several random crops can be done in a row]**
 
-&#10230; 
+&#10230; []
 
 <br>
 
 
 **14. [Color shift, Noise addition, Information loss, Contrast change]**
 
-&#10230; 
+&#10230; []
 
 <br>
 
 
 **15. [Nuances of RGB is slightly changed, Captures noise that can occur with light exposure, Addition of noise, More tolerance to quality variation of inputs, Parts of image ignored, Mimics potential loss of parts of image, Luminosity changes, Controls difference in exposition due to time of day]**
 
-&#10230; 
+&#10230; []
 
 <br>
 
@@ -200,14 +200,14 @@
 
 **29. [Step 1: Take a batch of training data and perform forward propagation to compute the loss, Step 2: Backpropagate the loss to get the gradient of the loss with respect to each weight, Step 3: Use the gradients to update the weights of the network.]**
 
-&#10230; 
+&#10230; []
 
 <br>
 
 
 **30. [Forward propagation, Backpropagation, Weights update]**
 
-&#10230; 
+&#10230; []
 
 <br>
 
@@ -242,21 +242,21 @@
 
 **35. [Training size, Illustration, Explanation]**
 
-&#10230; 
+&#10230; []
 
 <br>
 
 
 **36. [Small, Medium, Large]**
 
-&#10230; 
+&#10230; []
 
 <br>
 
 
 **37. [Freezes all layers, trains weights on softmax, Freezes most layers, trains weights on last layers and softmax, Trains weights on layers and softmax by initializing weights on pre-trained ones]**
 
-&#10230; 
+&#10230; []
 
 <br>
 
@@ -285,28 +285,28 @@
 
 **41. [Method, Explanation, Update of w, Update of b]**
 
-&#10230; 
+&#10230; []
 
 <br>
 
 
 **42. [Momentum, Dampens oscillations, Improvement to SGD, 2 parameters to tune]**
 
-&#10230; 
+&#10230; []
 
 <br>
 
 
 **43. [RMSprop, Root Mean Square propagation, Speeds up learning algorithm by controlling oscillations]**
 
-&#10230; 
+&#10230; []
 
 <br>
 
 
 **44. [Adam, Adaptive Moment estimation, Most popular method, 4 parameters to tune]**
 
-&#10230; 
+&#10230; []
 
 <br>
 
@@ -322,7 +322,7 @@
 
 &#10230; 
 
-<br>
+<br> Régularisation
 
 
 **47. Dropout ― Dropout is a technique used in neural networks to prevent overfitting the training data by dropping out neurons with probability p>0. It forces the model to avoid relying too much on particular sets of features.**
@@ -348,7 +348,7 @@
 
 **50. [LASSO, Ridge, Elastic Net]**
 
-&#10230; 
+&#10230; []
 
 <br>
 
@@ -367,7 +367,7 @@
 
 **52. [Error, Validation, Training, early stopping, Epochs]**
 
-&#10230; 
+&#10230; []
 
 <br>
 
@@ -376,7 +376,7 @@
 
 &#10230; 
 
-<br>
+<br> Bonnes pratiques
 
 
 **54. Overfitting small batch ― When debugging a model, it is often useful to make quick tests to see if there is any major issue with the architecture of the model itself. In particular, in order to make sure that the model can be properly trained, a mini-batch is passed inside the network to see if it can overfit on it. If it cannot, it means that the model is either too complex or not complex enough to even overfit on a small batch, let alone a normal-sized training set.**
@@ -395,63 +395,63 @@
 
 **56. [Type, Numerical gradient, Analytical gradient]**
 
-&#10230; 
+&#10230; [Type, Gradient numérique, Gradient analytique]
 
 <br>
 
 
 **57. [Formula, Comments]**
 
-&#10230; 
+&#10230; [Formule, Commentaires]
 
 <br>
 
 
 **58. [Expensive; loss has to be computed two times per dimension, Used to verify correctness of analytical implementation, Trade-off in choosing h not too small (numerical instability) nor too large (poor gradient approximation)]**
 
-&#10230; 
+&#10230; []
 
 <br>
 
 
 **59. ['Exact' result, Direct computation, Used in the final implementation]**
 
-&#10230; 
+&#10230; [Resultat 'exact', Calcul direct, Utilisé dans l'implémentation finale]
 
 <br>
 
 
 **60. The Deep Learning cheatsheets are now available in [target language].
 
-&#10230; 
+&#10230; Les pense-bêtes d'appentissage profond sont maintenant disponibles en français.
 
 
 **61. Original authors**
 
 &#10230; 
 
-<br>
+<br> Auteurs du contenu d'origine
 
 **62.Translated by X, Y and Z**
 
 &#10230; 
 
-<br>
+<br> Traduit par X, Y et Z
 
 **63.Reviewed by X, Y and Z**
 
 &#10230; 
 
-<br>
+<br> Relu par X, Y et Z
 
 **64.View PDF version on GitHub**
 
 &#10230; 
 
-<br>
+<br> Voir la version PDF sur GitHub
 
 **65.By X and Y**
 
 &#10230; 
 
-<br>
+<br> De X et Y

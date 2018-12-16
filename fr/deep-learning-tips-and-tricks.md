@@ -11,9 +11,9 @@
 
 **2. CS 230 - Deep Learning**
 
-&#10230; 
+&#10230; CS 230 - Apprentissage profond
 
-<br> CS 230 - Apprentissage profond
+<br>
 
 
 **3. Tips and tricks**

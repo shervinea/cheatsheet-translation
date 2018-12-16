@@ -319,9 +319,9 @@
 
 **46. Regularization**
 
-&#10230; 
+&#10230; Régularisation
 
-<br> Régularisation
+<br>
 
 
 **47. Dropout ― Dropout is a technique used in neural networks to prevent overfitting the training data by dropping out neurons with probability p>0. It forces the model to avoid relying too much on particular sets of features.**
@@ -373,9 +373,9 @@
 
 **53. Good practices**
 
-&#10230; 
+&#10230; Bonnes pratiques
 
-<br> Bonnes pratiques
+<br>
 
 
 **54. Overfitting small batch ― When debugging a model, it is often useful to make quick tests to see if there is any major issue with the architecture of the model itself. In particular, in order to make sure that the model can be properly trained, a mini-batch is passed inside the network to see if it can overfit on it. If it cannot, it means that the model is either too complex or not complex enough to even overfit on a small batch, let alone a normal-sized training set.**

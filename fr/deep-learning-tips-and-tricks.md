@@ -116,7 +116,7 @@
 
 **17. Batch normalization ― It is a step of hyperparameter γ,β that normalizes the batch {xi}. By noting μB,σ2B the mean and variance of that we want to correct to the batch, it is done as follows:**
 
-&#10230; Normalisation de lot ― La normalisation de lot (en anglais \textit{batch normalization}) est une étape qui normalise le lot {xi} avec un choix de paramètres γ,β. En notant μB,σ2B la moyenne et la variance de ce que l'on veut corriger du lot, on a :
+&#10230; Normalisation de lot ― La normalisation de lot (en anglais <i>batch normalization</i>) est une étape qui normalise le lot {xi} avec un choix de paramètres γ,β. En notant μB,σ2B la moyenne et la variance de ce que l'on veut corriger du lot, on a :
 
 <br>
 
@@ -144,7 +144,7 @@
 
 **21. Epoch ― In the context of training a model, epoch is a term used to refer to one iteration where the model sees the whole training set to update its weights.**
 
-&#10230; Epoch ― Dans le contexte de l'entraînement d'un modèle, l'\textit{epoch} est un terme utilisé pour réferer à une itération où le modèle voit tout le training set pour mettre à jour ses coefficients.
+&#10230; Epoch ― Dans le contexte de l'entraînement d'un modèle, l'<i>epoch</i> est un terme utilisé pour réferer à une itération où le modèle voit tout le training set pour mettre à jour ses coefficients.
 
 <br>
 
@@ -158,14 +158,14 @@
 
 **23. Loss function ― In order to quantify how a given model performs, the loss function L is usually used to evaluate to what extent the actual outputs y are correctly predicted by the model outputs z.**
 
-&#10230; Fonction de loss ― Pour pouvoir quantifier la performance d'un modèle donné, la fonction de loss (en anglais \textit{loss function}) L est utilisée pour évaluer la mesure dans laquelle les sorties vraies y sont correctement prédites par les prédictions du modèle z.
+&#10230; Fonction de loss ― Pour pouvoir quantifier la performance d'un modèle donné, la fonction de loss (en anglais <i>loss function</i>) L est utilisée pour évaluer la mesure dans laquelle les sorties vraies y sont correctement prédites par les prédictions du modèle z.
 
 <br>
 
 
 **24. Cross-entropy loss ― In the context of binary classification in neural networks, the cross-entropy loss L(z,y) is commonly used and is defined as follows:**
 
-&#10230; Entropie croisée ― Dans le contexte de la classification binaire d'un réseau de neurones, l'entropie croisée (en anglais \textit{cross-entropy loss}) L(z,y) est couramment utilisée et est définie par :
+&#10230; Entropie croisée ― Dans le contexte de la classification binaire d'un réseau de neurones, l'entropie croisée (en anglais <i>cross-entropy loss</i>) L(z,y) est couramment utilisée et est définie par :
 
 <br>
 
@@ -270,7 +270,7 @@
 
 **39. Learning rate ― The learning rate, often noted α or sometimes η, indicates at which pace the weights get updated. It can be fixed or adaptively changed. The current most popular method is called Adam, which is a method that adapts the learning rate.**
 
-&#10230; Taux d'apprentissage ― Le taux d'apprentissage (en anglais \textit{learning rate}), souvent noté α ou η, indique la vitesse à laquelle les coefficients sont mis à jour. Il peut être fixe ou variable. La méthode actuelle la plus populaire est appelée Adam, qui est une méthode faisant varier le taux d'apprentissage.
+&#10230; Taux d'apprentissage ― Le taux d'apprentissage (en anglais <i>learning rate</i>), souvent noté α ou η, indique la vitesse à laquelle les coefficients sont mis à jour. Il peut être fixe ou variable. La méthode actuelle la plus populaire est appelée Adam, qui est une méthode faisant varier le taux d'apprentissage.
 
 <br>
 
@@ -359,7 +359,7 @@
 
 **51. Early stopping ― This regularization technique stops the training process as soon as the validation loss reaches a plateau or starts to increase.**
 
-&#10230; Arrêt prématuré ― L'arrêt prématuré (en anglais \textit{early stopping}) est une technique de régularisation qui consiste à stopper l'étape d'entraînement dès que le loss de validation atteint un plateau ou commence à augmenter.
+&#10230; Arrêt prématuré ― L'arrêt prématuré (en anglais <i>early stopping</i>) est une technique de régularisation qui consiste à stopper l'étape d'entraînement dès que le loss de validation atteint un plateau ou commence à augmenter.
 
 <br>
 

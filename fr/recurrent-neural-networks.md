@@ -74,7 +74,7 @@
 
 **11. Architecture of a traditional RNN ― Recurrent neural networks, also known as RNNs, are a class of neural networks that allow previous outputs to be used as inputs while having hidden states. They are typically as follows:**
 
-&#10230; Architecture d'un RNN traditionnel ― Les réseaux de neurones récurrents (en anglais \textit{recurrent neural networks}), aussi appelés RNNs, sont une classe de réseaux de neurones qui permettent aux prédictions antérieures d'être utilisées comme entrées, par le bias d'états cachés (en anglais \textit{hidden states}). Ils sont de la forme suivante :
+&#10230; Architecture d'un RNN traditionnel ― Les réseaux de neurones récurrents (en anglais <i>recurrent neural networks</i>), aussi appelés RNNs, sont une classe de réseaux de neurones qui permettent aux prédictions antérieures d'être utilisées comme entrées, par le bias d'états cachés (en anglais <i>hidden states</i>). Ils sont de la forme suivante :
 
 <br>
 
@@ -165,7 +165,7 @@
 
 **24. Handling long term dependencies**
 
-&#10230; Dépendances à long terme 
+&#10230; Dépendances à long terme
 
 <br>
 
@@ -186,7 +186,7 @@
 
 **27. Vanishing/exploding gradient ― The vanishing and exploding gradient phenomena are often encountered in the context of RNNs. The reason why they happen is that it is difficult to capture long term dependencies because of multiplicative gradient that can be exponentially decreasing/increasing with respect to the number of layers.**
 
-&#10230; Gradient qui disparait/explose ― Les phénomènes de gradient qui disparait et qui explose (en anglais \textit{vanishing gradient} et \textit{exploding gradient}) sont souvent rencontrés dans le contexte des RNNs. Ceci est dû au fait qu'il est difficile de capturer des dépendances à long terme à cause du gradient multiplicatif qui peut décroître/croître de manière exponentielle en fonction du nombre de couches.
+&#10230; Gradient qui disparait/explose ― Les phénomènes de gradient qui disparait et qui explose (en anglais <i>vanishing gradient</i> et <i>exploding gradient</i>) sont souvent rencontrés dans le contexte des RNNs. Ceci est dû au fait qu'il est difficile de capturer des dépendances à long terme à cause du gradient multiplicatif qui peut décroître/croître de manière exponentielle en fonction du nombre de couches.
 
 <br>
 
@@ -249,7 +249,7 @@
 
 **36. GRU/LSTM ― Gated Recurrent Unit (GRU) and Long Short-Term Memory units (LSTM) deal with the vanishing gradient problem encountered by traditional RNNs, with LSTM being a generalization of GRU. Below is a table summing up the characterizing equations of each architecture:**
 
-&#10230; GRU/LSTM ― Les unités de porte récurrente (en anglais \textit{Gated Recurrent Unit}) (GRU) et les unités de mémoire à long/court terme (en anglais \textit{Long Short-Term Memory units}) (LSTM) appaisent le problème du gradient qui disparait rencontré par les RNNs traditionnels, où le LSTM peut être vu comme étant une généralisation du GRU. Le tableau ci-dessous résume les équations caractéristiques de chacune de ces architectures :
+&#10230; GRU/LSTM ― Les unités de porte récurrente (en anglais <i>Gated Recurrent Unit</i>) (GRU) et les unités de mémoire à long/court terme (en anglais <i>Long Short-Term Memory units</i>) (LSTM) appaisent le problème du gradient qui disparait rencontré par les RNNs traditionnels, où le LSTM peut être vu comme étant une généralisation du GRU. Le tableau ci-dessous résume les équations caractéristiques de chacune de ces architectures :
 
 <br>
 
@@ -333,7 +333,7 @@
 
 **48. Embedding matrix ― For a given word w, the embedding matrix E is a matrix that maps its 1-hot representation ow to its embedding ew as follows:**
 
-&#10230; Matrice de représentation ― Pour un mot donné w, la matrice de représentation (en anglais \textit{embedding matrix}) E est une matrice qui relie une représentation binaire ow à sa représentation correspondante ew de la manière suivante :
+&#10230; Matrice de représentation ― Pour un mot donné w, la matrice de représentation (en anglais <i>embedding matrix</i>) E est une matrice qui relie une représentation binaire ow à sa représentation correspondante ew de la manière suivante :
 
 <br>
 
@@ -426,7 +426,7 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 
 **61. Cosine similarity ― The cosine similarity between words w1 and w2 is expressed as follows:**
 
-&#10230; Similarité cosinus ― La similarité cosinus (en anglais \textit{cosine similarity}) entre les mots w1 et w2 est donnée par :
+&#10230; Similarité cosinus ― La similarité cosinus (en anglais <i>cosine similarity</i>) entre les mots w1 et w2 est donnée par :
 
 <br>
 
@@ -440,7 +440,7 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 
 **63. t-SNE ― t-SNE (t-distributed Stochastic Neighbor Embedding) is a technique aimed at reducing high-dimensional embeddings into a lower dimensional space. In practice, it is commonly used to visualize word vectors in the 2D space.**
 
-&#10230; t-SNE ― La méthode t-SNE (en anglais \textit{t-distributed Stochastic Neighbor Embedding}) est une technique visant à réduire une représentation dans un espace de haute dimension en un espace de plus faible dimension. En pratique, on visualise les vecteur-mots dans un espace 2D.
+&#10230; t-SNE ― La méthode t-SNE (en anglais <i>t-distributed Stochastic Neighbor Embedding</i>) est une technique visant à réduire une représentation dans un espace de haute dimension en un espace de plus faible dimension. En pratique, on visualise les vecteur-mots dans un espace 2D.
 
 <br>
 
@@ -503,7 +503,7 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 
 **72. Beam search ― It is a heuristic search algorithm used in machine translation and speech recognition to find the likeliest sentence y given an input x.**
 
-&#10230; Recherche en faisceau ― Cette technique (en anglais \textit{beam search}) est un algorithme de recherche heuristique, utilisé dans le cadre de la traduction machine et de la reconnaissance vocale, qui vise à trouver la phrase la plus probable y sachant l'entrée x.
+&#10230; Recherche en faisceau ― Cette technique (en anglais <i>beam search</i>) est un algorithme de recherche heuristique, utilisé dans le cadre de la traduction machine et de la reconnaissance vocale, qui vise à trouver la phrase la plus probable y sachant l'entrée x.
 
 <br>
 
@@ -524,7 +524,7 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 
 **75. Beam width ― The beam width B is a parameter for beam search. Large values of B yield to better result but with slower performance and increased memory. Small values of B lead to worse results but is less computationally intensive. A standard value for B is around 10.**
 
-&#10230; Largeur du faisceau ― La largeur du faisceau (en anglais \textit{beam width}) B est un paramètre de la recherche en faisceau. De grandes valeurs de B conduisent à avoir de meilleurs résultats mais avec un coût de mémoire plus lourd et à un temps de calcul plus long. De faibles valeurs de B conduisent à de moins bons résultats mais avec un coût de calcul plus faible. Une valeur de B égale à 10 est standarde et est souvent utilisée.
+&#10230; Largeur du faisceau ― La largeur du faisceau (en anglais <i>beam width</i>) B est un paramètre de la recherche en faisceau. De grandes valeurs de B conduisent à avoir de meilleurs résultats mais avec un coût de mémoire plus lourd et à un temps de calcul plus long. De faibles valeurs de B conduisent à de moins bons résultats mais avec un coût de calcul plus faible. Une valeur de B égale à 10 est standarde et est souvent utilisée.
 
 <br>
 
@@ -566,7 +566,7 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 
 **81. Bleu score ― The bilingual evaluation understudy (bleu) score quantifies how good a machine translation is by computing a similarity score based on n-gram precision. It is defined as follows:**
 
-&#10230; Score bleu ― Le score bleu (en anglais \textit{bilingual evaluation understudy}) a pour but de quantifier à quel point une traduction est bonne en calculant un score de similarité basé sur une précision n-gram. Il est défini de la manière suivante :
+&#10230; Score bleu ― Le score bleu (en anglais <i>bilingual evaluation understudy</i>) a pour but de quantifier à quel point une traduction est bonne en calculant un score de similarité basé sur une précision n-gram. Il est défini de la manière suivante :
 
 <br>
 
@@ -594,7 +594,7 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 
 **85. Attention model ― This model allows an RNN to pay attention to specific parts of the input that is considered as being important, which improves the performance of the resulting model in practice. By noting α<t,t′> the amount of attention that the output y<t> should pay to the activation a<t′> and c<t> the context at time t, we have:**
 
-&#10230; Modèle d'attention ― Le modèle d'attention (en anglais \textit{attention model}) permet au RNN de mettre en valeur des parties spécifiques de l'entrée qui peuvent être considérées comme étant importantes, ce qui améliore la performance du modèle final en pratique. En notant α<t,t′> la quantité d'attention que la sortie y<t> devrait porter à l'activation a<t′> et au contexte c<t> à l'instant t, on a :
+&#10230; Modèle d'attention ― Le modèle d'attention (en anglais <i>attention model</i>) permet au RNN de mettre en valeur des parties spécifiques de l'entrée qui peuvent être considérées comme étant importantes, ce qui améliore la performance du modèle final en pratique. En notant α<t,t′> la quantité d'attention que la sortie y<t> devrait porter à l'activation a<t′> et au contexte c<t> à l'instant t, on a :
 
 <br>
 

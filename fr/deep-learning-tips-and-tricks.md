@@ -432,25 +432,25 @@
 
 <br>
 
-**62.Translated by X, Y and Z**
+**62. Translated by X, Y and Z**
 
 &#10230; Traduit par X, Y et Z
 
 <br>
 
-**63.Reviewed by X, Y and Z**
+**63. Reviewed by X, Y and Z**
 
 &#10230; Relu par X, Y et Z
 
 <br>
 
-**64.View PDF version on GitHub**
+**64. View PDF version on GitHub**
 
 &#10230; Voir la version PDF sur GitHub
 
 <br>
 
-**65.By X and Y**
+**65. By X and Y**
 
 &#10230; Par X et Y
 

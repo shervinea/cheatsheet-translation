@@ -454,42 +454,42 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 
 **65. Language model**
 
-&#10230; 
+&#10230; Modèle de langage
 
 <br>
 
 
 **66. Overview ― A language model aims at estimating the probability of a sentence P(y).**
 
-&#10230; 
+&#10230; Vue d'ensemble ― Un modèle de langage vise à estimer la probabilité d'une phrase P(y).
 
 <br>
 
 
 **67. n-gram model ― This model is a naive approach aiming at quantifying the probability that an expression appears in a corpus by counting its number of appearance in the training data.**
 
-&#10230; 
+&#10230; Modèle n-gram ― Ce modèle consiste en une approche naïve qui vise à quantifier la probabilité qu'une expression apparaisse dans un corpus en comptabilisant le nombre de son apparition dans le training data.
 
 <br>
 
 
 **68. Perplexity ― Language models are commonly assessed using the perplexity metric, also known as PP, which can be interpreted as the inverse probability of the dataset normalized by the number of words T. The perplexity is such that the lower, the better and is defined as follows:**
 
-&#10230; 
+&#10230; Perplexité ― Les modèles de langage sont communément évalués en utilisant la perplexité, aussi noté PP, qui peut être interprété comme étant la probabilité inverse des données normalisée par le nombre de mots T. La perplexité est telle que plus elle est faible, mieux c'est. Elle est définie de la manière suivante :
 
 <br>
 
 
 **69. Remark: PP is commonly used in t-SNE.**
 
-&#10230; 
+&#10230; Remarque : PP est souvent utilisée dans le cadre du t-SNE.
 
 <br>
 
 
 **70. Machine translation**
 
-&#10230; 
+&#10230; Traduction machine
 
 <br>
 

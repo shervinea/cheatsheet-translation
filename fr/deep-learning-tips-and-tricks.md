@@ -81,28 +81,28 @@
 
 **12. [Original, Flip, Rotation, Random crop]**
 
-&#10230; [Original, Symétrie axiale, Rotation, Recadrage aléatoire]
+&#10230; [Original, Symmétrie axiale, Rotation, Recadrage aléatoire]
 
 <br>
 
 
 **13. [Image without any modification, Flipped with respect to an axis for which the meaning of the image is preserved, Rotation with a slight angle, Simulates incorrect horizon calibration, Random focus on one part of the image, Several random crops can be done in a row]**
 
-&#10230; []
+&#10230; [Image sans aucune modification, Symmetrie par rapport à un axe pour lequel le sens de l'image est conservé, Rotation avec un petit angle, Reproduit une calibration imparfaite de l'horizon, Concentration aléatoire sur une partie de l'image, Plusieurs rognements aléatoires peuvent être faits à la suite]
 
 <br>
 
 
 **14. [Color shift, Noise addition, Information loss, Contrast change]**
 
-&#10230; []
+&#10230; [Changement de couleur, Addition de bruit, Perte d'information, Changement de contraste]
 
 <br>
 
 
 **15. [Nuances of RGB is slightly changed, Captures noise that can occur with light exposure, Addition of noise, More tolerance to quality variation of inputs, Parts of image ignored, Mimics potential loss of parts of image, Luminosity changes, Controls difference in exposition due to time of day]**
 
-&#10230; []
+&#10230; [Nuances de RGB sont légèrement changées, Capture le bruit qui peut survenir avec de l'exposition lumineuse, Addition de bruit, Plus de tolérance envers la variation de la qualité de l'entrée, Parties de l'image ignorées, Imite des pertes potentielles de parties de l'image, Changement de luminosité, Contrôle la différence de l'exposition dû à l'heure de la journée]
 
 <br>
 

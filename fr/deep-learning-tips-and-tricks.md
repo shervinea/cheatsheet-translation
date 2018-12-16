@@ -270,49 +270,49 @@
 
 **39. Learning rate ― The learning rate, often noted α or sometimes η, indicates at which pace the weights get updated. It can be fixed or adaptively changed. The current most popular method is called Adam, which is a method that adapts the learning rate.**
 
-&#10230; 
+&#10230; Taux d'apprentissage ― Le taux d'apprentissage (en anglais \textit{learning rate}), souvent noté α ou η, indique la vitesse à laquelle les coefficients sont mis à jour. Il peut être fixe ou variable. La méthode actuelle la plus populaire est appelée Adam, qui est une méthode faisant varier le taux d'apprentissage.
 
 <br>
 
 
 **40. Adaptive learning rates ― Letting the learning rate vary when training a model can reduce the training time and improve the numerical optimal solution. While Adam optimizer is the most commonly used technique, others can also be useful. They are summed up in the table below:**
 
-&#10230; 
+&#10230; Taux d'apprentissage adaptatifs ― Laisser le taux d'apprentissage varier pendant la phase d'entraînement du modèle peut réduire le temps d'entraînement et améliorer la qualité de la solution numérique optimale. Bien que la méthode d'Adam est la plus utilisée, d'autres peuvent aussi être utiles. Les différentes méthodes sont récapitulées dans le tableau ci-dessous :
 
 <br>
 
 
 **41. [Method, Explanation, Update of w, Update of b]**
 
-&#10230; []
+&#10230; [Méthode, Explication, Mise à jour de b, Mise à jour de b]
 
 <br>
 
 
 **42. [Momentum, Dampens oscillations, Improvement to SGD, 2 parameters to tune]**
 
-&#10230; []
+&#10230; [Momentum, Amortit les oscillations, Amélioration par rapport à la méthode SGD, 2 paramètres à régler]
 
 <br>
 
 
 **43. [RMSprop, Root Mean Square propagation, Speeds up learning algorithm by controlling oscillations]**
 
-&#10230; []
+&#10230; [RMSprop, Root Mean Square propagation, Accélère l'algorithme d'apprentissage en contrôlant les oscillations]
 
 <br>
 
 
 **44. [Adam, Adaptive Moment estimation, Most popular method, 4 parameters to tune]**
 
-&#10230; []
+&#10230; [Adam, Adaptive Moment estimation, Méthode la plus populaire, 4 paramètres à régler]
 
 <br>
 
 
 **45. Remark: other methods include Adadelta, Adagrad and SGD.**
 
-&#10230; 
+&#10230; Remarque : parmi les autres méthodes existantes, on trouve Adadelta, Adagrad et SGD.
 
 <br>
 
@@ -326,34 +326,34 @@
 
 **47. Dropout ― Dropout is a technique used in neural networks to prevent overfitting the training data by dropping out neurons with probability p>0. It forces the model to avoid relying too much on particular sets of features.**
 
-&#10230; 
+&#10230; Dropout ― Le dropout est une technique qui est destinée à empêcher le sur-ajustement sur les données de training en abandonnant des unités dans un réseau de neurones avec une probabilité p>0. Cela force le modèle à éviter de trop s'appuyer sur un ensemble particulier de features.
 
 <br>
 
 
 **48. Remark: most deep learning frameworks parametrize dropout through the 'keep' parameter 1−p.**
 
-&#10230; 
+&#10230; Remarque : la plupart des frameworks d'apprentissage profond paramètrent le dropout à travers le paramètre 'garder' 1-p.
 
 <br>
 
 
 **49. Weight regularization ― In order to make sure that the weights are not too large and that the model is not overfitting the training set, regularization techniques are usually performed on the model weights. The main ones are summed up in the table below:**
 
-&#10230; 
+&#10230; Régularisation de coefficient ― Pour s'assurer que les coefficients ne sont pas trop grands et que le modèle ne sur-ajuste pas sur le training set, on utilise des techniques de régularisation sur les coefficients du modèle. Les techniques principales sont résumées dans le tableau suivant :
 
 <br>
 
 
 **50. [LASSO, Ridge, Elastic Net]**
 
-&#10230; []
+&#10230; [LASSO, Ridge, Elastic Net]
 
 <br>
 
-**50 bis. Shrinks coefficients to 0, Good for variable selection, Makes coefficients smaller, Tradeoff between variable selection and small coefficients]**
+**50 bis. [Shrinks coefficients to 0, Good for variable selection, Makes coefficients smaller, Tradeoff between variable selection and small coefficients]**
 
-&#10230; 
+&#10230; [Réduit les coefficients à 0, Bon pour la sélection de variables, Rend les coefficients plus petits, Compromis entre la sélection de variables et la réduction de la taille des coefficients]
 
 <br>
 

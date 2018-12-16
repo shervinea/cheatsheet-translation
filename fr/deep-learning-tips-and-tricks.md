@@ -32,16 +32,16 @@
 
 **5. [Training a neural network, Epoch, Mini-batch, Cross-entropy loss, Backpropagation, Gradient descent, Updating weights, Gradient checking]**
 
-&#10230; 
+&#10230; [Entrainement d'un réseau de neurones, Epoch, Mini-lot, Entropie croisée, Rétropropagation du gradient, Algorithme du gradient, Mise à jour des coefficients, Vérification de gradient]
 
-<br> [Entrainement d'un réseau de neurones, Epoch, Mini-lot, Entropie croisée, Rétropropagation du gradient, Algorithme du gradient, Mise à jour des coefficients, Vérification de gradient]
+<br>
 
 
 **6. [Parameter tuning, Xavier initialization, Transfer learning, Learning rate, Adaptive learning rates]**
 
-&#10230; 
+&#10230; [Ajustement de paramètres, Initialisation de Xavier, Apprentissage par transfert, Taux d'apprentissage, Taux d'apprentissage adaptifs]
 
-<br> [Ajustement de paramètres, Initialisation de Xavier, Apprentissage par transfert, Taux d'apprentissage, Taux d'apprentissage adaptifs]
+<br>
 
 
 **7. [Regularization, Dropout, Weight regularization, Early stopping]**

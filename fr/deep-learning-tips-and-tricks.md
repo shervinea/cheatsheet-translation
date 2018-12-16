@@ -109,70 +109,70 @@
 
 **16. Remark: data is usually augmented on the fly during training.**
 
-&#10230; 
+&#10230; Remarque : les données sont normalement augmentées à la volée durant l'étape de training.
 
 <br>
 
 
 **17. Batch normalization ― It is a step of hyperparameter γ,β that normalizes the batch {xi}. By noting μB,σ2B the mean and variance of that we want to correct to the batch, it is done as follows:**
 
-&#10230; 
+&#10230; Normalisation de batch ― C'est une étape qui normalise le batch {xi} avec un choix de paramètres γ,β. En notant μB,σ2B la moyenne et la variance de ce que l'on veut corriger du batch, on a :
 
 <br>
 
 
 **18. It is usually done after a fully connected/convolutional layer and before a non-linearity layer and aims at allowing higher learning rates and reducing the strong dependence on initialization.**
 
-&#10230; 
+&#10230; Ceci est couramment fait après un fully connected/couche de convolution et avant une couche non-linéaire. Elle vise à permettre d'avoir de plus grands taux d'apprentissages et de réduire la dépendance à l'initialisation.
 
 <br>
 
 
 **19. Training a neural network**
 
-&#10230; 
+&#10230; Entraîner un réseau de neurones
 
 <br>
 
 
 **20. Definitions**
 
-&#10230; 
+&#10230; Définitions
 
 <br>
 
 
 **21. Epoch ― In the context of training a model, epoch is a term used to refer to one iteration where the model sees the whole training set to update its weights.**
 
-&#10230; 
+&#10230; Epoch ― Dans le contexte de l'entraînement d'un modèle, l'\textit{epoch} est un terme utilisé pour réferer à une itération où le modèle voit tout le training set pour mettre à jour ses coefficients.
 
 <br>
 
 
 **22. Mini-batch gradient descent ― During the training phase, updating weights is usually not based on the whole training set at once due to computation complexities or one data point due to noise issues. Instead, the update step is done on mini-batches, where the number of data points in a batch is a hyperparameter that we can tune.**
 
-&#10230; 
+&#10230; Mini-batch gradient descent ― Durant la phase d'entraînement, la mise à jour des coefficients n'est souvent basée ni sur tout le training set d'un coup à cause de temps de calculs coûteux, ni sur un seul point à cause de bruits potentiels. À la place de cela, l'étape de mise à jour est faite sur des mini-batchs, où le nombre de points dans un batch est un paramètre que l'on peut régler.
 
 <br>
 
 
 **23. Loss function ― In order to quantify how a given model performs, the loss function L is usually used to evaluate to what extent the actual outputs y are correctly predicted by the model outputs z.**
 
-&#10230; 
+&#10230; Fonction de loss ― Pour pouvoir quantifier la performance d'un modèle donné, la fonction de loss (en anglais \textit{loss function}) L est utilisée pour évaluer la mesure dans laquelle les sorties vraies y sont correctement prédites par les prédictions du modèle z.
 
 <br>
 
 
 **24. Cross-entropy loss ― In the context of binary classification in neural networks, the cross-entropy loss L(z,y) is commonly used and is defined as follows:**
 
-&#10230; 
+&#10230; Loss de cross-entropie ― Dans le contexte de la classification binaire d'un réseau de neurones, le loss de cross-entropie (en anglais \textit{cross-entropy loss}) L(z,y) est couramment utilisé et est défini par :
 
 <br>
 
 
 **25. Finding optimal weights**
 
-&#10230; 
+&#10230; Recherche de coefficients optimaux
 
 <br>
 

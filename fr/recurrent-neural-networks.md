@@ -186,21 +186,21 @@
 
 **27. Vanishing/exploding gradient ― The vanishing and exploding gradient phenomena are often encountered in the context of RNNs. The reason why they happen is that it is difficult to capture long term dependencies because of multiplicative gradient that can be exponentially decreasing/increasing with respect to the number of layers.**
 
-&#10230; 
+&#10230; Gradient qui disparait/explose ― Les phénomènes de gradient qui disparait et qui explose sont souvent rencontrés dans le contexte des RNNs. Ceci est dû au fait qu'il est difficile de capturer des dépendances à long terme à cause du gradient multiplicatif qui peut décroître/croître de manière exponentielle en fonction du nombre de couches.
 
 <br>
 
 
 **28. Gradient clipping ― It is a technique used to cope with the exploding gradient problem sometimes encountered when performing backpropagation. By capping the maximum value for the gradient, this phenomenon is controlled in practice.**
 
-&#10230; 
+&#10230; Coupure de gradient ― Cette technique est utilisée pour atténuer le phénomène de gradient qui explose qui peut être rencontré lors de l'étape de backpropagation. En plafonnant la valeur qui peut être prise par le gradient, ce phénomène est maîtrisé en pratique.
 
 <br>
 
 
 **29. clipped**
 
-&#10230; 
+&#10230; coupé
 
 <br>
 

@@ -359,14 +359,14 @@
 
 **51. Early stopping ― This regularization technique stops the training process as soon as the validation loss reaches a plateau or starts to increase.**
 
-&#10230; 
+&#10230; Arrêt prématuré ― L'arrêt prématuré (en anglais \textit{early stopping}) est une technique de régularisation qui consiste à stopper l'étape d'entraînement dès que le loss de validation atteint un plateau ou commence à augmenter.
 
 <br>
 
 
 **52. [Error, Validation, Training, early stopping, Epochs]**
 
-&#10230; []
+&#10230; [Erreur, Validation, Training, arrêt prématuré, Epochs]
 
 <br>
 
@@ -380,14 +380,14 @@
 
 **54. Overfitting small batch ― When debugging a model, it is often useful to make quick tests to see if there is any major issue with the architecture of the model itself. In particular, in order to make sure that the model can be properly trained, a mini-batch is passed inside the network to see if it can overfit on it. If it cannot, it means that the model is either too complex or not complex enough to even overfit on a small batch, let alone a normal-sized training set.**
 
-&#10230; 
+&#10230; Sur-ajuster un mini-lot ― Lorsque l'on débugge un modèle, il est souvent utile de faire de petits tests pour voir s'il y a un gros souci avec l'architecture du modèle lui-même. En particulier, pour s'assurer que le modèle peut être entraîné correctement, un mini-lot est passé dans le réseau pour voir s'il peut sur-ajuster sur lui. Si le modèle ne peut pas le faire, cela signifie que le modèle est soit trop complexe ou pas assez complexe pour être sur-ajusté sur un mini-lot.
 
 <br>
 
 
 **55. Gradient checking ― Gradient checking is a method used during the implementation of the backward pass of a neural network. It compares the value of the analytical gradient to the numerical gradient at given points and plays the role of a sanity-check for correctness.**
 
-&#10230; 
+&#10230; Gradient checking ― La méthode de gradient checking est utilisée durant l'implémentation d'un backward pass d'un réseau de neurones. Elle compare la valeur du gradient analytique par rapport au gradient numérique au niveau de certains points et joue un rôle de vérification élementaire.
 
 <br>
 
@@ -408,7 +408,7 @@
 
 **58. [Expensive; loss has to be computed two times per dimension, Used to verify correctness of analytical implementation, Trade-off in choosing h not too small (numerical instability) nor too large (poor gradient approximation)]**
 
-&#10230; []
+&#10230; [Coûteux; le loss doit être calculé deux fois par dimension, Utilisé pour vérifier l'exactitude d'une implémentation analytique, Compromis dans le choix de h entre pas trop petit (instabilité numérique) et pas trop grand (estimation du gradient approximative)]
 
 <br>
 

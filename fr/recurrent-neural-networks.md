@@ -354,14 +354,14 @@
 
 **51. Word2vec ― Word2vec is a framework aimed at learning word embeddings by estimating the likelihood that a given word is surrounded by other words. Popular models include skip-gram, negative sampling and CBOW.**
 
-&#10230; 
+&#10230; Word2vec ― Word2vec est un ensemble de techniques visant à apprendre comment représenter les mots en estimant la probabilité qu'un mot donné a d'être entouré par d'autres mots. Le skip-gram, l'échantillonnage négatif et le CBOW font parti des modèles les plus populaires.
 
 <br>
 
 
 **52. [A cute teddy bear is reading, teddy bear, soft, Persian poetry, art]**
 
-&#10230; 
+&#10230; [Un ours en peluche mignon est en train de lire, ours en peluche, doux, poésie persane, art]
 
 <br>
 

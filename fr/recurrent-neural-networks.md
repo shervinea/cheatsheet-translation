@@ -186,7 +186,7 @@
 
 **27. Vanishing/exploding gradient ― The vanishing and exploding gradient phenomena are often encountered in the context of RNNs. The reason why they happen is that it is difficult to capture long term dependencies because of multiplicative gradient that can be exponentially decreasing/increasing with respect to the number of layers.**
 
-&#10230; Gradient qui disparait/explose ― Les phénomènes de gradient qui disparait et qui explose sont souvent rencontrés dans le contexte des RNNs. Ceci est dû au fait qu'il est difficile de capturer des dépendances à long terme à cause du gradient multiplicatif qui peut décroître/croître de manière exponentielle en fonction du nombre de couches.
+&#10230; Gradient qui disparait/explose ― Les phénomènes de gradient qui disparait et qui explose (en anglais \textit{vanishing gradient} et \textit{exploding gradient}) sont souvent rencontrés dans le contexte des RNNs. Ceci est dû au fait qu'il est difficile de capturer des dépendances à long terme à cause du gradient multiplicatif qui peut décroître/croître de manière exponentielle en fonction du nombre de couches.
 
 <br>
 
@@ -207,70 +207,70 @@
 
 **30. Types of gates ― In order to remedy the vanishing gradient problem, specific gates are used in some types of RNNs and usually have a well-defined purpose. They are usually noted Γ and are equal to:**
 
-&#10230; 
+&#10230; Types de porte ― Pour remédier au problème du gradient qui disparait, certains types de porte sont spécifiquement utilisés dans des variantes de RNNs et ont un but bien défini. Les portes sont souvent notées Γ et sont telles que :
 
 <br>
 
 
 **31. where W,U,b are coefficients specific to the gate and σ is the sigmoid function. The main ones are summed up in the table below:**
 
-&#10230; 
+&#10230; où W,U,b sont des coefficients spécifiques à la porte et σ est une sigmoïde. Les portes à retenir sont récapitulées dans le tableau ci-dessous :
 
 <br>
 
 
 **32. [Type of gate, Role, Used in]**
 
-&#10230; 
+&#10230; [Type de porte, Rôle, Utilisée dans]
 
 <br>
 
 
 **33. [Update gate, Relevance gate, Forget gate, Output gate]**
 
-&#10230; 
+&#10230; [Porte d'actualisation, Porte de pertinence, Porte d'oubli, Porte de sortie]
 
 <br>
 
 
 **34. [How much past should matter now?, Drop previous information?, Erase a cell or not?, How much to reveal of a cell?]**
 
-&#10230; 
+&#10230; [Dans quelle mesure le passé devrait être important ?, Enlever les informations précédentes ?, Enlever une cellule ?, Combien devrait-on révéler d'une cellule ?]
 
 <br>
 
 
 **35. [LSTM, GRU]**
 
-&#10230; 
+&#10230; [LSTM, GRU]
 
 <br>
 
 
 **36. GRU/LSTM ― Gated Recurrent Unit (GRU) and Long Short-Term Memory units (LSTM) deal with the vanishing gradient problem encountered by traditional RNNs, with LSTM being a generalization of GRU. Below is a table summing up the characterizing equations of each architecture:**
 
-&#10230; 
+&#10230; GRU/LSTM ― Les unités de porte récurrente (en anglais \textit{Gated Recurrent Unit}) (GRU) et les unités de mémoire à long/court terme (en anglais \textit{Long Short-Term Memory units}) (LSTM) appaisent le problème du gradient qui disparait rencontré par les RNNs traditionnels, où le LSTM peut être vu comme étant une généralisation du GRU. Le tableau ci-dessous résume les équations caractéristiques de chacune de ces architectures :
 
 <br>
 
 
 **37. [Characterization, Gated Recurrent Unit (GRU), Long Short-Term Memory (LSTM), Dependencies]**
 
-&#10230; 
+&#10230; [Caractérisation, Gated Recurrent Unit (GRU), Long Short-Term Memory (LSTM), Dépendances]
 
 <br>
 
 
 **38. Remark: the sign ⋆ denotes the element-wise multiplication between two vectors.**
 
-&#10230; 
+&#10230; Remarque : le signe ⋆ dénote le produit de Hadamard entre deux vecteurs.
 
 <br>
 
 
 **39. Variants of RNNs ― The table below sums up the other commonly used RNN architectures:**
 
-&#10230; 
+&#10230; Variantes des RNNs ― Le tableau ci-dessous récapitule les autres architectures RNN commumément utilisées :
 
 <br>
 

@@ -116,7 +116,7 @@
 
 **17. Batch normalization ― It is a step of hyperparameter γ,β that normalizes the batch {xi}. By noting μB,σ2B the mean and variance of that we want to correct to the batch, it is done as follows:**
 
-&#10230; Normalisation de batch ― C'est une étape qui normalise le batch {xi} avec un choix de paramètres γ,β. En notant μB,σ2B la moyenne et la variance de ce que l'on veut corriger du batch, on a :
+&#10230; Normalisation de lot ― La normalisation de lot (en anglais \textit{batch normalization}) est une étape qui normalise le lot {xi} avec un choix de paramètres γ,β. En notant μB,σ2B la moyenne et la variance de ce que l'on veut corriger du lot, on a :
 
 <br>
 
@@ -151,7 +151,7 @@
 
 **22. Mini-batch gradient descent ― During the training phase, updating weights is usually not based on the whole training set at once due to computation complexities or one data point due to noise issues. Instead, the update step is done on mini-batches, where the number of data points in a batch is a hyperparameter that we can tune.**
 
-&#10230; Mini-batch gradient descent ― Durant la phase d'entraînement, la mise à jour des coefficients n'est souvent basée ni sur tout le training set d'un coup à cause de temps de calculs coûteux, ni sur un seul point à cause de bruits potentiels. À la place de cela, l'étape de mise à jour est faite sur des mini-batchs, où le nombre de points dans un batch est un paramètre que l'on peut régler.
+&#10230; Gradient descent sur mini-lots ― Durant la phase d'entraînement, la mise à jour des coefficients n'est souvent basée ni sur tout le training set d'un coup à cause de temps de calculs coûteux, ni sur un seul point à cause de bruits potentiels. À la place de cela, l'étape de mise à jour est faite sur des mini-lots, où le nombre de points dans un lot est un paramètre que l'on peut régler.
 
 <br>
 
@@ -165,7 +165,7 @@
 
 **24. Cross-entropy loss ― In the context of binary classification in neural networks, the cross-entropy loss L(z,y) is commonly used and is defined as follows:**
 
-&#10230; Loss de cross-entropie ― Dans le contexte de la classification binaire d'un réseau de neurones, le loss de cross-entropie (en anglais \textit{cross-entropy loss}) L(z,y) est couramment utilisé et est défini par :
+&#10230; Entropie croisée ― Dans le contexte de la classification binaire d'un réseau de neurones, l'entropie croisée (en anglais \textit{cross-entropy loss}) L(z,y) est couramment utilisée et est définie par :
 
 <br>
 

@@ -277,35 +277,35 @@
 
 **40. [Bidirectional (BRNN), Deep (DRNN)]**
 
-&#10230; 
+&#10230; [Bi-directionnel (BRNN), Profond (DRNN)]
 
 <br>
 
 
 **41. Learning word representation**
 
-&#10230; 
+&#10230; Apprentissage de la représentation de mots
 
 <br>
 
 
 **42. In this section, we note V the vocabulary and |V| its size.**
 
-&#10230; 
+&#10230; Dans cette section, on note V le vocabulaire et |V| sa taille.
 
 <br>
 
 
 **43. Motivation and notations**
 
-&#10230; 
+&#10230; Motivation et notations
 
 <br>
 
 
 **44. Representation techniques ― The two main ways of representing words are summed up in the table below:**
 
-&#10230; 
+&#10230; Techniques de représentation ― Les deux manières principales de représenter des mots sont décrits dans le tableau suivant :
 
 <br>
 

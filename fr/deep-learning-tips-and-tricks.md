@@ -420,7 +420,7 @@
 <br>
 
 
-**60. The Deep Learning cheatsheets are now available in [target language].
+**60. The Deep Learning cheatsheets are now available in [target language].**
 
 &#10230; Les pense-bêtes d'appentissage profond sont maintenant disponibles en français.
 

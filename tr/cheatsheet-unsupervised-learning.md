@@ -54,7 +54,7 @@
 
 **10. Algorithm ― The Expectation-Maximization (EM) algorithm gives an efficient method at estimating the parameter θ through maximum likelihood estimation by repeatedly constructing a lower-bound on the likelihood (E-step) and optimizing that lower bound (M-step) as follows:**
 
-&#10230; Algoritma - Beklenti-Enbüyütme (Maksimizasyon) (BE) algoritması, parametrenin maximum maksimum olabilirlik kestirimiyle, olasılığa (E-adımı) tekrar tekrar bir alt-yapı inşa ederek ve bu alt sınırı (M-adımı) aşağıdaki gibi optimize ederek tahmin etmede etkili bir yöntem sunar:
+&#10230; Algoritma - Beklenti-Enbüyütme (Maksimizasyon) (BE) algoritması, parametrenin maksimum olabilirlik kestirimiyle, olasılığa (E-adımı) tekrar tekrar bir alt-yapı inşa ederek ve bu alt sınırı (M-adımı) aşağıdaki gibi optimize ederek tahmin etmede etkili bir yöntem sunar:
 
 <br>
 

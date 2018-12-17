@@ -96,13 +96,13 @@
 
 **17. [Means initialization, Cluster assignment, Means update, Convergence]**
 
-&#10230; [Means initialization, Cluster assignment, Means update, Yakınsama]
+&#10230; [Başlangıç ortalaması, Küme Tanımlama, Ortalama Güncelleme, Yakınsama]
 
 <br>
 
 **18. Distortion function ― In order to see if the algorithm converges, we look at the distortion function defined as follows:**
 
-&#10230; Distorsiyon fonksiyonu - Algoritmanın yakınsadığını görmek için aşağıdaki gibi tanımlanan distorsiyon fonksiyonuna bakarız:
+&#10230; Bozulma fonksiyonu - Algoritmanın yakınsadığını görmek için aşağıdaki gibi tanımlanan bozulma fonksiyonuna bakarız:
 
 <br>
 
@@ -235,7 +235,7 @@ dimensions by maximizing the variance of the data as follows:**
 
 **40. Step 4: Project the data on spanR(u1,...,uk).**
 
-&#10230; Adım 4: spanR (u1, ..., uk) üzerindeki verileri projelendirin.
+&#10230; Adım 4: spanR (u1, ..., uk) üzerindeki verileri gösterin.
 
 <br>
 
@@ -295,7 +295,7 @@ dimensions by maximizing the variance of the data as follows:**
 
 **50. Therefore, the stochastic gradient ascent learning rule is such that for each training example x(i), we update W as follows:**
 
-&#10230; Bu nedenle, stokastik eğim yükselme öğrenme kuralı, her bir eğitim örneği için x(i), W'yi aşağıdaki gibi güncelleştiririz:
+&#10230; Bu nedenle, rassal (stokastik) eğim yükselme öğrenme kuralı, her bir eğitim örneği için x(i), W'yi aşağıdaki gibi güncelleştiririz:
 
 <br>
 

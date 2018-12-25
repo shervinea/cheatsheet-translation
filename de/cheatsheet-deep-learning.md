@@ -1,6 +1,6 @@
 **1. Deep Learning cheatsheet**
 
-&#10230; Deep Learning Spickzettel
+&#10230; Deep-Learning-Spickzettel
 
 <br>
 

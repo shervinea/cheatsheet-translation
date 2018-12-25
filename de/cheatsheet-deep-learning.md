@@ -60,7 +60,7 @@
 
 **11. Learning rate ― The learning rate, often noted α or sometimes η, indicates at which pace the weights get updated. This can be fixed or adaptively changed. The current most popular method is called Adam, which is a method that adapts the learning rate.**
 
-&#10230; Lernrate - Die Lernrate, oft mit α oder manchmal mit η bezeichnet, gibt an mit welcher Schnelligkeit die Gewichtungen aktualisiert werden. Die Lernrate kann konstant oder anpassend variierend sein. Die aktuell populärste Methode, Adam, ist eine Methode die die Lernrate anpasst.
+&#10230; Lernrate - Die Lernrate, oft mit α oder manchmal mit η bezeichnet, gibt an mit welcher Rate die Gewichtungen aktualisiert werden. Die Lernrate kann konstant oder anpassend variierend sein. Die aktuell populärste Methode, Adam, ist eine Methode die die Lernrate anpasst.
 
 <br>
 
@@ -84,7 +84,7 @@
 
 **15. Step 1: Take a batch of training data.**
 
-&#10230; Schritt 1: Nimm einen Stapel von Lerndaten.
+&#10230; Schritt 1: Nimm ein Bündel von Lerndaten.
 
 <br>
 
@@ -144,13 +144,13 @@
 
 **25. Types of gates ― Here are the different types of gates that we encounter in a typical recurrent neural network:**
 
-&#10230; Typen von Gattern - Dies sind die verschiedenen Typen der Gatter die wir in typischen rekurrenten neuronalen Netzen vorfinden:
+&#10230; Typen von Toren - Dies sind die verschiedenen Typen der Tore die wir in typischen rekurrenten neuronalen Netzen vorfinden:
 
 <br>
 
 **26. [Input gate, forget gate, gate, output gate]**
 
-&#10230; [Eingangsgatter, Vergißgatter, Gatter, Ausgangsgatter]
+&#10230; [Eingangstor, Vergesstor, Gatter, Ausgangstor]
 
 <br>
 
@@ -162,160 +162,160 @@
 
 **28. LSTM ― A long short-term memory (LSTM) network is a type of RNN model that avoids the vanishing gradient problem by adding 'forget' gates.**
 
-&#10230;
+&#10230; LSTM - Ein langes Kurzzeitgedächtnis (long short-term memory, LSTM) ist ein Typ eines RNN welcher durch Hinzufügen von Vergesstoren das Problem verschwindender Gradienten vermeidet. 
 
 <br>
 
 **29. Reinforcement Learning and Control**
 
-&#10230;
+&#10230; Bestärkendes Lernen und bestärkende Regelung
 
 <br>
 
 **30. The goal of reinforcement learning is for an agent to learn how to evolve in an environment.**
 
-&#10230;
+&#10230; Das Ziel des bestärkenden Lernens ist für einen Agenten zu lernen sich in einer Umgebung zu entwickeln.
 
 <br>
 
 **31. Definitions**
 
-&#10230;
+&#10230; Definitionen
 
 <br>
 
 **32. Markov decision processes ― A Markov decision process (MDP) is a 5-tuple (S,A,{Psa},γ,R) where:**
 
-&#10230;
+&#10230; Markow-Entscheidungsproblem - Ein Markow-Entscheidungsproblem (Markow decision process, MDP) ist ein 5-Tupel, wobei
 
 <br>
 
 **33. S is the set of states**
 
-&#10230;
+&#10230; S die Menge von Zuständen ist
 
 <br>
 
 **34. A is the set of actions**
 
-&#10230;
+&#10230; A die Menge von Aktionen ist
 
 <br>
 
 **35. {Psa} are the state transition probabilities for s∈S and a∈A**
 
-&#10230;
+&#10230; {Psa} die Übergangswahrscheinlichkeiten von s∈S und a∈A sind
 
 <br>
 
 **36. γ∈[0,1[ is the discount factor**
 
-&#10230;
+&#10230; γ∈[0,1[ der Discount-Faktor ist
 
 <br>
 
 **37. R:S×A⟶R or R:S⟶R is the reward function that the algorithm wants to maximize**
 
-&#10230;
+&#10230; R:S×A⟶R oder R:S⟶R die Belohnungsfunktion ist die der Algorithmus zu maximieren wünscht
 
 <br>
 
 **38. Policy ― A policy π is a function π:S⟶A that maps states to actions.**
 
-&#10230;
+&#10230; Strategie - Die Strategie π ist die Funktion π:S⟶A welche Zustände auf Aktionen abbildet.
 
 <br>
 
 **39. Remark: we say that we execute a given policy π if given a state s we take the action a=π(s).**
 
-&#10230;
+&#10230; Hinweis: wir sagen wir führen eine gegebene Strategie π aus wenn wir für einen gegebenen Zustand s die Aktion a=π(s) tätigen.
 
 <br>
 
 **40. Value function ― For a given policy π and a given state s, we define the value function Vπ as follows:**
 
-&#10230;
+&#10230; Wertfunktion - Für eine gegebene Strategie π und einen gegebenen Zustand s definieren wir die Wertfunktion Vπ wie folgt:
 
 <br>
 
 **41. Bellman equation ― The optimal Bellman equations characterizes the value function Vπ∗ of the optimal policy π∗:**
 
-&#10230;
+&#10230; Bellman-Gleichung - Die optimale Bellman-Gleichung charakterisiert die Wertfunktion Vπ∗ der optimalen Strategie π∗:
 
 <br>
 
 **42. Remark: we note that the optimal policy π∗ for a given state s is such that:**
 
-&#10230;
+&#10230; Hinweis: wir bezeichnen die optimale Strategie π∗ für einen gegebenen Zustand s sodass:
 
 <br>
 
 **43. Value iteration algorithm ― The value iteration algorithm is in two steps:**
 
-&#10230;
+&#10230; Wert-Interationsalgorithmus - Der Wert-Iterationsalgorithmus hat zwei Schritte:
 
 <br>
 
 **44. 1) We initialize the value:**
 
-&#10230;
+&#10230; 1) Wir initialisieren den Wert:
 
 <br>
 
 **45. 2) We iterate the value based on the values before:**
 
-&#10230;
+&#10230; 2) Wir iterieren den Wert aufbauend auf dem vorherigen Wert:
 
 <br>
 
 **46. Maximum likelihood estimate ― The maximum likelihood estimates for the state transition probabilities are as follows:**
 
-&#10230;
+&#10230; Maximum-Likelihood-Schätzung - Die Maximum-Likelihood-Schätzungen für die Zustandübergangswahrscheinlichkeiten sind wie folgt: 
 
 <br>
 
 **47. times took action a in state s and got to s′**
 
-&#10230;
+&#10230; Anzahl Ausführung Aktion a in Zustand s führt zu s′
 
 <br>
 
 **48. times took action a in state s**
 
-&#10230;
+&#10230; Anzahl Ausführung Aktion a in Zustand s
 
 <br>
 
 **49. Q-learning ― Q-learning is a model-free estimation of Q, which is done as follows:**
 
-&#10230;
+&#10230; Q-Lernen - Q-Lernen ist eine modellfreie Schätzung von Q welche wie folgt durchgeführt wird: 
 
 <br>
 
 **50. View PDF version on GitHub**
 
-&#10230;
+&#10230; Sieh PDF-Version auf GitHub
 
 <br>
 
 **51. [Neural Networks, Architecture, Activation function, Backpropagation, Dropout]**
 
-&#10230;
+&#10230; [Neuronale Netze, Architekturen, Aktivierungsfunktion, Fehlerrückführung, Aussetzen]
 
 <br>
 
 **52. [Convolutional Neural Networks, Convolutional layer, Batch normalization]**
 
-&#10230;
+&#10230; [Faltende neuronale Netzwerke, faltende Schicht, Bündelnormalisierung]
 
 <br>
 
 **53. [Recurrent Neural Networks, Gates, LSTM]**
 
-&#10230;
+&#10230; [Rekurrente neuronale Netze, Tore, LSTM]
 
 <br>
 
 **54. [Reinforcement learning, Markov decision processes, Value/policy iteration, Approximate dynamic programming, Policy search]**
 
-&#10230;
+&#10230; [Bestärkendes Lernen, Markow-Entscheidungsproblem, Wert-Strategie-Iteration, näherungs-dynamische Programmierung, Strategiesuche]

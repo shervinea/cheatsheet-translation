@@ -32,63 +32,63 @@
 
 **5. [Learning word representation, Notations, Embedding matrix, Word2vec, Skip-gram, Negative sampling, GloVe]**
 
-&#10230; []
+&#10230; [학습 단어 표현, 표기법, 임베딩 매트릭스, Word2vec, 스킵-그램, 네거티브 샘플링, 글로브]
 
 <br>
 
 
 **6. [Comparing words, Cosine similarity, t-SNE]**
 
-&#10230;
+&#10230; [단어 비교, 코사인 유사도, t-SNE]
 
 <br>
 
 
 **7. [Language model, n-gram, Perplexity]**
 
-&#10230;
+&#10230; [언어 모델, n-그램, 퍼플렉시티]
 
 <br>
 
 
 **8. [Machine translation, Beam search, Length normalization, Error analysis, Bleu score]**
 
-&#10230;
+&#10230; [기계 번역, 빔 서치, 길이 정규화, 오류 분석, 블루 점수]
 
 <br>
 
 
 **9. [Attention, Attention model, Attention weights]**
 
-&#10230;
+&#10230; [주의, 주의 모델, 주의 가중치]
 
 <br>
 
 
 **10. Overview**
 
-&#10230;
+&#10230; 개요
 
 <br>
 
 
 **11. Architecture of a traditional RNN ― Recurrent neural networks, also known as RNNs, are a class of neural networks that allow previous outputs to be used as inputs while having hidden states. They are typically as follows:**
 
-&#10230;
+&#10230; 전통적인 RNN의 아키텍처 - RNNs이라고 알려진 순환 신경망은 이전의 출력을 은닉층에서 입력으로 사용하게 하는 신경망의 한 종류입니다. 이는 일반적으로 다음과 같습니다:
 
 <br>
 
 
 **12. For each timestep t, the activation a<t> and the output y<t> are expressed as follows:**
 
-&#10230;
+&#10230; 각 시점 t에 대해 활성화 a<t>와 출력 y<t>는 다음과 같이 표현됩니다.
 
 <br>
 
 
 **13. and**
 
-&#10230;
+&#10230; 와 
 
 <br>
 

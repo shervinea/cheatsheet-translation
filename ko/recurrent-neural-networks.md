@@ -25,7 +25,7 @@
 
 **4. [Handling long term dependencies, Common activation functions, Vanishing/exploding gradient, Gradient clipping, GRU/LSTM, Types of gates, Bidirectional RNN, Deep RNN]**
 
-&#10230; 
+&#10230; [장기 의존성 처리, 일반적인 활성 함수, 그래디언트 소실/폭발, 그래디언트 클리핑, GRU/LSTM, 게이트 형식, 양방향 RNN, 심층 RNN]
 
 <br>
 

@@ -32,7 +32,7 @@
 
 **5. [Learning word representation, Notations, Embedding matrix, Word2vec, Skip-gram, Negative sampling, GloVe]**
 
-&#10230;
+&#10230; []
 
 <br>
 

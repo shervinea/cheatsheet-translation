@@ -151,21 +151,21 @@
 
 **22. Mini-batch gradient descent ― During the training phase, updating weights is usually not based on the whole training set at once due to computation complexities or one data point due to noise issues. Instead, the update step is done on mini-batches, where the number of data points in a batch is a hyperparameter that we can tune.**
 
-&#10230; 미니-배치 경사하강법 - 학습 단계에서, 가중치 업데이트는 일반적으로 계산 복잡성이나 잡음 문제로 인한 하나의 데이터 포인트로 인해 전체 트레이닝 셋을 기반으로하지 않습니다 대신에, 업데이트 단계는 
+&#10230; 미니-배치 경사하강법 - 학습 단계에서, 가중치 업데이트는 일반적으로 계산 복잡성이나 잡음 문제로 인한 하나의 데이터 포인트로 인해 전체 트레이닝 셋을 기반으로하지 않습니다 대신에, 업데이트 단계는 배치내에 있는 여러 데이터 포인트들을 튜닝할 수 있는 하이퍼파라미터인 미니 배치에서 진행됩니다.
 
 <br>
 
 
 **23. Loss function ― In order to quantify how a given model performs, the loss function L is usually used to evaluate to what extent the actual outputs y are correctly predicted by the model outputs z.**
 
-&#10230; 손실함수 - 
+&#10230; 손실함수 - 주어진 모델이 어떻게 수행되는지를 정량화하기 위해, 손실 함수 L은 보통 실제 출력값 y가 예측 모델 출력값 z에 의해 정확하게 예측되는 정도를 평가하는 데 사용됩니다.
 
 <br>
 
 
 **24. Cross-entropy loss ― In the context of binary classification in neural networks, the cross-entropy loss L(z,y) is commonly used and is defined as follows:**
 
-&#10230; 크로스-엔트로피 로스 - 
+&#10230; 크로스-엔트로피 손실 - 신경망 학습에서 이진분류의 맥락으로 접근하면, 크로스-엔트로피 손실 L(z,y)는 일반적으로 사용되며 다음과 같이 정의됩니다.
 
 <br>
 
@@ -179,28 +179,28 @@
 
 **26. Backpropagation ― Backpropagation is a method to update the weights in the neural network by taking into account the actual output and the desired output. The derivative with respect to each weight w is computed using the chain rule.**
 
-&#10230; 역전파 -
+&#10230; 역전파 - 역전파는 실제 출력값과 원하는 출력값을 계산하여 신경망의 가중치를 업데이트 하는 방법입니다. 각 가중치 w에 대한 미분은 체인규칙을 사용하여 계산됩니다.
 
 <br>
 
 
 **27. Using this method, each weight is updated with the rule:**
 
-&#10230; 
+&#10230; 이러한 방법을 사용하여, 각각의 가중치는 아래와 같은 규칙에 의해 업데이트 됩니다 :
 
 <br>
 
 
 **28. Updating weights ― In a neural network, weights are updated as follows:**
 
-&#10230; 가중치 업데이트 - 
+&#10230; 가중치 업데이트 - 신경망에서, 다음과 같은 방법으로 가중치는 업데이트 됩니다 :
 
 <br>
 
 
 **29. [Step 1: Take a batch of training data and perform forward propagation to compute the loss, Step 2: Backpropagate the loss to get the gradient of the loss with respect to each weight, Step 3: Use the gradients to update the weights of the network.]**
 
-&#10230;
+&#10230; [1단계 : ]
 
 <br>
 

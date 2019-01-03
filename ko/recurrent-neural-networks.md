@@ -382,21 +382,21 @@
 
 **55. Remark: summing over the whole vocabulary in the denominator of the softmax part makes this model computationally expensive. CBOW is another word2vec model using the surrounding words to predict a given word.**
 
-&#10230; 비고: 
+&#10230; 비고: 소프트맥스(softmax) 부분의 분모에서 전체 어휘를 합산하면 이 모델이 계산 상으로 비용이 많아들게 됩니다. CBOW는 주변 단어를 사용하여 주어진 단어를 예측하는 또 다른 word2vec 모델입니다.
 
 <br>
 
 
 **56. Negative sampling ― It is a set of binary classifiers using logistic regressions that aim at assessing how a given context and a given target words are likely to appear simultaneously, with the models being trained on sets of k negative examples and 1 positive example. Given a context word c and a target word t, the prediction is expressed by:**
 
-&#10230;
+&#10230; 네거티브 샘플링 - 주어진 문맥과 타겟 단어가 k개의 음의 사례와 1개의 양의 사례에 대해 학습된 모델을 사용하여 평가하는 것을 목표로하는 로지스틱 회귀를 사용한 이진 분류기입니다. 문맥 단어 c와 타겟 단어 t가 주어지면, 예측은 다음과 같이 표현됩니다.
 
 <br>
 
 
 **57. Remark: this method is less computationally expensive than the skip-gram model.**
 
-&#10230;
+&#10230; 비고: 이 방법은 스킵그램 모델보다 계산 부담이 적습니다.
 
 <br>
 
@@ -404,77 +404,77 @@
 **58. where f is a weighting function such that Xi,j=0⟹f(Xi,j)=0.
 Given the symmetry that e and θ play in this model, the final word embedding e(final)w is given by:**
 
-&#10230;
+&#10230; 여기서 f는 Xi, j=0⟹f(Xi,j)=0이 되는 가중 함수입니다. 이 모델에서 e와 θ가 대칭이라는 것을 감안할 때, e(최종)를 포함하는 최종 단어는 다음과 같이 주어집니다.
 
 <br>
 
 
 **59. Remark: the individual components of the learned word embeddings are not necessarily interpretable.**
 
-&#10230;
+&#10230; 비고: 학습된 단어 삽입의 개별 구성 요소가 반드시 해석될 필요는 없습니다.
 
 <br>
 
 
 **60. Comparing words**
 
-&#10230;
+&#10230; 단어 비교하기
 
 <br>
 
 
 **61. Cosine similarity ― The cosine similarity between words w1 and w2 is expressed as follows:**
 
-&#10230;
+&#10230; 코사인 유사성 - 단어 w1과 w2 사이의 코사인 유사도는 다음과 같이 표현됩니다:
 
 <br>
 
 
 **62. Remark: θ is the angle between words w1 and w2.**
 
-&#10230;
+&#10230; Remark: θ is the angle between words w1 and w2.
 
-<br>
+<br> 비고: θ는 단어 w1과 w2 사이의 각도입니다.
 
 
 **63. t-SNE ― t-SNE (t-distributed Stochastic Neighbor Embedding) is a technique aimed at reducing high-dimensional embeddings into a lower dimensional space. In practice, it is commonly used to visualize word vectors in the 2D space.**
 
-&#10230;
+&#10230; t-SNE - t-SNE (t-분포 확률적 임베딩)는 고차원적 임베딩을 저차원 공간으로 축소시키는 것을 목표로 하는 기술입니다. 실제로 2D 공간에서 단어 벡터를 시각화하는 데 일반적으로 사용됩니다.
 
 <br>
 
 
 **64. [literature, art, book, culture, poem, reading, knowledge, entertaining, loveable, childhood, kind, teddy bear, soft, hug, cute, adorable]**
 
-&#10230;
+&#10230; [문학, 예술, 책, 문화, 시, 독서, 지식, 재미있는, 사랑스러운, 어린 시절, 친절한, 테디 베어, 부드러운, 포옹, 귀여운]
 
 <br>
 
 
 **65. Language model**
 
-&#10230;
+&#10230; 언어 모델
 
 <br>
 
 
 **66. Overview ― A language model aims at estimating the probability of a sentence P(y).**
 
-&#10230;
+&#10230; 개요 - 언어 모델은 문장 P(y)의 확률을 추정하는 것을 목표로 합니다.
 
 <br>
 
 
 **67. n-gram model ― This model is a naive approach aiming at quantifying the probability that an expression appears in a corpus by counting its number of appearance in the training data.**
 
-&#10230;
+&#10230; n-그램(n-gram) 모델 - 이 모델은 학습 데이터의 표현 수를 계산하여 표현식이 말뭉치(corpus)에 표시될 확률을 정량화하는 것을 목표로하는 나이브(naive)한 접근 방식입니다.
 
 <br>
 
 
 **68. Perplexity ― Language models are commonly assessed using the perplexity metric, also known as PP, which can be interpreted as the inverse probability of the dataset normalized by the number of words T. The perplexity is such that the lower, the better and is defined as follows:**
 
-&#10230;
+&#10230; 퍼플렉시티(Perplexity) - 언어 모델은 일반적으로 PP로도 알려진 퍼플렉시티 측도(Perplexity metric)를 사용하여 평가되며, 단어의 수로 정규화된 데이터 세트의 역 확률로 해석될 수 있습니다. 퍼플렉시티는 낮은 것이 좋으며 다음과 같이 정의됩니다:
 
 <br>
 

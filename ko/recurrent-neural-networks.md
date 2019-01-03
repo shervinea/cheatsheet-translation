@@ -382,7 +382,7 @@
 
 **55. Remark: summing over the whole vocabulary in the denominator of the softmax part makes this model computationally expensive. CBOW is another word2vec model using the surrounding words to predict a given word.**
 
-&#10230;
+&#10230; 비고: 
 
 <br>
 

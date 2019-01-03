@@ -1,5 +1,7 @@
 --ar
-
+  Amjad Khatabi (translation of deep learning)
+  Zaid Alyafeai (review of deep learning)
+  
 --de
 
 --es
@@ -78,8 +80,8 @@
   Leticia Portella (review of machine learning tips and tricks)
   Gabriel Fonseca (review of machine learning tips and tricks)
 
-  Leticia Portella (translation of probability)
-  Flavio Clesio (review of probability)
+  Leticia Portella (translation of probabilities and statistics)
+  Flavio Clesio (review of probabilities and statistics)
 
   Leticia Portella (translation of supervised learning)
   Gabriel Fonseca (review of supervised learning)
@@ -95,6 +97,9 @@
   Kadir Tekeli (translation of linear algebra)
   Ekrem Çetinkaya (review of linear algebra)
 
+--ko
+  Wooil Jeong (translation of Recurrent Neural Nets)
+
 --zh
   Wang Hongnian (translation of supervised learning)
   Xiaohu Zhu (朱小虎) (review of supervised learning)
@@ -103,3 +108,6 @@
 --zh-tw
   kevingo (translation of deep learning)
   TobyOoO (review of deep learning)
+
+  kevingo (translation of supervised learning)
+  accelsao (review of supervised learning)

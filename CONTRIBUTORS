@@ -2,7 +2,7 @@
 
 --de
 
---es 
+--es
   Erick Gabriel Mendoza Flores (translation of deep learning)
   Fernando Diaz (review of deep learning)
   Fernando González-Herrera (review of deep learning)
@@ -11,12 +11,12 @@
   Alonso Melgar López (review of deep learning)
   Gustavo Velasco-Hernández (review of deep learning)
   Juan Manuel Nava Zamudio (review of deep learning)
-  
+
   Fernando González-Herrera (translation of linear algebra)
   Fernando Diaz (review of linear algebra)
   Gustavo Velasco-Hernández (review of linear algebra)
   Juan P. Chavat (review of linear algebra)
-  
+
   David Jiménez Paredes (translation of machine learning tips and tricks)
   Fernando Diaz (translation of machine learning tips and tricks)
   Gustavo Velasco-Hernández (review of machine learning tips and tricks)
@@ -34,7 +34,7 @@
   Jaime Noel Alvarez Luna (translation of unsupervised learning)
   Alonso Melgar López (review of unsupervised learning)
   Fernando Diaz (review of unsupervised learning)
-  
+
 --fa
   AlisterTA (translation of deep learning)
   Mohammad Karimi (review of deep learning)
@@ -42,7 +42,7 @@
 
   Erfan Noury (translation of linear algebra)
   Mohammad Karimi (review of linear algebra)
-  
+
   AlisterTA (translation of machine learning tips and tricks)
   Mohammad Reza (translation of machine learning tips and tricks)
   Erfan Noury (review of machine learning tips and tricks)
@@ -50,20 +50,23 @@
 
   Erfan Noury (translation of probabilities and statistics)
   Mohammad Karimi (review of probabilities and statistics)
-  
+
   Amirhosein Kazemnejad (translation of supervised learning)
   Erfan Noury (review of supervised learning)
   Mohammad Karimi (review of supervised learning)
-  
+
   Erfan Noury (translation of unsupervised learning)
   Mohammad Karimi (review of unsupervised learning)
-  
+
 --fr
   Original authors
 
 --he
 
 --hi
+
+--ko
+  Wooil Jeong (translation of Recurrent Neural Nets)
 
 --ja
 
@@ -73,7 +76,7 @@
 
   Gabriel Fonseca (translation of linear algebra)
   Leticia Portella (review of linear algebra)
-  
+
   Fernando Santos (translation of machine learning tips and tricks)
   Leticia Portella (review of machine learning tips and tricks)
   Gabriel Fonseca (review of machine learning tips and tricks)
@@ -84,17 +87,17 @@
   Leticia Portella (translation of supervised learning)
   Gabriel Fonseca (review of supervised learning)
   Flavio Clesio (review of supervised learning)
-  
+
   Gabriel Fonseca (translation of unsupervised learning)
   Tiago Danin (review of unsupervised learning)
 
 --tr
   Ekrem Çetinkaya (translation of deep learning)
   Omer Bukte (review of deep learning)
-  
+
   Kadir Tekeli (translation of linear algebra)
   Ekrem Çetinkaya (review of linear algebra)
-  
+
 --zh
   Wang Hongnian (translation of supervised learning)
   Xiaohu Zhu (朱小虎) (review of supervised learning)

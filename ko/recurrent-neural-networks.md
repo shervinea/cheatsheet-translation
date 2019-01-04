@@ -530,28 +530,28 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 
 **76. Length normalization ― In order to improve numerical stability, beam search is usually applied on the following normalized objective, often called the normalized log-likelihood objective, defined as:**
 
-&#10230;
+&#10230; 길이 정규화(Length normalization) - 수치 안정성을 향상시키기 위해 빔 탐색은 대개 다음과 같이 정의되는 정규화된 로그 가능도 객체라고 하는 정규화된 객체에 적용됩니다:
 
 <br>
 
 
 **77. Remark: the parameter α can be seen as a softener, and its value is usually between 0.5 and 1.**
 
-&#10230;
+&#10230; 비고: 파라미터 α는 연화제로 볼 수 있으며 그 값은 일반적으로 0.5와 1 사이 입니다.
 
 <br>
 
 
 **78. Error analysis ― When obtaining a predicted translation ˆy that is bad, one can wonder why we did not get a good translation y∗ by performing the following error analysis:**
 
-&#10230;
+&#10230; 오류 분석 - 예측된 변환 y를 얻을 때 다음과 같은 오류 분석을 수행하여 왜 y가 좋은 변환을 얻지 못했는지 궁금해 할 수 있습니다:
 
 <br>
 
 
 **79. [Case, Root cause, Remedies]**
 
-&#10230;
+&#10230; [원인, 근본 원인, 해결 방안]
 
 <br>
 

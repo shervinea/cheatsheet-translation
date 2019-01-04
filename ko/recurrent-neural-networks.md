@@ -586,7 +586,7 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 
 **84. Attention**
 
-&#10230;
+&#10230; 주의
 
 <br>
 

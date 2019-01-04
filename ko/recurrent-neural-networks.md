@@ -558,28 +558,28 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 
 **80. [Beam search faulty, RNN faulty, Increase beam width, Try different architecture, Regularize, Get more data]**
 
-&#10230;
+&#10230; [빔 탐색 오류, RNN 오류, 빔 너비 증가, 다른 아키텍처 시도, 정규화, 더 많은 데이터 얻기]
 
 <br>
 
 
 **81. Bleu score ― The bilingual evaluation understudy (bleu) score quantifies how good a machine translation is by computing a similarity score based on n-gram precision. It is defined as follows:**
 
-&#10230;
+&#10230; 블루 점수(Bleu score) - 이중 언어 평가 (bleu) 점수는 n-그램(n-gram) 정밀도에 따라 유사성 점수를 계산하여 기계 번역이 얼마나 좋은지를 정량화합니다. 그것은 다음과 같이 정의됩니다:
 
 <br>
 
 
 **82. where pn is the bleu score on n-gram only defined as follows:**
 
-&#10230;
+&#10230; 여기서 pn은 다음과 같이 정의된 n-그램(n-gram)의 블루 점수입니다:
 
 <br>
 
 
 **83. Remark: a brevity penalty may be applied to short predicted translations to prevent an artificially inflated bleu score.**
 
-&#10230;
+&#10230; 비고: 인위적으로 팽창된 블루 점수를 방지하기 위해 짧은 예측 번역에 간결 패널티를 적용할 수 있습니다.
 
 <br>
 

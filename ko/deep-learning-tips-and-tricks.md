@@ -200,7 +200,7 @@
 
 **29. [Step 1: Take a batch of training data and perform forward propagation to compute the loss, Step 2: Backpropagate the loss to get the gradient of the loss with respect to each weight, Step 3: Use the gradients to update the weights of the network.]**
 
-&#10230; [1단계 : ]
+&#10230; [1단계 : 트레이닝 데이터의 배치를 가져와 순전파를 진행하여 손실을 계산합니다. 2단계 : 각 가중치와 관련하여 그레디언트 손실값을 얻기 위해 역전파를 하게됩니다. 3단계 : 네트워크의 가중치를 업데이트 하기 위해서 그레디언트를 사용합니다.]
 
 <br>
 
@@ -228,14 +228,14 @@
 
 **33. Xavier initialization ― Instead of initializing the weights in a purely random manner, Xavier initialization enables to have initial weights that take into account characteristics that are unique to the architecture.**
 
-&#10230; Xavier 초기화 - 
+&#10230; Xavier 초기화 - 완전 무작위 방식으로 가중치 초기화하는 대신, Xavier 초기화는 설계에 고유 한 특성을 고려한 초기 가중치를 가질 수 있습니다.
 
 <br>
 
 
 **34. Transfer learning ― Training a deep learning model requires a lot of data and more importantly a lot of time. It is often useful to take advantage of pre-trained weights on huge datasets that took days/weeks to train, and leverage it towards our use case. Depending on how much data we have at hand, here are the different ways to leverage this:**
 
-&#10230; 전이학습 - 
+&#10230; 전이학습 - 딥 러닝 학습 모델을 학습하기 위해서는 많은 양의 데이터가 필요로하며 무엇 보다도 많은 시간을 필요로 합니다. 학습을 위해 수일,수주의 시간이 걸린 거대한 데이터 셋의 사전 훈련 된 가중치를 활용하며 유스 케이스 활용에 유용합니다. 현재 보유하고있는 데이터의 양에 따라 여러가지 활용 방법이 있습니다.
 
 <br>
 
@@ -256,14 +256,14 @@
 
 **37. [Freezes all layers, trains weights on softmax, Freezes most layers, trains weights on last layers and softmax, Trains weights on layers and softmax by initializing weights on pre-trained ones]**
 
-&#10230;
+&#10230; [모든 층을 고정시키고, softmax에서 가중치 학습, 대부분의 층을 고정시키고, 마지막 층과 softmax에서 가중치 학습, 사전학습 된 가중치를 초기화 하여 layers 및 softamx에 가중치를 학습합니다.]
 
 <br>
 
 
 **38. Optimizing convergence**
 
-&#10230;
+&#10230; convergence 최적화 
 
 <br>
 
@@ -271,14 +271,14 @@
 **39. Learning rate ― The learning rate, often noted α or sometimes η, indicates at which pace the weights get updated. It can be fixed or adaptively changed. The current most popular method is called Adam, which is a method that adapts the learning rate.
 **
 
-&#10230; 학습률 - 
+&#10230; 학습률 - α 또는 때때로 η로 표기되는 학습률은 가중치가 어느 속도로 업데이트 되는지를 나타내줍니다. 이것은 고정되거나 또는 적응적으로 변화될 수 있습니다. 현재 가장 널리 사용되는 방법은 Adam이며, 학습률을 조정하는 방법입니다.
 
 <br>
 
 
 **40. Adaptive learning rates ― Letting the learning rate vary when training a model can reduce the training time and improve the numerical optimal solution. While Adam optimizer is the most commonly used technique, others can also be useful. They are summed up in the table below:**
 
-&#10230; 데이터 맞춤 학습률 -
+&#10230; 데이터 맞춤 학습률 - 모델 학습시 학습 속도가 달라지며 학습 시간이 단축되고 수치적인 최적화 솔루션이 향상 될 수 있습니다. Adam 최적화가 가장 일반적으로 사용되는 기술이지만 이외 방법들도 유용합니다. 아래 표에 요약되어 있습니다. :
 
 <br>
 
@@ -367,35 +367,35 @@
 
 **52. [Error, Validation, Training, early stopping, Epochs]**
 
-&#10230;
+&#10230; [에러, ]
 
 <br>
 
 
 **53. Good practices**
 
-&#10230;
+&#10230; [좋은 습관]
 
 <br>
 
 
 **54. Overfitting small batch ― When debugging a model, it is often useful to make quick tests to see if there is any major issue with the architecture of the model itself. In particular, in order to make sure that the model can be properly trained, a mini-batch is passed inside the network to see if it can overfit on it. If it cannot, it means that the model is either too complex or not complex enough to even overfit on a small batch, let alone a normal-sized training set.**
 
-&#10230;
+&#10230; 과적합 작은 배치 - 
 
 <br>
 
 
 **55. Gradient checking ― Gradient checking is a method used during the implementation of the backward pass of a neural network. It compares the value of the analytical gradient to the numerical gradient at given points and plays the role of a sanity-check for correctness.**
 
-&#10230;
+&#10230; 그레디언트 확인 - 
 
 <br>
 
 
 **56. [Type, Numerical gradient, Analytical gradient]**
 
-&#10230;
+&#10230;[종류, ]
 
 <br>
 

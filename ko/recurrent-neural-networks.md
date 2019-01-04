@@ -481,49 +481,49 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 
 **69. Remark: PP is commonly used in t-SNE.**
 
-&#10230;
+&#10230; 비고: PP는 t-SNE에서 일반적으로 사용됩니다.
 
 <br>
 
 
 **70. Machine translation**
 
-&#10230;
+&#10230; 기계 번역
 
 <br>
 
 
 **71. Overview ― A machine translation model is similar to a language model except it has an encoder network placed before. For this reason, it is sometimes referred as a conditional language model. The goal is to find a sentence y such that:**
 
-&#10230;
+&#10230; 개요 - 기계 번역 모델은 앞선 인코더 네트워크를 제외하고는 언어 모델과 유사합니다. 이러한 이유로 조건적 언어 모델이라고도 합니다. 목표는 다음과 같은 문장 y를 찾는 것입니다:
 
 <br>
 
 
 **72. Beam search ― It is a heuristic search algorithm used in machine translation and speech recognition to find the likeliest sentence y given an input x.**
 
-&#10230;
+&#10230; 빔 탐색(Beam search) - 기계 번역 및 음성 인식에서 입력 x가 주어진 가능성있는 문장 y를 찾는 데 사용되는 휴리스틱 검색 알고리즘입니다.
 
 <br>
 
 
 **73. [Step 1: Find top B likely words y<1>, Step 2: Compute conditional probabilities y<k>|x,y<1>,...,y<k−1>, Step 3: Keep top B combinations x,y<1>,...,y<k>, End process at a stop word]**
 
-&#10230;
+&#10230; [1단계: 상위 B개의 가능성 있는 단어 y<1>찾기, 2단계: 조건부 확률  y<k>|x,y<1>,...,y<k−1>계산, 3단계: 상위 B 조합 유지 x,y<1>,...,y<k>, 정지 단어에서 종료 처리]
 
 <br>
 
 
 **74. Remark: if the beam width is set to 1, then this is equivalent to a naive greedy search.**
 
-&#10230;
+&#10230; 비고: 빔 너비(Beam width)가 1로 설정되면 이는 나이브 그리디(Naive greedy) 탐색과 같습니다.
 
 <br>
 
 
 **75. Beam width ― The beam width B is a parameter for beam search. Large values of B yield to better result but with slower performance and increased memory. Small values of B lead to worse results but is less computationally intensive. A standard value for B is around 10.**
 
-&#10230;
+&#10230; 빔 너비(Beam width) - 빔 너비 B는 빔 탐색을 위한 파라미터입니다. B의 값이 클수록 성능은 향상되지만 메모리는 증가합니다. B값이 작으면 결과는 나쁘지만 계산 집약은 적습니다. B에 대한 표준값은 약 10입니다.
 
 <br>
 

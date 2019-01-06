@@ -292,7 +292,7 @@
 
 **42. [Momentum, Dampens oscillations, Improvement to SGD, 2 parameters to tune]**
 
-&#10230; [모멘텀, ]
+&#10230; [모멘텀, 감쇠진동, 확률적 경사하강법(SGD)을 개선, 튜닝할 2가지 파라미터]
 
 <br>
 

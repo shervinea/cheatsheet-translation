@@ -50,9 +50,9 @@ Please make sure to propose the translation of **only one** cheatsheet per pull 
 
 |Cheatsheet topic|Polski|Suomi|Català|Українська|한국어|
 |:---|:---:|:---:|:---:|:---:|:---:|
-|Convolutional Neural Nets|not started|not started|not started|not started|not started|
-|Recurrent Neural Nets|not started|not started|not started|not started|not started|
-|DL tips and tricks|not started|not started|not started|not started|not started|
+|Convolutional Neural Nets|not started|not started|not started|not started|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/109)|
+|Recurrent Neural Nets|not started|not started|not started|not started|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/107)|
+|DL tips and tricks|not started|not started|not started|not started|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/108)|
 
 ## Progression for CS 229 (Machine Learning)
 |Cheatsheet topic|Español|فارسی|Français|日本語|Português|中文|

@@ -19,7 +19,7 @@
 4. **Jensen's inequality ― Let f be a convex function and X a random variable. We have the following inequality:**
 
 &#10230;
-Jensen's 不等式 - 另 f 為一個凸函數、X 是一個隨機變數，我們可以得到底下這個不等式：
+Jensen's 不等式 - 令 f 為一個凸函數、X 為一個隨機變數，我們可以得到底下這個不等式：
 <br>
 
 5. **Clustering**
@@ -145,7 +145,7 @@ k-means 分群法
 25. **In an unsupervised learning setting, it is often hard to assess the performance of a model since we don't have the ground truth labels as was the case in the supervised learning setting.**
 
 &#10230;
-在無監督式學習中，通常很難去評估一個模型的好壞，因為我們沒有像在監督式學習中正確答案的標籤。
+在非監督式學習中，通常很難去評估一個模型的好壞，因為我們沒有擁有像在監督式學習任務中正確答案的標籤
 <br>
 
 26. **Silhouette coefficient ― By noting a and b the mean distance between a sample and all other points in the same class, and between a sample and all other points in the next nearest cluster, the silhouette coefficient s for a single sample is defined as follows:**
@@ -241,7 +241,7 @@ Calinski-Harabaz 指標 s(k) 指出分群模型的好壞，此指標的值越高
 41. **This procedure maximizes the variance among all k-dimensional spaces.**
 
 &#10230;
-這個步驟會最大化所有 k 為空間為空間的變異數
+這個步驟會最大化所有 k 維空間的變異數
 <br>
 
 42. **[Data in feature space, Find principal components, Data in principal components space]**

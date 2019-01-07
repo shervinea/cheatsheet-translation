@@ -593,78 +593,78 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 
 **85. Attention model ― This model allows an RNN to pay attention to specific parts of the input that is considered as being important, which improves the performance of the resulting model in practice. By noting α<t,t′> the amount of attention that the output y<t> should pay to the activation a<t′> and c<t> the context at time t, we have:**
 
-&#10230;
+&#10230; 주의 모델 - 이 모델을 사용하면 RNN이 중요한 것으로 간주되는 입력의 특정 부분에 주의를 기울이게 되므로 실제 결과 모델의 성능이 향상됩니다. 시간 t에서의 문맥 활성화 및 출력에 대해 출력 y가 지불해야하는 관심의 양을 α<t,t′>로 표기함으로써, 다음을 얻습니다:
 
 <br>
 
 
 **86. with**
 
-&#10230;
+&#10230; 와
 
 <br>
 
 
 **87. Remark: the attention scores are commonly used in image captioning and machine translation.**
 
-&#10230;
+&#10230; 비고: 주의 점수는 일반적으로 이미지 캡션 작성 및 기계 번역에 사용됩니다.
 
 <br>
 
 
 **88. A cute teddy bear is reading Persian literature.**
 
-&#10230;
+&#10230; 귀여운 테디 베어는 페르시아 문학을 읽고 있습니다.(A cute teddy bear is reading Persian literature.)
 
 <br>
 
 
 **89. Attention weight ― The amount of attention that the output y<t> should pay to the activation a<t′> is given by α<t,t′> computed as follows:**
 
-&#10230;
+&#10230; 주의 가중치 - 출력 y<t>가 활성화 a<t'>에 지불해야하는 관심의 양은 다음과 같이 계산된 α<t,t′>에 의해 주어집니다:
 
 <br>
 
 
 **90. Remark: computation complexity is quadratic with respect to Tx.**
 
-&#10230;
+&#10230; 비고: 계산 복잡도는 Tx에 대해 2차 입니다.
 
 <br>
 
 
 **91. The Deep Learning cheatsheets are now available in [target language].**
 
-&#10230;
+&#10230; 딥 러닝 치트시트(The Deep Learning cheatsheets)는 이제 [맞춤형 언어(target language)]로 제공됩니다.
 
 <br>
 
 **92. Original authors**
 
-&#10230;
+&#10230; 원저자
 
 <br>
 
 **93. Translated by X, Y and Z**
 
-&#10230;
+&#10230; X, Y 그리고 Z에 의해 번역됨
 
 <br>
 
 **94. Reviewed by X, Y and Z**
 
-&#10230;
+&#10230; X, Y 그리고 Z에 의해 검토됨
 
 <br>
 
 **95. View PDF version on GitHub**
 
-&#10230;
+&#10230; GitHub에서 PDF 버전 열기
 
 <br>
 
 **96. By X and Y**
 
-&#10230;
+&#10230; X와 Y에 의한
 
 <br>

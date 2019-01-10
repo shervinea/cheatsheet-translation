@@ -127,7 +127,7 @@
 22. **Cumulative distribution function (CDF) ― The cumulative distribution function F, which is monotonically non-decreasing and is such that limx→−∞F(x)=0 and limx→+∞F(x)=1, is defined as:**
 
 &#10230;
-累積分佈函數 (CDF) - 累積分佈函數 F 是單調且不減的函數，其 limx→−∞F(x)=0 且 limx→+∞F(x)=1，定義如下：
+累積分佈函數 (CDF) - 累積分佈函數 F 是單調遞增的函數，其 limx→−∞F(x)=0 且 limx→+∞F(x)=1，定義如下：
 <br>
 
 23. **Remark: we have P(a<X⩽B)=F(b)−F(a).**

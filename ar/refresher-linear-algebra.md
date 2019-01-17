@@ -1,7 +1,7 @@
 **1. Linear Algebra and Calculus refresher**
 
 <div dir="rtl">
-  ملخص عن الجبر الخطي
+ملخص الجبر الخطي و التفاضل و التكامل
 </div>
 <br>
 
@@ -36,7 +36,7 @@
 
 **6. Remark: the vector x defined above can be viewed as a n×1 matrix and is more particularly called a column-vector.**
 <div dir="rtl">
-ملاحظة : المتجه $x$ المعرف مسبقا يمكن اعتباره مصفوفة من الشكل $n \times 1$ والذي يتم تسميته ب مصفوفة من عمود واحد.
+ملاحظة : المتجه $x$ المعرف مسبقا يمكن اعتباره مصفوفة من الشكل $n \times 1$ والذي يسمى ب مصفوفة من عمود واحد.
 </div>
 
 <br>
@@ -95,7 +95,7 @@
 **14. Vector-vector ― There are two types of vector-vector products:**
 
 <div dir="rtl">
-  متجه و متجه - هناك نوعين من الضرب ل متجه - متجه : 
+  ضرب المتجهات - توجد طريقتين لضرب متجه بمتجه : 
 </div>
 
 <br>
@@ -134,7 +134,7 @@
 **19. Matrix-matrix ― The product of matrices A∈Rm×n and B∈Rn×p is a matrix of size Rn×p, such that:**
 
 <div dir="rtl">
-  مصفوفة - مصفوفة - ضرب المصفوفة $A \in \mathbb{R}^{n \times m}$ و $A \in \mathbb{R}^{n \times p}$ ينتجه عنه المصفوفة $A \in \mathbb{R}^{n \times p}$ حيث أن : 
+  ضرب مصفوفة ومصفوفة - ضرب المصفوفة $A \in \mathbb{R}^{n \times m}$ و $A \in \mathbb{R}^{n \times p}$ ينتجه عنه المصفوفة $A \in \mathbb{R}^{n \times p}$ حيث أن : 
 </div>
 
 <br>

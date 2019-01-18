@@ -354,7 +354,7 @@
 
 **50 bis. Shrinks coefficients to 0, Good for variable selection, Makes coefficients smaller, Tradeoff between variable selection and small coefficients]**
 
-&#10230; 계수를 0으로 축소합니다, 변수 선택에 좋습니다, 계수를 더 작게 만듭니다, 변수 선택과 작은 계수간에 거래
+&#10230; 계수를 0으로 축소합니다, 변수 선택에 좋습니다, 계수를 더 작게 만듭니다, 변수 선택과 작은 계수간에 트레이드 오프
 
 <br>
 
@@ -381,21 +381,20 @@
 
 **54. Overfitting small batch ― When debugging a model, it is often useful to make quick tests to see if there is any major issue with the architecture of the model itself. In particular, in order to make sure that the model can be properly trained, a mini-batch is passed inside the network to see if it can overfit on it. If it cannot, it means that the model is either too complex or not complex enough to even overfit on a small batch, let alone a normal-sized training set.**
 
-&#10230; 과적합 작은 배치 - 모델 디버깅시, 종종 사용되는 방법으로 빠르게 테스트를 진행하여 모델 구조상 자체의 중대한 문제가 있는지 확인할 수 있습니다. 특히, 
+&#10230; 과적합 작은 배치 - 모델 디버깅시, 종종 사용되는 방법으로 빠르게 테스트를 진행하여 모델 구조상 자체의 중대한 문제가 있는지 확인할 수 있습니다. 특히, 모델이 적절히 학습할 수 있는지 확인하기 위해 네트워크 내부에 미니배치가 전달되어 오버핏이 되는지 확입니다. 만약 그럿지 못하다면, 모델이 너무 복잡하거나 미니배치에 충분히 오버핏될 복잡도가 떨어지는것을 의미합니다, 일반 크기의 트레이닝 셋 또한 동일하다고 볼 수 있습니다. 
 
 <br>
 
 
 **55. Gradient checking ― Gradient checking is a method used during the implementation of the backward pass of a neural network. It compares the value of the analytical gradient to the numerical gradient at given points and plays the role of a sanity-check for correctness.**
 
-&#10230; 그레디언트 확인 - 
-
+&#10230; 그레디언트 확인 - 그레디언트 확인은 신경망의 역방향 시행중에 사용되는 방법입니다. 주어진 점에서 분석 그레디언트의 값을 수치 그레디언트와 비교하여 정확성에 대한 민감정도 검사기 역할을 수행합니다.
 <br>
 
 
 **56. [Type, Numerical gradient, Analytical gradient]**
 
-&#10230;[종류, ]
+&#10230;[종류, 수치기울기, 분석 그레디언트]
 
 <br>
 
@@ -409,14 +408,14 @@
 
 **58. [Expensive; loss has to be computed two times per dimension, Used to verify correctness of analytical implementation, Trade-off in choosing h not too small (numerical instability) nor too large (poor gradient approximation)]**
 
-&#10230;
+&#10230;[비용; 차원당 두번씩 손실값을 계산해야 합니다, 분석 구현의 정확성을 확인하는데 사용됩니다, h 선택에 있어 너무 작지 않으며(수치적 불안정성), 너무 크지않은(약한 그레디언트)상에서 트레이드 오프가 필요로합니다.]
 
 <br>
 
 
 **59. ['Exact' result, Direct computation, Used in the final implementation]**
 
-&#10230;
+&#10230;['정확한' 결과, 직접계산, 최종 수행단계에서 사용]
 
 <br>
 
@@ -434,13 +433,13 @@
 
 **62.Translated by X, Y and Z**
 
-&#10230;
+&#10230; X,Y 그리고 Z로 번역됩니다.
 
 <br>
 
 **63.Reviewed by X, Y and Z**
 
-&#10230;
+&#10230; X,Y 그리고 Z에 의해 검토됩니다.
 
 <br>
 
@@ -452,6 +451,6 @@
 
 **65.By X and Y**
 
-&#10230;
+&#10230; X와 Y로
 
 <br>

@@ -235,7 +235,7 @@
 
 **34. Transfer learning ― Training a deep learning model requires a lot of data and more importantly a lot of time. It is often useful to take advantage of pre-trained weights on huge datasets that took days/weeks to train, and leverage it towards our use case. Depending on how much data we have at hand, here are the different ways to leverage this:**
 
-&#10230; 전이학습 - 딥 러닝 학습 모델을 학습하기 위해서는 많은 양의 데이터가 필요로하며 무엇 보다도 많은 시간을 필요로 합니다. 학습을 위해 수일,수주의 시간이 걸린 거대한 데이터 셋의 사전 훈련 된 가중치를 활용하며 유스 케이스 활용에 유용합니다. 현재 보유하고있는 데이터의 양에 따라 여러가지 활용 방법이 있습니다.
+&#10230; 전이학습 - 딥 러닝 학습 모델을 학습하기 위해서는 많은 양의 데이터가 필요로하며 무엇 보다도 많은 시간을 필요로 합니다. 학습을 위해 수일,수주의 시간이 걸린 거대한 데이터 셋의 사전 훈련 된 가중치를 활용하며  케이스 활용에 유용합니다. 현재 보유하고있는 데이터의 양에 따라 여러가지 활용 방법이 있습니다.
 
 <br>
 
@@ -299,21 +299,21 @@
 
 **43. [RMSprop, Root Mean Square propagation, Speeds up learning algorithm by controlling oscillations]**
 
-&#10230; [RMSprop. ]
+&#10230; [RMSprop, 루트평균제곱전파, 진동제어를 통해 학습 알고리즘 속도를 향상]
 
 <br>
 
 
 **44. [Adam, Adaptive Moment estimation, Most popular method, 4 parameters to tune]**
 
-&#10230;
+&#10230; [아담, 적응 모멘트 추정, 가장 대중적인 방법, 4개의 파라미터를 조정]
 
 <br>
 
 
 **45. Remark: other methods include Adadelta, Adagrad and SGD.**
 
-&#10230; 비고 : 이외 방법으로 Adadelta, Adagrad 그리고 SGD가 포함됩니다. 
+&#10230; 주석 : 이외 방법으로 Adadelta, Adagrad 그리고 SGD가 포함됩니다. 
 
 <br>
 
@@ -327,47 +327,47 @@
 
 **47. Dropout ― Dropout is a technique used in neural networks to prevent overfitting the training data by dropping out neurons with probability p>0. It forces the model to avoid relying too much on particular sets of features.**
 
-&#10230; 드랍아웃 - 
+&#10230; 드랍아웃 - 드랍아웃은 확률 p>0인 뉴런을 제거하여 훈련 데이터의 과적합을 예방하기 위해 신경망에서 사용되는 기술입니다. 모델이 특정 변수 셋에 너무 의존하는것을 피하도록 해야합니다.
 
 <br>
 
 
 **48. Remark: most deep learning frameworks parametrize dropout through the 'keep' parameter 1−p.**
 
-&#10230; 비고 : 
+&#10230; 주석 : 대부분의 딥러닝 프레임워크에서 1-p '유지'파라미터 변수 통해 드랍아웃의 매개변수화 합니다.
 
 <br>
 
 
 **49. Weight regularization ― In order to make sure that the weights are not too large and that the model is not overfitting the training set, regularization techniques are usually performed on the model weights. The main ones are summed up in the table below:**
 
-&#10230; 가중치 정규화 - 
+&#10230; 가중치 정규화 - 가중치가 너무 크지 않고 모델이 트레이닝 셋에 과적합되지 않는것을 확인하기 위해서 정규화 기법이 일반적으로 가중치 모델에 사용됩니다. 주요 내용은 아래 표에 요약되어 있습니다.
 
 <br>
 
 
 **50. [LASSO, Ridge, Elastic Net]**
 
-&#10230;[라쏘, ]
+&#10230;[라쏘, 리지, 엘라스틱 넷]
 
 <br>
 
 **50 bis. Shrinks coefficients to 0, Good for variable selection, Makes coefficients smaller, Tradeoff between variable selection and small coefficients]**
 
-&#10230;
+&#10230; 계수를 0으로 축소합니다, 변수 선택에 좋습니다, 계수를 더 작게 만듭니다, 변수 선택과 작은 계수간에 거래
 
 <br>
 
 **51. Early stopping ― This regularization technique stops the training process as soon as the validation loss reaches a plateau or starts to increase.**
 
-&#10230;
+&#10230; 조기정지 - 해당 정규화 기술은 검증손실이 안정기에 도달하거나 증가하기 시작하는 즉시 트레이닝 과정을 중지합니다.
 
 <br>
 
 
 **52. [Error, Validation, Training, early stopping, Epochs]**
 
-&#10230; [에러, ]
+&#10230; [에러, 검증, 트레이닝, 조기정지, 에포크]
 
 <br>
 
@@ -381,7 +381,7 @@
 
 **54. Overfitting small batch ― When debugging a model, it is often useful to make quick tests to see if there is any major issue with the architecture of the model itself. In particular, in order to make sure that the model can be properly trained, a mini-batch is passed inside the network to see if it can overfit on it. If it cannot, it means that the model is either too complex or not complex enough to even overfit on a small batch, let alone a normal-sized training set.**
 
-&#10230; 과적합 작은 배치 - 
+&#10230; 과적합 작은 배치 - 모델 디버깅시, 종종 사용되는 방법으로 빠르게 테스트를 진행하여 모델 구조상 자체의 중대한 문제가 있는지 확인할 수 있습니다. 특히, 
 
 <br>
 

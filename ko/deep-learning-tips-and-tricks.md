@@ -109,7 +109,7 @@
 
 **16. Remark: data is usually augmented on the fly during training.**
 
-&#10230; 비고 : 데이터는 일반적으로 학습중에 증가 됩니다. 
+&#10230; 주석: 데이터는 일반적으로 학습중에 증가 됩니다. 
 
 <br>
 

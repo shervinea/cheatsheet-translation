@@ -18,7 +18,7 @@
 
 **4. Jensen's inequality ― Let f be a convex function and X a random variable. We have the following inequality:**
 
-&#10230; Jensen eşitsizliği - Bir konveks fonksiyon ve X bir rastgele değişken olsun. Aşağıdaki eşitsizliklerimiz:
+&#10230; Jensen eşitsizliği - f bir konveks fonksiyon ve X bir rastgele değişken olsun. Aşağıdaki eşitsizliklerimiz:
 
 <br>
 
@@ -30,37 +30,37 @@
 
 **6. Expectation-Maximization**
 
-&#10230; Beklenti-Enbüyütme (Maksimizasyon) 
+&#10230; Beklenti-Ençoklama (Maksimizasyon)
 
 <br>
 
 **7. Latent variables ― Latent variables are hidden/unobserved variables that make estimation problems difficult, and are often denoted z. Here are the most common settings where there are latent variables:**
 
-&#10230; Gizli değişkenler - Gizli değişkenler, tahmin problemlerini zorlaştıran ve çoğunlukla z olarak adlandırılan gizli / gözlemlenmemiş değişkenlerdir. Gizli değişkenlerin bulunduğu en yaygın ortamlar şunlardır:
+&#10230; Gizli değişkenler - Gizli değişkenler, tahmin problemlerini zorlaştıran ve çoğunlukla z olarak adlandırılan gizli / gözlemlenmemiş değişkenlerdir. Gizli değişkenlerin bulunduğu yerlerdeki en yaygın ayarlar şöyledir:
 
 <br>
 
 **8. [Setting, Latent variable z, Comments]**
 
-&#10230; Ortam, Gizli değişken z, Yorumlar
+&#10230; Yöntem, Gizli değişken z, Açıklamalar
 
 <br>
 
 **9. [Mixture of k Gaussians, Factor analysis]**
 
-&#10230; [K Gaussianların karışımı, Faktör analizi]
+&#10230; [K Gaussianların birleşimi, Faktör analizi]
 
 <br>
 
 **10. Algorithm ― The Expectation-Maximization (EM) algorithm gives an efficient method at estimating the parameter θ through maximum likelihood estimation by repeatedly constructing a lower-bound on the likelihood (E-step) and optimizing that lower bound (M-step) as follows:**
 
-&#10230; Algoritma - Beklenti-Enbüyütme (Maksimizasyon) (BE) algoritması, parametrenin maksimum olabilirlik kestirimiyle, olasılığa (E-adımı) tekrar tekrar bir alt-yapı inşa ederek ve bu alt sınırı (M-adımı) aşağıdaki gibi optimize ederek tahmin etmede etkili bir yöntem sunar:
+&#10230; Algoritma - Beklenti-Ençoklama (Maksimizasyon) (BE) algoritması, θ parametresinin maksimum olabilirlik kestirimiyle tahmin edilmesinde, olasılığa ard arda alt sınırlar oluşturan (E-adımı) ve bu alt sınırın (M-adımı) aşağıdaki gibi optimize edildiği etkin bir yöntem sunar:
 
 <br>
 
 **11. E-step: Evaluate the posterior probability Qi(z(i)) that each data point x(i) came from a particular cluster z(i) as follows:**
 
-&#10230; E-adımı: Her bir veri noktasının x(i)'in belirli bir kümeden z(i) aşağıdaki gibi olduğunu gösteren posterior olasılık Qi(z(i)) değerlendiriniz:
+&#10230; E-adımı: Her bir veri noktasının x(i)'in belirli bir kümeden z(i) geldiğinin sonsal olasılık değerinin Qi(z(i)) hesaplanması aşağıdaki gibidir:
 
 <br>
 
@@ -90,7 +90,7 @@
 
 **16. Algorithm ― After randomly initializing the cluster centroids μ1,μ2,...,μk∈Rn, the k-means algorithm repeats the following step until convergence:**
 
-&#10230; Algoritma - Küme ortalamaları μ1, μ2, ..., μk∈Rn rasgele olarak başlatıldıktan sonra, k-ortalama algoritması yakınsayana kadar aşağıdaki adımı tekrar eder:
+&#10230; Algoritma - Küme ortalamaları μ1, μ2, ..., μk∈Rn rasgele olarak başlatıldıktan sonra, k-ortalamalar algoritması yakınsayana kadar aşağıdaki adımı tekrar eder:
 
 <br>
 
@@ -156,7 +156,7 @@
 
 **27. Calinski-Harabaz index ― By noting k the number of clusters, Bk and Wk the between and within-clustering dispersion matrices respectively defined as**
 
-&#10230; Calinski-Harabaz indeksi - Kümelerin sayısını, Bk ve Wk'yi, sırasıyla, küme olarak adlandırılan küme ve dağılma matrisleri olarak tanımlayarak
+&#10230; Calinski-Harabaz indeksi - k kümelerin sayısını belirtmek üzere Bk ve Wk sırasıyla, kümeler arası ve küme içi dağılım matrisleri olarak aşağıdaki gibi tanımlanır
 
 <br>
 
@@ -229,7 +229,7 @@ dimensions by maximizing the variance of the data as follows:**
 
 **39. Step 3: Compute u1,...,uk∈Rn the k orthogonal principal eigenvectors of Σ, i.e. the orthogonal eigenvectors of the k largest eigenvalues.**
 
-&#10230; Adım 3: u1, ...,uk∈Rn 'yi hesaplayın, Σ ort'nin ortogonal ana özvektörlerini, yani k en büyük özdeğerlerin ortogonal özvektörlerini.
+&#10230; u1, ...,uk∈Rn olmak üzere Σ ort'nin ortogonal ana özvektörlerini, yani k en büyük özdeğerlerin ortogonal özvektörlerini hesaplayın.
 
 <br>
 
@@ -247,7 +247,7 @@ dimensions by maximizing the variance of the data as follows:**
 
 **42. [Data in feature space, Find principal components, Data in principal components space]**
 
-&#10230; [Öznitelik uzayında veri, Temel bileşenleri bul, Temel bileşenler uzayında veri]
+&#10230; [Öznitelik uzayındaki veri, Temel bileşenleri bul, Temel bileşenler uzayındaki veri]
 
 <br>
 
@@ -289,7 +289,7 @@ dimensions by maximizing the variance of the data as follows:**
 
 **49. Write the log likelihood given our training data {x(i),i∈[[1,m]]} and by noting g the sigmoid function as:**
 
-&#10230; Eğitim verisi {x(i),i∈[[1, m]]} ve sigmoid fonksiyonunu g olarak not ederek log olasılığını yazınız:
+&#10230; Eğitim verisi {x(i),i∈[[1, m]]} ve g sigmoid fonksiyonunu not ederek log olasılığını yazınız:
 
 <br>
 
@@ -331,7 +331,7 @@ dimensions by maximizing the variance of the data as follows:**
 
 **56. [Clustering, Expectation-Maximization, k-means, Hierarchical clustering, Metrics]**
 
-&#10230; [Kümeleme, Beklenti-Enbüyütme(Maksimizasyon), k-ortalamalar, Hiyerarşik kümeleme, Metrikler]
+&#10230; [Kümeleme, Beklenti-Ençoklama (Maksimizasyon), k-ortalamalar, Hiyerarşik kümeleme, Metrikler]
 
 <br>
 

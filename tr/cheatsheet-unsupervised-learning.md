@@ -66,7 +66,7 @@
 
 **12. M-step: Use the posterior probabilities Qi(z(i)) as cluster specific weights on data points x(i) to separately re-estimate each cluster model as follows:**
 
-&#10230; M-adımı: Her bir küme modelini aşağıdaki gibi ayrı ayrı yeniden tahmin etmek için x(i) veri noktalarındaki kümeye özgü ağırlıklar olarak posterior olasılıkları Qi(z(i)) kullanın:
+&#10230; M-adımı: Her bir küme modelini ayrı ayrı yeniden tahmin etmek için x(i) veri noktalarındaki kümeye özgü ağırlıklar olarak Qi(z(i)) sonsal olasılıklarının kullanımı aşağıdaki gibidir:
 
 <br>
 

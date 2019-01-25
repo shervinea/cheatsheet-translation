@@ -30,7 +30,7 @@
 
 **6. [Continuous, Class, Linear regression, Logistic regression, SVM, Naive Bayes]**
 
-&#10230; Sürekli, Sınıf, Lineer regresyon, Lojistik regresyon, Destek Vektör Makineleri (DVM), Naive Bayes]
+&#10230; [Sürekli, Sınıf, Lineer regresyon (bağlanım), Lojistik regresyon (bağlanım), Destek Vektör Makineleri (DVM), Naive Bayes]
 
 <br> 
 
@@ -72,13 +72,13 @@
 
 **13. [Least squared error, Logistic loss, Hinge loss, Cross-entropy]**
 
-&#10230; [En küçük kareler hatası, Lojistik kaybı, Menteşe yitimi, Çapraz entropi]
+&#10230; [En küçük kareler hatası, Lojistik yitimi (kaybı), Menteşe yitimi (kaybı), Çapraz entropi]
 
 <br>
 
 **14. [Linear regression, Logistic regression, SVM, Neural Network]**
 
-&#10230; [Lineer regresyon, Lojistik regresyon, Destek Vektör Makineleri, Sinir Ağı]
+&#10230; [Lineer regresyon (bağlanım), Lojistik regresyon (bağlanım), Destek Vektör Makineleri, Sinir Ağı]
 
 <br>
 
@@ -276,7 +276,7 @@
 
 **47. Hinge loss ― The hinge loss is used in the setting of SVMs and is defined as follows:**
 
-&#10230; Menteşe yitimi - Menteşe yitimi Destek Vektör Makinelerinin ayarlarında kullanılır ve aşağıdaki gibi tanımlanır:
+&#10230; Menteşe yitimi (kaybı) - Menteşe yitimi Destek Vektör Makinelerinin ayarlarında kullanılır ve aşağıdaki gibi tanımlanır:
 
 <br>
 
@@ -329,7 +329,7 @@
 
 **56. Gaussian Discriminant Analysis**
 
-&#10230; Gauss Diskriminant Analizi
+&#10230; Gauss Diskriminant (Ayırtaç) Analizi
 
 <br>
 
@@ -474,7 +474,7 @@ Basit karar ağacının tersine, oldukça yorumlanamaz bir yapıdadır ancak gen
 
 **80. Probably Approximately Correct (PAC) ― PAC is a framework under which numerous results on learning theory were proved, and has the following set of assumptions: **
 
-&#10230; Muhtemel Yaklaşık Doğru (Probably Approximately Correct (PAC)) ― PAC, öğrenme teorisi üzerine sayısız sonuçların kanıtlandığı ve aşağıdaki varsayımlara sahip olan bir çerçevedir:
+&#10230; Olası Yaklaşık Doğru (Probably Approximately Correct (PAC)) ― PAC, öğrenme teorisi üzerine sayısız sonuçların kanıtlandığı ve aşağıdaki varsayımlara sahip olan bir çerçevedir:
 <br> 
 
 

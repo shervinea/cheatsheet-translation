@@ -24,13 +24,13 @@
 
 **5. Axioms of probability: For each event E, we denote P(E) as the probability of event E occuring.**
 
-&#10230; Olasılık aksiyomları: Her olay E için, E olayının meydana gelme olasılığı olarak P (E) anlamına gelir.
+&#10230; Olasılık aksiyomları: Her E olayı için, E olayının meydana gelme olasılığı P (E) olarak ifade edilir.
 
 <br>
 
 **6. Axiom 1 ― Every probability is between 0 and 1 included, i.e:**
 
-&#10230; Aksiyom 1 - Her olasılık dahil 0 ile 1 arasındadır, yani:
+&#10230; Aksiyom 1 - Her olasılık 0 ve 1 de dahil olmak üzere 0 ve 1 arasındadır, yani:
 
 <br>
 
@@ -84,25 +84,25 @@
 
 **15. Partition ― Let {Ai,i∈[[1,n]]} be such that for all i, Ai≠∅. We say that {Ai} is a partition if we have:**
 
-&#10230; Parça - {Ai,i∈[[1,n]]} olsun; {Ai}'nın bir parçası olduğunu söyleriz:
+&#10230; Parça - Tüm i değerleri için Ai≠∅ olmak üzere {Ai,i∈[[1,n]]} olsun. {Ai} bir parça olduğunu söyleriz eğer :
 
 <br>
 
 **16. Remark: for any event B in the sample space, we have P(B)=n∑i=1P(B|Ai)P(Ai).**
 
-&#10230; Not: Örnek uzaydaki herhangi bir B olayı için P(B)=n∑i=1P(B|Ai)P(Ai)'ye sahibiz.
+&#10230; Not: Örneklem uzaydaki herhangi bir B olayı için P(B)=n∑i=1P(B|Ai)P(Ai)'ye sahibiz.
 
 <br>
 
 **17. Extended form of Bayes' rule ― Let {Ai,i∈[[1,n]]} be a partition of the sample space. We have:**
 
-&#10230; Genişletilmiş Bayes kuralı formu - {Ai,i∈[[1,n]]} örneklemenin bir bölümü olsun. Elde edilen:
+&#10230; Genişletilmiş Bayes kuralı formu - {Ai,i∈[[1,n]]} örneklem uzayının bir bölümü olsun. Elde edilen:
 
 <br>
 
 **18. Independence ― Two events A and B are independent if and only if we have:**
 
-&#10230; Bağımsızlık - İki olay A ve B birbirinden bağımısz ise, elde edilen: 
+&#10230; Bağımsızlık - İki olay A ve B birbirinden bağımsızdır ancak ve ancak eğer: 
 
 <br>
 
@@ -120,13 +120,13 @@
 
 **21. Random variable ― A random variable, often noted X, is a function that maps every element in a sample space to a real line.**
 
-&#10230; Rastgele değişken - Genellikle X işaretli rastgele bir değişken, bir örnek uzayındaki her öğeyi gerçek bir çizgiye eşleyen bir fonksiyondur (işlevdir).
+&#10230; Rastgele değişken - Genellikle X olarak ifade edilen rastgele bir değişken, bir örneklem uzayındaki her öğeyi gerçek bir çizgiye eşleyen bir fonksiyondur.
 
 <br>
 
 **22. Cumulative distribution function (CDF) ― The cumulative distribution function F, which is monotonically non-decreasing and is such that limx→−∞F(x)=0 and limx→+∞F(x)=1, is defined as:**
 
-&#10230; Kümülatif dağılım fonksiyonu (KDF/CDF) - Monotonik olarak azalmayan ve limx→−∞F(x)=0 ve limx→+∞F(x)=1 olacak şekilde kümülatif dağılım fonksiyonu F:
+&#10230; Kümülatif dağılım fonksiyonu (KDF/ Cumulative distribution function-CDF) - Monotonik olarak azalmayan ve limx→−∞F(x)=0 ve limx→+∞F(x)=1 olacak şekilde kümülatif dağılım fonksiyonu F şu şekilde tanımlanır:
 
 <br>
 
@@ -138,19 +138,19 @@
 
 **24. Probability density function (PDF) ― The probability density function f is the probability that X takes on values between two adjacent realizations of the random variable.**
 
-&#10230; Olasılık yoğunluğu fonksiyonu (OYF/PDF) - Olasılık yoğunluğu fonksiyonu f, X'in rastgele değişkenin iki bitişik gerçekleşmesi arasındaki değerleri alması ihtimalidir.
+&#10230; Olasılık yoğunluğu fonksiyonu (OYF/Probability density function-PDF) - Olasılık yoğunluğu fonksiyonu f, X'in rastgele değişkenin iki bitişik gerçekleşmesi arasındaki değerleri alması ihtimalidir.
 
 <br>
 
 **25. Relationships involving the PDF and CDF ― Here are the important properties to know in the discrete (D) and the continuous (C) cases.**
 
-&#10230; PDF ve CDF'yi içeren ilişkiler - Ayrık (D) ve sürekli (C) olaylarında bilmeniz gereken önemli özellikler.
+&#10230; OYF ve KDF'yi içeren ilişkiler - Ayrık (D) ve sürekli (C) olaylarında bilmeniz gereken önemli özelliklerdir.
 
 <br>
 
 **26. [Case, CDF F, PDF f, Properties of PDF]**
 
-&#10230; [Olay, CDF F, PDF f, PDF Özellikleri]
+&#10230; [Olay, KDF F, OYF f, OYF Özellikleri]
 
 <br>
 
@@ -162,19 +162,19 @@
 
 **28. Variance ― The variance of a random variable, often noted Var(X) or σ2, is a measure of the spread of its distribution function. It is determined as follows:**
 
-&#10230; Varyans - Genellikle Var(X) veya σ2 olarak not edilen rastgele değişkenin varyansı, dağılım fonksiyonunun yayılmasının bir ölçüsüdür. Aşağıdaki şekilde belirlenir:
+&#10230; Varyans - Genellikle Var(X) veya σ2 olarak ifade edilen rastgele değişkenin varyansı, dağılım fonksiyonunun yayılmasının bir ölçüsüdür. Aşağıdaki şekilde belirlenir:
 
 <br>
 
 **29. Standard deviation ― The standard deviation of a random variable, often noted σ, is a measure of the spread of its distribution function which is compatible with the units of the actual random variable. It is determined as follows:**
 
-&#10230; Standart sapma - Genellikle σ olarak not edilen rastgele bir değişkenin standart sapması, gerçek rastgele değişkenin birimleriyle uyumlu olan dağılım fonksiyonunun yayılmasının bir ölçüsüdür. Aşağıdaki şekilde belirlenir:
+&#10230; Standart sapma - Genellikle σ olarak ifade edilen rastgele bir değişkenin standart sapması, gerçek rastgele değişkenin birimleriyle uyumlu olan dağılım fonksiyonunun yayılmasının bir ölçüsüdür. Aşağıdaki şekilde belirlenir:
 
 <br>
 
 **30. Transformation of random variables ― Let the variables X and Y be linked by some function. By noting fX and fY the distribution function of X and Y respectively, we have:**
 
-&#10230; Rastgele değişkenlerin dönüşümü - X ve Y değişkenlerinin bazı fonksiyonlarla bağlanır. FX ve fY'ye sırasıyla X ve Y'nin dağılım fonksiyonu şöyledir:
+&#10230; Rastgele değişkenlerin dönüşümü - X ve Y değişkenlerinin bazı fonksiyonlarla bağlanır. fX ve fY'ye sırasıyla X ve Y'nin dağılım fonksiyonu şöyledir:
 
 <br>
 
@@ -192,7 +192,7 @@
 
 **33. Chebyshev's inequality ― Let X be a random variable with expected value μ. For k,σ>0, we have the following inequality:**
 
-&#10230; Chebyshev'in eşitsizliği - X'in beklenen değeri value olan rastgele bir değişken olmasına izin verin. K, σ>0 için aşağıdaki eşitsizliği elde edilir:
+&#10230; Chebyshev'in eşitsizliği - X beklenen değeri μ olan rastgele bir değişken olsun. K, σ>0 için aşağıdaki eşitsizliği elde edilir:
 
 <br>
 

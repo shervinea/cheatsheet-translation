@@ -44,7 +44,7 @@ Please make sure to propose the translation of **only one** cheatsheet per pull 
 |Cheatsheet topic|العَرَبِيَّة|עִבְרִית|हिन्दी|Türkçe|Русский|Italiano|
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|
 |Convolutional Neural Nets|not started|not started|not started|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/117)|not started|not started|
-|Recurrent Neural Nets|not started|not started|not started|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/118)|not started|not started|
+|Recurrent Neural Nets|not started|not started|not started|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/120)|not started|not started|
 |DL tips and tricks|not started|not started|not started|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/116)|not started|not started|
 
 
@@ -67,10 +67,10 @@ Please make sure to propose the translation of **only one** cheatsheet per pull 
 |Cheatsheet topic|العَرَبِيَّة|עִבְרִית|हिन्दी|Türkçe|Русский|Italiano|
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|
 |Deep learning|done|not started|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/37)|done|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/21)|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/78)|
-|Supervised learning|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/87)|not started|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/46)|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/114)|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/21)|not started|
+|Supervised learning|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/87)|not started|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/46)|done|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/21)|not started|
 |Unsupervised learning|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/88)|not started|not started|done|not started|not started|
-|ML tips and tricks|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/83)|not started|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/40)|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/39)|not started|not started|
-|Probabilities and Statistics|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/89)|not started|not started|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/115)|not started|not started|
+|ML tips and tricks|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/83)|not started|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/40)|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/119)|not started|not started|
+|Probabilities and Statistics|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/89)|not started|not started|done|not started|not started|
 |Linear algebra|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/85)|not started|not started|done|not started|not started|
 
 

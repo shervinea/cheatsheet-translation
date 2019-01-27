@@ -567,7 +567,7 @@ Bu modelde e ve θ'nin oynadığı simetri göz önüne alındığında, e (fina
 <br>
 
 
-81. Bleu score ― The bilingual evaluation understudy (bleu) score quantifies how good a machine translation is by computing a similarity score based on n-gram precision. It is defined as follows:
+**81. Bleu score ― The bilingual evaluation understudy (bleu) score quantifies how good a machine translation is by computing a similarity score based on n-gram precision. It is defined as follows:**
 
 &#10230; Bleu puanı ― İki dilli değerlendirme alt ölçeği (bleu) puanı, makine çevirisinin ne kadar iyi olduğunu, n-gram hassasiyetine dayalı bir benzerlik puanı hesaplayarak belirler. Aşağıdaki gibi tanımlanır:
 
@@ -597,7 +597,7 @@ Bu modelde e ve θ'nin oynadığı simetri göz önüne alındığında, e (fina
 
 **85. Attention model ― This model allows an RNN to pay attention to specific parts of the input that is considered as being important, which improves the performance of the resulting model in practice. By noting α<t,t′> the amount of attention that the output y should pay to the activation a<t′> and c the context at time t, we have:**
 
-&#10230; Dikkat modeli ― Bu model, bir RNN'de girişin önemli olduğu düşünülen belirli kısımlarına dikkat etmesine olanak sağlar,sonuçta ortaya çıkan modelin pratikteki performansını arttırır.
+&#10230; Dikkat modeli ― Bu model, bir RNN'de girişin önemli olduğu düşünülen belirli kısımlarına dikkat etmesine olanak sağlar,sonuçta ortaya çıkan modelin pratikteki performansını arttırır. α<t,t′> ile ifade edilen dikkat miktarı, a<t′> aktivasyonu ve t zamanındaki c bağlamını y çıktısı olarak verir.
 
 <br>
 

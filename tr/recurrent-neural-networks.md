@@ -49,7 +49,7 @@
 
 **8. [Machine translation, Beam search, Length normalization, Error analysis, Bleu score]**
 
-&#10230; [Makine çevirisi, Kiriş arama, Uzunluk normalizasyonu, Hata analizi, Bleu skoru]
+&#10230; [Makine çevirisi, Işın araması, Uzunluk normalizasyonu, Hata analizi, Bleu skoru]
 
 <br>
 
@@ -68,7 +68,7 @@
 <br>
 
 
-**11. Architecture of a traditional RNN ? Recurrent neural networks, also known as RNNs, are a class of neural networks that allow previous outputs to be used as inputs while having hidden states. They are typically as follows:**
+**11. Architecture of a traditional RNN ― Recurrent neural networks, also known as RNNs, are a class of neural networks that allow previous outputs to be used as inputs while having hidden states. They are typically as follows:**
 
 &#10230; Geleneksel bir RNN mimarisi - RNN'ler olarak da bilinen tekrarlayan sinir ağları, gizli durumlara sahipken önceki çıktıların girdi olarak kullanılmasına izin veren bir sinir ağları sınıfıdır. Tipik olarak aşağıdaki gibidirler:
 
@@ -117,9 +117,9 @@
 <br>
 
 
-**18. Applications of RNNs ? RNN models are mostly used in the fields of natural language processing and speech recognition. The different applications are summed up in the table below:**
+**18. Applications of RNNs ― RNN models are mostly used in the fields of natural language processing and speech recognition. The different applications are summed up in the table below:**
 
-&#10230; RNN'lerin Uygulamaları - RNN modelleri çoğunlukla doğal dil işleme ve konuşma tanıma alanlarında kullanılır. Farklı uygulamalar aşağıdaki tabloda özetlenmiştir:
+&#10230; RNN'lerin Uygulamaları ― RNN modelleri çoğunlukla doğal dil işleme ve konuşma tanıma alanlarında kullanılır. Farklı uygulamalar aşağıdaki tabloda özetlenmiştir:
 
 <br>
 
@@ -145,16 +145,16 @@
 <br>
 
 
-**22. Loss function ? In the case of a recurrent neural network, the loss function L of all time steps is defined based on the loss at every time step as follows:**
+**22. Loss function ― In the case of a recurrent neural network, the loss function L of all time steps is defined based on the loss at every time step as follows:**
 
-&#10230; Kayıp fonksiyonu - Tekrarlayan bir sinir ağı olması durumunda, tüm zaman dilimlerindeki L kayıp fonksiyonu, her zaman dilimindeki kayıbı temel alınarak aşağıdaki gibi tanımlanır:
+&#10230; Kayıp fonksiyonu ― Tekrarlayan bir sinir ağı olması durumunda, tüm zaman dilimlerindeki L kayıp fonksiyonu, her zaman dilimindeki kayıbı temel alınarak aşağıdaki gibi tanımlanır:
 
 <br>
 
 
-**23. Backpropagation through time ? Backpropagation is done at each point in time. At timestep T, the derivative of the loss L with respect to weight matrix W is expressed as follows:**
+**23. Backpropagation through time ― Backpropagation is done at each point in time. At timestep T, the derivative of the loss L with respect to weight matrix W is expressed as follows:**
 
-&#10230; Zamanla geri yayılım - Geriye yayılım zamanın her noktasında yapılır. T zaman diliminde, ağırlık matrisi W'ye göre L kaybının türevi aşağıdaki gibi ifade edilir:
+&#10230; Zamanla geri yayılım ― Geriye yayılım zamanın her noktasında yapılır. T zaman diliminde, ağırlık matrisi W'ye göre L kaybının türevi aşağıdaki gibi ifade edilir:
 
 <br>
 
@@ -166,9 +166,9 @@
 <br>
 
 
-**25. Commonly used activation functions ? The most common activation functions used in RNN modules are described below:**
+**25. Commonly used activation functions ― The most common activation functions used in RNN modules are described below:**
 
-&#10230; Yaygın olarak kullanılan aktivasyon fonksiyonları - RNN modüllerinde kullanılan en yaygın aktivasyon fonksiyonları aşağıda açıklanmıştır:
+&#10230; Yaygın olarak kullanılan aktivasyon fonksiyonları ― RNN modüllerinde kullanılan en yaygın aktivasyon fonksiyonları aşağıda açıklanmıştır:
 
 <br>
 
@@ -180,16 +180,16 @@
 <br>
 
 
-**27. Vanishing/exploding gradient ? The vanishing and exploding gradient phenomena are often encountered in the context of RNNs. The reason why they happen is that it is difficult to capture long term dependencies because of multiplicative gradient that can be exponentially decreasing/increasing with respect to the number of layers.**
+**27. Vanishing/exploding gradient ― The vanishing and exploding gradient phenomena are often encountered in the context of RNNs. The reason why they happen is that it is difficult to capture long term dependencies because of multiplicative gradient that can be exponentially decreasing/increasing with respect to the number of layers.**
 
-&#10230; Kaybolan / patlayan gradyan - Kaybolan ve patlayan gradyan fenomenlerine RNN'ler bağlamında sıklıkla rastlanır. Bunların olmasının nedeni, katman sayısına göre katlanarak azalan / artan olabilen çarpımsal gradyan nedeniyle uzun vadeli bağımlılıkları yakalamanın zor olmasıdır.
+&#10230; Kaybolan / patlayan gradyan ― Kaybolan ve patlayan gradyan fenomenlerine RNN'ler bağlamında sıklıkla rastlanır. Bunların olmasının nedeni, katman sayısına göre katlanarak azalan / artan olabilen çarpımsal gradyan nedeniyle uzun vadeli bağımlılıkları yakalamanın zor olmasıdır.
 
 <br>
 
 
-**28. Gradient clipping ? It is a technique used to cope with the exploding gradient problem sometimes encountered when performing backpropagation. By capping the maximum value for the gradient, this phenomenon is controlled in practice.**
+**28. Gradient clipping ― It is a technique used to cope with the exploding gradient problem sometimes encountered when performing backpropagation. By capping the maximum value for the gradient, this phenomenon is controlled in practice.**
 
-&#10230; Gradyan kırpma - Geri yayılım işlemi sırasında bazen karşılaşılan patlayan gradyan sorunuyla başa çıkmak için kullanılan bir tekniktir. Gradyan için maksimum değeri sınırlayarak, bu durum pratikte kontrol edilir.
+&#10230; Gradyan kırpma ― Geri yayılım işlemi sırasında bazen karşılaşılan patlayan gradyan sorunuyla başa çıkmak için kullanılan bir tekniktir. Gradyan için maksimum değeri sınırlayarak, bu durum pratikte kontrol edilir.
 
 <br>
 
@@ -201,16 +201,16 @@
 <br>
 
 
-**30. Types of gates ? In order to remedy the vanishing gradient problem, specific gates are used in some types of RNNs and usually have a well-defined purpose. They are usually noted ? and are equal to:**
+**30. Types of gates ― In order to remedy the vanishing gradient problem, specific gates are used in some types of RNNs and usually have a well-defined purpose. They are usually noted Γ and are equal to:**
 
-&#10230; Giriş Kapıları Çeşitleri - Kaybolan gradyan problemini çözmek için bazı RNN türlerinde belirli kapılar kullanılır ve genellikle iyi tanımlanmış bir amaca sahiptir. Genellikle ? olarak ifade edilir ve şuna eşittir:
+&#10230; Giriş Kapıları Çeşitleri ― Kaybolan gradyan problemini çözmek için bazı RNN türlerinde belirli kapılar kullanılır ve genellikle iyi tanımlanmış bir amaca sahiptir. Genellikle Γ olarak ifade edilir ve şuna eşittir:
 
 <br>
 
 
-**31. where W,U,b are coefficients specific to the gate and ? is the sigmoid function. The main ones are summed up in the table below:**
+**31. where W,U,b are coefficients specific to the gate and σ is the sigmoid function. The main ones are summed up in the table below:**
 
-&#10230; burada W, U, b kapıya özgü katsayılardır ve ? ise sigmoid fonksiyondur. Temel olanlar aşağıdaki tabloda özetlenmiştir:
+&#10230; burada W, U, b kapıya özgü katsayılardır ve σ ise sigmoid fonksiyondur. Temel olanlar aşağıdaki tabloda özetlenmiştir:
 
 <br>
 
@@ -231,7 +231,7 @@
 
 **34. [How much past should matter now?, Drop previous information?, Erase a cell or not?, How much to reveal of a cell?]**
 
-&#10230; [Şimdi ne kadar geçmiş olması gerekir ?, Önceki bilgiyi bırak?, Bir hücreyi sil ya da silme?, Bir hücreyi ortaya çıkarmak için ne kadar?]
+&#10230; [Şimdi ne kadar geçmiş olması gerekir?, Önceki bilgiyi bırak?, Bir hücreyi sil ya da silme?, Bir hücreyi ortaya çıkarmak için ne kadar?]
 
 <br>
 
@@ -243,9 +243,9 @@
 <br>
 
 
-**36. GRU/LSTM ? Gated Recurrent Unit (GRU) and Long Short-Term Memory units (LSTM) deal with the vanishing gradient problem encountered by traditional RNNs, with LSTM being a generalization of GRU. Below is a table summing up the characterizing equations of each architecture:**
+**36. GRU/LSTM ― Gated Recurrent Unit (GRU) and Long Short-Term Memory units (LSTM) deal with the vanishing gradient problem encountered by traditional RNNs, with LSTM being a generalization of GRU. Below is a table summing up the characterizing equations of each architecture:**
 
-&#10230; GRU / LSTM - Geçitli Tekrarlayan Birim (Gated Recurrent Unit-GRU) ve Uzun Kısa Süreli Bellek Birimleri (Long Short-Term Memory-LSTM), geleneksel RNN'lerin karşılaştığı kaybolan gradyan problemini ele alır, LSTM ise GRU'nun genelleştirilmiş halidir. Her bir mimarinin karakterizasyon denklemlerini özetleyen tablo aşağıdadır:
+&#10230; GRU/LSTM ― Geçitli Tekrarlayan Birim (Gated Recurrent Unit-GRU) ve Uzun Kısa Süreli Bellek Birimleri (Long Short-Term Memory-LSTM), geleneksel RNN'lerin karşılaştığı kaybolan gradyan problemini ele alır, LSTM ise GRU'nun genelleştirilmiş halidir. Her bir mimarinin karakterizasyon denklemlerini özetleyen tablo aşağıdadır:
 
 <br>
 
@@ -257,16 +257,16 @@
 <br>
 
 
-**38. Remark: the sign ? denotes the element-wise multiplication between two vectors.**
+**38. Remark: the sign ⋆ denotes the element-wise multiplication between two vectors.**
 
-&#10230; Not: ? işareti iki vektör arasındaki birimsel çarpımı belirtir.
+&#10230; Not: ⋆ işareti iki vektör arasındaki birimsel çarpımı belirtir.
 
 <br>
 
 
-**39. Variants of RNNs ? The table below sums up the other commonly used RNN architectures:**
+**39. Variants of RNNs ― The table below sums up the other commonly used RNN architectures:**
 
-&#10230; RNN varyantları - Aşağıdaki tablo, diğer yaygın kullanılan RNN mimarilerini özetlemektedir:
+&#10230; RNN varyantları ― Aşağıdaki tablo, diğer yaygın kullanılan RNN mimarilerini özetlemektedir:
 
 <br>
 
@@ -299,9 +299,9 @@
 <br>
 
 
-**44. Representation techniques ? The two main ways of representing words are summed up in the table below:**
+**44. Representation techniques ― The two main ways of representing words are summed up in the table below:**
 
-&#10230; Temsil etme teknikleri - Kelimeleri temsil etmenin iki temel yolu aşağıdaki tabloda özetlenmiştir:
+&#10230; Temsil etme teknikleri ― Kelimeleri temsil etmenin iki temel yolu aşağıdaki tabloda özetlenmiştir:
 
 <br>
 
@@ -327,9 +327,9 @@
 <br> [ow not edildi, Naive yaklaşım, benzerlik bilgisi yok, ew not edildi, kelime benzerliği dikkate alınır]
 
 
-**48. Embedding matrix ? For a given word w, the embedding matrix E is a matrix that maps its 1-hot representation ow to its embedding ew as follows:**
+**48. Embedding matrix ― For a given word w, the embedding matrix E is a matrix that maps its 1-hot representation ow to its embedding ew as follows:**
 
-&#10230; Gömme matrisi - Belirli bir w kelimesi için E gömme matrisi, 1-hot temsilini ew gömmesi sayesinde aşağıdaki gibi eşleştiren bir matristir:
+&#10230; Gömme matrisi ― Belirli bir w kelimesi için E gömme matrisi, 1-hot temsilini ew gömmesi sayesinde aşağıdaki gibi eşleştiren bir matristir:
 
 <br>
 
@@ -348,9 +348,9 @@
 <br>
 
 
-**51. Word2vec ? Word2vec is a framework aimed at learning word embeddings by estimating the likelihood that a given word is surrounded by other words. Popular models include skip-gram, negative sampling and CBOW.**
+**51. Word2vec ― Word2vec is a framework aimed at learning word embeddings by estimating the likelihood that a given word is surrounded by other words. Popular models include skip-gram, negative sampling and CBOW.**
 
-&#10230; Word2vec ? Word2vec, belirli bir kelimenin diğer kelimelerle çevrili olma olasılığını tahmin ederek kelime gömmelerini öğrenmeyi amaçlayan bir çerçevedir. Popüler modeller arasında skip-gram, negatif örnekleme ve CBOW bulunur.
+&#10230; Word2vec ― Word2vec, belirli bir kelimenin diğer kelimelerle çevrili olma olasılığını tahmin ederek kelime gömmelerini öğrenmeyi amaçlayan bir çerçevedir. Popüler modeller arasında skip-gram, negatif örnekleme ve CBOW bulunur.
 
 <br>
 
@@ -369,9 +369,9 @@
 <br>
 
 
-**54. Skip-gram ? The skip-gram word2vec model is a supervised learning task that learns word embeddings by assessing the likelihood of any given target word t happening with a context word c. By noting ?t a parameter associated with t, the probability P(t|c) is given by:**
+**54. Skip-gram ― The skip-gram word2vec model is a supervised learning task that learns word embeddings by assessing the likelihood of any given target word t happening with a context word c. By noting θt a parameter associated with t, the probability P(t|c) is given by:**
 
-&#10230; Skip-gram ? Skip-gram word2vec modeli verilen herhangi bir t hedef kelimesinin c gibi bir bağlam kelimesi ile gerçekleşme olasılığını değerlendirerek kelime gömmelerini öğrenen denetimli bir öğrenme görevidir.
+&#10230; Skip-gram ― Skip-gram word2vec modeli verilen herhangi bir t hedef kelimesinin c gibi bir bağlam kelimesi ile gerçekleşme olasılığını değerlendirerek kelime gömmelerini öğrenen denetimli bir öğrenme görevidir.
 
 <br>
 
@@ -383,7 +383,7 @@
 <br>
 
 
-**56. Negative sampling ? It is a set of binary classifiers using logistic regressions that aim at assessing how a given context and a given target words are likely to appear simultaneously, with the models being trained on sets of k negative examples and 1 positive example. Given a context word c and a target word t, the prediction is expressed by:**
+**56. Negative sampling ― It is a set of binary classifiers using logistic regressions that aim at assessing how a given context and a given target words are likely to appear simultaneously, with the models being trained on sets of k negative examples and 1 positive example. Given a context word c and a target word t, the prediction is expressed by:**
 
 &#10230; Negatif örnekleme - Belirli bir bağlamın ve belirli bir hedef kelimenin eşzamanlı olarak ortaya çıkmasının muhtemel olup olmadığının değerlendirilmesini, modellerin k negatif örnek kümeleri ve 1 pozitif örnek kümesinde eğitilmesini hedefleyen, lojistik regresyon kullanan bir ikili sınıflandırma kümesidir. Bağlam sözcüğü c ve hedef sözcüğü t göz önüne alındığında, tahmin şöyle ifade edilir:
 
@@ -397,18 +397,18 @@
 <br>
 
 
-**57bis. GloVe ? The GloVe model, short for global vectors for word representation, is a word embedding technique that uses a co-occurence matrix X where each Xi,j denotes the number of times that a target i occurred with a context j. Its cost function J is as follows:**
+**57bis. GloVe ― The GloVe model, short for global vectors for word representation, is a word embedding technique that uses a co-occurence matrix X where each Xi,j denotes the number of times that a target i occurred with a context j. Its cost function J is as follows:**
 
-&#10230; GloVe ? Kelime gösterimi için Global vektörler tanımının kısaltılmış hali olan GloVe, eşzamanlı bir X matrisi kullanan ki burada her bir Xi, j, bir hedefin bir j bağlamında gerçekleştiği sayısını belirten bir kelime gömme tekniğidir. Maliyet fonksiyonu J aşağıdaki gibidir:
+&#10230; GloVe ― Kelime gösterimi için Global vektörler tanımının kısaltılmış hali olan GloVe, eşzamanlı bir X matrisi kullanan ki burada her bir Xi,j , bir hedefin bir j bağlamında gerçekleştiği sayısını belirten bir kelime gömme tekniğidir. Maliyet fonksiyonu J aşağıdaki gibidir:
 
 <br>
 
 
-**58. where f is a weighting function such that Xi,j=0?f(Xi,j)=0.
+**58. where f is a weighting function such that Xi,j=0⟹f(Xi,j)=0.
 Given the symmetry that e and ? play in this model, the final word embedding e(final)w is given by:**
 
-&#10230; f, Xi, j = 0?f (Xi, j) = 0 olacak şekilde bir ağırlıklandırma fonksiyonudur.
-Bu modelde e ve ? 'nin oynadığı simetri göz önüne alındığında, e (final) w'nin kelime gömmesi şöyle ifade edilir:
+&#10230; f, Xi,j=0⟹f(Xi,j)=0 olacak şekilde bir ağırlıklandırma fonksiyonudur.
+Bu modelde e ve θ'nin oynadığı simetri göz önüne alındığında, e (final) w'nin kelime gömmesi şöyle ifade edilir:
 
 <br>
 
@@ -427,23 +427,23 @@ Bu modelde e ve ? 'nin oynadığı simetri göz önüne alındığında, e (fina
 <br>
 
 
-**61. Cosine similarity ? The cosine similarity between words w1 and w2 is expressed as follows:**
+**61. Cosine similarity ― The cosine similarity between words w1 and w2 is expressed as follows:**
 
-&#10230; Kosinüs benzerliği - w1 ve w2 kelimeleri arasındaki kosinüs benzerliği şu şekilde ifade edilir:
-
-<br>
-
-
-**62. Remark: ? is the angle between words w1 and w2.**
-
-&#10230; Not: ?, w1 ve w2 kelimeleri arasındaki açıdır.
+&#10230; Kosinüs benzerliği ― w1 ve w2 kelimeleri arasındaki kosinüs benzerliği şu şekilde ifade edilir:
 
 <br>
 
 
-**63. t-SNE ? t-SNE (t-distributed Stochastic Neighbor Embedding) is a technique aimed at reducing high-dimensional embeddings into a lower dimensional space. In practice, it is commonly used to visualize word vectors in the 2D space.**
+**62. Remark: θ is the angle between words w1 and w2.**
 
-&#10230; t-SNE - t-SNE (t-dağıtımlı Stokastik Komşu Gömme), yüksek boyutlu gömmeleri daha düşük boyutlu bir alana indirmeyi amaçlayan bir tekniktir. Uygulamada, kelime uzaylarını 2B alanda görselleştirmek için yaygın olarak kullanılır.
+&#10230; Not: θ, w1 ve w2 kelimeleri arasındaki açıdır.
+
+<br>
+
+
+**63. t-SNE ― t-SNE (t-distributed Stochastic Neighbor Embedding) is a technique aimed at reducing high-dimensional embeddings into a lower dimensional space. In practice, it is commonly used to visualize word vectors in the 2D space.**
+
+&#10230; t-SNE ― t-SNE (t-dağıtımlı Stokastik Komşu Gömme), yüksek boyutlu gömmeleri daha düşük boyutlu bir alana indirmeyi amaçlayan bir tekniktir. Uygulamada, kelime uzaylarını 2B alanda görselleştirmek için yaygın olarak kullanılır.
 
 <br>
 
@@ -462,23 +462,23 @@ Bu modelde e ve ? 'nin oynadığı simetri göz önüne alındığında, e (fina
 <br>
 
 
-**66. Overview ? A language model aims at estimating the probability of a sentence P(y).**
+**66. Overview ― A language model aims at estimating the probability of a sentence P(y).**
 
-&#10230; Genel bakış - Bir dil modeli P (y) cümlesinin olasılığını tahmin etmeyi amaçlar.
-
-<br>
-
-
-**67. n-gram model ? This model is a naive approach aiming at quantifying the probability that an expression appears in a corpus by counting its number of appearance in the training data.**
-
-&#10230; n-gram modeli - Bu model, eğitim verilerindeki görünüm sayısını sayarak bir ifadenin bir korpusta ortaya çıkma olasılığını ölçmeyi amaçlayan naif bir yaklaşımdır.
+&#10230; Genel bakış - Bir dil modeli P(y) cümlesinin olasılığını tahmin etmeyi amaçlar.
 
 <br>
 
 
-**68. Perplexity ? Language models are commonly assessed using the perplexity metric, also known as PP, which can be interpreted as the inverse probability of the dataset normalized by the number of words T. The perplexity is such that the lower, the better and is defined as follows:**
+**67. n-gram model ― This model is a naive approach aiming at quantifying the probability that an expression appears in a corpus by counting its number of appearance in the training data.**
 
-&#10230; Karışıklık ? Dil modelleri yaygın olarak, PP kelimesi olarak da bilinen, T kelimesi ile normalize edilmiş veri kümesinin ters olasılığı olarak yorumlanabilen, çift yönlü ölçüm ölçüsü kullanılarak değerlendirilir. Karmaşıklık Çift yönlü, daha düşük, daha iyi ve aşağıdaki gibi tanımlandığı gibidir:
+&#10230; n-gram modeli ― Bu model, eğitim verilerindeki görünüm sayısını sayarak bir ifadenin bir korpusta ortaya çıkma olasılığını ölçmeyi amaçlayan naif bir yaklaşımdır.
+
+<br>
+
+
+**68. Perplexity ― Language models are commonly assessed using the perplexity metric, also known as PP, which can be interpreted as the inverse probability of the dataset normalized by the number of words T. The perplexity is such that the lower, the better and is defined as follows:**
+
+&#10230; Karışıklık - Dil modelleri yaygın olarak, PP olarak da bilinen karışıklık metriği kullanılarak değerlendirilir ve bunlar T kelimelerinin sayısıyla normalize edilmiş veri setinin ters olasılığı olarak yorumlanabilir. Karışıklık, daha düşük, daha iyi ve şöyle tanımlanır:
 
 <br>
 
@@ -497,22 +497,23 @@ Bu modelde e ve ? 'nin oynadığı simetri göz önüne alındığında, e (fina
 <br>
 
 
-**71. Overview ? A machine translation model is similar to a language model except it has an encoder network placed before. For this reason, it is sometimes referred as a conditional language model. The goal is to find a sentence y such that:**
+**71. Overview ― A machine translation model is similar to a language model except it has an encoder network placed before. For this reason, it is sometimes referred as a conditional language model. The goal is to find a sentence y such that:**
 
-&#10230; Genel bakış - Bir makine çeviri modeli, daha önce yerleştirilmiş bir kodlayıcı ağına sahip olması dışında, bir dil modeline benzer. Bu nedenle, bazen koşullu dil modeli olarak da adlandırılır. Amaç şu şekilde bir cümle bulmaktır:
+&#10230; Genel bakış ― Bir makine çeviri modeli, daha önce yerleştirilmiş bir kodlayıcı ağına sahip olması dışında, bir dil modeline benzer. Bu nedenle, bazen koşullu dil modeli olarak da adlandırılır. Amaç şu şekilde bir cümle bulmaktır:
 
 <br>
 
 
-**72. Beam search ? It is a heuristic search algorithm used in machine translation and speech recognition to find the likeliest sentence y given an input x.**
+**72. Beam search ― It is a heuristic search algorithm used in machine translation and speech recognition to find the likeliest sentence y given an input x.**
 
-&#10230; Işın arama - Makine çevirisinde ve konuşma tanımada kullanılan ve x girişi verilen en olası cümleyi bulmak için kullanılan sezgisel bir arama algoritmasıdır.
+&#10230; Işın arama ― Makine çevirisinde ve konuşma tanımada kullanılan ve x girişi verilen en olası cümleyi bulmak için kullanılan sezgisel bir arama algoritmasıdır.
 
 <br>
 
 
 **73. [Step 1: Find top B likely words y<1>, Step 2: Compute conditional probabilities y<k>|x,y<1>,...,y<k-1>, Step 3: Keep top B combinations x,y<1>,...,y<k>, End process at a stop word]**
-&#10230; En olası B kelimeleri bulun y <1>, 2. Adım: Koşullu olasılıkları hesaplayın y <k> | x, y <1>, ..., y <k-1>, 3. Adım: En olası B kombinasyonlarını koruyun x, y <1>, ..., y <k>, İşlemi durdurarak sonlandırın]
+  
+&#10230; [Adım 1: En olası B kelimeleri bulun y<1>, 2. Adım: Koşullu olasılıkları hesaplayın y|x,y<1>, ..., y, 3. Adım: En olası B kombinasyonlarını koruyun x,y<1>, ..., y, İşlemi durdurarak sonlandırın]
 
 <br>
 
@@ -524,37 +525,37 @@ Bu modelde e ve ? 'nin oynadığı simetri göz önüne alındığında, e (fina
 <br>
 
 
-**75. Beam width ? The beam width B is a parameter for beam search. Large values of B yield to better result but with slower performance and increased memory. Small values of B lead to worse results but is less computationally intensive. A standard value for B is around 10.**
+**75. Beam width ― The beam width B is a parameter for beam search. Large values of B yield to better result but with slower performance and increased memory. Small values of B lead to worse results but is less computationally intensive. A standard value for B is around 10.**
 
-&#10230; Işın genişliği - Işın genişliği B, ışın araması için bir parametredir. Daha yüksek B değerleri daha iyi sonuç elde edilmesini sağlar fakat daha düşük performans ve daha yüksek hafıza ile. Küçük B değerleri daha kötü sonuçlara neden olur, ancak hesaplama açısından daha az yoğundur. B için standart bir değer 10 civarındadır.
-
-<br>
-
-
-**76. Length normalization ? In order to improve numerical stability, beam search is usually applied on the following normalized objective, often called the normalized log-likelihood objective, defined as:**
-
-&#10230; Uzunluk normalizasyonu - Sayısal stabiliteyi arttırmak için, ışın arama genellikle, aşağıdaki gibi tanımlanan normalize edilmiş log-olabilirlik amacı olarak adlandırılan normalize edilmiş hedefe uygulanır:
+&#10230; Işın genişliği ― Işın genişliği B, ışın araması için bir parametredir. Daha yüksek B değerleri daha iyi sonuç elde edilmesini sağlar fakat daha düşük performans ve daha yüksek hafıza ile. Küçük B değerleri daha kötü sonuçlara neden olur, ancak hesaplama açısından daha az yoğundur. B için standart bir değer 10 civarındadır.
 
 <br>
 
 
-**77. Remark: the parameter ? can be seen as a softener, and its value is usually between 0.5 and 1.**
+**76. Length normalization ― In order to improve numerical stability, beam search is usually applied on the following normalized objective, often called the normalized log-likelihood objective, defined as:**
 
-&#10230; Not: ? parametresi yumuşatıcı olarak görülebilir ve değeri genellikle 0,5 ile 1 arasındadır.
+&#10230; Uzunluk normalizasyonu ― Sayısal stabiliteyi arttırmak için, ışın arama genellikle, aşağıdaki gibi tanımlanan normalize edilmiş log-olabilirlik amacı olarak adlandırılan normalize edilmiş hedefe uygulanır:
 
 <br>
 
 
-**78. Error analysis ? When obtaining a predicted translation ˆy that is bad, one can wonder why we did not get a good translation y* by performing the following error analysis:**
+**77. Remark: the parameter α can be seen as a softener, and its value is usually between 0.5 and 1.**
 
-&#10230; Hata analizi - Kötü bir çeviri elde edildiğinde, aşağıdaki hata analizini yaparak neden iyi bir çeviri almadığımızı araştırabiliriz:
+&#10230; Not: α parametresi yumuşatıcı olarak görülebilir ve değeri genellikle 0,5 ile 1 arasındadır.
+
+<br>
+
+
+**78. Error analysis ― When obtaining a predicted translation ˆy that is bad, one can wonder why we did not get a good translation y∗ by performing the following error analysis:**
+
+&#10230; Hata analizi ― Kötü bir çeviri elde edildiğinde, aşağıdaki hata analizini yaparak neden iyi bir çeviri almadığımızı araştırabiliriz:
 
 <br>
 
 
 **79. [Case, Root cause, Remedies]**
 
-&#10230; [Durum,Ana neden, Çözümler]
+&#10230; [Durum, Ana neden, Çözümler]
 
 <br>
 
@@ -566,9 +567,9 @@ Bu modelde e ve ? 'nin oynadığı simetri göz önüne alındığında, e (fina
 <br>
 
 
-**81. Bleu score ? The bilingual evaluation understudy (bleu) score quantifies how good a machine translation is by computing a similarity score based on n-gram precision. It is defined as follows:**
+81. Bleu score ― The bilingual evaluation understudy (bleu) score quantifies how good a machine translation is by computing a similarity score based on n-gram precision. It is defined as follows:
 
-&#10230; Bleu puanı - İki dilli değerlendirme alt ölçeği (bleu) puanı, makine çevirisinin ne kadar iyi olduğunu, n-gram hassasiyetine dayalı bir benzerlik puanı hesaplayarak belirler. Aşağıdaki gibi tanımlanır:
+&#10230; Bleu puanı ― İki dilli değerlendirme alt ölçeği (bleu) puanı, makine çevirisinin ne kadar iyi olduğunu, n-gram hassasiyetine dayalı bir benzerlik puanı hesaplayarak belirler. Aşağıdaki gibi tanımlanır:
 
 <br>
 
@@ -594,9 +595,9 @@ Bu modelde e ve ? 'nin oynadığı simetri göz önüne alındığında, e (fina
 <br>
 
 
-**85. Attention model ? This model allows an RNN to pay attention to specific parts of the input that is considered as being important, which improves the performance of the resulting model in practice. By noting ?<t,t'> the amount of attention that the output y<t> should pay to the activation a<t'> and c<t> the context at time t, we have:**
+**85. Attention model ― This model allows an RNN to pay attention to specific parts of the input that is considered as being important, which improves the performance of the resulting model in practice. By noting α<t,t′> the amount of attention that the output y should pay to the activation a<t′> and c the context at time t, we have:**
 
-&#10230; Dikkat modeli ? Bu model, bir RNN'de girişin önemli olduğu düşünülen belirli kısımlarına dikkat etmesine olanak sağlar,sonuçta ortaya çıkan modelin pratikteki performansını arttırır.
+&#10230; Dikkat modeli ― Bu model, bir RNN'de girişin önemli olduğu düşünülen belirli kısımlarına dikkat etmesine olanak sağlar,sonuçta ortaya çıkan modelin pratikteki performansını arttırır.
 
 <br>
 
@@ -610,7 +611,7 @@ Bu modelde e ve ? 'nin oynadığı simetri göz önüne alındığında, e (fina
 
 **87. Remark: the attention scores are commonly used in image captioning and machine translation.**
 
-&#10230; Not: Dikkat skorları, resim yazılama ve makine çevirisinde yaygın olarak kullanılır.
+&#10230; Not: Dikkat skorları, görüntü altyazılama ve makine çevirisinde yaygın olarak kullanılır.
 
 <br>
 
@@ -622,9 +623,9 @@ Bu modelde e ve ? 'nin oynadığı simetri göz önüne alındığında, e (fina
 <br>
 
 
-**89. Attention weight ? The amount of attention that the output y<t> should pay to the activation a<t'> is given by ?<t,t'> computed as follows:**
+**89. Attention weight ― The amount of attention that the output y should pay to the activation a<t′> is given by α<t,t′> computed as follows:**
 
-&#10230; Dikkat ağırlığı - y <t> çıktısının a <t '> aktivasyonuna vermesi gereken dikkat miktarı, aşağıdaki gibi hesaplanan ? <t, t '> ile ifade edilir:
+&#10230; Dikkat ağırlığı ― Y çıktısının a<t′> aktivasyonuna vermesi gereken dikkat miktarı, aşağıdaki gibi hesaplanan α<t,t′> ile verilir:
 
 <br>
 

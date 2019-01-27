@@ -27,10 +27,6 @@
 
 **5. [Training a neural network, Epoch, Mini-batch, Cross-entropy loss, Backpropagation, Gradient descent, Updating weights, Gradient checking]**
 
-&#10230;
-
-**5. [Training a neural network, Epoch, Mini-batch, Cross-entropy loss, Backpropagation, Gradient descent, Updating weights, Gradient checking]**
-
 &#10230; [Bir sinir ağının eğitilmesi, Epoch, Mini-küme, Çapraz-entropy yitimi (kaybı), Geriye yayılım, Gradyan (Bayır) iniş, Ağırlıkların güncellenmesi, Gradyan kontrolü]
 
 <br>

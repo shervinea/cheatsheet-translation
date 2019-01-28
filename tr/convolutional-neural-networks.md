@@ -336,7 +336,7 @@
 
 **49. Object detection**
 
-&#10230; Nesne tanıma
+&#10230; Nesne algılama
 
 <br>
 
@@ -350,7 +350,7 @@
 
 **51. [Image classification, Classification w. localization, Detection]**
 
-&#10230; [Görüntü sınıflandırma, Sınıflandırma ve lokalizasyon (konumlama), Tanıma]
+&#10230; [Görüntü sınıflandırma, Sınıflandırma ve lokalizasyon (konumlama), Algılama]
 
 <br>
 
@@ -378,14 +378,14 @@
 
 **55. Detection ― In the context of object detection, different methods are used depending on whether we just want to locate the object or detect a more complex shape in the image. The two main ones are summed up in the table below:**
 
-&#10230; Tanıma ― Nesne tespiti bağlamında, nesneyi konumlandırmak veya görüntüdeki daha karmaşık bir şekli tespit etmek isteyip istemediğimize bağlı olarak farklı yöntemler kullanılır. İki ana tablo aşağıdaki tabloda özetlenmiştir:
+&#10230; Algılama ― Nesne algılama bağlamında, nesneyi konumlandırmak veya görüntüdeki daha karmaşık bir şekli tespit etmek isteyip istemediğimize bağlı olarak farklı yöntemler kullanılır. İki ana tablo aşağıdaki tabloda özetlenmiştir:
 
 <br>
 
 
 **56. [Bounding box detection, Landmark detection]**
 
-&#10230; [Sınırlayıcı kutu ile tespit, Karakteristik nokta tanıma]
+&#10230; [Sınırlayıcı kutu ile tespit, Karakteristik nokta algılama]
 
 <br>
 

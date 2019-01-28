@@ -48,7 +48,7 @@
 
 **8. [Good practices, Overfitting small batch, Gradient checking]**
 
-&#10230; [İyi örnekler, Küçük kümelerin ezberlenmesi, Gradyanların kontrolü]
+&#10230; [İyi örnekler, Küçük kümelerin aşırı öğrenmesi, Gradyan kontrolü]
 
 <br>
 
@@ -90,7 +90,7 @@
 
 **14. [Color shift, Noise addition, Information loss, Contrast change]**
 
-&#10230; [Renk kaydırma, Gürültü ekleme, Bilgi kaybı, Kontrast değişimi]
+&#10230; [Renk değişimi, Gürültü ekleme, Bilgi kaybı, Kontrast değişimi]
 
 <br>
 
@@ -264,9 +264,9 @@
 <br>
 
 
-**39. Learning rate ― The learning rate, often noted α or sometimes η, indicates at which pace the weights get updated. It can be fixed or adaptively changed. The current most popular method is called Adam, which is a method that adapts the learning rate.
-**
-&#10230; Genellikle α veya bazen η olarak belirtilen öğrenme oranı, ağırlıkların hangi hızda güncellendiğini belirler. Sabitlenebilir veya uyarlanabilir şekilde değiştirilebilir. Mevcut en popüler yöntemin adı Adam'dır ve öğrenme hızını ayarlayan bir yöntemdir.
+**39. Learning rate ― The learning rate, often noted α or sometimes η, indicates at which pace the weights get updated. It can be fixed or adaptively changed. The current most popular method is called Adam, which is a method that adapts the learning rate.**
+
+&#10230; Öğrenme oranı (adımı) ― Genellikle α veya bazen η olarak belirtilen öğrenme oranı, ağırlıkların hangi hızda güncellendiğini belirler. Sabitlenebilir veya uyarlanabilir şekilde değiştirilebilir. Mevcut en popüler yöntemin adı Adam'dır ve öğrenme hızını ayarlayan bir yöntemdir.
 
 <br>
 
@@ -348,7 +348,7 @@
 
 **50 bis. Shrinks coefficients to 0, Good for variable selection, Makes coefficients smaller, Tradeoff between variable selection and small coefficients]**
 
-&#10230; bis. Katsayıları 0'a düşürür, Değişken seçimi için iyi, Katsayıları daha küçük yapar, Değişken seçimi ile küçük katsayılar arasında ödünleşim sağlar]
+&#10230; [Katsayıları 0'a düşürür, Değişken seçimi için iyi, Katsayıları daha küçük yapar, Değişken seçimi ile küçük katsayılar arasında ödünleşim sağlar]
 
 <br>
 

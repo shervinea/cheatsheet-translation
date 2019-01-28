@@ -27,7 +27,7 @@
 
 **5. [Training a neural network, Epoch, Mini-batch, Cross-entropy loss, Backpropagation, Gradient descent, Updating weights, Gradient checking]**
 
-&#10230; [Bir sinir ağının eğitilmesi, Epoch, Mini-küme, Çapraz-entropy yitimi (kaybı), Geriye yayılım, Gradyan (Bayır) iniş, Ağırlıkların güncellenmesi, Gradyan kontrolü]
+&#10230; [Bir sinir ağının eğitilmesi, Dönem (Epok), Mini-küme, Çapraz-entropy yitimi (kaybı), Geriye yayılım, Gradyan (Bayır) iniş, Ağırlıkların güncellenmesi, Gradyan (Bayır) kontrolü]
 
 <br>
 
@@ -83,7 +83,7 @@
 
 **13. [Image without any modification, Flipped with respect to an axis for which the meaning of the image is preserved, Rotation with a slight angle, Simulates incorrect horizon calibration, Random focus on one part of the image, Several random crops can be done in a row]**
 
-&#10230; [Herhangi bir değişiklik yapmamış resim, Görüntünün anlamının korunduğu bir eksene göre çevrilmiş görüntü, Hafif açılı döndürme, Yanlış yatay kalibrasyonu simule eder, Görüntünün bir bölümüne rastgele odaklanma, Arka arkaya birkaç rasgele kesme yapılabilir]
+&#10230; [Herhangi bir değişiklik yapılmamış görüntü, Görüntünün anlamının korunduğu bir eksene göre çevrilmiş görüntü, Hafif açılı döndürme, Yanlış yatay kalibrasyonu simule eder, Görüntünün bir bölümüne rastgele odaklanma, Arka arkaya birkaç rasgele kesme yapılabilir]
 
 <br>
 
@@ -139,7 +139,7 @@
 
 **21. Epoch ― In the context of training a model, epoch is a term used to refer to one iteration where the model sees the whole training set to update its weights.**
 
-&#10230; Epoch ― Bir modelin eğitimi kapsamında, modelin ağırlıklarını güncellemek için tüm eğitim setini kullandığı bir yinelemeye ifade etmek için kullanılan bir terimdir.
+&#10230; Dönem (Epok/Epoch) ― Bir modelin eğitimi kapsamında, modelin ağırlıklarını güncellemek için tüm eğitim setini kullandığı bir yinelemeye ifade etmek için kullanılan bir terimdir.
 
 <br>
 
@@ -193,16 +193,17 @@
 <br>
 
 
-**29. [Step 1: Bir küme eğitim verisi alın ve kaybı hesaplamak için ileriye doğru ilerleyin, Step 2: Her ağırlığa göre kaybın derecesini elde etmek için kaybı tekrar geriye doğru yayın, Step 3: Use the gradients to update the weights of the network.]**
+**29. [Step 1: Take a batch of training data and perform forward propagation to compute the loss, Step 2: Backpropagate the loss to get the gradient of the loss with respect to each weight, Step 3: Use the gradients to update the weights of the network.]**
 
-&#10230; [Adım 1: Take a batch of training data and perform forward propagation to compute the loss, Step 2: Backpropagate the loss to get the gradient of the loss with respect to each weight, Step 3: Ağın ağırlıklarını güncellemek için gradyanları kullanın.]
+&#10230; [Adım 1: Bir küme eğitim verisi alın ve kaybı hesaplamak için ileriye doğru ilerleyin, Step 2: Her ağırlığa göre kaybın derecesini elde etmek için kaybı tekrar geriye doğru yayın, Adım 3: Ağın ağırlıklarını güncellemek için gradyanları kullanın.]
+
 
 <br>
 
 
 **30. [Forward propagation, Backpropagation, Weights update]**
 
-&#10230; [İleri yayılım, Geriye yayılım, Ağırlıkların gğncellenmesi]
+&#10230; [İleri yayılım, Geriye yayılım, Ağırlıkların güncellenmesi]
 
 <br>
 
@@ -223,7 +224,7 @@
 
 **33. Xavier initialization ― Instead of initializing the weights in a purely random manner, Xavier initialization enables to have initial weights that take into account characteristics that are unique to the architecture.**
 
-&#10230; Xavier başlangıcı ―  Ağırlıkları tamamen rastgele bir şekilde başlatmak yerine, Xavier ilklendirme, mimariye özgü özellikleri dikkate alan ilk ağırlıkların alınmasını sağlar.
+&#10230; Xavier başlangıcı (ilklendirme) ― Ağırlıkları tamamen rastgele bir şekilde başlatmak yerine, Xavier başlangıcı, mimariye özgü özellikleri dikkate alan ilk ağırlıkların alınmasını sağlar.
 
 <br>
 
@@ -271,7 +272,7 @@
 
 **40. Adaptive learning rates ― Letting the learning rate vary when training a model can reduce the training time and improve the numerical optimal solution. While Adam optimizer is the most commonly used technique, others can also be useful. They are summed up in the table below:**
 
-&#10230; Uyarlanabilir öğrenmeoranları ― Bir modelin eğitilmesi sırasında öğrenme oranının değişmesine izin vermek eğitim süresini kısaltabilir ve sayısal optimum çözümü iyileştirebilir. Adam optimizasyonu yöntemi en çok kullanılan teknik olmasına rağmen, diğer yöntemler de faydalı olabilir. Bunlar aşağıdaki tabloda özetlenmiştir:
+&#10230; Uyarlanabilir öğrenme oranları ― Bir modelin eğitilmesi sırasında öğrenme oranının değişmesine izin vermek eğitim süresini kısaltabilir ve sayısal optimum çözümü iyileştirebilir. Adam optimizasyonu yöntemi en çok kullanılan teknik olmasına rağmen, diğer yöntemler de faydalı olabilir. Bunlar aşağıdaki tabloda özetlenmiştir:
 
 <br>
 

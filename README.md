@@ -43,9 +43,9 @@ Please make sure to propose the translation of **only one** cheatsheet per pull 
 
 |Cheatsheet topic|العَرَبِيَّة|עִבְרִית|हिन्दी|Türkçe|Русский|Italiano|
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|
-|Convolutional Neural Nets|not started|not started|not started|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/117)|not started|not started|
-|Recurrent Neural Nets|not started|not started|not started|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/120)|not started|not started|
-|DL tips and tricks|not started|not started|not started|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/116)|not started|not started|
+|Convolutional Neural Nets|not started|not started|not started|done|not started|not started|
+|Recurrent Neural Nets|not started|not started|not started|done|not started|not started|
+|DL tips and tricks|not started|not started|not started|done|not started|not started|
 
 
 |Cheatsheet topic|Polski|Suomi|Català|Українська|한국어|

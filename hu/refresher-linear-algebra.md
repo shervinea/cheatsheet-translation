@@ -1,180 +1,180 @@
 **1. Linear Algebra and Calculus refresher**
 
-&#10230;
+&#10230; Lineáris algebra és analízis felfrissítés
 
 <br>
 
 **2. General notations**
 
-&#10230;
+&#10230; Általános jelölések
 
 <br>
 
 **3. Definitions**
 
-&#10230;
+&#10230; Definíciók
 
 <br>
 
 **4. Vector ― We note x∈Rn a vector with n entries, where xi∈R is the ith entry:**
 
-&#10230;
+&#10230; Vektor -- Az n komponensű x∈Rn vektort, melynek xi∈R az i-edik komponense, így jelöljük:
 
 <br>
 
 **5. Matrix ― We note A∈Rm×n a matrix with m rows and n columns, where Ai,j∈R is the entry located in the ith row and jth column:**
 
-&#10230;
+&#10230; Mátrix -- Az m sorú és n oszlopú A∈Rm×n mátrixot, melynek Ai,j∈R az i-edik sorban és j-edik oszlopban található eleme, így jelöljük:
 
 <br>
 
 **6. Remark: the vector x defined above can be viewed as a n×1 matrix and is more particularly called a column-vector.**
 
-&#10230;
+&#10230; Megjegyzés: a fent definiált x vektor tekinthető egy n×1-es mátrixnak, és ekkor oszlopvektornak hívjuk.
 
 <br>
 
 **7. Main matrices**
 
-&#10230;
+&#10230; Főbb mátrixtípusok
 
 <br>
 
 **8. Identity matrix ― The identity matrix I∈Rn×n is a square matrix with ones in its diagonal and zero everywhere else:**
 
-&#10230;
+&#10230; Egységmátrix -- Az I∈Rn×n egységmátrix olyan négyzetes mátrix, melynek a diagonálisában (főátlójában) 1-esek állnak és 0-k mindenhol máshol.
 
 <br>
 
 **9. Remark: for all matrices A∈Rn×n, we have A×I=I×A=A.**
 
-&#10230;
+&#10230; Megjegyzés: bármely A∈Rn×n mátrix esetén igaz a következő: A×I=I×A=A.
 
 <br>
 
 **10. Diagonal matrix ― A diagonal matrix D∈Rn×n is a square matrix with nonzero values in its diagonal and zero everywhere else:**
 
-&#10230;
+&#10230; Diagonális mátrix -- A D∈Rn×n diagonális mátrix olyan négyzetes mátrix, melynek a diagonálisában (főátlójában) nemnulla elemek állnak és 0-k mindenhol máshol.
 
 <br>
 
 **11. Remark: we also note D as diag(d1,...,dn).**
 
-&#10230;
+&#10230; Megjegyzés: D-t jelölhetjük így is: diag(d1,...,dn).
 
 <br>
 
 **12. Matrix operations**
 
-&#10230;
+&#10230; Mátrixműveletek
 
 <br>
 
 **13. Multiplication**
 
-&#10230;
+&#10230; Szorzás
 
 <br>
 
 **14. Vector-vector ― There are two types of vector-vector products:**
 
-&#10230;
+&#10230; Vektor-vektor -- Kétféle vektor-vektor szorzat létezik.
 
 <br>
 
 **15. inner product: for x,y∈Rn, we have:**
 
-&#10230;
+&#10230; skaláris (vagy belső) szorzat: bármely x,y∈Rn esetén:
 
 <br>
 
 **16. outer product: for x∈Rm,y∈Rn, we have:**
 
-&#10230;
+&#10230; külső szorzat: bármely x∈Rm,y∈Rn esetén:
 
 <br>
 
 **17. Matrix-vector ― The product of matrix A∈Rm×n and vector x∈Rn is a vector of size Rn, such that:**
 
-&#10230;
+&#10230; mátrix-vektor -- az A∈Rm×n mátrix és x∈Rn vektor szorzata az az Rn-beli vektor, melyre:
 
 <br>
 
 **18. where aTr,i are the vector rows and ac,j are the vector columns of A, and xi are the entries of x.**
 
-&#10230;
+&#10230; ahol az aTr,i jelöli az A sorait és ac,j jelöli az A oszlopait, és xi az x vektor komponensei.
 
 <br>
 
 **19. Matrix-matrix ― The product of matrices A∈Rm×n and B∈Rn×p is a matrix of size Rn×p, such that:**
 
-&#10230;
+&#10230; Mátrix-mátrix -- Az A∈Rm×n és B∈Rn×p mátrixok szorzatai az az Rn×p-beli mátrix, melyre:
 
 <br>
 
 **20. where aTr,i,bTr,i are the vector rows and ac,j,bc,j are the vector columns of A and B respectively**
 
-&#10230;
+&#10230; ahol aTr,i,bTr,i rendre az A és B mátrixok sorai és ac,j,bc,j az A és B mátrixok oszlopai.
 
 <br>
 
 **21. Other operations**
 
-&#10230;
+&#10230; Egyéb műveletek
 
 <br>
 
 **22. Transpose ― The transpose of a matrix A∈Rm×n, noted AT, is such that its entries are flipped:**
 
-&#10230;
+&#10230; Transzponálás -- Az A∈Rm×n mátrix transzponáltját AT-vel jelöljük, és azt a mátrixot értjük alatta, mely az A elemeinek főátlóra való tükrözésével keletkezik:
 
 <br>
 
 **23. Remark: for matrices A,B, we have (AB)T=BTAT**
 
-&#10230;
+&#10230; Megjegyzés: bármely A,B mátrix esetén (AB)T=BTAT
 
 <br>
 
 **24. Inverse ― The inverse of an invertible square matrix A is noted A−1 and is the only matrix such that:**
 
-&#10230;
+&#10230; Inverzképzés (invertálás) -- Az A invertálható négyzetes mátrix inverzét A−1-vel jelöljük, és azt a mátrixot értjük alatta, melyre:
 
 <br>
 
 **25. Remark: not all square matrices are invertible. Also, for matrices A,B, we have (AB)−1=B−1A−1**
 
-&#10230;
+&#10230; Megjegyzés: nem minden négyzetes mátrix invertálható. Ha viszont A,B mátrixok invertálhatóak, akkor AB is invertálható és (AB)−1=B−1A−1.
 
 <br>
 
 **26. Trace ― The trace of a square matrix A, noted tr(A), is the sum of its diagonal entries:**
 
-&#10230;
+&#10230; Nyom -- Az A négyzetes mátrix nyomát tr(A)-val jelöljük, és a főátlóbeli elemek összegét értjük alatta.
 
 <br>
 
 **27. Remark: for matrices A,B, we have tr(AT)=tr(A) and tr(AB)=tr(BA)**
 
-&#10230;
+&#10230; Megjegyzés: bármely A,B négyzetes mátrix esetén tr(AT)=tr(A) és tr(AB)=tr(BA).
 
 <br>
 
 **28. Determinant ― The determinant of a square matrix A∈Rn×n, noted |A| or det(A) is expressed recursively in terms of A∖i,∖j, which is the matrix A without its ith row and jth column, as follows:**
 
-&#10230;
+&#10230; Determináns -- Az A∈Rn×n négyzetes mátrix determinánsát |A|-val vagy det(A)-val jelöljük, és rekurzívan, A∖i,∖j segítségével számolhatjuk ki, ahol A∖i,∖j az A mátrix azon részmátrixa, mely nem tartalmazza az A i-edik sorát és j-edik oszlopát.
 
 <br>
 
 **29. Remark: A is invertible if and only if |A|≠0. Also, |AB|=|A||B| and |AT|=|A|.**
 
-&#10230;
+&#10230; Megjegyzés: A invertálható akkor és csak akkor, ha |A|≠0. Továbbá |AB|=|A||B| és |AT|=|A|.
 
 <br>
 
 **30. Matrix properties**
 
-&#10230;
+&#10230; Mátrixtulajdonságok
 
 <br>
 

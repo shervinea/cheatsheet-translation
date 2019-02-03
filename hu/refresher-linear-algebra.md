@@ -18,13 +18,13 @@
 
 **4. Vector ― We note x∈Rn a vector with n entries, where xi∈R is the ith entry:**
 
-&#10230; Vektor -- Az n komponensű x∈Rn vektort, melynek xi∈R az i-edik komponense, így jelöljük:
+&#10230; Vektor ― Az n komponensű x∈Rn vektort, melynek xi∈R az i-edik komponense, így jelöljük:
 
 <br>
 
 **5. Matrix ― We note A∈Rm×n a matrix with m rows and n columns, where Ai,j∈R is the entry located in the ith row and jth column:**
 
-&#10230; Mátrix -- Az m sorú és n oszlopú A∈Rm×n mátrixot, melynek Ai,j∈R az i-edik sorban és j-edik oszlopban található eleme, így jelöljük:
+&#10230; Mátrix ― Az m sorú és n oszlopú A∈Rm×n mátrixot, melynek Ai,j∈R az i-edik sorban és j-edik oszlopban található eleme, így jelöljük:
 
 <br>
 
@@ -42,7 +42,7 @@
 
 **8. Identity matrix ― The identity matrix I∈Rn×n is a square matrix with ones in its diagonal and zero everywhere else:**
 
-&#10230; Egységmátrix -- Az I∈Rn×n egységmátrix olyan négyzetes mátrix, melynek a diagonálisában (főátlójában) 1-esek állnak és 0-k mindenhol máshol.
+&#10230; Egységmátrix ― Az I∈Rn×n egységmátrix olyan négyzetes mátrix, melynek a diagonálisában (főátlójában) 1-esek állnak és 0-k mindenhol máshol.
 
 <br>
 
@@ -54,7 +54,7 @@
 
 **10. Diagonal matrix ― A diagonal matrix D∈Rn×n is a square matrix with nonzero values in its diagonal and zero everywhere else:**
 
-&#10230; Diagonális mátrix -- A D∈Rn×n diagonális mátrix olyan négyzetes mátrix, melynek a diagonálisában (főátlójában) nemnulla elemek állnak és 0-k mindenhol máshol.
+&#10230; Diagonális mátrix ― A D∈Rn×n diagonális mátrix olyan négyzetes mátrix, melynek a diagonálisában (főátlójában) nemnulla elemek állnak és 0-k mindenhol máshol.
 
 <br>
 
@@ -78,7 +78,7 @@
 
 **14. Vector-vector ― There are two types of vector-vector products:**
 
-&#10230; Vektor-vektor -- Kétféle vektor-vektor szorzat létezik.
+&#10230; Vektor-vektor ― Kétféle vektor-vektor szorzat létezik.
 
 <br>
 
@@ -96,7 +96,7 @@
 
 **17. Matrix-vector ― The product of matrix A∈Rm×n and vector x∈Rn is a vector of size Rn, such that:**
 
-&#10230; mátrix-vektor -- az A∈Rm×n mátrix és x∈Rn vektor szorzata az az Rn-beli vektor, melyre:
+&#10230; mátrix-vektor ― az A∈Rm×n mátrix és x∈Rn vektor szorzata az az Rn-beli vektor, melyre:
 
 <br>
 
@@ -108,7 +108,7 @@
 
 **19. Matrix-matrix ― The product of matrices A∈Rm×n and B∈Rn×p is a matrix of size Rn×p, such that:**
 
-&#10230; Mátrix-mátrix -- Az A∈Rm×n és B∈Rn×p mátrixok szorzatai az az Rn×p-beli mátrix, melyre:
+&#10230; Mátrix-mátrix ― Az A∈Rm×n és B∈Rn×p mátrixok szorzatai az az Rn×p-beli mátrix, melyre:
 
 <br>
 
@@ -126,7 +126,7 @@
 
 **22. Transpose ― The transpose of a matrix A∈Rm×n, noted AT, is such that its entries are flipped:**
 
-&#10230; Transzponálás -- Az A∈Rm×n mátrix transzponáltját AT-vel jelöljük, és azt a mátrixot értjük alatta, mely az A elemeinek főátlóra való tükrözésével keletkezik:
+&#10230; Transzponálás ― Az A∈Rm×n mátrix transzponáltja (jel.: AT) alatt azt a mátrixot értjük, mely az A elemeinek főátlóra való tükrözésével keletkezik:
 
 <br>
 
@@ -138,7 +138,7 @@
 
 **24. Inverse ― The inverse of an invertible square matrix A is noted A−1 and is the only matrix such that:**
 
-&#10230; Inverzképzés (invertálás) -- Az A invertálható négyzetes mátrix inverzét A−1-vel jelöljük, és azt a mátrixot értjük alatta, melyre:
+&#10230; Inverzképzés (invertálás) ― Az A invertálható négyzetes mátrix inverzét A−1-vel jelöljük, és azt a mátrixot értjük alatta, melyre:
 
 <br>
 
@@ -150,7 +150,7 @@
 
 **26. Trace ― The trace of a square matrix A, noted tr(A), is the sum of its diagonal entries:**
 
-&#10230; Nyom -- Az A négyzetes mátrix nyomát tr(A)-val jelöljük, és a főátlóbeli elemek összegét értjük alatta.
+&#10230; Nyom ― Az A négyzetes mátrix nyoma (jel.: tr(A)) alatt a főátlóbeli elemek összegét értjük.
 
 <br>
 
@@ -162,13 +162,13 @@
 
 **28. Determinant ― The determinant of a square matrix A∈Rn×n, noted |A| or det(A) is expressed recursively in terms of A∖i,∖j, which is the matrix A without its ith row and jth column, as follows:**
 
-&#10230; Determináns -- Az A∈Rn×n négyzetes mátrix determinánsát |A|-val vagy det(A)-val jelöljük, és rekurzívan, A∖i,∖j segítségével számolhatjuk ki, ahol A∖i,∖j az A mátrix azon részmátrixa, mely nem tartalmazza az A i-edik sorát és j-edik oszlopát.
+&#10230; Determináns ― Az A∈Rn×n négyzetes mátrix determinánsát (jel.: |A| vagy det(A)) rekurzívan, A∖i,∖j segítségével számolhatjuk ki, ahol A∖i,∖j az A mátrix azon részmátrixa, mely nem tartalmazza az A i-edik sorát és j-edik oszlopát.
 
 <br>
 
 **29. Remark: A is invertible if and only if |A|≠0. Also, |AB|=|A||B| and |AT|=|A|.**
 
-&#10230; Megjegyzés: A invertálható akkor és csak akkor, ha |A|≠0. Továbbá |AB|=|A||B| és |AT|=|A|.
+&#10230; Megjegyzés: A mátrix akkor és csak akkor invertálható, ha |A|≠0. Továbbá |AB|=|A||B| és |AT|=|A|.
 
 <br>
 
@@ -180,97 +180,97 @@
 
 **31. Definitions**
 
-&#10230;
+&#10230; Definíciók
 
 <br>
 
 **32. Symmetric decomposition ― A given matrix A can be expressed in terms of its symmetric and antisymmetric parts as follows:**
 
-&#10230;
+&#10230; Szimmetrikus felbontás ― Egy adott A mátrix felírható szimmetrikus és antiszimmetrikus mátrixok összegeként az alábbi módon: 
 
 <br>
 
 **33. [Symmetric, Antisymmetric]**
 
-&#10230;
+&#10230; [Szimmetrikus, Antiszimmetrikus]
 
 <br>
 
 **34. Norm ― A norm is a function N:V⟶[0,+∞[ where V is a vector space, and such that for all x,y∈V, we have:**
 
-&#10230;
+&#10230; Norma ― Az N:V⟶[0,+∞[ függvényt normának nevezünk, ha V vektortér és minden x,y∈V esetén:
 
 <br>
 
 **35. N(ax)=|a|N(x) for a scalar**
 
-&#10230;
+&#10230; N(ax)=|a|N(x) ahol a egy skalár
 
 <br>
 
 **36. if N(x)=0, then x=0**
 
-&#10230;
+&#10230; ha N(x)=0, akkor x=0
 
 <br>
 
 **37. For x∈V, the most commonly used norms are summed up in the table below:**
 
-&#10230;
+&#10230; Az alábbi táblázatban foglaljuk össze a leggyakrabban használt normákat (x∈V):
 
 <br>
 
 **38. [Norm, Notation, Definition, Use case]**
 
-&#10230;
+&#10230; [Norma, Jelölés, Definíció, Itt (is) használjuk]
 
 <br>
 
 **39. Linearly dependence ― A set of vectors is said to be linearly dependent if one of the vectors in the set can be defined as a linear combination of the others.**
 
-&#10230;
+&#10230; Lineáris összefüggőség ― Egy vektorrendszert lineárisan összefüggőnek nevezünk, ha van olyan vektora, mely kifejezhető a többi vektor lineáris kombinációjaként.
 
 <br>
 
 **40. Remark: if no vector can be written this way, then the vectors are said to be linearly independent**
 
-&#10230;
+&#10230; Megjegyzés: ha egyetlen vektor sem fejezhető ki így, akkor azt mondjuk, hogy a vektorrendszer lineárisan független.
 
 <br>
 
 **41. Matrix rank ― The rank of a given matrix A is noted rank(A) and is the dimension of the vector space generated by its columns. This is equivalent to the maximum number of linearly independent columns of A.**
 
-&#10230;
+&#10230; Mátrixrang ― Az A mátrix rangja (jel.: r(A)) alatt az oszlopai által generált altér dimenziója. Ekvivalensen: ha A oszlopai közt található r(A) lineárisan független, de több nem.
 
 <br>
 
 **42. Positive semi-definite matrix ― A matrix A∈Rn×n is positive semi-definite (PSD) and is noted A⪰0 if we have:**
 
-&#10230;
+&#10230; Pozitív szemidefinit mátrix ― Az A∈Rn×n pozitív szemidefinit (jel.: A⪰0), ha igazak az alábbiak:
 
 <br>
 
 **43. Remark: similarly, a matrix A is said to be positive definite, and is noted A≻0, if it is a PSD matrix which satisfies for all non-zero vector x, xTAx>0.**
 
-&#10230;
+&#10230; Megjegyzés:
 
 <br>
 
 **44. Eigenvalue, eigenvector ― Given a matrix A∈Rn×n, λ is said to be an eigenvalue of A if there exists a vector z∈Rn∖{0}, called eigenvector, such that we have:**
 
-&#10230;
+&#10230; Sajátérték, sajátvektor ―
 
 <br>
 
 **45. Spectral theorem ― Let A∈Rn×n. If A is symmetric, then A is diagonalizable by a real orthogonal matrix U∈Rn×n. By noting Λ=diag(λ1,...,λn), we have:**
 
-&#10230;
+&#10230; Spektráltétel ―
 
 <br>
 
 **46. diagonal**
 
-&#10230;
+&#10230; diagonális
 
 <br>
 

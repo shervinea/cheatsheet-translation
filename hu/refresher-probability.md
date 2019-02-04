@@ -1,138 +1,138 @@
 **1. Probabilities and Statistics refresher**
 
-&#10230;
+&#10230; Valószínűségszámítás és statisztika felfrissítés
 
 <br>
 
 **2. Introduction to Probability and Combinatorics**
 
-&#10230;
+&#10230; Bevezetés a valószínűségszámításba és kombinatorikába
 
 <br>
 
 **3. Sample space ― The set of all possible outcomes of an experiment is known as the sample space of the experiment and is denoted by S.**
 
-&#10230;
+&#10230; Eseménytér ― Egy kísérlet összes lehetséges kimenetelének halmazára azt mondjuk, hogy a kísérlet eseménytere és S-sel jelöljök.
 
 <br>
 
 **4. Event ― Any subset E of the sample space is known as an event. That is, an event is a set consisting of possible outcomes of the experiment. If the outcome of the experiment is contained in E, then we say that E has occurred.**
 
-&#10230;
+&#10230; Az eseménytér bármely E részhalmazáról azt mondjuk, hogy esemény. Azaz egy esemény olyan halmaz, mely a kísérlet lehetséges kimeneteleit tartalmazza. Ha kísérlet egy kimenetele E-nek eleme, akkor azt mondjuk, hogy E esemény bekövetkezett.
 
 <br>
 
 **5. Axioms of probability For each event E, we denote P(E) as the probability of event E occuring.**
 
-&#10230;
+&#10230; Valószínűségi axiómák ― Egy E esemény esetén jelölje P(E) az E esemény bekövetkezésének valószínűségét.
 
 <br>
 
 **6. Axiom 1 ― Every probability is between 0 and 1 included, i.e:**
 
-&#10230;
+&#10230; 1. axióma ― a valószínűség 0 és 1 közötti valós szám (a határokat is beleértve), azaz:
 
 <br>
 
 **7. Axiom 2 ― The probability that at least one of the elementary events in the entire sample space will occur is 1, i.e:**
 
-&#10230;
+&#10230; 2. axióma ― Annak a valószínűsége, hogy legalább egy elemi esemény TODO
 
 <br>
 
 **8. Axiom 3 ― For any sequence of mutually exclusive events E1,...,En, we have:**
 
-&#10230;
+&#10230; Bármely egymást kizáró E1,...,En, eseményekre:
 
 <br>
 
 **9. Permutation ― A permutation is an arrangement of r objects from a pool of n objects, in a given order. The number of such arrangements is given by P(n,r), defined as:**
 
-&#10230;
+&#10230; Ismétlés nélküli variáció ― n elem közül r-nek a lehetséges kiválasztása az r darab elem ismétlés nélküli variációjának hívjuk (jel.: P(n,r)) és így definiáljuk:
 
 <br>
 
 **10. Combination ― A combination is an arrangement of r objects from a pool of n objects, where the order does not matter. The number of such arrangements is given by C(n,r), defined as:**
 
-&#10230;
+&#10230; Ismétlés nélküli kombináció ― ha a kiválasztás sorrendje nem számít, akkor n elem közül r-nek a lehetétséges kiválasztását ismétlés nélküli kombinációnak hívjuk (jel.: C(n,r)), és így definiáljuk:
 
 <br>
 
 **11. Remark: we note that for 0⩽r⩽n, we have P(n,r)⩾C(n,r)**
 
-&#10230;
+&#10230; Megjegyzés: ha 0⩽r⩽n, akkor P(n,r)⩾C(n,r)
 
 <br>
 
 **12. Conditional Probability**
 
-&#10230;
+&#10230; Feltételes valószínűség
 
 <br>
 
 **13. Bayes' rule ― For events A and B such that P(B)>0, we have:**
 
-&#10230;
+&#10230; Bayes-tétel ― Legyenek A és B események és P(B)>0. Ekkor
 
 <br>
 
 **14. Remark: we have P(A∩B)=P(A)P(B|A)=P(A|B)P(B)**
 
-&#10230;
+&#10230; Megjegyzés: P(A∩B)=P(A)P(B|A)=P(A|B)P(B)
 
 <br>
 
 **15. Partition ― Let {Ai,i∈[[1,n]]} be such that for all i, Ai≠∅. We say that {Ai} is a partition if we have:**
 
-&#10230;
+&#10230; Teljes eseményrendszer ― Legyen {Ai,i∈[[1,n]]} olyan, hogy minden i-re Ai≠∅. Ekkor azt mondjuk, hogy {Ai} teljes eseményrendszer, ha
 
 <br>
 
 **16. Remark: for any event B in the sample space, we have P(B)=n∑i=1P(B|Ai)P(Ai).**
 
-&#10230;
+&#10230; Megjegyzés: bármely B eseményre fennáll, hogy P(B)=n∑i=1P(B|Ai)P(Ai).
 
 <br>
 
 **17. Extended form of Bayes' rule ― Let {Ai,i∈[[1,n]]} be a partition of the sample space. We have:**
 
-&#10230;
+&#10230; Általánosított Bayes-tétel ― Legyen {Ai,i∈[[1,n]]} teljes eseményrendszer. Ekkor
 
 <br>
 
 **18. Independence ― Two events A and B are independent if and only if we have:**
 
-&#10230;
+&#10230; Függetlenség ― A és B események függetlenek pontosan akkor, ha
 
 <br>
 
 **19. Random Variables**
 
-&#10230;
+&#10230; Valószínűségi változók
 
 <br>
 
 **20. Definitions**
 
-&#10230;
+&#10230; Definíciók
 
 <br>
 
 **21. Random variable ― A random variable, often noted X, is a function that maps every element in a sample space to a real line.**
 
-&#10230;
+&#10230; Valószínűségi változó ― Az X valószínűségi változó olyan függvény, mely az eseménytér minden elemét a valós számegyenesre képezi.
 
 <br>
 
 **22. Cumulative distribution function (CDF) ― The cumulative distribution function F, which is monotonically non-decreasing and is such that limx→−∞F(x)=0 and limx→+∞F(x)=1, is defined as:**
 
-&#10230;
+&#10230; Eloszlásfüggvény ― Az X val. változó F eloszlásfüggvényét, mely (a) monoton növő, (b) balról folytonos és (c) igaz rá, hogy limx→−∞F(x)=0 és limx→+∞F(x)=1, a következőképpen definiáljuk:
 
 <br>
 
 **23. Remark: we have P(a<X⩽B)=F(b)−F(a).**
 
-&#10230;
+&#10230; Megjegyzés: tetszőleges X val. változó esetén fennáll, hogy P(a<X⩽B)=F(b)−F(a).
 
 <br>
 

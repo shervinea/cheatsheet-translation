@@ -252,19 +252,19 @@
 
 **43. Remark: similarly, a matrix A is said to be positive definite, and is noted A≻0, if it is a PSD matrix which satisfies for all non-zero vector x, xTAx>0.**
 
-&#10230; Megjegyzés:
+&#10230; Megjegyzés: hasonlóan, az A∈Rn×n pozitív definit (jel.: A≻0), ha igazak pozitív szemidefinit és minden nemnulla x vektorra xTAx>0.
 
 <br>
 
 **44. Eigenvalue, eigenvector ― Given a matrix A∈Rn×n, λ is said to be an eigenvalue of A if there exists a vector z∈Rn∖{0}, called eigenvector, such that we have:**
 
-&#10230; Sajátérték, sajátvektor ―
+&#10230; Sajátérték, sajátvektor ― Legyen A∈Rn×n. Azt mondjuk, hogy λ sajátértéke az A-nak, ha létezik olyan z∈Rn∖{0} vektor (az ún. sajátvektorI, melyre:
 
 <br>
 
 **45. Spectral theorem ― Let A∈Rn×n. If A is symmetric, then A is diagonalizable by a real orthogonal matrix U∈Rn×n. By noting Λ=diag(λ1,...,λn), we have:**
 
-&#10230; Spektráltétel ―
+&#10230; Spektráltétel ― Legyen A∈Rn×n. Ha A szimmetrikus, akkor A diagonalizálható egy U∈Rn×n valós ortogonális mátrixszal. Azaz ha Λ=diag(λ1,...,λn), akkor
 
 <br>
 
@@ -276,64 +276,64 @@
 
 **47. Singular-value decomposition ― For a given matrix A of dimensions m×n, the singular-value decomposition (SVD) is a factorization technique that guarantees the existence of U m×m unitary, Σ m×n diagonal and V n×n unitary matrices, such that:**
 
-&#10230;
+&#10230; Szinguláris felbontás ― Legyen m×n-es valós (komplex) A mátrix adott. Ekkor A szinguláris érték szerinti felbontása olyan faktorizációs technika, mely garantálja az U m×m-es ortogonális (unitér), Σ m×n-es diagonális és V n×n-es ortogonális (unitér) mátrixok létezését, melyekre:
 
 <br>
 
 **48. Matrix calculus**
 
-&#10230;
+&#10230; Mátrixanalízis
 
 <br>
 
 **49. Gradient ― Let f:Rm×n→R be a function and A∈Rm×n be a matrix. The gradient of f with respect to A is a m×n matrix, noted ∇Af(A), such that:**
 
-&#10230;
+&#10230; Gradiens ― Legyen f:Rm×n→R függvény és A∈Rm×n mátrix. Az f gradiense az A-ra nézve az az m×n-es mátrix (jel.: ∇Af(A)), melyre:
 
 <br>
 
 **50. Remark: the gradient of f is only defined when f is a function that returns a scalar.**
 
-&#10230;
+&#10230; Megjegyzés: az f gradiensét csak skalárértékű függvény esetén definiáljuk.
 
 <br>
 
 **51. Hessian ― Let f:Rn→R be a function and x∈Rn be a vector. The hessian of f with respect to x is a n×n symmetric matrix, noted ∇2xf(x), such that:**
 
-&#10230;
+&#10230; Hesse-mátrix ― Legyen f:Rn→R függvény és x∈Rn vektor. Ekkor az f Hesse-mátrixa x-ben az az n×n-es mátrix (jel.: ∇2xf(x)), melyre:
 
 <br>
 
 **52. Remark: the hessian of f is only defined when f is a function that returns a scalar**
 
-&#10230;
+&#10230; Megjegyzés: Az f Hesse-mátrixát csak skalárértékű függvény esetén definiáljuk.
 
 <br>
 
 **53. Gradient operations ― For matrices A,B,C, the following gradient properties are worth having in mind:**
 
-&#10230;
+&#10230; Műveletek a gradienssel ― Adott A,B,C mátrixok esetén érdemes a gradiens alábbi tulajdonságait megjegyeznünk:
 
 <br>
 
 **54. [General notations, Definitions, Main matrices]**
 
-&#10230;
+&#10230; [Általános jelölések, Definíciók, Főbb mátrixtípusok]
 
 <br>
 
 **55. [Matrix operations, Multiplication, Other operations]**
 
-&#10230;
+&#10230; [Mátrixműveletek, Szorzás, Egyéb műveletek]
 
 <br>
 
 **56. [Matrix properties, Norm, Eigenvalue/Eigenvector, Singular-value decomposition]**
 
-&#10230;
+&#10230; [Mátrixtulajdonságok, Norma, Sajátérték/Sajátvektor, Szinguláris felbontás]
 
 <br>
 
 **57. [Matrix calculus, Gradient, Hessian, Operations]**
 
-&#10230;
+&#10230; [Mátrixanalízis, Gradiens, Hesse-mátrix, Műveletek]

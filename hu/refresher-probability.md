@@ -324,7 +324,7 @@
 
 **55. Estimating the variance**
 
-&#10230; 
+&#10230; Szórásnégyzetbecslés
 
 <br>
 

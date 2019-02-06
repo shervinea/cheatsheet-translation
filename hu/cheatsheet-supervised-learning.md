@@ -1,66 +1,66 @@
 **1. Supervised Learning cheatsheet**
 
-&#10230;
+&#10230; Felügyelt tanulás segédanyag
 
 <br>
 
 **2. Introduction to Supervised Learning**
 
-&#10230;
+&#10230; Bevezetés a felügyelt tanulásba
 
 <br>
 
 **3. Given a set of data points {x(1),...,x(m)} associated to a set of outcomes {y(1),...,y(m)}, we want to build a classifier that learns how to predict y from x.**
 
-&#10230;
+&#10230; Adott az {x(1),...,x(m)} mintapontokból mint bemenetből álló halmaz és a hozzájuk tartozó {y(1),...,y(m)} kimenethalmaz. Célunk olyan leképezés megtanulása, mely meg tudja jósolni (TODO előre tudja jelezni) y-t x-ből és megfelelő általánosítási képességekkel rendelkezik.
 
 <br>
 
 **4. Type of prediction ― The different types of predictive models are summed up in the table below:**
 
-&#10230;
+&#10230; Az előrejelzés típusai ― Különböző előrejelző modelleket az alábbi táblázat foglalja össze:
 
 <br>
 
 **5. [Regression, Classifier, Outcome, Examples]**
 
-&#10230;
+&#10230; [Regresszió, Klasszifikáció (osztályozás), Kimenet, Példák]
 
 <br>
 
 **6. [Continuous, Class, Linear regression, Logistic regression, SVM, Naive Bayes]**
 
-&#10230;
+&#10230; [Folytonos, Osztály, Lineáris regresszió, Logisztikus regresszió, SVM, Naív Bayes]
 
 <br>
 
 **7. Type of model ― The different models are summed up in the table below:**
 
-&#10230;
+&#10230; Modelltípus ― Két különböző modelltípust mutatunk be a következő táblázatban:
 
 <br>
 
 **8. [Discriminative model, Generative model, Goal, What's learned, Illustration, Examples]**
 
-&#10230;
+&#10230; [Diszkriminatív modell, Generatív modell, Cél, Mit tanul meg, Illusztráció, Példák]
 
 <br>
 
 **9. [Directly estimate P(y|x), Estimate P(x|y) to then deduce P(y|x), Decision boundary,  	Probability distributions of the data, Regressions, SVMs, GDA, Naive Bayes]**
 
-&#10230;
+&#10230; [P(y|x) közvetlen becslése, P(x|y) becslése által P(y|x)-re következtetés, Döntési határ, Az adatok valószínűségi eloszlása, Regressziók, SVM-ek, Gauss-féle diszkriminanciaanalízis (GDA), Naív Bayes]
 
 <br>
 
 **10. Notations and general concepts**
 
-&#10230;
+&#10230; Jelölések és általános fogalmak
 
 <br>
 
 **11. Hypothesis ― The hypothesis is noted hθ and is the model that we choose. For a given input data x(i) the model prediction output is hθ(x(i)).**
 
-&#10230;
+&#10230; Hipotézis ― 
 
 <br>
 

@@ -68,7 +68,7 @@
 **8. [Good practices, Overfitting small batch, Gradient checking]**
 
 <div dir="rtl">
-[تمرینات خوب، برارزش دسته کوچک، وارسی گرادیان]
+[تمرینات خوب، برارزش دسته‌ی‌کوچک، وارسی گرادیان]
 </div>
 
 <br>

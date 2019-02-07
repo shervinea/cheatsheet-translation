@@ -497,7 +497,7 @@
 **55. Gradient checking ― Gradient checking is a method used during the implementation of the backward pass of a neural network. It compares the value of the analytical gradient to the numerical gradient at given points and plays the role of a sanity-check for correctness.**
 
 <div dir="rtl">
-وارسی گرادیان – وارسی گرادیان متدی است که در طول پیاده سازی گذر روبه‌عقب یک شبکه عصبی استفاده می شود. این متد مقدار گرادیان تحلیلی را با گرادیان عددی در نقطه‌های مفروض را مقایسه میکند و نقش بررسی‌درستی را ایفا میکند. 
+وارسی گرادیان – وارسی گرادیان متدی است که در طول پیاده سازی گذر روبه‌عقبِ یک شبکه عصبی استفاده می شود. این متد مقدار گرادیان تحلیلی را با گرادیان عددی در نقطه‌های مفروض را مقایسه میکند و نقش بررسی‌درستی را ایفا میکند. 
 </div>
 
 <br>

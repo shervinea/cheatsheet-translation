@@ -193,7 +193,7 @@
 **22. Mini-batch gradient descent ― During the training phase, updating weights is usually not based on the whole training set at once due to computation complexities or one data point due to noise issues. Instead, the update step is done on mini-batches, where the number of data points in a batch is a hyperparameter that we can tune.**
 
 <div dir="rtl">
-گرادیان نزولی دسته‌ی‌کوچک ―  در فاز آموزش، بروزرسانی وزن‌ها معمولا بر مبنای تمامی مجموعه آموزش به علت پیچیدگی‌های محاسباتی، یا یک نمونه داده به علت مشکل نویز نیست. در عوض، گام بروزرسانی بر روی دسته‌های کوچک انجام می شود، که تعداد نمونه‌های داده در یک دسته فراعاملی است که میتوان آن را تنظیم کرد.
+گرادیان نزولی دسته‌ی‌کوچک ―  در فاز آموزش، بروزرسانی وزن‌ها معمولا بر مبنای تمامی مجموعه آموزش به علت پیچیدگی‌های محاسباتی، یا یک نمونه داده به علت مشکل نویز، نیست. در عوض، گام بروزرسانی بر روی دسته‌های کوچک انجام می شود، که تعداد نمونه‌های داده در یک دسته فراعاملی است که میتوان آن را تنظیم کرد.
 </div>
 
 <br>
@@ -202,7 +202,7 @@
 **23. Loss function ― In order to quantify how a given model performs, the loss function L is usually used to evaluate to what extent the actual outputs y are correctly predicted by the model outputs z.**
 
 <div dir="rtl">
-تابع خطا ―  به منظور سنجش کارایی یک مدل مفروض، معمولا از تابع خطا L برای ارزیابی اینکه تا چه حد خروجی حقیقی y به شکل صحیح توسط خروجی z مدل پیش‌بینی شدهاند، استفاده می‌شود. 
+تابع خطا ―  به منظور سنجش کارایی یک مدل مفروض، معمولا از تابع خطا L برای ارزیابی اینکه تا چه حد خروجی حقیقی y به شکل صحیح توسط خروجی z مدل پیش‌بینی شده‌اند، استفاده می‌شود. 
 </div>
 
 <br>

@@ -539,7 +539,7 @@
 <br>
 
 
-**60. The Deep Learning cheatsheets are now available in [target language].
+**60. The Deep Learning cheatsheets are now available in [target language].**
 
 <div dir="rtl">
 راهنمای یادگیری عمیق هم اکنون به زبان [فارسی] در دسترس است.

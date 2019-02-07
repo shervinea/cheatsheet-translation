@@ -247,7 +247,7 @@
 **28. Updating weights ― In a neural network, weights are updated as follows:**
 
 <div dir="rtl">
-بروزرسانی وزن‌ها – در یک شبکه عصبی، وزن‌ها به شکل زیر بروزرسانی میشوند:
+بروزرسانی وزن‌ها – در یک شبکه عصبی، وزن‌ها به شکل زیر بروزرسانی می‌شوند:
 </div>
 
 <br>

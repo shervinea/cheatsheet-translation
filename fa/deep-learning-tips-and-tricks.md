@@ -100,7 +100,6 @@
 
 <br>
 
-
 **12. [Original, Flip, Rotation, Random crop]**
 
 <div dir="rtl">

@@ -130,7 +130,7 @@
 **15. [Nuances of RGB is slightly changed, Captures noise that can occur with light exposure, Addition of noise, More tolerance to quality variation of inputs, Parts of image ignored, Mimics potential loss of parts of image, Luminosity changes, Controls difference in exposition due to time of day]**
 
 <div dir="rtl">
-[عناصر RGB کمی تغییر کرده است، نویزی که در هنگام مواجهه شدن با نور رخ می‌دهد را می‌گیرد، افزودگی نویز، مقاومت بیشتر به تغییر کیفیت ورودی‌ها، بخش‌هایی از تصویر نادیده گرفته میشوند، تقلید (شبیه سازی) هدررفت بالقوه بخش هایی از تصویر، تغییر درخشندگی، با توجه به زمان روز، تفاوت نمایش (تصویر) را کنترل می‌کند]
+[عناصر RGB کمی تغییر کرده است، نویزی که در هنگام مواجهه شدن با نور رخ می‌دهد را می‌گیرد، افزودگی نویز، مقاومت بیشتر به تغییر کیفیت ورودی‌ها، بخش‌هایی از تصویر نادیده گرفته می‌شوند، تقلید (شبیه سازی) هدررفت بالقوه بخش هایی از تصویر، تغییر درخشندگی، با توجه به زمان روز، تفاوت نمایش (تصویر) را کنترل می‌کند]
 </div>
 
 <br>

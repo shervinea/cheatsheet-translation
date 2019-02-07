@@ -4,7 +4,9 @@
 
 **1. Deep Learning Tips and Tricks cheatsheet**
 
-&#10230;
+<div dir="rtl">
+راهنمای کوتاه نکات و ترفندهای یادگیری عمیق
+<div>
 
 <br>
 

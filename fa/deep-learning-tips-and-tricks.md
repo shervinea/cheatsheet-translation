@@ -533,7 +533,7 @@
 **59. ['Exact' result, Direct computation, Used in the final implementation]**
 
 <div dir="rtl">
-[نتیجه ‘عینی، محاسبه مستقیم، در پیاده‌سازی نهایی استفاده میشود]
+[نتیجه 'عینی'، محاسبه مستقیم، در پیاده‌سازی نهایی استفاده میشود]
 </div>
 
 <br>

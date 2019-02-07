@@ -283,7 +283,7 @@
 **32. Weights initialization**
 
 <div dir="rtl">
-مقداردهی‌اولیه وزنها
+مقداردهی‌اولیه وزن‌ها
 </div>
 
 <br>
@@ -301,7 +301,7 @@
 **34. Transfer learning ― Training a deep learning model requires a lot of data and more importantly a lot of time. It is often useful to take advantage of pre-trained weights on huge datasets that took days/weeks to train, and leverage it towards our use case. Depending on how much data we have at hand, here are the different ways to leverage this:**
 
 <div dir="rtl">
-یادگیری انتقالی ― آموزش یک مدل یادگیری عمیق به داده‌های زیاد و مهم تر از آن به زمان زیادی احتیاج دارد. اغلب استفاده از مزیت وزنهای ازقبل‌آموزش داده شده برروی پایگاه داده‌های عظیم که روزها/هفته‌ها طول می‌کشند تا آموزش ببینند، مفید است، و  می‌توان از قدرت آن برای مورد استفاده‌مان بهره جست. بسته به میزان داده‌هایی که در اختیار داریم ، در زیر روشهای مختلفی که می‌توان از آنها بهره جست آورده شده‌اند:
+یادگیری انتقالی ― آموزش یک مدل یادگیری عمیق به داده‌های زیاد و مهم تر از آن به زمان زیادی احتیاج دارد. اغلب استفاده از مزیت وزنهای ازقبل‌آموزش داده شده برروی پایگاه داده‌های عظیم که روزها/هفته‌ها طول می‌کشند تا آموزش ببینند، مفید است، و  می‌توان از قدرت آن برای مورد استفاده‌مان بهره جست. بسته به میزان داده‌هایی که در اختیار داریم ، در زیر روش‌های مختلفی که می‌توان از آنها بهره جست آورده شده‌اند:
 </div>
 
 <br>
@@ -356,7 +356,7 @@
 **40. Adaptive learning rates ― Letting the learning rate vary when training a model can reduce the training time and improve the numerical optimal solution. While Adam optimizer is the most commonly used technique, others can also be useful. They are summed up in the table below:**
 
 <div dir="rtl">
-نرخ‌های یادگیری سازگارشونده ― داشتن نرخ یادگیری متغیر در فرآیند آموزش یک مدل،  می‌تواند زمان آموزش را کاهش دهد و راه‌حل بهینه عددی را بهبود ببخشد. با آنکه بهینه ساز Adam محبوب‌ترین متد مورد استفاده است، دیگر متدها نیز میتوانند مفید باشند. این متد ها در جدول زیر به اختصار آمده‌اند:
+نرخ‌های یادگیری سازگارشونده ― داشتن نرخ یادگیری متغیر در فرآیند آموزش یک مدل،  می‌تواند زمان آموزش را کاهش دهد و راه‌حل بهینه عددی را بهبود ببخشد. با آنکه بهینه ساز Adam محبوب‌ترین متد مورد استفاده است، دیگر متدها نیز می‌توانند مفید باشند. این متد ها در جدول زیر به اختصار آمده‌اند:
 </div>
 
 <br>
@@ -419,7 +419,7 @@
 **47. Dropout ― Dropout is a technique used in neural networks to prevent overfitting the training data by dropping out neurons with probability p>0. It forces the model to avoid relying too much on particular sets of features.**
 
 <div dir="rtl">
-برون‌اندازی – برون‌اندازی روشی است که در شبکه های عصبی برای جلوگیری از برارزش شدن بر روی داده‌های آموزشی با حذف تصادفی نورون‌ها با احتمال p>0 استفاده میشود. این روش مدل را مجبور میکند تا از تکیه کردن بیش از حد بر روی مجموعه خاصی از ویژگی‌ها خودداری کند.
+برون‌اندازی – برون‌اندازی روشی است که در شبکه‌های عصبی برای جلوگیری از برارزش شدن بر روی داده‌های آموزشی با حذف تصادفی نورون‌ها با احتمال p>0 استفاده می‌شود. این روش مدل را مجبور می‌کند تا از تکیه کردن بیش از حد بر روی مجموعه خاصی از ویژگی‌ها خودداری کند.
 </div>
 
 <br>
@@ -428,7 +428,7 @@
 **48. Remark: most deep learning frameworks parametrize dropout through the 'keep' parameter 1−p.**
 
 <div dir="rtl">
-نکته: بیشتر فریم ورکهای یادگیری عمیق برون‌اندازی را به شکل پارامتر ‘keep’  1-p درمی-آورند.
+نکته: بیشتر فریم ورک‌های یادگیری عمیق برون‌اندازی را به شکل پارامتر ‘keep’  1-p درمی-آورند.
 </div>
 
 <br>
@@ -437,7 +437,7 @@
 **49. Weight regularization ― In order to make sure that the weights are not too large and that the model is not overfitting the training set, regularization techniques are usually performed on the model weights. The main ones are summed up in the table below:**
 
 <div dir="rtl">
-نظام‌بخشی وزن – برای اطمینان از اینکه (مقادیر) وزن‌ها زیادی بزرگ نیستند و مدل به مجموعه آموزش بیش‌برارزش نیست، روشهای نظام‌بخشی معمولا بر روی وزن‌های مدل اجرا می‌شوند. اصلی‌ترین آنها در جدول زیر به اختصار آمده اند:
+نظام‌بخشی وزن – برای اطمینان از اینکه (مقادیر) وزن‌ها زیادی بزرگ نیستند و مدل به مجموعه آموزش بیش‌برارزش نیست، روشهای نظام‌بخشی معمولا بر روی وزن‌های مدل اجرا می‌شوند. اصلی‌ترین آنها در جدول زیر به اختصار آمده‌اند:
 </div>
 
 <br>
@@ -497,7 +497,7 @@
 **55. Gradient checking ― Gradient checking is a method used during the implementation of the backward pass of a neural network. It compares the value of the analytical gradient to the numerical gradient at given points and plays the role of a sanity-check for correctness.**
 
 <div dir="rtl">
-وارسی گرادیان – وارسی گرادیان متدی است که در طول پیاده سازی گذر روبه‌عقبِ یک شبکه عصبی استفاده می شود. این متد مقدار گرادیان تحلیلی را با گرادیان عددی در نقطه‌های مفروض را مقایسه میکند و نقش بررسی‌درستی را ایفا میکند. 
+وارسی گرادیان – وارسی گرادیان متدی است که در طول پیاده سازی گذر روبه‌عقبِ یک شبکه عصبی استفاده می‌شود. این متد مقدار گرادیان تحلیلی را با گرادیان عددی در نقطه‌های مفروض را مقایسه می‌کند و نقش بررسی‌درستی را ایفا میکند. 
 </div>
 
 <br>
@@ -524,7 +524,7 @@
 **58. [Expensive; loss has to be computed two times per dimension, Used to verify correctness of analytical implementation, Trade-off in choosing h not too small (numerical instability) nor too large (poor gradient approximation)]**
 
 <div dir="rtl">
-[گران (محاسباتی)،  خطا باید دو بار در هر بُعد محاسبه شود، برای تایید صحت پیاده‌سازی تحلیلی استفاده میشود، مصالحه در انتخاب h: نه بسیار کوچک (ناپایداری عددی) و نه خیلی بزرگ (تخمین گرادیان ضعیف) باشد]
+[گران (محاسباتی)،  خطا باید دو بار در هر بُعد محاسبه شود، برای تایید صحت پیاده‌سازی تحلیلی استفاده می‌شود، مصالحه در انتخاب h: نه بسیار کوچک (ناپایداری عددی) و نه خیلی بزرگ (تخمین گرادیان ضعیف) باشد]
 </div>
 
 <br>
@@ -533,7 +533,7 @@
 **59. ['Exact' result, Direct computation, Used in the final implementation]**
 
 <div dir="rtl">
-[نتیجه 'عینی'، محاسبه مستقیم، در پیاده‌سازی نهایی استفاده میشود]
+[نتیجه 'عینی'، محاسبه مستقیم، در پیاده‌سازی نهایی استفاده می‌شود]
 </div>
 
 <br>

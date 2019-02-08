@@ -60,73 +60,73 @@
 
 **11. Hypothesis ― The hypothesis is noted hθ and is the model that we choose. For a given input data x(i) the model prediction output is hθ(x(i)).**
 
-&#10230; Hipotézis ― 
+&#10230; Hipotézisfüggvény ― A hipotézisfüggvény (jel.: hθ) a megtanulandó leképezés. Adott x(i) bemeneti adatok esetén a modell által előrejelzett kimeneteket hθ(x(i))-vel jelöljük, ahol θ jelzi a modell paramétereit.
 
 <br>
 
 **12. Loss function ― A loss function is a function L:(z,y)∈R×Y⟼L(z,y)∈R that takes as inputs the predicted value z corresponding to the real data value y and outputs how different they are. The common loss functions are summed up in the table below:**
 
-&#10230;
+&#10230; Veszteségfüggvény ― A költségfüggvény az az L:(z,y)∈R×Y⟼L(z,y)∈R leképezés, mely bemenetként az előrejelzett z értékeket és az adott y-értékeket várja, és kimenetként megadja az ezek közti eltérés nagyságát. A leggyakrabban használt költségfüggvényeket az alábbi táblázat tartalmazza:
 
 <br>
 
 **13. [Least squared error, Logistic loss, Hinge loss, Cross-entropy]**
 
-&#10230;
+&#10230; [Legkisebb négyzetek, Logisztikus hiba, Hinge loss, Kereszt-entrópia] TODO
 
 <br>
 
 **14. [Linear regression, Logistic regression, SVM, Neural Network]**
 
-&#10230;
+&#10230; [Lineáris regresszió, Logisztikus regresszió, Tartóvektorgép (SVM), Neurális hálózat]
 
 <br>
 
 **15. Cost function ― The cost function J is commonly used to assess the performance of a model, and is defined with the loss function L as follows:**
 
-&#10230;
+&#10230; Költségfüggvény ― A J költségfüggvényt gyakran használjuk a modell teljesítményének méréséhez, és az L veszteségfüggvény segítségével az alábbi módon definiáljuk:
 
 <br>
 
 **16. Gradient descent ― By noting α∈R the learning rate, the update rule for gradient descent is expressed with the learning rate and the cost function J as follows:**
 
-&#10230;
+&#10230; A gradiensmódszer ― Legyen α∈R a tanulási mérték és J a költségfüggvény, ekkor a gradiensmódszer iteratív képletét az alábbi módon fejezhetjük ki:
 
 <br>
 
 **17. Remark: Stochastic gradient descent (SGD) is updating the parameter based on each training example, and batch gradient descent is on a batch of training examples.**
 
-&#10230;
+&#10230; Megjegyzés: A sztochasztikus gradiensmódszerben (SGD) a TODO
 
 <br>
 
 **18. Likelihood ― The likelihood of a model L(θ) given parameters θ is used to find the optimal parameters θ through maximizing the likelihood. In practice, we use the log-likelihood ℓ(θ)=log(L(θ)) which is easier to optimize. We have:**
 
-&#10230;
+&#10230; Likelihood ― A TODO
 
 <br>
 
 **19. Newton's algorithm ― The Newton's algorithm is a numerical method that finds θ such that ℓ′(θ)=0. Its update rule is as follows:**
 
-&#10230;
+&#10230; Newton-módszer ― A Newton-módszer (más néven Newton–Raphson-módszer) olyan numerikus gyökkereső módszer, mely megkeresi θ paramétert, melyre ℓ′(θ)=0. Az iteratív képlete:
 
 <br>
 
 **20. Remark: the multidimensional generalization, also known as the Newton-Raphson method, has the following update rule:**
 
-&#10230;
+&#10230; Megjegyzés: a többdimenziós általánosításnak a képlete:
 
 <br>
 
 **21. Linear models**
 
-&#10230;
+&#10230; Lineáris modellek
 
 <br>
 
 **22. Linear regression**
 
-&#10230;
+&#10230; Lineáris regresszió
 
 <br>
 

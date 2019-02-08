@@ -642,7 +642,7 @@ t-SNE ― t-SNE (جاسازی همسایهٔ تصادفی توزیع‌شدهٔ 
 **71. Overview ― A machine translation model is similar to a language model except it has an encoder network placed before. For this reason, it is sometimes referred as a conditional language model. The goal is to find a sentence y such that:**
 
 <div dir="rtl">
------
+نمای کلی ― مدل ترجمه ماشینی مشابه مدل زبان است با این تفاوت که یک شبکه‌ی رمزنگار نیز دارد که از قبل جای‌گذاری شده است. به همین دلیل، گاهی اوقات به آن مدل زبان شرطی می‌گویند. هدف آن یافتن جمله y است بطوری که:
 </div>
 
 <br>
@@ -651,7 +651,7 @@ t-SNE ― t-SNE (جاسازی همسایهٔ تصادفی توزیع‌شدهٔ 
 **72. Beam search ― It is a heuristic search algorithm used in machine translation and speech recognition to find the likeliest sentence y given an input x.**
 
 <div dir="rtl">
------
+جستجوی پرتو ― یک الگوریتم جستجوی اکتشافی است که در ترجمه‌ی ماشین و بازتشخیص گفتار برای یافتن محتمل‌ترین جمله‌ی y باتوجه به ورودی مفروض x بکار برده میشود.
 </div>
 
 <br>
@@ -660,7 +660,7 @@ t-SNE ― t-SNE (جاسازی همسایهٔ تصادفی توزیع‌شدهٔ 
 **73. [Step 1: Find top B likely words y<1>, Step 2: Compute conditional probabilities y<k>|x,y<1>,...,y<k−1>, Step 3: Keep top B combinations x,y<1>,...,y<k>, End process at a stop word]**
 
 <div dir="rtl">
------
+[گام 1: یافتن B کلمه‌ی محتمل برتر y<1>، گام 2: محاسبه احتمالات شرطی y|x,y<1>,...,y<k−1>، گام 3: نگداشتن B ترکیب برتر x,y<1>,…,y، خاتمه فرآیند با کلمه‌ی توقف.
 </div>
 
 <br>
@@ -669,7 +669,7 @@ t-SNE ― t-SNE (جاسازی همسایهٔ تصادفی توزیع‌شدهٔ 
 **74. Remark: if the beam width is set to 1, then this is equivalent to a naive greedy search.**
 
 <div dir="rtl">
------
+نکته: اگر پهنای پرتو 1 باشد، آنگاه با جست‌وجوی حریصانهٔ ساده برابر خواهد بود.
 </div>
 
 <br>
@@ -678,7 +678,7 @@ t-SNE ― t-SNE (جاسازی همسایهٔ تصادفی توزیع‌شدهٔ 
 **75. Beam width ― The beam width B is a parameter for beam search. Large values of B yield to better result but with slower performance and increased memory. Small values of B lead to worse results but is less computationally intensive. A standard value for B is around 10.**
 
 <div dir="rtl">
------
+پهنای پرتو ـــ پهنای پرتوی B پارامتری برای جستجوی پرتو است. مقادیر بزرگ B به نتیجه بهتر منتهی می‌شوند اما عملکرد آهسته‌تری دارند و حافظه را افزایش می‌دهند. مقادیر کوچک B به نتایج بدتر منتهی می‌شوند اما بار محاسباتی پایین‌تری دارند. مقدار استاندارد B حدود 10 است.
 </div>
 
 <br>
@@ -687,7 +687,7 @@ t-SNE ― t-SNE (جاسازی همسایهٔ تصادفی توزیع‌شدهٔ 
 **76. Length normalization ― In order to improve numerical stability, beam search is usually applied on the following normalized objective, often called the normalized log-likelihood objective, defined as:**
 
 <div dir="rtl">
------
+نرمال‌سازی طول ―‌ برای بهبود ثبات عددی، جستجوی پرتو معمولا در هدف نرمال‌شدهی زیر اعمال می‌شود، که اغلب اوقات هدف درست‌نمایی لگاریتمی نرمال‌شده نامیده می‌شود و بصورت زیر تعریف می‌شود:
 </div>
 
 <br>
@@ -696,7 +696,7 @@ t-SNE ― t-SNE (جاسازی همسایهٔ تصادفی توزیع‌شدهٔ 
 **77. Remark: the parameter α can be seen as a softener, and its value is usually between 0.5 and 1.**
 
 <div dir="rtl">
------
+تذکر: پارامتر α را می‌توان تعدیل‌کننده نامید و مقدارش معمولا بین 0.5 و 1 است.
 </div>
 
 <br>
@@ -705,7 +705,7 @@ t-SNE ― t-SNE (جاسازی همسایهٔ تصادفی توزیع‌شدهٔ 
 **78. Error analysis ― When obtaining a predicted translation ˆy that is bad, one can wonder why we did not get a good translation y∗ by performing the following error analysis:**
 
 <div dir="rtl">
------
+تحلیل خطا ―زمانی‌که ترجمه‌ی پیش‌بینی‌شده‌ی ^y ی به‌دست می‌آید که مطلوب نیست، میتوان با انجام تحلیل خطای زیر از خود پرسید که چرا ترجمه y* خوب نسیت:
 </div>
 
 <br>
@@ -714,7 +714,7 @@ t-SNE ― t-SNE (جاسازی همسایهٔ تصادفی توزیع‌شدهٔ 
 **79. [Case, Root cause, Remedies]**
 
 <div dir="rtl">
------
+[قضیه، ریشه‌ی مشکل، راه‌حل]
 </div>
 
 <br>
@@ -723,7 +723,7 @@ t-SNE ― t-SNE (جاسازی همسایهٔ تصادفی توزیع‌شدهٔ 
 **80. [Beam search faulty, RNN faulty, Increase beam width, Try different architecture, Regularize, Get more data]**
 
 <div dir="rtl">
------
+[عیب جستجوی پرتو، عیب  RNN، افزایش پهنای پرتو، امتحان معماری‌های مختلف، تنظیم، جمع‌آوری داده‌های بیشتر]
 </div>
 
 <br>
@@ -732,7 +732,7 @@ t-SNE ― t-SNE (جاسازی همسایهٔ تصادفی توزیع‌شدهٔ 
 **81. Bleu score ― The bilingual evaluation understudy (bleu) score quantifies how good a machine translation is by computing a similarity score based on n-gram precision. It is defined as follows:**
 
 <div dir="rtl">
------
+امتیاز Bleu ― جایگزین ارزشیابی دوزبانه  (bleu) میزان خوب بودن ترجمه ماشینی را با محاسبه‌ی امتیاز تشابه برمبنای دقت ان گرام اندازه‌گیری می‌کند. بصورت زیر تعریف میشود:
 </div>
 
 <br>
@@ -741,7 +741,7 @@ t-SNE ― t-SNE (جاسازی همسایهٔ تصادفی توزیع‌شدهٔ 
 **82. where pn is the bleu score on n-gram only defined as follows:**
 
 <div dir="rtl">
------
+که pn امتیاز bleu تنها براساس ان گرام است و بصورت زیر تعریف می‌شود:
 </div>
 
 <br>
@@ -750,7 +750,7 @@ t-SNE ― t-SNE (جاسازی همسایهٔ تصادفی توزیع‌شدهٔ 
 **83. Remark: a brevity penalty may be applied to short predicted translations to prevent an artificially inflated bleu score.**
 
 <div dir="rtl">
------
+تذکر: ممکن است برای پیشگیری از امتیاز اغراق آمیز تصنعی bleu، برای ترجمه‌های پیش‌بینی‌شده‌ی کوتاه از جریمه اجمالی (مختصر) استفاده شود.
 </div>
 
 <br>
@@ -759,7 +759,7 @@ t-SNE ― t-SNE (جاسازی همسایهٔ تصادفی توزیع‌شدهٔ 
 **84. Attention**
 
 <div dir="rtl">
------
+توجه
 </div>
 
 <br>
@@ -768,7 +768,7 @@ t-SNE ― t-SNE (جاسازی همسایهٔ تصادفی توزیع‌شدهٔ 
 **85. Attention model ― This model allows an RNN to pay attention to specific parts of the input that is considered as being important, which improves the performance of the resulting model in practice. By noting α<t,t′> the amount of attention that the output y<t> should pay to the activation a<t′> and c<t> the context at time t, we have:**
 
 <div dir="rtl">
------
+مدل توجه ― این مدل به RNN این امکان را میدهد که به بخش‌های خاصی از ورودی که حائز اهمیت هستند توجه نشان دهد که در عمل باعث بهبود عملکرد مدل حاصل‌شده خواهد شد. اگر α<t,t′> به معنای مقدار توجهی باشد که خروجی y باید به فعال‌سازی a<t′>  داشته باشد و c نشان‌دهندهی زمینه (متن) در زمان t باشد، داریم:
 </div>
 
 <br>
@@ -777,7 +777,7 @@ t-SNE ― t-SNE (جاسازی همسایهٔ تصادفی توزیع‌شدهٔ 
 **86. with**
 
 <div dir="rtl">
------
+با
 </div>
 
 <br>
@@ -786,7 +786,7 @@ t-SNE ― t-SNE (جاسازی همسایهٔ تصادفی توزیع‌شدهٔ 
 **87. Remark: the attention scores are commonly used in image captioning and machine translation.**
 
 <div dir="rtl">
------
+نکته: امتیازات توجه عموما در برچسب‌گذاری تصویر (image captioning) و ترجمه ماشینی کاربرد دارد.
 </div>
 
 <br>
@@ -795,7 +795,7 @@ t-SNE ― t-SNE (جاسازی همسایهٔ تصادفی توزیع‌شدهٔ 
 **88. A cute teddy bear is reading Persian literature.**
 
 <div dir="rtl">
------
+یک خرس تدی بامزه در حال خواندن ادبیات فارسی است.
 </div>
 
 <br>
@@ -804,7 +804,7 @@ t-SNE ― t-SNE (جاسازی همسایهٔ تصادفی توزیع‌شدهٔ 
 **89. Attention weight ― The amount of attention that the output y<t> should pay to the activation a<t′> is given by α<t,t′> computed as follows:**
 
 <div dir="rtl">
------
+وزن توجه ― مقدار توجهی که خروجی y باید به فعال‌سازی a<t′> داشته باشد بوسیله‌ی α<t,t′> به‌دست می‌آید که به‌صورت زیر محاسبه می‌شود:
 </div>
 
 <br>
@@ -813,7 +813,7 @@ t-SNE ― t-SNE (جاسازی همسایهٔ تصادفی توزیع‌شدهٔ 
 **90. Remark: computation complexity is quadratic with respect to Tx.**
 
 <div dir="rtl">
------
+نکته: پیچیدگی محاسبه به نسبت Tx از نوع درجه‌ی دوم است.
 </div>
 
 <br>
@@ -822,7 +822,7 @@ t-SNE ― t-SNE (جاسازی همسایهٔ تصادفی توزیع‌شدهٔ 
 **91. The Deep Learning cheatsheets are now available in [target language].**
 
 <div dir="rtl">
------
+راهنمای یادگیری عمیق هم اکنون به زبان [فارسی] در دسترس است.
 </div>
 
 <br>
@@ -830,7 +830,7 @@ t-SNE ― t-SNE (جاسازی همسایهٔ تصادفی توزیع‌شدهٔ 
 **92. Original authors**
 
 <div dir="rtl">
------
+متن اصلی از
 </div>
 
 <br>
@@ -838,7 +838,7 @@ t-SNE ― t-SNE (جاسازی همسایهٔ تصادفی توزیع‌شدهٔ 
 **93. Translated by X, Y and Z**
 
 <div dir="rtl">
------
+ترجمه شده توسط X،Y و Z
 </div>
 
 <br>
@@ -846,7 +846,7 @@ t-SNE ― t-SNE (جاسازی همسایهٔ تصادفی توزیع‌شدهٔ 
 **94. Reviewed by X, Y and Z**
 
 <div dir="rtl">
------
+بازبینی شده توسط توسط X،Y و Z
 </div>
 
 <br>
@@ -854,7 +854,7 @@ t-SNE ― t-SNE (جاسازی همسایهٔ تصادفی توزیع‌شدهٔ 
 **95. View PDF version on GitHub**
 
 <div dir="rtl">
------
+نسخه پی‌دی‌اف را در گیت‌هاب ببینید
 </div>
 
 <br>
@@ -862,7 +862,7 @@ t-SNE ― t-SNE (جاسازی همسایهٔ تصادفی توزیع‌شدهٔ 
 **96. By X and Y**
 
 <div dir="rtl">
------
+توسط X و Y
 </div>
 
 <br>

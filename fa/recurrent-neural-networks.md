@@ -319,7 +319,7 @@
 **36. GRU/LSTM ― Gated Recurrent Unit (GRU) and Long Short-Term Memory units (LSTM) deal with the vanishing gradient problem encountered by traditional RNNs, with LSTM being a generalization of GRU. Below is a table summing up the characterizing equations of each architecture:**
 
 <div dir="rtl">
------
+GRU/LSTM ـــ واحد بازگشتی دروازهدار (GRU) و واحدهای حافظهٔ طولانی کوتاه‌-مدت (LSTM) مشکل ناپدیدشدن گرادیان که در RNNهای سنتی رخ می‌دهد، را بر طرف میکنند، درحالی‌که LSTM تعمیمی از GRU است. در جدول زیر، معادله‌های توصیف‌کنندهٔ هر معماری بصورت خلاصه آورده شده‌اند:
 </div>
 
 <br>
@@ -328,16 +328,15 @@
 **37. [Characterization, Gated Recurrent Unit (GRU), Long Short-Term Memory (LSTM), Dependencies]**
 
 <div dir="rtl">
------
+37. [توصیف، واحد بازگشتی دروازه‌دار (GRU)، حافظهٔ طولانی بلند-مدت (LSTM)، وابستگی‌ها]
 </div>
-
 <br>
 
 
 **38. Remark: the sign ⋆ denotes the element-wise multiplication between two vectors.**
 
 <div dir="rtl">
------
+نکته: نشانه‌ی * نمایان‌گر ضرب عنصربهعنصر دو بردار است.
 </div>
 
 <br>
@@ -346,7 +345,7 @@
 **39. Variants of RNNs ― The table below sums up the other commonly used RNN architectures:**
 
 <div dir="rtl">
------
+انواع RNN هاــ جدول زیر سایر معماری‌های پرکاربرد RNN را بصورت خلاصه نشان می‌دهد.
 </div>
 
 <br>
@@ -355,7 +354,7 @@
 **40. [Bidirectional (BRNN), Deep (DRNN)]**
 
 <div dir="rtl">
------
+[دوسویه  (BRNN)، عمیق (DRNN)]
 </div>
 
 <br>
@@ -364,7 +363,7 @@
 **41. Learning word representation**
 
 <div dir="rtl">
------
+نمایش یادگیری کلمه
 </div>
 
 <br>
@@ -373,7 +372,7 @@
 **42. In this section, we note V the vocabulary and |V| its size.**
 
 <div dir="rtl">
------
+در این بخش، برای اشاره به واژگان از V و برای اشاره به اندازه‌ی آن از |V| استفاده می‌کنیم.
 </div>
 
 <br>
@@ -382,7 +381,7 @@
 **43. Motivation and notations**
 
 <div dir="rtl">
------
+انگیزه و نمادها
 </div>
 
 <br>
@@ -391,7 +390,7 @@
 **44. Representation techniques ― The two main ways of representing words are summed up in the table below:**
 
 <div dir="rtl">
------
+روش‌های نمایش ― دو روش اصلی برای نمایش کلمات بصورت خلاصه در جدول زیر آورده شده‌اند:
 </div>
 
 <br>
@@ -400,7 +399,7 @@
 **45. [1-hot representation, Word embedding]**
 
 <div dir="rtl">
------
+[نمایش 1-hot، تعبیه کلمه]
 </div>
 
 <br>
@@ -409,7 +408,7 @@
 **46. [teddy bear, book, soft]**
 
 <div dir="rtl">
------
+[خرس تدی، کتاب، نرم]
 </div>
 
 <br>
@@ -418,7 +417,7 @@
 **47. [Noted ow, Naive approach, no similarity information, Noted ew, Takes into account words similarity]**
 
 <div dir="rtl">
------
+[ow نشانه، رویکرد ساده، فاقد اطلاعات تشابه، ew نشانه، به‌حساب‌آوردن تشابه کلمات]
 </div>
 
 <br>
@@ -427,7 +426,7 @@
 **48. Embedding matrix ― For a given word w, the embedding matrix E is a matrix that maps its 1-hot representation ow to its embedding ew as follows:**
 
 <div dir="rtl">
------
+48. ماتریس تعبیه ـــ به‌ازای کلمه‌ی مفروض w، ماتریس تعبیه E ماتریسی است که نمایش 1-hot خود، یعنی ow، را روی تعبیه ew به صورت زیر نگاشت می‌دهد:
 </div>
 
 <br>
@@ -436,7 +435,7 @@
 **49. Remark: learning the embedding matrix can be done using target/context likelihood models.**
 
 <div dir="rtl">
------
+نکته: یادگیری ماتریس تعبیه را می‌توان بااستفاده از مدل‌های درست‌نمایی هدف/متن(زمینه) انجام داد.
 </div>
 
 <br>
@@ -445,7 +444,7 @@
 **50. Word embeddings**
 
 <div dir="rtl">
------
+تعبیه کلمه
 </div>
 
 <br>
@@ -454,7 +453,7 @@
 **51. Word2vec ― Word2vec is a framework aimed at learning word embeddings by estimating the likelihood that a given word is surrounded by other words. Popular models include skip-gram, negative sampling and CBOW.**
 
 <div dir="rtl">
------
+Word2vec ― Word2vec فریم‌ورکی است که با محاسبه‌ی احتمال قرار گرفتن یک کلمه‌ی خاص در میان سایر کلمات، تعبیه‌های کلمه را یاد بگیرد. مدل‌های محبوب شامل اسکیپ‌گرام ، نمونه‌برداری منفی و CBOWهستند.
 </div>
 
 <br>
@@ -463,7 +462,7 @@
 **52. [A cute teddy bear is reading, teddy bear, soft, Persian poetry, art]**
 
 <div dir="rtl">
------
+[یک خرس تدی بامزه در حال مطالعه است، خرس تدی، نرم، شعر فارسی، هنر]
 </div>
 
 <br>
@@ -472,7 +471,7 @@
 **53. [Train network on proxy task, Extract high-level representation, Compute word embeddings]**
 
 <div dir="rtl">
------
+[آموزش شبکه در وظیفه‌ی جایگزین، استخراج نمایش سطح بالا، محاسبه‌ی جاسازی‌های کلمه]
 </div>
 
 <br>
@@ -481,7 +480,7 @@
 **54. Skip-gram ― The skip-gram word2vec model is a supervised learning task that learns word embeddings by assessing the likelihood of any given target word t happening with a context word c. By noting θt a parameter associated with t, the probability P(t|c) is given by:**
 
 <div dir="rtl">
------
+اسکیپ‌گرام ــ مدل اسکیپ‌گرام word2vec یک وظیفه‌ی یادگیری بانظارت است که تعبیه‌های کلمه را با ارزیابی احتمال وقوع کلمه‌ی t هدف با کلمه‌ی زمینه c یاد می‌گیرد. با توجه به اینکه نماد θt پارامتری مرتبط با t است، احتمال P(t|c) به‌صورت زیر بدست می‌آید
 </div>
 
 <br>
@@ -490,7 +489,7 @@
 **55. Remark: summing over the whole vocabulary in the denominator of the softmax part makes this model computationally expensive. CBOW is another word2vec model using the surrounding words to predict a given word.**
 
 <div dir="rtl">
------
+نکته: جمع کل واژگان در بخش مقسوم‌الیه بیشینه‌ی‌هموار باعث می‌شود که این مدل از لحاظ محاسباتی گران شود. مدل CBOW مدل word2vec دیگری ست که از کلمات اطراف برای پیش‌بینی یک کلمهٔ مفروض استفاده می‌کند.
 </div>
 
 <br>
@@ -499,7 +498,7 @@
 **56. Negative sampling ― It is a set of binary classifiers using logistic regressions that aim at assessing how a given context and a given target words are likely to appear simultaneously, with the models being trained on sets of k negative examples and 1 positive example. Given a context word c and a target word t, the prediction is expressed by:**
 
 <div dir="rtl">
------
+نمونه‌گیری منفی ― مجموعه‌ای از دسته‌بندی‌کننده‌های دودویی بااستفاده از نمایش لجستیکی است که مقصودش ارزیابی احتمال ظهور همزمان کلمه‌ی مفروض هدف و کلمه‌ی مفروض زمینه است، که در اینجا مدل‌ها براساس مجموعه k مثال منفی و 1 مثال مثبت آموزش می‌بینند. با توجه به کلمه‌ی مفروض زمینه c و کلمه‌ی مفروض هدف t، پیش‌بینی به صورت زیر بیان می‌شود:
 </div>
 
 <br>
@@ -508,7 +507,7 @@
 **57. Remark: this method is less computationally expensive than the skip-gram model.**
 
 <div dir="rtl">
------
+نکته: این متد از لحاظ محاسباتی ارزان‌تر از مدل اسکیپ‌گرام است.
 </div>
 
 <br>
@@ -517,7 +516,7 @@
 **57bis. GloVe ― The GloVe model, short for global vectors for word representation, is a word embedding technique that uses a co-occurence matrix X where each Xi,j denotes the number of times that a target i occurred with a context j. Its cost function J is as follows:**
 
 <div dir="rtl">
------
+GloVe ― مدل GloVe، مخفف بردارهای عمومی نمایش کلمه، یکی از روش‌های تعبیه کلمه است که از ماتریس هم‌رویدادی X استفاده می‌کند که در آن هر Xi,j به تعداد دفعاتی اشاره دارد که هدف i با زمینهٔ j رخ می‌دهد. تابع هزینه‌ی J به‌صورت زیر است:
 </div>
 
 <br>
@@ -527,7 +526,7 @@
 Given the symmetry that e and θ play in this model, the final word embedding e(final)w is given by:**
 
 <div dir="rtl">
------
+58. که در آن f تابع وزنی است، به‌طوری که Xi,j=0⟹f(Xi,j)=0. با توجه به تقارنی که e و θ در این مدل دارند، تعبیه کلمه‌ی نهایی e(final)w به‌صورت زیر محاسبه می‌شود:
 </div>
 
 <br>
@@ -536,7 +535,7 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 **59. Remark: the individual components of the learned word embeddings are not necessarily interpretable.**
 
 <div dir="rtl">
------
+تذکر: مولفه‌های مجزا در تعبیه‌های کلمه‌ی یادگرفته‌شده الزاما قابل تفسیر نیستند.
 </div>
 
 <br>
@@ -545,7 +544,7 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 **60. Comparing words**
 
 <div dir="rtl">
------
+مقایسه‌ی کلمات
 </div>
 
 <br>
@@ -554,7 +553,7 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 **61. Cosine similarity ― The cosine similarity between words w1 and w2 is expressed as follows:**
 
 <div dir="rtl">
------
+شباهت کسینوسی ـــ شباهت کسینوسی بین w1 و w2 به‌صورت زیر بیان می‌شود:
 </div>
 
 <br>
@@ -563,7 +562,7 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 **62. Remark: θ is the angle between words w1 and w2.**
 
 <div dir="rtl">
------
+نکته: θ زاویهٔ بین کلمات w1 و w2 است.
 </div>
 
 <br>
@@ -572,7 +571,7 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 **63. t-SNE ― t-SNE (t-distributed Stochastic Neighbor Embedding) is a technique aimed at reducing high-dimensional embeddings into a lower dimensional space. In practice, it is commonly used to visualize word vectors in the 2D space.**
 
 <div dir="rtl">
------
+t-SNE ― t-SNE (جاسازی همسایهٔ تصادفی توزیع‌شدهٔ t) روشی است که هدف آن کاهش تعبیه‌های ابعاد بالا به فضایی با ابعاد پایین‌تر است. این روش در تصویرسازی بردارهای کلمه در فضای 2 بعدی کاربرد فراوانی دارد.
 </div>
 
 <br>
@@ -581,7 +580,7 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 **64. [literature, art, book, culture, poem, reading, knowledge, entertaining, loveable, childhood, kind, teddy bear, soft, hug, cute, adorable]**
 
 <div dir="rtl">
------
+[ادبیات، هنر، کتاب، فرهنگ، شعر، دانش، سرگرمی، دوست‌داشتنی، دوران کودکی، مهربان، خرس تدی، نرم، آغوش، بامزه، ناز]
 </div>
 
 <br>
@@ -590,7 +589,7 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 **65. Language model**
 
 <div dir="rtl">
------
+مدل زبان
 </div>
 
 <br>
@@ -599,7 +598,7 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 **66. Overview ― A language model aims at estimating the probability of a sentence P(y).**
 
 <div dir="rtl">
------
+نمای کلی ـــ هدف مدل زبان تخمین احتمال جمله‌ی P(y) است.
 </div>
 
 <br>
@@ -608,8 +607,7 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 **67. n-gram model ― This model is a naive approach aiming at quantifying the probability that an expression appears in a corpus by counting its number of appearance in the training data.**
 
 <div dir="rtl">
------
-</div>
+مدل n گرام ــ این مدل یک رویکرد ساده با هدف اندازه‌گیری احتمال نمایش یک عبارت در یک نوشته است که با تعداد نمایش آن در داده‌های آموزشی محاسبه می‌شود.</div>
 
 <br>
 
@@ -617,7 +615,7 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 **68. Perplexity ― Language models are commonly assessed using the perplexity metric, also known as PP, which can be interpreted as the inverse probability of the dataset normalized by the number of words T. The perplexity is such that the lower, the better and is defined as follows:**
 
 <div dir="rtl">
------
+سرگشتگی ـــ مدل‌های زبان معمولاً بااستفاده از معیار سرگشتگی سنجش می‌شوند، همچنین با PP شناخته می‌شوند و می‌توان آنها را بصورت معکوسِ احتمال دیتاستی که با تعداد کلمات T نرمال‌سازی ‌شده است، تفسیر کرد. هر چه سرگشتگی کمتر باشد بهتر است و به صورت زیر تعریف می‌شود:
 </div>
 
 <br>
@@ -626,7 +624,7 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 **69. Remark: PP is commonly used in t-SNE.**
 
 <div dir="rtl">
------
+نکته: PP عموما در t-SNE کاربرد دارد.
 </div>
 
 <br>
@@ -635,7 +633,7 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 **70. Machine translation**
 
 <div dir="rtl">
------
+ترجمه ماشینی
 </div>
 
 <br>

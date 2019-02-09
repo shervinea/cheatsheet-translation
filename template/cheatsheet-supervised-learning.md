@@ -72,7 +72,7 @@
 
 **13. [Least squared error, Logistic loss, Hinge loss, Cross-entropy]**
 
-&#10230; [Legkisebb négyzetek, Logisztikus hiba, Hinge loss, Kereszt-entrópia] TODO
+&#10230; [Legkisebb négyzetek, Logisztikus hiba, Zsanérveszteség (Hinge loss), Kereszt-entrópia] TODO
 
 <br>
 
@@ -90,7 +90,7 @@
 
 **16. Gradient descent ― By noting α∈R the learning rate, the update rule for gradient descent is expressed with the learning rate and the cost function J as follows:**
 
-&#10230; A gradiensmódszer ― Legyen α∈R a tanulási mérték és J a költségfüggvény, ekkor a gradiensmódszer iteratív képletét az alábbi módon fejezhetjük ki:
+&#10230; A gradiensmódszer ― Legyen α∈R a tanulási ráta és J a költségfüggvény, ekkor a gradiensmódszer iteratív képletét az alábbi módon fejezhetjük ki:
 
 <br>
 
@@ -114,7 +114,7 @@
 
 **20. Remark: the multidimensional generalization, also known as the Newton-Raphson method, has the following update rule:**
 
-&#10230; Megjegyzés: a többdimenziós általánosításnak a képlete:
+&#10230; Megjegyzés: a többdimenziós általánosítás esetén a képlet:
 
 <br>
 
@@ -132,199 +132,199 @@
 
 **23. We assume here that y|x;θ∼N(μ,σ2)**
 
-&#10230;
+&#10230; Feltesszük, hogy y|x;θ∼N(μ,σ2)
 
 <br>
 
 **24. Normal equations ― By noting X the matrix design, the value of θ that minimizes the cost function is a closed-form solution such that:**
 
-&#10230;
+&#10230; Gauß-féle normálegyenletek ― Legyen X a modellmátrix. Ekkor a költségfüggvényt minimalizáló θ-érték kielégíti az alábbi egyenlőséget:
 
 <br>
 
 **25. LMS algorithm ― By noting α the learning rate, the update rule of the Least Mean Squares (LMS) algorithm for a training set of m data points, which is also known as the Widrow-Hoff learning rule, is as follows:**
 
-&#10230;
+&#10230; LMS-algortimus TODO ― Legyen α a tanulási ráta. Ekkor az LMS-algoritmus formulája (más néven Widrow-Hoff tanulási szabály) m darab tanító adatpont esetén:
 
 <br>
 
 **26. Remark: the update rule is a particular case of the gradient ascent.**
 
-&#10230;
+&#10230; Megjegyzés: a formula egy speciális esete a gradiensmódszernek.
 
 <br>
 
 **27. LWR ― Locally Weighted Regression, also known as LWR, is a variant of linear regression that weights each training example in its cost function by w(i)(x), which is defined with parameter τ∈R as:**
 
-&#10230;
- 
+&#10230; Helyileg súlyozott regresszió (LWR) ― A helyileg súlyozott regresszió a lineáris regresszió fajtája, mely minden tanító adatot w(i)(x)-szel súlyoz, melyet így definiálunk (τ∈R paraméter esetén):
+
 <br>
 
 **28. Classification and logistic regression**
 
-&#10230;
+&#10230; Klasszifikáció és logisztikus regresszió
 
 <br>
 
 **29. Sigmoid function ― The sigmoid function g, also known as the logistic function, is defined as follows:**
 
-&#10230;
+&#10230; Szigmoidfüggvény ― Az ún. g szigmoidfüggvényt (más néven logisztikus függvényt) így definiáljuk:
 
 <br>
 
 **30. Logistic regression ― We assume here that y|x;θ∼Bernoulli(ϕ). We have the following form:**
 
-&#10230;
+&#10230; Logisztikus regresszió ― Feltesszük, hogy y|x;θ∼Bernoulli(ϕ). Ekkor fennáll az alábbi formula:
 
 <br>
 
 **31. Remark: there is no closed form solution for the case of logistic regressions.**
 
-&#10230;
+&#10230; Megjegyzés: nem létezik zárt alak a logisztikus regresszió megoldására.
 
 <br>
 
 **32. Softmax regression ― A softmax regression, also called a multiclass logistic regression, is used to generalize logistic regression when there are more than 2 outcome classes. By convention, we set θK=0, which makes the Bernoulli parameter ϕi of each class i equal to:**
 
-&#10230;
+&#10230; Szoftmax regresszió ― A szoftmax regresszió (más néven többosztályú logisztikus regresszió) a logisztikus regresszió  általánosítása, amikor több mint két kimeneti osztály adott. (TODO by convention), legyen θK=0, ami alapján az i-edik osztály ϕi indikátor paraméterére fennáll:
 
 <br>
 
 **33. Generalized Linear Models**
 
-&#10230;
+&#10230; Általánosított lineáris modellek (GLM-ek)
 
 <br>
 
 **34. Exponential family ― A class of distributions is said to be in the exponential family if it can be written in terms of a natural parameter, also called the canonical parameter or link function, η, a sufficient statistic T(y) and a log-partition function a(η) as follows:**
 
-&#10230;
+&#10230; Exponenciális család ― Eloszlások egy osztálya az exponenciális családba tartozik, ha felírható egy η természetes paraméter (más néven kanonikus paraméter vagy kapcsolati függvény), T(y) elégséges statisztika és a(η) log-partíció függvény segítségével az alábbi módon:
 
 <br>
 
 **35. Remark: we will often have T(y)=y. Also, exp(−a(η)) can be seen as a normalization parameter that will make sure that the probabilities sum to one.**
 
-&#10230;
+&#10230; Megjegyzés: gyakran T(y)=y. Továbbá tekinthetünk úgy az exp(−a(η)) paraméterre mint a normalizációs konstansra, amely garantálja, hogy a p(y;η) eloszlás y feletti integrálja 1.
 
 <br>
 
 **36. Here are the most common exponential distributions summed up in the following table:**
 
-&#10230;
+&#10230; Az alábbi táblázat tartalmazza a leggyakoribb exponenciális családbeli eloszlásokat:
 
 <br>
 
 **37. [Distribution, Bernoulli, Gaussian, Poisson, Geometric]**
 
-&#10230;
+&#10230; [Eloszlás, Indikátor, Normális, Poisson, Geometriai]
 
 <br>
 
-**38. Assumptions of GLMs ― Generalized Linear Models (GLM) aim at predicting a random variable y as a function fo x∈Rn+1 and rely on the following 3 assumptions:**
+**38. Assumptions of GLMs ― Generalized Linear Models (GLM) aim at predicting a random variable y as a function of x∈Rn+1 and rely on the following 3 assumptions:**
 
-&#10230;
+&#10230; A GLM-ek feltételei ― A GLM-ek célja, hogy előrejelezze az y val. változót x∈Rn+1 függvényében. Ehhez az alábbi három feltétel kell, hogy teljesüljön:
 
 <br>
 
 **39. Remark: ordinary least squares and logistic regression are special cases of generalized linear models.**
 
-&#10230;
+&#10230; Megjegyzés: a legkisebb négyzetek módszere (OLS) és a logisztikus regresszió is speciális esete a GLM-eknek.
 
 <br>
 
 **40. Support Vector Machines**
 
-&#10230;
+&#10230; Tartóvektorgépek (SVM-ek)
 
 <br>
 
 **41: The goal of support vector machines is to find the line that maximizes the minimum distance to the line.**
 
-&#10230;
+&#10230; Az SVM-ek célja olyan hipersík megtalálása, mely maximalizálja az adatpontoknak a hipersíktól vett minimális távolságát.
 
 <br>
 
 **42: Optimal margin classifier ― The optimal margin classifier h is such that:**
 
-&#10230;
+&#10230; Optimális margójú klasszifikátor ― A h-val jelölt optimális margójú klasszifikátorra igaz, hogy:
 
 <br>
 
 **43: where (w,b)∈Rn×R is the solution of the following optimization problem:**
 
-&#10230;
+&#10230; ahol (w,b)∈Rn×R az alábbi optimalizációs probléma megoldása:
 
 <br>
 
 **44. such that**
 
-&#10230;
+&#10230; úgy, hogy 
 
 <br>
 
 **45. support vectors**
 
-&#10230;
+&#10230; tartóvektorok
 
 <br>
 
 **46. Remark: the line is defined as wTx−b=0.**
 
-&#10230;
+&#10230; Megjegyzés: a hipersíkot az következő alakban írhatjuk fel:
 
 <br>
 
 **47. Hinge loss ― The hinge loss is used in the setting of SVMs and is defined as follows:**
 
-&#10230;
+&#10230; Zsanérveszteség ― A zsanérveszteség-függvényt (hinge loss) az SVM-ek kontextusában használjuk, és így definiáljuk:
 
 <br>
 
 **48. Kernel ― Given a feature mapping ϕ, we define the kernel K to be defined as:**
 
-&#10230;
+&#10230; Magfüggvény (kernel) ― Adott ϕ tulajdonságleképezés esetén a K magfüggvényt így definiáljuk:
 
 <br>
 
 **49. In practice, the kernel K defined by K(x,z)=exp(−||x−z||22σ2) is called the Gaussian kernel and is commonly used.**
 
-&#10230;
+&#10230; A gyakorlatban a K(x,z)=exp(−||x−z||22σ2) egyenlőséggel definiált magfüggvényt Gauß-féle magfüggvénynek hívjuk.
 
 <br>
 
 **50. [Non-linear separability, Use of a kernel mapping, Decision boundary in the original space]**
 
-&#10230;
+&#10230; [Nemlineáris szeparábilitás, Magfüggvény alkalmazása, Döntési határ az eredeti térben]
 
 <br>
 
 **51. Remark: we say that we use the "kernel trick" to compute the cost function using the kernel because we actually don't need to know the explicit mapping ϕ, which is often very complicated. Instead, only the values K(x,z) are needed.**
 
-&#10230;
+&#10230; Megjegyzés: azt mondjuk, hogy a kerneltrükköt alkalmazzuk a költségfüggvény kiszámolására TODO
 
 <br>
 
 **52. Lagrangian ― We define the Lagrangian L(w,b) as follows:**
 
-&#10230;
+&#10230; Lagrange-függvény ― Az L(w,b) ún. Lagrange-függvényt így definiáljuk:
 
 <br>
 
 **53. Remark: the coefficients βi are called the Lagrange multipliers.**
 
-&#10230;
+&#10230; Megjegyzés: a βi együtthatókat Lagrange-multiplikátoroknak nevezzük.
 
 <br>
 
 **54. Generative Learning**
 
-&#10230;
+&#10230; Generatív tanulás
 
 <br>
 
 **55. A generative model first tries to learn how the data is generated by estimating P(x|y), which we can then use to estimate P(y|x) by using Bayes' rule.**
 
-&#10230;
+&#10230; 
 
 <br>
 

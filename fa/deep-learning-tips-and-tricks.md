@@ -428,7 +428,9 @@
 **48. Remark: most deep learning frameworks parametrize dropout through the 'keep' parameter 1−p.**
 
 <div dir="rtl">
-نکته: بیشتر فریم ورک‌های یادگیری عمیق برون‌اندازی را به شکل فراسنج ‘keep’  1-p درمی-آورند.
+نکته: بیشتر کتابخانه‌های یادگیری عمیق برون‌اندازی را با استفاده از فراسنج 'نگه‌داشتن' 1-p کنترل می‌کنند
+
+
 </div>
 
 <br>

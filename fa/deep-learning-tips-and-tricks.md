@@ -392,7 +392,7 @@
 **44. [Adam, Adaptive Moment estimation, Most popular method, 4 parameters to tune]**
 
 <div dir="rtl">
-[Adam، تخمین سازگارشونده گشتاور، محبوب‌ترین متد، چهار فراسنج که نیاز به تنظیم دارند]
+[Adam، تخمین سازگارشونده ممان، محبوب‌ترین روش، چهار فراسنج که نیاز به تنظیم دارند]
 </div>
 
 <br>

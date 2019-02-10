@@ -41,7 +41,7 @@
 **5. [Learning word representation, Notations, Embedding matrix, Word2vec, Skip-gram, Negative sampling, GloVe]**
 
 <div dir="rtl">
-[نمایش یادگیری کلمه، نمادها، تعبیه ماتریس، Word2vec، اسکیپ‌گرام، نمونه‌گیری منفی، GloVe]
+[نمایش یادگیری کلمه، نمادها، ماتریس تعبیه، Word2vec، اسکیپ‌گرام، نمونه‌برداری منفی، GloVe]
 </div>
 
 <br>
@@ -158,7 +158,7 @@
 **18. Applications of RNNs ― RNN models are mostly used in the fields of natural language processing and speech recognition. The different applications are summed up in the table below:**
 
 <div dir="rtl">
-کاربردهای  RNNs ــ مدل‌های RNN غالباً در حوزه‌ی پردازش زبان طبیعی و حوزه‌ی بازشناسایی گفتار به کار می‌روند. کاربردهای مختلف آنها بصورت خلاصه در جدول زیر آورده شده‌اند:
+کاربردهایRNN ها  ــ مدل‌های RNN غالباً در حوزه‌ی پردازش زبان طبیعی و حوزه‌ی بازشناسایی گفتار به کار می‌روند. کاربردهای مختلف آنها بصورت خلاصه در جدول زیر آورده شده‌اند:
 </div>
 
 <br>
@@ -185,7 +185,7 @@
 **21. [Traditional neural network, Music generation, Sentiment classification, Name entity recognition, Machine translation]**
 
 <div dir="rtl">
-[شبکه عصبی سنتی، تولید موسیقی، دسته‌بندی احساسات، بازشناسایی موجودیت اسمی، ترجمه ماشینی]
+[شبکه ی عصبی سنتی، تولید موسیقی، دسته‌بندی احساسات، بازشناسایی موجودیت اسمی، ترجمه ماشینی]
 </div>
 
 <br>
@@ -194,7 +194,7 @@
 **22. Loss function ― In the case of a recurrent neural network, the loss function L of all time steps is defined based on the loss at every time step as follows:**
 
 <div dir="rtl">
-تابع هزینه ــ در شبکه عصبی بازگشتی، تابع هزینه L در تمام گام‌های زمانی برمبنای هزینه هر گام زمانی به‌صورت زیر تعریف می‌شود:
+تابع خطا ــ در شبکه عصبی بازگشتی، تابع خطا L در تمام گام‌های زمانی برمبنای خطا هر گام زمانی به‌صورت زیر تعریف می‌شود:
 </div>
 
 <br>
@@ -203,7 +203,7 @@
 **23. Backpropagation through time ― Backpropagation is done at each point in time. At timestep T, the derivative of the loss L with respect to weight matrix W is expressed as follows:**
 
 <div dir="rtl">
-انتشار معکوس در طول زمان ـــ انتشار معکوس در هر نقطه از زمان انجام می‌شود. در گام زمانی T، مشتق هزینه L با توجه به ماتریس وزن W به‌صورت زیر بیان می‌شود:
+انتشار معکوس در طول زمان ـــ انتشار معکوس در هر نقطه از زمان انجام می‌شود. در گام زمانی T، مشتق خطا L با توجه به ماتریس وزن W به‌صورت زیر بیان می‌شود:
 </div>
 
 <br>
@@ -256,7 +256,7 @@
 **29. clipped**
 
 <div dir="rtl">
-برش‌داده‌شده(کوتاه‌شده؟؟؟؟)
+برش ‌داده‌شده
 </div>
 
 <br>
@@ -265,7 +265,7 @@
 **30. Types of gates ― In order to remedy the vanishing gradient problem, specific gates are used in some types of RNNs and usually have a well-defined purpose. They are usually noted Γ and are equal to:**
 
 <div dir="rtl">
-انواع دروازه ـــ برای حل مشکل ناپدیدشدن گرادیان، در برخی از انواع RNN ها، دروازه‌های خاصی استفاده می‌شود و این دروازه‌ها عموما هدف معینی دارند. این  دروازه ها عموما با نمادΓ  نمایش داده می‌شوند و برابرند با:
+انواع دروازه ـــ برای حل مشکل ناپدیدشدن گرادیان، در برخی از انواعRNN ها، دروازه‌های خاصی استفاده می‌شود و این دروازه‌ها عموما هدف معینی دارند. این  دروازه‌ها عموما با نمادΓ  نمایش داده می‌شوند و برابرند با:
 </div>
 
 <br>
@@ -292,7 +292,7 @@
 **33. [Update gate, Relevance gate, Forget gate, Output gate]**
 
 <div dir="rtl">
-33. [دروازه بروزرسانی، دورازه ربط(میزان اهمیت)، دروازه فراموشی، دروازه خروجی]
+33. [دروازه به‌روزرسانی، دورازه ربط(میزان اهمیت)، دروازه فراموشی، دروازه خروجی]
 </div>
 
 <br>
@@ -319,7 +319,7 @@
 **36. GRU/LSTM ― Gated Recurrent Unit (GRU) and Long Short-Term Memory units (LSTM) deal with the vanishing gradient problem encountered by traditional RNNs, with LSTM being a generalization of GRU. Below is a table summing up the characterizing equations of each architecture:**
 
 <div dir="rtl">
-GRU/LSTM ـــ واحد بازگشتی دروازهدار (GRU) و واحدهای حافظهٔ طولانی کوتاه‌-مدت (LSTM) مشکل ناپدیدشدن گرادیان که در RNNهای سنتی رخ می‌دهد، را بر طرف میکنند، درحالی‌که LSTM تعمیمی از GRU است. در جدول زیر، معادله‌های توصیف‌کنندهٔ هر معماری بصورت خلاصه آورده شده‌اند:
+GRU/LSTM ـــ واحد بازگشتی دروازه‌دار (GRU) و واحدهای حافظهٔ طولانی کوتاه‌-مدت (LSTM) مشکل ناپدیدشدن گرادیان که در RNNهای سنتی رخ می‌دهد، را بر طرف میکنند، درحالی‌که LSTM تعمیمی از GRU است. در جدول زیر، معادله‌های توصیف‌کنندهٔ هر معماری بصورت خلاصه آورده شده‌اند:
 </div>
 
 <br>
@@ -336,7 +336,7 @@ GRU/LSTM ـــ واحد بازگشتی دروازهدار (GRU) و واحدها
 **38. Remark: the sign ⋆ denotes the element-wise multiplication between two vectors.**
 
 <div dir="rtl">
-نکته: نشانه‌ی * نمایان‌گر ضرب عنصربهعنصر دو بردار است.
+نکته: نشانه‌ی * نمایان‌گر ضرب عنصربه‌عنصر دو بردار است.
 </div>
 
 <br>
@@ -453,7 +453,7 @@ GRU/LSTM ـــ واحد بازگشتی دروازهدار (GRU) و واحدها
 **51. Word2vec ― Word2vec is a framework aimed at learning word embeddings by estimating the likelihood that a given word is surrounded by other words. Popular models include skip-gram, negative sampling and CBOW.**
 
 <div dir="rtl">
-Word2vec ― Word2vec فریم‌ورکی است که با محاسبه‌ی احتمال قرار گرفتن یک کلمه‌ی خاص در میان سایر کلمات، تعبیه‌های کلمه را یاد بگیرد. مدل‌های محبوب شامل اسکیپ‌گرام ، نمونه‌برداری منفی و CBOWهستند.
+Word2vec ― Word2vec  چهارچوبی است که با محاسبه‌ی احتمال قرار گرفتن یک کلمه‌ی خاص در میان سایر کلمات، تعبیه‌های کلمه را یاد بگیرد. مدل‌های محبوب شامل اسکیپ‌گرام ، نمونه‌برداری منفی و CBOWهستند.
 </div>
 
 <br>
@@ -750,7 +750,7 @@ t-SNE ― t-SNE (جاسازی همسایهٔ تصادفی توزیع‌شدهٔ 
 **83. Remark: a brevity penalty may be applied to short predicted translations to prevent an artificially inflated bleu score.**
 
 <div dir="rtl">
-تذکر: ممکن است برای پیشگیری از امتیاز اغراق آمیز تصنعی bleu، برای ترجمه‌های پیش‌بینی‌شده‌ی کوتاه از جریمه اجمالی (مختصر) استفاده شود.
+تذکر: ممکن است برای پیشگیری از امتیاز اغراق آمیز تصنعیbleu ، برای ترجمه‌های پیش‌بینی‌شده‌ی کوتاه از جریمه اجمالی (مختصر) استفاده شود.
 </div>
 
 <br>
@@ -804,7 +804,7 @@ t-SNE ― t-SNE (جاسازی همسایهٔ تصادفی توزیع‌شدهٔ 
 **89. Attention weight ― The amount of attention that the output y<t> should pay to the activation a<t′> is given by α<t,t′> computed as follows:**
 
 <div dir="rtl">
-وزن توجه ― مقدار توجهی که خروجی y باید به فعال‌سازی a<t′> داشته باشد بوسیله‌ی α<t,t′> به‌دست می‌آید که به‌صورت زیر محاسبه می‌شود:
+وزن توجه ― مقدار توجهی که خروجی y باید به فعال‌سازی a<t′> داشته باشد به‌وسیله‌ی α<t,t′> به‌دست می‌آید که به‌صورت زیر محاسبه می‌شود:
 </div>
 
 <br>
@@ -830,7 +830,7 @@ t-SNE ― t-SNE (جاسازی همسایهٔ تصادفی توزیع‌شدهٔ 
 **92. Original authors**
 
 <div dir="rtl">
-متن اصلی از
+نویسندگان اصلی
 </div>
 
 <br>

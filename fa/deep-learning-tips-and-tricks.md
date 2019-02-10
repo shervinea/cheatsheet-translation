@@ -96,7 +96,7 @@
 **11. Data augmentation ― Deep learning models usually need a lot of data to be properly trained. It is often useful to get more data from the existing ones using data augmentation techniques. The main ones are summed up in the table below. More precisely, given the following input image, here are the techniques that we can apply:**
 
 <div dir="rtl">
-داده‌افزایی ― مدل‌های یادگیری عمیق معمولا به داده‌های زیادی نیاز دارند تا بتوانند به خوبی آموزش ببینند. اغلب، استفاده از روشهای داده‌افزایی برای گرفتن داده بیشتر از داده‌های موجود، مفید است. اصلی‌ترین آنها در جدول زیر به اختصار آمده‌اند. به عبارت دقیق‌تر، با در نظر گرفتن تصویر ورودی زیر، روش‌هایی که می‌توانم اعمال کرد بدین شرح هستند:
+داده‌افزایی ― مدل‌های یادگیری عمیق معمولا به داده‌های زیادی نیاز دارند تا بتوانند به خوبی آموزش ببینند. اغلب، استفاده از روشهای داده‌افزایی برای گرفتن داده بیشتر از داده‌های موجود، مفید است. اصلی‌ترین آنها در جدول زیر به اختصار آمده‌اند. به عبارت دقیق‌تر، با در نظر گرفتن تصویر ورودی زیر، روش‌هایی که می‌توان اعمال کرد بدین شرح هستند:
 </div>
 
 <br>

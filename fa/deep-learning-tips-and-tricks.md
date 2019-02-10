@@ -1,4 +1,4 @@
- 
+
 **Deep Learning Tips and Tricks translation**
 
 <br>
@@ -42,7 +42,7 @@
 **5. [Training a neural network, Epoch, Mini-batch, Cross-entropy loss, Backpropagation, Gradient descent, Updating weights, Gradient checking]**
 
 <div dir="rtl">
-[آموزش یک شبکه‌ی عصبی، تکرار(Epoch)، دسته‌ی‌کوچک، خطای آنتروپی متقاطع، انتشار معکوس، گرادیان نزولی، بروزرسانی وزن‌ها، وارسی گرادیان]
+[آموزش یک شبکه‌ی عصبی، تکرار(Epoch)، دسته‌ی‌کوچک، خطای آنتروپی متقاطع، انتشار معکوس، گرادیان نزولی، به‌روزرسانیوزن‌ها، وارسی گرادیان]
 </div>
 
 <br>
@@ -184,7 +184,7 @@
 **21. Epoch ― In the context of training a model, epoch is a term used to refer to one iteration where the model sees the whole training set to update its weights.**
 
 <div dir="rtl">
-تکرار (epoch) ― در مضمون آموزش یک مدل، تکرار اصطلاحی است که مدل در یک دوره تکرار تمامی نمونه‌های آموزشی را برای بروزرسانی وزن‌ها می‌بیند.
+تکرار (epoch) ― در مضمون آموزش یک مدل، تکرار اصطلاحی است که مدل در یک دوره تکرار تمامی نمونه‌های آموزشی را برای به‌روزرسانیوزن‌ها می‌بیند.
 </div>
 
 <br>
@@ -193,7 +193,7 @@
 **22. Mini-batch gradient descent ― During the training phase, updating weights is usually not based on the whole training set at once due to computation complexities or one data point due to noise issues. Instead, the update step is done on mini-batches, where the number of data points in a batch is a hyperparameter that we can tune.**
 
 <div dir="rtl">
-گرادیان نزولی دسته‌ی‌کوچک ―  در فاز آموزش، بروزرسانی وزن‌ها معمولا بر مبنای تمامی مجموعه آموزش به علت پیچیدگی‌های محاسباتی، یا یک نمونه داده به علت مشکل نویز، نیست. در عوض، گام بروزرسانی بر روی دسته‌های کوچک انجام می شود، که تعداد نمونه‌های داده در یک دسته ابرفراسنج است که میتوان آن را تنظیم کرد.
+گرادیان نزولی دسته‌ی‌کوچک ―  در فاز آموزش، به‌روزرسانیوزن‌ها معمولا بر مبنای تمامی مجموعه آموزش به علت پیچیدگی‌های محاسباتی، یا یک نمونه داده به علت مشکل نویز، نیست. در عوض، گام به‌روزرسانیبر روی دسته‌های کوچک انجام می شود، که تعداد نمونه‌های داده در یک دسته ابرفراسنج است که میتوان آن را تنظیم کرد.
 </div>
 
 <br>
@@ -229,7 +229,7 @@
 **26. Backpropagation ― Backpropagation is a method to update the weights in the neural network by taking into account the actual output and the desired output. The derivative with respect to each weight w is computed using the chain rule.**
 
 <div dir="rtl">
-انتشار معکوس ―  انتشار معکوس روشی برای بروزرسانی وزن‌ها با توجه به خروجی واقعی و خروجی مورد انتظار در شبکه‌ی عصبی است. مشتق نسبت به هر وزن w توسط قاعده‌ی زنجیری محاسبه می‌شود.
+انتشار معکوس ―  انتشار معکوس روشی برای به‌روزرسانیوزن‌ها با توجه به خروجی واقعی و خروجی مورد انتظار در شبکه‌ی عصبی است. مشتق نسبت به هر وزن w توسط قاعده‌ی زنجیری محاسبه می‌شود.
 </div>
 
 <br>
@@ -238,7 +238,7 @@
 **27. Using this method, each weight is updated with the rule:**
 
 <div dir="rtl">
-با استفاده از این روش، هر وزن با قانون زیر بروزرسانی می‌شود:
+با استفاده از این روش، هر وزن با قانون زیر به‌روزرسانیمی‌شود:
 </div>
 
 <br>
@@ -247,7 +247,7 @@
 **28. Updating weights ― In a neural network, weights are updated as follows:**
 
 <div dir="rtl">
-بروزرسانی وزن‌ها – در یک شبکه‌ی عصبی، وزن‌ها به شکل زیر بروزرسانی می‌شوند:
+به‌روزرسانیوزن‌ها – در یک شبکه‌ی عصبی، وزن‌ها به شکل زیر به‌روزرسانیمی‌شوند:
 </div>
 
 <br>
@@ -347,7 +347,7 @@
 **
 
 <div dir="rtl">
-نرخ یادگیری – نرخ یادگیری اغلب با نماد α و گاهی اوقات با نماد η نمایش داده می‌شود و بیانگر سرعت (گام) بروزرسانی وزن‌ها است که می‌تواند مقداری ثابت داشته باشد یا به سازگارشونده تغییر کند. محبوب‌ترین روش حال حاضر Adam نام دارد، روشی است که نرخ یادگیری را در حین فرآیند آموزش تنظیم می‌کند.
+نرخ یادگیری – نرخ یادگیری اغلب با نماد α و گاهی اوقات با نماد η نمایش داده می‌شود و بیانگر سرعت (گام) به‌روزرسانیوزن‌ها است که می‌تواند مقداری ثابت داشته باشد یا به سازگارشونده تغییر کند. محبوب‌ترین روش حال حاضر Adam نام دارد، روشی است که نرخ یادگیری را در حین فرآیند آموزش تنظیم می‌کند.
 </div>
 
 <br>
@@ -419,7 +419,7 @@
 **47. Dropout ― Dropout is a technique used in neural networks to prevent overfitting the training data by dropping out neurons with probability p>0. It forces the model to avoid relying too much on particular sets of features.**
 
 <div dir="rtl">
-برون‌اندازی – برون‌اندازی روشی است که در شبکه‌های عصبی برای جلوگیری از برارزش شدن بر روی داده‌های آموزشی با حذف تصادفی نورون‌ها با احتمال p>0 استفاده می‌شود. این روش مدل را مجبور می‌کند تا از تکیه کردن بیش از حد بر روی مجموعه خاصی از ویژگی‌ها خودداری کند.
+برون‌اندازی – برون‌اندازی روشی است که در شبکه‌های عصبی برای جلوگیری از بیش‌برارزش شدن بر روی داده‌های آموزشی با حذف تصادفی نورون‌ها با احتمال p>0 استفاده می‌شود. این روش مدل را مجبور می‌کند تا از تکیه کردن بیش از حد بر روی مجموعه خاصی از ویژگی‌ها خودداری کند.
 </div>
 
 <br>
@@ -437,7 +437,7 @@
 **49. Weight regularization ― In order to make sure that the weights are not too large and that the model is not overfitting the training set, regularization techniques are usually performed on the model weights. The main ones are summed up in the table below:**
 
 <div dir="rtl">
-نظام‌بخشی وزن – برای اطمینان از اینکه (مقادیر) وزن‌ها زیادی بزرگ نیستند و مدل به مجموعه آموزش بیش‌برارزش نیست، روشهای نظام‌بخشی معمولا بر روی وزن‌های مدل اجرا می‌شوند. اصلی‌ترین آنها در جدول زیر به اختصار آمده‌اند:
+نظام‌بخشی وزن – برای اطمینان از اینکه (مقادیر) وزن‌ها بیش‌ازحد بزرگ نیستند و مدل به مجموعه‌ی آموزش بیش‌برارزش نمی‌کند، روشهای نظام‌بخشی معمولا بر روی وزن‌های مدل اجرا می‌شوند. اصلی‌ترین آنها در جدول زیر به اختصار آمده‌اند:
 </div>
 
 <br>
@@ -453,7 +453,7 @@
 **50 bis. Shrinks coefficients to 0, Good for variable selection, Makes coefficients smaller, Tradeoff between variable selection and small coefficients]**
 
 <div dir="rtl">
-ضرایب را تا ۰ کاهش می‌دهد، برای انتخاب متغیر مناسب است، ضرایب را کوچکتر می‌کند، بین انتخاب متغیر و ضرایب کوچک مصالحه می‌کند
+ضرایب را تا صفر کاهش می‌دهد، برای انتخاب متغیر مناسب است، ضرایب را کوچکتر می‌کند، بین انتخاب متغیر و ضرایب کوچک مصالحه می‌کند
 </div>
 
 <br>
@@ -461,7 +461,7 @@
 **51. Early stopping ― This regularization technique stops the training process as soon as the validation loss reaches a plateau or starts to increase.**
 
 <div dir="rtl">
-توقف زودهنگام ― این روش نظام‌بخشی، فرآیند آموزش را به محض اینکه خطای اعتبارسنجی ثابت یا شروع به افزایش پیدا کند، متوقف می‌کند.
+توقف زودهنگام ― این روش نظام‌بخشی، فرآیند آموزش را به محض اینکه خطای اعتبارسنجی ثابت می‌شود یا شروع به افزایش پیدا کند، متوقف می‌کند.
 </div>
 
 <br>
@@ -584,7 +584,3 @@
 </div>
 
 <br>
-
-
-
-

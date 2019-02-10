@@ -42,7 +42,7 @@
 **5. [Training a neural network, Epoch, Mini-batch, Cross-entropy loss, Backpropagation, Gradient descent, Updating weights, Gradient checking]**
 
 <div dir="rtl">
-[آموزش یک شبکه‌ی عصبی، تکرار(Epoch)، دسته‌ی‌کوچک، خطای آنتروپی متقاطع، انتشار معکوس، گرادیان نزولی، به‌روزرسانی وزن‌ها، وارسی گرادیان]
+[آموزش یک شبکه‌ی عصبی، تکرار(Epoch)، دسته‌ی کوچک، خطای آنتروپی متقاطع، انتشار معکوس، گرادیان نزولی، به‌روزرسانی وزن‌ها، وارسی گرادیان]
 </div>
 
 <br>
@@ -492,7 +492,7 @@
 **54. Overfitting small batch ― When debugging a model, it is often useful to make quick tests to see if there is any major issue with the architecture of the model itself. In particular, in order to make sure that the model can be properly trained, a mini-batch is passed inside the network to see if it can overfit on it. If it cannot, it means that the model is either too complex or not complex enough to even overfit on a small batch, let alone a normal-sized training set.**
 
 <div dir="rtl">
-بیش‌برارزش روی دسته‌ی ‌کوچک ―  هنگام اشکال‌زدایی یک مدل، اغلب مفید است که یک سری آزمایش‌های سریع برای اطمینان از اینکه هیچ مشکل عمده‌ای در معماری مدل وجود ندارد، انجام شود. به طورخاص، برای اطمینان از اینکه مدل می‌تواند به شکل صحیح آموزش ببیند، یک دسته‌ی‌ کوچک (از داده‌ها) به شبکه داده می‌شود تا دریابیم که مدل می‌تواند به آنها بیش‌برارزش کند. اگر نتواند، بدین معناست که مدل از پیچیدگی بالایی برخوردار است یا پیچیدگی کافی برای بیش‌برارزش شدن روی دستهی کوچک ندارد، چه برسد به یک مجموعه آموزشی با اندازه عادی.
+بیش‌برارزش روی دسته‌ی ‌کوچک ―  هنگام اشکال‌زدایی یک مدل، اغلب مفید است که یک سری آزمایش‌های سریع برای اطمینان از اینکه هیچ مشکل عمده‌ای در معماری مدل وجود ندارد، انجام شود. به طورخاص، برای اطمینان از اینکه مدل می‌تواند به شکل صحیح آموزش ببیند، یک دسته‌ی‌ کوچک (از داده‌ها) به شبکه داده می‌شود تا دریابیم که مدل می‌تواند به آنها بیش‌برارزش کند. اگر نتواند، بدین معناست که مدل از پیچیدگی بالایی برخوردار است یا پیچیدگی کافی برای بیش‌برارزش شدن روی دسته‌ی‌ کوچک ندارد، چه برسد به یک مجموعه آموزشی با اندازه عادی.
 </div>
 
 <br>
@@ -501,7 +501,7 @@
 **55. Gradient checking ― Gradient checking is a method used during the implementation of the backward pass of a neural network. It compares the value of the analytical gradient to the numerical gradient at given points and plays the role of a sanity-check for correctness.**
 
 <div dir="rtl">
-وارسی گرادیان – وارسی گرادیان روشی است که در طول پیادهسازی گذر روبه‌عقبِ یک شبکهی عصبی استفاده می‌شود. این روش مقدار گرادیان تحلیلی را با گرادیان عددی در نقطه‌های مفروض مقایسه می‌کند و نقش بررسی درستی را ایفا میکند. 
+وارسی گرادیان – وارسی گرادیان روشی است که در طول پیاده‌سازی گذر روبه‌عقبِ یک شبکه‌ی عصبی استفاده می‌شود. این روش مقدار گرادیان تحلیلی را با گرادیان عددی در نقطه‌های مفروض مقایسه می‌کند و نقش بررسی درستی را ایفا میکند. 
 </div>
 
 <br>

@@ -1,3 +1,4 @@
+ 
 **Deep Learning Tips and Tricks translation**
 
 <br>
@@ -41,7 +42,7 @@
 **5. [Training a neural network, Epoch, Mini-batch, Cross-entropy loss, Backpropagation, Gradient descent, Updating weights, Gradient checking]**
 
 <div dir="rtl">
-[آموزش یک شبکه عصبی، تکرار(Epoch)، دسته‌ی‌کوچک، خطای آنتروپی متقاطع، انتشار معکوس، گرادیان نزولی، بروزرسانی وزن‌ها، وارسی گرادیان]
+[آموزش یک شبکه‌ی عصبی، تکرار(Epoch)، دسته‌ی‌کوچک، خطای آنتروپی متقاطع، انتشار معکوس، گرادیان نزولی، بروزرسانی وزن‌ها، وارسی گرادیان]
 </div>
 
 <br>
@@ -50,7 +51,7 @@
 **6. [Parameter tuning, Xavier initialization, Transfer learning, Learning rate, Adaptive learning rates]**
 
 <div dir="rtl">
-[تنظیم پارامتر، مقداردهی‌اولیه ژاویر،یادگیری انتقالی، نرخ یادگیری، نرخ یادگیری سازگارشونده]
+[تنظیم فراسنج، مقداردهی اولیه Xavier،یادگیری انتقالی، نرخ یادگیری، نرخ یادگیری سازگارشونده]
 </div>
 
 <br>
@@ -59,7 +60,7 @@
 **7. [Regularization, Dropout, Weight regularization, Early stopping]**
 
 <div dir="rtl">
-[نظام‌بخشی، برون‌اندازی، نظام‌بخشی وزن، توقف‌زودهنگام]
+[نظام‌بخشی، برون‌اندازی، نظام‌بخشی وزن، توقف زودهنگام]
 </div>
 
 <br>
@@ -68,7 +69,7 @@
 **8. [Good practices, Overfitting small batch, Gradient checking]**
 
 <div dir="rtl">
-[تمرینات خوب، برارزش دسته‌ی‌کوچک، وارسی گرادیان]
+[عادت‌های خوب، بیش‌برارزش دسته‌ی کوچک، وارسی گرادیان]
 </div>
 
 <br>
@@ -95,7 +96,7 @@
 **11. Data augmentation ― Deep learning models usually need a lot of data to be properly trained. It is often useful to get more data from the existing ones using data augmentation techniques. The main ones are summed up in the table below. More precisely, given the following input image, here are the techniques that we can apply:**
 
 <div dir="rtl">
-داده‌افزایی ― مدل‌های یادگیری عمیق معمولا به داده زیادی نیاز دارند تا بتوانند به خوبی آموزش ببینند. اغلب، استفاده از روشهای داده افزایی برای گرفتن داده بیشتر از داده موجود، مفید است. اصلی‌ترین آنها در جدول زیر به اختصار آمده اند. به عبارت دقیق‌تر، با در نظر گرفتن تصویر ورودی زیر، روش‌هایی که میتوانم اعمال کرد بدین شرح هستند:
+داده‌افزایی ― مدل‌های یادگیری عمیق معمولا به داده‌های زیادی نیاز دارند تا بتوانند به خوبی آموزش ببینند. اغلب، استفاده از روشهای داده‌افزایی برای گرفتن داده بیشتر از داده‌های موجود، مفید است. اصلی‌ترین آنها در جدول زیر به اختصار آمده‌اند. به عبارت دقیق‌تر، با در نظر گرفتن تصویر ورودی زیر، روش‌هایی که می‌توانم اعمال کرد بدین شرح هستند:
 </div>
 
 <br>
@@ -103,7 +104,7 @@
 **12. [Original, Flip, Rotation, Random crop]**
 
 <div dir="rtl">
-[آغازین، قرینه، چرخش، برش تصادفی]
+[تصویر اصلی، قرینه، چرخش، برش تصادفی]
 </div>
 
 <br>
@@ -112,7 +113,7 @@
 **13. [Image without any modification, Flipped with respect to an axis for which the meaning of the image is preserved, Rotation with a slight angle, Simulates incorrect horizon calibration, Random focus on one part of the image, Several random crops can be done in a row]**
 
 <div dir="rtl">
-[تصویر (آغازین) بدون هیچ‌گونه اصلاحی، قرینه شده به نسبت یک محور بطوری‌که معنای تصویر حفظ شده است، چرخش با یک زاویه کم، ............، تمرکز تصادفی بر روی یک بخش از تصویر، چندین برش تصادفی را میتوان پشت‌سرهم انجام داد]
+[تصویر (آغازین) بدون هیچ‌گونه تغییری، قرینه‌شده نسبت به محوری که معنای (محتوای) تصویر را حفظ می‌کند، چرخش با زاویه‌ی اندک، خط افق نادرست را شبیه‌سازی می‌کند، روی ناحیه‌ای تصادفی از تصویر متمرکز می‌شود، چندین برش تصادفی را میتوان پشت‌سرهم انجام داد]
 </div>
 <br>
 
@@ -120,7 +121,7 @@
 **14. [Color shift, Noise addition, Information loss, Contrast change]**
 
 <div dir="rtl">
-[تغییر رنگ، افزودگی نویز، هدررفت اطلاعات، تغییر تباین(کُنتراست)]
+[تغییر رنگ، اضافه‌کردن نویز، هدررفت اطلاعات، تغییر تباین(کُنتراست)]
 </div>
 
 <br>
@@ -129,7 +130,7 @@
 **15. [Nuances of RGB is slightly changed, Captures noise that can occur with light exposure, Addition of noise, More tolerance to quality variation of inputs, Parts of image ignored, Mimics potential loss of parts of image, Luminosity changes, Controls difference in exposition due to time of day]**
 
 <div dir="rtl">
-[عناصر RGB کمی تغییر کرده است، نویزی که در هنگام مواجهه شدن با نور رخ می‌دهد را می‌گیرد، افزودگی نویز، مقاومت بیشتر به تغییر کیفیت ورودی‌ها، بخش‌هایی از تصویر نادیده گرفته می‌شوند، تقلید (شبیه سازی) هدررفت بالقوه بخش هایی از تصویر، تغییر درخشندگی، با توجه به زمان روز تفاوت نمایش (تصویر) را کنترل می‌کند]
+[عناصر RGB کمی تغییر کرده است، نویزی که در هنگام مواجه شدن با نور رخ می‌دهد را شبیه‌سازی می‌کند، افزودگی نویز، مقاومت بیشتر نسبت به تغییر کیفیت تصاویر ورودی، بخش‌هایی از تصویر نادیده گرفته می‌شوند، تقلید (شبیه سازی) هدررفت بالقوه بخش هایی از تصویر، تغییر درخشندگی، با توجه به زمان روز تفاوت نمایش (تصویر) را کنترل می‌کند]
 </div>
 
 <br>
@@ -138,7 +139,7 @@
 **16. Remark: data is usually augmented on the fly during training.**
 
 <div dir="rtl">
-نکته: داده معمولا در فرآیند آموزش (به صورت درجا) افزایش پیدا می‌کند.
+نکته: داده‌ها معمولا در فرآیند آموزش (به صورت درجا) افزایش پیدا می‌کنند.
 </div>
 
 <br>
@@ -147,7 +148,7 @@
 **17. Batch normalization ― It is a step of hyperparameter γ,β that normalizes the batch {xi}. By noting μB,σ2B the mean and variance of that we want to correct to the batch, it is done as follows:**
 
 <div dir="rtl">
-نرمال‌سازی دسته‌ای ― یک مرحله از فراعامل‌های γ و β که دسته‌ی {xi} را نرمال می‌کند. نماد μB و σ2B به میانگین و واریانس دسته‌ای که می‌خواهیم آن را اصلاح کنیم اشاره دارد که به صورت زیر است:
+نرمال‌سازی دسته‌ای ― یک مرحله از فراسنج‌های γ و β که دسته‌ی {xi} را نرمال می‌کند. نماد μB و σ2B به میانگین و وردایی دسته‌ای که می‌خواهیم آن را اصلاح کنیم اشاره دارد که به صورت زیر است:
 </div>
 
 <br>
@@ -165,7 +166,7 @@
 **19. Training a neural network**
 
 <div dir="rtl">
-آموزش یک شبکه عصبی
+آموزش یک شبکه‌ی عصبی
 </div>
 
 <br>
@@ -192,7 +193,7 @@
 **22. Mini-batch gradient descent ― During the training phase, updating weights is usually not based on the whole training set at once due to computation complexities or one data point due to noise issues. Instead, the update step is done on mini-batches, where the number of data points in a batch is a hyperparameter that we can tune.**
 
 <div dir="rtl">
-گرادیان نزولی دسته‌ی‌کوچک ―  در فاز آموزش، بروزرسانی وزن‌ها معمولا بر مبنای تمامی مجموعه آموزش به علت پیچیدگی‌های محاسباتی، یا یک نمونه داده به علت مشکل نویز، نیست. در عوض، گام بروزرسانی بر روی دسته‌های کوچک انجام می شود، که تعداد نمونه‌های داده در یک دسته فراعاملی است که میتوان آن را تنظیم کرد.
+گرادیان نزولی دسته‌ی‌کوچک ―  در فاز آموزش، بروزرسانی وزن‌ها معمولا بر مبنای تمامی مجموعه آموزش به علت پیچیدگی‌های محاسباتی، یا یک نمونه داده به علت مشکل نویز، نیست. در عوض، گام بروزرسانی بر روی دسته‌های کوچک انجام می شود، که تعداد نمونه‌های داده در یک دسته ابرفراسنج است که میتوان آن را تنظیم کرد.
 </div>
 
 <br>
@@ -201,7 +202,7 @@
 **23. Loss function ― In order to quantify how a given model performs, the loss function L is usually used to evaluate to what extent the actual outputs y are correctly predicted by the model outputs z.**
 
 <div dir="rtl">
-تابع خطا ―  به منظور سنجش کارایی یک مدل مفروض، معمولا از تابع خطا L برای ارزیابی اینکه تا چه حد خروجی حقیقی y به شکل صحیح توسط خروجی z مدل پیش‌بینی شده‌اند، استفاده می‌شود. 
+تابع خطا ―  به منظور سنجش کارایی یک مدل مفروض، معمولا از تابع خطای L برای ارزیابی اینکه تا چه حد خروجی حقیقی y به شکل صحیح توسط خروجی z مدل پیش‌بینی شده‌اند، استفاده می‌شود. 
 </div>
 
 <br>
@@ -246,7 +247,7 @@
 **28. Updating weights ― In a neural network, weights are updated as follows:**
 
 <div dir="rtl">
-بروزرسانی وزن‌ها – در یک شبکه عصبی، وزن‌ها به شکل زیر بروزرسانی می‌شوند:
+بروزرسانی وزن‌ها – در یک شبکه‌ی عصبی، وزن‌ها به شکل زیر بروزرسانی می‌شوند:
 </div>
 
 <br>
@@ -255,7 +256,7 @@
 **29. [Step 1: Take a batch of training data and perform forward propagation to compute the loss, Step 2: Backpropagate the loss to get the gradient of the loss with respect to each weight, Step 3: Use the gradients to update the weights of the network.]**
 
 <div dir="rtl">
-[گام 1: یک دسته از داده‌های آموزشی را بگیر و انتشارمستقیم را برای محاسبه خطا اجرا کن، گام 2: خطا را برای گرفتن گرادیان آن به نسبت هر وزن انتشارمعکوس بده، گام 3: از گرادیان‌ها برای بروزرسانی وزن‌های شبکه استفاده کن.]
+[گام 1: یک دسته از داده‌های آموزشی گرفته شده و با استفاده از انتشار مستقیم خطا محاسبه می‌شود، گام 2: با استفاده از انتشار معکوس مشتق خطا نسبت به هر وزن محاسبه می‌شود، گام 3: با استفاده از مشتقات، وزن‌های شبکه به‌روزرسانی می‌شوند.]
 </div>
 
 <br>
@@ -264,7 +265,7 @@
 **30. [Forward propagation, Backpropagation, Weights update]**
 
 <div dir="rtl">
-[انتشارمستقیم، انتشار معکوس، بروزرسانی وزنها]
+[انتشار مستقیم، انتشار معکوس، به‌روزرسانی وزنها]
 </div>
 
 <br>
@@ -273,7 +274,7 @@
 **31. Parameter tuning**
 
 <div dir="rtl">
-تنظیم پارامتر
+تنظیم فراسنج
 </div>
 
 <br>
@@ -282,7 +283,7 @@
 **32. Weights initialization**
 
 <div dir="rtl">
-مقداردهی‌اولیه وزن‌ها
+مقداردهی اولیه وزن‌ها
 </div>
 
 <br>
@@ -291,7 +292,7 @@
 **33. Xavier initialization ― Instead of initializing the weights in a purely random manner, Xavier initialization enables to have initial weights that take into account characteristics that are unique to the architecture.**
 
 <div dir="rtl">
-مقداردهی‌اولیه ژاویر ―  به‌جای مقداردهی‌اولیه کردن وزن‌ها به شیوه‌ی کاملا تصادفی، مقداردهی‌اولیه ژاویر این امکان را فراهم میسازد تا وزن‌های اولیه‌ایی داشته باشیم که ویژگی‌های منحصر به فرد معماری را به حساب می‌آورند.
+مقداردهی‌ اولیه Xavier ―  به‌جای مقداردهی اولیه‌ی وزن‌ها به شیوه‌ی کاملا تصادفی، مقداردهی اولیه Xavier  این امکان را فراهم می‌سازد تا وزن‌های اولیه‌ای داشته باشیم که ویژگی‌های منحصر به فرد معماری را به حساب می‌آورند.
 </div>
 
 <br>
@@ -300,7 +301,7 @@
 **34. Transfer learning ― Training a deep learning model requires a lot of data and more importantly a lot of time. It is often useful to take advantage of pre-trained weights on huge datasets that took days/weeks to train, and leverage it towards our use case. Depending on how much data we have at hand, here are the different ways to leverage this:**
 
 <div dir="rtl">
-یادگیری انتقالی ― آموزش یک مدل یادگیری عمیق به داده‌های زیاد و مهم تر از آن به زمان زیادی احتیاج دارد. اغلب استفاده از مزیت وزنهای ازقبل‌آموزش داده شده برروی پایگاه داده‌های عظیم که روزها/هفته‌ها طول می‌کشند تا آموزش ببینند، مفید است، و  می‌توان از قدرت آن برای مورد استفاده‌مان بهره جست. بسته به میزان داده‌هایی که در اختیار داریم ، در زیر روش‌های مختلفی که می‌توان از آنها بهره جست آورده شده‌اند:
+یادگیری انتقالی ― آموزش یک مدل یادگیری عمیق به داده‌های زیاد و مهم تر از آن به زمان زیادی احتیاج دارد. اغلب بهتر است که از وزن‌های پیش‌آموخته روی پایگاه داده‌های عظیم که آموزش بر روی آن‌ها روزها یا هفته‌ها طول می‌کشند استفاده کرد، و آن‌ها را برای موارد استفاده‌ی خود به کار برد. بسته به میزان داده‌هایی که در اختیار داریم، در زیر روش‌های مختلفی که می‌توان از آنها بهره جست آورده شده‌اند:
 </div>
 
 <br>
@@ -309,7 +310,7 @@
 **35. [Training size, Illustration, Explanation]**
 
 <div dir="rtl">
-[اندازه آموزش، نگاره، توضیح]
+[تعداد داده‌های آموزش، نگاره، توضیح]
 </div>
 
 <br>
@@ -346,7 +347,7 @@
 **
 
 <div dir="rtl">
-نرخ یادگیری – نرخ یادگیری اغلب با نماد α و گاهی اوقات با نماد η نمایش داده می‌شود و بیانگر سرعت (گام) بروزرسانی وزن‌ها است که می‌تواند مقداری ثابت یا به سازگارشونده تغییر کند. محبوب‌ترین روش حال حاضر Adam نام دارد، متدی است که نرخ یادگیری را در حین فرآیند آموزش تنظیم می‌کند.
+نرخ یادگیری – نرخ یادگیری اغلب با نماد α و گاهی اوقات با نماد η نمایش داده می‌شود و بیانگر سرعت (گام) بروزرسانی وزن‌ها است که می‌تواند مقداری ثابت داشته باشد یا به سازگارشونده تغییر کند. محبوب‌ترین روش حال حاضر Adam نام دارد، روشی است که نرخ یادگیری را در حین فرآیند آموزش تنظیم می‌کند.
 </div>
 
 <br>
@@ -355,7 +356,7 @@
 **40. Adaptive learning rates ― Letting the learning rate vary when training a model can reduce the training time and improve the numerical optimal solution. While Adam optimizer is the most commonly used technique, others can also be useful. They are summed up in the table below:**
 
 <div dir="rtl">
-نرخ‌های یادگیری سازگارشونده ― داشتن نرخ یادگیری متغیر در فرآیند آموزش یک مدل،  می‌تواند زمان آموزش را کاهش دهد و راه‌حل بهینه عددی را بهبود ببخشد. با آنکه بهینه ساز Adam محبوب‌ترین متد مورد استفاده است، دیگر متدها نیز می‌توانند مفید باشند. این متد ها در جدول زیر به اختصار آمده‌اند:
+نرخ‌های یادگیری سازگارشونده ― داشتن نرخ یادگیری متغیر در فرآیند آموزش یک مدل،  می‌تواند زمان آموزش را کاهش دهد و راه‌حل بهینه عددی را بهبود ببخشد. با آنکه بهینه‌ساز Adam محبوب‌ترین روش مورد استفاده است، دیگر روش‌ها نیز می‌توانند مفید باشند. این روش‌ها در جدول زیر به اختصار آمده‌اند:
 </div>
 
 <br>
@@ -364,7 +365,7 @@
 **41. [Method, Explanation, Update of w, Update of b]**
 
 <div dir="rtl">
-[روش، توضیح، بروزرسانی w، بروزرسانی  b]
+[روش، توضیح، به‌روزرسانی w، به‌روزرسانی  b]
 </div>
 
 <br>
@@ -373,7 +374,7 @@
 **42. [Momentum, Dampens oscillations, Improvement to SGD, 2 parameters to tune]**
 
 <div dir="rtl">
-[Momentum، نوسانات را تعدیل می‌دهد، بهبود SGD، 2 پارامتر نیاز به تنظیم دارند]
+[تکانه، نوسانات را تعدیل می‌دهد، بهبود SGD، دو  فراسنج که نیاز به تنظیم دارند]
 </div>
 
 <br>
@@ -391,7 +392,7 @@
 **44. [Adam, Adaptive Moment estimation, Most popular method, 4 parameters to tune]**
 
 <div dir="rtl">
-[Adam، تخمین سازگارشونده گشتاور، محبوب‌ترین متد، 4 پارامتر نیاز به تنظیم دارند]
+[Adam، تخمین سازگارشونده گشتاور، محبوب‌ترین متد، چهار فراسنج که نیاز به تنظیم دارند]
 </div>
 
 <br>
@@ -427,7 +428,7 @@
 **48. Remark: most deep learning frameworks parametrize dropout through the 'keep' parameter 1−p.**
 
 <div dir="rtl">
-نکته: بیشتر فریم ورک‌های یادگیری عمیق برون‌اندازی را به شکل پارامتر ‘keep’  1-p درمی-آورند.
+نکته: بیشتر فریم ورک‌های یادگیری عمیق برون‌اندازی را به شکل فراسنج ‘keep’  1-p درمی-آورند.
 </div>
 
 <br>
@@ -478,7 +479,7 @@
 **53. Good practices**
 
 <div dir="rtl">
-تمرینات خوب
+عادت‌های خوب
 </div>
 
 <br>
@@ -487,7 +488,7 @@
 **54. Overfitting small batch ― When debugging a model, it is often useful to make quick tests to see if there is any major issue with the architecture of the model itself. In particular, in order to make sure that the model can be properly trained, a mini-batch is passed inside the network to see if it can overfit on it. If it cannot, it means that the model is either too complex or not complex enough to even overfit on a small batch, let alone a normal-sized training set.**
 
 <div dir="rtl">
-بیش‌برارزش کردن دسته‌ی‌کوچک ―  هنگام اشکال‌زدایی یک مدل، اغلب مفید است که یک سری آزمایش‌های سریع برای اطمینان از اینکه هیچ مشکل عمده‌ای در معماری مدل وجود دارد انجام شود. به طورخاص، برای اطمینان از اینکه مدل می‌تواند به شکل صحیح آموزش ببیند، یک دسته‌ی‌کوچک (از داده‌ها) به شبکه داده می‌شود تا دریابیم که مدل می‌تواند به آنها بیش‌برارزش کند. اگر نتوانید، بدین معناست که مدل یا خیلی پیچیده است یا پیچیدگی لازم برای بیش‌برارزش شدن برروی دسته‌ی‌کوچک را ندارد، چه برسد به یک مجموعه آموزشی با اندازه عادی.
+بیش‌برارزش روی دسته‌ی ‌کوچک ―  هنگام اشکال‌زدایی یک مدل، اغلب مفید است که یک سری آزمایش‌های سریع برای اطمینان از اینکه هیچ مشکل عمده‌ای در معماری مدل وجود ندارد، انجام شود. به طورخاص، برای اطمینان از اینکه مدل می‌تواند به شکل صحیح آموزش ببیند، یک دسته‌ی‌ کوچک (از داده‌ها) به شبکه داده می‌شود تا دریابیم که مدل می‌تواند به آنها بیش‌برارزش کند. اگر نتواند، بدین معناست که مدل از پیچیدگی بالایی برخوردار است یا پیچیدگی کافی برای بیش‌برارزش شدن روی دستهی کوچک ندارد، چه برسد به یک مجموعه آموزشی با اندازه عادی.
 </div>
 
 <br>
@@ -496,7 +497,7 @@
 **55. Gradient checking ― Gradient checking is a method used during the implementation of the backward pass of a neural network. It compares the value of the analytical gradient to the numerical gradient at given points and plays the role of a sanity-check for correctness.**
 
 <div dir="rtl">
-وارسی گرادیان – وارسی گرادیان متدی است که در طول پیاده سازی گذر روبه‌عقبِ یک شبکه عصبی استفاده می‌شود. این متد مقدار گرادیان تحلیلی را با گرادیان عددی در نقطه‌های مفروض را مقایسه می‌کند و نقش بررسی‌درستی را ایفا میکند. 
+وارسی گرادیان – وارسی گرادیان روشی است که در طول پیادهسازی گذر روبه‌عقبِ یک شبکهی عصبی استفاده می‌شود. این روش مقدار گرادیان تحلیلی را با گرادیان عددی در نقطه‌های مفروض مقایسه می‌کند و نقش بررسی درستی را ایفا میکند. 
 </div>
 
 <br>
@@ -523,7 +524,7 @@
 **58. [Expensive; loss has to be computed two times per dimension, Used to verify correctness of analytical implementation, Trade-off in choosing h not too small (numerical instability) nor too large (poor gradient approximation)]**
 
 <div dir="rtl">
-[گران (محاسباتی)،  خطا باید دو بار در هر بُعد محاسبه شود، برای تایید صحت پیاده‌سازی تحلیلی استفاده می‌شود، مصالحه در انتخاب h: نه بسیار کوچک (ناپایداری عددی) و نه خیلی بزرگ (تخمین گرادیان ضعیف) باشد]
+[پرهزینه (از نظر محاسباتی)،  خطا باید دو بار برای هر بُعد محاسبه شود، برای تایید صحت پیاده‌سازی تحلیلی استفاده می‌شود، مصالحه در انتخاب h: نه بسیار کوچک (ناپایداری عددی) و نه خیلی بزرگ (تخمین گرادیان ضعیف) باشد]
 </div>
 
 <br>
@@ -547,7 +548,7 @@
 **61. Original authors**
 
 <div dir="rtl">
-متن اصلی از
+نویسندگان اصلی
 </div>
 
 <br>
@@ -583,3 +584,7 @@
 </div>
 
 <br>
+
+
+
+

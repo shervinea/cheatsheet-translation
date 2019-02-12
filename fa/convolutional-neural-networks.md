@@ -70,7 +70,7 @@
 **8. [Object detection, Types of models, Detection, Intersection over Union, Non-max suppression, YOLO, R-CNN]**
 
 <div dir="rtl">
-[تشخیص شئی، انواع مدل ها، تشخیص، نسبت هم‌پوشانی اشتراک به اجتماع، حذف مقادیر غیربیشینه، YOLO، ]R-CNN
+[شناسایی شئی، انواع مدل ها، شناسایی، نسبت هم‌پوشانی اشتراک به اجتماع، حذف مقادیر غیربیشینه، YOLO، ]R-CNN
 </div>
 
 <br>

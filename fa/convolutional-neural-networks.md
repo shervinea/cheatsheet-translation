@@ -618,7 +618,7 @@ x∈Rn را از ورودی می‌گیرد و یک بردار خروجی احت
 **69. [Original image, Division in GxG grid, Bounding box prediction, Non-max suppression]**
 
 <div dir="rtl">
------
+[تصویر اصلی، تقسیم به GxG مشبک، پیش‌بینی کادر مصورکننده، حذف مقادیر غیربیشبنه]
 </div>
 
 <br>

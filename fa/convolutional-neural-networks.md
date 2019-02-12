@@ -717,7 +717,7 @@
 **80. Triplet loss ― The triplet loss ℓ is a loss function computed on the embedding representation of a triplet of images A (anchor), P (positive) and N (negative). The anchor and the positive example belong to a same class, while the negative example to another one. By calling α∈R+ the margin parameter, this loss is defined as follows:**
 
 <div dir="rtl">
------
+خطای سه‌گانه – خطای سه‌گانه ℓ یک تابع خطا است که بر روی بازنمایی تعبیه سه‌گانه تصاویر A (اصلی)، P (مثبت) و  N (منفی)  محاسبه می‌شود. نمونه های اصلی (anchor) و مثبت به دسته یکسانی تعلق دارند، حال آنکه نمونه منفی به دسته دیگری تعلق دارد. با نامیدن α∈R+ (به عنوان) فراسنج حاشیه، این خطا بصورت زیر تعریف می‌شود:
 </div>
 
 <br>
@@ -726,7 +726,7 @@
 **81. Neural style transfer**
 
 <div dir="rtl">
------
+انتقالِ سبک عصبی
 </div>
 
 <br>
@@ -735,7 +735,7 @@
 **82. Motivation ― The goal of neural style transfer is to generate an image G based on a given content C and a given style S.**
 
 <div dir="rtl">
------
+انگیزه – هدف انتقالِ سبک عصبی تولید یک تصویر G بر مبنای یک محتوای مفروض C و سبک مفروض S است.
 </div>
 
 <br>
@@ -744,7 +744,7 @@
 **83. [Content C, Style S, Generated image G]**
 
 <div dir="rtl">
------
+[محتوا C، سبک S، تصویر تولیدشده G]
 </div>
 
 <br>
@@ -753,7 +753,7 @@
 **84. Activation ― In a given layer l, the activation is noted a[l] and is of dimensions nH×nw×nc**
 
 <div dir="rtl">
------
+فعال‌سازی – در یک لایه مفروض l، فعال‌سازی با a[l] نمایش داده می‌شود و به ابعاد nH×nw×nc است
 </div>
 
 <br>
@@ -762,7 +762,7 @@
 **85. Content cost function ― The content cost function Jcontent(C,G) is used to determine how the generated image G differs from the original content image C. It is defined as follows:**
 
 <div dir="rtl">
------
+تابع هزینه‌ی محتوا – تابع هزینه‌ی محتوا Jcontent(C,G) برای تعیین میزان اختلاف تصویر تولیدشده G از تصویر اصلی C استفاده می‌شود. این تابع بصورت زیر تعریف می‌شود:
 </div>
 
 <br>
@@ -771,7 +771,7 @@
 **86. Style matrix ― The style matrix G[l] of a given layer l is a Gram matrix where each of its elements G[l]kk′ quantifies how correlated the channels k and k′ are. It is defined with respect to activations a[l] as follows:**
 
 <div dir="rtl">
------
+ماتریسِ سبک - ماتریسِ سبک G[l] یک لایه مفروض l، یک ماتریس گرَم (Gram) است که هر کدام از عناصر G[l]kk′ میزان همبستگی کانال‌های k و k′ را می‌سنجند. این ماتریس نسبت به فعال‌سازی‌های a[l] بصورت زیر محاسبه میشود:
 </div>
 
 <br>

@@ -465,7 +465,7 @@ x∈Rn را از ورودی می‌گیرد و یک بردار خروجی احت
 **52. [Teddy bear, Book]**
 
 <div dir="rtl">
------
+[خرس تدی، کتاب]
 </div>
 
 <br>
@@ -483,7 +483,7 @@ x∈Rn را از ورودی می‌گیرد و یک بردار خروجی احت
 **54. [Traditional CNN, Simplified YOLO, R-CNN, YOLO, R-CNN]**
 
 <div dir="rtl">
------
+[CNN سنتی، شکل ساده YOLO، R-CNN، YOLO، R-CNN]
 </div>
 
 <br>
@@ -501,7 +501,7 @@ x∈Rn را از ورودی می‌گیرد و یک بردار خروجی احت
 **56. [Bounding box detection, Landmark detection]**
 
 <div dir="rtl">
------
+[پیش‌بینی کادر محصورکننده، ]شناسایی نقاط(برجستگی)
 </div>
 
 <br>
@@ -519,7 +519,7 @@ x∈Rn را از ورودی می‌گیرد و یک بردار خروجی احت
 **58. [Box of center (bx,by), height bh and width bw, Reference points (l1x,l1y), ..., (lnx,lny)]**
 
 <div dir="rtl">
------
+[مرکزِ کادر (bx,by)، ارتفاع bh و عرض bw، نقاط مرجع (l1x,l1y), ..., (lnx,lny)]
 </div>
 
 <br>

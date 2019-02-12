@@ -843,7 +843,7 @@ GANs شناخته می‌شوند، ترکیبی از یک مدل مولد و ت
 **94. Remark: use cases using variants of GANs include text to image, music generation and synthesis.**
 
 <div dir="rtl">
------
+نکته: موارد استفاده متنوع GAN ها شامل تبدیل متن به تصویر، تولید موسیقی و تلفیقی از آنهاست.
 </div>
 
 <br>
@@ -852,7 +852,7 @@ GANs شناخته می‌شوند، ترکیبی از یک مدل مولد و ت
 **95. ResNet ― The Residual Network architecture (also called ResNet) uses residual blocks with a high number of layers meant to decrease the training error. The residual block has the following characterizing equation:**
 
 <div dir="rtl">
------
+ResNet – معماری شبکه پسماند (همچنین با عنوان ResNet شناخته میشود) از بلاک‌های پسماند با تعداد لایه‌های زیاد به منظور کاهش خطای آموزش استفاده میکند. بلاک پسماند معادله‌ای با خصوصات زیر دارد:
 </div>
 
 <br>
@@ -861,7 +861,7 @@ GANs شناخته می‌شوند، ترکیبی از یک مدل مولد و ت
 **96. Inception Network ― This architecture uses inception modules and aims at giving a try at different convolutions in order to increase its performance through features diversification. In particular, it uses the 1×1 convolution trick to limit the computational burden.**
 
 <div dir="rtl">
------
+شبکه Inception – این معماری از ماژول‌های inception استفاده می‌کند و هدفش فرصت دادن به (عملیات) کانولوشنی مختلف برای افزایش کارایی از طریق تنوع‌بخشی ویژگی‌ها است. به طور خاص، این معماری از ترفند کانولوشنی 1×1 برای محدود سازی بار محاسباتی استفاده می‌کند
 </div>
 
 <br>

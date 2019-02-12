@@ -663,7 +663,7 @@ x∈Rn را از ورودی می‌گیرد و یک بردار خروجی احت
 **74. Face verification and recognition**
 
 <div dir="rtl">
-تایید چره و بازشناسایی
+تایید چهره و بازشناسایی
 </div>
 
 <br>

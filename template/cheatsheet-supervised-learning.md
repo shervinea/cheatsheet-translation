@@ -348,13 +348,13 @@
 
 **59. Naive Bayes**
 
-&#10230;
+&#10230; Naív Bayes
 
 <br>
 
 **60. Assumption ― The Naive Bayes model supposes that the features of each data point are all independent:**
 
-&#10230;
+&#10230; Feltétel ― A Naív Bayes-modellben feltesszük, hogy az adatpontok tulajdonságai függetlenek:
 
 <br>
 
@@ -366,19 +366,19 @@
 
 **62. Remark: Naive Bayes is widely used for text classification and spam detection.**
 
-&#10230;
+&#10230; Megjegyzés: A Naív Bayest széles körben alkalmazzák a szövegklasszifikáció és spamfelismerés területén. 
 
 <br>
 
 **63. Tree-based and ensemble methods**
 
-&#10230;
+&#10230; Faalapú és [összetett] módszerek 
 
 <br>
 
 **64. These methods can be used for both regression and classification problems.**
 
-&#10230;
+&#10230; Ezek a módszerek regressziós és klasszifikációs problémák esetén egyaránt alkalmazhatók. 
 
 <br>
 

@@ -645,7 +645,7 @@ x∈Rn را از ورودی می‌گیرد و یک بردار خروجی احت
 **72. [Original image, Segmentation, Bounding box prediction, Non-max suppression]**
 
 <div dir="rtl">
------
+[تصویر اصلی، قطعه بندی، پیش‌بینی کادر محصور کننده، حذف مقدار بیشینه]
 </div>
 
 <br>
@@ -663,7 +663,7 @@ x∈Rn را از ورودی می‌گیرد و یک بردار خروجی احت
 **74. Face verification and recognition**
 
 <div dir="rtl">
------
+تایید چره و بازشناسایی
 </div>
 
 <br>
@@ -672,7 +672,7 @@ x∈Rn را از ورودی می‌گیرد و یک بردار خروجی احت
 **75. Types of models ― Two main types of model are summed up in table below:**
 
 <div dir="rtl">
------
+انواع مدل ها – دو نوع اصلی از مدل در جدول زیر بصورت خلاصه آورده‌شده‌اند:
 </div>
 
 <br>
@@ -681,7 +681,7 @@ x∈Rn را از ورودی می‌گیرد و یک بردار خروجی احت
 **76. [Face verification, Face recognition, Query, Reference, Database]**
 
 <div dir="rtl">
------
+[تایید چهره، بازشناسایی چهره، جستار، مرجع، دیتاست]
 </div>
 
 <br>

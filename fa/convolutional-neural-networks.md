@@ -375,7 +375,7 @@
 **42. In the example below, we have F1=F2=3 and S1=S2=1, which gives R2=1+2⋅1+2⋅1=5.**
 
 <div dir="rtl">
------
+در مثال زیر داریم، F1=F2=3 و S1=S2=1 که منتج به R2=1+2⋅1+2⋅1=5 میشود.
 </div>
 
 <br>
@@ -384,7 +384,7 @@
 **43. Commonly used activation functions**
 
 <div dir="rtl">
------
+توابع فعال‌سازی پرکاربرد
 </div>
 
 <br>
@@ -393,7 +393,7 @@
 **44. Rectified Linear Unit ― The rectified linear unit layer (ReLU) is an activation function g that is used on all elements of the volume. It aims at introducing non-linearities to the network. Its variants are summarized in the table below:**
 
 <div dir="rtl">
------
+(ReLU) یک تابع فعال‌سازی g است که بر روی تمامی عناصر توده اعمال میشود. هدف آن ارائه (رفتار) غیرخطی به شبکه است. انواع آن در جدول زیر بصورت خلاصه آمده‌اند:
 </div>
 
 <br>
@@ -402,7 +402,7 @@
 **45. [ReLU, Leaky ReLU, ELU, with]**
 
 <div dir="rtl">
------
+[ReLU ، ReLUنشت‌دار، ELU، با]
 </div>
 
 <br>
@@ -411,7 +411,7 @@
 **46. [Non-linearity complexities biologically interpretable, Addresses dying ReLU issue for negative values, Differentiable everywhere]**
 
 <div dir="rtl">
------
+[پیچیدگی‌های غیر خطی که از دیدگاه زیستی قابل تفسیر هستند، مسئله افول ReLU برای مقادیر منفی را مهار می‌کند، در تمامی نقاط مشتق‌پذیر است]
 </div>
 
 <br>
@@ -420,7 +420,7 @@
 **47. Softmax ― The softmax step can be seen as a generalized logistic function that takes as input a vector of scores x∈Rn and outputs a vector of output probability p∈Rn through a softmax function at the end of the architecture. It is defined as follows:**
 
 <div dir="rtl">
------
+x∈Rn را از ورودی می‌گیرد و یک بردار خروجی احتمال p∈Rn، به‌واسطه‌ی تابع بیشینه‌ی هموار در انتهای معماری، تولید می‌کند. این تابع بصورت زیر تعریف می‌شود:
 </div>
 
 <br>
@@ -429,7 +429,7 @@
 **48. where**
 
 <div dir="rtl">
------
+که
 </div>
 
 <br>
@@ -438,7 +438,7 @@
 **49. Object detection**
 
 <div dir="rtl">
------
+شناسایی شئی
 </div>
 
 <br>
@@ -447,7 +447,7 @@
 **50. Types of models ― There are 3 main types of object recognition algorithms, for which the nature of what is predicted is different. They are described in the table below:**
 
 <div dir="rtl">
------
+انواع مدل‌ها – سه نوع اصلی از الگوریتم‌های بازشناسایی وجود دارد، که ماهیت آنچه‌که شناسایی شده متفاوت است. این الگوریتم‌ها در جدول زیر توضیح داده شده‌اند:
 </div>
 
 <br>
@@ -456,7 +456,7 @@
 **51. [Image classification, Classification w. localization, Detection]**
 
 <div dir="rtl">
------
+[دسته‌بندی تصویر، دسته‌بندی با موقعیت‌یابی، شناسایی]
 </div>
 
 <br>

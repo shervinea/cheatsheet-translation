@@ -528,7 +528,7 @@ x∈Rn را از ورودی می‌گیرد و یک بردار خروجی احت
 **59. Intersection over Union ― Intersection over Union, also known as IoU, is a function that quantifies how correctly positioned a predicted bounding box Bp is over the actual bounding box Ba. It is defined as:**
 
 <div dir="rtl">
------
+نسبت هم‌پوشانی اشتراک به اجتماع - نسبت هم‌پوشانی اشتراک به اجتماع، همچنین به عنوان IoU شناخته می‌شود، تابعی‌ است که میزان موقعیت دقیق کادر محصورکننده Bp نسبت به کادر محصورکننده حقیقی Ba را می‌سنجد. این تابع بصورت زیر تعریف می‌شود:
 </div>
 
 <br>

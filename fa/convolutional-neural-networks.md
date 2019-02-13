@@ -70,7 +70,7 @@
 **8. [Object detection, Types of models, Detection, Intersection over Union, Non-max suppression, YOLO, R-CNN]**
 
 <div dir="rtl">
-[شناسایی شئی، انواع مدل ها، شناسایی، نسبت هم‌پوشانی اشتراک به اجتماع، فروداشت غیربیشینه، YOLO، ]R-CNN
+[شناسایی شیء، انواع مدل ها، شناسایی، نسبت هم‌پوشانی اشتراک به اجتماع، فروداشت غیربیشینه، YOLO، ]R-CNN
 </div>
 
 <br>
@@ -438,7 +438,7 @@ x∈Rn را از ورودی می‌گیرد و یک بردار خروجی احت
 **49. Object detection**
 
 <div dir="rtl">
-شناسایی شئی
+شناسایی شیء
 </div>
 
 <br>
@@ -474,7 +474,7 @@ x∈Rn را از ورودی می‌گیرد و یک بردار خروجی احت
 **53. [Classifies a picture, Predicts probability of object, Detects an object in a picture, Predicts probability of object and where it is located, Detects up to several objects in a picture, Predicts probabilities of objects and where they are located]**
 
 <div dir="rtl">
------
+[یک عکس را دستهبندی میکند، احتمال شیء را پیشبینی میکند، یک شیء را در یک عکس شناسایی میکند، احتمال یک شیء و موقعیت آن را پیشبینی میکند، چندین شیء در یک عکس را شناسایی میکند، احتمال اشیاء و موقعیت آنها را پیشبینی میکند]
 </div>
 
 <br>
@@ -582,7 +582,7 @@ x∈Rn را از ورودی می‌گیرد و یک بردار خروجی احت
 **65. YOLO ― You Only Look Once (YOLO) is an object detection algorithm that performs the following steps:**
 
 <div dir="rtl">
-YOLO – شما فقط یک‌بار نگاه می‌کنید (YOLO) یک الگوریتم شناسایی شئی که مراحل زیر را اجرا میکند:
+YOLO – شما فقط یک‌بار نگاه می‌کنید (YOLO) یک الگوریتم شناسایی شیء که مراحل زیر را اجرا میکند:
 </div>
 
 <br>
@@ -627,7 +627,7 @@ YOLO – شما فقط یک‌بار نگاه می‌کنید (YOLO) یک الگ
 **70. Remark: when pc=0, then the network does not detect any object. In that case, the corresponding predictions bx,...,cp have to be ignored.**
 
 <div dir="rtl">
-نکته: زمانی‌که pc=0 است، شبکه هیچ شئیی را شناسایی نمی‌کند. در چنین حالتی، پیش‌بینی‌های متناظر bx,…,cp بایستی نادیده گرفته شوند.
+نکته: زمانی‌که pc=0 است، شبکه هیچ شیئی را شناسایی نمی‌کند. در چنین حالتی، پیش‌بینی‌های متناظر bx,…,cp بایستی نادیده گرفته شوند.
 </div>
 
 <br>
@@ -636,7 +636,7 @@ YOLO – شما فقط یک‌بار نگاه می‌کنید (YOLO) یک الگ
 **71. R-CNN ― Region with Convolutional Neural Networks (R-CNN) is an object detection algorithm that first segments the image to find potential relevant bounding boxes and then run the detection algorithm to find most probable objects in those bounding boxes.**
 
 <div dir="rtl">
-R-CNN – ناحیه با شبکه‌های عصبی پیچشی (R-CNN) یک الگوریتم شناسایی شئی است که ابتدا تصویر را برای یافتن کادرهای مصورکننده مربوط بالقوه قطعهبندی می‌کند و سپس الگوریتم شناسایی را برای یافتن محتمل‌ترین اشیاء در این کادرهای محصور کننده اجرا می‌کند.
+R-CNN – ناحیه با شبکه‌های عصبی پیچشی (R-CNN) یک الگوریتم شناسایی شیء است که ابتدا تصویر را برای یافتن کادرهای مصورکننده مربوط بالقوه قطعهبندی می‌کند و سپس الگوریتم شناسایی را برای یافتن محتمل‌ترین اشیاء در این کادرهای محصور کننده اجرا می‌کند.
 </div>
 
 <br>

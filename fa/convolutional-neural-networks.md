@@ -338,6 +338,9 @@
 
 **38. [One bias parameter per filter, In most cases, S<F, A common choice for K is 2C]**
 
+<div dir="rtl">
+---------
+</div>
 
 
 <br>

@@ -303,7 +303,7 @@
 **34. [Input, Filter, Output]**
 
 <div dir="rtl">
-----------
+[ورودی، فیلتر، خروجی]
 </div>
 
 <br>

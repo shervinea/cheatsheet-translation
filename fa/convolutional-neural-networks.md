@@ -294,7 +294,7 @@
 **33. Parameter compatibility in convolution layer ― By noting I the length of the input volume size, F the length of the filter, P the amount of zero padding, S the stride, then the output size O of the feature map along that dimension is given by:**
 
 <div dir="rtl">
-----------
+سازش‌پذیری فراسنج در لایه کانولوشنی – با ذکر I به عنوان طول اندازه توده ورودی،F طول فیلتر، P میزان گسترش مرزِ صفر، S گام، اندازه خروجی نگاشت ویژگی O در امتداد ابعاد مفروض است:
 </div>
 
 <br>
@@ -312,7 +312,7 @@
 **35. Remark: often times, Pstart=Pend≜P, in which case we can replace Pstart+Pend by 2P in the formula above.**
 
 <div dir="rtl">
------
+نکته: اغلب Pstart=Pend≜P است، در این صورت Pstart+Pend را می‌توان با 2P در فرمول بالا جایگزین کرد.
 </div>
 
 <br>
@@ -321,7 +321,7 @@
 **36. Understanding the complexity of the model ― In order to assess the complexity of a model, it is often useful to determine the number of parameters that its architecture will have. In a given layer of a convolutional neural network, it is done as follows:**
 
 <div dir="rtl">
------
+درک پیچیدگی مدل – برای برآورد پیچیدگی مدل، اغلب تعیین تعداد فراسنج‌هایی که معماری آن می‌تواند داشته باشد، مفید است. در یک لایه مفروض شبکه پیچشی عصبی این امر به صورت زیر انجام می‌شود:
 </div>
 
 <br>
@@ -330,7 +330,7 @@
 **37. [Illustration, Input size, Output size, Number of parameters, Remarks]**
 
 <div dir="rtl">
------
+[نگاره، اندازه ورودی، اندازه خروجی، تعداد فراسنج‌ها، ملاحظات]
 </div>
 
 <br>
@@ -339,7 +339,7 @@
 **38. [One bias parameter per filter, In most cases, S<F, A common choice for K is 2C]**
 
 <div dir="rtl">
------
+[یک پیش‌قدر به ازای هر فیلتر، در بیشتر موارد S<F است، یک انتخاب رایج برای K، 2C است]
 </div>
 
 <br>
@@ -348,7 +348,7 @@
 **39. [Pooling operation done channel-wise, In most cases, S=F]**
 
 <div dir="rtl">
------
+[عملیات ادغام به کانال‌به‌کانال انجام میشود، در بیشتر موارد S=F است]
 </div>
 
 <br>
@@ -357,7 +357,7 @@
 **40. [Input is flattened, One bias parameter per neuron, The number of FC neurons is free of structural constraints]**
 
 <div dir="rtl">
------
+[ورودی مسطح شده است، یک پیش‌قدر به ازای هر نورون، تعداد نرون‌های FC فاقد محدودیت‌های ساختاری‌ست]
 </div>
 
 <br>
@@ -366,7 +366,7 @@
 **41. Receptive field ― The receptive field at layer k is the area denoted Rk×Rk of the input that each pixel of the k-th activation map can 'see'. By calling Fj the filter size of layer j and Si the stride value of layer i and with the convention S0=1, the receptive field at layer k can be computed with the formula:**
 
 <div dir="rtl">
------
+ناحیه تاثیر – ناحیه تاثیر در لایه k محدودهای از ورودی Rk×Rk است که هر پیکسلِ kاٌم نگاشت ویژگی می‌تواند 'ببیند'. با ذکر Fj به عنوان اندازه فیلتر لایه j و Si مقدار گام لایه i و با این توافق که S0=1 است، ناحیه تاثیر در لایه k با فرمول زیر محاسبه می‌شود:
 </div>
 
 <br>

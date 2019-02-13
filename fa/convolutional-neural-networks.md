@@ -546,7 +546,7 @@ x∈Rn را از ورودی می‌گیرد و یک بردار خروجی احت
 **61. Anchor boxes ― Anchor boxing is a technique used to predict overlapping bounding boxes. In practice, the network is allowed to predict more than one box simultaneously, where each box prediction is constrained to have a given set of geometrical properties. For instance, the first prediction can potentially be a rectangular box of a given form, while the second will be another rectangular box of a different geometrical form.**
 
 <div dir="rtl">
------
+کادرهای محور – کادر بندی محور روشی است که برای پیشبینی کادرهای محصورکننده همپوشان استفاده میشود. در عمل، شبکه 
 </div>
 
 <br>
@@ -555,7 +555,7 @@ x∈Rn را از ورودی می‌گیرد و یک بردار خروجی احت
 **62. Non-max suppression ― The non-max suppression technique aims at removing duplicate overlapping bounding boxes of a same object by selecting the most representative ones. After having removed all boxes having a probability prediction lower than 0.6, the following steps are repeated while there are boxes remaining:**
 
 <div dir="rtl">
------
+فروداشت غیربیشینه – هدف روش فروداشت غیربیشبنه، حذف کادرهای مصورکننده هم‌پوشان تکراریِ دسته یکسان با انتخاب معرف‌ترین ها است. بعد از حذف همه کاردهایی که احتمال پیش‌بینی پاییتر از 0.6 دارند، مراحل زیر  با وجود آنکه کادرهایی باقی می‌مانند تکرار میشوند:
 </div>
 
 <br>
@@ -564,7 +564,7 @@ x∈Rn را از ورودی می‌گیرد و یک بردار خروجی احت
 **63. [For a given class, Step 1: Pick the box with the largest prediction probability., Step 2: Discard any box having an IoU⩾0.5 with the previous box.]**
 
 <div dir="rtl">
------
+[برای یک دسته مفروض، گام اول: کادر با بالاترین احتمال پیشبینی را انتخاب کن، گام دوم: هر کادری که IoU≥0.5 نسبت به کادر پیشین دارد، را رها کن.]
 </div>
 
 <br>
@@ -573,7 +573,7 @@ x∈Rn را از ورودی می‌گیرد و یک بردار خروجی احت
 **64. [Box predictions, Box selection of maximum probability, Overlap removal of same class, Final bounding boxes]**
 
 <div dir="rtl">
------
+[پیش‌بینی کادرها، انتخاب کادرِ با احتمال بیشینه، حذف (کادر) همپوشان دسته یکسان، کادرهای مصورکننده نهایی]
 </div>
 
 <br>
@@ -582,7 +582,7 @@ x∈Rn را از ورودی می‌گیرد و یک بردار خروجی احت
 **65. YOLO ― You Only Look Once (YOLO) is an object detection algorithm that performs the following steps:**
 
 <div dir="rtl">
------
+YOLO – شما فقط یک‌بار نگاه می‌کنید (YOLO) یک الگوریتم شناسایی شئی که مراحل زیر را اجرا میکند:
 </div>
 
 <br>
@@ -591,7 +591,7 @@ x∈Rn را از ورودی می‌گیرد و یک بردار خروجی احت
 **66. [Step 1: Divide the input image into a G×G grid., Step 2: For each grid cell, run a CNN that predicts y of the following form:, repeated k times]**
 
 <div dir="rtl">
------
+[گام اول: تصویر ورودی را به یک مشبک G×G تقسیم کن، گام دوم: برای هر سلول مشبک، یک CNN که y را به شکل زیر پیش‌بینی می‌کند، اجرا کن:، k مرتبه تکرارشده]
 </div>
 
 <br>
@@ -609,7 +609,7 @@ x∈Rn را از ورودی می‌گیرد و یک بردار خروجی احت
 **68. Step 3: Run the non-max suppression algorithm to remove any potential duplicate overlapping bounding boxes.**
 
 <div dir="rtl">
------
+گام سوم: الگوریتم حذف مقادیر غیریبیشینه را برای حذف هر کادر مصورکننده هم‌پوشان تکراری بالقوه، اجرا کن.
 </div>
 
 <br>
@@ -627,7 +627,7 @@ x∈Rn را از ورودی می‌گیرد و یک بردار خروجی احت
 **70. Remark: when pc=0, then the network does not detect any object. In that case, the corresponding predictions bx,...,cp have to be ignored.**
 
 <div dir="rtl">
------
+نکته: زمانی‌که pc=0 است، شبکه هیچ شئیی را شناسایی نمی‌کند. در چنین حالتی، پیش‌بینی‌های متناظر bx,…,cp بایستی نادیده گرفته شوند.
 </div>
 
 <br>
@@ -636,7 +636,7 @@ x∈Rn را از ورودی می‌گیرد و یک بردار خروجی احت
 **71. R-CNN ― Region with Convolutional Neural Networks (R-CNN) is an object detection algorithm that first segments the image to find potential relevant bounding boxes and then run the detection algorithm to find most probable objects in those bounding boxes.**
 
 <div dir="rtl">
------
+R-CNN – ناحیه با شبکه‌های عصبی پیچشی (R-CNN) یک الگوریتم شناسایی شئی است که ابتدا تصویر را برای یافتن کادرهای مصورکننده مربوط بالقوه قطعهبندی می‌کند و سپس الگوریتم شناسایی را برای یافتن محتمل‌ترین اشیاء در این کادرهای محصور کننده اجرا می‌کند.
 </div>
 
 <br>
@@ -654,7 +654,7 @@ x∈Rn را از ورودی می‌گیرد و یک بردار خروجی احت
 **73. Remark: although the original algorithm is computationally expensive and slow, newer architectures enabled the algorithm to run faster, such as Fast R-CNN and Faster R-CNN.**
 
 <div dir="rtl">
------
+نکته: هرچند الگوریتم اصلی به لحاظ محاسباتی پرهزینه و کند است، معماریهای جدید از قبیل Fast R-CNN و Faster R-CNN باعث شدند که الگوریتم سریعتر اجرا شود.
 </div>
 
 <br>
@@ -690,7 +690,7 @@ x∈Rn را از ورودی می‌گیرد و یک بردار خروجی احت
 **77. [Is this the correct person?, One-to-one lookup, Is this one of the K persons in the database?, One-to-many lookup]**
 
 <div dir="rtl">
------
+[فرد مورد نظر است؟، جستجوی یکبهیک، این فرد یکی از K فرد پایگاه داده است؟، جستجوی یکبهچند]
 </div>
 
 <br>
@@ -699,7 +699,7 @@ x∈Rn را از ورودی می‌گیرد و یک بردار خروجی احت
 **78. One Shot Learning ― One Shot Learning is a face verification algorithm that uses a limited training set to learn a similarity function that quantifies how different two given images are. The similarity function applied to two images is often noted d(image 1,image 2).**
 
 <div dir="rtl">
------
+یادگیری یکبارهای – یادگیری یکبارهای یک الگوریتم تایید چهره است که از یک مجموعه آموزشی محدود برای یادگیری یک تابع مشابهت که میزان اختلاف دو تصویر مفروض را تعیین میکند، بهره میبرد. تابع مشابهت اعمالشده برروی دو تصویر اغلب با نماد d(تصویر 1، تصویر 2) نمایش داده میشود.
 </div>
 
 <br>
@@ -708,7 +708,7 @@ x∈Rn را از ورودی می‌گیرد و یک بردار خروجی احت
 **79. Siamese Network ― Siamese Networks aim at learning how to encode images to then quantify how different two images are. For a given input image x(i), the encoded output is often noted as f(x(i)).**
 
 <div dir="rtl">
------
+شبکه Siamese – هدف شبکه Siamese یادگیری طریقه رمزنگاری تصاویر و سپس تعیین اختلاف دو تصویر است. برای یک تصویر مقروض ورودی x(i)، خروجی رمزنگاری شده اغلب با نماد f(x(i)) نمایش داده میشود.
 </div>
 
 <br>

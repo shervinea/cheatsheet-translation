@@ -546,7 +546,7 @@ x∈Rn را از ورودی می‌گیرد و یک بردار خروجی احت
 **61. Anchor boxes ― Anchor boxing is a technique used to predict overlapping bounding boxes. In practice, the network is allowed to predict more than one box simultaneously, where each box prediction is constrained to have a given set of geometrical properties. For instance, the first prediction can potentially be a rectangular box of a given form, while the second will be another rectangular box of a different geometrical form.**
 
 <div dir="rtl">
-کادرهای محور – کادر بندی محور روشی است که برای پیشبینی کادرهای محصورکننده همپوشان استفاده میشود. در عمل، شبکه 
+کادرهای محور – کادر بندی محور روشی است که برای پیشبینی کادرهای محصورکننده هم‌پوشان استفاده می‌شود. در عمل، شبکه این اجازه را دارد که بیش از یک کادر بصورت هم‌زمان پیشبینی کند جایی‌که هر پیش‌بینی کادر مقید به داشتن یک مجموعه خصوصیات هندسی مفروض است. به عنوان مثال، اولین پیش‌بینی می‌تواند یک کادر مستطیلی با قالب خاص باشد حال آنکه کادر دوم، یک کادر مستطیلی محور با قالب هندسی متفاوتی خواهد بود.
 </div>
 
 <br>

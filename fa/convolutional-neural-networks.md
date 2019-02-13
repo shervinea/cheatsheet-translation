@@ -537,7 +537,7 @@ x∈Rn را از ورودی می‌گیرد و یک بردار خروجی احت
 **60. Remark: we always have IoU∈[0,1]. By convention, a predicted bounding box Bp is considered as being reasonably good if IoU(Bp,Ba)⩾0.5.**
 
 <div dir="rtl">
------
+نکته: همواره داریم IoU∈[0,1]. به صورت قرارداد، یک کادر محصورکننده Bp را می‌توان نسبتا خوب در نظر گرفت اگر IoU(Bp,Ba)⩾0.5 باشد.
 </div>
 
 <br>

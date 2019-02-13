@@ -339,8 +339,8 @@
 **38. [One bias parameter per filter, In most cases, S<F, A common choice for K is 2C]**
 
 <div dir="rtl">
-[یک پیش‌قدر به ازای هر فیلتر، در بیشتر موارد S<F است]
- </div>
+[یک پیش‌قدر به ازای هر فیلتر، در بیشتر موارد است، یک انتخاب رایج برای K، 2C است]
+</div>
 
 
 <br>

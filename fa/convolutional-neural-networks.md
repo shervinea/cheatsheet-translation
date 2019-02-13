@@ -510,7 +510,7 @@ x∈Rn را از ورودی می‌گیرد و یک بردار خروجی احت
 **57. [Detects the part of the image where the object is located, Detects a shape or characteristics of an object (e.g. eyes), More granular]**
 
 <div dir="rtl">
------
+[بخشی از تصویر که شیء قرارگرفته را شناسایی می‌کند، یک شکل یا مشخصات یک شیء (مثل چشم‌ها) را شناسایی می‌کند، موشکافانه‌تر]
 </div>
 
 <br>

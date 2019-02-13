@@ -492,7 +492,7 @@ x∈Rn را از ورودی می‌گیرد و یک بردار خروجی احت
 **55. Detection ― In the context of object detection, different methods are used depending on whether we just want to locate the object or detect a more complex shape in the image. The two main ones are summed up in the table below:**
 
 <div dir="rtl">
------
+شناسایی – در مضمون شناسایی شیء، روشهای مختلفی بسته به اینکه آیا فقط می‌خواهیم موقعیت قرارگیری شیء را پیدا کنیم یا شکل پیچیده‌تری در تصویر را شناسایی کنیم، استفاده می‌شوند. دو مورد از اصلی ترین آنها در جدول زیر بصورت خلاصه آورده‌ شده‌اند:
 </div>
 
 <br>

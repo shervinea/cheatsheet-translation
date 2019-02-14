@@ -74,8 +74,8 @@ Please make sure to propose the translation of **only one** cheatsheet per pull 
 |Linear algebra|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/85)|not started|not started|done|not started|not started|
 
 
-|Cheatsheet topic|Polski|Suomi|Català|Українська|한국어|
-|:---|:---:|:---:|:---:|:---:|:---:|
+|Cheatsheet topic|Polski|Suomi|Català|Українська|한국어|Magyar|
+|:---|:---:|:---:|:---:|:---:|:---:|:---:|
 |Deep learning|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/8)|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/34)|not started|not started|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/80)|
 |Supervised learning|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/8)|not started|not started|not started|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/90)|
 |Unsupervised learning|not started|not started|not started|not started|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/93)|

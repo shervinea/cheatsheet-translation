@@ -47,7 +47,6 @@ Please make sure to propose the translation of **only one** cheatsheet per pull 
 |Recurrent Neural Nets|not started|not started|not started|done|not started|not started|
 |DL tips and tricks|not started|not started|not started|done|not started|not started|
 
-started
 |Cheatsheet topic|Polski|Suomi|Català|Українська|한국어|
 |:---|:---:|:---:|:---:|:---:|:---:|
 |Convolutional Neural Nets|not started|not started|not started|not started|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/109)|

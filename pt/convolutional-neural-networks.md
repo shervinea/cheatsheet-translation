@@ -489,77 +489,77 @@
 
 **70. Remark: when pc=0, then the network does not detect any object. In that case, the corresponding predictions bx,...,cp have to be ignored.**
 
-&#10230;
+&#10230; Observação: Quando pc=0, então a rede não detecta nenhum objeto. Nesse caso, as predições correspondentes bx,...,cp devem ser ignoradas.
 
 <br>
 
 
 **71. R-CNN ― Region with Convolutional Neural Networks (R-CNN) is an object detection algorithm that first segments the image to find potential relevant bounding boxes and then run the detection algorithm to find most probable objects in those bounding boxes.**
 
-&#10230;
+&#10230; R-CNN - Região com Redes Neurais Convolucionais (R-CNN) é um algoritmo de detecção de objetos que primeiro segmenta a imagem para encontrar potenciais caixas de delimitação relevantes e então roda o algoritmo de detecção para encontrar os objetos mais prováveis dentro das caixas de delimitação.
 
 <br>
 
 
 **72. [Original image, Segmentation, Bounding box prediction, Non-max suppression]**
 
-&#10230;
+&#10230; [Imagem original, Segmentação, Predição da caixa delimitadora, Supressão não-máxima]
 
 <br>
 
 
 **73. Remark: although the original algorithm is computationally expensive and slow, newer architectures enabled the algorithm to run faster, such as Fast R-CNN and Faster R-CNN.**
 
-&#10230;
+&#10230; Observação: embora o algoritmo original seja computacionalmente caro e lento, arquiteturas mais recentes, como o Fast R-CNN e o Faster R-CNN, permitiram que o algoritmo fosse executado mais rapidamente.
 
 <br>
 
 
 **74. Face verification and recognition**
 
-&#10230;
+&#10230; Verificação facial e reconhecimento
 
 <br>
 
 
 **75. Types of models ― Two main types of model are summed up in table below:**
 
-&#10230;
+&#10230; Tipos de modelos - Os dois principais tipos de modelos são resumidos na tabela abaixo:
 
 <br>
 
 
 **76. [Face verification, Face recognition, Query, Reference, Database]**
 
-&#10230;
+&#10230; [Verificação facial, Reconhecimento facial, Consulta, Referência, Banco de dados]
 
 <br>
 
 
 **77. [Is this the correct person?, One-to-one lookup, Is this one of the K persons in the database?, One-to-many lookup]**
 
-&#10230;
+&#10230; [Esta é a pessoa correta?, Pesquisa um-para-um, Esta é uma das K pessoas no banco de dados?, Pesquisa um-para-muitos]
 
 <br>
 
 
 **78. One Shot Learning ― One Shot Learning is a face verification algorithm that uses a limited training set to learn a similarity function that quantifies how different two given images are. The similarity function applied to two images is often noted d(image 1,image 2).**
 
-&#10230;
+&#10230; Aprendizado de Tiro Único (One Shot Learning) - One Shot Learning é um algoritmo de verificação facial que utiliza um conjunto de treinamento limitado para aprender uma função de similaridade que quantifica o quão diferentes são as duas imagens. A função de similaridade aplicada a duas imagens é frequentemente denotada como  d(imagem 1, imagem 2).
 
 <br>
 
 
 **79. Siamese Network ― Siamese Networks aim at learning how to encode images to then quantify how different two images are. For a given input image x(i), the encoded output is often noted as f(x(i)).**
 
-&#10230;
+&#10230; Rede Siamesa (Siamese Network) - Siamese Networks buscam aprender como codificar imagens para depois quantificar quão diferentes são as duas imagens. Para uma imagem de entrada x(i), o resultado codificado é normalmente denotado como f(x(i)).
 
 <br>
 
 
 **80. Triplet loss ― The triplet loss ℓ is a loss function computed on the embedding representation of a triplet of images A (anchor), P (positive) and N (negative). The anchor and the positive example belong to a same class, while the negative example to another one. By calling α∈R+ the margin parameter, this loss is defined as follows:**
 
-&#10230;
+&#10230; Perda tripla (Triplet loss) - A perda tripla ℓ é uma função de perda (loss function) computada na representação da encorporação de três imagens A (âncora), P (positiva) e N (negativa). O exemplo da âncora e positivo pertencem à mesma classe, enquanto o exemplo negativo pertence a uma classe diferente. Chamando o parâmetro de margem de α∈R+, essa função de perda é calculada da seguinte forma:
 
 <br>
 
@@ -594,84 +594,84 @@
 
 **85. Content cost function ― The content cost function Jcontent(C,G) is used to determine how the generated image G differs from the original content image C. It is defined as follows:**
 
-&#10230;
+&#10230; Função de custo de conteúdo (Content cost function) - A função de custo de conteúdo Jcontent(C,G) é usada para determinar como a imagem gerada G difere da imagem de conteúdo original C. Ela é definida da seguinte forma:
 
 <br>
 
 
 **86. Style matrix ― The style matrix G[l] of a given layer l is a Gram matrix where each of its elements G[l]kk′ quantifies how correlated the channels k and k′ are. It is defined with respect to activations a[l] as follows:**
 
-&#10230;
+&#10230; Matriz de estilo - A matriz de estilo G[l] de uma determinada camada l é a matriz de Gram em que cada um dos seus elementos G[l]kk′ quantificam quão correlacionados são os canais k e k′. Ela é definida com respeito às ativações a[l] da seguinte forma:
 
 <br>
 
 
 **87. Remark: the style matrix for the style image and the generated image are noted G[l] (S) and G[l] (G) respectively.**
 
-&#10230;
+&#10230; Observação: a matriz de estilo para a imagem estilizada e para a imagem gerada são denotadas como G[l] (S) e G[l] (G), respectivamente.
 
 <br>
 
 
 **88. Style cost function ― The style cost function Jstyle(S,G) is used to determine how the generated image G differs from the style S. It is defined as follows:**
 
-&#10230;
+&#10230; Função de custo de estilo (Style cost function) - A função de custo de estilo Jstyle(S,G) é usada para determinar como a imagem gerada G difere do estilo S. Ela é definida da seguinte forma:
 
 <br>
 
 
 **89. Overall cost function ― The overall cost function is defined as being a combination of the content and style cost functions, weighted by parameters α,β, as follows:**
 
-&#10230;
+&#10230; Função de custo geral (Overall cost function) é definida como sendo a combinação das funções de custo do conteúdo e do estilo, ponderada pelos parâmetros α,β, como mostrado abaixo:
 
 <br>
 
 
 **90. Remark: a higher value of α will make the model care more about the content while a higher value of β will make it care more about the style.**
 
-&#10230;
+&#10230; Observação: um valor de α maior irá fazer com que o modelo se preocupe mais com o conteúdo enquanto um maior valor de β irá fazer com que ele se preocupe mais com o estilo.
 
 <br>
 
 
 **91. Architectures using computational tricks**
 
-&#10230;
+&#10230; Arquiteturas usando truques computacionais
 
 <br>
 
 
 **92. Generative Adversarial Network ― Generative adversarial networks, also known as GANs, are composed of a generative and a discriminative model, where the generative model aims at generating the most truthful output that will be fed into the discriminative which aims at differentiating the generated and true image.**
 
-&#10230;
+&#10230; Rede Adversarial Gerativa (Generative Adversarial Network) - As Generaive Adversarial Networks, também conhecidas como GANs, são compostas de um modelo generativo e um modelo discriminativo, onde o modelo generativo visa gerar a saída mais verdadeira que será alimentada na discriminativa que visa diferenciar a imagem gerada e verdadeira.
 
 <br>
 
 
 **93. [Training, Noise, Real-world image, Generator, Discriminator, Real Fake]**
 
-&#10230;
+&#10230; [Treinamento, Ruído, Imagem real, Gerador, Discriminador, Falsa real]
 
 <br>
 
 
 **94. Remark: use cases using variants of GANs include text to image, music generation and synthesis.**
 
-&#10230;
+&#10230; Observação: casos de uso usando variações de GANs incluem texto para imagem, geração de música e síntese.
 
 <br>
 
 
 **95. ResNet ― The Residual Network architecture (also called ResNet) uses residual blocks with a high number of layers meant to decrease the training error. The residual block has the following characterizing equation:**
 
-&#10230;
+&#10230; ResNet - A arquitetura de Rede Residual (também chamada de ResNet) usa blocos residuais com um alto número de camadas para diminuir o erro de treinamento. O bloco residual possui a seguinte equação caracterizadora:
 
 <br>
 
 
 **96. Inception Network ― This architecture uses inception modules and aims at giving a try at different convolutions in order to increase its performance through features diversification. In particular, it uses the 1×1 convolution trick to limit the computational burden.**
 
-&#10230;
+&#10230; Rede de Iniciação - Esta arquitetura utiliza módulos de iniciação e visa experimentar diferentes convoluções, a fim de aumentar seu desempenho através da diversificação de recursos. Em particular, ele usa o truque de convolução 1×1 para limitar a carga computacional.
 
 <br>
 
@@ -699,7 +699,7 @@
 
 **100. Reviewed by X, Y and Z**
 
-&#10230; Revisado por
+&#10230; Revisado por X, Y e Z
 
 <br>
 
@@ -713,6 +713,6 @@
 
 **102. By X and Y**
 
-&#10230;
+&#10230; Por X e Y
 
 <br>

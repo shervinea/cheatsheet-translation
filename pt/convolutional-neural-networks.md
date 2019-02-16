@@ -559,7 +559,7 @@
 
 **80. Triplet loss ― The triplet loss ℓ is a loss function computed on the embedding representation of a triplet of images A (anchor), P (positive) and N (negative). The anchor and the positive example belong to a same class, while the negative example to another one. By calling α∈R+ the margin parameter, this loss is defined as follows:**
 
-&#10230; Perda tripla (Triplet loss) - A perda tripla ℓ é uma função de perda (loss function) computada na representação da encorporação de três imagens A (âncora), P (positiva) e N (negativa). O exemplo da âncora e positivo pertencem à mesma classe, enquanto o exemplo negativo pertence a uma classe diferente. Chamando o parâmetro de margem de α∈R+, essa função de perda é calculada da seguinte forma:
+&#10230; Perda tripla (Triplet loss) - A perda tripla ℓ é uma função de perda (loss function) computada na representação da encorporação de três imagens A (âncora), P (positiva) e N (negativa). O exemplo da âncora e positivo pertencem à mesma classe, enquanto o exemplo negativo pertence a uma classe diferente. Chamando o parâmetro de margem de α∈R+, essa função de perda é definida da seguinte forma:
 
 <br>
 
@@ -643,7 +643,7 @@
 
 **92. Generative Adversarial Network ― Generative adversarial networks, also known as GANs, are composed of a generative and a discriminative model, where the generative model aims at generating the most truthful output that will be fed into the discriminative which aims at differentiating the generated and true image.**
 
-&#10230; Rede Adversarial Gerativa (Generative Adversarial Network) - As Generaive Adversarial Networks, também conhecidas como GANs, são compostas de um modelo generativo e um modelo discriminativo, onde o modelo generativo visa gerar a saída mais verdadeira que será alimentada na discriminativa que visa diferenciar a imagem gerada e verdadeira.
+&#10230; Rede Adversarial Gerativa (Generative Adversarial Network) - As Generaive Adversarial Networks, também conhecidas como GANs, são compostas de um modelo generativo e um modelo discriminativo, onde o modelo generativo visa gerar a saída mais verdadeira que será alimentada na discriminativa que visa diferenciar a imagem gerada e a imagem verdadeira.
 
 <br>
 
@@ -699,7 +699,7 @@
 
 **100. Reviewed by X, Y and Z**
 
-&#10230; Revisado por X, Y e Z
+&#10230; Revisado por Gabriel Fonseca
 
 <br>
 

@@ -60,7 +60,7 @@
 
 **9. [Face verification/recognition, One shot learning, Siamese network, Triplet loss]**
 
-&#10230; [Verificação / reconhecimento facial, Aprendizado de um tiro, Rede siamesa, Perda tripla]
+&#10230; [Verificação / reconhecimento facial, Aprendizado de disparo único, Rede siamesa, Perda tripla]
 
 <br>
 
@@ -88,14 +88,14 @@
 
 **13. Architecture of a traditional CNN ― Convolutional neural networks, also known as CNNs, are a specific type of neural networks that are generally composed of the following layers:**
 
-&#10230; Arquitetura de uma RNC (CNN) - Redes neurais convolucionais, também conhecidas como CNN (em inglês), são tipos específicos de redes neurais que geralmente são compostas pelas seguintes camadas:
+&#10230; Arquitetura de uma RNC tradicional (CNN) - Redes neurais convolucionais, também conhecidas como CNN (em inglês), são tipos específicos de redes neurais que geralmente são compostas pelas seguintes camadas:
 
 <br>
 
 
 **14. The convolution layer and the pooling layer can be fine-tuned with respect to hyperparameters that are described in the next sections.**
 
-&#10230; A camada convolucional e a camadas de pooling podem ter um ajuste fino considerando os hiperparâmetros que estão descritos na próxima seção. 
+&#10230; A camada convolucional e a camadas de pooling podem ter um ajuste fino considerando os hiperparâmetros que estão descritos nas próximas seções. 
 
 <br>
 
@@ -109,7 +109,7 @@
 
 **16. Convolution layer (CONV) ― The convolution layer (CONV) uses filters that perform convolution operations as it is scanning the input I with respect to its dimensions. Its hyperparameters include the filter size F and stride S. The resulting output O is called feature map or activation map.**
 
-&#10230; Camada convolucional (CONV) - A camada convolucional (CONV) usa filtros que realizam operações de convolução conforme eles escabeuan a entrada I com relação a suas dimensões. Seus hiperparâmetros incluem o tamanho do filtro F e o passo S. O resultado O é chamado de mapa de recursos (feature map) ou mapa de ativação.
+&#10230; Camada convolucional (CONV) - A camada convolucional (CONV) usa filtros que realizam operações de convolução conforme eles escaneiam a entrada I com relação a suas dimensões. Seus hiperparâmetros incluem o tamanho do filtro F e o passo S. O resultado O é chamado de mapa de recursos (feature map) ou mapa de ativação.
 
 <br>
 
@@ -123,7 +123,7 @@
 
 **18. Pooling (POOL) ― The pooling layer (POOL) is a downsampling operation, typically applied after a convolution layer, which does some spatial invariance. In particular, max and average pooling are special kinds of pooling where the maximum and average value is taken, respectively.**
 
-&#10230; Pooling (POOL) - A camada de pooling (POOL) é uma operação de amostragem, tipicamente aplicada depois de uma camada convolucional, que faz alguma invariância espacial. Em particular, pooling máximo e médio são casos especiais de pooling onde o máximo e o médio valor são obtidos, respectivamente.
+&#10230; Pooling (POOL) - A camada de pooling (POOL) é uma operação de amostragem (downsampling), tipicamente aplicada depois de uma camada convolucional, que faz alguma invariância espacial. Em particular, pooling máximo e médio são casos especiais de pooling onde o máximo e o médio valor são obtidos, respectivamente.
 
 <br>
 
@@ -144,7 +144,7 @@
 
 **21. [Preserves detected features, Most commonly used, Downsamples feature map, Used in LeNet]**
 
-&#10230; [Preserva os recursos detectados, Mais comumente usados, Mapa de recursos de amostragem, Usado no LeNet]
+&#10230; [Preserva os recursos detectados, Mais comumente usados, Mapa de recursos de amostragem (downsample), Usado no LeNet]
 
 
 <br>
@@ -201,7 +201,7 @@
 
 **29. Zero-padding ― Zero-padding denotes the process of adding P zeroes to each side of the boundaries of the input. This value can either be manually specified or automatically set through one of the three modes detailed below:**
 
-&#10230; Zero preenchimento (Zero-padding) - Zero preenchimento denota o processo de adicionar P zeros em cada lado das fronteiras do input. Esse valor pode ser especificado manualmente ou automaticamente ajustado através de um dos três modelos abaixo:
+&#10230; Zero preenchimento (Zero-padding) - Zero preenchimento denota o processo de adicionar P zeros em cada lado das fronteiras de entrada. Esse valor pode ser especificado manualmente ou automaticamente ajustado através de um dos três modelos abaixo:
 
 <br>
 
@@ -286,14 +286,14 @@
 
 **41. Receptive field ― The receptive field at layer k is the area denoted Rk×Rk of the input that each pixel of the k-th activation map can 'see'. By calling Fj the filter size of layer j and Si the stride value of layer i and with the convention S0=1, the receptive field at layer k can be computed with the formula:**
 
-&#10230; Campo receptive - O campo receptivo na camada k é a área denotada por Rk×Rk da entrada que cada pixel do k-ésimo mapa de ativação pode 'ver'. Ao chamar Fj o tamanho do filtro da camada j e Si o valor do passo da camada i e com a convenção S0=1, o campo receptivo na camada k pode ser calculado com a fórmula:
+&#10230; Campo receptivo - O campo receptivo na camada k é a área denotada por Rk×Rk da entrada que cada pixel do k-ésimo mapa de ativação pode 'ver'. Ao chamar Fj o tamanho do filtro da camada j e Si o valor do passo da camada i e com a convenção S0=1, o campo receptivo na camada k pode ser calculado com a fórmula:
 
 <br>
 
 
 **42. In the example below, we have F1=F2=3 and S1=S2=1, which gives R2=1+2⋅1+2⋅1=5.**
 
-&#10230; No exemplo abaixo, temos que F1=F2=3 e S1=S2=1, que resulta em R2=1+2⋅1+2⋅1=5.
+&#10230; No exemplo abaixo, temos que F1=F2=3 e S1=S2=1, o que resulta em R2=1+2⋅1+2⋅1=5.
 
 <br>
 
@@ -412,7 +412,7 @@
 
 **59. Intersection over Union ― Intersection over Union, also known as IoU, is a function that quantifies how correctly positioned a predicted bounding box Bp is over the actual bounding box Ba. It is defined as:**
 
-&#10230; Interseção sobre União (Intersection over Union) - Interseção sobre União, também conhecida como IoU, é uma funçãi que quantifica quão corretamente posicionado uma caixa de delimitação predita Bp está sobre a caixa de delimitação real Ba. É definida por:
+&#10230; Interseção sobre União (Intersection over Union) - Interseção sobre União, também conhecida como IoU, é uma função que quantifica quão corretamente posicionado uma caixa de delimitação predita Bp está sobre a caixa de delimitação real Ba. É definida por:
 
 <br>
 
@@ -426,14 +426,14 @@
 
 **61. Anchor boxes ― Anchor boxing is a technique used to predict overlapping bounding boxes. In practice, the network is allowed to predict more than one box simultaneously, where each box prediction is constrained to have a given set of geometrical properties. For instance, the first prediction can potentially be a rectangular box of a given form, while the second will be another rectangular box of a different geometrical form.**
 
-&#10230; Caixas de ancoragem (Anchor boxes) - Caixas de ancoragem é uma técnica usada para predizer caixas de delimitação que se sobrepões. Na prática, a rede tem permissão para predizer mais de uma caixa simultaneamente, oonde cada caixa prevista é restrita a ter um dado conjunto de propriedades geométricas. Por exemplo, a primeira predição pode ser potencialmente uma caixa retangular de uma determinada forma, enquanto a segunda pode ser outra caixa retangular de uma forma geométrica diferente.
+&#10230; Caixas de ancoragem (Anchor boxes) - Caixas de ancoragem é uma técnica usada para predizer caixas de delimitação que se sobrepõem. Na prática, a rede tem permissão para predizer mais de uma caixa simultaneamente, onde cada caixa prevista é restrita a ter um dado conjunto de propriedades geométricas. Por exemplo, a primeira predição pode ser potencialmente uma caixa retangular de uma determinada forma, enquanto a segunda pode ser outra caixa retangular de uma forma geométrica diferente.
 
 <br>
 
 
 **62. Non-max suppression ― The non-max suppression technique aims at removing duplicate overlapping bounding boxes of a same object by selecting the most representative ones. After having removed all boxes having a probability prediction lower than 0.6, the following steps are repeated while there are boxes remaining:**
 
-&#10230; Supressão não máxima (Non-max suppression) - A técnica supressão não máxima visa remover caixas de delimitação de um mesmo objeto que estão duplicadas e se sobrepõe, selecionando as mais representativas. Depois de ter removido todas as caixas que contém uma predição menor que 0.6. os seguintes passos são repetidos enquanto existem caixas remanescentes:
+&#10230; Supressão não máxima (Non-max suppression) - A técnica supressão não máxima visa remover caixas de delimitação de um mesmo objeto que estão duplicadas e se sobrepõem, selecionando as mais representativas. Depois de ter removido todas as caixas que contém uma predição menor que 0.6. os seguintes passos são repetidos enquanto existem caixas remanescentes:
 
 <br>
 
@@ -461,14 +461,14 @@
 
 **66. [Step 1: Divide the input image into a G×G grid., Step 2: For each grid cell, run a CNN that predicts y of the following form:, repeated k times]**
 
-&#10230; [Passo 1: Divide a imagem de input em uma grade G×G., Passo 2: Para cada célula da grade, rode uma CNN que prevê o valor y da seguinte forma:, repita k vezes]
+&#10230; [Passo 1: Divide a imagem de entrada em uma grade G×G., Passo 2: Para cada célula da grade, roda uma CNN que prevê o valor y da seguinte forma:, repita k vezes]
 
 <br>
 
 
 **67. where pc is the probability of detecting an object, bx,by,bh,bw are the properties of the detected bouding box, c1,...,cp is a one-hot representation of which of the p classes were detected, and k is the number of anchor boxes.**
 
-&#10230; onde pc é a probabilidade de detecção do objeto, bx,by,bh,bw são as proprioedades das caixas delimitadoras detectadas, c1,...,cp é uma representação única (one-hot representation) de quais das classes p foram detectadas, e k é o número de caixas de ancoragem.
+&#10230; onde pc é a probabilidade de detecção do objeto, bx,by,bh,bw são as propriedades das caixas delimitadoras detectadas, c1,...,cp é uma representação única (one-hot representation) de quais das classes p foram detectadas, e k é o número de caixas de ancoragem.
 
 <br>
 
@@ -545,7 +545,7 @@
 
 **78. One Shot Learning ― One Shot Learning is a face verification algorithm that uses a limited training set to learn a similarity function that quantifies how different two given images are. The similarity function applied to two images is often noted d(image 1,image 2).**
 
-&#10230; Aprendizado de Tiro Único (One Shot Learning) - One Shot Learning é um algoritmo de verificação facial que utiliza um conjunto de treinamento limitado para aprender uma função de similaridade que quantifica o quão diferentes são as duas imagens. A função de similaridade aplicada a duas imagens é frequentemente denotada como  d(imagem 1, imagem 2).
+&#10230; Aprendizado de Disparo Único (One Shot Learning) - One Shot Learning é um algoritmo de verificação facial que utiliza um conjunto de treinamento limitado para aprender uma função de similaridade que quantifica o quão diferentes são as duas imagens. A função de similaridade aplicada a duas imagens é frequentemente denotada como  d(imagem 1, imagem 2).
 
 <br>
 

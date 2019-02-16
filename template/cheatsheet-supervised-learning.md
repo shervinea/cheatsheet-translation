@@ -492,7 +492,7 @@
 
 **83. Shattering ― Given a set S={x(1),...,x(d)}, and a set of classifiers H, we say that H shatters S if for any set of labels {y(1),...,y(d)}, we have:**
 
-&#10230; TODO
+&#10230; Szétzúzás ― Adott S={x(1),...,x(d)} halmaz és H klasszifikátorok halmaza. Ekkor azt mondjuk, hogy H szétzúzza S-et, ha bármely {y(1),...,y(d)} címkehalmazra fennáll:
 
 <br>
 
@@ -504,7 +504,7 @@
 
 **85. VC dimension ― The Vapnik-Chervonenkis (VC) dimension of a given infinite hypothesis class H, noted VC(H) is the size of the largest set that is shattered by H.**
 
-&#10230; VC-dimenzió ― Egy adott H végtelen hipotézisosztálynak a Vapnik―Chervonenkis (VC)-dimenziója (jel.: VC(H)) annak a legnagyobb halmaznak a mérete, melyet H ..
+&#10230; VC-dimenzió ― Egy adott H végtelen hipotézisosztálynak a Vapnik―Cservonenkis (VC)-dimenziója (jel.: VC(H)) annak a legnagyobb halmaznak a mérete, melyet H ..
 
 <br>
 

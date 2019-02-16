@@ -39,7 +39,6 @@
 
 
 **5. [Filter hyperparameters, Dimensions, Stride, Padding]**
-**5. [Filter hyperparameters, Dimensions, Stride, Padding]** 
 
 &#10230;
 

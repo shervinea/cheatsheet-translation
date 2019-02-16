@@ -60,7 +60,6 @@
 
 
 **7. [Activation functions, Rectified Linear Unit, Softmax]**
-**7. [Activation functions, Rectified Linear Unit, Softmax]** 
 
 &#10230;
 

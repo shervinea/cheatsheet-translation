@@ -354,13 +354,13 @@
 
 **60. Assumption ― The Naive Bayes model supposes that the features of each data point are all independent:**
 
-&#10230; Feltétel ― A Naív Bayes-modellben feltesszük, hogy az adatpontok tulajdonságai függetlenek:
+&#10230; Feltevés ― A Naív Bayes-modellben feltesszük, hogy az adatpontok tulajdonságai függetlenek:
 
 <br>
 
 **61. Solutions ― Maximizing the log-likelihood gives the following solutions, with k∈{0,1},l∈[[1,L]]**
 
-&#10230;
+&#10230; Megoldások ― A log-likelihoodot maximalizálva a következő megoldásokat kapjuk (ahol k∈{0,1},l∈[[1,L]]):
 
 <br>
 
@@ -372,7 +372,7 @@
 
 **63. Tree-based and ensemble methods**
 
-&#10230; Faalapú és [összetett] módszerek 
+&#10230; Faalapú és együttes (ensemble) módszerek 
 
 <br>
 
@@ -384,115 +384,115 @@
 
 **65. CART ― Classification and Regression Trees (CART), commonly known as decision trees, can be represented as binary trees. They have the advantage to be very interpretable.**
 
-&#10230;
+&#10230; Klasszifikációs és Regressziós Fák (CART, ismertebb nevükön döntési fák): bináris fáként reprezentálhatóak. Előnyük, hogy könnyen értelmezhetőek.
 
 <br>
 
 **66. Random forest ― It is a tree-based technique that uses a high number of decision trees built out of randomly selected sets of features. Contrary to the simple decision tree, it is highly uninterpretable but its generally good performance makes it a popular algorithm.**
 
-&#10230;
+&#10230; Véletlen erdők ― Olyan faalapú modell, mely nagy számú döntési fát épít véletlenszerűen választott tulajdonsághalmazból. Az egyszerű döntési fával ellentétben kevésbe értelmezhetőek, de nagyrészt jó teljesítményük miatt eléggé elterjedtek.
 
 <br>
 
 **67. Remark: random forests are a type of ensemble methods.**
 
-&#10230;
+&#10230; Megjegyzés: a véletlen erdők az együttes módszerek egy típuát alkotják.
 
 <br>
 
 **68. Boosting ― The idea of boosting methods is to combine several weak learners to form a stronger one. The main ones are summed up in the table below:**
 
-&#10230;
+&#10230; Gyorsítás (boosting) ― A gyorsító modellek ötlete, hogy néhány, gyengébb alapklasszifikátort kombinálva egy erősebbet kapunk. A leggyakoribbakat az alábbi táblázatban foglaltuk össze:
 
 <br>
 
 **69. [Adaptive boosting, Gradient boosting]**
 
-&#10230;
+&#10230; [Adaptív gyorsítás, Gradiensalapú gyorsítás]
 
 <br>
 
 **70. High weights are put on errors to improve at the next boosting step**
 
-&#10230;
+&#10230; A hibák nagy súlyokat kapnak, hogy a következő gyorsító lépésben javuljon a tanulás.
 
 <br>
 
 **71. Weak learners trained on remaining errors**
 
-&#10230;
+&#10230; Az alapklasszifikátorok a maradék hibán tanulnak.
 
 <br>
 
 **72. Other non-parametric approaches**
 
-&#10230;
+&#10230; Egyéb, nemparaméteres megközelítések
 
 <br>
 
 **73. k-nearest neighbors ― The k-nearest neighbors algorithm, commonly known as k-NN, is a non-parametric approach where the response of a data point is determined by the nature of its k neighbors from the training set. It can be used in both classification and regression settings.**
 
-&#10230;
+&#10230; k Legközelebbi Szomszéd ― A k Legközelebbi Szomszéd algortimus (jel.: k-NN) olyan nemparaméteres megközelítés, ahol egy adatpont címkéjét a k darab legközelebbi tanulóadat címkéje határozza meg. Alkalmazható klasszifikációs és regressziós feladatokra is.
 
 <br>
 
 **74. Remark: The higher the parameter k, the higher the bias, and the lower the parameter k, the higher the variance.**
 
-&#10230;
+&#10230; Megjegyzés: Minél nagyobb a k paraméter értéke, annál nagyobb a torzítás (bias), illetve minél kisebb a k paraméter, annál nagyobb a variancia (variance).
 
 <br>
 
 **75. Learning Theory**
 
-&#10230;
+&#10230; Tanuláselmélet
 
 <br>
 
 **76. Union bound ― Let A1,...,Ak be k events. We have:**
 
-&#10230;
+&#10230; σ-szubadditivitás (Boole-egyenlőtlenség) ― Legyenek A1,...,Ak események. Ekkor:
 
 <br>
 
 **77. Hoeffding inequality ― Let Z1,..,Zm be m iid variables drawn from a Bernoulli distribution of parameter ϕ. Let ˆϕ be their sample mean and γ>0 fixed. We have:**
 
-&#10230;
+&#10230; Hoeffding-egyenlőtlenség ― Legyen Z1,..,Zm iid val. változó ϕ paraméterű indikátor eloszlásból. Legyen ˆϕ a mintaátlaguk és γ>0 rögzített. Ekkor:
 
 <br>
 
 **78. Remark: this inequality is also known as the Chernoff bound.**
 
-&#10230;
+&#10230; Megjegyzés: ezt az egyenlőtlenséget Chernoff-határként is nevezik.
 
 <br>
 
 **79. Training error ― For a given classifier h, we define the training error ˆϵ(h), also known as the empirical risk or empirical error, to be as follows:**
 
-&#10230;
+&#10230; Tanulási hiba ― Adott h klasszifikátor esetén a tanulási hibát (jel.: ˆϵ(h), más néven empirikus hiba) így definiáljuk:
 
 <br>
 
 **80. Probably Approximately Correct (PAC) ― PAC is a framework under which numerous results on learning theory were proved, and has the following set of assumptions: **
 
-&#10230;
+&#10230; Valószínűleg közelítőleg helyes (PAC) ― A PAC olyan elv, melynek segítéségével sok tanulási elméletbeli eredmény bizonyítható. Az alábbi feltevések tartoznek ide:
 
 <br>
 
 **81: the training and testing sets follow the same distribution **
 
-&#10230;
+&#10230; a tanító és teszthalmazok ugyanolyan eloszlást követnek
 
 <br>
 
 **82. the training examples are drawn independently**
 
-&#10230;
+&#10230; a tanító adatok egymástól függetlenek
 
 <br>
 
 **83. Shattering ― Given a set S={x(1),...,x(d)}, and a set of classifiers H, we say that H shatters S if for any set of labels {y(1),...,y(d)}, we have:**
 
-&#10230;
+&#10230; TODO
 
 <br>
 
@@ -504,7 +504,7 @@
 
 **85. VC dimension ― The Vapnik-Chervonenkis (VC) dimension of a given infinite hypothesis class H, noted VC(H) is the size of the largest set that is shattered by H.**
 
-&#10230;
+&#10230; VC-dimenzió ― Egy adott H végtelen hipotézisosztálynak a Vapnik―Chervonenkis (VC)-dimenziója (jel.: VC(H)) annak a legnagyobb halmaznak a mérete, melyet H ..
 
 <br>
 

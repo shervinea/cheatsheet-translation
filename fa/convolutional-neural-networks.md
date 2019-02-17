@@ -142,7 +142,7 @@
 **16. Convolution layer (CONV) ― The convolution layer (CONV) uses filters that perform convolution operations as it is scanning the input I with respect to its dimensions. Its hyperparameters include the filter size F and stride S. The resulting output O is called feature map or activation map.**
 
 <div dir="rtl">
-لایه کانولوشنی (CONV) - لایه کانولوشنی (CONV) از فیلترهایی استفاده می‌کند که عملیات کانولوشنی را در هنگام پویش ورودی I به نسبت ابعادش، اجرا می‌کند. ابرفراسنج‌های آن شامل اندازه فیلتر F و گام S هستند. خروجی حاصل شده O نگاشت ویژگی یا نگاشت فعالسازی نامیده می‌شود.
+لایه کانولوشنی (CONV) - لایه کانولوشنی (CONV) از فیلترهایی استفاده می‌کند که عملیات کانولوشنی را در هنگام پویش ورودی I به نسبت ابعادش، اجرا می‌کند. ابرفراسنج‌های آن شامل اندازه فیلتر F و گام S هستند. خروجی حاصل شده O نگاشت ویژگی یا نگاشت فعال‌سازی نامیده می‌شود.
 </div>
 
 <br>
@@ -196,7 +196,7 @@
 **22. Fully Connected (FC) ― The fully connected layer (FC) operates on a flattened input where each input is connected to all neurons. If present, FC layers are usually found towards the end of CNN architectures and can be used to optimize objectives such as class scores.**
 
 <div dir="rtl">
-تمام‌متصل (FC) - لایه‌ی تمام‌متصل (FC) بر روی یک ورودی مسطح به طوری ‌که هر ورودی به تمامی نورون‌ها متصل است، عمل می‌کند. در صورت وجود، لایه‌های FC معمولا در انتهای معماری‌های CNN یافت می‌شوند و میتوان آن‌ها را برای بهینه‌سازی اهدافی مثل امتیازات کلاس به‌ کار برد.
+تمام‌متصل (FC) - لایه‌ی تمام‌متصل (FC) بر روی یک ورودی مسطح به طوری ‌که هر ورودی به تمامی نورون‌ها متصل است، عمل می‌کند. در صورت وجود، لایه‌های FC معمولا در انتهای معماری‌های CNN یافت می‌شوند و می‌توان آن‌ها را برای بهینه‌سازی اهدافی مثل امتیازات کلاس به‌ کار برد.
 </div>
 <br>
 
@@ -222,7 +222,7 @@
 **25. Dimensions of a filter ― A filter of size F×F applied to an input containing C channels is a F×F×C volume that performs convolutions on an input of size I×I×C and produces an output feature map (also called activation map) of size O×O×1.**
 
 <div dir="rtl">
-ابعاد یک فیلتر - یک فیلتر به اندازه F×F اعمال شده بر روی یک ورودیِ حاوی C کانال، یک توده F×F×C است که (عملیات) پیچشی بر روی یک ورودی به اندازه I×I×C اعمال می‌کند و یک نگاشت ویژگی خروجی (که همچنین نگاشت فعالسازی نامیده می‌شود) به اندازه O×O×1 تولید می‌کند.
+ابعاد یک فیلتر - یک فیلتر به اندازه F×F اعمال شده بر روی یک ورودیِ حاوی C کانال، یک توده F×F×C است که (عملیات) پیچشی بر روی یک ورودی به اندازه I×I×C اعمال می‌کند و یک نگاشت ویژگی خروجی (که همچنین نگاشت فعال‌سازی نامیده می‌شود) به اندازه O×O×1 تولید می‌کند.
 </div>
 
 <br>
@@ -294,7 +294,7 @@
 **33. Parameter compatibility in convolution layer ― By noting I the length of the input volume size, F the length of the filter, P the amount of zero padding, S the stride, then the output size O of the feature map along that dimension is given by:**
 
 <div dir="rtl">
-سازش‌پذیری فراسنج در لایه کانولوشنی – با ذکر I به عنوان طول اندازه توده ورودی،F طول فیلتر، P میزان حاشیه‌ی صفر، S گام، اندازه خروجی نگاشت ویژگی O در امتداد ابعاد خواهد بود:
+سازش‌پذیری فراسنج در لایه کانولوشنی – با ذکر I به عنوان طول اندازه توده ورودی، F طول فیلتر، P میزان حاشیه‌ی صفر، S گام، اندازه خروجی نگاشت ویژگی O در امتداد ابعاد خواهد بود:
 </div>
 
 <br>
@@ -312,7 +312,7 @@
 **35. Remark: often times, Pstart=Pend≜P, in which case we can replace Pstart+Pend by 2P in the formula above.**
 
 <div dir="rtl">
-نکته: اغلب Pstart=Pend≜P است، در این صورت Pstart+Pend را می‌توان با  2Pدر فرمول بالا جایگزین کرد.
+نکته: اغلب Pstart=Pend≜P است، در این صورت Pstart+Pend را می‌توان با  2 Pدر فرمول بالا جایگزین کرد.
 </div>
 
 <br>

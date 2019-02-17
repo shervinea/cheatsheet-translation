@@ -862,7 +862,7 @@ ResNet – معماری شبکه‌ی پسماند (همچنین با عنوان
 **96. Inception Network ― This architecture uses inception modules and aims at giving a try at different convolutions in order to increase its performance through features diversification. In particular, it uses the 1×1 convolution trick to limit the computational burden.**
 
 <div dir="rtl">
-شبکه‌ی Inception – این معماری از ماژول‌های inception استفاده می‌کند و هدفش فرصت دادن به (عملیات) کانولوشنی مختلف برای افزایش کارایی از طریق تنوع‌بخشی ویژگی‌ها است. به طور خاص، این معماری از ترفند کانولوشنی 1×1 برای محدود سازی بار محاسباتی استفاده می‌کند
+شبکه‌ی Inception – این معماری از ماژول‌های inception استفاده می‌کند و هدفش فرصت دادن به (عملیات) کانولوشنی مختلف برای افزایش کارایی از طریق تنوع‌بخشی ویژگی‌ها است. به طور خاص، این معماری از ترفند کانولوشنی 1×1 برای محدود سازی بار محاسباتی استفاده می‌کند.
 </div>
 
 <br>

@@ -61,7 +61,7 @@
 **7. [Activation functions, Rectified Linear Unit, Softmax]**
 
 <div dir="rtl">
-[توابع فعال‌سازی، واحد یکسوساز خطی، تابع بیشینه‌ی هموار] 
+[توابع فعال‌سازی، تابع یکسوساز خطی، تابع بیشینه‌ی هموار] 
 </div>
 
 <br>

@@ -14,7 +14,7 @@
 **2. CS 230 - Deep Learning**
 
 <div dir="rtl">
-یادگیری عمیق - CS 230کلاس 
+کلاس CS 230 - یادگیری عمیق
 </div>
 <br>
 
@@ -70,7 +70,7 @@
 **8. [Object detection, Types of models, Detection, Intersection over Union, Non-max suppression, YOLO, R-CNN]**
 
 <div dir="rtl">
-[شناسایی شیء، انواع مدلها، شناسایی، نسبت هم‌پوشانی اشتراک به اجتماع، فروداشت غیربیشینه، YOLO، R-CNN]
+[شناسایی شیء، انواع مدل‌ها، شناسایی، نسبت هم‌پوشانی اشتراک به اجتماع، فروداشت غیربیشینه، YOLO، R-CNN]
 </div>
 
 <br>

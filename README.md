@@ -56,7 +56,7 @@ Please make sure to propose the translation of **only one** cheatsheet per pull 
 ## Progression for CS 229 (Machine Learning)
 |Cheatsheet topic|Deutsch|Español|فارسی|Français|日本語|Português|中文|
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|Deep learning|not started|done|done|done|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/96)|done|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/12)|
+|Deep learning|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/106)|done|done|done|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/96)|done|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/12)|
 |Supervised learning|not started|done|done|done|not started|done|done|
 |Unsupervised learning|not started|done|done|done|not started|done|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/48)|
 |ML tips and tricks|not started|done|done|done|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/99)|done|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/7)|

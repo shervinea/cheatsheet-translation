@@ -35,11 +35,11 @@ Please make sure to propose the translation of **only one** cheatsheet per pull 
 
 
 ## Progression for CS 230 (Deep Learning)
-|Cheatsheet topic|Deutsch|Español|فارسی|Français|日本語|Português|中文|
-|:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|Convolutional Neural Nets|not started|not started|done|done|not started|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/128)|not started|
-|Recurrent Neural Nets|not started|not started|done|done|not started|not started|not started|
-|DL tips and tricks|not started|not started|done|done|not started|not started|not started|
+|Cheatsheet topic|Español|فارسی|Français|日本語|Português|中文|
+|:---|:---:|:---:|:---:|:---:|:---:|:---:|
+|Convolutional Neural Nets|not started|done|done|not started|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/128)|not started|
+|Recurrent Neural Nets|not started|done|done|not started|not started|not started|
+|DL tips and tricks|not started|done|done|not started|not started|not started|
 
 |Cheatsheet topic|العَرَبِيَّة|עִבְרִית|हिन्दी|Türkçe|Русский|Italiano|
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|

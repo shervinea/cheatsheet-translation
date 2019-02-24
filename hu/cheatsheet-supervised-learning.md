@@ -32,7 +32,7 @@
 
 &#10230; [Folytonos, Osztály, Lineáris regresszió, Logisztikus regresszió, SVM, Naív Bayes]
 
-<br>
+<br> 
 
 **7. Type of model ― The different models are summed up in the table below:**
 

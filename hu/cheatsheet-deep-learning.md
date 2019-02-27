@@ -1,72 +1,72 @@
 **1. Deep Learning cheatsheet**
 
-&#10230;
+&#10230; Mély tanulás (Deep Learning) segédanyag
 
-<br>
+<br> 
 
 **2. Neural Networks**
 
-&#10230;
+&#10230; Neurális hálózatok
 
 <br>
 
 **3. Neural networks are a class of models that are built with layers. Commonly used types of neural networks include convolutional and recurrent neural networks.**
 
-&#10230;
+&#10230; A neurális hálózatok olyan különböző rétegekből felépülő modellcsaládot jelentenek. A legelterjedtebb típusok: konvolúciós és rekurrens neurális hálózatok.
 
 <br>
 
 **4. Architecture ― The vocabulary around neural networks architectures is described in the figure below:**
 
-&#10230;
+&#10230; Architektúra ― A neurális hálózatok felépítésével kapcsolatos legfőbb elnevezések az alábbi ábrán láthatóak:
 
 <br>
 
 **5. [Input layer, hidden layer, output layer]**
 
-&#10230;
+&#10230; [Bemeneti réteg, rejtett réteg, kimeneti réteg]
 
 <br>
 
 **6. By noting i the ith layer of the network and j the jth hidden unit of the layer, we have:**
 
-&#10230;
+&#10230; Ha i-vel jelöljük az i-edik réteget és j-vel a réteg j-edik rejtett egységét, akkor:
 
 <br>
 
 **7. where we note w, b, z the weight, bias and output respectively.**
 
-&#10230;
+&#10230; ahol w-vel jelöljük a súlyvektort, b-vel az eltolásvektort (bias) és z-vel a kimeneti vektort.
 
 <br>
 
 **8. Activation function ― Activation functions are used at the end of a hidden unit to introduce non-linear complexities to the model. Here are the most common ones:**
 
-&#10230;
+&#10230; Aktivációs függvény ― Az aktivációs függvényeket a rejtett egységek végén használjuk, így elérve, hogy a modell nemlineáris függvényeket is tudjon approximálni. Az alábbi táblázat tartalmazza a leggyakoribbakat:
 
 <br>
 
 **9. [Sigmoid, Tanh, ReLU, Leaky ReLU]**
 
-&#10230;
+&#10230; [Szigmoid (logisztikus függvény), Tangens hiperbolikus, ReLU, Leaky ReLU]
 
 <br>
 
 **10. Cross-entropy loss ― In the context of neural networks, the cross-entropy loss L(z,y) is commonly used and is defined as follows:**
 
-&#10230;
+&#10230; Kereszt-entrópia veszteségfüggvény ― A neurális hálózatok kontextusában gyakran használatos a kereszt-entrópia veszteségfüggvény (jel.: L(z,y)), melyet így definiálunk:
 
 <br>
 
 **11. Learning rate ― The learning rate, often noted α or sometimes η, indicates at which pace the weights get updated. This can be fixed or adaptively changed. The current most popular method is called Adam, which is a method that adapts the learning rate.**
 
-&#10230;
+&#10230; Tanulási faktor ― A tanulási faktor (jel.: α vagy néha η) azt jelöli, hogy milyen ütemű a súlyfrissítés. Ez történhet rögzített vagy adaptív módon. A jelenleg legnépszerűbb optimalizációs módszer az Adam, mely adaptívan frissíti a súlyokat.
 
 <br>
 
 **12. Backpropagation ― Backpropagation is a method to update the weights in the neural network by taking into account the actual output and the desired output. The derivative with respect to weight w is computed using chain rule and is of the following form:**
 
-&#10230;
+&#10230; Hibavissaterjesztés TODO
 
 <br>
 

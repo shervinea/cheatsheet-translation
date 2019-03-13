@@ -12,7 +12,7 @@
 
 **3. Neural networks are a class of models that are built with layers. Commonly used types of neural networks include convolutional and recurrent neural networks.**
 
-&#10230; A neurális hálózatok olyan különböző rétegekből felépülő modellcsaládot jelentenek. A legelterjedtebb típusok: konvolúciós és rekurrens neurális hálózatok.
+&#10230; A neurális hálózatok különböző rétegekből felépülő modellcsaládot jelentenek. A legelterjedtebb típusok: konvolúciós és rekurrens neurális hálózatok.
 
 <br>
 
@@ -36,7 +36,7 @@
 
 **7. where we note w, b, z the weight, bias and output respectively.**
 
-&#10230; ahol w-vel jelöljük a súlyvektort, b-vel az eltolásvektort (bias) és z-vel a kimeneti vektort.
+&#10230; ahol w jelöli a súlyvektort, b az eltolásvektort (bias) és z a kimeneti vektort.
 
 <br>
 
@@ -78,7 +78,7 @@
 
 **14. Updating weights ― In a neural network, weights are updated as follows:**
 
-&#10230; A tanítás folyamata ―Neurális hálózatokban a súlyokat az alábbi lépések alapján frissítjük:
+&#10230; A tanítás folyamata ― Neurális hálózatokban a súlyokat az alábbi lépések alapján frissítjük:
 
 <br>
 
@@ -90,13 +90,13 @@
 
 **16. Step 2: Perform forward propagation to obtain the corresponding loss.**
 
-&#10230; 2. lépés: TODO
+&#10230; 2. lépés: Hierarchikusan terjesszük végig a bemeneteket a hálózaton, így kapjuk a megfelelő veszteséget.
 
 <br>
 
 **17. Step 3: Backpropagate the loss to get the gradients.**
 
-&#10230; 3. lépés: Terjesszük vissza a hibát, így kapva a gradienseket.
+&#10230; 3. lépés: Terjesszük vissza a hibát ― eközben számítjuk a gradienseket.
 
 <br>
 
@@ -120,19 +120,19 @@
 
 **21. Convolutional layer requirement ― By noting W the input volume size, F the size of the convolutional layer neurons, P the amount of zero padding, then the number of neurons N that fit in a given volume is such that:**
 
-&#10230; Feltétel a konvolúciós rétegre ― Jelölje W az inputméretet, F a konvolúciós réteg neuronjainak méretét, P a TODO mértékét. Ekkor az illesztő neuronok számára (jel.: N) az alábbi összefüggés adódik:
+&#10230; Feltétel a konvolúciós rétegre ― Jelölje W az inputméretet, F a konvolúciós réteg neuronjainak méretét, P a nullákkal való feltöltés (zero padding) mértékét. Ekkor az illesztő neuronok számára (jel.: N) az alábbi összefüggés adódik:
 
 <br>
 
 **22. Batch normalization ― It is a step of hyperparameter γ,β that normalizes the batch {xi}. By noting μB,σ2B the mean and variance of that we want to correct to the batch, it is done as follows:**
 
-&#10230; Kötegnormalizálás ― TODO
+&#10230; Kötegnormalizálás ― Segítségével az {xi} köteget tudjuk normalizálni. Az alábbi képletben μB, illetve σ2B jelöli a köteg várható értékét, illetve a szórásnégyzetét:
 
 <br>
 
 **23. It is usually done after a fully connected/convolutional layer and before a non-linearity layer and aims at allowing higher learning rates and reducing the strong dependence on initialization.**
 
-&#10230; Leginkább a teljesen kapcsolt/konvolúciós réteg után és a nemlineáris réteg előtt alkalmazzuk. Célja, hogy magasabb tanulási faktort tudjunk alkalmazni és kevésbé függjön a tanítás az inicializációtól.
+&#10230; Leginkább a teljesen kapcsolt/konvolúciós réteg után és a nemlineáris réteg előtt alkalmazzuk. Célja, hogy magasabb tanulási faktort tudjunk alkalmazni, és kevésbé függjön a tanítás az inicializációtól.
 
 <br>
 
@@ -144,31 +144,31 @@
 
 **25. Types of gates ― Here are the different types of gates that we encounter in a typical recurrent neural network:**
 
-&#10230; Kapuk típusai ― Az alábbiakban olyan különféle kaputípusokat mutatunk be, melyekkel egy tipikus rekurrens neurális haálózatban találkozhatunk:
+&#10230; Kapuk típusai ― Az alábbiakban olyan különféle kaputípusokat mutatunk be, melyekkel egy tipikus rekurrens neurális hálózatban találkozhatunk:
 
 <br>
 
 **26. [Input gate, forget gate, gate, output gate]**
 
-&#10230; [Bemeneti kapu, TODO, kapu, kimeneti kapu]
+&#10230; [Bemeneti kapu, felejtő kapu, kapu, kimeneti kapu]
 
 <br>
 
 **27. [Write to cell or not?, Erase a cell or not?, How much to write to cell?, How much to reveal cell?]**
 
-&#10230; TODO
+&#10230; [Írjunk a cellába?, Töröljük a cellát?, Mennyit írjunk a cellába?, Mennyire fedjük fel a cellát?]
 
 <br>
 
 **28. LSTM ― A long short-term memory (LSTM) network is a type of RNN model that avoids the vanishing gradient problem by adding 'forget' gates.**
 
-&#10230; LSTM ― Rövid-hosszútávú memória (LSTM) hálózatok az RNN-típusú modellek közé tartoznak. A ['forget' gates] hozzáadásával próbálják kiküszöbölni az eltűnő gradiens problémáját. TODO
+&#10230; LSTM ― Rövid-hosszútávú memória (LSTM) hálózatok az RNN-típusú modellek közé tartoznak. A 'felejtő' kapu hozzáadásával próbálják kiküszöbölni az eltűnő gradiens problémáját.
 
 <br>
 
 **29. Reinforcement Learning and Control**
 
-&#10230; Megerősítéses tanulás és TOOD
+&#10230; Megerősítéses tanulás és kontroll
 
 <br>
 
@@ -210,7 +210,7 @@
 
 **36. γ∈[0,1[ is the discount factor**
 
-&#10230; TOOD
+&#10230; γ∈[0,1[ a diszkont faktor
 
 <br>
 
@@ -222,25 +222,25 @@
 
 **38. Policy ― A policy π is a function π:S⟶A that maps states to actions.**
 
-&#10230; Eljárásmód (policy) ― Eljárásmódnak nevezzük a π:S⟶A függvényeket.
+&#10230; Eljárás (policy) ― Eljárásnak nevezzük a π:S⟶A függvényeket.
 
 <br>
 
 **39. Remark: we say that we execute a given policy π if given a state s we take the action a=π(s).**
 
-&#10230; Megjegyzés: azt mondjuk, hogy TODO, ha egy adott s állapot esetén az a=π(s) lépést választjuk.
+&#10230; Megjegyzés: azt mondjuk, hogy végrehajtunk egy adott eljárást, ha egy adott s állapot esetén az a=π(s) lépést választjuk.
 
 <br>
 
 **40. Value function ― For a given policy π and a given state s, we define the value function Vπ as follows:**
 
-&#10230; 
+&#10230; Értékfüggvény ― Adott π eljárás és s állapot. Ekkor definiáljuk a Vπ értékfüggvényt az alábbi módon:
 
 <br>
 
 **41. Bellman equation ― The optimal Bellman equations characterizes the value function Vπ∗ of the optimal policy π∗:**
 
-&#10230; Bellman-egyenlet ― 
+&#10230; Bellman-egyenlet ― A Bellman-egyenleteket határozzák meg az optimális π∗ eljárás Vπ∗ értékfüggvényét:
 
 <br>
 
@@ -252,43 +252,43 @@
 
 **43. Value iteration algorithm ― The value iteration algorithm is in two steps:**
 
-&#10230;
+&#10230; Értékiteráció algortimusa ― Az értékiterációs algoritmus két lépésből áll:
 
 <br>
 
 **44. 1) We initialize the value:**
 
-&#10230;
+&#10230; 1) Inicializáljuk az értéket:
 
 <br>
 
 **45. 2) We iterate the value based on the values before:**
 
-&#10230;
+&#10230; 2) A korábbi értékek alapján iteráljuk az értéket:
 
 <br>
 
 **46. Maximum likelihood estimate ― The maximum likelihood estimates for the state transition probabilities are as follows:**
 
-&#10230; Maximum likelihood becslés ― Az állapotátmenetek valószínűsűgének maximum likelihood becslése az alábbi igaz:
+&#10230; Maximum likelihood becslés ― Az állapotátmenetek valószínűsűgének maximum likelihood becslése az alábbi alapján számítható:
 
 <br>
 
 **47. times took action a in state s and got to s′**
 
-&#10230; ennyiszer TODO s állapotban és került s′ állapotba.
+&#10230; ennyiszer választottuk az a lépést s állapotban és kerültünk s′ állapotba.
 
 <br>
 
 **48. times took action a in state s**
 
-&#10230; ennyiszer TODO s állapotban.
+&#10230; ennyiszer választottuk az a lépést az s állapotban.
 
 <br>
 
 **49. Q-learning ― Q-learning is a model-free estimation of Q, which is done as follows:**
 
-&#10230; Q-tanulás ― 
+&#10230; Q-tanulás ― A Q-tanulás a Q egy modelmentes becslése:
 
 <br>
 
@@ -318,4 +318,4 @@
 
 **54. [Reinforcement learning, Markov decision processes, Value/policy iteration, Approximate dynamic programming, Policy search]**
 
-&#10230; [Megerősítéses tanulás, Markov döntési folyamatok, TODO, Approximate dynamic programming, Eljáráskeresés]
+&#10230; [Megerősítéses tanulás, Markov döntési folyamatok, Értékiteráció, Approximate dynamic programming, Eljáráskeresés]

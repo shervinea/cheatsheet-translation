@@ -318,4 +318,4 @@
 
 **54. [Reinforcement learning, Markov decision processes, Value/policy iteration, Approximate dynamic programming, Policy search]**
 
-&#10230; [Megerősítéses tanulás, Markov döntési folyamatok, Értékiteráció, Approximate dynamic programming, Eljáráskeresés]
+&#10230; [Megerősítéses tanulás, Markov döntési folyamatok, Értékiteráció, Approximációs dinamikus programozás, Eljáráskeresés]

@@ -162,7 +162,7 @@
 
 **28. LSTM ― A long short-term memory (LSTM) network is a type of RNN model that avoids the vanishing gradient problem by adding 'forget' gates.**
 
-&#10230; LSTM ― Rövid-hosszútávú memória (LSTM) hálózatok az RNN-típusú modellek közé tartoznak. A 'felejtő' kapu hozzáadásával próbálják kiküszöbölni az eltűnő gradiens problémáját.
+&#10230; LSTM ― Rövid-hosszútávú memória (LSTM) hálózatok az RNN-típusú modellek közé tartoznak. A "felejtő" kapu hozzáadásával próbálják kiküszöbölni az eltűnő gradiens problémáját.
 
 <br>
 
@@ -288,7 +288,7 @@
 
 **49. Q-learning ― Q-learning is a model-free estimation of Q, which is done as follows:**
 
-&#10230; Q-tanulás ― A Q-tanulás a Q egy modelmentes becslése:
+&#10230; Q-tanulás ― A Q-tanulás a Q minőségfüggvény egy modellmentes becslése:
 
 <br>
 

@@ -1,78 +1,78 @@
 **1. Deep Learning cheatsheet**
 
-&#10230;
+&#10230; **1. Catatan ringkas Deep Learning**
 
 <br>
 
 **2. Neural Networks**
 
-&#10230;
+&#10230; **2. Neural Networks**
 
 <br>
 
 **3. Neural networks are a class of models that are built with layers. Commonly used types of neural networks include convolutional and recurrent neural networks.**
 
-&#10230;
+&#10230; **3. Neural networks merupakan sebuah kelas model yang disusun atas beberapa layer. Jenis umum dari neural networks yang umum digunakan adalah convolutional (CNN) dan recurrent neural networks (RNN).**
 
 <br>
 
 **4. Architecture ― The vocabulary around neural networks architectures is described in the figure below:**
 
-&#10230;
+&#10230; **4. Arsitektur - Beberapa istilah yang umum digunakan dalam arsitektur neural network dijelaskan pada gambar di bawah ini**
 
 <br>
 
 **5. [Input layer, hidden layer, output layer]**
 
-&#10230;
+&#10230; **5. [Input layer, hidden layer, output layer]**
 
 <br>
 
 **6. By noting i the ith layer of the network and j the jth hidden unit of the layer, we have:**
 
-&#10230;
+&#10230; **6. Dengan i adalah layer ke-i dari network dan j adalah unit hidden layer ke-j, maka:**
 
 <br>
 
 **7. where we note w, b, z the weight, bias and output respectively.**
 
-&#10230;
+&#10230; **7. Catatan: w, b, z adalah weight, bias, dan output.**
 
 <br>
 
 **8. Activation function ― Activation functions are used at the end of a hidden unit to introduce non-linear complexities to the model. Here are the most common ones:**
 
-&#10230;
+&#10230; **8. Fungsi aktivasi - Fungsi aktivasi di unit hidden terakhir berfungsi untuk menunjukkan kompleksitas non-linear terhadap model. Beberapa yang umum digunakan:**
 
 <br>
 
 **9. [Sigmoid, Tanh, ReLU, Leaky ReLU]**
 
-&#10230;
+&#10230; **9. [Sigmoid, Tanh, ReLU, Leaky ReLU]**
 
 <br>
 
 **10. Cross-entropy loss ― In the context of neural networks, the cross-entropy loss L(z,y) is commonly used and is defined as follows:**
 
-&#10230;
+&#10230;**10. Cross-entroy loss - Dalam konteks neural networks, cross-entroy loss L(z,y) sangat umum digunakan untuk mendefinisikan:**
 
 <br>
 
 **11. Learning rate ― The learning rate, often noted α or sometimes η, indicates at which pace the weights get updated. This can be fixed or adaptively changed. The current most popular method is called Adam, which is a method that adapts the learning rate.**
 
-&#10230;
+&#10230;**11. Learning rate - Learning rate (Tingkat pembelajaran), sering dinotasikan sebagai α atau η, merupakan fase pembaruan pembobotan. Tingkat pembelajaran dapat diperbaiki atau diubah secara adaptif. Metode yang paling populer saat ini disebut Adam, yang merupakan metode yang dapat menyesuaikan tingkat pembelajaran.
 
 <br>
 
 **12. Backpropagation ― Backpropagation is a method to update the weights in the neural network by taking into account the actual output and the desired output. The derivative with respect to weight w is computed using chain rule and is of the following form:**
 
-&#10230;
+&#10230;**12. Backpropagation - Backpropagation adalah metode untuk memperbarui bobot dalam neural networks dengan memperhitungkan output aktual dan output yang diinginkan. Bobot w dihitung dengan menggunakan aturan rantai turunan dalam bentuk berikut:**
 
 <br>
 
 **13. As a result, the weight is updated as follows:**
 
-&#10230;
+&#10230; **13. Sebagai hasilnya, nilai bobot diperbaharui sebagai berikut: 
 
 <br>
 

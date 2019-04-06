@@ -72,7 +72,7 @@
 
 **13. As a result, the weight is updated as follows:**
 
-&#10230; **13. Sebagai hasilnya, nilai bobot diperbaharui sebagai berikut: 
+&#10230; **13. Sebagai hasilnya, nilai bobot diperbaharui sebagai berikut: **
 
 <br>
 

@@ -60,7 +60,7 @@
 
 **11. Learning rate ― The learning rate, often noted α or sometimes η, indicates at which pace the weights get updated. This can be fixed or adaptively changed. The current most popular method is called Adam, which is a method that adapts the learning rate.**
 
-&#10230;**11. Learning rate - Learning rate (Tingkat pembelajaran), sering dinotasikan sebagai α atau η, merupakan fase pembaruan pembobotan. Tingkat pembelajaran dapat diperbaiki atau diubah secara adaptif. Metode yang paling populer saat ini disebut Adam, yang merupakan metode yang dapat menyesuaikan tingkat pembelajaran.
+&#10230;**11. Learning rate - Learning rate (Tingkat pembelajaran), sering dinotasikan sebagai α atau η, merupakan fase pembaruan pembobotan. Tingkat pembelajaran dapat diperbaiki atau diubah secara adaptif. Metode yang paling populer saat ini disebut Adam, yang merupakan metode yang dapat menyesuaikan tingkat pembelajaran.**
 
 <br>
 
@@ -78,61 +78,62 @@
 
 **14. Updating weights ― In a neural network, weights are updated as follows:**
 
-&#10230;
+&#10230;**14. Memperbaharui bobot w - Dalam neural network, bobot w diperbarui nilainya dengan cara berikut:**
 
 <br>
 
 **15. Step 1: Take a batch of training data.**
 
-&#10230;
+&#10230;**15. Langkah 1: Mengambil jumlah batch dari data latih.**
 
 <br>
 
 **16. Step 2: Perform forward propagation to obtain the corresponding loss.**
 
-&#10230;
+&#10230;**16. Langkah 2: Melakukan forward propagation untuk mendapatkan nilai loss yang sesuai. **
 
 <br>
 
 **17. Step 3: Backpropagate the loss to get the gradients.**
 
-&#10230;
+&#10230; **17. Langkah 3: Melakukan backpropagate terhadap loss untuk mendapatkan gradient.**
 
 <br>
 
 **18. Step 4: Use the gradients to update the weights of the network.**
 
-&#10230;
+&#10230;**18. Langkah 4: Menggunakan gradient untuk untuk memperbarui nilai dari network.**
 
 <br>
 
 **19. Dropout ― Dropout is a technique meant at preventing overfitting the training data by dropping out units in a neural network. In practice, neurons are either dropped with probability p or kept with probability 1−p**
 
-&#10230;
+&#10230;**19. Dropout - Dropout adalah teknik untuk mencegah overfitting data latih dengan menghilangkan satu atau lebih unit layer dalam neural network. Pada praktiknya, neurons melakukan drop dengan probabilitas p atau tidak melakukannya dengan probabilitas 1-p** 
 
 <br>
 
 **20. Convolutional Neural Networks**
 
-&#10230;
+&#10230; **20. Convolutional Neural Networks**
 
 <br>
 
 **21. Convolutional layer requirement ― By noting W the input volume size, F the size of the convolutional layer neurons, P the amount of zero padding, then the number of neurons N that fit in a given volume is such that:**
 
-&#10230;
+&#10230; **21. Kebutuhan layer convolutional - W adalah ukuran volume input, F adalah ukuran dari layer neuron convolutional, P adalah jumlah zero padding, maka jumlah neurons N yang dapat dibentuk dari volume yang diberikan adalah: **
 
 <br>
 
 **22. Batch normalization ― It is a step of hyperparameter γ,β that normalizes the batch {xi}. By noting μB,σ2B the mean and variance of that we want to correct to the batch, it is done as follows:**
 
-&#10230;
+&#10230; **22. Batch normalization - Adalah salah satu step hyperparameter γ,β yang menormalisasikan batch {xi}. Dengan notasi μB,σ2B adalah rata-rata dan variansi nilai yang digunakan untuk perbaikan dalam batch, dapat diselesaikan sebagai berikut:** 
 
 <br>
 
 **23. It is usually done after a fully connected/convolutional layer and before a non-linearity layer and aims at allowing higher learning rates and reducing the strong dependence on initialization.**
 
-&#10230;
+&#10230; **23. Biasanya dilakukan setelah layer sepenuhnya terhubung / konvolusional dan sebelum layer non-linearitas, yang bertujuan untuk peningkatan tingkat pembelajaran yang lebih tinggi dan mengurangi ketergantungan yang kuat pada inisialisasi.**
+ 
 
 <br>
 

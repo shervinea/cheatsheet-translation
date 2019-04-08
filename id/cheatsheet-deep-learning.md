@@ -157,7 +157,7 @@
 
 **27. [Write to cell or not?, Erase a cell or not?, How much to write to cell?, How much to reveal cell?]**
 
-&#10230; **27, [] **
+&#10230; **27, [Dituliskan ke dalm sel atau tidak?, Hapus sel atau tidak?, Berapa banyak yang harus ditulis ke dalam sel?, Berapa banyak yang dibutuhkan untuk mengungkap sel?] **
 
 <br>
 
@@ -193,7 +193,7 @@
 
 **33. S is the set of states** 
 
-&#10230; **33. S adalah himpunan dari kejadian (states) **
+&#10230; **33. S adalah himpunan dari keadaan (states) **
 
 <br>
 
@@ -217,106 +217,106 @@
 
 **37. R:S×A⟶R or R:S⟶R is the reward function that the algorithm wants to maximize**
 
-&#10230; **37. R:S×A⟶R atau R:S⟶R adalah fungsi penghargaan (reward) yang akan ditingkatkan nilainya oleh si algoritma**
+&#10230; **37. R:S×A⟶R atau R:S⟶R adalah fungsi penghargaan (reward) yang akan ditingkatkan nilainya oleh algoritma**
 
 <br>
 
 **38. Policy ― A policy π is a function π:S⟶A that maps states to actions.**
 
-&#10230;
+&#10230; **38. Policy - Policy π adalah sebuah fungsi π:S⟶A yang memetakan keadaan (S) ke tindakan (A).**
 
 <br>
 
 **39. Remark: we say that we execute a given policy π if given a state s we take the action a=π(s).**
 
-&#10230;
+&#10230; **39. Catatan: Kita menjalankan sebuah policy π jika diberikan keadaan S, maka tindakan a = π (s) **
 
 <br>
 
 **40. Value function ― For a given policy π and a given state s, we define the value function Vπ as follows:**
 
-&#10230;
+&#10230; **40. Fungsi nilai - Diberikan sebuah policy π dan sebuah keadaan S, maka kita mendefinisikan nilai fungsi Vπ dengan sebagai berikut: **
 
 <br>
 
 **41. Bellman equation ― The optimal Bellman equations characterizes the value function Vπ∗ of the optimal policy π∗:**
 
-&#10230;
+&#10230; **41. Persamaan Bellman - Persamaan Optimal Bellman mengkarakterisasi fungsi nilai Vπ∗ dari sebuah optimal policy π∗:** 
 
 <br>
 
 **42. Remark: we note that the optimal policy π∗ for a given state s is such that:**
 
-&#10230;
+&#10230; **42. Catatan: Nilai optimal policy dari π∗ untuk sebuah keadaan S adalah sebagai berikut:**
 
 <br>
 
 **43. Value iteration algorithm ― The value iteration algorithm is in two steps:**
 
-&#10230;
+&#10230; **43. Nilai perulangan algoritma - Nilai perulangan algoritma dibagai atas dua tahap: **
 
 <br>
 
 **44. 1) We initialize the value:**
 
-&#10230;
+&#10230; **44. 1) Menginisialisasi nilai: **
 
 <br>
 
 **45. 2) We iterate the value based on the values before:**
 
-&#10230;
+&#10230; **45. 2) Melakukan iterasi berdasarkan nilai sebelumnya: **
 
 <br>
 
 **46. Maximum likelihood estimate ― The maximum likelihood estimates for the state transition probabilities are as follows:**
 
-&#10230;
+&#10230; **46. Estimasi kemungkinan maksimum ― Estimasi kemungkinan maksimum untuk probabilitas transisi keadaan S adalah sebagai berikut: **
 
 <br>
 
 **47. times took action a in state s and got to s′**
 
-&#10230;
+&#10230; **47. Waktu yang dibutuhkan aksi A dalam keadaan S untuk menuju keadaan S'**
 
 <br>
 
 **48. times took action a in state s**
 
-&#10230;
+&#10230; **48. Waktu yang dibutuhkan aksi A di keadaa S**
 
 <br>
 
 **49. Q-learning ― Q-learning is a model-free estimation of Q, which is done as follows:**
 
-&#10230;
+&#10230; **49. Q-learning ― Q-learning adalah sebuah estimasi model bebas dari Q, yang didapat dari beikut:**
 
 <br>
 
 **50. View PDF version on GitHub**
 
-&#10230;
+&#10230; **50. Lihat versi PDF di GitHub**
 
 <br>
 
 **51. [Neural Networks, Architecture, Activation function, Backpropagation, Dropout]**
 
-&#10230;
+&#10230; **51 [Neural Networks, Architecture, Activation function, Backpropagation, Dropout]**
 
 <br>
 
 **52. [Convolutional Neural Networks, Convolutional layer, Batch normalization]**
 
-&#10230;
+&#10230; **52, [Convolutional Neural Networks, Convolutional layer, Batch normalization]
 
 <br>
 
 **53. [Recurrent Neural Networks, Gates, LSTM]**
 
-&#10230;
+&#10230; **53. [Recurrent Neural Networks, Gates, LSTM]**
 
 <br>
 
 **54. [Reinforcement learning, Markov decision processes, Value/policy iteration, Approximate dynamic programming, Policy search]**
 
-&#10230;
+&#10230; **54. [Reinforcement learning, Markov decision processes, Value/policy iteration, Approximate dynamic programming, Policy search]**

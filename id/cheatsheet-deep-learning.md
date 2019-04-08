@@ -139,43 +139,43 @@
 
 **24. Recurrent Neural Networks**
 
-&#10230;
+&#10230; **24. Recurrent Neural Networks (RNN)**
 
 <br>
 
 **25. Types of gates ― Here are the different types of gates that we encounter in a typical recurrent neural network:**
 
-&#10230;
+&#10230; **25. Jenis-jenis gates - Terdapat beberapa jenis gates dalam Recurrent Neural Network: **
 
 <br>
 
 **26. [Input gate, forget gate, gate, output gate]**
 
-&#10230;
+&#10230; **26. [Input gate (gerbang masuk), forget gate (gerbang lupa), gate, output gate (gerbang keluar)]
 
 <br>
 
 **27. [Write to cell or not?, Erase a cell or not?, How much to write to cell?, How much to reveal cell?]**
 
-&#10230;
+&#10230; **27, [] **
 
 <br>
 
 **28. LSTM ― A long short-term memory (LSTM) network is a type of RNN model that avoids the vanishing gradient problem by adding 'forget' gates.**
 
-&#10230;
+&#10230; **28. LSTM (Long short-term memory) - LSTM layer adalah salahsatu model RNN yang dibuat untuk menyelesaikan masalah hilangnya gradien dengan menambahkan gerbang 'lupa'.**
 
 <br>
 
 **29. Reinforcement Learning and Control**
 
-&#10230;
+&#10230; **29, Reinforcement Learning dan Kontrol**
 
 <br>
 
 **30. The goal of reinforcement learning is for an agent to learn how to evolve in an environment.**
 
-&#10230;
+&#10230; **30. Tujuan dari reinforcement learning adalah agar agen bisa membaur dan beradaptasi dengan lingkungannya.**
 
 <br>
 
@@ -183,41 +183,41 @@
 
 &#10230;
 
-<br>
+<br> **31. Definisi**
 
 **32. Markov decision processes ― A Markov decision process (MDP) is a 5-tuple (S,A,{Psa},γ,R) where:**
 
-&#10230;
+&#10230; **32. Markov decision processes (MDP) - Proses pengambilan keputusan Markov (MDP) adalah sebuah 5-tuple (S,A,{Psa},γ,R) dimana: ** 
 
 <br>
 
-**33. S is the set of states**
+**33. S is the set of states** 
 
-&#10230;
+&#10230; **33. S adalah himpunan dari kejadian (states) **
 
 <br>
 
 **34. A is the set of actions**
 
-&#10230;
+&#10230; **34. A adalah himpunan dari aksi/tindakan**
 
 <br>
 
 **35. {Psa} are the state transition probabilities for s∈S and a∈A**
 
-&#10230;
+&#10230; **35. {Psa} merupakan probabilitas perubahan kejadian untuk s∈S dan a∈A** 
 
 <br>
 
 **36. γ∈[0,1[ is the discount factor**
 
-&#10230;
+&#10230; **36. γ∈[0,1[ merupakan faktor potongan]]**
 
 <br>
 
 **37. R:S×A⟶R or R:S⟶R is the reward function that the algorithm wants to maximize**
 
-&#10230;
+&#10230; **37. R:S×A⟶R atau R:S⟶R adalah fungsi penghargaan (reward) yang akan ditingkatkan nilainya oleh si algoritma**
 
 <br>
 

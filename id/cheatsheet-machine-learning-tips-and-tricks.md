@@ -1,60 +1,60 @@
 **1. Machine Learning tips and tricks cheatsheet**
 
-&#10230;
+&#10230; **1. Catatan ringkas tips dan trik machine learning** 
 
 <br>
 
 **2. Classification metrics**
 
-&#10230;
+&#10230; **2. Matriks klasifikasi**
 
 <br>
 
 **3. In a context of a binary classification, here are the main metrics that are important to track in order to assess the performance of the model.**
 
-&#10230;
+&#10230; **3. Dalam konteks klasifikasi biner, terdapat beberapa matriks utama yang penting untuk menilai performa dari sebuah model.**
 
 <br>
 
 **4. Confusion matrix ― The confusion matrix is used to have a more complete picture when assessing the performance of a model. It is defined as follows:**
 
-&#10230;
+&#10230; **4. Confusion Matrix - Confusion matrix digunakan untuk membantu mengetahui bagaimana gambaran secara umum performa dari model. Didefinisikan sebagai berikut:**
 
 <br>
 
 **5. [Predicted class, Actual class]**
 
-&#10230;
+&#10230; **5. [Kelas prediksi, Kelas aktual]**
 
 <br>
 
 **6. Main metrics ― The following metrics are commonly used to assess the performance of classification models:**
 
-&#10230;
+&#10230; **6. Matriks utama - Berikut merupakan matriks yang umum digunakan untuk mengukur performa model klasifikasi:**
 
 <br>
 
 **7. [Metric, Formula, Interpretation]**
 
-&#10230;
+&#10230; **7. [Formula matriks, Interprestasi]**
 
 <br>
 
 **8. Overall performance of model**
 
-&#10230;
+&#10230; **8. Performa model secara umum**
 
 <br>
 
 **9. How accurate the positive predictions are**
 
-&#10230;
+&#10230; **9. Bagaimana positif akurasinya**
 
 <br>
 
 **10. Coverage of actual positive sample**
 
-&#10230;
+&#10230; **10. Cakupan sample positif aktual**
 
 <br>
 

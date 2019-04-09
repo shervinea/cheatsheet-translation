@@ -72,7 +72,7 @@
 
 **13. As a result, the weight is updated as follows:**
 
-&#10230; **13. Sebagai hasilnya, nilai bobot diperbaharui sebagai berikut: **
+&#10230; **13. Sebagai hasilnya, nilai bobot diperbaharui sebagai berikut:**
 
 <br>
 
@@ -90,7 +90,7 @@
 
 **16. Step 2: Perform forward propagation to obtain the corresponding loss.**
 
-&#10230;**16. Langkah 2: Melakukan forward propagation untuk mendapatkan nilai loss yang sesuai. **
+&#10230;**16. Langkah 2: Melakukan forward propagation untuk mendapatkan nilai loss yang sesuai.**
 
 <br>
 
@@ -120,7 +120,7 @@
 
 **21. Convolutional layer requirement ― By noting W the input volume size, F the size of the convolutional layer neurons, P the amount of zero padding, then the number of neurons N that fit in a given volume is such that:**
 
-&#10230; **21. Kebutuhan layer convolutional - W adalah ukuran volume input, F adalah ukuran dari layer neuron convolutional, P adalah jumlah zero padding, maka jumlah neurons N yang dapat dibentuk dari volume yang diberikan adalah: **
+&#10230; **21. Kebutuhan layer convolutional - W adalah ukuran volume input, F adalah ukuran dari layer neuron convolutional, P adalah jumlah zero padding, maka jumlah neurons N yang dapat dibentuk dari volume yang diberikan adalah:**
 
 <br>
 
@@ -145,19 +145,19 @@
 
 **25. Types of gates ― Here are the different types of gates that we encounter in a typical recurrent neural network:**
 
-&#10230; **25. Jenis-jenis gates - Terdapat beberapa jenis gates dalam Recurrent Neural Network: **
+&#10230; **25. Jenis-jenis gates - Terdapat beberapa jenis gates dalam Recurrent Neural Network:**
 
 <br>
 
 **26. [Input gate, forget gate, gate, output gate]**
 
-&#10230; **26. [Input gate (gerbang masuk), forget gate (gerbang lupa), gate, output gate (gerbang keluar)]
+&#10230; **26. [Input gate (gerbang masuk), forget gate (gerbang lupa), gate, output gate (gerbang keluar)]**
 
 <br>
 
 **27. [Write to cell or not?, Erase a cell or not?, How much to write to cell?, How much to reveal cell?]**
 
-&#10230; **27, [Dituliskan ke dalm sel atau tidak?, Hapus sel atau tidak?, Berapa banyak yang harus ditulis ke dalam sel?, Berapa banyak yang dibutuhkan untuk mengungkap sel?] **
+&#10230; **27, [Dituliskan ke dalm sel atau tidak?, Hapus sel atau tidak?, Berapa banyak yang harus ditulis ke dalam sel?, Berapa banyak yang dibutuhkan untuk mengungkap sel?]**
 
 <br>
 
@@ -187,13 +187,13 @@
 
 **32. Markov decision processes ― A Markov decision process (MDP) is a 5-tuple (S,A,{Psa},γ,R) where:**
 
-&#10230; **32. Markov decision processes (MDP) - Proses pengambilan keputusan Markov (MDP) adalah sebuah 5-tuple (S,A,{Psa},γ,R) dimana: ** 
+&#10230; **32. Markov decision processes (MDP) - Proses pengambilan keputusan Markov (MDP) adalah sebuah 5-tuple (S,A,{Psa},γ,R) dimana:** 
 
 <br>
 
 **33. S is the set of states** 
 
-&#10230; **33. S adalah himpunan dari keadaan (states) **
+&#10230; **33. S adalah himpunan dari keadaan (states)**
 
 <br>
 
@@ -229,13 +229,13 @@
 
 **39. Remark: we say that we execute a given policy π if given a state s we take the action a=π(s).**
 
-&#10230; **39. Catatan: Kita menjalankan sebuah policy π jika diberikan keadaan S, maka tindakan a = π (s) **
+&#10230; **39. Catatan: Kita menjalankan sebuah policy π jika diberikan keadaan S, maka tindakan a = π (s)**
 
 <br>
 
 **40. Value function ― For a given policy π and a given state s, we define the value function Vπ as follows:**
 
-&#10230; **40. Fungsi nilai - Diberikan sebuah policy π dan sebuah keadaan S, maka kita mendefinisikan nilai fungsi Vπ dengan sebagai berikut: **
+&#10230; **40. Fungsi nilai - Diberikan sebuah policy π dan sebuah keadaan S, maka kita mendefinisikan nilai fungsi Vπ dengan sebagai berikut:**
 
 <br>
 
@@ -253,25 +253,25 @@
 
 **43. Value iteration algorithm ― The value iteration algorithm is in two steps:**
 
-&#10230; **43. Nilai perulangan algoritma - Nilai perulangan algoritma dibagai atas dua tahap: **
+&#10230; **43. Nilai perulangan algoritma - Nilai perulangan algoritma dibagai atas dua tahap:**
 
 <br>
 
 **44. 1) We initialize the value:**
 
-&#10230; **44. 1) Menginisialisasi nilai: **
+&#10230; **44. 1) Menginisialisasi nilai:**
 
 <br>
 
 **45. 2) We iterate the value based on the values before:**
 
-&#10230; **45. 2) Melakukan iterasi berdasarkan nilai sebelumnya: **
+&#10230; **45. 2) Melakukan iterasi berdasarkan nilai sebelumnya:**
 
 <br>
 
 **46. Maximum likelihood estimate ― The maximum likelihood estimates for the state transition probabilities are as follows:**
 
-&#10230; **46. Estimasi kemungkinan maksimum ― Estimasi kemungkinan maksimum untuk probabilitas transisi keadaan S adalah sebagai berikut: **
+&#10230; **46. Estimasi kemungkinan maksimum ― Estimasi kemungkinan maksimum untuk probabilitas transisi keadaan S adalah sebagai berikut:**
 
 <br>
 
@@ -307,7 +307,7 @@
 
 **52. [Convolutional Neural Networks, Convolutional layer, Batch normalization]**
 
-&#10230; **52, [Convolutional Neural Networks, Convolutional layer, Batch normalization]
+&#10230; **52, [Convolutional Neural Networks, Convolutional layer, Batch normalization]**
 
 <br>
 

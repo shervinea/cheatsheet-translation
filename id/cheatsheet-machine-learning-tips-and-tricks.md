@@ -12,7 +12,7 @@
 
 **3. In a context of a binary classification, here are the main metrics that are important to track in order to assess the performance of the model.**
 
-&#10230; **3. Dalam konteks klasifikasi biner, terdapat beberapa matriks utama yang penting untuk menilai performa dari sebuah model.**
+&#10230; **3. Dalam konteks klasifikasi biner, terdapat beberapa matriks utama yang penting untuk digunakan dalam mengukur performa dari sebuah model.**
 
 <br>
 
@@ -48,19 +48,19 @@
 
 **9. How accurate the positive predictions are**
 
-&#10230; **9. Bagaimana positif akurasinya**
+&#10230; **9. Bagaimana akurasi prediksi positifnya**
 
 <br>
 
 **10. Coverage of actual positive sample**
 
-&#10230; **10. Cakupan aktual sampel positif**
+&#10230; **10. Cakupan sampel aktual positif**
 
 <br>
 
 **11. Coverage of actual negative sample**
 
-&#10230;**11. Cakupan aktual sampel negatif**
+&#10230;**11. Cakupan sampel aktual negatif**
 
 <br>
 
@@ -114,97 +114,97 @@
 
 **20. Main metrics ― The following metrics are commonly used to assess the performance of regression models, by taking into account the number of variables n that they take into consideration:**
 
-&#10230;
+&#10230;  **20. Matriks utama ― Matriks berikut adalah yang umum digunakan untuk mengukur performa dari model regresi, dengan mengambil sejumlah variabel n sebagai pertimbangan:**
 
 <br>
 
 **21. where L is the likelihood and ˆσ2 is an estimate of the variance associated with each response.**
 
-&#10230;
+&#10230; **21. Dimana L adalah kecenderungan dan ˆσ2 adalah estimasi dari asosiasi varian dan responnya.**
 
 <br>
 
 **22. Model selection**
 
-&#10230;
+&#10230; **22. Seleksi model**
 
 <br>
 
 **23. Vocabulary ― When selecting a model, we distinguish 3 different parts of the data that we have as follows:**
 
-&#10230;
+&#10230; **23. Kamus - Dalam memilih sebuah model, kita membagai tiga bagian data sebagai berikut:**
 
-<br>
+<br> 
 
 **24. [Training set, Validation set, Testing set]**
 
-&#10230;
+&#10230; **24. [Data latih, data validasi, data uji]**
 
 <br>
 
 **25. [Model is trained, Model is assessed, Model gives predictions]**
 
-&#10230;
+&#10230; **25. [Model terlatih, model tervalidasi, prediksi model]**
 
 <br>
 
 **26. [Usually 80% of the dataset, Usually 20% of the dataset]**
 
-&#10230;
+&#10230; **26. [Biasanya data latih terdiri atas 80% dataset, sedangkan 20% merupakan data uji/tes]**
 
 <br>
 
 **27. [Also called hold-out or development set, Unseen data]**
 
-&#10230;
+&#10230; **27. [Disebut juga hold-out atau development set, Data yang belum pernah dilihat oleh model]**
 
 <br>
 
 **28. Once the model has been chosen, it is trained on the entire dataset and tested on the unseen test set. These are represented in the figure below:**
 
-&#10230;
+&#10230; **28. Setelah model dipilih, model dilatih dengan seluruh dataset dan diuji coba pada data yang belum pernah dijumpai. Hal ini direpresentasikan sebagai berikut:**
 
 <br>
 
 **29. Cross-validation ― Cross-validation, also noted CV, is a method that is used to select a model that does not rely too much on the initial training set. The different types are summed up in the table below:**
 
-&#10230;
+&#10230; **29. Cross-validation ― Cross-validation, disebut juga sebagai CV, adalah metode yang digunakan untuk memilih model yang tidak bergantung pada dataset latih pertama. Perbedaannya diringkas dalam tabel berikut:** 
 
 <br>
 
 **30. [Training on k−1 folds and assessment on the remaining one, Training on n−p observations and assessment on the p remaining ones]**
 
-&#10230;
+&#10230; **30. []**
 
 <br>
 
 **31. [Generally k=5 or 10, Case p=1 is called leave-one-out]**
 
-&#10230;
+&#10230; **31. [Umumnya k=5 atau 10, kasus p=1 disebut sebagai leave-one-out]**
 
 <br>
 
 **32. The most commonly used method is called k-fold cross-validation and splits the training data into k folds to validate the model on one fold while training the model on the k−1 other folds, all of this k times. The error is then averaged over the k folds and is named cross-validation error.**
 
-&#10230;
+&#10230; **32. Metode yang umum digunakan adalah k-fold crosss-validation yang membagi data latih menjadi k folds untuk memvalidasi model pada salahsatu fold, sementara melatih model pada k-1 folds, selama k times. Total error yang dihasilkan kemudian dirata-rata dan disebut sebagai cross-validation error.**
 
 <br>
 
 **33. Regularization ― The regularization procedure aims at avoiding the model to overfit the data and thus deals with high variance issues. The following table sums up the different types of commonly used regularization techniques:**
 
-&#10230;
+&#10230; **33. Regularisasi ― Prosedur regularisasi bertujuan untuk mencegah model overfit data dan isu variansi yang tinggi. Tabel berikut meringkas beberapa jenis teknik regularisasi:**
 
 <br>
 
 **34. [Shrinks coefficients to 0, Good for variable selection, Makes coefficients smaller, Tradeoff between variable selection and small coefficients]**
 
-&#10230;
+&#10230; **34. [Memangkas koefisien menjadi 0, bagus untuk pemilihan variabel, membuat koefisien menjadi lebih kecil. Adanya tradeoff antara pemilihan variabel dan koefisien yang kecil]**
 
 <br>
 
 **35. Diagnostics**
 
-&#10230;
+&#10230; **35. Diagnostik**
 
 <br>
 

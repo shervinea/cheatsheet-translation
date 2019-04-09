@@ -54,61 +54,61 @@
 
 **10. Coverage of actual positive sample**
 
-&#10230; **10. Cakupan sample positif aktual**
+&#10230; **10. Cakupan aktual sampel positif**
 
 <br>
 
 **11. Coverage of actual negative sample**
 
-&#10230;
+&#10230;**11. Cakupan aktual sampel negatif**
 
 <br>
 
 **12. Hybrid metric useful for unbalanced classes**
 
-&#10230;
+&#10230;**12. Matriks gabungan yang berguna untuk kelas data yang tidak seimbang**
 
 <br>
 
 **13. ROC ― The receiver operating curve, also noted ROC, is the plot of TPR versus FPR by varying the threshold. These metrics are are summed up in the table below:**
 
-&#10230;
+&#10230; **13. ROC ― Receiver operating curve (ROC) adalah plot TPR yang disandingkan dengan FPR dengan memvariasikan nilai ambang batasnya. Matriks ini dijelaskan pada tabel dibawah berikut:** 
 
 <br>
 
 **14. [Metric, Formula, Equivalent]**
 
-&#10230;
+&#10230; **14. [Matriks, Formula, Persamaan]**
 
 <br>
 
 **15. AUC ― The area under the receiving operating curve, also noted AUC or AUROC, is the area below the ROC as shown in the following figure:**
 
-&#10230;
+&#10230; **15. AUC (Area Under the Curve) ― Area bawah kurva, adalah area dibawah ROC yang digambarkan sebagai berikut:**
 
 <br>
 
 **16. [Actual, Predicted]**
 
-&#10230;
+&#10230; **16. [Aktual, Prediksi]**
 
 <br>
 
 **17. Basic metrics ― Given a regression model f, the following metrics are commonly used to assess the performance of the model:**
 
-&#10230;
+&#10230; **17. Matriks sederhana - Diberikan sebuah model regresi f, matriks berikut secara umum digunakan untuk mengukur performa dari model:**
 
 <br>
 
 **18. [Total sum of squares, Explained sum of squares, Residual sum of squares]**
 
-&#10230;
+&#10230; **18. [Jumlah total persegi, Penjelasan jumlah persegi, Sisa jumlah persegi]**
 
 <br>
 
 **19. Coefficient of determination ― The coefficient of determination, often noted R2 or r2, provides a measure of how well the observed outcomes are replicated by the model and is defined as follows:**
 
-&#10230;
+&#10230; **19. Koefisisen determinasi ― Koefesien determinasi dinotasikan dengan R2 atau r2, digunakan untuk mengukur bagaimana baik tidaknya hasil observasi  yang ditiru oleh model, sebagai berikut:**
 
 <br>
 

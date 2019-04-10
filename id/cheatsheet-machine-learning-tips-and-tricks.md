@@ -210,76 +210,76 @@
 
 **36. Bias ― The bias of a model is the difference between the expected prediction and the correct model that we try to predict for given data points.**
 
-&#10230;
+&#10230; **36. Bias ― Bias pada model adalah perbedaan antara hasil prediksi dengan hasil dari model yang seharusnya diprediksi pada data point yang diberikan (Underfitting).**
 
 <br>
 
 **37. Variance ― The variance of a model is the variability of the model prediction for given data points.**
 
-&#10230;
+&#10230; **Varian ― Varian sebuah model adalah tidak konsistennya hasil prediksi sebuah model atas data poin yang diberikan (Overfitting).**
 
 <br>
 
 **38. Bias/variance tradeoff ― The simpler the model, the higher the bias, and the more complex the model, the higher the variance.**
 
-&#10230;
+&#10230; **38. Bias/variance tradeoff ― Semakin sederhana model, semakin tinggi bias, dan semakin kompleks model, semakin tinggi variannya.**
 
 <br>
 
 **39. [Symptoms, Regression illustration, classification illustration, deep learning illustration, possible remedies]**
 
-&#10230;
+&#10230; **39. [Symptom, Ilustrasi regresi, ilustrasi klasifikasi, ilustrasi deep learning, possible remedies]**
 
 <br>
 
 **40. [High training error, Training error close to test error, High bias, Training error slightly lower than test error, Very low training error, Training error much lower than test error, High variance]**
 
-&#10230;
+&#10230; **40. [Training error tinggi, Training error hampir sama dengan test error, Bias tinggi, Training error lebih kecil daripada test error, Training error sangat kecil, Training error lebih kecil daripada test error, Varian yang tinggi]**
 
 <br>
 
 **41. [Complexify model, Add more features, Train longer, Perform regularization, Get more data]**
 
-&#10230;
+&#10230; **41. [Kompleksitas model, Menambah fitur, Penambahan waktu training, Melakukan regularisasi, Menambah data]**
 
 <br>
 
 **42. Error analysis ― Error analysis is analyzing the root cause of the difference in performance between the current and the perfect models.**
 
-&#10230;
+&#10230; **42. Analisis error ― Analisis eror adalah analisa sebab utama terjadinya perbedaan performa antara model sekarang dengan model yang sempurna** 
 
 <br>
 
 **43. Ablative analysis ― Ablative analysis is analyzing the root cause of the difference in performance between the current and the baseline models.**
 
-&#10230;
+&#10230; **43. Analisis ablatif ― Analisis ablatif adalah analisa sebab utama terjadinya perbedaan performa antara model yang sekarang dengan model baseline.**
 
 <br>
 
 **44. Regression metrics**
 
-&#10230;
+&#10230; **44. Matriks regresi**
 
 <br>
 
 **45. [Classification metrics, confusion matrix, accuracy, precision, recall, F1 score, ROC]**
 
-&#10230;
+&#10230; **45. [Metriks klasifikasi, Matriks confusion, akurasi, presisi, recall, Nilai F1, ROC]**
 
 <br>
 
 **46. [Regression metrics, R squared, Mallow's CP, AIC, BIC]**
 
-&#10230;
+&#10230; **46. [Metriks regresi, R squared, Mallow's CP, AIC, BIC]**
 
 <br>
 
 **47. [Model selection, cross-validation, regularization]**
 
-&#10230;
+&#10230; **47. [Model selection, cross-validation, regularization]**
 
 <br>
 
 **48. [Diagnostics, Bias/variance tradeoff, error/ablative analysis]**
 
-&#10230;
+&#10230; **48. [Diagnostics, Bias/variance tradeoof, error/ablative analysis]**

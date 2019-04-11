@@ -1,109 +1,109 @@
 **1. Supervised Learning cheatsheet**
 
-&#10230;
+&#10230; **Supervised Learning cheatsheet**
 
 <br>
 
 **2. Introduction to Supervised Learning**
 
-&#10230;
+&#10230; **2. Pengenalan Supervised Learning**
 
 <br>
 
 **3. Given a set of data points {x(1),...,x(m)} associated to a set of outcomes {y(1),...,y(m)}, we want to build a classifier that learns how to predict y from x.**
 
-&#10230;
+&#10230; **3. Diberikan sebuah kumpulan data poin {x(1),....,x(m)} yang berasosiasi dengan hasil {y(1),....,y(m)}, kita ingin membuat klasifikasi yang mempelajari bagaimana memprediksi nilai y dari x.**
 
 <br>
 
 **4. Type of prediction ― The different types of predictive models are summed up in the table below:**
 
-&#10230;
+&#10230; **4. Jenis prediksi ― Perbedaan jenis model prediksi diringkas dalam tabel berikut:**
 
 <br>
 
 **5. [Regression, Classifier, Outcome, Examples]**
 
-&#10230;
+&#10230; **5. [Regresi, klasifikasi, hasil, contoh]**
 
 <br>
 
 **6. [Continuous, Class, Linear regression, Logistic regression, SVM, Naive Bayes]**
 
-&#10230;
+&#10230; **6. [Continues, Class, Linear regression, Logistic regression, SVM, Naive Bayes]**
 
 <br>
 
 **7. Type of model ― The different models are summed up in the table below:**
 
-&#10230;
+&#10230; **7. Jenis model ― Perbedaan antar model diringkas dalam tabel berikut:**
 
 <br>
 
 **8. [Discriminative model, Generative model, Goal, What's learned, Illustration, Examples]**
 
-&#10230;
+&#10230; **8. [Discriminative model, Generative model, Tujuan, Apa yang telah dipelajari, Ilustrasi, Contoh]**
 
 <br>
 
 **9. [Directly estimate P(y|x), Estimate P(x|y) to then deduce P(y|x), Decision boundary,  	Probability distributions of the data, Regressions, SVMs, GDA, Naive Bayes]**
 
-&#10230;
+&#10230; **9. [Estimasi langsung P(y|x), Estimasi P(x|y) untuk mendeduksi P(y|x), Decision boundary, Probabilitas distribusi data, Regresi, SVM, GDA, Naive Bayes]**
 
 <br>
 
 **10. Notations and general concepts**
 
-&#10230;
+&#10230; **10. Notasi dan konsep umum**
 
 <br>
 
 **11. Hypothesis ― The hypothesis is noted hθ and is the model that we choose. For a given input data x(i) the model prediction output is hθ(x(i)).**
 
-&#10230;
+&#10230; **11. Hipotesis ― Hipotesis dinotasikan dengan hθ dan model yang kita pilih. Untuk input data x(i), hasil prediksi model adalah hθ(x(i)).**
 
 <br>
 
 **12. Loss function ― A loss function is a function L:(z,y)∈R×Y⟼L(z,y)∈R that takes as inputs the predicted value z corresponding to the real data value y and outputs how different they are. The common loss functions are summed up in the table below:**
 
-&#10230;
+&#10230; **12. Loss function ― Fungsi loss adalah sebuah fungsi L:(z,y)∈R×Y⟼L(z,y)∈R yang mengambil input sebagai prediksi nilai z yang berkorespondensi dengan nilai real y dan memberikan output perbedaan antara keduanya. Fungsi loss yang umum adalah sebagai berikut:**
 
 <br>
 
 **13. [Least squared error, Logistic loss, Hinge loss, Cross-entropy]**
 
-&#10230;
+&#10230; **13. [Leas squared error, Logistic loss, Hinge loss, Cross-entropy]**
 
 <br>
 
 **14. [Linear regression, Logistic regression, SVM, Neural Network]**
 
-&#10230;
+&#10230; **14. [Linear regression, Logistic regression, SVM, Neural network]**
 
 <br>
 
 **15. Cost function ― The cost function J is commonly used to assess the performance of a model, and is defined with the loss function L as follows:**
 
-&#10230;
+&#10230; **15. Const function ― Funsgi cost j adalah uum digunakan untuk mengukur performa sebuah model, dan mendefinisikannya dengan fungsi loss L sebagai berikut:**
 
 <br>
 
 **16. Gradient descent ― By noting α∈R the learning rate, the update rule for gradient descent is expressed with the learning rate and the cost function J as follows:**
 
-&#10230;
+&#10230; **16. Gradient descent ― α∈R adalah tingkat pembelajaran (learning rate), aturan untuk memperbarui gradient descent diekspresikan dengan hubungan antara learning rate dan fungsi cost J sebagai berikut:**
 
 <br>
 
 **17. Remark: Stochastic gradient descent (SGD) is updating the parameter based on each training example, and batch gradient descent is on a batch of training examples.**
 
-&#10230;
+&#10230; **17. Catatan: Stochastic gradient descent (SGD) memperbarui parameter berdasarkan setiap contoh data latih, dan batch gradient descent adalah batch pada setiap contoh training**.
 
 <br>
 
 **18. Likelihood ― The likelihood of a model L(θ) given parameters θ is used to find the optimal parameters θ through maximizing the likelihood. In practice, we use the log-likelihood ℓ(θ)=log(L(θ)) which is easier to optimize. We have:**
 
-&#10230;
-
+&#10230; **q8. Likelihoot ― Likelihood dari model L(θ) diberikan parameter θ digunakan untuk mencari parameter optimal θ dengan memaksimalkan nilai likelihood. Dalam praktiknya, kita menggunakan log-likehood
+ℓ(θ)=log(L(θ)) yang memudahkan untuk optimalisasi.**
 <br>
 
 **19. Newton's algorithm ― The Newton's algorithm is a numerical method that finds θ such that ℓ′(θ)=0. Its update rule is as follows:**

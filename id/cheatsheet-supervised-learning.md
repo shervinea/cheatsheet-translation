@@ -102,97 +102,97 @@
 
 **18. Likelihood ― The likelihood of a model L(θ) given parameters θ is used to find the optimal parameters θ through maximizing the likelihood. In practice, we use the log-likelihood ℓ(θ)=log(L(θ)) which is easier to optimize. We have:**
 
-&#10230; **q8. Likelihoot ― Likelihood dari model L(θ) diberikan parameter θ digunakan untuk mencari parameter optimal θ dengan memaksimalkan nilai likelihood. Dalam praktiknya, kita menggunakan log-likehood
+&#10230; **q8. Likelihood ― Likelihood dari model L(θ) diberikan parameter θ digunakan untuk mencari parameter optimal θ dengan memaksimalkan nilai likelihood. Dalam praktiknya, kita menggunakan log-likehood
 ℓ(θ)=log(L(θ)) yang memudahkan untuk optimalisasi.**
 <br>
 
 **19. Newton's algorithm ― The Newton's algorithm is a numerical method that finds θ such that ℓ′(θ)=0. Its update rule is as follows:**
 
-&#10230;
+&#10230; **19. Algoritma Newton ― Algoritma newton adalah metode numerik yang mencari 0 sehingga ℓ′(θ)=0. Algoritma ini memperbarui dengan cara berikut:**
 
 <br>
 
 **20. Remark: the multidimensional generalization, also known as the Newton-Raphson method, has the following update rule:**
 
-&#10230;
+&#10230; **20. Catatan: generalisasi multidimensional, juga disebut sebagai Metode Newton-Raphson, cara kerjanya sebagai berikut:**
 
 <br>
 
 **21. Linear models**
 
-&#10230;
+&#10230; **21. Model linear**
 
 <br>
 
 **22. Linear regression**
 
-&#10230;
+&#10230; **22. Regresi linear**
 
 <br>
 
 **23. We assume here that y|x;θ∼N(μ,σ2)**
 
-&#10230;
+&#10230; **23. Asumsinya sebagai berikut: y|x;θ∼N(μ,σ2)** 
 
 <br>
 
 **24. Normal equations ― By noting X the matrix design, the value of θ that minimizes the cost function is a closed-form solution such that:**
 
-&#10230;
+&#10230; **24. Persamaan normal ― Dengan X sebagai desain matriks, nilai 0 digunakan untuk meminimalisir nilai fungsi cost sehingga mendekati bentuk solusi:** 
 
 <br>
 
 **25. LMS algorithm ― By noting α the learning rate, the update rule of the Least Mean Squares (LMS) algorithm for a training set of m data points, which is also known as the Widrow-Hoff learning rule, is as follows:**
 
-&#10230;
+&#10230; **25. Algoritma LMS ― α adalah learning rate, perbaruan algoritma LMS untuk data training m, yang disebut juga Widrow-Hoff learning:**
 
 <br>
 
 **26. Remark: the update rule is a particular case of the gradient ascent.**
 
-&#10230;
+&#10230; **26. Catatan: perbaruan rule adalah contoh dari gradient ascent.**
 
 <br>
 
 **27. LWR ― Locally Weighted Regression, also known as LWR, is a variant of linear regression that weights each training example in its cost function by w(i)(x), which is defined with parameter τ∈R as:**
 
-&#10230;
+&#10230; **27. LWR ― Locally Weighted Regression, disebut juga LWR, adalah varian dari regersi linear yang bobot pada setiap data training dalam cost functionnya dinotasikan w(i)(x), yang didefinisikan dengan parameter τ∈R sebagai:** 
 
 <br>
 
 **28. Classification and logistic regression**
 
-&#10230;
+&#10230; **28. Klasifikasi dan logistic regression**
 
 <br>
 
 **29. Sigmoid function ― The sigmoid function g, also known as the logistic function, is defined as follows:**
 
-&#10230;
+&#10230; **29. Fungsi sigmoid ― fungsi sigmoid g, disebut juga fungsi logistic, didefinisikan sebagai berikut:**
 
 <br>
 
 **30. Logistic regression ― We assume here that y|x;θ∼Bernoulli(ϕ). We have the following form:**
 
-&#10230;
+&#10230; **30. Logistic regression ― kita asumsikan bahwa y|x;θ∼Bernoulli(ϕ). Dengan bentuk sebagai berikut:**
 
 <br>
 
 **31. Remark: there is no closed form solution for the case of logistic regressions.**
 
-&#10230;
+&#10230; **31. Catatan: tidak ada bentuk solusi tertutup untuk kasus logistic regression.**
 
 <br>
 
 **32. Softmax regression ― A softmax regression, also called a multiclass logistic regression, is used to generalize logistic regression when there are more than 2 outcome classes. By convention, we set θK=0, which makes the Bernoulli parameter ϕi of each class i equal to:**
 
-&#10230;
+&#10230; **32. Softmax regression ― Softmax regression disebut juga sebagai multiclass logistic regression, digunakan untuk membuat logistic regression ketika terdapat lebih dari dua kelas output. Secara umum, kita men-set θK=0, yang membuat Bernoulli parameter ϕi pada setiap kelas i sama dengan:**
 
 <br>
 
 **33. Generalized Linear Models**
 
-&#10230;
+&#10230; **33. Generalized Linear Models**
 
 <br>
 

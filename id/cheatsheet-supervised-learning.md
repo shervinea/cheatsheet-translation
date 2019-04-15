@@ -330,91 +330,91 @@
 
 **56. Gaussian Discriminant Analysis**
 
-&#10230;
+&#10230; **55. Gaussian Discriminant Analysis**
 
 <br>
 
 **57. Setting ― The Gaussian Discriminant Analysis assumes that y and x|y=0 and x|y=1 are such that:**
 
-&#10230;
+&#10230; **57. Pengaturan ― Asumsi dari gaussian discriminant Analysis adalah y dan x|y=0 dan x|y=1 adalah sebagai berikut:** 
 
 <br>
 
 **58. Estimation ― The following table sums up the estimates that we find when maximizing the likelihood:**
 
-&#10230;
+&#10230; **58. Estimasi ― Tabel berikut meringkas estimasi ketika melakukan maksimalisasi kemungkinan:**
 
 <br>
 
 **59. Naive Bayes**
 
-&#10230;
+&#10230; **59. Naive Bayes**
 
 <br>
 
 **60. Assumption ― The Naive Bayes model supposes that the features of each data point are all independent:**
 
-&#10230;
+&#10230; **60. Asumsi ― Model Naive Bayes menduga bahwa fitur dari setiap data point adalah independent:**
 
 <br>
 
 **61. Solutions ― Maximizing the log-likelihood gives the following solutions, with k∈{0,1},l∈[[1,L]]**
 
-&#10230;
+&#10230; **61. Solusi ― Memaksimalkan log-likelihood memberikan solusi berikut, dengan k∈{0,1},l∈[[1,L]]**
 
 <br>
 
 **62. Remark: Naive Bayes is widely used for text classification and spam detection.**
 
-&#10230;
+&#10230; **62. Catatan: Naive Bayes umum digunakan untuk klasifikasi teks dan deteksi spam.**
 
 <br>
 
 **63. Tree-based and ensemble methods**
 
-&#10230;
+&#10230; **63. Tree-based dan ensemble methods**
 
 <br>
 
 **64. These methods can be used for both regression and classification problems.**
 
-&#10230;
+&#10230; **64. Metode ini digunakan untuk permasalahan regresi dan klasifikasi.**
 
 <br>
 
 **65. CART ― Classification and Regression Trees (CART), commonly known as decision trees, can be represented as binary trees. They have the advantage to be very interpretable.**
 
-&#10230;
+&#10230; **65. CART ― Klasifikasi dan pohon regresi (CART), umumnya disebut sebagai decision trees, direpresentasikan sebagai pohon binary. Memiliki keuntungan yang sangat dapat diinterprestasi.**
 
 <br>
 
 **66. Random forest ― It is a tree-based technique that uses a high number of decision trees built out of randomly selected sets of features. Contrary to the simple decision tree, it is highly uninterpretable but its generally good performance makes it a popular algorithm.**
 
-&#10230;
+&#10230; **66. Random forest ― Merupakan teknik tree-based yang menggunakan angka tertinggi dari decision-tress yang secara random dipilih dari sekumpulan fitur. Berbeda dengan simple decision tree, ini sangat tidak mudah diinterpretasi namum secara umum memiliki performa yang sangat bagus, dan ini adalah salah satu algoritma yang populer.**
 
 <br>
 
 **67. Remark: random forests are a type of ensemble methods.**
 
-&#10230;
+&#10230; **67. Catatan: random forest adalah salahsatu jenis metode ensemble.**
 
 <br>
 
 **68. Boosting ― The idea of boosting methods is to combine several weak learners to form a stronger one. The main ones are summed up in the table below:**
 
-&#10230;
+&#10230; **68. Boosting ― ide dari metode boosting adalah untuk mengkombinasi beberapa kelemahan learner untuk membentuk leaner yang kuat. Beberapa tujuan utamanya adalah diringkas dalam tabel berikut:**
 
 <br>
 
 **69. [Adaptive boosting, Gradient boosting]**
 
-&#10230;
+&#10230; **69. [Adaptive boosting, Gradient boosting]
 
 <br>
 
 **70. High weights are put on errors to improve at the next boosting step**
 
-&#10230;
+&#10230; **70. Bobot yang tinggi diletakkan di tempat yang memiliki error untuk meningkatkan tahapan boosting berikutnya.**
 
 <br>
 

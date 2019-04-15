@@ -198,133 +198,133 @@
 
 **34. Exponential family ― A class of distributions is said to be in the exponential family if it can be written in terms of a natural parameter, also called the canonical parameter or link function, η, a sufficient statistic T(y) and a log-partition function a(η) as follows:**
 
-&#10230;
+&#10230; **34. Keluarga eksponensial ― Sebuah kelas distribusi disebut keluarga eksponensial jika ditulis dalam sebuah parameter natural, disebut juga sebagai parameter canonical atau link function, η, statistik yang memadai T(y) dan fungsi log-partition a(η) adalah sebagai berikut:**
 
 <br>
 
 **35. Remark: we will often have T(y)=y. Also, exp(−a(η)) can be seen as a normalization parameter that will make sure that the probabilities sum to one.**
 
-&#10230;
+&#10230; **35. Catatan: kita akan sering memiliki T(y)=y. Juga, exp(−a(η)) dapat dilihat sebagai parameter normalisasi yang memastikan bahwa jumlah dari nilai probabilitasnya adalah satu.**
 
 <br>
 
 **36. Here are the most common exponential distributions summed up in the following table:**
 
-&#10230;
+&#10230; **36. Distribusi eksponensial yang paling umum digunakan terdapat dalam tabel berikut:** 
 
 <br>
 
 **37. [Distribution, Bernoulli, Gaussian, Poisson, Geometric]**
 
-&#10230;
+&#10230; **37. [Distribusi, Bernoulli, Gaussian, Poisson, Geometric]**
 
 <br>
 
 **38. Assumptions of GLMs ― Generalized Linear Models (GLM) aim at predicting a random variable y as a function fo x∈Rn+1 and rely on the following 3 assumptions:**
 
-&#10230;
+&#10230; **38. Asumsi GLM ― Generalized Linear Models (GLM) bertujuan untuk memprediksi sebuah random variabel y sebagai fungsi fo x∈Rn+1 dan bergantung pada 3 asumsi berikut ini:**
 
 <br>
 
 **39. Remark: ordinary least squares and logistic regression are special cases of generalized linear models.**
 
-&#10230;
+&#10230; **39. Catatan: ordinary least squares dan logistrik regression adalah contoh spesial dari generalized linear mmodels.**
 
 <br>
 
 **40. Support Vector Machines**
 
-&#10230;
+&#10230; **40. Support Vector Machines**
 
 <br>
 
 **41: The goal of support vector machines is to find the line that maximizes the minimum distance to the line.**
 
-&#10230;
+&#10230; **41. Tujuan dari SVM adalah untuk menentukan garis yang memiliki jarak seminimum mungkin ke garis**
 
 <br>
 
 **42: Optimal margin classifier ― The optimal margin classifier h is such that:**
 
-&#10230;
+&#10230; **42. Optimal margin classifier ― Optimal margin classifier h adalah sebagai berikut:**
 
 <br>
 
 **43: where (w,b)∈Rn×R is the solution of the following optimization problem:**
 
-&#10230;
+&#10230; **43: dimana (w, b)∈Rn×R adalah solusi dari masalah optimalisasi sebagai berikut:**
 
 <br>
 
 **44. such that**
 
-&#10230;
+&#10230; **44. Misalnya**
 
 <br>
 
 **45. support vectors**
 
-&#10230;
+&#10230; **45. Support vectors**
 
 <br>
 
 **46. Remark: the line is defined as wTx−b=0.**
 
-&#10230;
+&#10230; **46. Catatan: garis didefinisikan sebagai wTx−b=0.**
 
 <br>
 
 **47. Hinge loss ― The hinge loss is used in the setting of SVMs and is defined as follows:**
 
-&#10230;
+&#10230; **47. Hinge loss ― Hinge loss digunaka untuk pengaturan dari SVM dan definisikan sebagai berikut:**
 
 <br>
 
 **48. Kernel ― Given a feature mapping ϕ, we define the kernel K to be defined as:**
 
-&#10230;
+&#10230; **48. Kernel ― Diberikan sebuah fitur mapping ϕ, kita mendefinisikan kernel K sebagai berikut:**
 
 <br>
 
 **49. In practice, the kernel K defined by K(x,z)=exp(−||x−z||22σ2) is called the Gaussian kernel and is commonly used.**
 
-&#10230;
+&#10230; **48. Pada praktiknya, kernel K didefinisikan dengan K(x,z)=exp(−||x−z||22σ2) yang disebut sebagai Gaussian kernel dan yang paling umum digunakan.**
 
 <br>
 
 **50. [Non-linear separability, Use of a kernel mapping, Decision boundary in the original space]**
 
-&#10230;
+&#10230; **50. [Non-linear separability, Penggunan kernel mapping, Decision boundary di original space]**
 
 <br>
 
 **51. Remark: we say that we use the "kernel trick" to compute the cost function using the kernel because we actually don't need to know the explicit mapping ϕ, which is often very complicated. Instead, only the values K(x,z) are needed.**
 
-&#10230;
+&#10230; **51. Catatan: kita katakan bahwa kita menggunakan "trik kernel" yaitu menghitung fungsi coss menggunakan kernel karena kita tidak perlu mengetahui mapping eksplisit ϕ, dimana itu sangat kompleks. Sehingga hanya dibutuhkan nilai K(x,z).**
 
 <br>
 
 **52. Lagrangian ― We define the Lagrangian L(w,b) as follows:**
 
-&#10230;
+&#10230; **52. Lagrangian ― Kita mendefiniskan Lagrangian L(w,b) sebagai berikut:**
 
 <br>
 
 **53. Remark: the coefficients βi are called the Lagrange multipliers.**
 
-&#10230;
+&#10230; **Catatan: Koefisien βi disebut sebagai Lagrange multipliers.**
 
 <br>
 
 **54. Generative Learning**
 
-&#10230;
+&#10230; **54. Generative Learning**
 
 <br>
 
 **55. A generative model first tries to learn how the data is generated by estimating P(x|y), which we can then use to estimate P(y|x) by using Bayes' rule.**
 
-&#10230;
+&#10230; **55. Sebuah generative model pertama kali digunakan untuk mempelajari bagaimana data dihasilkan dengan mengestimasi P(x|y), yang kemudian digunakan untuk mengestimasi P(y|x) dengan aturan Bayes.**
 
 <br>
 

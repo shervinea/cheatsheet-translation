@@ -408,7 +408,7 @@
 
 **69. [Adaptive boosting, Gradient boosting]**
 
-&#10230; **69. [Adaptive boosting, Gradient boosting]
+&#10230; **69. [Adaptive boosting, Gradient boosting]**
 
 <br>
 
@@ -420,121 +420,120 @@
 
 **71. Weak learners trained on remaining errors**
 
-&#10230;
+&#10230; **71. Learner yang lemah berada di tempat yang error**
 
 <br>
 
 **72. Other non-parametric approaches**
 
-&#10230;
+&#10230; **72. Pendekatan non-parametrik lain**
 
 <br>
 
 **73. k-nearest neighbors ― The k-nearest neighbors algorithm, commonly known as k-NN, is a non-parametric approach where the response of a data point is determined by the nature of its k neighbors from the training set. It can be used in both classification and regression settings.**
 
-&#10230;
+&#10230; **73. K-nearest neighbors ― Algoritma k-nearest neighbors, biasa disebut k-NN, adalah pendekatan non-parametrik dimana respon terhadap data point ditentukan oleh apa yang terjadi di sekitar k dalam data latih. Algoritma ini digunakan pada klasifikasi dan regresi.**
 
 <br>
 
 **74. Remark: The higher the parameter k, the higher the bias, and the lower the parameter k, the higher the variance.**
 
-&#10230;
+&#10230; **74. Catatan: Semakin tinggi parameter k, semakin tinggi bias, dan semakin rendah parameter k, semakin tinggi variansinya.**
 
 <br>
 
 **75. Learning Theory**
 
-&#10230;
+&#10230; **75. Teori pembelajaran**
 
 <br>
 
 **76. Union bound ― Let A1,...,Ak be k events. We have:**
 
-&#10230;
+&#10230; **76. Union bound ― Dimana A1,...,Ak dan event k. Kita memiliki:**
 
 <br>
 
 **77. Hoeffding inequality ― Let Z1,..,Zm be m iid variables drawn from a Bernoulli distribution of parameter ϕ. Let ˆϕ be their sample mean and γ>0 fixed. We have:**
 
-&#10230;
-
+&#10230; **77. Ketidaksamaan Hoeffding ― Dimana Z1,...,Zm dan variabel iid didapat dari distribusi Bernoulli dengan parameter ϕ. ^ϕ adalah rerata sampel dan γ>0 adalah tetap. Sehingga:**
 <br>
 
 **78. Remark: this inequality is also known as the Chernoff bound.**
 
-&#10230;
+&#10230; **78. Catatan: ketidaksamaan ini juga dikenal sebagai Chernoff bound.**
 
 <br>
 
 **79. Training error ― For a given classifier h, we define the training error ˆϵ(h), also known as the empirical risk or empirical error, to be as follows:**
 
-&#10230;
+&#10230; **79. Error latih ― diberikan klasifier h, kita mendefinisikan training error sebagai ˆϵ(h), disebut juga empirical risk atau empirical error, dikenal sebagai berikut:**
 
 <br>
 
-**80. Probably Approximately Correct (PAC) ― PAC is a framework under which numerous results on learning theory were proved, and has the following set of assumptions: **
+**80. Probably Approximately Correct (PAC) ― PAC is a framework under which numerous results on learning theory were proved, and has the following set of assumptions:**
 
-&#10230;
+&#10230; **80. Probably Approximately Correct (PAC) ― PAC adalah sebuah framework yang dihasilkan dari learning theory, dan memiliki beberapa asumsi:** 
 
 <br>
 
-**81: the training and testing sets follow the same distribution **
+**81. the training and testing sets follow the same distribution.**
 
-&#10230;
+&#10230; **81. Data training dan testing mengikuti distribusi yang sama.**
 
 <br>
 
 **82. the training examples are drawn independently**
 
-&#10230;
+&#10230; **82. Contoh data training dihasilkan secara independen**
 
 <br>
 
 **83. Shattering ― Given a set S={x(1),...,x(d)}, and a set of classifiers H, we say that H shatters S if for any set of labels {y(1),...,y(d)}, we have:**
 
-&#10230;
+&#10230; **83. Shattering ― Diberikan sebuah set S={x(1),...,x(d)}, dan sebuah set klasifier H, kita  dapat katakan bahwa H shatter S apabila setiap set dari label {y(1),...,y(d)}, sehingga:**
 
 <br>
 
 **84. Upper bound theorem ― Let H be a finite hypothesis class such that |H|=k and let δ and the sample size m be fixed. Then, with probability of at least 1−δ, we have:**
 
-&#10230;
+&#10230; **84. Teorem Upper bound ― Diberikan H merupakan kelas hipotesis dimana |H|=k, δ, dan sampel m adalah tetap. Sehingga probabilitas 1-δ adalah:**
 
 <br>
 
 **85. VC dimension ― The Vapnik-Chervonenkis (VC) dimension of a given infinite hypothesis class H, noted VC(H) is the size of the largest set that is shattered by H.**
 
-&#10230;
+&#10230; **85. Dimensi VC ― Dimensi Vapnik-Chervonenkis (VC) dari suah hipotesis kelas H tak terhingga. VC (H) adalah ukuran set terbesar yang di-shatter oleh H.**
 
 <br>
 
 **86. Remark: the VC dimension of H={set of linear classifiers in 2 dimensions} is 3.**
 
-&#10230;
+&#10230; **86. Catatan: dimensi VC dari H={set dari klasifier linear dalam 2 dimensi} adalah 3.**
 
 <br>
 
 **87. Theorem (Vapnik) ― Let H be given, with VC(H)=d and m the number of training examples. With probability at least 1−δ, we have:**
 
-&#10230;
+&#10230; **87. Teorem (Vapnik) ― Diberikan H, dimana VC(H)=d dan m adalah jumlah data training. Dengan probabilitas paling minimal 1−δ, sehingga:**
 
 <br>
 
 **88. [Introduction, Type of prediction, Type of model]**
 
-&#10230;
+&#10230; **88. [Introduction, Jenis prediksi, jenis model]**
 
 <br>
 
 **89. [Notations and general concepts, loss function, gradient descent, likelihood]**
 
-&#10230;
+&#10230; **89. [Notasi dan konsep umum, fungsi loss, gradient descent, likelihood]**
 
 <br>
 
 **90. [Linear models, linear regression, logistic regression, generalized linear models]**
 
-&#10230;
+&#10230; **90. [Model linear, regeresi linear, regresi logistik, generalized linear models]**
 
 <br>
 

@@ -539,28 +539,28 @@
 
 **91. [Support vector machines, Optimal margin classifier, Hinge loss, Kernel]**
 
-&#10230;
+&#10230; **91. [Support vector machines. Optimal margin classifier, Hinge loss, Kernel]**
 
 <br>
 
 **92. [Generative learning, Gaussian Discriminant Analysis, Naive Bayes]**
 
-&#10230;
+&#10230; **92. [Generative learning, Gaussian Discriminant Analysis, Naive Bayes]**
 
 <br>
 
 **93. [Trees and ensemble methods, CART, Random forest, Boosting]**
 
-&#10230;
+&#10230; **93. [Tress and ensemble methods, CART, Random forest, Boosting]**
 
 <br>
 
 **94. [Other methods, k-NN]**
 
-&#10230;
+&#10230; **94. [Other methods, k-NN]**
 
 <br>
 
 **95. [Learning theory, Hoeffding inequality, PAC, VC dimension]**
 
-&#10230;
+&#10230; **95. [Learning theory, Hoeffding inequality, PAC, VC dimension]**

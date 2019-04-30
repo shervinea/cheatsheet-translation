@@ -2,9 +2,13 @@
   Amjad Khatabi (translation of deep learning)
   Zaid Alyafeai (review of deep learning)
   
+  Zaid Alyafeai (translation of linear algebra)
+  Amjad Khatabi (review of linear algebra)
+  Mazen Melibari (review of linear algebra)
+  
 --de
 
---es
+--es 
   Erick Gabriel Mendoza Flores (translation of deep learning)
   Fernando Diaz (review of deep learning)
   Fernando González-Herrera (review of deep learning)
@@ -13,12 +17,12 @@
   Alonso Melgar López (review of deep learning)
   Gustavo Velasco-Hernández (review of deep learning)
   Juan Manuel Nava Zamudio (review of deep learning)
-
+  
   Fernando González-Herrera (translation of linear algebra)
   Fernando Diaz (review of linear algebra)
   Gustavo Velasco-Hernández (review of linear algebra)
   Juan P. Chavat (review of linear algebra)
-
+  
   David Jiménez Paredes (translation of machine learning tips and tricks)
   Fernando Diaz (translation of machine learning tips and tricks)
   Gustavo Velasco-Hernández (review of machine learning tips and tricks)
@@ -36,15 +40,22 @@
   Jaime Noel Alvarez Luna (translation of unsupervised learning)
   Alonso Melgar López (review of unsupervised learning)
   Fernando Diaz (review of unsupervised learning)
-
+  
 --fa
+  AlisterTA (translation of convolutional neural networks)
+  Ehsan Kermani (translation of convolutional neural networks)
+  Erfan Noury (review of convolutional neural networks)
+
   AlisterTA (translation of deep learning)
   Mohammad Karimi (review of deep learning)
   Erfan Noury (review of deep learning)
+  
+  AlisterTA (translation of deep learning tips and tricks)
+  Erfan Noury (review of deep learning tips and tricks)
 
   Erfan Noury (translation of linear algebra)
   Mohammad Karimi (review of linear algebra)
-
+  
   AlisterTA (translation of machine learning tips and tricks)
   Mohammad Reza (translation of machine learning tips and tricks)
   Erfan Noury (review of machine learning tips and tricks)
@@ -53,13 +64,16 @@
   Erfan Noury (translation of probabilities and statistics)
   Mohammad Karimi (review of probabilities and statistics)
 
+  AlisterTA (translation of recurrent neural networks)
+  Erfan Noury (review of recurrent neural networks)
+
   Amirhosein Kazemnejad (translation of supervised learning)
   Erfan Noury (review of supervised learning)
   Mohammad Karimi (review of supervised learning)
-
+  
   Erfan Noury (translation of unsupervised learning)
   Mohammad Karimi (review of unsupervised learning)
-
+  
 --fr
   Original authors
 
@@ -67,15 +81,25 @@
 
 --hi
 
+--ko
+  Wooil Jeong (translation of machine learning tips and tricks)
+  Wooil Jeong (translation of probabilities and statistics)
+  Wooil Jeong (translation of Recurrent Neural Nets)
+  
+  Kwang Hyeok Ahn (translation of Unsupervised Learning)
+
 --ja
 
 --pt
+  Leticia Portella (translation of convolutional neural networks)
+  Gabriel Aparecido Fonseca (review of convolutional neural networks)
+
   Gabriel Fonseca (translation of deep learning)
   Leticia Portella (review of deep learning)
 
   Gabriel Fonseca (translation of linear algebra)
   Leticia Portella (review of linear algebra)
-
+  
   Fernando Santos (translation of machine learning tips and tricks)
   Leticia Portella (review of machine learning tips and tricks)
   Gabriel Fonseca (review of machine learning tips and tricks)
@@ -86,20 +110,43 @@
   Leticia Portella (translation of supervised learning)
   Gabriel Fonseca (review of supervised learning)
   Flavio Clesio (review of supervised learning)
-
+  
   Gabriel Fonseca (translation of unsupervised learning)
   Tiago Danin (review of unsupervised learning)
 
 --tr
+  Ayyüce Kızrak (translation of convolutional neural networks)
+  Yavuz Kömeçoğlu (review of convolutional neural networks)
+
   Ekrem Çetinkaya (translation of deep learning)
   Omer Bukte (review of deep learning)
-
+  
+  Ayyüce Kızrak (translation of deep learning tips and tricks)
+  Yavuz Kömeçoğlu (review of deep learning tips and tricks)
+  
   Kadir Tekeli (translation of linear algebra)
   Ekrem Çetinkaya (review of linear algebra)
+  
+  Seray Beşer (translation of machine learning tips and tricks)
+  Ayyüce Kızrak (review of machine learning tips and tricks)
+  Yavuz Kömeçoğlu (review of machine learning tips and tricks)
 
---ko
-  Wooil Jeong (translation of Recurrent Neural Nets)
-
+  Ayyüce Kızrak (translation of probabilities and statistics)
+  Başak Buluz (review of probabilities and statistics)
+  
+  Başak Buluz (translation of recurrent neural networks)
+  Yavuz Kömeçoğlu (review of recurrent neural networks)
+  
+  Başak Buluz (translation of supervised learning)
+  Ayyüce Kızrak (review of supervised learning)
+  
+  Yavuz Kömeçoğlu (translation of unsupervised learning)
+  Başak Buluz (review of unsupervised learning)
+  
+--uk
+  Gregory Reshetniak (translation of probabilities and statistics)
+  Denys (review of probabilities and statistics)
+  
 --zh
   Wang Hongnian (translation of supervised learning)
   Xiaohu Zhu (朱小虎) (review of supervised learning)
@@ -109,5 +156,15 @@
   kevingo (translation of deep learning)
   TobyOoO (review of deep learning)
 
+  kevingo (translation of linear algebra)
+  Miyaya (review of linear algebra)
+
+  kevingo (translation of probabilities and statistics)
+  johnnychhsu (review of probabilities and statistics)
+
   kevingo (translation of supervised learning)
   accelsao (review of supervised learning)
+
+  kevingo (translation of unsupervised learning)
+  imironhead (review of unsupervised learning)
+  johnnychhsu (review of unsupervised learning)

@@ -401,6 +401,13 @@
 <br>
 
 
+**57bis. GloVe ― The GloVe model, short for global vectors for word representation, is a word embedding technique that uses a co-occurence matrix X where each Xi,j denotes the number of times that a target i occurred with a context j. Its cost function J is as follows:**
+
+&#10230;
+
+<br>
+
+
 **58. where f is a weighting function such that Xi,j=0⟹f(Xi,j)=0.
 Given the symmetry that e and θ play in this model, the final word embedding e(final)w is given by:**
 

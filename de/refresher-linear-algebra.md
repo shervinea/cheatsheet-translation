@@ -18,7 +18,7 @@
 
 **4. Vector ― We note x∈Rn a vector with n entries, where xi∈R is the ith entry:**
 
-&#10230; Vektor - Sei x∈Rn ein Vektor mit n Einheiten und xi∈R die i-te Einheit:
+&#10230; Vektor - Sei x∈Rn ein Vektor mit n Einheiten und xi∈R der i-te Eintrag:
 
 <br>
 
@@ -42,7 +42,7 @@
 
 **8. Identity matrix ― The identity matrix I∈Rn×n is a square matrix with ones in its diagonal and zero everywhere else:**
 
-&#10230; Identitätsmatrix - Die Identitätsmatrix I∈Rn×n ist eine quadratische Matrix welche 1er in der Diagonale enthält und sonst 0.
+&#10230; Identitätsmatrix - Die Identitätsmatrix I∈Rn×n ist eine quadratische Matrix welche 1er in der Diagonale enthält und sonst 0en.
 
 <br>
 
@@ -150,13 +150,13 @@
 
 **26. Trace ― The trace of a square matrix A, noted tr(A), is the sum of its diagonal entries:**
 
-&#10230; Spur - Die Spurabbildung einer quadratischen Matrix A, geschrieben als tr(A), ist die summe der Diagonaleinheiten:
+&#10230; Spur - Die Spurabbildung einer quadratischen Matrix A, geschrieben als tr(A), ist die Summe der Diagonaleinheiten:
 
 <br>
 
 **27. Remark: for matrices A,B, we have tr(AT)=tr(A) and tr(AB)=tr(BA)**
 
-&#10230; Wichtig: Für Matrix A und B es gilt: tr(AT)=tr(A) and tr(AB)=tr(BA)
+&#10230; Wichtig: Für Matrix A und B gilt: tr(AT)=tr(A) und tr(AB)=tr(BA)
 
 <br>
 

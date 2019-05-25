@@ -61,73 +61,73 @@
 **11. Remark: we also note D as diag(d1,...,dn).**
 
 &#10230;
-
+備考：Dをdiag（d 1、...、d n）と呼ばれます。
 <br>
 
 **12. Matrix operations**
 
 &#10230;
-
+行列演算
 <br>
 
 **13. Multiplication**
 
 &#10230;
-
+行列乗算
 <br>
 
 **14. Vector-vector ― There are two types of vector-vector products:**
 
 &#10230;
-
+ベクトル-ベクトル - ベクトル-ベクトル積には2つのタイプがあります。
 <br>
 
 **15. inner product: for x,y∈Rn, we have:**
 
 &#10230;
-
+内積: x、y∈Rnについては、
 <br>
 
 **16. outer product: for x∈Rm,y∈Rn, we have:**
 
 &#10230;
-
+外積: x∈Rm,y∈Rnについては、
 <br>
 
 **17. Matrix-vector ― The product of matrix A∈Rm×n and vector x∈Rn is a vector of size Rn, such that:**
 
 &#10230;
-
+行列-ベクトル - 行列A∈Rm×nとベクトルx∈Rnの積はサイズRnのベクトルで、次のようになります。
 <br>
 
 **18. where aTr,i are the vector rows and ac,j are the vector columns of A, and xi are the entries of x.**
 
 &#10230;
-
+ここで、aTr、iはAのベクトル行、ac、jはAのベクトル列です。 xiはxのエントリです。
 <br>
 
 **19. Matrix-matrix ― The product of matrices A∈Rm×n and B∈Rn×p is a matrix of size Rn×p, such that:**
 
 &#10230;
-
+行列-行列 - 行列A∈Rm×nとB∈Rn×pの積は次のようにサイズRm×pの行列です。 (There is a typo in the original: Rn×p)
 <br>
 
 **20. where aTr,i,bTr,i are the vector rows and ac,j,bc,j are the vector columns of A and B respectively**
 
 &#10230;
-
+aTr、i、bTr、iはベクトル行。　ac、j、bc、jはそれぞれAとBのベクトル列です。
 <br>
 
 **21. Other operations**
 
 &#10230;
-
+その他の演算
 <br>
 
 **22. Transpose ― The transpose of a matrix A∈Rm×n, noted AT, is such that its entries are flipped:**
 
 &#10230;
-
+転置 ― A∈Rm×nの転置行列はATと示される。　Aの行列要素が交換されます。
 <br>
 
 **23. Remark: for matrices A,B, we have (AB)T=BTAT**

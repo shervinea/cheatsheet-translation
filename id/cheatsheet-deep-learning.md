@@ -1,132 +1,132 @@
 **1. Deep Learning cheatsheet**
 
-&#10230;
+&#10230;Deep Learning chatsheet
 
 <br>
 
 **2. Neural Networks**
 
-&#10230;
+&#10230;Jaringan saraf (tiruan)
 
 <br>
 
 **3. Neural networks are a class of models that are built with layers. Commonly used types of neural networks include convolutional and recurrent neural networks.**
 
-&#10230;
+&#10230;Jaringan saraf adalah sebuah model yang dibentuk dari beberapa lapisan (layer). Jaringan saraf yang sering digunakan meliputi jaringan saraf convolution dan recurrent.
 
 <br>
 
 **4. Architecture ― The vocabulary around neural networks architectures is described in the figure below:**
 
-&#10230;
+&#10230;Arsitekture - kosakata pada aritekture jaringan saraf dijelaskan pada gambar dibawah ini:
 
 <br>
 
 **5. [Input layer, hidden layer, output layer]**
 
-&#10230;
+&#10230;[Layer masukan, layer hidden (layer antara layer masukan dan keluaran), layer keluaran]
 
 <br>
 
 **6. By noting i the ith layer of the network and j the jth hidden unit of the layer, we have:**
 
-&#10230;
+&#10230;Dengan menuliskan i sebagai layer ke-i dari network dan j sebagai hidden unit ke-j dari layer, kita mendapatkan
 
 <br>
 
 **7. where we note w, b, z the weight, bias and output respectively.**
 
-&#10230;
+&#10230;dimana w, b, z adalah weight, bias, dan keluaran neural network.
 
 <br>
 
 **8. Activation function ― Activation functions are used at the end of a hidden unit to introduce non-linear complexities to the model. Here are the most common ones:**
 
-&#10230;
+&#10230;Fungsi aktifasi- Fungsi aktfiasi digunakan setelah sebuah hidden unit agar model dapat memodelkan permasalahan non-linear. Berikut adalah fungsi aktifasi yang sering digunakan:
 
 <br>
 
 **9. [Sigmoid, Tanh, ReLU, Leaky ReLU]**
 
-&#10230;
+&#10230;[Sigmoid, Tanh, ReLU, Leaky ReLU]
 
 <br>
 
 **10. Cross-entropy loss ― In the context of neural networks, the cross-entropy loss L(z,y) is commonly used and is defined as follows:**
 
-&#10230;
+&#10230;Fungsi loss cross-entropy - Pada neural network, loss cross-entropy L(z,y) adalah fungsi loss yang sering digunakan dan didefinisikan sebagai berikut:
 
 <br>
 
 **11. Learning rate ― The learning rate, often noted α or sometimes η, indicates at which pace the weights get updated. This can be fixed or adaptively changed. The current most popular method is called Adam, which is a method that adapts the learning rate.**
 
-&#10230;
+&#10230;Learning rate- Learning rate, sering dituliskan sebagai α atau η, mendefinisikan seberapa cepat nilai weight diperbaharui. Learning rate bisa diset dengan nilai fix atau dirubah secara adaptif. Metode yang paling terkenal saat ini adalah Adam, sebuah method yang merubah learning rate secara adaptif.
 
 <br>
 
 **12. Backpropagation ― Backpropagation is a method to update the weights in the neural network by taking into account the actual output and the desired output. The derivative with respect to weight w is computed using chain rule and is of the following form:**
 
-&#10230;
+&#10230;Backpropagation - Backpropagation adalah method untuk mengubah nilai weight pada jaringan saraf dengan mempertimbangkan perbedaan dari keluaran prediksi dan keluaran yang diinginkan. Turunan terhadap weight w dihitung menggunakan chain rule dan dapat diformulakan dengan:
 
 <br>
 
 **13. As a result, the weight is updated as follows:**
 
-&#10230;
+&#10230;Oleh karena itu, nilai weight diubah dengan formula sebagai berikut
 
 <br>
 
 **14. Updating weights ― In a neural network, weights are updated as follows:**
 
-&#10230;
+&#10230;Mengubah nilai weight - Pada jaringan saraf, nilai weight diubah dengan tahapan sebagai berikut:
 
 <br>
 
 **15. Step 1: Take a batch of training data.**
 
-&#10230;
+&#10230;Ambil sebuah batch (sample, contoh dari 100 training data ambil 50 data) dari training data.
 
 <br>
 
 **16. Step 2: Perform forward propagation to obtain the corresponding loss.**
 
-&#10230;
+&#10230;Lakukan perhitungan forward propagation dan hitung loss berdasarkan keluaran prediksi dan yang diinginkan.
 
 <br>
 
 **17. Step 3: Backpropagate the loss to get the gradients.**
 
-&#10230;
+&#10230;Lakukan perhitungan backpropagate dengan nilai loss untuk mendapatkan nilai gradien.
 
 <br>
 
 **18. Step 4: Use the gradients to update the weights of the network.**
 
-&#10230;
+&#10230;Ubah nilai weight berdasarkan nilai gradien.
 
 <br>
 
 **19. Dropout ― Dropout is a technique meant at preventing overfitting the training data by dropping out units in a neural network. In practice, neurons are either dropped with probability p or kept with probability 1−p**
 
-&#10230;
+&#10230;Dropout - Dropout adalah sebuah teknik yang digunakan untuk mencegah overfitting pada saraf tiruan dengan men-drop out unit pada sebuah jaringan saraf. Pada pengaplikasiannya, neuron di drop dengan probabilitas p atau dipertahankan dengan probabilitas 1-p
 
 <br>
 
 **20. Convolutional Neural Networks**
 
-&#10230;
+&#10230;Jaringan saraf convolutional
 
 <br>
 
 **21. Convolutional layer requirement ― By noting W the input volume size, F the size of the convolutional layer neurons, P the amount of zero padding, then the number of neurons N that fit in a given volume is such that:**
 
-&#10230;
+&#10230;Ketentuan layer convolutional - Dengan mendefinisikan W sebagai ukuran volume (dimensi) dari masukan, F sebagai jumlah neuron (yang diinginkan) pada layer convolutional, P sebagai jumlah zero padding (penambahan nilai zero pada masukan), maka jumlah neuron N yang sesuai dengan ukuran dimensi masukan adalah:
 
 <br>
 
 **22. Batch normalization ― It is a step of hyperparameter γ,β that normalizes the batch {xi}. By noting μB,σ2B the mean and variance of that we want to correct to the batch, it is done as follows:**
 
-&#10230;
+&#10230; Normalisasi batch - Normalisasi batch adalah sebuah langkah untuk menormalisasi batch {xi}. Dengan mendefinisikan μB,σ2B sebagai nilai rata-rata dan variansi dari batch yang ingin kita normalisasi, hal tersebut dapat dilakukan dengan cara: 
 
 <br>
 

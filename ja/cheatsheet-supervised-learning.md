@@ -72,15 +72,15 @@
 
 **13. [Least squared error, Logistic loss, Hinge loss, Cross-entropy]**
 
-&#10230;
+&#10230;最小2乗誤差, ロジスティック損失, ヒンジ損失, クロスエントロピー
 
-<br>最小2乗誤差, ロジスティック損失, ヒンジ損失, クロスエントロピー
+<br>
 
 **14. [Linear regression, Logistic regression, SVM, Neural Network]**
 
-&#10230;
+&#10230;線形回帰, ロジスティック回帰, SVM, ニューラルネットワーク
 
-<br>線形回帰, ロジスティック回帰, SVM, ニューラルネットワーク
+<br>
 
 **15. Cost function ― The cost function J is commonly used to assess the performance of a model, and is defined with the loss function L as follows:**
 
@@ -120,145 +120,145 @@
 
 **21. Linear models**
 
-&#10230;
+&#10230;線形モデル
 
 <br>
 
 **22. Linear regression**
 
-&#10230;
+&#10230;線形回帰
 
 <br>
 
 **23. We assume here that y|x;θ∼N(μ,σ2)**
 
-&#10230;
+&#10230;ここでy|x;θ∼N(μ,σ2)であるとする。
 
 <br>
 
 **24. Normal equations ― By noting X the matrix design, the value of θ that minimizes the cost function is a closed-form solution such that:**
 
-&#10230;
+&#10230;正規方程式 ― Xを行列とすると、コスト関数を最小化するθの値は次のような閉形式の解である：
 
 <br>
 
 **25. LMS algorithm ― By noting α the learning rate, the update rule of the Least Mean Squares (LMS) algorithm for a training set of m data points, which is also known as the Widrow-Hoff learning rule, is as follows:**
 
-&#10230;
+&#10230;最小2乗法 ― 学習率をαとすると、m個のデータ点からなる学習データに対する最小2乗法（LMSアルゴリズム）によるパラメータ更新は次のように行われ、これはウィドロウ-ホフの学習規則としても知られている：
 
 <br>
 
 **26. Remark: the update rule is a particular case of the gradient ascent.**
 
-&#10230;
+&#10230;備考：この更新は勾配上昇法の特殊な例である。
 
 <br>
 
 **27. LWR ― Locally Weighted Regression, also known as LWR, is a variant of linear regression that weights each training example in its cost function by w(i)(x), which is defined with parameter τ∈R as:**
 
-&#10230;
+&#10230;局所重み付き回帰 ― 局所重み付き回帰は、LWRとも呼ばれ、線形回帰の派生形である。パラメータをτ∈Rとして次のように定義されるw(i)(x)により、個々の学習サンプルをそのコスト関数において重み付けする：
 
 <br>
 
 **28. Classification and logistic regression**
 
-&#10230;
+&#10230;分類とロジスティック回帰
 
 <br>
 
 **29. Sigmoid function ― The sigmoid function g, also known as the logistic function, is defined as follows:**
 
-&#10230;
+&#10230;シグモイド関数 ― シグモイド関数gは、ロジスティック関数とも呼ばれ、次のように定義される：
 
 <br>
 
 **30. Logistic regression ― We assume here that y|x;θ∼Bernoulli(ϕ). We have the following form:**
 
-&#10230;
+&#10230;ロジスティック回帰 ― ここでy|x;θ∼Bernoulli(ϕ)であるとすると、次の形式を得る：
 
 <br>
 
 **31. Remark: there is no closed form solution for the case of logistic regressions.**
 
-&#10230;
+&#10230;備考：ロジスティック回帰については閉形式の解は存在しない。
 
 <br>
 
 **32. Softmax regression ― A softmax regression, also called a multiclass logistic regression, is used to generalize logistic regression when there are more than 2 outcome classes. By convention, we set θK=0, which makes the Bernoulli parameter ϕi of each class i equal to:**
 
-&#10230;
+&#10230;ソフトマックス回帰 ― ソフトマックス回帰は、多クラス分類ロジスティック回帰とも呼ばれ、3個以上の結果クラスがある場合にロジスティック回帰を一般化するためのものである。慣習的に、θK=0とすると、各クラスiのベルヌーイ分布のパラメータϕiは次と等しくなる：
 
 <br>
 
 **33. Generalized Linear Models**
 
-&#10230;
+&#10230;一般化線形モデル
 
 <br>
 
 **34. Exponential family ― A class of distributions is said to be in the exponential family if it can be written in terms of a natural parameter, also called the canonical parameter or link function, η, a sufficient statistic T(y) and a log-partition function a(η) as follows:**
 
-&#10230;
+&#10230;指数分布族 ― 正準パラメータまたはリンク関数とも呼ばれる自然パラメータη、十分統計量T(y)及び対数分配関数a(η)を用いて、次のように表すことのできる一群の分布は指数分布族と呼ばれる：
 
 <br>
 
 **35. Remark: we will often have T(y)=y. Also, exp(−a(η)) can be seen as a normalization parameter that will make sure that the probabilities sum to one.**
 
-&#10230;
+&#10230;備考：T(y)=yとすることが多い。また、exp(−a(η))は確率の合計が１になることを担保する正規化定数だと見なせる。
 
 <br>
 
 **36. Here are the most common exponential distributions summed up in the following table:**
 
-&#10230;
+&#10230;最も一般的な指数分布族は下表に集約される：
 
 <br>
 
 **37. [Distribution, Bernoulli, Gaussian, Poisson, Geometric]**
 
-&#10230;
+&#10230;分布, ベルヌーイ, ガウス, ポワソン, 幾何
 
 <br>
 
-**38. Assumptions of GLMs ― Generalized Linear Models (GLM) aim at predicting a random variable y as a function fo x∈Rn+1 and rely on the following 3 assumptions:**
+**38. Assumptions of GLMs ― Generalized Linear Models (GLM) aim at predicting a random variable y as a function of x∈Rn+1 and rely on the following 3 assumptions:**
 
-&#10230;
+&#10230;GLMの仮定 ― 一般化線形モデル(GLM)はランダムな変数yをx∈Rn+1の関数として予測することを目的とし、次の3つの仮定に依拠する：
 
 <br>
 
 **39. Remark: ordinary least squares and logistic regression are special cases of generalized linear models.**
 
-&#10230;
+&#10230;備考：最小2乗回帰とロジスティック回帰は一般化線形モデルの特殊な例である。
 
 <br>
 
 **40. Support Vector Machines**
 
-&#10230;
+&#10230;サポートベクターマシン
 
 <br>
 
 **41: The goal of support vector machines is to find the line that maximizes the minimum distance to the line.**
 
-&#10230;
+&#10230;サポートベクターマシンの目的は、データ点から線への最短距離が最大となる線を求めることである。
 
 <br>
 
 **42: Optimal margin classifier ― The optimal margin classifier h is such that:**
 
-&#10230;
+&#10230;最適マージン分類器 ― 最適マージン分類器hは次のようなものである：
 
 <br>
 
 **43: where (w,b)∈Rn×R is the solution of the following optimization problem:**
 
-&#10230;
+&#10230;ここで、(w,b)∈Rn×Rは次の最適化問題の解である：
 
 <br>
 
 **44. such that**
 
-&#10230;
+&#10230;ただし
 
 <br>
 

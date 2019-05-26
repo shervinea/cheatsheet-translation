@@ -133,43 +133,44 @@ aTr、i、bTr、iはベクトル行。　ac、j、bc、jはそれぞれAとBの�
 **23. Remark: for matrices A,B, we have (AB)T=BTAT**
 
 &#10230;
-
+備考： 行列AとBの場合、（AB）T = BTAT** となります。
 <br>
 
 **24. Inverse ― The inverse of an invertible square matrix A is noted A−1 and is the only matrix such that:**
 
 &#10230;
-
+逆行列 ― 可逆正方行列Ａの逆行列はＡ − １と表される。 以下を満たす唯一の行列です。
 <br>
 
 **25. Remark: not all square matrices are invertible. Also, for matrices A,B, we have (AB)−1=B−1A−1**
 
 &#10230;
-
+備考： すべての正方行列が可逆的なわけではありません。　行列A、Bについては、(AB)−1=B−1A−1
 <br>
 
 **26. Trace ― The trace of a square matrix A, noted tr(A), is the sum of its diagonal entries:**
 
 &#10230;
-
+跡 ― 正方行列Aの跡は、その対角要素の合計です。　tr(A)と表される。
 <br>
 
 **27. Remark: for matrices A,B, we have tr(AT)=tr(A) and tr(AB)=tr(BA)**
 
 &#10230;
-
+備考： 行列A、Bの場合：　tr(AT)=tr(A)とtr(AB)=tr(BA)となります。
 <br>
 
 **28. Determinant ― The determinant of a square matrix A∈Rn×n, noted |A| or det(A) is expressed recursively in terms of A∖i,∖j, which is the matrix A without its ith row and jth column, as follows:**
 
 &#10230;
-
+行列式 ― 行列式は|A| または det(A) と表される。 正方行列　A∈Rn×n　の行列式はAijによって再帰的に表現されます。
+ それはi番目の行とj番目の列のない行列Aです。 次のように：
 <br>
 
 **29. Remark: A is invertible if and only if |A|≠0. Also, |AB|=|A||B| and |AT|=|A|.**
 
 &#10230;
-
+備考： |A|≠0の場合に限り、行列は可逆行列です。また|AB|=|A||B| と |AT|=|A|。
 <br>
 
 **30. Matrix properties**

@@ -83,7 +83,7 @@ Please make sure to propose the translation of **only one** cheatsheet per pull 
 |Linear algebra|not started|not started|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/47)|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/95)|done|
 
 
-|Cheatsheet topic|Magyar|Deutsch|Deutsch|Bahasa Indonesia|
+|Cheatsheet topic|Magyar|Deutsch|Bahasa Indonesia|
 |:---|:---:|:---:|:---:|
 |Deep learning|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/124/files#diff-5e2ba65ef08acd57024e82d0ae94b923)|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/106)|not started|
 |Supervised learning|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/124/files#diff-5e2ba65ef08acd57024e82d0ae94b923)|not started|not started|

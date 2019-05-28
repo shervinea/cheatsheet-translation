@@ -39,7 +39,7 @@
 
 **6. [Tuning hyperparameters, Parameter compatibility, Model complexity, Receptive field]**
 
-&#10230;
+&#10230; [調律ハイパーパラメータ、パラメータの互換性、モデルの複雑、受容的なフィールド]
 
 <br>
 
@@ -60,14 +60,14 @@
 
 **9. [Face verification/recognition, One shot learning, Siamese network, Triplet loss]**
 
-&#10230;
+&#10230; [顔認証/認識、一発学習、シャムネットワーク、トリプレット損失]
 
 <br>
 
 
 **10. [Neural style transfer, Activation, Style matrix, Style/content cost function]**
 
-&#10230;
+&#10230; [神経スタイル転送、活性化、スタイル行列、スタイル/コンテンツコスト関数]
 
 <br>
 
@@ -88,14 +88,14 @@
 
 **13. Architecture of a traditional CNN ― Convolutional neural networks, also known as CNNs, are a specific type of neural networks that are generally composed of the following layers:**
 
-&#10230;
+&#10230; 伝統的な畳み込み神経の網のアーキテクチャ - CNNとも知られる畳み込み神経の網は一般的に次の層で構成されている特定タイプの神経の網です。
 
 <br>
 
 
 **14. The convolution layer and the pooling layer can be fine-tuned with respect to hyperparameters that are described in the next sections.**
 
-&#10230;
+&#10230; 畳み込み層とプール層は次のセクションで説明されるハイパーパラメータに関して微調整されられる。
 
 <br>
 
@@ -116,7 +116,7 @@
 
 **17. Remark: the convolution step can be generalized to the 1D and 3D cases as well.**
 
-&#10230;
+&#10230; 注意: 畳み込みステップは1D及び3Dの場合にも一般化されられる。
 
 <br>
 
@@ -130,7 +130,7 @@
 
 **19. [Type, Purpose, Illustration, Comments]**
 
-&#10230;
+&#10230; [タイプ、目的、図、コメント]
 
 <br>
 
@@ -165,7 +165,7 @@
 
 **24. The convolution layer contains filters for which it is important to know the meaning behind its hyperparameters.**
 
-&#10230;
+&#10230; 
 
 <br>
 
@@ -207,7 +207,7 @@
 
 **30. [Mode, Value, Illustration, Purpose, Valid, Same, Full]**
 
-&#10230; [モード, 値, 図, 目的, 有効, 同様, フル]
+&#10230; [モード、値、図、目的、有効、同様、フル]
 
 <br>
 
@@ -235,7 +235,7 @@
 
 **34. [Input, Filter, Output]**
 
-&#10230; [入力, フィルタ, 出力]
+&#10230; [入力、フィルタ、出力]
 
 <br>
 
@@ -333,14 +333,14 @@
 
 **48. where**
 
-&#10230;
+&#10230; どこ
 
 <br>
 
 
 **49. Object detection**
 
-&#10230;
+&#10230; オブジェクト検出
 
 <br>
 
@@ -375,7 +375,7 @@
 
 **54. [Traditional CNN, Simplified YOLO, R-CNN, YOLO, R-CNN]**
 
-&#10230;
+&#10230; [伝統的なCNN、単純されたYOLO、R-CNN、YOLO、R-CNN]
 
 <br>
 
@@ -515,7 +515,7 @@
 
 **74. Face verification and recognition**
 
-&#10230;
+&#10230; 顔認証及び認識
 
 <br>
 
@@ -529,7 +529,7 @@
 
 **76. [Face verification, Face recognition, Query, Reference, Database]**
 
-&#10230;
+&#10230; [顔認証、顔認識、クエリ、参照、データベース]
 
 <br>
 
@@ -711,6 +711,6 @@
 
 **102. By X and Y**
 
-&#10230; X、yによる
+&#10230; X、Yによる
 
 <br>

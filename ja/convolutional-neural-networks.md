@@ -179,7 +179,7 @@
 
 **26. Filter**
 
-&#10230; Filter
+&#10230; フィルタ
 
 <br>
 
@@ -207,7 +207,7 @@
 
 **30. [Mode, Value, Illustration, Purpose, Valid, Same, Full]**
 
-&#10230; [モード, 値, Illustration, 目的, 有効, 同様, Full]
+&#10230; [モード, 値, 図, 目的, 有効, 同様, フル]
 
 <br>
 
@@ -221,7 +221,7 @@
 
 **32. Tuning hyperparameters**
 
-&#10230;
+&#10230; 調律ハイパーパラメータ
 
 <br>
 
@@ -256,7 +256,7 @@
 
 **37. [Illustration, Input size, Output size, Number of parameters, Remarks]**
 
-&#10230;
+&#10230; [図、入力サイズ、出力サイズ、引数の数、備考]
 
 <br>
 
@@ -648,7 +648,7 @@
 
 **93. [Training, Noise, Real-world image, Generator, Discriminator, Real Fake]**
 
-&#10230;
+&#10230; [トレーニング、騒音、現実世界の画像、ジェネレータ、弁別器、偽のリアル]
 
 <br>
 
@@ -683,21 +683,21 @@
 
 **98. Original authors**
 
-&#10230;
+&#10230; 原著者
 
 <br>
 
 
 **99. Translated by X, Y and Z**
 
-&#10230;
+&#10230; X、Y、Zによる翻訳された
 
 <br>
 
 
 **100. Reviewed by X, Y and Z**
 
-&#10230;
+&#10230; X、Y、Zによるレビューされた
 
 <br>
 
@@ -711,6 +711,6 @@
 
 **102. By X and Y**
 
-&#10230;
+&#10230; X、yによる
 
 <br>

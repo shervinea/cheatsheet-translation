@@ -18,14 +18,14 @@
 
 **3. [Overview, Architecture structure]**
 
-&#10230; [概要、アーキテクチャ構造]
+&#10230; [概要, アーキテクチャ構造]
 
 <br>
 
 
 **4. [Types of layer, Convolution, Pooling, Fully connected]**
 
-&#10230; [層のタイプ、畳み込み、プーリング、完全に接続された]
+&#10230; [層のタイプ, 畳み込み, プーリング, 完全に接続された]
 
 <br>
 
@@ -34,47 +34,47 @@
 
 &#10230;
 
-<br> [フィルタハイパーパラメータ、寸法、ストライド、詰め物]
+<br> [フィルタハイパーパラメータ, 寸法, ストライド, 詰め物]
 
 
 **6. [Tuning hyperparameters, Parameter compatibility, Model complexity, Receptive field]**
 
-&#10230; [調律ハイパーパラメータ、パラメータの互換性、モデルの複雑、受容的なフィールド]
+&#10230; [調律ハイパーパラメータ, パラメータの互換性, モデルの複雑, 受容的なフィールド]
 
 <br>
 
 
 **7. [Activation functions, Rectified Linear Unit, Softmax]**
 
-&#10230; [活性化関数、修正済み線形単位、ソフトマックス]
+&#10230; [活性化関数, 修正済み線形単位, ソフトマックス]
 
 <br>
 
 
 **8. [Object detection, Types of models, Detection, Intersection over Union, Non-max suppression, YOLO, R-CNN]**
 
-&#10230; [オブジェクト検出、モデルのタイプ、検出、組合の上の交差点、非最大抑制、YOLO、R-CNN]
+&#10230; [オブジェクト検出, モデルのタイプ, 検出, 組合の上の交差点, 非最大抑制, YOLO, R-CNN]
 
 <br>
 
 
 **9. [Face verification/recognition, One shot learning, Siamese network, Triplet loss]**
 
-&#10230; [顔認証/認識、一発学習、シャムネットワーク、トリプレット損失]
+&#10230; [顔認証/認識, 一発学習, シャムネットワーク, トリプレット損失]
 
 <br>
 
 
 **10. [Neural style transfer, Activation, Style matrix, Style/content cost function]**
 
-&#10230; [神経スタイル転送、活性化、スタイル行列、スタイル/コンテンツコスト関数]
+&#10230; [神経スタイル転送, 活性化, スタイル行列, スタイル/コンテンツコスト関数]
 
 <br>
 
 
 **11. [Computational trick architectures, Generative Adversarial Net, ResNet, Inception Network]**
 
-&#10230; [計算詭計アーキテクチャ、生成型敵対的ネットワーク、ResNet、インセプションネットワーク]
+&#10230; [計算詭計アーキテクチャ, 生成型敵対的ネットワーク, ResNet, インセプションネットワーク]
 
 <br>
 
@@ -109,7 +109,7 @@
 
 **16. Convolution layer (CONV) ― The convolution layer (CONV) uses filters that perform convolution operations as it is scanning the input I with respect to its dimensions. Its hyperparameters include the filter size F and stride S. The resulting output O is called feature map or activation map.**
 
-&#10230;
+&#10230; 畳み込み層 (CONV) - 畳み込み層 (CONV)は入力Iを寸法に関して走査している時畳み込みオペレーションズを行うフィルタを使用する。畳み込み層のハイパーパラメータにはフィルタサイズFとストライドSが含まれる。結果出力0は特徴図及び活性化図で呼ばれる。
 
 <br>
 
@@ -123,21 +123,21 @@
 
 **18. Pooling (POOL) ― The pooling layer (POOL) is a downsampling operation, typically applied after a convolution layer, which does some spatial invariance. In particular, max and average pooling are special kinds of pooling where the maximum and average value is taken, respectively.**
 
-&#10230;
+&#10230; プーリング (POOL) - プール層 (POOL)はダウンサンプリング操作で、通常は空間的に不変な畳み込み層の後に適用される。特に、最大及び平均プーリングはそれぞれ最大と平均値が取られる特別な種類のプールです。
 
 <br>
 
 
 **19. [Type, Purpose, Illustration, Comments]**
 
-&#10230; [タイプ、目的、図、コメント]
+&#10230; [タイプ, 目的, 図, コメント]
 
 <br>
 
 
 **20. [Max pooling, Average pooling, Each pooling operation selects the maximum value of the current view, Each pooling operation averages the values of the current view]**
 
-&#10230;
+&#10230; [最大プール, 平均プール, 各プール操作は現在ビューの最大値を選ぶ, 各プール操作は現在ビューの値を平均する]
 
 <br>
 
@@ -207,7 +207,7 @@
 
 **30. [Mode, Value, Illustration, Purpose, Valid, Same, Full]**
 
-&#10230; [モード、値、図、目的、有効、同様、フル]
+&#10230; [モード, 値, 図, 目的, 有効, 同様, フル]
 
 <br>
 
@@ -235,7 +235,7 @@
 
 **34. [Input, Filter, Output]**
 
-&#10230; [入力、フィルタ、出力]
+&#10230; [入力, フィルタ, 出力]
 
 <br>
 
@@ -256,7 +256,7 @@
 
 **37. [Illustration, Input size, Output size, Number of parameters, Remarks]**
 
-&#10230; [図、入力サイズ、出力サイズ、引数の数、備考]
+&#10230; [図, 入力サイズ, 出力サイズ, 引数の数, 備考]
 
 <br>
 
@@ -298,7 +298,7 @@
 
 **43. Commonly used activation functions**
 
-&#10230;
+&#10230; よく使われる活性化関数
 
 <br>
 
@@ -312,7 +312,7 @@
 
 **45. [ReLU, Leaky ReLU, ELU, with]**
 
-&#10230;
+&#10230;[ReLU, Leaky ReLU, ELU, with]
 
 <br>
 
@@ -354,14 +354,14 @@
 
 **51. [Image classification, Classification w. localization, Detection]**
 
-&#10230;
+&#10230; [画像分類, 分類 w. ]
 
 <br>
 
 
 **52. [Teddy bear, Book]**
 
-&#10230;
+&#10230; [テディ熊, 本]
 
 <br>
 
@@ -375,7 +375,7 @@
 
 **54. [Traditional CNN, Simplified YOLO, R-CNN, YOLO, R-CNN]**
 
-&#10230; [伝統的なCNN、単純されたYOLO、R-CNN、YOLO、R-CNN]
+&#10230; [伝統的なCNN, 単純されたYOLO, R-CNN, YOLO, R-CNN]
 
 <br>
 
@@ -389,7 +389,7 @@
 
 **56. [Bounding box detection, Landmark detection]**
 
-&#10230;
+&#10230; [物体検出, ランドマーク検出]
 
 <br>
 
@@ -452,7 +452,7 @@
 
 **65. YOLO ― You Only Look Once (YOLO) is an object detection algorithm that performs the following steps:**
 
-&#10230;
+&#10230; YOLO - 貴方は一度だけ見る (YOLO)は次のステップを実行するオブジェクト検出アルゴリズムです。
 
 <br>
 
@@ -501,7 +501,7 @@
 
 **72. [Original image, Segmentation, Bounding box prediction, Non-max suppression]**
 
-&#10230;
+&#10230; [原画像, セグメンテーション, 物体予測, 非最大抑制]
 
 <br>
 
@@ -529,7 +529,7 @@
 
 **76. [Face verification, Face recognition, Query, Reference, Database]**
 
-&#10230; [顔認証、顔認識、クエリ、参照、データベース]
+&#10230; [顔認証, 顔認識, クエリ, 参照, データベース]
 
 <br>
 
@@ -578,7 +578,7 @@
 
 **83. [Content C, Style S, Generated image G]**
 
-&#10230; [コンテンツC、スタイルS、生成された画像G]
+&#10230; [コンテンツC, スタイルS, 生成された画像G]
 
 <br>
 
@@ -648,14 +648,14 @@
 
 **93. [Training, Noise, Real-world image, Generator, Discriminator, Real Fake]**
 
-&#10230; [トレーニング、騒音、現実世界の画像、ジェネレータ、弁別器、偽のリアル]
+&#10230; [トレーニング, 騒音, 現実世界の画像, ジェネレータ, 弁別器, 偽のリアル]
 
 <br>
 
 
 **94. Remark: use cases using variants of GANs include text to image, music generation and synthesis.**
 
-&#10230; 注意: GANsの変種を使用するユースケースには画像へのテキスト、音楽生成及び合成があります。
+&#10230; 注意: GANsの変種を使用するユースケースには画像へのテキスト, 音楽生成及び合成があります。
 
 <br>
 
@@ -690,14 +690,14 @@
 
 **99. Translated by X, Y and Z**
 
-&#10230; X、Y、Zによる翻訳された
+&#10230; X, Y, Zによる翻訳された
 
 <br>
 
 
 **100. Reviewed by X, Y and Z**
 
-&#10230; X、Y、Zによるレビューされた
+&#10230; X, Y, Zによるレビューされた
 
 <br>
 
@@ -711,6 +711,6 @@
 
 **102. By X and Y**
 
-&#10230; X、Yによる
+&#10230; X, Yによる
 
 <br>

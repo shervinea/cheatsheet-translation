@@ -25,7 +25,7 @@
 
 **4. [Types of layer, Convolution, Pooling, Fully connected]**
 
-&#10230; [層のタイプ, 畳み込み, プーリング, 完全に接続された]
+&#10230; [層のタイプ, 畳み込み, プーリング, 完全接続]
 
 <br>
 
@@ -144,14 +144,14 @@
 
 **21. [Preserves detected features, Most commonly used, Downsamples feature map, Used in LeNet]**
 
-&#10230;
+&#10230; [検出された特徴保持, 最も一般的に利用される, ダウンサンプル特徴図, LeNetで利用される]
 
 <br>
 
 
 **22. Fully Connected (FC) ― The fully connected layer (FC) operates on a flattened input where each input is connected to all neurons. If present, FC layers are usually found towards the end of CNN architectures and can be used to optimize objectives such as class scores.**
 
-&#10230;
+&#10230; 完全接続 (FC) - 完全接続層は各入力は全ての神経に接続されているフラット化入力で動く。
 
 <br>
 
@@ -368,7 +368,7 @@
 
 **53. [Classifies a picture, Predicts probability of object, Detects an object in a picture, Predicts probability of object and where it is located, Detects up to several objects in a picture, Predicts probabilities of objects and where they are located]**
 
-&#10230;
+&#10230; [画像分類, オブジェクトの確率予測, 画像内のオブジェクト検出, オブジェクトの確率と所在地予測, 画像内の複数オブジェクト検出, 複数オブジェクトの確率と所在地予測]
 
 <br>
 

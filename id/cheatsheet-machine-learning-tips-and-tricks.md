@@ -1,18 +1,18 @@
 **1. Machine Learning tips and tricks cheatsheet**
 
-&#10230;Tips dan trik Machine Learning (ML) cheatsheet
+&#10230;
 
 <br>
 
 **2. Classification metrics**
 
-&#10230;Metrik klasifikasi
+&#10230;
 
 <br>
 
 **3. In a context of a binary classification, here are the main metrics that are important to track in order to assess the performance of the model.**
 
-&#10230;Pada konteks klasifikasi binari (1 dan 0), dibawah ini adalah matrik-matrik utama yang penting untuk mengevaluasi performa ML model.
+&#10230;
 
 <br>
 

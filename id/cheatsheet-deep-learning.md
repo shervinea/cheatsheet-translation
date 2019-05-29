@@ -1,24 +1,24 @@
 **1. Deep Learning cheatsheet**
 
-&#10230;Deep Learning cheatsheet
+&#10230;Deep Learning chatsheet
 
 <br>
 
 **2. Neural Networks**
 
-&#10230;Neural Network
+&#10230;Jaringan saraf (tiruan)
 
 <br>
 
 **3. Neural networks are a class of models that are built with layers. Commonly used types of neural networks include convolutional and recurrent neural networks.**
 
-&#10230;Neural network adalah sebuah model yang dibentuk dari beberapa lapisan (layer). Neural network yang sering digunakan meliputi neural network convolution dan recurrent.
+&#10230;Jaringan saraf adalah sebuah model yang dibentuk dari beberapa lapisan (layer). Jaringan saraf yang sering digunakan meliputi jaringan saraf convolution dan recurrent.
 
 <br>
 
 **4. Architecture ― The vocabulary around neural networks architectures is described in the figure below:**
 
-&#10230;Arsitekture - kosakata pada aritekture neural network dijelaskan pada gambar dibawah ini:
+&#10230;Arsitekture - kosakata pada aritekture jaringan saraf dijelaskan pada gambar dibawah ini:
 
 <br>
 
@@ -66,7 +66,7 @@
 
 **12. Backpropagation ― Backpropagation is a method to update the weights in the neural network by taking into account the actual output and the desired output. The derivative with respect to weight w is computed using chain rule and is of the following form:**
 
-&#10230;Backpropagation - Backpropagation adalah method untuk mengubah nilai weight pada neural network dengan mempertimbangkan perbedaan dari keluaran prediksi dan keluaran yang diinginkan. Turunan terhadap weight w dihitung menggunakan chain rule dan dapat diformulakan dengan:
+&#10230;Backpropagation - Backpropagation adalah method untuk mengubah nilai weight pada jaringan saraf dengan mempertimbangkan perbedaan dari keluaran prediksi dan keluaran yang diinginkan. Turunan terhadap weight w dihitung menggunakan chain rule dan dapat diformulakan dengan:
 
 <br>
 
@@ -78,7 +78,7 @@
 
 **14. Updating weights ― In a neural network, weights are updated as follows:**
 
-&#10230;Mengubah nilai weight - Pada neural network, nilai weight diubah dengan tahapan sebagai berikut:
+&#10230;Mengubah nilai weight - Pada jaringan saraf, nilai weight diubah dengan tahapan sebagai berikut:
 
 <br>
 
@@ -108,13 +108,13 @@
 
 **19. Dropout ― Dropout is a technique meant at preventing overfitting the training data by dropping out units in a neural network. In practice, neurons are either dropped with probability p or kept with probability 1−p**
 
-&#10230;Dropout - Dropout adalah sebuah teknik yang digunakan untuk mencegah overfitting pada saraf tiruan dengan men-drop out unit pada sebuah neural network. Pada pengaplikasiannya, neuron di drop dengan probabilitas p atau dipertahankan dengan probabilitas 1-p
+&#10230;Dropout - Dropout adalah sebuah teknik yang digunakan untuk mencegah overfitting pada saraf tiruan dengan men-drop out unit pada sebuah jaringan saraf. Pada pengaplikasiannya, neuron di drop dengan probabilitas p atau dipertahankan dengan probabilitas 1-p
 
 <br>
 
 **20. Convolutional Neural Networks**
 
-&#10230;Convolutional Neural Network
+&#10230;Jaringan saraf convolutional
 
 <br>
 
@@ -126,196 +126,196 @@
 
 **22. Batch normalization ― It is a step of hyperparameter γ,β that normalizes the batch {xi}. By noting μB,σ2B the mean and variance of that we want to correct to the batch, it is done as follows:**
 
-&#10230; Normalisasi batch - Normalisasi batch adalah sebuah langkah untuk menormalisasi batch {xi}. Dengan mendefinisikan μB,σ2B sebagai nilai rata-rata dan variansi dari batch yang ingin kita normalisasi, hal tersebut dapat dilakukan dengan cara:
+&#10230; Normalisasi batch - Normalisasi batch adalah sebuah langkah untuk menormalisasi batch {xi}. Dengan mendefinisikan μB,σ2B sebagai nilai rata-rata dan variansi dari batch yang ingin kita normalisasi, hal tersebut dapat dilakukan dengan cara: 
 
 <br>
 
 **23. It is usually done after a fully connected/convolutional layer and before a non-linearity layer and aims at allowing higher learning rates and reducing the strong dependence on initialization.**
 
-&#10230;Batch normalisasi biasa ditempatkan setelah sebuah layer fully-connected atau convolutional dan sebelum sebuah non-linear layer yang bertujun untuk memungkinkannya penggunaan nilai learning rate yang lebih tinggi dan mengurangi ketergantungan model pada nilai inisialisasi parameter.
+&#10230;
 
 <br>
 
 **24. Recurrent Neural Networks**
 
-&#10230;Recurrent Neural Networks
+&#10230;
 
 <br>
 
 **25. Types of gates ― Here are the different types of gates that we encounter in a typical recurrent neural network:**
 
-&#10230;Tipe-tipe gerbang - Dibawah ini merupakan beberapa jenis gerbang yang biasa ditemui pada recurrent neural network:
+&#10230;
 
 <br>
 
 **26. [Input gate, forget gate, gate, output gate]**
 
-&#10230;[Gerbang masukan, gerbang lupa (untuk melupakan informasi), gerbang, gerbang keluaran]
+&#10230;
 
 <br>
 
 **27. [Write to cell or not?, Erase a cell or not?, How much to write to cell?, How much to reveal cell?]**
 
-&#10230;Menulis ke sel atau tidak?, Hapus sebuah sel atau tidak?, Berapa banyak penulisan ke sel?, Berapa banyak yang disampaikan ke sel?]
+&#10230;
 
 <br>
 
 **28. LSTM ― A long short-term memory (LSTM) network is a type of RNN model that avoids the vanishing gradient problem by adding 'forget' gates.**
 
-&#10230;LSTM - Long short-term memory (LSTM) network adalah sebuah tipe model dari RNN yang mencegah permasalahan vanishing gradien (nilai gradien menjadi 0)  dengan menambahkan gerbang 'lupa':
+&#10230;
 
 <br>
 
 **29. Reinforcement Learning and Control**
 
-&#10230;Reinforcement Learning dan Kontrol
+&#10230;
 
 <br>
 
 **30. The goal of reinforcement learning is for an agent to learn how to evolve in an environment.**
 
-&#10230;Tujuan dari reinforcement learning adalah menjadikan sebuah agen (contoh: robot) dapat belajar untuk menyesuaikan diri terhadap lingkungan sekelilingnya.
+&#10230;
 
 <br>
 
 **31. Definitions**
 
-&#10230;Definisi-definisi
+&#10230;
 
 <br>
 
 **32. Markov decision processes ― A Markov decision process (MDP) is a 5-tuple (S,A,{Psa},γ,R) where:**
 
-&#10230;Markov decision processes- Markov decision process (MDP) adalah sebuah 5-tuple(S,A,{Psa},γ,R) dimana:
+&#10230;
 
 <br>
 
 **33. S is the set of states**
 
-&#10230;S adalah set dari state-state (tahap-tahap)
+&#10230;
 
 <br>
 
 **34. A is the set of actions**
 
-&#10230;A adalah set dari aksi-aksi
+&#10230;
 
 <br>
 
 **35. {Psa} are the state transition probabilities for s∈S and a∈A**
 
-&#10230;{Psa} adalah transisi probabilitas dari satu state ke state lainnya untuk s∈S and a∈A
+&#10230;
 
 <br>
 
 **36. γ∈[0,1[ is the discount factor**
 
-&#10230;γ∈[0,1[ adalah faktor diskon
+&#10230;
 
 <br>
 
 **37. R:S×A⟶R or R:S⟶R is the reward function that the algorithm wants to maximize**
 
-&#10230;R:S×A⟶R or R:S⟶R adalah fungsi reward (hadiah) yang algoritma ingin untuk maksimalkan nilai keluarannya
+&#10230;
 
 <br>
 
 **38. Policy ― A policy π is a function π:S⟶A that maps states to actions.**
 
-&#10230;Kebijakan - sebuah kebijakan adalah sebuah fungsi π:S⟶A yang memetakan state-state ke aksi-aksi.
+&#10230;
 
 <br>
 
 **39. Remark: we say that we execute a given policy π if given a state s we take the action a=π(s).**
 
-&#10230;Perlu diperhatikan: kita mengatakan bahwa kita mengeksekusi sebuah kebijakan π jika sebuah state s maka kita melakukan aksi a=π(s).
+&#10230;
 
 <br>
 
 **40. Value function ― For a given policy π and a given state s, we define the value function Vπ as follows:**
 
-&#10230;Fungsi value - Untuk sebuah kebijakan π dan sebuah state s, kita mendefinisikan fungsi value Vπ sebagai berikut:
+&#10230;
 
 <br>
 
 **41. Bellman equation ― The optimal Bellman equations characterizes the value function Vπ∗ of the optimal policy π∗:**
 
-&#10230;Bellman equation - Persamaan optimal Bellman menandakan fungsi value Vπ∗ dari kebijakan yang optimal π∗:
+&#10230;
 
 <br>
 
 **42. Remark: we note that the optimal policy π∗ for a given state s is such that:**
 
-&#10230;Perlu diperhatikan: kita mendefinisikan bahwa kebijakan optimal π∗ untuk state yang diberikan sebagai:
+&#10230;
 
 <br>
 
 **43. Value iteration algorithm ― The value iteration algorithm is in two steps:**
 
-&#10230;Algoritma value iteration - Algoritma value iteration memiliki dua tahap:
+&#10230;
 
 <br>
 
 **44. 1) We initialize the value:**
 
-&#10230;Kita menginialisasi value
+&#10230;
 
 <br>
 
 **45. 2) We iterate the value based on the values before:**
 
-&#10230;Kita melakukan iterasi value berdasarkan value sebelumnya
+&#10230;
 
 <br>
 
 **46. Maximum likelihood estimate ― The maximum likelihood estimates for the state transition probabilities are as follows:**
 
-&#10230;Estimasi maksimum likelihood - Estimasi maksimum likelihood untuk probabilitas transisi antara state-state didefinisikan sebagai berikut:
+&#10230;
 
 <br>
 
 **47. times took action a in state s and got to s′**
 
-&#10230;Jumlah melakukan aksi a pada state s dan menuju state s'
+&#10230;
 
 <br>
 
 **48. times took action a in state s**
 
-&#10230;Jumlah melakukan aksi a pada state s
+&#10230;
 
 <br>
 
 **49. Q-learning ― Q-learning is a model-free estimation of Q, which is done as follows:**
 
-&#10230;Q-learning - Q-learning adalah teknik estimasi tanpa menggunakan model dari Q, yang diformulasikan sebagai berikut:
+&#10230;
 
 <br>
 
 **50. View PDF version on GitHub**
 
-&#10230;Lihat versi PDF pada GitHub
+&#10230;
 
 <br>
 
 **51. [Neural Networks, Architecture, Activation function, Backpropagation, Dropout]**
 
-&#10230;[Neural Network, Arsitektur, Fungsi-fungsi Aktifasi, Bakcpropagation, Dropout]
+&#10230;
 
 <br>
 
 **52. [Convolutional Neural Networks, Convolutional layer, Batch normalization]**
 
-&#10230;[Convolutional Neural Network, Layer Convolutional, Normalisasi Batch]
+&#10230;
 
 <br>
 
 **53. [Recurrent Neural Networks, Gates, LSTM]**
 
-&#10230;[Recurrent Neural Network, Gerbang-gerbang, LSTM]
+&#10230;
 
 <br>
 
 **54. [Reinforcement learning, Markov decision processes, Value/policy iteration, Approximate dynamic programming, Policy search]**
 
-&#10230;[Reinforcement learning, Markov decision processes, Iterasi Value/policy, Approximate dynamic programming, Policy search]
+&#10230;

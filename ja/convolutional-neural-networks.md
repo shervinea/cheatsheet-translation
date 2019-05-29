@@ -74,7 +74,7 @@
 
 **11. [Computational trick architectures, Generative Adversarial Net, ResNet, Inception Network]**
 
-&#10230;
+&#10230; [計算詭計アーキテクチャ、生成型敵対的ネットワーク、ResNet、インセプションネットワーク]
 
 <br>
 
@@ -524,7 +524,7 @@
 
 &#10230;
 
-<br>
+<br> モデルのタイプ - 主な二つのモデルは次の表で要約される:
 
 
 **76. [Face verification, Face recognition, Query, Reference, Database]**
@@ -564,7 +564,7 @@
 
 **81. Neural style transfer**
 
-&#10230;
+&#10230; 神経のスタイル転送
 
 <br>
 
@@ -578,7 +578,7 @@
 
 **83. [Content C, Style S, Generated image G]**
 
-&#10230;
+&#10230; [コンテンツC、スタイルS、生成された画像G]
 
 <br>
 
@@ -634,7 +634,7 @@
 
 **91. Architectures using computational tricks**
 
-&#10230;
+&#10230; アーキテクチャは計算の詭計を利用している。
 
 <br>
 
@@ -655,7 +655,7 @@
 
 **94. Remark: use cases using variants of GANs include text to image, music generation and synthesis.**
 
-&#10230;
+&#10230; 注意: GANsの変種を使用するユースケースには画像へのテキスト、音楽生成及び合成があります。
 
 <br>
 
@@ -678,7 +678,7 @@
 
 &#10230;
 
-<br>
+<br> 深層学習チートシートは今[ターゲット言語]で利用可能です。
 
 
 **98. Original authors**
@@ -706,7 +706,7 @@
 
 &#10230;
 
-<br>
+<br> GithubでPDFバージョン見る
 
 
 **102. By X and Y**

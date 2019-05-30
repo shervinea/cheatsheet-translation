@@ -550,7 +550,7 @@ Fast R-CNNやFaster R-CNNなど、アルゴリズムをより高い速度に実�
 
 **79. Siamese Network ― Siamese Networks aim at learning how to encode images to then quantify how different two images are. For a given input image x(i), the encoded output is often noted as f(x(i)).**
 
-&#10230;
+&#10230; シャムネットワー - シャムネットワーは2つの画像の違いを定量化して、画像暗号化方法を学ぶことを目的としている。与えられたインプット画像x(i)に対して暗号化された出力はしばしばf(x(i))と表示される。
 
 <br>
 
@@ -573,7 +573,7 @@ Fast R-CNNやFaster R-CNNなど、アルゴリズムをより高い速度に実�
 
 &#10230;
 
-<br>
+<br> モチベーション - 神経のスタイル転送の目的は与えられたコンテンツCとスタイルSに基づく画像Gを生成する。
 
 
 **83. [Content C, Style S, Generated image G]**
@@ -587,7 +587,7 @@ Fast R-CNNやFaster R-CNNなど、アルゴリズムをより高い速度に実�
 
 &#10230;
 
-<br>
+<br> 活性化 - 与えられた層Lで、活性化はa[l]と表示されて、nH×nw×ncの寸法。
 
 
 **85. Content cost function ― The content cost function Jcontent(C,G) is used to determine how the generated image G differs from the original content image C. It is defined as follows:**

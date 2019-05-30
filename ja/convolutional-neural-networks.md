@@ -151,7 +151,7 @@
 
 **22. Fully Connected (FC) ― The fully connected layer (FC) operates on a flattened input where each input is connected to all neurons. If present, FC layers are usually found towards the end of CNN architectures and can be used to optimize objectives such as class scores.**
 
-&#10230; 完全接続 (FC) - 完全接続層は各入力は全ての神経に接続されているフラット化入力で動く。
+&#10230; 完全接続 (FC) - 完全接続層は各入力は全ての神経に接続されているフラット化入力で動く。存在する場合、FC層は通常CNNアーキテクチャの終わりに向かって見られ、クラススコアなどの目的を最適化するため利用される。
 
 <br>
 
@@ -263,7 +263,7 @@
 
 **38. [One bias parameter per filter, In most cases, S<F, A common choice for K is 2C]**
 
-&#10230;
+&#10230; [フィルタにあたり1つのバイアスパラメータ, ほとんどの場合, S<F, Kの一般的な選択は2C]
 
 <br>
 
@@ -349,7 +349,7 @@
 
 &#10230;
 
-<br>
+<br> モデルの種類 - 物体認識アルゴリズムは主に三つのタイプがあり、予測されるものの性質は異なります。次の表で説明される。
 
 
 **51. [Image classification, Classification w. localization, Detection]**
@@ -382,7 +382,7 @@
 
 **55. Detection ― In the context of object detection, different methods are used depending on whether we just want to locate the object or detect a more complex shape in the image. The two main ones are summed up in the table below:**
 
-&#10230;
+&#10230; 検出 - 物体検出の文脈では、画像内で物体を特定するのかそれとも複雑な形状を検出するのかによって、様々な方法は使用される。二つの主なものは次の表でまとめられる。
 
 <br>
 
@@ -480,7 +480,7 @@
 
 **69. [Original image, Division in GxG grid, Bounding box prediction, Non-max suppression]**
 
-&#10230;
+&#10230; [原画像, GxGグリッドでの分割, 物体検出, 非最大抑制]
 
 <br>
 
@@ -508,8 +508,8 @@
 
 **73. Remark: although the original algorithm is computationally expensive and slow, newer architectures enabled the algorithm to run faster, such as Fast R-CNN and Faster R-CNN.**
 
-&#10230;
-
+&#10230; 注意: 原アルゴリズムは計算コストが高くて遅くても、より新たなアーキテクチャでは、
+Fast R-CNNやFaster R-CNNなど、アルゴリズムをより高い速度に実行できる。
 <br>
 
 

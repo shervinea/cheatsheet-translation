@@ -165,7 +165,7 @@
 
 **24. The convolution layer contains filters for which it is important to know the meaning behind its hyperparameters.**
 
-&#10230; 
+&#10230; 畳み込み層にはハイパーパラメータの背後にある意味を知ることが重要なフィルタが含まれる。
 
 <br>
 
@@ -193,7 +193,7 @@
 
 **28. Stride ― For a convolutional or a pooling operation, the stride S denotes the number of pixels by which the window moves after each operation.**
 
-&#10230;
+&#10230; ストライド - 畳み込みまたはプール操作に対して、ストライドSはそれぞれの操作の後にウィンドウに移動されるピクセル数を表示する。
 
 <br>
 
@@ -242,7 +242,7 @@
 
 **35. Remark: often times, Pstart=Pend≜P, in which case we can replace Pstart+Pend by 2P in the formula above.**
 
-&#10230;
+&#10230; 注意: しばしば、Pstart=Pend≜P、その場合、上記の式のようにPstart+Pendを2Pに置き換える事ができる。
 
 <br>
 
@@ -270,7 +270,7 @@
 
 **39. [Pooling operation done channel-wise, In most cases, S=F]**
 
-&#10230;
+&#10230; [プール操作はチャネルごとに行われる, ほとんどの場合, S=F]
 
 <br>
 
@@ -291,7 +291,7 @@
 
 **42. In the example below, we have F1=F2=3 and S1=S2=1, which gives R2=1+2⋅1+2⋅1=5.**
 
-&#10230;
+&#10230; 下記の例で、F1=F2=3、S1=S2=1となるのでR2=1+2⋅1+2⋅1=5となる。
 
 <br>
 
@@ -319,14 +319,14 @@
 
 **46. [Non-linearity complexities biologically interpretable, Addresses dying ReLU issue for negative values, Differentiable everywhere]**
 
-&#10230;
+&#10230; 
 
 <br>
 
 
 **47. Softmax ― The softmax step can be seen as a generalized logistic function that takes as input a vector of scores x∈Rn and outputs a vector of output probability p∈Rn through a softmax function at the end of the architecture. It is defined as follows:**
 
-&#10230;
+&#10230; ソフトマックス - ソフトマックスステップは入力としてx∈Rnスコアのベクターを取り、アーキテクチャの最後にソフトマックス関数を通じてp∈Rn出力確率のベクターを出して、一般化ロジスティック関数として見る事ができる。
 
 <br>
 
@@ -396,7 +396,7 @@
 
 **57. [Detects the part of the image where the object is located, Detects a shape or characteristics of an object (e.g. eyes), More granular]**
 
-&#10230;
+&#10230; [物体が配置されている画像の部分検出, (例: 目)物体の特徴または形状検出, より粒状]
 
 <br>
 
@@ -445,7 +445,7 @@
 
 **64. [Box predictions, Box selection of maximum probability, Overlap removal of same class, Final bounding boxes]**
 
-&#10230;
+&#10230; [ボックス予測, 最大確率のボックス選択, 同じクラスの重なり合う除去, 最後のバウンディングボックス]
 
 <br>
 
@@ -459,7 +459,7 @@
 
 **66. [Step 1: Divide the input image into a G×G grid., Step 2: For each grid cell, run a CNN that predicts y of the following form:, repeated k times]**
 
-&#10230;
+&#10230; [ステップ1: 入力画像をGxGグリッドに分ける。, ステップ2: ]
 
 <br>
 

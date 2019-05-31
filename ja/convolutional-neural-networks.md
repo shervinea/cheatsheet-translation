@@ -354,7 +354,7 @@
 
 **51. [Image classification, Classification w. localization, Detection]**
 
-&#10230; [画像分類, 分類 w. ]
+&#10230; [画像分類, 分類 w. 局地化, 検出]
 
 <br>
 
@@ -403,7 +403,7 @@
 
 **58. [Box of center (bx,by), height bh and width bw, Reference points (l1x,l1y), ..., (lnx,lny)]**
 
-&#10230;
+&#10230; [センターのボックス(bx, by), 縦bhと幅bw, 各参照ポイント　(l1x,l1y), ..., (lnx,lny)]
 
 <br>
 
@@ -438,7 +438,7 @@
 
 **63. [For a given class, Step 1: Pick the box with the largest prediction probability., Step 2: Discard any box having an IoU⩾0.5 with the previous box.]**
 
-&#10230;
+&#10230; [与えられたクラス, ステップ1: 最大予測確率があるボックスを取り。, ステップ2: 前のボックスと一緒にIoU⩾0.5のボックスを切り捨てる。]
 
 <br>
 
@@ -459,21 +459,21 @@
 
 **66. [Step 1: Divide the input image into a G×G grid., Step 2: For each grid cell, run a CNN that predicts y of the following form:, repeated k times]**
 
-&#10230; [ステップ1: 入力画像をGxGグリッドに分ける。, ステップ2: ]
+&#10230; [ステップ1: 入力画像をGxGグリッドに分ける。, ステップ2: 各グリッドセルに対して次の形式のyを予測するCNNを実行する:,k回繰り返す]
 
 <br>
 
 
 **67. where pc is the probability of detecting an object, bx,by,bh,bw are the properties of the detected bouding box, c1,...,cp is a one-hot representation of which of the p classes were detected, and k is the number of anchor boxes.**
 
-&#10230;
+&#10230; ここで、pcは物体認識の確率、bx,by,bh,bwはバウンディングボックスのプロパーティ、c1, ..., cpはpクラスのうちどれが検出されたかのワンホット表現です。
 
 <br>
 
 
 **68. Step 3: Run the non-max suppression algorithm to remove any potential duplicate overlapping bounding boxes.**
 
-&#10230;
+&#10230; 潜在的な重複バウンディングボックスを除去する為に非最大抑制アルゴリズムを実行する。
 
 <br>
 
@@ -613,7 +613,7 @@ Fast R-CNNやFaster R-CNNなど、アルゴリズムをより高い速度に実�
 
 **88. Style cost function ― The style cost function Jstyle(S,G) is used to determine how the generated image G differs from the style S. It is defined as follows:**
 
-&#10230;
+&#10230;　スタイルコスト関数 - スタイルコスト関数Jstyle(S,G)はスタイルSと生成された画像Gどう違うかを決定する為利用される。次のように定義される:
 
 <br>
 

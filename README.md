@@ -55,7 +55,7 @@ Please make sure to propose the translation of **only one** cheatsheet per pull 
 
 |Cheatsheet topic|Bahasa Indonesia|
 :---|:---:|
-|Convolutional Neural Nets|not started|
+|Convolutional Neural Nets|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/155)|
 |Recurrent Neural Nets|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/152)|
 |DL tips and tricks|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/153)|
 

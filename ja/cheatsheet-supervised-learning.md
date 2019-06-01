@@ -402,7 +402,7 @@
 
 **68. Boosting ― The idea of boosting methods is to combine several weak learners to form a stronger one. The main ones are summed up in the table below:**
 
-&#10230;ブースティング ― ブースティングの考え方は、複数の弱い学習機を束ねることで1つのより強い学習機を作るというものである。主なものは次の表に集約される：
+&#10230;ブースティング ― ブースティングの考え方は、複数の弱い学習器を束ねることで1つのより強い学習器を作るというものである。主なものは次の表に集約される：
 
 <br>
 

@@ -172,7 +172,7 @@
 
 **25. Dimensions of a filter ― A filter of size F×F applied to an input containing C channels is a F×F×C volume that performs convolutions on an input of size I×I×C and produces an output feature map (also called activation map) of size O×O×1.**
 
-&#10230; フィルタの寸法 - Cチャネルを含まれている入力に適用されるFxFサイズのフィルタは0x0x1サイズの出力特徴図(活性化マップとも呼ばれている)を作り出し、IxIxCサイズの入力に対して畳み込みを実施するFxFxCボリュームです。
+&#10230; フィルタの寸法 - C個別のチャネルを含む入力に適用されるFxFサイズのフィルタは0x0x1サイズの出力特徴図(活性化マップとも呼ばれている)を作り出し、IxIxCサイズの入力に対して畳み込みを実施するFxFxCボリュームです。
 
 
 <br>
@@ -201,7 +201,7 @@
 
 **29. Zero-padding ― Zero-padding denotes the process of adding P zeroes to each side of the boundaries of the input. This value can either be manually specified or automatically set through one of the three modes detailed below:**
 
-&#10230;
+&#10230; ゼロパディング - ゼロパディングは入力の境界線の各側にP個別のゼロ追加プロセスを表す。この値は手動で指定されることも、以下に詳述する３つのモードのいずれを通じて自動的に設定されることもできる。
 
 <br>
 
@@ -215,7 +215,7 @@
 
 **31. [No padding, Drops last convolution if dimensions do not match, Padding such that feature map size has size ⌈IS⌉, Output size is mathematically convenient, Also called 'half' padding, Maximum padding such that end convolutions are applied on the limits of the input, Filter 'sees' the input end-to-end]**
 
-&#10230;
+&#10230; [パディングなし, もし寸法が一致しなかったら最後の畳み込みを落とす, 特徴図のサイズが[IS]サイズになるようなパディング, 出力サイズは数学的に便利です, ハーフパディングとも呼ばれる, 入力の限界に端部畳み込みが適用されるような最大パディング, フィルタはエンドツーエンド入力を観察する]
 
 <br>
 
@@ -432,7 +432,7 @@
 
 **62. Non-max suppression ― The non-max suppression technique aims at removing duplicate overlapping bounding boxes of a same object by selecting the most representative ones. After having removed all boxes having a probability prediction lower than 0.6, the following steps are repeated while there are boxes remaining:**
 
-&#10230; 非最大抑制 - 非最大抑制技術のねらいは最も代表的なもの選択によって同物体の重複する重なり合う境界ボックスを除去することです。
+&#10230; 非最大抑制 - 非最大抑制技術のねらいは最も代表的なもの選択によって同物体の重複する重なり合う境界ボックスを除去することです。0.6未満予測確率があるボックスを全て除去した後、残りのボックスがある間に以下のステップが繰り返される。
 
 <br>
 
@@ -467,7 +467,7 @@
 
 **67. where pc is the probability of detecting an object, bx,by,bh,bw are the properties of the detected bouding box, c1,...,cp is a one-hot representation of which of the p classes were detected, and k is the number of anchor boxes.**
 
-&#10230; ここで、pcは物体認識の確率、bx,by,bh,bwはバウンディングボックスのプロパーティ、c1, ..., cpはpクラスのうちどれが検出されたかのワンホット表現です。
+&#10230; ここで、pcは物体認識の確率、bx,by,bh,bwはバウンディングボックスのプロパーティ、c1, ..., cpはpクラスのうちどれが検出されたかのワンホット表現で、kはアンカーボックスの数です。
 
 <br>
 

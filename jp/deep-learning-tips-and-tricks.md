@@ -181,89 +181,89 @@
 
 &#10230;
 
-<br>
+<br>誤差逆伝播法 - 実際の出力と期待の出力の差に基づいてニューラルネットワークの重みを更新する手法です。チェーンルールを用いて各重みで微分をとります。
 
 
 **27. Using this method, each weight is updated with the rule:**
 
-&#10230;
+&#10230;各重みは以下のルールで重みを更新します。
 
 <br>
 
 
 **28. Updating weights ― In a neural network, weights are updated as follows:**
 
-&#10230;
+&#10230;重みの更新 - ニューラルネットワークでは、重みは以下の通り更新します。
 
 <br>
 
 
 **29. [Step 1: Take a batch of training data and perform forward propagation to compute the loss, Step 2: Backpropagate the loss to get the gradient of the loss with respect to each weight, Step 3: Use the gradients to update the weights of the network.]**
 
-&#10230;
+&#10230;ステップ１：訓練データのバッチでフォワードプロパゲーションで損失を求めます。ステップ２：損失を用いて逆伝播法を行い勾配をえます。ステップ３：勾配を用いて重みを更新します。	
 
 <br>
 
 
 **30. [Forward propagation, Backpropagation, Weights update]**
 
-&#10230;
+&#10230;伝播法、逆伝播法、重みの更新
 
 <br>
 
 
 **31. Parameter tuning**
 
-&#10230;
+&#10230;パラメータチューニング
 
 <br>
 
 
 **32. Weights initialization**
 
-&#10230;
+&#10230;重みの初期化
 
 <br>
 
 
 **33. Xavier initialization ― Instead of initializing the weights in a purely random manner, Xavier initialization enables to have initial weights that take into account characteristics that are unique to the architecture.**
 
-&#10230;
+&#10230;Xavier初期化 - ランダムで重みを初期化するよりもむしろニューラルネットワークのアーキテクチャの特徴を用いて重みを初期化する手法です。
 
 <br>
 
 
 **34. Transfer learning ― Training a deep learning model requires a lot of data and more importantly a lot of time. It is often useful to take advantage of pre-trained weights on huge datasets that took days/weeks to train, and leverage it towards our use case. Depending on how much data we have at hand, here are the different ways to leverage this:**
 
-&#10230;
+&#10230;転移学習 - 深層学習のモデルを学習させるには大量のデータと、それ以上に時間が必要です。膨大なデータで数日・数週間をかけて学習済みのモデルを利用し、自分のユースケースに活かせることが多いです。データの量次第では、以下の生かす方法があります。
 
 <br>
 
 
 **35. [Training size, Illustration, Explanation]**
 
-&#10230;
+&#10230;トレーニングサイズ、イラストレーション、解説
 
 <br>
 
 
 **36. [Small, Medium, Large]**
 
-&#10230;
+&#10230;スモール、ミディアム、ラージ
 
 <br>
 
 
 **37. [Freezes all layers, trains weights on softmax, Freezes most layers, trains weights on last layers and softmax, Trains weights on layers and softmax by initializing weights on pre-trained ones]**
 
-&#10230;
+&#10230;全層を凍結、softmaxで重みを学習、ほぼ全部の層を凍結、最終層とsoftmaxで学習、学習済みの重みで初期化することで層とsoftmaxで学習
 
 <br>
 
 
 **38. Optimizing convergence**
 
-&#10230;
+&#10230;収束の最適化
 
 <br>
 
@@ -273,19 +273,19 @@
 
 &#10230;
 
-<br>
+<br>学習率 - αやηとよく表記される学習率とは、重みの更新の速さを表現します。固定で指定するか、もしくは適応的に変えます。もっとも多用されている手法は、適切に学習率を変える Adam です。
 
 
 **40. Adaptive learning rates ― Letting the learning rate vary when training a model can reduce the training time and improve the numerical optimal solution. While Adam optimizer is the most commonly used technique, others can also be useful. They are summed up in the table below:**
 
-&#10230;
+&#10230;適応学習率法 - 学習時間の短縮や精度の向上のために学習率を変更することです。Adamがもっとも多用されている手法だが、他の手法も役に立つことがあります。以下の一覧表で適応学習率法がまとまっています。
 
 <br>
 
 
 **41. [Method, Explanation, Update of w, Update of b]**
 
-&#10230;
+&#10230;手法、解説、wの更新、bの更新
 
 <br>
 

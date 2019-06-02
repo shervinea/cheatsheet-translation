@@ -172,7 +172,8 @@
 
 **25. Dimensions of a filter ― A filter of size F×F applied to an input containing C channels is a F×F×C volume that performs convolutions on an input of size I×I×C and produces an output feature map (also called activation map) of size O×O×1.**
 
-&#10230;
+&#10230; フィルタの寸法 - Cチャネルを含まれている入力に適用されるFxFサイズのフィルタは0x0x1サイズの出力特徴図(活性化マップとも呼ばれている)を作り出し、IxIxCサイズの入力に対して畳み込みを実施するFxFxCボリュームです。
+
 
 <br>
 
@@ -186,7 +187,7 @@
 
 **27. Remark: the application of K filters of size F×F results in an output feature map of size O×O×K.**
 
-&#10230;
+&#10230; 注意: FxFサイズのK個別のフィルタを適用すると、0x0xKサイズの出力特徴図を得られる。
 
 <br>
 
@@ -277,7 +278,7 @@
 
 **40. [Input is flattened, One bias parameter per neuron, The number of FC neurons is free of structural constraints]**
 
-&#10230;
+&#10230; [入力は平坦化される, ニューラルごとにひとつのバイアスパラメータ, FCニューラルの数は構造制約がない]
 
 <br>
 
@@ -431,7 +432,7 @@
 
 **62. Non-max suppression ― The non-max suppression technique aims at removing duplicate overlapping bounding boxes of a same object by selecting the most representative ones. After having removed all boxes having a probability prediction lower than 0.6, the following steps are repeated while there are boxes remaining:**
 
-&#10230;
+&#10230; 非最大抑制 - 非最大抑制技術のねらいは最も代表的なもの選択によって同物体の重複する重なり合う境界ボックスを除去することです。
 
 <br>
 
@@ -599,14 +600,14 @@ Fast R-CNNやFaster R-CNNなど、アルゴリズムをより高い速度に実�
 
 **86. Style matrix ― The style matrix G[l] of a given layer l is a Gram matrix where each of its elements G[l]kk′ quantifies how correlated the channels k and k′ are. It is defined with respect to activations a[l] as follows:**
 
-&#10230;
+&#10230; スタイル行列 - 与えられた層lのスタイル行列 G[l]はグラム配列で、各要素G[l]kk′がチャネルkとｋ′の相関関係を定量化する。
 
 <br>
 
 
 **87. Remark: the style matrix for the style image and the generated image are noted G[l] (S) and G[l] (G) respectively.**
 
-&#10230;
+&#10230; 注意: スタイル画像及び生成された画像に対するスタイル行列はそれぞれG[l] (S)、G[l] (G)と表示される。
 
 <br>
 
@@ -627,7 +628,7 @@ Fast R-CNNやFaster R-CNNなど、アルゴリズムをより高い速度に実�
 
 **90. Remark: a higher value of α will make the model care more about the content while a higher value of β will make it care more about the style.**
 
-&#10230;
+&#10230; 注意: αのより高い値はモデルが内容をより気にするようにさせ、βのより高い値はスタイルをより気にするようになる。
 
 <br>
 

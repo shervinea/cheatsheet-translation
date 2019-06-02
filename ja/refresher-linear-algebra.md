@@ -249,25 +249,25 @@ x∈V、一般的に使用されるノルムは、以下の表にまとめられ
 **42. Positive semi-definite matrix ― A matrix A∈Rn×n is positive semi-definite (PSD) and is noted A⪰0 if we have:**
 
 &#10230;
-
+半正定値行列 ― 以下の式が成り立つとき、行列 A∈Rn×n、　A⪰0 は半正定値(PSD)
 <br>
 
 **43. Remark: similarly, a matrix A is said to be positive definite, and is noted A≻0, if it is a PSD matrix which satisfies for all non-zero vector x, xTAx>0.**
 
 &#10230;
-
+備考：　同様に、行列Ａは、正定値行列であると言われ、A≻0、それが全ての非ゼロベクトルを満足するＰＳＤ行列である場合と表記される。
 <br>
 
 **44. Eigenvalue, eigenvector ― Given a matrix A∈Rn×n, λ is said to be an eigenvalue of A if there exists a vector z∈Rn∖{0}, called eigenvector, such that we have:**
 
 &#10230;
-
+固有値、固有ベクトル　―　与えられた行列A∈Rn×n。以下の式が成り立つとき、もしベクトルz∈Rn∖{0}、固有ベクトルと呼ばれる、が存在する場合ならばλはAの固有値であると言われる：
 <br>
 
 **45. Spectral theorem ― Let A∈Rn×n. If A is symmetric, then A is diagonalizable by a real orthogonal matrix U∈Rn×n. By noting Λ=diag(λ1,...,λn), we have:**
 
 &#10230;
-
+スペクトル定理 ― A∈Rn×nとする。　Aが対称ならば、Aは実直交行列U∈Rn×nによって対角化可能です。Λ=diag(λ1,...,λn)と書くと、次のようになります。
 <br>
 
 **46. diagonal**

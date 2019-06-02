@@ -292,63 +292,63 @@
 
 **42. [Momentum, Dampens oscillations, Improvement to SGD, 2 parameters to tune]**
 
-&#10230;
+&#10230;運動量、振動の減少、SGDの改良、チューニングするパラメータが2つある
 
 <br>
 
 
 **43. [RMSprop, Root Mean Square propagation, Speeds up learning algorithm by controlling oscillations]**
 
-&#10230;
+&#10230;RMSprop, 二条平均平方根のプロパゲーション、振動をコントロールすることで学習アルゴリズムを高速化する
 
 <br>
 
 
 **44. [Adam, Adaptive Moment estimation, Most popular method, 4 parameters to tune]**
 
-&#10230;
+&#10230;Adam, Adaptive Moment estimation, もっとも人気のある手法、チューニングするパラメータが4つある
 
 <br>
 
 
 **45. Remark: other methods include Adadelta, Adagrad and SGD.**
 
-&#10230;
+&#10230;備考：他にAdadelta, Adagrad, SGD などの手法があります。
 
 <br>
 
 
 **46. Regularization**
 
-&#10230;
+&#10230;正規化
 
 <br>
 
 
 **47. Dropout ― Dropout is a technique used in neural networks to prevent overfitting the training data by dropping out neurons with probability p>0. It forces the model to avoid relying too much on particular sets of features.**
 
-&#10230;
+&#10230;ドロップアウト - ドロップアウトとは、ニューラルネットワークで過学習を避けるために	p>0の確率でノードをドロップアウト（無効化に）します。モデルを特定の特徴量に依存しすぎることを強制的に避けさせます。
 
 <br>
 
 
 **48. Remark: most deep learning frameworks parametrize dropout through the 'keep' parameter 1−p.**
 
-&#10230;
+&#10230;備考：ほとんどの深層学習のフレームワークでは、ドロップアウトを'keep'というパラメータ（1-p)でパラメータ化します。
 
 <br>
 
 
 **49. Weight regularization ― In order to make sure that the weights are not too large and that the model is not overfitting the training set, regularization techniques are usually performed on the model weights. The main ones are summed up in the table below:**
 
-&#10230;
+&#10230;重みの最適化 - 重みが大きくなりすぎず、モデルが過学習しないために、モデルの重みに対して正規化を行います。主な正規化手法は以下でまとまっています。
 
 <br>
 
 
 **50. [LASSO, Ridge, Elastic Net]**
 
-&#10230;
+&#10230;LASSO, Ridge, Elastic Net
 
 <br>
 

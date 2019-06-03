@@ -6,7 +6,7 @@
 
 &#10230; 
 
-<br> 深層学習のアドバイスやコツのチートシート
+<br> 深層学習（ディープラーニング）のアドバイスやコツのチートシート
 
 
 **2. CS 230 - Deep Learning**
@@ -354,104 +354,104 @@
 
 **50 bis. Shrinks coefficients to 0, Good for variable selection, Makes coefficients smaller, Tradeoff between variable selection and small coefficients]**
 
-&#10230;
+&#10230;bis. 係数を0へ小さくする、変数選択に良い、係数を小さくする、変数選択と小さい係数のトレードオフ
 
 <br>
 
 **51. Early stopping ― This regularization technique stops the training process as soon as the validation loss reaches a plateau or starts to increase.**
 
-&#10230;
+&#10230;Early stopping - バリデーションの損失が収束するか、あるいは増加し始めたときに学習を早々に止める正規方法
 
 <br>
 
 
 **52. [Error, Validation, Training, early stopping, Epochs]**
 
-&#10230;
+&#10230;損失、評価、学習、early stopping、エポック
 
 <br>
 
 
 **53. Good practices**
 
-&#10230;
+&#10230;おすすめの技法
 
 <br>
 
 
 **54. Overfitting small batch ― When debugging a model, it is often useful to make quick tests to see if there is any major issue with the architecture of the model itself. In particular, in order to make sure that the model can be properly trained, a mini-batch is passed inside the network to see if it can overfit on it. If it cannot, it means that the model is either too complex or not complex enough to even overfit on a small batch, let alone a normal-sized training set.**
 
-&#10230;
+&#10230;小さいバッチの過学習 - モデルをデバッグするときに、モデルのアーキテクチャを検証するために小さいテストを作ることが役立つことが多いです。特に、モデルを正しく学習できるのを確認するために、ミニバッチでネットワークを学習し、過学習が発生するかどうかチェックすることがあります。モデルが複雑すぎるか、単純すぎると、普通のトレーニングセットどころか、小さいバッチでさえ過学習できないのです。
 
 <br>
 
 
 **55. Gradient checking ― Gradient checking is a method used during the implementation of the backward pass of a neural network. It compares the value of the analytical gradient to the numerical gradient at given points and plays the role of a sanity-check for correctness.**
 
-&#10230;
+&#10230;Gradient checking (勾配チェック) - Gradient checking とは、ニューラルネットワークで逆伝播法時に用いられる手法です。特定の点で数値勾配と逆伝播法時に計算した勾配を比較する手法で、逆伝播法の実装が正しいことなど確認できます。
 
 <br>
 
 
 **56. [Type, Numerical gradient, Analytical gradient]**
 
-&#10230;
+&#10230;種類、数値勾配、勾配
 
 <br>
 
 
 **57. [Formula, Comments]**
 
-&#10230;
+&#10230;数式、コメント
 
 <br>
 
 
 **58. [Expensive; loss has to be computed two times per dimension, Used to verify correctness of analytical implementation, Trade-off in choosing h not too small (numerical instability) nor too large (poor gradient approximation)]**
 
-&#10230;
+&#10230;計算量が多い；損失を次元ごとに２回計算する必要がある、勾配の実装のチェックに用いられる、hが小さすぎると数値的不安定だが、大きすぎると近似が正確でなくなるというトレードオフががある
 
 <br>
 
 
 **59. ['Exact' result, Direct computation, Used in the final implementation]**
 
-&#10230;
+&#10230;エグザクトの勾配、直接計算する、最終的な実装で使われる
 
 <br>
 
 
 **60. The Deep Learning cheatsheets are now available in [target language].
 
-&#10230;
+&#10230;深層学習のチートシートは[対象言語]で利用可能になりました。
 
 
 **61. Original authors**
 
-&#10230;
+&#10230;原著者
 
 <br>
 
 **62.Translated by X, Y and Z**
 
-&#10230;
+&#10230;X,Y,そしてZにより翻訳されました。
 
 <br>
 
 **63.Reviewed by X, Y and Z**
 
-&#10230;
+&#10230;X,Y,そしてZにより校正されました。
 
 <br>
 
 **64.View PDF version on GitHub**
 
-&#10230;
+&#10230;GitHubでPDF版を見る
 
 <br>
 
 **65.By X and Y**
 
-&#10230;
+&#10230;XそしてYによる。
 
 <br>

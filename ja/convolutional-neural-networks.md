@@ -250,7 +250,7 @@
 
 **36. Understanding the complexity of the model ― In order to assess the complexity of a model, it is often useful to determine the number of parameters that its architecture will have. In a given layer of a convolutional neural network, it is done as follows:**
 
-&#10230;
+&#10230; モデルの複雑さを理解する - モデルの複雑さを評価する為モデルのアーキテクチャが持つことになるパラメータの数を決定することはしばしば有用です。畳み込みニューラルネットワーク内で、以下のように行なわれる。
 
 <br>
 
@@ -285,7 +285,7 @@
 
 **41. Receptive field ― The receptive field at layer k is the area denoted Rk×Rk of the input that each pixel of the k-th activation map can 'see'. By calling Fj the filter size of layer j and Si the stride value of layer i and with the convention S0=1, the receptive field at layer k can be computed with the formula:**
 
-&#10230;
+&#10230; 受容的なフィルド - 層kの受容的なフィルドはk番目の活性化図の各ピックセルが見られる入力のRkxRkを表示されるエリアです。
 
 <br>
 
@@ -306,7 +306,7 @@
 
 **44. Rectified Linear Unit ― The rectified linear unit layer (ReLU) is an activation function g that is used on all elements of the volume. It aims at introducing non-linearities to the network. Its variants are summarized in the table below:**
 
-&#10230;
+&#10230; 整流線形ユニット - 整流線形ユニット層(ReLU)はボリュームの全ての要素に利用される活性化関数gです。ReLUの目的は非線型性をネットワークに紹介する。ReLUの変種は以下の表でまとめられる:
 
 <br>
 
@@ -425,7 +425,7 @@
 
 **61. Anchor boxes ― Anchor boxing is a technique used to predict overlapping bounding boxes. In practice, the network is allowed to predict more than one box simultaneously, where each box prediction is constrained to have a given set of geometrical properties. For instance, the first prediction can potentially be a rectangular box of a given form, while the second will be another rectangular box of a different geometrical form.**
 
-&#10230;
+&#10230; アンカーボックス - アンカーボクシングは重複バウンディングボックスを予測する為利用される技術です。実際に、
 
 <br>
 

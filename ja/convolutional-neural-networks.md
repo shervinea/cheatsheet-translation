@@ -285,7 +285,7 @@
 
 **41. Receptive field ― The receptive field at layer k is the area denoted Rk×Rk of the input that each pixel of the k-th activation map can 'see'. By calling Fj the filter size of layer j and Si the stride value of layer i and with the convention S0=1, the receptive field at layer k can be computed with the formula:**
 
-&#10230; 受容的なフィルド - 層kの受容的なフィルドはk番目の活性化図の各ピックセルが見られる入力のRkxRkを表示されるエリアです。
+&#10230; 受容的なフィルド - 層kの受容的なフィルドはk番目の活性化図の各ピックセルが見られる入力のRkxRkを表示されるエリアです。j層のフィルタサイズをFj、i層のストライド値をSi、規約S0=1とすると、k層での受容的なフィルドは式で計算される:
 
 <br>
 
@@ -418,14 +418,14 @@
 
 **60. Remark: we always have IoU∈[0,1]. By convention, a predicted bounding box Bp is considered as being reasonably good if IoU(Bp,Ba)⩾0.5.**
 
-&#10230; 注意: 常にIoU∈[0,1]を持ってます。慣例により、予測されたバウンディングボックスBpはIoU(Bp,Ba)⩾0.5の場合適度に良いと見なされる。
+&#10230; 注意: 常にIoU∈[0,1]を持ってます。規約により、予測されたバウンディングボックスBpはIoU(Bp,Ba)⩾0.5の場合適度に良いと見なされる。
 
 <br>
 
 
 **61. Anchor boxes ― Anchor boxing is a technique used to predict overlapping bounding boxes. In practice, the network is allowed to predict more than one box simultaneously, where each box prediction is constrained to have a given set of geometrical properties. For instance, the first prediction can potentially be a rectangular box of a given form, while the second will be another rectangular box of a different geometrical form.**
 
-&#10230; アンカーボックス - アンカーボクシングは重複バウンディングボックスを予測する為利用される技術です。実際に、
+&#10230; アンカーボックス - アンカーボクシングは重複バウンディングボックスを予測する為利用される技術です。実際には、同時に複雑のボックスを予測すろことを許可されており、各ボックス予測は与えられた幾何学的なプロパーティのセットを持つように制約される。例えば、最初の予測は与えられたフォームの長方形のボックスになる可能性があり、二番目のボックスは異なる幾何学的なフォームの別の長方形になります。
 
 <br>
 

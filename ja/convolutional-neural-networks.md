@@ -229,7 +229,7 @@
 
 **33. Parameter compatibility in convolution layer ― By noting I the length of the input volume size, F the length of the filter, P the amount of zero padding, S the stride, then the output size O of the feature map along that dimension is given by:**
 
-&#10230;
+&#10230; 畳み込み層内のパラメータ互換性 - Iを入力ボリュームサイズの長さ、Fをフィルタの長さ、Pをゼロパディングの量, Sをストライドとすると、その寸法に沿った特徴図の出力サイズOは次式で与えられる:
 
 <br>
 
@@ -418,7 +418,7 @@
 
 **60. Remark: we always have IoU∈[0,1]. By convention, a predicted bounding box Bp is considered as being reasonably good if IoU(Bp,Ba)⩾0.5.**
 
-&#10230;
+&#10230; 注意: 常にIoU∈[0,1]を持ってます。慣例により、予測されたバウンディングボックスBpはIoU(Bp,Ba)⩾0.5の場合適度に良いと見なされる。
 
 <br>
 
@@ -481,35 +481,35 @@
 
 **69. [Original image, Division in GxG grid, Bounding box prediction, Non-max suppression]**
 
-&#10230; [原画像, GxGグリッドでの分割, 物体検出, 非最大抑制]
+&#10230; [元の画像, GxGグリッドでの分割, 物体検出, 非最大抑制]
 
 <br>
 
 
 **70. Remark: when pc=0, then the network does not detect any object. In that case, the corresponding predictions bx,...,cp have to be ignored.**
 
-&#10230;
+&#10230; 注意: pc=0時、ネットワークは物体を検出しません。その場合には適当な予測 bx, ..., cpそれぞれは無視する必要があります。
 
 <br>
 
 
 **71. R-CNN ― Region with Convolutional Neural Networks (R-CNN) is an object detection algorithm that first segments the image to find potential relevant bounding boxes and then run the detection algorithm to find most probable objects in those bounding boxes.**
 
-&#10230;
+&#10230; R-CNN - 畳み込みニューラルネットワークを利用した領域は最初に潜在的な関連する境界ボックスを見つけるため画像を分割し、次にそれらの境界ボックス内の最も可能性の高いオブジェクトを見つけるため検出アルゴリズムを実行する物体検出アルゴリズムです。
 
 <br>
 
 
 **72. [Original image, Segmentation, Bounding box prediction, Non-max suppression]**
 
-&#10230; [原画像, セグメンテーション, 物体予測, 非最大抑制]
+&#10230; [元の画像, セグメンテーション, 物体予測, 非最大抑制]
 
 <br>
 
 
 **73. Remark: although the original algorithm is computationally expensive and slow, newer architectures enabled the algorithm to run faster, such as Fast R-CNN and Faster R-CNN.**
 
-&#10230; 注意: 原アルゴリズムは計算コストが高くて遅くても、より新たなアーキテクチャでは、
+&#10230; 注意: 元のアルゴリズムは計算コストが高くて遅くても、より新たなアーキテクチャでは、
 Fast R-CNNやFaster R-CNNなど、アルゴリズムをより高い速度に実行できる。
 <br>
 
@@ -537,7 +537,7 @@ Fast R-CNNやFaster R-CNNなど、アルゴリズムをより高い速度に実�
 
 **77. [Is this the correct person?, One-to-one lookup, Is this one of the K persons in the database?, One-to-many lookup]**
 
-&#10230;
+&#10230; [これは正しい人ですか?, 一対一見上げる, これはデータベース内のk人のうちの一人ですか, 一対多見上げる]
 
 <br>
 
@@ -593,7 +593,7 @@ Fast R-CNNやFaster R-CNNなど、アルゴリズムをより高い速度に実�
 
 **85. Content cost function ― The content cost function Jcontent(C,G) is used to determine how the generated image G differs from the original content image C. It is defined as follows:**
 
-&#10230;
+&#10230; コンテンツコスト関数 - Jcontent(C, G)というコンテンツコスト関数は元のコンテンツ画像Cと生成された画像Gとの違いを決定するため利用される。以下のように定義される:
 
 <br>
 
@@ -621,7 +621,7 @@ Fast R-CNNやFaster R-CNNなど、アルゴリズムをより高い速度に実�
 
 **89. Overall cost function ― The overall cost function is defined as being a combination of the content and style cost functions, weighted by parameters α,β, as follows:**
 
-&#10230;
+&#10230; 全体コスト関数 - 全体コスト関数は以下のようにパラメータα,βによって重み付けされ、スタイルコスト関数とコンテンツの組み合わせた物として定義される:
 
 <br>
 
@@ -663,7 +663,7 @@ Fast R-CNNやFaster R-CNNなど、アルゴリズムをより高い速度に実�
 
 **95. ResNet ― The Residual Network architecture (also called ResNet) uses residual blocks with a high number of layers meant to decrease the training error. The residual block has the following characterizing equation:**
 
-&#10230;
+&#10230; ResNet - 残渣ネットワークアーキテクチャ（ResNetとも呼ばれる）はトレーニングエラーを減らすため多数の層がある残差ブロックを使用する。残差ブロックは次の特定方程式を有する。
 
 <br>
 

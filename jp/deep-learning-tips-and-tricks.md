@@ -388,14 +388,14 @@
 
 **55. Gradient checking ― Gradient checking is a method used during the implementation of the backward pass of a neural network. It compares the value of the analytical gradient to the numerical gradient at given points and plays the role of a sanity-check for correctness.**
 
-&#10230;Gradient checking (勾配チェック) - Gradient checking とは、ニューラルネットワークで逆伝播法時に用いられる手法です。特定の点で数値勾配と逆伝播法時に計算した勾配を比較する手法で、逆伝播法の実装が正しいことなど確認できます。
+&#10230;Gradient checking (勾配チェック) - Gradient checking とは、ニューラルネットワークで逆伝播法時に用いられる手法です。特定の点で数値計算で計算した勾配と逆伝播法時に計算した勾配を比較する手法で、逆伝播法の実装が正しいことなど確認できます。
 
 <br>
 
 
 **56. [Type, Numerical gradient, Analytical gradient]**
 
-&#10230;種類、数値勾配、勾配
+&#10230;種類、数値勾配、勾配の理論値
 
 <br>
 

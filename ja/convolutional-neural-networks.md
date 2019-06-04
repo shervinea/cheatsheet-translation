@@ -320,7 +320,7 @@
 
 **46. [Non-linearity complexities biologically interpretable, Addresses dying ReLU issue for negative values, Differentiable everywhere]**
 
-&#10230; 
+&#10230; [生物学的に解釈可能な非線形複雑性, 負の値の為dyingReLUの問題を示す,どこても差別化可能]
 
 <br>
 
@@ -411,7 +411,7 @@
 
 **59. Intersection over Union ― Intersection over Union, also known as IoU, is a function that quantifies how correctly positioned a predicted bounding box Bp is over the actual bounding box Ba. It is defined as:**
 
-&#10230;
+&#10230; 労働組合の交差点 - 労働組合の交差点(IoUとも呼ばれる)は予測バウンディングボックスBpが実際のバウンディングボックスBaに対してどれだけ正しくかを定量化する関数です。次のように定義される:
 
 <br>
 
@@ -544,7 +544,7 @@ Fast R-CNNやFaster R-CNNなど、アルゴリズムをより高い速度に実�
 
 **78. One Shot Learning ― One Shot Learning is a face verification algorithm that uses a limited training set to learn a similarity function that quantifies how different two given images are. The similarity function applied to two images is often noted d(image 1,image 2).**
 
-&#10230;
+&#10230; ワンショット学習 - ワンショット学習は二つの与えられた画像の違いを定量かする類似性関数を学ぶ為有限トレーニングセットを利用する顔認証アルゴリズムです。二つの画像に適用される類似性関数はしばしばd(画像１、画像２)と記される。
 
 <br>
 

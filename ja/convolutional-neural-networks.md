@@ -432,7 +432,7 @@
 
 **62. Non-max suppression ― The non-max suppression technique aims at removing duplicate overlapping bounding boxes of a same object by selecting the most representative ones. After having removed all boxes having a probability prediction lower than 0.6, the following steps are repeated while there are boxes remaining:**
 
-&#10230; 非最大抑制 - 非最大抑制技術のねらいは最も代表的なもの選択によって同物体の重複する重なり合う境界ボックスを除去することです。0.6未満予測確率があるボックスを全て除去した後、残りのボックスがある間に以下のステップが繰り返される。
+&#10230; 非最大抑制 - 非最大抑制技術のねらいは最も代表的なもの選択によって同物体の重複する重なり合う境界ボックスを除去することです。0.6未満予測確率があるボックスを全て除去した後、残りのボックスがある間に以下のステップが繰り返される:
 
 <br>
 
@@ -509,8 +509,8 @@
 
 **73. Remark: although the original algorithm is computationally expensive and slow, newer architectures enabled the algorithm to run faster, such as Fast R-CNN and Faster R-CNN.**
 
-&#10230; 注意: 元のアルゴリズムは計算コストが高くて遅くても、より新たなアーキテクチャでは、
-Fast R-CNNやFaster R-CNNなど、アルゴリズムをより高い速度に実行できる。
+&#10230; 注意: 元のアルゴリズムは計算コストが高くて遅くても、より新たなアーキテクチャでは、Fast R-CNNやFaster R-CNNなど、アルゴリズムをより高い速度に実行できる。
+
 <br>
 
 
@@ -558,7 +558,7 @@ Fast R-CNNやFaster R-CNNなど、アルゴリズムをより高い速度に実�
 
 **80. Triplet loss ― The triplet loss ℓ is a loss function computed on the embedding representation of a triplet of images A (anchor), P (positive) and N (negative). The anchor and the positive example belong to a same class, while the negative example to another one. By calling α∈R+ the margin parameter, this loss is defined as follows:**
 
-&#10230;
+&#10230; トリプレット損失 - トリプレット損失ℓはトリプレットの画像A(アンカー)、P(ポジティブ)、N(負)の埋め込み表現で計算する損失関数です。アンカーとポジティブ例は同じクラスに属し、ネガティブ例は別のものに属する。マージンパラメータはα∈R+と呼ぶことによってこの損失は次のように定義される:
 
 <br>
 
@@ -642,7 +642,7 @@ Fast R-CNNやFaster R-CNNなど、アルゴリズムをより高い速度に実�
 
 **92. Generative Adversarial Network ― Generative adversarial networks, also known as GANs, are composed of a generative and a discriminative model, where the generative model aims at generating the most truthful output that will be fed into the discriminative which aims at differentiating the generated and true image.**
 
-&#10230;
+&#10230; 生成型敵対的ネットワーク - 生成型敵対的ネットワーク、GANsとも呼ばれるは生成モデルと識別モデルで構成される、生成モデルの目的は生成された画像と実像を区別する目的とする識別にフィードされる最も真実の出力を生成する。
 
 <br>
 
@@ -670,7 +670,7 @@ Fast R-CNNやFaster R-CNNなど、アルゴリズムをより高い速度に実�
 
 **96. Inception Network ― This architecture uses inception modules and aims at giving a try at different convolutions in order to increase its performance through features diversification. In particular, it uses the 1×1 convolution trick to limit the computational burden.**
 
-&#10230;
+&#10230; インセプションネットワーク - このアーキテクチャはインセプションモジュールを利用し、特徴多様化を通じてパーフォーマンス改善の為別の畳み込みを試してみる目的とする。特に、計算負荷を限定する為1×1畳み込みトリックを使う。
 
 <br>
 

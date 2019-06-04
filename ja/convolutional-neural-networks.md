@@ -383,7 +383,7 @@
 
 **55. Detection ― In the context of object detection, different methods are used depending on whether we just want to locate the object or detect a more complex shape in the image. The two main ones are summed up in the table below:**
 
-&#10230; 検出 - 物体検出の文脈では、画像内で物体を特定するのかそれとも複雑な形状を検出するのかによって、様々な方法は使用される。二つの主なものは次の表でまとめられる。
+&#10230; 検出 - 物体検出の文脈では、画像内で物体を特定するのかそれとも複雑な形状を検出するのかによって、様々な方法は使用される。二つの主なものは次の表でまとめられる:
 
 <br>
 

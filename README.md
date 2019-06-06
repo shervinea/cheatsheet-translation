@@ -33,7 +33,6 @@ The translation process of each cheatsheet contains two steps:
 ### Important note
 Please make sure to propose the translation of **only one** cheatsheet per pull request -- it simplifies a lot the review process.
 
-
 ## Progression 
 ### CS 229 (Machine Learning)
 | |Deep learning|Supervised|Unsupervised|ML tips|Probabilities|Algebra|
@@ -60,31 +59,30 @@ Please make sure to propose the translation of **only one** cheatsheet per pull 
 |**Tiếng Việt**|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/159)|not started|not started|not started|not started|not started|
 |**中文**|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/12)|done|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/48)|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/7)|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/73)|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/72)|
 
-
 ### CS 230 (Deep Learning)
-|Cheatsheet topic|Español|فارسی|Français|日本語|Português|中文|
-|:---|:---:|:---:|:---:|:---:|:---:|:---:|
-|Convolutional Neural Nets|not started|done|done|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/145)|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/128)|not started|
-|Recurrent Neural Nets|not started|done|done|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/146)|not started|not started|
-|DL tips and tricks|not started|done|done|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/157)|not started|not started|
-
-|Cheatsheet topic|العَرَبِيَّة|עִבְרִית|हिन्दी|Türkçe|Русский|Italiano|
-|:---|:---:|:---:|:---:|:---:|:---:|:---:|
-|Convolutional Neural Nets|not started|not started|not started|done|not started|not started|
-|Recurrent Neural Nets|not started|not started|not started|done|not started|not started|
-|DL tips and tricks|not started|not started|not started|done|not started|not started|
-
-|Cheatsheet topic|Polski|Suomi|Català|Українська|한국어|
-|:---|:---:|:---:|:---:|:---:|:---:|
-|Convolutional Neural Nets|not started|not started|not started|not started|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/109)|
-|Recurrent Neural Nets|not started|not started|not started|not started|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/107)|
-|DL tips and tricks|not started|not started|not started|not started|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/108)|
-
-|Cheatsheet topic|Bahasa Indonesia|
-:---|:---:|
-|Convolutional Neural Nets|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/155)|
-|Recurrent Neural Nets|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/152)|
-|DL tips and tricks|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/153)|
+| |Convolutional Neural Networks|Recurrent Neural Networks|DL tips|
+|:---|:---:|:---:|:---:|
+|**العَرَبِيَّة**|not started|not started|not started|
+|**Català**|not started|not started|not started|
+|**Deutsch**|not started|not started|not started|
+|**Español**|not started|not started|not started|
+|**فارسی**|done|done|done|
+|**Suomi**|not started|not started|not started|
+|**Français**|done|done|done|
+|**עִבְרִית**|not started|not started|not started|
+|**हिन्दी**|not started|not started|not started|
+|**Magyar**|not started|not started|not started|
+|**Bahasa Indonesia**|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/155)|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/152)|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/153)|
+|**Italiano**|not started|not started|not started|
+|**日本語**|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/145)|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/146)|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/157)|
+|**한국어**|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/109)|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/107)|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/108)|
+|**Polski**|not started|not started|not started|
+|**Português**|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/128)|not started|not started|
+|**Русский**|not started|not started|not started|
+|**Türkçe**|done|done|done|
+|**Українська**|not started|not started|not started|
+|**Tiếng Việt**|not started|not started|not started|
+|**中文**|not started|not started|not started|
 
 ## Acknowledgements
 Thank you everyone for your help! Please do not forget to add your name to the `CONTRIBUTORS` file so that we can give you proper credit in the cheatsheets' [official website](https://stanford.edu/~shervine/teaching).

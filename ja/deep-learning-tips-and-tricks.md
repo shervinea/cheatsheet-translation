@@ -4,7 +4,7 @@
 
 **1. Deep Learning Tips and Tricks cheatsheet**
 
-&#10230; 深層学習（ディープラーニング）のアドバイスやコツのチートシート
+&#10230;深層学習（ディープラーニング）のアドバイスやコツのチートシート
 
 <br> 
 
@@ -32,7 +32,7 @@
 
 **5. [Training a neural network, Epoch, Mini-batch, Cross-entropy loss, Backpropagation, Gradient descent, Updating weights, Gradient checking]**
 
-&#10230; ニューラルネットワークの学習、エポック、ミニバッチ、交差エントロピー誤差、誤差逆伝播法、勾配降下法、重み更新、勾配チェック
+&#10230;ニューラルネットワークの学習、エポック、ミニバッチ、交差エントロピー誤差、誤差逆伝播法、勾配降下法、重み更新、勾配チェック
 
 <br>
 
@@ -53,7 +53,7 @@
 
 **8. [Good practices, Overfitting small batch, Gradient checking]**
 
-&#10230;
+&#10230;おすすめの技法、小さいバッチの過学習、勾配チェック
 
 <br>
 

@@ -74,7 +74,7 @@
 
 **11. Data augmentation ― Deep learning models usually need a lot of data to be properly trained. It is often useful to get more data from the existing ones using data augmentation techniques. The main ones are summed up in the table below. More precisely, given the following input image, here are the techniques that we can apply:**
 
-&#10230;Data augmentation (データ拡張) - 大抵の場合は、深層学習のモデルを得るには大量のデータが必要です。Data augmentation という技術を用いて既存のデータから新しいデータを作り、データを増やすことがよく役立ちます。以下、Data augmentation の主な手法はまとまっています。特に、以下の画像が入力されたら、下記の技術を適用できます。
+&#10230;Data augmentation (データ拡張) - 大抵の場合は、深層学習のモデルを適切に訓練するには大量のデータが必要です。Data augmentation という技術を用いて既存のデータから、データを増やすことがよく役立ちます。以下、Data augmentation の主な手法はまとまっています。より正確には、以下の入力画像に対して、下記の技術を適用できます。
 
 <br>
 
@@ -278,7 +278,7 @@
 
 **40. Adaptive learning rates ― Letting the learning rate vary when training a model can reduce the training time and improve the numerical optimal solution. While Adam optimizer is the most commonly used technique, others can also be useful. They are summed up in the table below:**
 
-&#10230;適応学習率法 - 学習時間の短縮や精度の向上のために学習率を変更することです。Adamがもっとも多用されている手法だが、他の手法も役に立つことがあります。以下の一覧表で適応学習率法がまとまっています。
+&#10230;適応学習率法 - 学習時間の短縮や精度の向上のために学習率を変更することです。Adamがもっとも多用されている手法だが、他の手法も役に立つことがあります。適応学習率法を下記の表にまとめました。
 
 <br>
 

@@ -4,21 +4,21 @@
 
 **1. Deep Learning Tips and Tricks cheatsheet**
 
-&#10230; 
+&#10230; 深層学習（ディープラーニング）のアドバイスやコツのチートシート
 
-<br> 深層学習（ディープラーニング）のアドバイスやコツのチートシート
+<br> 
 
 
 **2. CS 230 - Deep Learning**
 
-&#10230; CS 230 - 深層学習
+&#10230;CS 230 - 深層学習
 
 <br>
 
 
 **3. Tips and tricks**
 
-&#10230; アドバイスやコツ
+&#10230;アドバイスやコツ
 
 <br>
 
@@ -109,7 +109,7 @@
 
 **16. Remark: data is usually augmented on the fly during training.**
 
-&#10230;備考：データ拡張は基本的には学習時に行う
+&#10230;備考：データ拡張は基本的には学習時に行う。
 
 <br>
 
@@ -179,9 +179,9 @@
 
 **26. Backpropagation ― Backpropagation is a method to update the weights in the neural network by taking into account the actual output and the desired output. The derivative with respect to each weight w is computed using the chain rule.**
 
-&#10230;
+&#10230;誤差逆伝播法 - 実際の出力と期待の出力の差に基づいてニューラルネットワークの重みを更新する手法です。チェーンルールを用いて各重みで微分をとります。
 
-<br>誤差逆伝播法 - 実際の出力と期待の出力の差に基づいてニューラルネットワークの重みを更新する手法です。チェーンルールを用いて各重みで微分をとります。
+<br>
 
 
 **27. Using this method, each weight is updated with the rule:**
@@ -271,9 +271,9 @@
 **39. Learning rate ― The learning rate, often noted α or sometimes η, indicates at which pace the weights get updated. It can be fixed or adaptively changed. The current most popular method is called Adam, which is a method that adapts the learning rate.
 **
 
-&#10230;
+&#10230;学習率 - αやηとよく表記される学習率とは、重みの更新の速さを表現します。固定で指定するか、もしくは適応的に変えます。もっとも多用されている手法は、適切に学習率を変える Adam です。
 
-<br>学習率 - αやηとよく表記される学習率とは、重みの更新の速さを表現します。固定で指定するか、もしくは適応的に変えます。もっとも多用されている手法は、適切に学習率を変える Adam です。
+<br>
 
 
 **40. Adaptive learning rates ― Letting the learning rate vary when training a model can reduce the training time and improve the numerical optimal solution. While Adam optimizer is the most commonly used technique, others can also be useful. They are summed up in the table below:**

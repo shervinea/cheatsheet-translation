@@ -270,7 +270,7 @@
 
 **46. Maximum likelihood estimate ― The maximum likelihood estimates for the state transition probabilities are as follows:**
 
-&#10230; 
+&#10230; Ước lượng khả năng tối đa (Maximum likelihood estimate) - Ước lượng khả năng tối đa cho xác suất chuyển tiếp trạng thái (state) sẽ như sau:
 
 <br>
 
@@ -288,31 +288,31 @@
 
 **49. Q-learning ― Q-learning is a model-free estimation of Q, which is done as follows:**
 
-&#10230;
+&#10230; Q-learning ― Q-learning là 1 dạng phán đoán phi mô hình (model-free) của Q, được thực hiện như sau:
 
 <br>
 
 **50. View PDF version on GitHub**
 
-&#10230;
+&#10230; Xem bản PDF trên GitHub
 
 <br>
 
 **51. [Neural Networks, Architecture, Activation function, Backpropagation, Dropout]**
 
-&#10230;
+&#10230; [Mạng neural, Kiến trúc, Hàm kích hoạt, Lan truyền ngược, Dropout]
 
 <br>
 
 **52. [Convolutional Neural Networks, Convolutional layer, Batch normalization]**
 
-&#10230;
+&#10230; [Mạng neural tích chập, Tầng chập, Chuẩn hoá lô (batch)]
 
 <br>
 
 **53. [Recurrent Neural Networks, Gates, LSTM]**
 
-&#10230;
+&#10230; [Mạng neural hồi quy, Gates, LSTM]
 
 <br>
 

@@ -276,13 +276,13 @@
 
 **47. times took action a in state s and got to s′**
 
-&#10230;
+&#10230; thời gian hành động a tiêu tốn cho state s và biến đổi nó thành s′
 
 <br>
 
 **48. times took action a in state s**
 
-&#10230;
+&#10230; thời gian hành động a tiêu tốn cho state (trạng thái) s
 
 <br>
 
@@ -318,4 +318,4 @@
 
 **54. [Reinforcement learning, Markov decision processes, Value/policy iteration, Approximate dynamic programming, Policy search]**
 
-&#10230;
+&#10230; [Học tăng cường (Reinforcement learning), Tiến trình quyết định Markov, Lặp Giá trị/policy, Lập trình động xấp xỉ, Tìm kiếm Policy]

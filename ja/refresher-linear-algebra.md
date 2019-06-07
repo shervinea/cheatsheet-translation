@@ -273,69 +273,70 @@ x∈V、一般的に使用されるノルムは、以下の表にまとめられ
 **46. diagonal**
 
 &#10230;
-
+対角
 <br>
 
 **47. Singular-value decomposition ― For a given matrix A of dimensions m×n, the singular-value decomposition (SVD) is a factorization technique that guarantees the existence of U m×m unitary, Σ m×n diagonal and V n×n unitary matrices, such that:**
 
 &#10230;
-
+特異値分解 ― Aをm×nの行列とする。特異値分解（SVD）は、Ｕ ｍ×ｍのユニタリ行列、ｍ ｍ×ｎの対角行列、およびＶ ｎ×ｎのユニタリ行列の存在を保証する因数分解手法である、次のようになります。
 <br>
 
 **48. Matrix calculus**
 
 &#10230;
-
+行列微積分
 <br>
 
 **49. Gradient ― Let f:Rm×n→R be a function and A∈Rm×n be a matrix. The gradient of f with respect to A is a m×n matrix, noted ∇Af(A), such that:**
 
 &#10230;
-
+勾配 ― f:Rm×n→Rを関数とし、A∈Rm×nを行列とする。 Aに対するfの勾配はm×n行列で、∇Af（A）と表記され。次のように：
 <br>
 
 **50. Remark: the gradient of f is only defined when f is a function that returns a scalar.**
 
 &#10230;
-
+備考：　fの勾配は、fがスカラーを返す関数である場合にのみ定義されます。
 <br>
 
 **51. Hessian ― Let f:Rn→R be a function and x∈Rn be a vector. The hessian of f with respect to x is a n×n symmetric matrix, noted ∇2xf(x), such that:**
 
 &#10230;
-
+ヘッセ行列 ― f：Rn→Rを関数とし、x∈Rnをベクトルとする。 xに関するfのヘッセ行列は、次のように∇2xf（x）と表記されるn×n対称行列です。
 <br>
 
 **52. Remark: the hessian of f is only defined when f is a function that returns a scalar**
 
 &#10230;
-
+備考：　fのヘッセ行列は、fがスカラーを返す関数である場合にのみ定義されます。
 <br>
 
 **53. Gradient operations ― For matrices A,B,C, the following gradient properties are worth having in mind:**
 
 &#10230;
-
+勾配演算 ― 行列A、B、Cの場合、次の勾配特性があります。
 <br>
 
 **54. [General notations, Definitions, Main matrices]**
 
 &#10230;
-
+[表記, 定義, 主行列]
 <br>
 
 **55. [Matrix operations, Multiplication, Other operations]**
 
 &#10230;
-
+[行列演算, 乗算, その他の演算]
 <br>
 
 **56. [Matrix properties, Norm, Eigenvalue/Eigenvector, Singular-value decomposition]**
 
 &#10230;
-
+[行列特性, 行列ノルム, 固有値/固有ベクトル, 特異値分解]
 <br>
 
 **57. [Matrix calculus, Gradient, Hessian, Operations]**
 
 &#10230;
+[行列計算, 勾配, ヘッセ行列, 演算]

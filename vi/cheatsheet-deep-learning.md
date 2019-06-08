@@ -108,7 +108,7 @@
 
 **19. Dropout ― Dropout is a technique meant at preventing overfitting the training data by dropping out units in a neural network. In practice, neurons are either dropped with probability p or kept with probability 1−p**
 
-&#10230; Dropout - Dropout là thuật ngữ kĩ thuật dùng trong việc tránh overfitting tập dữ liệu huấn luyện
+&#10230; Dropout - Dropout là thuật ngữ kĩ thuật dùng trong việc tránh overfitting tập dữ liệu huấn luyện bằng việc bỏ đi các đơn vị trong mạng neural. Trong thực tế, các neurals hoặc là bị bỏ đi bởi xác suất p hoặc được giữ lại với xác suất 1-p
 
 <br>
 
@@ -174,7 +174,7 @@
 
 **30. The goal of reinforcement learning is for an agent to learn how to evolve in an environment.**
 
-&#10230; Mục tiêu của reinforcement learning đó là cho tác tử (agent) học cách làm sao để phát triển trong một môi trường
+&#10230; Mục tiêu của reinforcement learning đó là cho tác tử (agent) học cách làm sao để tối ưu hoá trong một môi trường.
 
 <br>
 
@@ -252,7 +252,7 @@
 
 **43. Value iteration algorithm ― The value iteration algorithm is in two steps:**
 
-&#10230; Giải thuật duyệt giá trị (Value iteration) - Giải thuật duyệt giá trị có 2 loại:
+&#10230; Giải thuật duyệt giá trị (Value iteration) - Giải thuật duyệt giá trị gồm 2 bước:
 
 <br>
 

@@ -200,7 +200,7 @@
 
 **29. [Step 1: Take a batch of training data and perform forward propagation to compute the loss, Step 2: Backpropagate the loss to get the gradient of the loss with respect to each weight, Step 3: Use the gradients to update the weights of the network.]**
 
-&#10230;ステップ１：訓練データのバッチでフォワードプロパゲーションで損失を求めます。ステップ２：損失を用いて逆伝播法を行い勾配をえます。ステップ３：勾配を用いて重みを更新します。	
+&#10230;ステップ１：訓練データのバッチでフォワードプロパゲーションで損失を求めます。ステップ２：逆伝播法を用いてそれぞれの重みに対する損失の勾配を求めます。ステップ３：求めた勾配を用いてネットワークの重みを更新します。	
 
 <br>
 

@@ -235,7 +235,7 @@
 
 **34. Transfer learning ― Training a deep learning model requires a lot of data and more importantly a lot of time. It is often useful to take advantage of pre-trained weights on huge datasets that took days/weeks to train, and leverage it towards our use case. Depending on how much data we have at hand, here are the different ways to leverage this:**
 
-&#10230;転移学習 - 深層学習のモデルを学習させるには大量のデータと、それ以上に時間が必要です。膨大なデータで数日・数週間をかけて学習済みのモデルを利用し、自分のユースケースに活かせることが多いです。データの量次第では、以下の生かす方法があります。
+&#10230;転移学習 - 深層学習のモデルを学習させるには大量のデータと何よりも時間が必要です。膨大なデータセットから数日・数週間をかけて構築した学習済みモデルを利用し、自身のユースケースに活かすことは有益であることが多いです。手元にあるデータ量次第ではありますが、これを利用する以下の方法があります。
 
 <br>
 

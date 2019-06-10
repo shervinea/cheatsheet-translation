@@ -193,7 +193,7 @@
 
 **28. Updating weights ― In a neural network, weights are updated as follows:**
 
-&#10230;重みの更新 - ニューラルネットワークでは、重みは以下の通り更新します。
+&#10230;重みの更新 - ニューラルネットワークでは、以下の方法にしたがって重みが更新されます。
 
 <br>
 

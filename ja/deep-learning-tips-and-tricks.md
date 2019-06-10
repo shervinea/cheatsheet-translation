@@ -88,7 +88,7 @@
 
 **13. [Image without any modification, Flipped with respect to an axis for which the meaning of the image is preserved, Rotation with a slight angle, Simulates incorrect horizon calibration, Random focus on one part of the image, Several random crops can be done in a row]**
 
-&#10230;修正なしの画像、画像の意味が変わらぬ軸における反転、わずかな回転、不正確な水平線の校正（calibration）のシミュレーション、ランダムな部分の拡張、連続のランダムな切り抜きは可能
+&#10230;何も変更されていない画像、画像の意味が変わらない軸における反転、わずかな角度の回転、不正確な水平線の校正（calibration）をシミュレートする、画像の一部へのランダムなフォーカス、連続して数回のランダムな切り抜きが可能
 
 <br>
 

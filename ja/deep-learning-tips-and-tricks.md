@@ -278,7 +278,7 @@
 
 **40. Adaptive learning rates ― Letting the learning rate vary when training a model can reduce the training time and improve the numerical optimal solution. While Adam optimizer is the most commonly used technique, others can also be useful. They are summed up in the table below:**
 
-&#10230;適応学習率法 - 学習時間の短縮や精度の向上のために学習率を変更することです。Adamがもっとも多用されている手法だが、他の手法も役に立つことがあります。適応学習率法を下記の表にまとめました。
+&#10230;適応学習率法 - モデルを学習させる際に学習率を変動させることで、学習時間の短縮や精度の向上につながります。Adamがもっとも一般的に使用されている手法ではあるが、他の手法も役立つことがあります。それらの手法を下記の表にまとめました。
 
 <br>
 

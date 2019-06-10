@@ -271,7 +271,7 @@
 **39. Learning rate ― The learning rate, often noted α or sometimes η, indicates at which pace the weights get updated. It can be fixed or adaptively changed. The current most popular method is called Adam, which is a method that adapts the learning rate.
 **
 
-&#10230;学習率 - αやηとよく表記される学習率とは、重みの更新の速さを表現します。固定で指定するか、もしくは適応的に変えます。もっとも多用されている手法は、適切に学習率を変える Adam です。
+&#10230;学習率 - 多くの場合αや時々ηと表記される学習率とは、重みの更新速度を表しています。学習率は固定することもできる上に、適応的に変更することもできます。現在もっとも使用される手法は、学習率を適切に調整するAdamと呼ばれる手法です。
 
 <br>
 

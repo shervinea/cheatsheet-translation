@@ -109,7 +109,7 @@
 
 **16. Remark: data is usually augmented on the fly during training.**
 
-&#10230;備考：データ拡張は基本的には学習時に行う。
+&#10230;備考：データ拡張は基本的には学習時に臨機応変に行われる。
 
 <br>
 

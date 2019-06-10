@@ -116,7 +116,7 @@
 
 **17. Batch normalization ― It is a step of hyperparameter γ,β that normalizes the batch {xi}. By noting μB,σ2B the mean and variance of that we want to correct to the batch, it is done as follows:**
 
-&#10230;batch normalization - ハイパーパラメータ γ、β のステップがバッチ {xi}を正規化します。平均と分散をμB,σ2Bと表記すると、以下で行えます。
+&#10230;batch normalization - ハイパーパラメータ γ、β によってバッチ {xi} を正規化するステップです。修正を加えたいバッチの平均と分散をμB,σ2Bと表記すると、以下のように行えます。
 
 <br>
 

@@ -102,7 +102,7 @@
 
 **15. [Nuances of RGB is slightly changed, Captures noise that can occur with light exposure, Addition of noise, More tolerance to quality variation of inputs, Parts of image ignored, Mimics potential loss of parts of image, Luminosity changes, Controls difference in exposition due to time of day]**
 
-&#10230;RGBのわずかな修正、照らされ方によるノイズを捉える、ノイズの付加、入力画像の画質のバリエーションに対する耐性の増加、画像の一部を不使用、画像の一部がないときを真似る、明るさの変化、時間によるコントラストをコントロール
+&#10230;RGBのわずかな修正、照らされ方によるノイズを捉える、ノイズの付加、入力画像の品質のばらつきへの耐性の強化、画像の一部を無視、画像の一部が欠ける可能性を再現する、明るさの変化、時刻による露出の違いをコントロールする
 
 <br>
 

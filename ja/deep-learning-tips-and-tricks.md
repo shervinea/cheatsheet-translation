@@ -186,7 +186,7 @@
 
 **27. Using this method, each weight is updated with the rule:**
 
-&#10230;各重みは以下のルールで重みを更新します。
+&#10230;この方法を使用することで、それぞれの重みはそのルールにしたがって更新されます。
 
 <br>
 

@@ -228,7 +228,7 @@
 
 **33. Xavier initialization ― Instead of initializing the weights in a purely random manner, Xavier initialization enables to have initial weights that take into account characteristics that are unique to the architecture.**
 
-&#10230;Xavier初期化 - ランダムで重みを初期化するよりもむしろニューラルネットワークのアーキテクチャの特徴を用いて重みを初期化する手法です。
+&#10230;Xavier初期化 - 完全にランダムな方法で重みを初期化するのではなく、そのアーキテクチャのユニークな特徴を考慮に入れて重みを初期化する方法です。
 
 <br>
 

@@ -123,7 +123,7 @@
 
 **18. It is usually done after a fully connected/convolutional layer and before a non-linearity layer and aims at allowing higher learning rates and reducing the strong dependence on initialization.**
 
-&#10230;高い学習率を利用可能にするのと初期化への依存を減らすのが目的で基本的には全結合層・畳み込み層のあとで非線形層の前に行います。
+&#10230;より高い学習率を利用可能にし初期化への強い依存を減らすことを目的として、基本的には全結合層・畳み込み層のあとで非線形層の前に行います。
 
 <br>
 

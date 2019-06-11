@@ -1,120 +1,120 @@
 1. **Deep Learning cheatsheet**
 
-&#10230;
+&#10230;深度学习速查表
 
 <br>
 
 2. **Neural Networks**
 
-&#10230;
+&#10230;神经网络
 
 <br>
 
 3. **Neural networks are a class of models that are built with layers. Commonly used types of neural networks include convolutional and recurrent neural networks.**
 
-&#10230;
+&#10230;神经网络是一类以层构筑的模型。常见神经网络类型包括卷积神经网络和循环神经网络。
 
 <br>
 
 4. **Architecture ― The vocabulary around neural networks architectures is described in the figure below:**
 
-&#10230;
+&#10230;架构--关于神经网络架构的语汇如下图所述
 
 <br>
 
 5. **[Input layer, hidden layer, output layer]**
 
-&#10230;
+&#10230;输入层，隐藏层，输出层
 
 <br>
 
 6. **By noting i the ith layer of the network and j the jth hidden unit of the layer, we have:**
 
-&#10230;
+&#10230;记i为第i层网络，记j为该层的第j个隐藏单元我们有：
 
 <br>
 
 7. **where we note w, b, z the weight, bias and output respectively.**
 
-&#10230;
+&#10230;其中我们分别记权重，偏差和输出为w,b和z
 
 <br>
 
 8. **Activation function ― Activation functions are used at the end of a hidden unit to introduce non-linear complexities to the model. Here are the most common ones:**
 
-&#10230;
+&#10230;激活函数-激活函数被用于隐藏单元的最后以为模型引入非线性的复杂度。常见激活函数如下示：
 
 <br>
 
 9. **[Sigmoid, Tanh, ReLU, Leaky ReLU]**
 
-&#10230;
+&#10230;S函数，双曲正切函数，修正线性函数，带泄露的修正线性函数
 
 <br>
 
 10. **Cross-entropy loss ― In the context of neural networks, the cross-entropy loss L(z,y) is commonly used and is defined as follows:**
 
-&#10230;
+&#10230;交叉熵损失--在神经网络中，交叉熵损失 L(z,y) 经常被使用，定义如下：
 
 <br>
 
 11. **Learning rate ― The learning rate, often noted α or sometimes η, indicates at which pace the weights get updated. This can be fixed or adaptively changed. The current most popular method is called Adam, which is a method that adapts the learning rate.**
 
-&#10230;
+&#10230;学习速率 -- 学习速率（常被记为 α 有时也被记为 η），表示了权重被更新的速度。它可以是固定值也可以被适应性地改变。目前最流行的方法叫Adam，这是种调节学习速率的方法。
 
 <br>
 
 12. **Backpropagation ― Backpropagation is a method to update the weights in the neural network by taking into account the actual output and the desired output. The derivative with respect to weight w is computed using chain rule and is of the following form:**
 
-&#10230;
+&#10230;反向传播 -- 反向传播是种在神经网络中更新权重的方法，它考虑了实际的输出和期望中的输出，使用链式法则计算权重的导数的公式如下：
 
 <br>
 
 13. **As a result, the weight is updated as follows:**
 
-&#10230;
+&#10230;因此，权重被更新如下：
 
 <br>
 
 14. **Updating weights ― In a neural network, weights are updated as follows:**
 
-&#10230;
+&#10230;更新权重 -- 在神经网络中，权重被如此更新：
 
 <br>
 
 15. **Step 1: Take a batch of training data.**
 
-&#10230;
+&#10230;第一步：入手一批训练数据
 
 <br>
 
 16. **Step 2: Perform forward propagation to obtain the corresponding loss.**
 
-&#10230;
+&#10230;第二步：进行正向传播以得到对应的损失值
 
 <br>
 
 17. **Step 3: Backpropagate the loss to get the gradients.**
 
-&#10230;
+&#10230;第三步：进行反向传播以得到梯度值
 
 <br>
 
 18. **Step 4: Use the gradients to update the weights of the network.**
 
-&#10230;
+&#10230;第四步：使用梯度来更新网络中的权重
 
 <br>
 
 19. **Dropout ― Dropout is a technique meant at preventing overfitting the training data by dropping out units in a neural network. In practice, neurons are either dropped with probability p or kept with probability 1−p**
 
-&#10230;
+&#10230;丢弃 -- 丢弃是一种防止训练集过拟合的技巧，该技巧会把某些单元丢出神经网络。实际操作中，神经元被以概率p丢弃（或者说以概率 1-p 保留）
 
 <br>
 
 20. **Convolutional Neural Networks**
 
-&#10230;
+&#10230;卷积神经网络
 
 <br>
 

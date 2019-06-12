@@ -72,7 +72,7 @@
 
 **13. [Least squared error, Logistic loss, Hinge loss, Cross-entropy]**
 
-&#10230; []
+&#10230;
 
 <br>
 
@@ -144,7 +144,7 @@
 
 **25. LMS algorithm ― By noting α the learning rate, the update rule of the Least Mean Squares (LMS) algorithm for a training set of m data points, which is also known as the Widrow-Hoff learning rule, is as follows:**
 
-&#10230;
+&#10230; Giải thuật LMS - Bằng việc kí hiệu α là tốc độ học, quy tắc cập nhật của giải thuật Least Mean Squares (LMS) cho tập huấn luyện của m điểm dữ liệu, còn được biết như là quy tắc học Widrow-Hoff, là như sau:
 
 <br>
 
@@ -156,7 +156,7 @@
 
 **27. LWR ― Locally Weighted Regression, also known as LWR, is a variant of linear regression that weights each training example in its cost function by w(i)(x), which is defined with parameter τ∈R as:**
 
-&#10230;
+&#10230; LWR - Hồi quy trọng số cục bộ, còn được biết như là LWR, là biến thể của hồi quy tuyến tính, nó sẽ đánh trọng số cho mỗi ví dụ huấn luyện trong cost function của nó bởi w(i)(x), đươc định nghĩa với tham số τ∈R như sau:
 
 <br>
 
@@ -180,19 +180,19 @@
 
 **31. Remark: there is no closed form solution for the case of logistic regressions.**
 
-&#10230;
+&#10230; Chú ý: không có giải pháp dạng đóng cho trường hợp của hồi quy logistic.
 
 <br>
 
 **32. Softmax regression ― A softmax regression, also called a multiclass logistic regression, is used to generalize logistic regression when there are more than 2 outcome classes. By convention, we set θK=0, which makes the Bernoulli parameter ϕi of each class i equal to:**
 
-&#10230;
+&#10230; Hồi quy Softmax - Hồi quy softmax, còn được gọi là hồi quy logistic đa lớp, được sử dụng để tổng quát hoá hồi quy logistic khi có nhiều hơn 2 lớp đầu ra. Theo quy ước, chúng ta thiết lập θK=0, làm cho tham số Bernoulii ϕi của mỗi lớp i bằng với:
 
 <br>
 
 **33. Generalized Linear Models**
 
-&#10230;
+&#10230; Mô hình tuyến tính tổng quát
 
 <br>
 
@@ -210,13 +210,13 @@
 
 **36. Here are the most common exponential distributions summed up in the following table:**
 
-&#10230;
+&#10230; Ở đây là các phân phối mũ phổ biến nhất được tổng kết ở bảng bên dưới:
 
 <br>
 
 **37. [Distribution, Bernoulli, Gaussian, Poisson, Geometric]**
 
-&#10230;
+&#10230; [Phân phối, Bernoulli, Gaussian, Poisson, Geometric]
 
 <br>
 
@@ -234,13 +234,13 @@
 
 **40. Support Vector Machines**
 
-&#10230;
+&#10230; Máy vector hỗ trợ
 
 <br>
 
 **41: The goal of support vector machines is to find the line that maximizes the minimum distance to the line.**
 
-&#10230;
+&#10230; Mục tiêu của máy vector hỗ trợ là tìm ra dòng tối đa hoá khoảng cách nhỏ nhất tới dòng.
 
 <br>
 
@@ -252,19 +252,19 @@
 
 **43: where (w,b)∈Rn×R is the solution of the following optimization problem:**
 
-&#10230;
+&#10230; với (w,b)∈Rn×R là giải pháp cho vấn đề tối ưu hoá sau đây:
 
 <br>
 
 **44. such that**
 
-&#10230;
+&#10230; như là:
 
 <br>
 
 **45. support vectors**
 
-&#10230;
+&#10230; vector hỗ trợ
 
 <br>
 
@@ -438,13 +438,13 @@
 
 **74. Remark: The higher the parameter k, the higher the bias, and the lower the parameter k, the higher the variance.**
 
-&#10230;
+&#10230; Chú ý: Tham số k cao hơn, bias cao hơn, tham số k thấp hơn, phương sai cao hơn
 
 <br>
 
 **75. Learning Theory**
 
-&#10230;
+&#10230; Lý thuyết học
 
 <br>
 
@@ -472,21 +472,21 @@
 
 <br>
 
-**80. Probably Approximately Correct (PAC) ― PAC is a framework under which numerous results on learning theory were proved, and has the following set of assumptions: **
+**80. Probably Approximately Correct (PAC) ― PAC is a framework under which numerous results on learning theory were proved, and has the following set of assumptions:**
 
 &#10230;
 
 <br>
 
-**81: the training and testing sets follow the same distribution **
+**81: the training and testing sets follow the same distribution**
 
-&#10230;
+&#10230; tập huấn luyện và test có cùng phân phối
 
 <br>
 
 **82. the training examples are drawn independently**
 
-&#10230;
+&#10230; ví dụ huấn luyện được tạo ra độc lập
 
 <br>
 
@@ -522,7 +522,7 @@
 
 **88. [Introduction, Type of prediction, Type of model]**
 
-&#10230;
+&#10230; [Giới thiệu, Loại dự đoán, Loại mô hình]
 
 <br>
 

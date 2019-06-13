@@ -12,7 +12,7 @@
 
 **3. Neural networks are a class of models that are built with layers. Commonly used types of neural networks include convolutional and recurrent neural networks.**
 
-&#10230; Mạng Neural là 1 lớp của các models được xây dựng với các tầng (layers). Các loại mạng Neural thường được sử dụng bao gồm: Mạng Neural tích chập (Convolutional Neural Networks) và Mạng Neural hồi quy (Recurrent Neural Networks).
+&#10230; Mạng Neural là 1 lớp của các mô hình (models) được xây dựng với các tầng (layers). Các loại mạng Neural thường được sử dụng bao gồm: Mạng Neural tích chập (Convolutional Neural Networks) và Mạng Neural hồi quy (Recurrent Neural Networks).
 
 <br>
 
@@ -30,7 +30,7 @@
 
 **6. By noting i the ith layer of the network and j the jth hidden unit of the layer, we have:**
 
-&#10230; Bằng việc kí hiệu i là tầng thứ i của mạng, j là đơn vị ẩn (hidden unit) thứ j của tầng, ta có:
+&#10230; Bằng việc kí hiệu i là tầng thứ i của mạng, j là hidden unit (đơn vị ẩn) thứ j của tầng, ta có:
 
 <br>
 
@@ -54,7 +54,7 @@
 
 **10. Cross-entropy loss ― In the context of neural networks, the cross-entropy loss L(z,y) is commonly used and is defined as follows:**
 
-&#10230; Mất mát (loss) Cross-entropy - Trong bối cảnh của mạng neural, mất mát cross-entropy L(z, y) thường được sử dụng và định nghĩa như sau:
+&#10230; Lỗi (loss) Cross-entropy - Trong bối cảnh của mạng neural, hàm lỗi cross-entropy L(z, y) thường được sử dụng và định nghĩa như sau:
 
 <br>
 
@@ -90,13 +90,13 @@
 
 **16. Step 2: Perform forward propagation to obtain the corresponding loss.**
 
-&#10230; Bước 2: Thực thi lan truyền xuôi (forward propagation) để lấy được mất mát (loss) tương ứng.
+&#10230; Bước 2: Thực thi lan truyền tiến (forward propagation) để lấy được lỗi (loss) tương ứng.
 
 <br>
 
 **17. Step 3: Backpropagate the loss to get the gradients.**
 
-&#10230; Bước 3: Lan truyền ngược mất mát để lấy được gradients (độ dốc).
+&#10230; Bước 3: Lan truyền ngược lỗi để lấy được gradients (độ dốc).
 
 <br>
 
@@ -126,13 +126,13 @@
 
 **22. Batch normalization ― It is a step of hyperparameter γ,β that normalizes the batch {xi}. By noting μB,σ2B the mean and variance of that we want to correct to the batch, it is done as follows:**
 
-&#10230; Batch normalization (chuẩn hoá) - Đây là bước mà các hyperparameter γ,β chuẩn hoá batch (mẻ) {xi}. Bằng việc kí hiệu μB,σ2B là giá trị trung bình, phương sai mà ta muốn gán cho batch, nó được thực hiện như sau:
+&#10230; Batch normalization (chuẩn hoá) - Đây là bước mà các hyperparameter γ,β chuẩn hoá batch {xi}. Bằng việc kí hiệu μB,σ2B là giá trị trung bình, phương sai mà ta muốn gán cho batch, nó được thực hiện như sau:
 
 <br>
 
 **23. It is usually done after a fully connected/convolutional layer and before a non-linearity layer and aims at allowing higher learning rates and reducing the strong dependence on initialization.**
 
-&#10230; Nó thường được hoàn thành sau fully connected/convolutional layer và trước non-linearity layer và mục tiêu là cho phép tốc độ học cao hơn cũng như giảm đi sự phụ thuộc mạnh mẽ vào việc khởi tạo.
+&#10230; Nó thường được tính sau fully connected/convolutional layer và trước non-linearity layer và mục tiêu là cho phép tốc độ học cao hơn cũng như giảm đi sự phụ thuộc mạnh mẽ vào việc khởi tạo.
 
 <br>
 
@@ -162,13 +162,13 @@
 
 **28. LSTM ― A long short-term memory (LSTM) network is a type of RNN model that avoids the vanishing gradient problem by adding 'forget' gates.**
 
-&#10230; LSTM - Mạng bộ nhớ ngắn dài (LSTM) là 1 loại RNN model tránh vấn đề vanishing gradient (độ dốc biến mất đột ngột) bằng cách thêm vào cổng 'quên' ('forget' gates).
+&#10230; LSTM - Mạng bộ nhớ ngắn dài (LSTM) là 1 loại RNN model tránh vấn đề vanishing gradient (gradient biến mất đột ngột) bằng cách thêm vào cổng 'quên' ('forget' gates).
 
 <br>
 
 **29. Reinforcement Learning and Control**
 
-&#10230; Reinforcement Learning và Control
+&#10230; Reinforcement Learning (Học tăng cường) và điều khiển
 
 <br>
 
@@ -216,7 +216,7 @@
 
 **37. R:S×A⟶R or R:S⟶R is the reward function that the algorithm wants to maximize**
 
-&#10230; R:S×A⟶R hoặc R:S⟶R là reward function (hàm reward) mà giải thuật muốn tối đa hoá.
+&#10230; R:S×A⟶R hoặc R:S⟶R là reward function (hàm định nghĩa phần thưởng) mà giải thuật muốn tối đa hoá.
 
 <br>
 
@@ -306,7 +306,7 @@
 
 **52. [Convolutional Neural Networks, Convolutional layer, Batch normalization]**
 
-&#10230; [Mạng neural tích chập, Tầng chập, Chuẩn hoá lô (batch)]
+&#10230; [Mạng neural tích chập, Tầng chập, Chuẩn hoá batch]
 
 <br>
 

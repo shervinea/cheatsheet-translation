@@ -6,13 +6,13 @@
 
 **2. Classification metrics**
 
-&#10230; Chuẩn đo phân loại
+&#10230; Độ đo phân loại
 
 <br>
 
 **3. In a context of a binary classification, here are the main metrics that are important to track in order to assess the performance of the model.**
 
-&#10230; Trong ngữ cảnh của phân loại nhị phân (binary classification), ở đây là các chuẩn đo chính, chúng khá quan trọng để theo dõi (track), qua đó đánh giá hiệu năng của mô hình (model)
+&#10230; Trong ngữ cảnh của phân loại nhị phân (binary classification), ở đây là các độ đo chính, chúng khá quan trọng để theo dõi (track), qua đó đánh giá hiệu năng của mô hình (model)
 
 <br>
 
@@ -30,13 +30,13 @@
 
 **6. Main metrics ― The following metrics are commonly used to assess the performance of classification models:**
 
-&#10230; Chuẩn đo chính - Các chuẩn đo sau thường được sử dụng để đánh giá hiệu năng của mô hình phân loại:
+&#10230; Độ đo chính - Các độ đo sau thường được sử dụng để đánh giá hiệu năng của mô hình phân loại:
 
 <br>
 
 **7. [Metric, Formula, Interpretation]**
 
-&#10230; [Chuẩn đo, Công thức, Diễn giải]
+&#10230; [Độ đo, Công thức, Diễn giải]
 
 <br>
 
@@ -48,7 +48,7 @@
 
 **9. How accurate the positive predictions are**
 
-&#10230; Làm cách nào để xác thực các dự đoán có chính xác hay không
+&#10230; Các dự đoán positive chính xác bao nhiêu
 
 <br>
 
@@ -66,19 +66,19 @@
 
 **12. Hybrid metric useful for unbalanced classes**
 
-&#10230; Chuẩn đo Hybrid hữu ích cho các lớp không cân bằng (unbalanced classes)
+&#10230; Độ đo Hybrid hữu ích cho các lớp không cân bằng (unbalanced classes)
 
 <br>
 
 **13. ROC ― The receiver operating curve, also noted ROC, is the plot of TPR versus FPR by varying the threshold. These metrics are are summed up in the table below:**
 
-&#10230; ROC - Đường cong hoạt động nhận, được kí hiệu là ROC, là minh hoạ của TPR với FPR bằng việc thay đổi ngưỡng (threshold). Các chuẩn đo này được tổng kết ở bảng bên dưới:
+&#10230; ROC - Đường cong hoạt động nhận, được kí hiệu là ROC, là minh hoạ của TPR với FPR bằng việc thay đổi ngưỡng (threshold). Các độ đo này được tổng kết ở bảng bên dưới:
 
 <br>
 
 **14. [Metric, Formula, Equivalent]**
 
-&#10230; [Chuẩn đo, Công thức, Tương đương]
+&#10230; [Độ đo, Công thức, Tương đương]
 
 <br>
 
@@ -96,7 +96,7 @@
 
 **17. Basic metrics ― Given a regression model f, the following metrics are commonly used to assess the performance of the model:**
 
-&#10230; Chuẩn đo cơ bản - Cho trước mô hình hồi quy f, chuẩn đo sau được sử dụng phổ biến để đánh giá hiệu năng của mô hình: 
+&#10230; Độ đo cơ bản - Cho trước mô hình hồi quy f, độ đo sau được sử dụng phổ biến để đánh giá hiệu năng của mô hình: 
 
 <br>
 
@@ -114,7 +114,7 @@
 
 **20. Main metrics ― The following metrics are commonly used to assess the performance of regression models, by taking into account the number of variables n that they take into consideration:**
 
-&#10230; Chuẩn đo chính - Chuẩn đo sau đây thường được sử dụng để đánh giá hiệu năng của mô hình hồi quy, bằng cách tính số lượng các biến n mà chuẩn đo đó sẽ cân nhắc:
+&#10230; Độ đo chính - Độ đo sau đây thường được sử dụng để đánh giá hiệu năng của mô hình hồi quy, bằng cách tính số lượng các biến n mà độ đo đó sẽ cân nhắc:
 
 <br>
 
@@ -174,7 +174,7 @@
 
 **30. [Training on k−1 folds and assessment on the remaining one, Training on n−p observations and assessment on the p remaining ones]**
 
-&#10230; [Huấn luyện trên k-1 folds mà đánh giá trên 1 phần còn lại, Huấn luyện trên n-p thể hiện và đánh giá trên p thể hiện còn lại]
+&#10230; [Huấn luyện trên k-1 phần mà đánh giá trên 1 phần còn lại, Huấn luyện trên n-p phần và đánh giá trên p phần còn lại]
 
 <br>
 
@@ -186,13 +186,13 @@
 
 **32. The most commonly used method is called k-fold cross-validation and splits the training data into k folds to validate the model on one fold while training the model on the k−1 other folds, all of this k times. The error is then averaged over the k folds and is named cross-validation error.**
 
-&#10230; Phương thức hay được sử dụng đươcj gọi là k-fold cross-validation và chia dữ liệu huấn luyện thành k phần, đánh giá mô hình trên 1 phần trong khi huấn luyện mô hình trên k-1 phần còn lại, tất cả k lần. Lỗi sau đó được tính trung bình trên k phần và được đặt tên là cross-validation error.
+&#10230; Phương thức hay được sử dụng được gọi là k-fold cross-validation và chia dữ liệu huấn luyện thành k phần, đánh giá mô hình trên 1 phần trong khi huấn luyện mô hình trên k-1 phần còn lại, tất cả k lần. Lỗi sau đó được tính trung bình trên k phần và được đặt tên là cross-validation error.
 
 <br>
 
 **33. Regularization ― The regularization procedure aims at avoiding the model to overfit the data and thus deals with high variance issues. The following table sums up the different types of commonly used regularization techniques:**
 
-&#10230; Chính quy hoá - Mục đích của thủ tục chính quy hoá là tránh cho mô hình bị overfit với dữ liệu, do đó gặp phải vấn đề phương sai lớn. Bảng sau đây sẽ tổng kết các loại khác nhau của kĩ thuật chính quy hoá hay được sử dụng:
+&#10230; Chuẩn hoá - Mục đích của thủ tục chính quy hoá là tránh cho mô hình bị overfit với dữ liệu, do đó gặp phải vấn đề phương sai lớn. Bảng sau đây sẽ tổng kết các loại khác nhau của kĩ thuật chính quy hoá hay được sử dụng:
 
 <br>
 
@@ -210,25 +210,25 @@
 
 **36. Bias ― The bias of a model is the difference between the expected prediction and the correct model that we try to predict for given data points.**
 
-&#10230; Bias - Bias của mô hình là sự khác biệt giữa giá trị dự đoán mong đợi và mô hình chính xác mà chúng ta cố gắng để dự đoán với các điểm dữ liệu cho trước.
+&#10230; Bias - Bias của mô hình là sai số giữa dự đoán mong đợi và dự đoán của mô hình trên các điểm dữ liệu cho trước.
 
 <br>
 
 **37. Variance ― The variance of a model is the variability of the model prediction for given data points.**
 
-&#10230; Phương sai - Phương sai của một mô hình là sự thay đổi của kết quả dự đoán của mô hình tuỳ theo điểm dữ liệu cho trước.
+&#10230; Phương sai - Phương sai của một mô hình là sự thay đổi dự đoán của mô hình trên các điểm dữ liệu cho trước.
 
 <br>
 
 **38. Bias/variance tradeoff ― The simpler the model, the higher the bias, and the more complex the model, the higher the variance.**
 
-&#10230; Thay đổi/ Thay thế Bias/phương sai - Một mô hình đơn giản hơn, bias lớn hơn, và mô hình phức tạp hơn, phương sai cao hơn.
+&#10230; Thay đổi/ Thay thế Bias/phương sai - Mô hình càng đơn giản bias càng lớn, mô hình càng phức tạp phương sai càng cao.
 
 <br>
 
 **39. [Symptoms, Regression illustration, classification illustration, deep learning illustration, possible remedies]**
 
-&#10230; [Symptoms, Minh hoạ hồi quy, Minh hoạ phân loại, Minh hoạ deep learning (học sâu), Biện pháp khắc phục khả dĩ]
+&#10230; [Symptoms, Minh hoạ hồi quy, Minh hoạ phân loại, Minh hoạ deep learning (học sâu), Biện pháp khắc phục có thể dùng]
 
 <br>
 
@@ -240,7 +240,7 @@
 
 **41. [Complexify model, Add more features, Train longer, Perform regularization, Get more data]**
 
-&#10230; [Mô hình phức tạp, Thêm nhiều đặc trưng, Huấn luyện lâu hơn, Thực thi chính quy hoá, Lấy nhiều dữ liệu hơn]
+&#10230; [Mô hình phức tạp, Thêm nhiều đặc trưng, Huấn luyện lâu hơn, Thực hiện chuẩn hóa, Lấy nhiều dữ liệu hơn]
 
 <br>
 
@@ -264,19 +264,19 @@
 
 **45. [Classification metrics, confusion matrix, accuracy, precision, recall, F1 score, ROC]**
 
-&#10230; [Chuẩn đo phân loại, Ma trận confusion, chính xác, dự đoán, recall, Điểm F1, ROC]
+&#10230; [Độ đo phân loại, Ma trận confusion, chính xác, dự đoán, recall, Điểm F1, ROC]
 
 <br>
 
 **46. [Regression metrics, R squared, Mallow's CP, AIC, BIC]**
 
-&#10230; [Chuẩn đo hồi quy, Bình phương R, CP của Mallow, AIC, BIC]
+&#10230; [Độ đo hồi quy, Bình phương R, CP của Mallow, AIC, BIC]
 
 <br>
 
 **47. [Model selection, cross-validation, regularization]**
 
-&#10230; [Lựa chọn mô hình, cross-validation, Chính quy hoá (regularization)]
+&#10230; [Lựa chọn mô hình, cross-validation, Chuẩn hoá (regularization)]
 
 <br>
 

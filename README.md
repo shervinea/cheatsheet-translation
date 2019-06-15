@@ -34,6 +34,22 @@ The translation process of each cheatsheet contains two steps:
 Please make sure to propose the translation of **only one** cheatsheet per pull request -- it simplifies a lot the review process.
 
 ## Progression 
+### CS 221 (Artificial Intelligence)
+| |Reflex|States|Variables|Logic|
+|:---|:---:|:---:|:---:|:---:|
+|**Deutsch**|not started|not started|not started|not started|
+|**Español**|not started|not started|not started|not started|
+|**فارسی**|not started|not started|not started|not started|
+|**Français**|not started|not started|not started|not started|
+|**עִבְרִית**|not started|not started|not started|not started|
+|**Italiano**|not started|not started|not started|not started|
+|**日本語**|not started|not started|not started|not started|
+|**한국어**|not started|not started|not started|not started|
+|**Português**|not started|not started|not started|not started|
+|**Türkçe**|not started|not started|not started|not started|
+|**Tiếng Việt**|not started|not started|not started|not started|
+|**中文**|not started|not started|not started|not started|
+
 ### CS 229 (Machine Learning)
 | |Deep learning|Supervised|Unsupervised|ML tips|Probabilities|Algebra|
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|

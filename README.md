@@ -35,7 +35,7 @@ Please make sure to propose the translation of **only one** cheatsheet per pull 
 
 ## Progression 
 ### CS 221 (Artificial Intelligence)
-| |Reflex|States|Variables|Logic|
+| |Reflex models|States models|Variables models|Logic models|
 |:---|:---:|:---:|:---:|:---:|
 |**Deutsch**|not started|not started|not started|not started|
 |**Español**|not started|not started|not started|not started|
@@ -76,7 +76,7 @@ Please make sure to propose the translation of **only one** cheatsheet per pull 
 |**中文**|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/12)|done|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/48)|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/7)|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/73)|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/72)|
 
 ### CS 230 (Deep Learning)
-| |Convolutional Neural Networks|Recurrent Neural Networks|DL tips|
+| |Convolutional Neural Networks|Recurrent Neural Networks|Deep Learning tips|
 |:---|:---:|:---:|:---:|
 |**العَرَبِيَّة**|not started|not started|not started|
 |**Català**|not started|not started|not started|

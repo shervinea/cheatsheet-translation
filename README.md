@@ -40,7 +40,7 @@ Please make sure to propose the translation of **only one** cheatsheet per pull 
 |**Deutsch**|not started|not started|not started|not started|
 |**Español**|not started|not started|not started|not started|
 |**فارسی**|not started|not started|not started|not started|
-|**Français**|not started|not started|not started|not started|
+|**Français**|done|done|done|done|
 |**עִבְרִית**|not started|not started|not started|not started|
 |**Italiano**|not started|not started|not started|not started|
 |**日本語**|not started|not started|not started|not started|

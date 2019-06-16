@@ -35,7 +35,7 @@ Please make sure to propose the translation of **only one** cheatsheet per pull 
 
 ## Progression 
 ### CS 221 (Artificial Intelligence)
-| |Reflex models|States models|Variables models|Logic models|
+| |[Reflex models](https://github.com/shervinea/cheatsheet-translation/blob/master/template/reflex-models.md)|States models|Variables models|Logic models|
 |:---|:---:|:---:|:---:|:---:|
 |**Deutsch**|not started|not started|not started|not started|
 |**Español**|not started|not started|not started|not started|
@@ -51,7 +51,7 @@ Please make sure to propose the translation of **only one** cheatsheet per pull 
 |**中文**|not started|not started|not started|not started|
 
 ### CS 229 (Machine Learning)
-| |Deep learning|Supervised|Unsupervised|ML tips|Probabilities|Algebra|
+| |[Deep learning](https://github.com/shervinea/cheatsheet-translation/blob/master/template/cheatsheet-deep-learning.md)|[Supervised](https://github.com/shervinea/cheatsheet-translation/blob/master/template/cheatsheet-supervised-learning.md)|[Unsupervised](https://github.com/shervinea/cheatsheet-translation/blob/master/template/cheatsheet-unsupervised-learning.md)|[ML tips](https://github.com/shervinea/cheatsheet-translation/blob/master/template/cheatsheet-machine-learning-tips-and-tricks.md)|[Probabilities](https://github.com/shervinea/cheatsheet-translation/blob/master/template/refresher-probability.md)|[Algebra](https://github.com/shervinea/cheatsheet-translation/blob/master/template/refresher-linear-algebra.md)|
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|
 |**العَرَبِيَّة**|done|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/87)|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/88)|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/83)|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/89)|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/85)|
 |**Català**|not started|not started|not started|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/47)|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/47)|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/47)|
@@ -76,7 +76,7 @@ Please make sure to propose the translation of **only one** cheatsheet per pull 
 |**中文**|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/12)|done|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/48)|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/7)|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/73)|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/72)|
 
 ### CS 230 (Deep Learning)
-| |Convolutional Neural Networks|Recurrent Neural Networks|Deep Learning tips|
+| |[Convolutional Neural Networks](https://github.com/shervinea/cheatsheet-translation/blob/master/template/convolutional-neural-networks.md)|[Recurrent Neural Networks](https://github.com/shervinea/cheatsheet-translation/blob/master/template/recurrent-neural-networks.md)|[Deep Learning tips](https://github.com/shervinea/cheatsheet-translation/blob/master/template/deep-learning-tips-and-tricks.md)|
 |:---|:---:|:---:|:---:|
 |**العَرَبِيَّة**|not started|not started|not started|
 |**Català**|not started|not started|not started|

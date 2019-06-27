@@ -144,28 +144,28 @@
 
 **21. Epoch ― In the context of training a model, epoch is a term used to refer to one iteration where the model sees the whole training set to update its weights.**
 
-&#10230;エポック - モデル学習においては、エポックとはモデルが全データで学習した一つのイテレーションのことを指します。
+&#10230;エポック - モデル学習においてエポックとは学習の繰り返しの中の1回を指す用語で、1エポックの間にモデルは全学習データからその重みを更新します。
 
 <br>
 
 
 **22. Mini-batch gradient descent ― During the training phase, updating weights is usually not based on the whole training set at once due to computation complexities or one data point due to noise issues. Instead, the update step is done on mini-batches, where the number of data points in a batch is a hyperparameter that we can tune.**
 
-&#10230;ミニバッチの勾配降下法 - 学習時には、計算量が多いため、基本的には全データに基づいて重みを更新しません。また、ノイズの影響のため、1個のデータでも更新しません。それよりむしろ、ミニバッチで重みを更新し、ミニバッチの大きさはチューニングできるハイパーパラメータの一つです。	
+&#10230;ミニバッチ勾配降下法 - 学習段階では、計算が複雑になりすぎるため通常は全データを一度に使って重みを更新することはありません。またノイズが問題になるため1つのデータポイントだけを使って重みを更新することもありません。代わりに、更新はミニバッチごとに行われます。各バッチに含まれるデータポイントの数は調整可能なハイパーパラメータです。
 
 <br>
 
 
 **23. Loss function ― In order to quantify how a given model performs, the loss function L is usually used to evaluate to what extent the actual outputs y are correctly predicted by the model outputs z.**
 
-&#10230;損失関数 - モデルの精度・良さを数値化するために、基本的には損失関数Lでモデルの出力zがどれくらい正解zを推測するか評価します。
+&#10230;損失関数 - 得られたモデルの性能を数値化するために、モデルの出力zが実際の出力yをどの程度正確に予測できているかを評価する損失関数Lが通常使われます。
 
 <br>
 
 
 **24. Cross-entropy loss ― In the context of binary classification in neural networks, the cross-entropy loss L(z,y) is commonly used and is defined as follows:**
 
-&#10230;交差エントロピー誤差 - ニューラルネットワークにおける二項分類では、交差エントロピー誤差L(z,y)は多用されており、以下のように定義されています。
+&#10230;交差エントロピー誤差 - ニューラルネットワークにおける二項分類では、交差エントロピー誤差L(z,y)が一般的に使用されており、以下のように定義されています。
 
 <br>
 
@@ -179,7 +179,7 @@
 
 **26. Backpropagation ― Backpropagation is a method to update the weights in the neural network by taking into account the actual output and the desired output. The derivative with respect to each weight w is computed using the chain rule.**
 
-&#10230;誤差逆伝播法 - 実際の出力と期待の出力の差に基づいてニューラルネットワークの重みを更新する手法です。チェーンルールを用いて各重みで微分をとります。
+&#10230;誤差逆伝播法 - 実際の出力と期待される出力の差に基づいてニューラルネットワークの重みを更新する手法です。各重みwに関する微分は連鎖律を用いて計算されます。
 
 <br>
 

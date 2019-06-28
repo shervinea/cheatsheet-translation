@@ -6,13 +6,13 @@
 
 **2. Neural Networks**
 
-&#10230;
+&#10230; Нейронные сети
 
 <br>
 
 **3. Neural networks are a class of models that are built with layers. Commonly used types of neural networks include convolutional and recurrent neural networks.**
 
-&#10230;
+&#10230; Нейронные сети - это класс моделей, строящихся с помощью слоев. Широко используемые виды нейронных сетей включают в себя сверточные и рекуррентные нейронные сети.
 
 <br>
 
@@ -24,7 +24,7 @@
 
 **5. [Input layer, hidden layer, output layer]**
 
-&#10230;
+&#10230; Входной слой, скрытый слой, выходной слой
 
 <br>
 
@@ -78,31 +78,31 @@
 
 **14. Updating weights ― In a neural network, weights are updated as follows:**
 
-&#10230;
+&#10230; Настройка весов - В нейронной сети настройка весов происходит следующим образом:
 
 <br>
 
 **15. Step 1: Take a batch of training data.**
 
-&#10230;
+&#10230; 
 
 <br>
 
 **16. Step 2: Perform forward propagation to obtain the corresponding loss.**
 
-&#10230;
+&#10230; Шаг 2: Выполним прямой проход, чтобы получить соответсвующую ошибку.
 
 <br>
 
 **17. Step 3: Backpropagate the loss to get the gradients.**
 
-&#10230;
+&#10230; Шаг 3: Распространим ошибку обратно, чтобы получить градиенты.
 
 <br>
 
 **18. Step 4: Use the gradients to update the weights of the network.**
 
-&#10230;
+&#10230; Шаг 4: Используем градиенты, чтобы настроить веса сети.
 
 <br>
 
@@ -114,7 +114,7 @@
 
 **20. Convolutional Neural Networks**
 
-&#10230;
+&#10230; Сверточные нейронные сети
 
 <br>
 
@@ -138,7 +138,7 @@
 
 **24. Recurrent Neural Networks**
 
-&#10230;
+&#10230; Рекуррентные нейронные сети
 
 <br>
 
@@ -180,37 +180,37 @@
 
 **31. Definitions**
 
-&#10230;
+&#10230; Определения
 
 <br>
 
 **32. Markov decision processes ― A Markov decision process (MDP) is a 5-tuple (S,A,{Psa},γ,R) where:**
 
-&#10230;
+&#10230; Марковский процесс принятия решений - Марковский процесс принятия решений (MDP) - это кортеж из 5 составляющих (S,A,{Psa},γ,R), где:
 
 <br>
 
 **33. S is the set of states**
 
-&#10230;
+&#10230; S - множество всех состояний
 
 <br>
 
 **34. A is the set of actions**
 
-&#10230;
+&#10230; A - множество всех действий
 
 <br>
 
 **35. {Psa} are the state transition probabilities for s∈S and a∈A**
 
-&#10230;
+&#10230; {Psa} - вероятности переходов для состояний и дейстквий, где s∈S и a∈A
 
 <br>
 
 **36. γ∈[0,1[ is the discount factor**
 
-&#10230;
+&#10230; γ∈[0,1) - коэффициент дисконтирования
 
 <br>
 
@@ -222,7 +222,7 @@
 
 **38. Policy ― A policy π is a function π:S⟶A that maps states to actions.**
 
-&#10230;
+&#10230; Стратегия - Стратегия π - это фукнция π:S⟶A, сопоставляющая множество состояний множеству действий.
 
 <br>
 

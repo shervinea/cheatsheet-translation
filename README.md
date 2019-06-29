@@ -1,6 +1,6 @@
 # Translation of VIP Cheatsheets
 ## Goal
-This repository aims at collaboratively translating our [Machine Learning](https://github.com/afshinea/stanford-cs-229-machine-learning) and [Deep Learning](https://github.com/afshinea/stanford-cs-230-deep-learning) cheatsheets into a ton of languages, so that this content can be enjoyed by anyone from any part of the world!
+This repository aims at collaboratively translating our [Machine Learning](https://github.com/afshinea/stanford-cs-229-machine-learning), [Deep Learning](https://github.com/afshinea/stanford-cs-230-deep-learning) and [Artificial Intelligence](https://github.com/afshinea/stanford-cs-221-artificial-intelligence) cheatsheets into a ton of languages, so that this content can be enjoyed by anyone from any part of the world!
 
 ## Contribution guidelines
 The translation process of each cheatsheet contains two steps:

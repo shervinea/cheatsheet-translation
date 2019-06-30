@@ -1,3 +1,7 @@
+**Unsupervised Learning translation** [[webpage]](https://stanford.edu/~shervine/teaching/cs-229/cheatsheet-unsupervised-learning)
+
+<br>
+
 **1. Unsupervised Learning cheatsheet**
 
 &#10230;

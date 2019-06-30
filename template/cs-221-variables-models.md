@@ -1,4 +1,4 @@
-**Variables-based models translation**
+**Variables-based models translation** [[webpage]](https://stanford.edu/~shervine/teaching/cs-221/cheatsheet-variables-models)
 
 <br>
 

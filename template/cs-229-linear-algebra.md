@@ -1,3 +1,7 @@
+**Linear Algebra and Calculus translation** [[webpage]](https://stanford.edu/~shervine/teaching/cs-229/refresher-algebra-calculus)
+
+<br>
+
 **1. Linear Algebra and Calculus refresher**
 
 &#10230;

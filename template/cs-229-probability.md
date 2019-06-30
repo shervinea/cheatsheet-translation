@@ -1,3 +1,7 @@
+**Probabilities and Statistics translation** [[webpage]](https://stanford.edu/~shervine/teaching/cs-229/refresher-probabilities-statistics)
+
+<br>
+
 **1. Probabilities and Statistics refresher**
 
 &#10230;

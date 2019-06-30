@@ -1,8 +1,8 @@
-**Reflex-based models translation**
+**Reflex-based models translation** [[webpage]](https://stanford.edu/~shervine/teaching/cs-221/cheatsheet-reflex-models)
 
 <br>
 
-**1. Reflex-based models with Machine Learning** [[webpage]](https://stanford.edu/~shervine/teaching/cs-221/cheatsheet-reflex-models)
+**1. Reflex-based models with Machine Learning**
 
 &#10230;
 

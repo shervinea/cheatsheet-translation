@@ -1,3 +1,5 @@
+**Deep learning translation** [[webpage]](https://stanford.edu/~shervine/teaching/cs-229/cheatsheet-deep-learning)
+
 **1. Deep Learning cheatsheet**
 
 &#10230;

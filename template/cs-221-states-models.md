@@ -1,4 +1,4 @@
-**States-based models translation**
+**States-based models translation** [[webpage]](https://stanford.edu/~shervine/teaching/cs-221/cheatsheet-states-models)
 
 <br>
 

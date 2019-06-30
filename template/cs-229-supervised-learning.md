@@ -1,3 +1,7 @@
+**Supervised Learning translation** [[webpage]](https://stanford.edu/~shervine/teaching/cs-229/cheatsheet-supervised-learning)
+
+<br>
+
 **1. Supervised Learning cheatsheet**
 
 &#10230;

@@ -1,4 +1,4 @@
-**Convolutional Neural Networks translation**
+**Convolutional Neural Networks translation** [[webpage]](https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-convolutional-neural-networks)
 
 <br>
 

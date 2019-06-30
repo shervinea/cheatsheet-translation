@@ -1,4 +1,4 @@
-**Deep Learning Tips and Tricks translation**
+**Deep Learning Tips and Tricks translation** [[webpage]](https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-deep-learning-tips-and-tricks)
 
 <br>
 

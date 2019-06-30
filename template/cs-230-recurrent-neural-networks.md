@@ -1,4 +1,4 @@
-**Recurrent Neural Networks translation**
+**Recurrent Neural Networks translation** [[webpage]](https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-recurrent-neural-networks)
 
 <br>
 

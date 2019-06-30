@@ -1,3 +1,7 @@
+**Machine Learning tips and tricks translation** [[webpage]](https://stanford.edu/~shervine/teaching/cs-229/cheatsheet-machine-learning-tips-and-tricks)
+
+<br>
+
 **1. Machine Learning tips and tricks cheatsheet**
 
 &#10230;

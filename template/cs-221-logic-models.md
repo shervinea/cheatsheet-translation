@@ -2,7 +2,7 @@
 
 <br>
 
-**1. Logic-based models with propositional and first-order logic **
+**1. Logic-based models with propositional and first-order logic**
 
 &#10230;
 

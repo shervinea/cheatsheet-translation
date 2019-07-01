@@ -33,9 +33,9 @@ The translation process of each cheatsheet contains two steps:
 ### Important note
 Please make sure to propose the translation of **only one** cheatsheet per pull request -- it simplifies a lot the review process.
 
-## Progression 
+## Progression
 ### CS 221 (Artificial Intelligence)
-| |[Reflex models](https://github.com/shervinea/cheatsheet-translation/blob/master/template/cs-221-reflex-models.md)|[States models](https://github.com/shervinea/cheatsheet-translation/blob/master/template/cs-221-states-models.md)|[Variables models](https://github.com/shervinea/cheatsheet-translation/blob/master/template/cs-221-variables-models.md)|Logic models|
+| |[Reflex models](https://github.com/shervinea/cheatsheet-translation/blob/master/template/cs-221-reflex-models.md)|[States models](https://github.com/shervinea/cheatsheet-translation/blob/master/template/cs-221-states-models.md)|[Variables models](https://github.com/shervinea/cheatsheet-translation/blob/master/template/cs-221-variables-models.md)|[Logic models](https://github.com/shervinea/cheatsheet-translation/blob/master/template/cs-221-logic-models.md)|
 |:---|:---:|:---:|:---:|:---:|
 |**Deutsch**|not started|not started|not started|not started|
 |**Español**|not started|not started|not started|not started|

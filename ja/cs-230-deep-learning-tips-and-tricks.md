@@ -200,14 +200,14 @@
 
 **29. [Step 1: Take a batch of training data and perform forward propagation to compute the loss, Step 2: Backpropagate the loss to get the gradient of the loss with respect to each weight, Step 3: Use the gradients to update the weights of the network.]**
 
-&#10230;ステップ１：訓練データのバッチでフォワードプロパゲーションで損失を求めます。ステップ２：逆伝播法を用いてそれぞれの重みに対する損失の勾配を求めます。ステップ３：求めた勾配を用いてネットワークの重みを更新します。	
+&#10230;ステップ１：訓練データのバッチを用いて順伝播で損失を計算します。ステップ２：損失を逆伝播させて各重みに関する損失の勾配を求めます。ステップ３：求めた勾配を用いてネットワークの重みを更新します。
 
 <br>
 
 
 **30. [Forward propagation, Backpropagation, Weights update]**
 
-&#10230;伝播法、逆伝播法、重みの更新
+&#10230;順伝播、逆伝播、重みの更新
 
 <br>
 
@@ -242,21 +242,21 @@
 
 **35. [Training size, Illustration, Explanation]**
 
-&#10230;トレーニングサイズ、イラストレーション、解説
+&#10230;学習サイズ、図、解説
 
 <br>
 
 
 **36. [Small, Medium, Large]**
 
-&#10230;スモール、ミディアム、ラージ
+&#10230;小、中、大
 
 <br>
 
 
 **37. [Freezes all layers, trains weights on softmax, Freezes most layers, trains weights on last layers and softmax, Trains weights on layers and softmax by initializing weights on pre-trained ones]**
 
-&#10230;全層を凍結、softmaxで重みを学習、ほぼ全部の層を凍結、最終層とsoftmaxで学習、学習済みの重みで初期化することで層とsoftmaxで学習
+&#10230;全層を凍結し、softmaxの重みを学習させる、大半の層を凍結し、最終層とsoftmaxの重みを学習させる、学習済みの重みで初期化して各層とsoftmaxの重みを学習させる
 
 <br>
 
@@ -278,7 +278,7 @@
 
 **40. Adaptive learning rates ― Letting the learning rate vary when training a model can reduce the training time and improve the numerical optimal solution. While Adam optimizer is the most commonly used technique, others can also be useful. They are summed up in the table below:**
 
-&#10230;適応学習率法 - モデルを学習させる際に学習率を変動させることで、学習時間の短縮や精度の向上につながります。Adamがもっとも一般的に使用されている手法ではあるが、他の手法も役立つことがあります。それらの手法を下記の表にまとめました。
+&#10230;適応学習率法 - モデルを学習させる際に学習率を変動させると、学習時間の短縮や精度の向上につながります。Adamがもっとも一般的に使用されている手法ですが、他の手法も役立つことがあります。それらの手法を下記の表にまとめました。
 
 <br>
 
@@ -292,21 +292,21 @@
 
 **42. [Momentum, Dampens oscillations, Improvement to SGD, 2 parameters to tune]**
 
-&#10230;運動量、振動の減少、SGDの改良、チューニングするパラメータが2つある
+&#10230;Momentum（運動量）、振動を抑制する、SGDの改良、チューニングするパラメータは2つ
 
 <br>
 
 
 **43. [RMSprop, Root Mean Square propagation, Speeds up learning algorithm by controlling oscillations]**
 
-&#10230;RMSprop, 二条平均平方根のプロパゲーション、振動をコントロールすることで学習アルゴリズムを高速化する
+&#10230;RMSprop, 二乗平均平方根のプロパゲーション、振動をコントロールすることで学習アルゴリズムを高速化する
 
 <br>
 
 
 **44. [Adam, Adaptive Moment estimation, Most popular method, 4 parameters to tune]**
 
-&#10230;Adam, Adaptive Moment estimation, もっとも人気のある手法、チューニングするパラメータが4つある
+&#10230;Adam, Adaptive Moment estimation, もっとも人気のある手法、チューニングするパラメータは4つ
 
 <br>
 
@@ -320,14 +320,14 @@
 
 **46. Regularization**
 
-&#10230;正規化
+&#10230;正則化
 
 <br>
 
 
 **47. Dropout ― Dropout is a technique used in neural networks to prevent overfitting the training data by dropping out neurons with probability p>0. It forces the model to avoid relying too much on particular sets of features.**
 
-&#10230;ドロップアウト - ドロップアウトとは、ニューラルネットワークで過学習を避けるために	p>0の確率でノードをドロップアウト（無効化に）します。モデルを特定の特徴量に依存しすぎることを強制的に避けさせます。
+&#10230;ドロップアウト - ドロップアウトとは、ニューラルネットワークで過学習を避けるためにp>0の確率でノードをドロップアウト（無効化）する手法です。モデルが特定の特徴量に依存しすぎることを避けるよう強制します。
 
 <br>
 
@@ -341,7 +341,7 @@
 
 **49. Weight regularization ― In order to make sure that the weights are not too large and that the model is not overfitting the training set, regularization techniques are usually performed on the model weights. The main ones are summed up in the table below:**
 
-&#10230;重みの最適化 - 重みが大きくなりすぎず、モデルが過学習しないために、モデルの重みに対して正規化を行います。主な正規化手法は以下でまとまっています。
+&#10230;重みの正則化 - 重みが大きくなりすぎず、モデルが過学習しないようにするため、モデルの重みに対して正則化を行います。主な正則化手法は以下の表にまとめられています。
 
 <br>
 
@@ -354,13 +354,13 @@
 
 **50 bis. Shrinks coefficients to 0, Good for variable selection, Makes coefficients smaller, Tradeoff between variable selection and small coefficients]**
 
-&#10230;bis. 係数を0へ小さくする、変数選択に良い、係数を小さくする、変数選択と小さい係数のトレードオフ
+&#10230;bis. 係数を0へ小さくする、変数選択に適している、係数を小さくする、変数選択と小さい係数のトレードオフ
 
 <br>
 
 **51. Early stopping ― This regularization technique stops the training process as soon as the validation loss reaches a plateau or starts to increase.**
 
-&#10230;Early stopping - バリデーションの損失が収束するか、あるいは増加し始めたときに学習を早々に止める正規方法
+&#10230;Early stopping - バリデーションの損失が変化しなくなるか、あるいは増加し始めたときに学習を早々に止める正則化方法
 
 <br>
 
@@ -381,42 +381,42 @@
 
 **54. Overfitting small batch ― When debugging a model, it is often useful to make quick tests to see if there is any major issue with the architecture of the model itself. In particular, in order to make sure that the model can be properly trained, a mini-batch is passed inside the network to see if it can overfit on it. If it cannot, it means that the model is either too complex or not complex enough to even overfit on a small batch, let alone a normal-sized training set.**
 
-&#10230;小さいバッチの過学習 - モデルをデバッグするときに、モデルのアーキテクチャを検証するために小さいテストを作ることが役立つことが多いです。特に、モデルを正しく学習できるのを確認するために、ミニバッチでネットワークを学習し、過学習が発生するかどうかチェックすることがあります。モデルが複雑すぎるか、単純すぎると、普通のトレーニングセットどころか、小さいバッチでさえ過学習できないのです。
+&#10230;小さいバッチの過学習 - モデルをデバッグするとき、モデル自体の構造に大きな問題がないか確認するため簡易的なテストが役に立つことが多いです。特に、モデルを正しく学習できることを確認するため、ミニバッチをネットワークに渡してそれを過学習できるかを見ます。もしできなければ、モデルは複雑すぎるか単純すぎるかのいずれかであることを意味し、普通サイズの学習データセットはもちろん、小さいバッチですら過学習できないのです。
 
 <br>
 
 
 **55. Gradient checking ― Gradient checking is a method used during the implementation of the backward pass of a neural network. It compares the value of the analytical gradient to the numerical gradient at given points and plays the role of a sanity-check for correctness.**
 
-&#10230;Gradient checking (勾配チェック) - Gradient checking とは、ニューラルネットワークで逆伝播法時に用いられる手法です。特定の点で数値計算で計算した勾配と逆伝播法時に計算した勾配を比較する手法で、逆伝播法の実装が正しいことなど確認できます。
+&#10230;Gradient checking (勾配チェック) - Gradient checking とは、ニューラルネットワークの逆伝播を実装する際に用いられる手法です。特定の点で解析的勾配と数値的勾配とを比較する手法で、逆伝播の実装が正しいことを確認できます。
 
 <br>
 
 
 **56. [Type, Numerical gradient, Analytical gradient]**
 
-&#10230;種類、数値勾配、勾配の理論値
+&#10230;種類、数値的勾配、解析的勾配
 
 <br>
 
 
 **57. [Formula, Comments]**
 
-&#10230;数式、コメント
+&#10230;公式、コメント
 
 <br>
 
 
 **58. [Expensive; loss has to be computed two times per dimension, Used to verify correctness of analytical implementation, Trade-off in choosing h not too small (numerical instability) nor too large (poor gradient approximation)]**
 
-&#10230;計算量が多い；損失を次元ごとに２回計算する必要がある、勾配の実装のチェックに用いられる、hが小さすぎると数値的不安定だが、大きすぎると近似が正確でなくなるというトレードオフががある
+&#10230;計算コストが高い；損失を次元ごとに２回計算する必要がある、解析的実装が正しいかのチェックに用いられる、hを選ぶ時に小さすぎると数値不安定になり、大きすぎると勾配近似が不正確になるというトレードオフがある
 
 <br>
 
 
 **59. ['Exact' result, Direct computation, Used in the final implementation]**
 
-&#10230;エグザクトの勾配、直接計算する、最終的な実装で使われる
+&#10230;「正しい」結果、直接的な計算、最終的な実装で使われる
 
 <br>
 
@@ -434,13 +434,13 @@
 
 **62.Translated by X, Y and Z**
 
-&#10230;X,Y,そしてZにより翻訳されました。
+&#10230;X・Y・Z 訳
 
 <br>
 
 **63.Reviewed by X, Y and Z**
 
-&#10230;X,Y,そしてZにより校正されました。
+&#10230;X・Y・Z 校正
 
 <br>
 
@@ -452,6 +452,6 @@
 
 **65.By X and Y**
 
-&#10230;XそしてYによる。
+&#10230;X・Y 著
 
 <br>

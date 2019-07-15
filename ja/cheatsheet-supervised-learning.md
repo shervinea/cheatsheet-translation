@@ -96,7 +96,7 @@
 
 **17. Remark: Stochastic gradient descent (SGD) is updating the parameter based on each training example, and batch gradient descent is on a batch of training examples.**
 
-&#10230;備考：確率的勾配降下法(SGD)は学習データ全体を用いてパラメータを更新し、バッチ勾配降下法は学習データの各バッチ毎に更新する。
+&#10230;備考：確率的勾配降下法(SGD)は学習標本全体を用いてパラメータを更新し、バッチ勾配降下法は学習標本の各バッチ毎に更新する。
 
 <br>
 
@@ -156,7 +156,7 @@
 
 **27. LWR ― Locally Weighted Regression, also known as LWR, is a variant of linear regression that weights each training example in its cost function by w(i)(x), which is defined with parameter τ∈R as:**
 
-&#10230;局所重み付き回帰 ― 局所重み付き回帰は、LWRとも呼ばれ、線形回帰の派生形である。パラメータをτ∈Rとして次のように定義されるw(i)(x)により、個々の学習サンプルをそのコスト関数において重み付けする：
+&#10230;局所重み付き回帰 ― 局所重み付き回帰は、LWRとも呼ばれ、線形回帰の派生形である。パラメータをτ∈Rとして次のように定義されるw(i)(x)により、個々の学習標本をそのコスト関数において重み付けする：
 
 <br>
 
@@ -408,127 +408,127 @@
 
 **69. [Adaptive boosting, Gradient boosting]**
 
-&#10230;
+&#10230;[適応的ブースティング, 勾配ブースティング]
 
 <br>
 
 **70. High weights are put on errors to improve at the next boosting step**
 
-&#10230;
+&#10230;次のブースティングステップにて改善すべき誤分類に大きい重みが課される。
 
 <br>
 
 **71. Weak learners trained on remaining errors**
 
-&#10230;
+&#10230;残っている誤分類を弱い学習器が学習する。
 
 <br>
 
 **72. Other non-parametric approaches**
 
-&#10230;
+&#10230;他のノン・パラメトリックな手法
 
 <br>
 
 **73. k-nearest neighbors ― The k-nearest neighbors algorithm, commonly known as k-NN, is a non-parametric approach where the response of a data point is determined by the nature of its k neighbors from the training set. It can be used in both classification and regression settings.**
 
-&#10230;
+&#10230;k近傍法 ― k近傍法は、一般的にk-NNとして知られ、あるデータ点の応答はそのk個の最近傍点の性質によって決まるノン・パラメトリックな手法である。分類と回帰の両方に用いることができる。
 
 <br>
 
 **74. Remark: The higher the parameter k, the higher the bias, and the lower the parameter k, the higher the variance.**
 
-&#10230;
+&#10230;備考：パラメータkが大きくなるほど、バイアスが大きくなる。パラメータkが小さくなるほど、分散が大きくなる。
 
 <br>
 
 **75. Learning Theory**
 
-&#10230;
+&#10230;学習理論
 
 <br>
 
 **76. Union bound ― Let A1,...,Ak be k events. We have:**
 
-&#10230;
+&#10230;和集合上界 ― A1,...,Akというk個の事象があるとき、次が成り立つ：
 
 <br>
 
 **77. Hoeffding inequality ― Let Z1,..,Zm be m iid variables drawn from a Bernoulli distribution of parameter ϕ. Let ˆϕ be their sample mean and γ>0 fixed. We have:**
 
-&#10230;
+&#10230;ヘフディング不等式 ― パラメータϕのベルヌーイ分布から得られるm個の独立同分布変数をZ1,..,Zmとする。その標本平均をˆϕとし、γは正の定数であるとすると、次が成り立つ：
 
 <br>
 
 **78. Remark: this inequality is also known as the Chernoff bound.**
 
-&#10230;
+&#10230;備考：この不等式はチェルノフ上界としても知られる。
 
 <br>
 
 **79. Training error ― For a given classifier h, we define the training error ˆϵ(h), also known as the empirical risk or empirical error, to be as follows:**
 
-&#10230;
+&#10230;学習誤差 ― ある分類器hに対して、学習誤差、あるいは経験損失か経験誤差としても知られる、ˆϵ(h)を次のように定義する：
 
 <br>
 
 **80. Probably Approximately Correct (PAC) ― PAC is a framework under which numerous results on learning theory were proved, and has the following set of assumptions: **
 
-&#10230;
+&#10230;確率的に近似的に正しい (PAC) ― PACとは、その下で学習理論に関する様々な業績が証明されてきたフレームワークであり、次の前提がある：
 
 <br>
 
 **81: the training and testing sets follow the same distribution **
 
-&#10230;
+&#10230;学習データと検証データは同じ分布に従う。
 
 <br>
 
 **82. the training examples are drawn independently**
 
-&#10230;
+&#10230;学習標本は独立に取得される。
 
 <br>
 
 **83. Shattering ― Given a set S={x(1),...,x(d)}, and a set of classifiers H, we say that H shatters S if for any set of labels {y(1),...,y(d)}, we have:**
 
-&#10230;
+&#10230;細分化 ― 集合S={x(1),...,x(d)}と分類器の集合Hがあるとき、もし任意のラベル{y(1),...,y(d)}の集合に対して次が成り立つとき、HはSを細分化する：
 
 <br>
 
 **84. Upper bound theorem ― Let H be a finite hypothesis class such that |H|=k and let δ and the sample size m be fixed. Then, with probability of at least 1−δ, we have:**
 
-&#10230;
+&#10230;上界定理 ― Hを|H|=kで有限の仮説集合とし、δとサンプルサイズmは定数とする。そのとき、少なくとも1-δ の確率で次が成り立つ：
 
 <br>
 
 **85. VC dimension ― The Vapnik-Chervonenkis (VC) dimension of a given infinite hypothesis class H, noted VC(H) is the size of the largest set that is shattered by H.**
 
-&#10230;
+&#10230;VC次元 ― ある仮説集合Hのヴァプニク・チェルヴォーネンキス次元 (VC)は、VC(H)と表記され、それはHによって細分化される最大の集合のサイズである。
 
 <br>
 
 **86. Remark: the VC dimension of H={set of linear classifiers in 2 dimensions} is 3.**
 
-&#10230;
+&#10230;備考：2次元の線形分類器の集合であるHのVC次元は3である。
 
 <br>
 
 **87. Theorem (Vapnik) ― Let H be given, with VC(H)=d and m the number of training examples. With probability at least 1−δ, we have:**
 
-&#10230;
+&#10230;定理（ヴァプニク） ― あるHについてVC(H)=dであり、mを学習標本の数とする。少なくとも1−δの確率で次が成り立つ：
 
 <br>
 
 **88. [Introduction, Type of prediction, Type of model]**
 
-&#10230;
+&#10230;[導入, 予測の種類, モデルの種類]
 
 <br>
 
 **89. [Notations and general concepts, loss function, gradient descent, likelihood]**
 
-&#10230;
+&#10230;[記法と全般的な概念, 損失関数, 勾配降下, 尤度]
 
 <br>
 
@@ -536,32 +536,32 @@
 
 &#10230;
 
-<br>
+<br>[線形モデル, 線形回帰, ロジスティック回帰, 一般化線形モデル]
 
 **91. [Support vector machines, Optimal margin classifier, Hinge loss, Kernel]**
 
 &#10230;
 
-<br>
+<br>[サポートベクターマシン, 最適マージン分類器, ヒンジ損失, カーネル]
 
 **92. [Generative learning, Gaussian Discriminant Analysis, Naive Bayes]**
 
 &#10230;
 
-<br>
+<br>[生成学習, ガウシアン判別分析, ナイーブベイズ]
 
 **93. [Trees and ensemble methods, CART, Random forest, Boosting]**
 
-&#10230;
+&#10230;[ツリーとアンサンブル学習, CART, ランダムフォレスト, ブースティング]
 
 <br>
 
 **94. [Other methods, k-NN]**
 
-&#10230;
+&#10230;[他の手法, k近傍法]
 
 <br>
 
 **95. [Learning theory, Hoeffding inequality, PAC, VC dimension]**
 
-&#10230;
+&#10230;[学習理論, ヘフディング不等式, PAC, VC次元]

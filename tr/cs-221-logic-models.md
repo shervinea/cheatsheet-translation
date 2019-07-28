@@ -81,7 +81,7 @@
 
 **12. Knowledge base**
 
-&#10230; Bilgi temelli
+&#10230; Bilgi temeli
 
 <br>
 

@@ -221,242 +221,242 @@
 
 **32. In this section, we will go through logic-based models that use logical formulas and inference rules. The idea here is to balance expressivity and computational efficiency.**
 
-&#10230;
+&#10230; Bu bölümde, mantıksal formülleri ve çıkarım kurallarını kullanan mantık tabanlı modelleri inceleyeceğiz. Buradaki fikir ifade ve hesaplamanın verimliliğini dengelemektir.
 
 <br>
 
 
 **33. Horn clause ― By noting p1,...,pk and q propositional symbols, a Horn clause has the form:**
 
-&#10230;
+&#10230; Horn cümlesi ― p1, ..., pk ve q önerme sembollerini not ederek, bir Horn cümlesi şu şekildedir (Matematiksel mantık ve mantık programlamada, kural gibi özel bir biçime sahip mantıksal formüllere Horn cümlesi denir.): 
 
 <br>
 
 
 **34. Remark: when q=false, it is called a "goal clause", otherwise we denote it as a "definite clause".**
 
-&#10230;
+&#10230; Not: q = false olduğunda, "hedeflenen bir cümle" olarak adlandırılır, aksi takdirde "kesin bir cümle" olarak adlandırırız
 
 <br>
 
 
 **35. Modus ponens ― For propositional symbols f1,...,fk and p, the modus ponens rule is written:**
 
-&#10230;
+&#10230; Modus ponens - f1, ..., fk ve p önermeli semboller için modus ponens kuralı yazılır (Modus ponens: Önerme mantığında, modus ponens bir çıkarım kuralıdır. "P, Q anlamına gelir ve P'nin doğru olduğu iddia edilir, bu yüzden Q doğru olmalı" şeklinde özetlenebilir. Modus ponens, başka bir geçerli argüman biçimi olan modus tollens ile yakından ilgilidir.):
 
 <br>
 
 
 **36. Remark: it takes linear time to apply this rule, as each application generate a clause that contains a single propositional symbol.**
 
-&#10230;
+&#10230; Not: Her uygulama tek bir önermeli sembol içeren bir cümle oluşturduğundan, bu kuralın uygulanması doğrusal bir zaman alır.
 
 <br>
 
 
 **37. Completeness ― Modus ponens is complete with respect to Horn clauses if we suppose that KB contains only Horn clauses and p is an entailed propositional symbol. Applying modus ponens will then derive p.**
 
-&#10230;
+&#10230; Tamlık ― KB'nin sadece Horn cümleleri içerdiğini ve p'nin zorunlu bir teklif sembolü olduğunu varsayalım, Hornus cümlelerine göre Modus ponenleri tamamlanmıştır. Modus ponens uygulanması daha sonra p'yi türetir.
 
 <br>
 
 
 **38. Conjunctive normal form ― A conjunctive normal form (CNF) formula is a conjunction of clauses, where each clause is a disjunction of atomic formulas.**
 
-&#10230;
+&#10230; Konjunktif (Birleştirici) normal form - Bir konjonktif normal form (CNF) formülü, her bir cümlenin atomik formüllerin bir ayrıntısı olduğu cümle birleşimidir.
 
 <br>
 
 
 **39. Remark: in other words, CNFs are ∧ of ∨.**
 
-&#10230;
+&#10230; Açıklama: başka bir deyişle, CNF'ler ∨ ait ∧ bulunmaktadır.
 
 <br>
 
 
 **40. Equivalent representation ― Every formula in propositional logic can be written into an equivalent CNF formula. The table below presents general conversion properties:**
 
-&#10230;
+&#10230; Eşdeğer temsil - Önerme mantığındaki her formül eşdeğer bir CNF formülüne yazılabilir. Aşağıdaki tabloda genel dönüşüm özellikleri gösterilmektedir:
 
 <br>
 
 
 **41. [Rule name, Initial, Converted, Eliminate, Distribute, over]**
 
-&#10230;
+&#10230; [Kural adı, Başlangıç, Dönüştürülmüş, Eleme, Dağıtma, üzerine]
 
 <br>
 
 
 **42. Resolution rule ― For propositional symbols f1,...,fn, and g1,...,gm as well as p, the resolution rule is written:**
 
-&#10230;
+&#10230; Çözünürlük kuralı - f1, ..., fn ve g1, ..., gm önerme sembolleri için, p, çözümleme kuralı yazılır:
 
 <br>
 
 
 **43. Remark: it can take exponential time to apply this rule, as each application generates a clause that has a subset of the propositional symbols.**
 
-&#10230;
+&#10230; Not: Her uygulama, teklif sembollerinin alt kümesine sahip bir cümle oluşturduğundan, bu kuralı uygulamak için üssel olarak zaman alabilir.
 
 <br>
 
 
 **44. [Resolution-based inference ― The resolution-based inference algorithm follows the following steps:, Step 1: Convert all formulas into CNF, Step 2: Repeatedly apply resolution rule, Step 3: Return unsatisfiable if and only if False, is derived]**
 
-&#10230;
+&#10230; [Çözünürlük tabanlı çıkarım - Çözünürlük tabanlı çıkarım algoritması, aşağıdaki adımları izler :, Adım 1: Tüm formülleri CNF'ye dönüştürün, Adım 2: Tekrar tekrar, çözünürlük kuralını uygulayın, Adım 3: Yanlışsa türetilmişse tatmin edici olmayan dönüş yapın]
 
 <br>
 
 
 **45. First-order logic**
 
-&#10230;
+&#10230; Birinci dereceden mantık
 
 <br>
 
 
 **46. The idea here is to use variables to yield more compact knowledge representations.**
 
-&#10230;
+&#10230; Buradaki fikir, daha kompakt bilgi sunumları sağlamak için değişkenleri kullanmaktır.
 
 <br>
 
 
 **47. [Model ― A model w in first-order logic maps:, constant symbols to objects, predicate symbols to tuple of objects]**
 
-&#10230;
+&#10230; [Model ― Birinci mertebeden mantık haritalarında bir w modeli :, nesnelere sabit semboller, nesnelerin dizisini sembolize etmek için tahmin]
 
 <br>
 
 
 **48. Horn clause ― By noting x1,...,xn variables and a1,...,ak,b atomic formulas, the first-order logic version of a horn clause has the form:**
 
-&#10230;
+&#10230; Horn cümlesi - x1, ..., xn değişkenleri ve a1, ..., ak, b atomik formüllerine dikkat çekerek, bir boynuz maddesinin birinci derece mantık versiyonu aşağıdaki şekildedir:
 
 <br>
 
 
 **49. Substitution ― A substitution θ maps variables to terms and Subst[θ,f] denotes the result of substitution θ on f.**
 
-&#10230;
+&#10230; Yer değiştirme - Bir yerdeğiştirme değişkenleri terimlerle eşler ve Subst[θ,f] yerdeğiştirme sonucunu f olarak belirtir.
 
 <br>
 
 
 **50. Unification ― Unification takes two formulas f and g and returns the most general substitution θ that makes them equal:**
 
-&#10230;
+&#10230; Birleştirme ― Birleştirme f ve g'nin iki formülünü alır ve onları eşit yapan en genel ikameyi θ verir:
 
 <br>
 
 
 **51. such that**
 
-&#10230;
+&#10230; öyle ki
 
 <br>
 
 
 **52. Note: Unify[f,g] returns Fail if no such θ exists.**
 
-&#10230;
+&#10230; Not: Unify[f,g], eğer böyle bir θ yoksa Fail döndürür.
 
 <br>
 
 
 **53. Modus ponens ― By noting x1,...,xn variables, a1,...,ak and a′1,...,a′k atomic formulas and by calling θ=Unify(a′1∧...∧a′k,a1∧...∧ak) the first-order logic version of modus ponens can be written:**
 
-&#10230;
+&#10230; Modus ponens ― x1, ..., xn değişkenleri, a1, ..., ak ve a′1, ..., a′k atomik formüllerine dikkat ederek ve θ=Unify(a′1∧...∧a′k,a1∧...∧ak) modus ponenlerin birinci dereceden mantık versiyonu yazılabilir:
 
 <br>
 
 
 **54. Completeness ― Modus ponens is complete for first-order logic with only Horn clauses.**
 
-&#10230;
+&#10230; Tamlık - Modus ponens sadece Horn cümleleriyle birinci dereceden mantık için tamamlanmıştır.
 
 <br>
 
 
 **55. Resolution rule ― By noting f1,...,fn, g1,...,gm, p, q formulas and by calling θ=Unify(p,q), the first-order logic version of the resolution rule can be written:**
 
-&#10230;
+&#10230; Çözünürlük kuralı ― f1,...,fn,g1,...,gm, p, q formüllerini not ederek ve θ=Unify(p,q) ifadesini kullanarak, çözümleme kuralının birinci dereceden mantık sürümü yazılabilir. :
 
 <br>
 
 
 **56. [Semi-decidability ― First-order logic, even restricted to only Horn clauses, is semi-decidable., if KB⊨f, forward inference on complete inference rules will prove f in finite time, if KB⊭f, no algorithm can show this in finite time]**
 
-&#10230;
+&#10230; Yarı karar verilebilirlik ― Birinci dereceden mantık, sadece Horn cümleleriyle sınırlı olsa bile,  yarı kararsıdır eğer KB⊨f ise f sonsuz zamanlıdır. KB⊭f ise sonsuz zamanlı olabilirliği gösteren algoritma yoktur.
 
 <br>
 
 
 **57. [Basics, Notations, Model, Interpretation function, Set of models]**
 
-&#10230;
+&#10230; [Temeller, Notasyon, Model, Yorumlama fonksiyonu, Modellerin kümesi]
 
 <br>
 
 
 **58. [Knowledge base, Definition, Probabilistic interpretation, Satisfiability, Relationship with formulas, Forward inference, Rule properties]**
 
-&#10230;
+&#10230;  [Bilgi temeli, Tanım, Olasılıksal yorumlama, Gerçeklenebilirlik, Formüllerle İlişki, İleri çıkarım, Kural özellikleri]
 
 <br>
 
 
 **59. [Propositional logic, Clauses, Modus ponens, Conjunctive normal form, Representation equivalence, Resolution]**
 
-&#10230;
+&#10230; [Önerme mantığı, Cümleler, Modus ponens, Eşlenik (Conjunctive) normal form, Temsil eşdeğeri, Çözüm]
 
 <br>
 
 
 **60. [First-order logic, Substitution, Unification, Resolution rule, Modus ponens, Resolution, Semi-decidability]**
 
-&#10230;
+&#10230; [Birinci derece mantık, Değiştirme, Birleştirme, Çözünürlük kuralı, Modus ponens, Çözünürlük, Yarı karar verilebilirlik]
 
 <br>
 
 
 **61. View PDF version on GitHub**
 
-&#10230;
+&#10230; GitHub'da PDF sürümünü görüntüleyin
 
 <br>
 
 
 **62. Original authors**
 
-&#10230;
+&#10230; Orijinal yazarlar
 
 <br>
 
 
 **63. Translated by X, Y and Z**
 
-&#10230;
+&#10230; X, Y ve Z tarafından çevrilmiştir
 
 <br>
 
 
 **64. Reviewed by X, Y and Z**
 
-&#10230;
+&#10230; X, Y ve Z tarafından gözden geçirilmiştir
 
 <br>
 
 
 **65. By X and Y**
 
-&#10230;
+&#10230; X ve Y ile
 
 <br>
 
 
 **66. The Artificial Intelligence cheatsheets are now available in [target language].**
 
-&#10230;
+&#10230; Yapay Zeka el kitabı şimdi [Türkçe] mevcuttur.

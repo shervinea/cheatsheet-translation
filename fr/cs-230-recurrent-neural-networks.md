@@ -74,7 +74,7 @@
 
 **11. Architecture of a traditional RNN ― Recurrent neural networks, also known as RNNs, are a class of neural networks that allow previous outputs to be used as inputs while having hidden states. They are typically as follows:**
 
-&#10230; Architecture d'un RNN traditionnel ― Les réseaux de neurones récurrents (en anglais <i>recurrent neural networks</i>), aussi appelés RNNs, sont une classe de réseaux de neurones qui permettent aux prédictions antérieures d'être utilisées comme entrées, par le bias d'états cachés (en anglais <i>hidden states</i>). Ils sont de la forme suivante :
+&#10230; Architecture d'un RNN traditionnel ― Les réseaux de neurones récurrents (en anglais <i>recurrent neural networks</i>), aussi appelés RNNs, sont une classe de réseaux de neurones qui permettent aux prédictions antérieures d'être utilisées comme entrées, par le biais d'états cachés (en anglais <i>hidden states</i>). Ils sont de la forme suivante :
 
 <br>
 
@@ -95,7 +95,7 @@
 
 **14. where Wax,Waa,Wya,ba,by are coefficients that are shared temporally and g1,g2 activation functions.**
 
-&#10230; où Wax,Waa,Wya,ba,by sont des coefficients indépendents du temps et où g1,g2 sont des fonctions d'activation.
+&#10230; où Wax,Waa,Wya,ba,by sont des coefficients indépendants du temps et où g1,g2 sont des fonctions d'activation.
 
 <br>
 
@@ -109,7 +109,7 @@
 
 **16. [Advantages, Possibility of processing input of any length, Model size not increasing with size of input, Computation takes into account historical information, Weights are shared across time]**
 
-&#10230; [Avantages, Possibilité de prendre en compte des entrées de toute taille, La taille du modèle n'augmente pas avec la taille de l'entrée, Les calculs prennent en compte les informations antérieures, Les coefficients sont indépendents du temps]
+&#10230; [Avantages, Possibilité de prendre en compte des entrées de toute taille, La taille du modèle n'augmente pas avec la taille de l'entrée, Les calculs prennent en compte les informations antérieures, Les coefficients sont indépendants du temps]
 
 <br>
 
@@ -144,7 +144,7 @@
 
 **21. [Traditional neural network, Music generation, Sentiment classification, Name entity recognition, Machine translation]**
 
-&#10230; [Réseau de neurones traditionnel, Géneration de musique, Classification de sentiment, Reconnaissance d'entité, Traduction machine]
+&#10230; [Réseau de neurones traditionnel, Génération de musique, Classification de sentiment, Reconnaissance d'entité, Traduction machine]
 
 <br>
 
@@ -249,7 +249,7 @@
 
 **36. GRU/LSTM ― Gated Recurrent Unit (GRU) and Long Short-Term Memory units (LSTM) deal with the vanishing gradient problem encountered by traditional RNNs, with LSTM being a generalization of GRU. Below is a table summing up the characterizing equations of each architecture:**
 
-&#10230; GRU/LSTM ― Les unités de porte récurrente (en anglais <i>Gated Recurrent Unit</i>) (GRU) et les unités de mémoire à long/court terme (en anglais <i>Long Short-Term Memory units</i>) (LSTM) appaisent le problème du gradient qui disparait rencontré par les RNNs traditionnels, où le LSTM peut être vu comme étant une généralisation du GRU. Le tableau ci-dessous résume les équations caractéristiques de chacune de ces architectures :
+&#10230; GRU/LSTM ― Les unités de porte récurrente (en anglais <i>Gated Recurrent Unit</i>) (GRU) et les unités de mémoire à long/court terme (en anglais <i>Long Short-Term Memory units</i>) (LSTM) apaisent le problème du gradient qui disparait rencontré par les RNNs traditionnels, où le LSTM peut être vu comme étant une généralisation du GRU. Le tableau ci-dessous résume les équations caractéristiques de chacune de ces architectures :
 
 <br>
 
@@ -270,7 +270,7 @@
 
 **39. Variants of RNNs ― The table below sums up the other commonly used RNN architectures:**
 
-&#10230; Variantes des RNNs ― Le tableau ci-dessous récapitule les autres architectures RNN commumément utilisées :
+&#10230; Variantes des RNNs ― Le tableau ci-dessous récapitule les autres architectures RNN communément utilisées :
 
 <br>
 
@@ -412,7 +412,7 @@
 Given the symmetry that e and θ play in this model, the final word embedding e(final)w is given by:**
 
 &#10230; où f est une fonction à coefficients telle que Xi,j=0⟹f(Xi,j)=0.
-Étant donné la symmétrie que e et θ ont dans un modèle, la représentation du mot final e(final)w est donnée par :
+Étant donné la symétrie que e et θ ont dans un modèle, la représentation du mot final e(final)w est donnée par :
 
 <br>
 
@@ -531,7 +531,7 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 
 **75. Beam width ― The beam width B is a parameter for beam search. Large values of B yield to better result but with slower performance and increased memory. Small values of B lead to worse results but is less computationally intensive. A standard value for B is around 10.**
 
-&#10230; Largeur du faisceau ― La largeur du faisceau (en anglais <i>beam width</i>) B est un paramètre de la recherche en faisceau. De grandes valeurs de B conduisent à avoir de meilleurs résultats mais avec un coût de mémoire plus lourd et à un temps de calcul plus long. De faibles valeurs de B conduisent à de moins bons résultats mais avec un coût de calcul plus faible. Une valeur de B égale à 10 est standarde et est souvent utilisée.
+&#10230; Largeur du faisceau ― La largeur du faisceau (en anglais <i>beam width</i>) B est un paramètre de la recherche en faisceau. De grandes valeurs de B conduisent à avoir de meilleurs résultats mais avec un coût de mémoire plus lourd et à un temps de calcul plus long. De faibles valeurs de B conduisent à de moins bons résultats mais avec un coût de calcul plus faible. Une valeur de B égale à 10 est standard et est souvent utilisée.
 
 <br>
 
@@ -580,7 +580,7 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 
 **82. where pn is the bleu score on n-gram only defined as follows:**
 
-&#10230; où pn est le score bleu uniqué basé sur les n-gram, défini par :
+&#10230; où pn est le score bleu uniquement basé sur les n-gram, défini par :
 
 <br>
 

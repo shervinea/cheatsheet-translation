@@ -198,7 +198,7 @@
 
 **34. [Shrinks coefficients to 0, Good for variable selection, Makes coefficients smaller, Tradeoff between variable selection and small coefficients]**
 
-&#10230; [Réduit les coefficients à 0, Bon pour la sélection de variables, Rend les coefficients plus petits, Compromis entre la selection de variables et la réduction de coefficients]
+&#10230; [Réduit les coefficients à 0, Bon pour la sélection de variables, Rend les coefficients plus petits, Compromis entre la sélection de variables et la réduction de coefficients]
 
 <br>
 

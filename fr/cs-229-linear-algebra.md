@@ -42,7 +42,7 @@
 
 **8. Identity matrix ― The identity matrix I∈Rn×n is a square matrix with ones in its diagonal and zero everywhere else:**
 
-&#10230; Matrice identitée ― La matrice identitée I∈Rn×n est une matrice carrée avec des 1 sur sa diagonale et des 0 partout ailleurs :
+&#10230; Matrice identité ― La matrice identité I∈Rn×n est une matrice carrée avec des 1 sur sa diagonale et des 0 partout ailleurs :
 
 <br>
 
@@ -150,7 +150,7 @@
 
 **26. Trace ― The trace of a square matrix A, noted tr(A), is the sum of its diagonal entries:**
 
-&#10230; Trace ― La trace d'une matrice carée A, notée tr(A), est définie comme la somme de ses coefficients diagonaux:
+&#10230; Trace ― La trace d'une matrice carrée A, notée tr(A), est définie comme la somme de ses coefficients diagonaux:
 
 <br>
 
@@ -186,7 +186,7 @@
 
 **32. Symmetric decomposition ― A given matrix A can be expressed in terms of its symmetric and antisymmetric parts as follows:**
 
-&#10230; Décomposition symmétrique ― Une matrice donnée A peut être exprimée en termes de ses parties symétrique et antisymétrique de la manière suivante :
+&#10230; Décomposition symétrique ― Une matrice donnée A peut être exprimée en termes de ses parties symétrique et antisymétrique de la manière suivante :
 
 <br>
 
@@ -252,7 +252,7 @@
 
 **43. Remark: similarly, a matrix A is said to be positive definite, and is noted A≻0, if it is a PSD matrix which satisfies for all non-zero vector x, xTAx>0.**
 
-&#10230; Remarque : de manière similaire, une matrice A est dite définie positive et est notée A≻0 si elle est semi-définie positive et que pour tout vector x non-nul, on a xTAx>0.
+&#10230; Remarque : de manière similaire, une matrice A est dite définie positive et est notée A≻0 si elle est semi-définie positive et que pour tout vecteur x non-nul, on a xTAx>0.
 
 <br>
 
@@ -264,7 +264,7 @@
 
 **45. Spectral theorem ― Let A∈Rn×n. If A is symmetric, then A is diagonalizable by a real orthogonal matrix U∈Rn×n. By noting Λ=diag(λ1,...,λn), we have:**
 
-&#10230; Théorème spectral ― Soit A∈Rn×n. Si A est symmétrique, alors A est diagonalisable par une matrice orthogonale réelle U∈Rn×n. En notant Λ=diag(λ1,...,λn), on a :
+&#10230; Théorème spectral ― Soit A∈Rn×n. Si A est symétrique, alors A est diagonalisable par une matrice orthogonale réelle U∈Rn×n. En notant Λ=diag(λ1,...,λn), on a :
 
 <br>
 
@@ -300,7 +300,7 @@
 
 **51. Hessian ― Let f:Rn→R be a function and x∈Rn be a vector. The hessian of f with respect to x is a n×n symmetric matrix, noted ∇2xf(x), such that:**
 
-&#10230; Hessienne ― Soit f:Rn→R une fonction et x∈Rn un vecteur. La hessienne de f par rapport à x est une matrice symmetrique n×n, notée ∇2xf(x), telle que : 
+&#10230; Hessienne ― Soit f:Rn→R une fonction et x∈Rn un vecteur. La hessienne de f par rapport à x est une matrice symétrique n×n, notée ∇2xf(x), telle que :
 
 <br>
 

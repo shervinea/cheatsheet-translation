@@ -36,7 +36,7 @@
 
 **7. Axiom 2 ― The probability that at least one of the elementary events in the entire sample space will occur is 1, i.e:**
 
-&#10230; Axiome 2 ― La probabilité qu'au moins un des évènements élementaires de tout l'univers se produise est 1, i.e.
+&#10230; Axiome 2 ― La probabilité qu'au moins un des évènements élémentaires de tout l'univers se produise est 1, i.e.
 
 <br>
 
@@ -120,7 +120,7 @@
 
 **21. Random variable ― A random variable, often noted X, is a function that maps every element in a sample space to a real line.**
 
-&#10230; Variable aléatoire ― Une variable aléatoire, souvent notée X, est une fonction qui associe chaque élement de l'univers de probabilité à la droite des réels.
+&#10230; Variable aléatoire ― Une variable aléatoire, souvent notée X, est une fonction qui associe chaque élément de l'univers de probabilité à la droite des réels.
 
 <br>
 

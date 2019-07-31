@@ -25,7 +25,7 @@
 
 **4. [Data processing, Data augmentation, Batch normalization]**
 
-&#10230; [Traitement des données, Augmentation des données, Normalization de lot]
+&#10230; [Traitement des données, Augmentation des données, Normalisation de lot]
 
 <br>
 
@@ -39,7 +39,7 @@
 
 **6. [Parameter tuning, Xavier initialization, Transfer learning, Learning rate, Adaptive learning rates]**
 
-&#10230; [Ajustement de paramètres, Initialisation de Xavier, Apprentissage par transfert, Taux d'apprentissage, Taux d'apprentissage adaptifs]
+&#10230; [Ajustement de paramètres, Initialisation de Xavier, Apprentissage par transfert, Taux d'apprentissage, Taux d'apprentissage adaptatifs]
 
 <br>
 
@@ -81,14 +81,14 @@
 
 **12. [Original, Flip, Rotation, Random crop]**
 
-&#10230; [Original, Symmétrie axiale, Rotation, Recadrage aléatoire]
+&#10230; [Original, Symétrie axiale, Rotation, Recadrage aléatoire]
 
 <br>
 
 
 **13. [Image without any modification, Flipped with respect to an axis for which the meaning of the image is preserved, Rotation with a slight angle, Simulates incorrect horizon calibration, Random focus on one part of the image, Several random crops can be done in a row]**
 
-&#10230; [Image sans aucune modification, Symmetrie par rapport à un axe pour lequel le sens de l'image est conservé, Rotation avec un petit angle, Reproduit une calibration imparfaite de l'horizon, Concentration aléatoire sur une partie de l'image, Plusieurs rognements aléatoires peuvent être faits à la suite]
+&#10230; [Image sans aucune modification, Symétrie par rapport à un axe pour lequel le sens de l'image est conservé, Rotation avec un petit angle, Reproduit une calibration imparfaite de l'horizon, Concentration aléatoire sur une partie de l'image, Plusieurs rognements aléatoires peuvent être faits à la suite]
 
 <br>
 
@@ -144,7 +144,7 @@
 
 **21. Epoch ― In the context of training a model, epoch is a term used to refer to one iteration where the model sees the whole training set to update its weights.**
 
-&#10230; Epoch ― Dans le contexte de l'entraînement d'un modèle, l'<i>epoch</i> est un terme utilisé pour réferer à une itération où le modèle voit tout le training set pour mettre à jour ses coefficients.
+&#10230; Epoch ― Dans le contexte de l'entraînement d'un modèle, l'<i>epoch</i> est un terme utilisé pour référer à une itération où le modèle voit tout le training set pour mettre à jour ses coefficients.
 
 <br>
 
@@ -235,7 +235,7 @@
 
 **34. Transfer learning ― Training a deep learning model requires a lot of data and more importantly a lot of time. It is often useful to take advantage of pre-trained weights on huge datasets that took days/weeks to train, and leverage it towards our use case. Depending on how much data we have at hand, here are the different ways to leverage this:**
 
-&#10230; Apprentissage de transfert ― Entraîner un modèle d'apprentissage profond requière beaucoup de données et beaucoup de temps. Il est souvent utile de profiter de coefficients pre-entraînés sur des données énormes qui ont pris des jours/semaines pour être entraînés, et profiter de cela pour notre cas. Selon la quantité de données que l'on a sous la main, voici différentes manières d'utiliser cette methode :
+&#10230; Apprentissage de transfert ― Entraîner un modèle d'apprentissage profond requière beaucoup de données et beaucoup de temps. Il est souvent utile de profiter de coefficients pre-entraînés sur des données énormes qui ont pris des jours/semaines pour être entraînés, et profiter de cela pour notre cas. Selon la quantité de données que l'on a sous la main, voici différentes manières d'utiliser cette méthode :
 
 <br>
 
@@ -333,7 +333,7 @@
 
 **48. Remark: most deep learning frameworks parametrize dropout through the 'keep' parameter 1−p.**
 
-&#10230; Remarque : la plupart des frameworks d'apprentissage profond paramètrent le dropout à travers le paramètre 'garder' 1-p.
+&#10230; Remarque : la plupart des frameworks d'apprentissage profond paramétrisent le dropout à travers le paramètre 'garder' 1-p.
 
 <br>
 
@@ -387,7 +387,7 @@
 
 **55. Gradient checking ― Gradient checking is a method used during the implementation of the backward pass of a neural network. It compares the value of the analytical gradient to the numerical gradient at given points and plays the role of a sanity-check for correctness.**
 
-&#10230; Gradient checking ― La méthode de gradient checking est utilisée durant l'implémentation d'un backward pass d'un réseau de neurones. Elle compare la valeur du gradient analytique par rapport au gradient numérique au niveau de certains points et joue un rôle de vérification élementaire.
+&#10230; Gradient checking ― La méthode de gradient checking est utilisée durant l'implémentation d'un backward pass d'un réseau de neurones. Elle compare la valeur du gradient analytique par rapport au gradient numérique au niveau de certains points et joue un rôle de vérification élémentaire.
 
 <br>
 
@@ -415,14 +415,14 @@
 
 **59. ['Exact' result, Direct computation, Used in the final implementation]**
 
-&#10230; [Resultat 'exact', Calcul direct, Utilisé dans l'implémentation finale]
+&#10230; [Résultat 'exact', Calcul direct, Utilisé dans l'implémentation finale]
 
 <br>
 
 
 **60. The Deep Learning cheatsheets are now available in [target language].**
 
-&#10230; Les pense-bêtes d'appentissage profond sont maintenant disponibles en français.
+&#10230; Les pense-bêtes d'apprentissage profond sont maintenant disponibles en français.
 
 <br>
 

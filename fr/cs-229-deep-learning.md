@@ -120,7 +120,7 @@
 
 **21. Convolutional layer requirement ― By noting W the input volume size, F the size of the convolutional layer neurons, P the amount of zero padding, then the number of neurons N that fit in a given volume is such that:**
 
-&#10230; Pré-requis de la couche convolutionelle ― Si l'on note W la taille du volume d'entrée, F la taille de la couche de neurones convolutionelle, P la quantité de zero padding, alors le nombre de neurones N qui tient dans un volume donné est tel que :
+&#10230; Pré-requis de la couche convolutionnelle ― Si l'on note W la taille du volume d'entrée, F la taille de la couche de neurones convolutionnelle, P la quantité de zero padding, alors le nombre de neurones N qui tient dans un volume donné est tel que :
 
 <br>
 
@@ -132,7 +132,7 @@
 
 **23. It is usually done after a fully connected/convolutional layer and before a non-linearity layer and aims at allowing higher learning rates and reducing the strong dependence on initialization.**
 
-&#10230; Cela est normalement effectué après une couche fully-connected/couche convolutionelle et avant une couche de non-linéarité et a pour but de permettre un taux d'apprentissage plus grand et de réduire une dépendance trop forte à l'initialisation.
+&#10230; Cela est normalement effectué après une couche fully-connected/couche convolutionnelle et avant une couche de non-linéarité et a pour but de permettre un taux d'apprentissage plus grand et de réduire une dépendance trop forte à l'initialisation.
 
 <br>
 

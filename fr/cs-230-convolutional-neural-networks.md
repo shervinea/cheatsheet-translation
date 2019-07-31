@@ -158,7 +158,7 @@
 
 **23. Filter hyperparameters**
 
-&#10230; Paramètres du filtre 
+&#10230; Paramètres du filtre
 
 <br>
 
@@ -200,7 +200,7 @@
 
 **29. Zero-padding ― Zero-padding denotes the process of adding P zeroes to each side of the boundaries of the input. This value can either be manually specified or automatically set through one of the three modes detailed below:**
 
-&#10230; Zero-padding ― Le zero-padding est une technique consistant à ajouter P zeros à chaque côté des frontières de l'entrée. Cette valeur peut être spécifiée soit manuellement, soit automatiquement par le bias d'une des configurations détaillées ci-dessous :
+&#10230; Zero-padding ― Le zero-padding est une technique consistant à ajouter P zeros à chaque côté des frontières de l'entrée. Cette valeur peut être spécifiée soit manuellement, soit automatiquement par le biais d'une des configurations détaillées ci-dessous :
 
 <br>
 
@@ -277,7 +277,7 @@
 
 **40. [Input is flattened, One bias parameter per neuron, The number of FC neurons is free of structural constraints]**
 
-&#10230; [L'entrée est aplatie, Un paramètre de bias par neurone, Le choix du nombre de neurones de FC est libre]
+&#10230; [L'entrée est aplatie, Un paramètre de biais par neurone, Le choix du nombre de neurones de FC est libre]
 
 <br>
 
@@ -305,7 +305,7 @@
 
 **44. Rectified Linear Unit ― The rectified linear unit layer (ReLU) is an activation function g that is used on all elements of the volume. It aims at introducing non-linearities to the network. Its variants are summarized in the table below:**
 
-&#10230; Unité linéaire rectifiée ― La couche d'unité linéaire rectifiée (en anglais <i>rectified linear unit layer</i>) (ReLU) est une fonction d'activiation g qui est utilisée sur tous les éléments du volume. Elle a pour but d'introduire des complexités non-linéaires au réseau. Ses variantes sont récapitulées dans le tableau suivant :
+&#10230; Unité linéaire rectifiée ― La couche d'unité linéaire rectifiée (en anglais <i>rectified linear unit layer</i>) (ReLU) est une fonction d'activation g qui est utilisée sur tous les éléments du volume. Elle a pour but d'introduire des complexités non-linéaires au réseau. Ses variantes sont récapitulées dans le tableau suivant :
 
 <br>
 
@@ -319,7 +319,7 @@
 
 **46. [Non-linearity complexities biologically interpretable, Addresses dying ReLU issue for negative values, Differentiable everywhere]**
 
-&#10230; [Complexités non-linéaires intereprétables d'un point de vue biologique, Repond au problème de <i>dying ReLU</i>, Dérivable partout]
+&#10230; [Complexités non-linéaires interprétables d'un point de vue biologique, Répond au problème de <i>dying ReLU</i>, Dérivable partout]
 
 <br>
 
@@ -368,7 +368,7 @@
 
 **53. [Classifies a picture, Predicts probability of object, Detects an object in a picture, Predicts probability of object and where it is located, Detects up to several objects in a picture, Predicts probabilities of objects and where they are located]**
 
-&#10230; [Classifie une image, Predit la probabilité d'un objet, Détecte un objet dans une image, Prédit la probabilité de présence d'un objet et où il est situé, Peut détecter plusieurs objets dans une image, Prédit les probabilités de présence des objets et où ils sont situés]
+&#10230; [Classifie une image, Prédit la probabilité d'un objet, Détecte un objet dans une image, Prédit la probabilité de présence d'un objet et où il est situé, Peut détecter plusieurs objets dans une image, Prédit les probabilités de présence des objets et où ils sont situés]
 
 <br>
 
@@ -382,14 +382,14 @@
 
 **55. Detection ― In the context of object detection, different methods are used depending on whether we just want to locate the object or detect a more complex shape in the image. The two main ones are summed up in the table below:**
 
-&#10230; Détection ― Dans le contexte de la détection d'objet, des methodes différentes sont utilisées selon si l'on veut juste localiser l'objet ou alors détecter une forme plus complexe dans l'image. Les deux méthodes principales sont résumées dans le tableau ci-dessous :
+&#10230; Détection ― Dans le contexte de la détection d'objet, des méthodes différentes sont utilisées selon si l'on veut juste localiser l'objet ou alors détecter une forme plus complexe dans l'image. Les deux méthodes principales sont résumées dans le tableau ci-dessous :
 
 <br>
 
 
 **56. [Bounding box detection, Landmark detection]**
 
-&#10230; [Détection de zone délimitante, Detection de forme complexe]
+&#10230; [Détection de zone délimitante, Détection de forme complexe]
 
 <br>
 
@@ -424,14 +424,14 @@
 
 **61. Anchor boxes ― Anchor boxing is a technique used to predict overlapping bounding boxes. In practice, the network is allowed to predict more than one box simultaneously, where each box prediction is constrained to have a given set of geometrical properties. For instance, the first prediction can potentially be a rectangular box of a given form, while the second will be another rectangular box of a different geometrical form.**
 
-&#10230; Zone d'accroche ― La technique des zones d'accroche (en anglais <i>anchor boxing</i>) sert à prédire des zones délimitantes qui se chevauchent. En pratique, on permet au réseau de prédire plus d'une zone délimitante simultanément, où chaque zone prédite doit respecter une forme géométrique particulière. Par example, la première prédiction peut potentiellement être une zone rectangulaire d'une forme donnée, tandis qu'une seconde prédiction doit être une zone rectangulaire d'une autre forme.
+&#10230; Zone d'accroche ― La technique des zones d'accroche (en anglais <i>anchor boxing</i>) sert à prédire des zones délimitantes qui se chevauchent. En pratique, on permet au réseau de prédire plus d'une zone délimitante simultanément, où chaque zone prédite doit respecter une forme géométrique particulière. Par exemple, la première prédiction peut potentiellement être une zone rectangulaire d'une forme donnée, tandis qu'une seconde prédiction doit être une zone rectangulaire d'une autre forme.
 
 <br>
 
 
 **62. Non-max suppression ― The non-max suppression technique aims at removing duplicate overlapping bounding boxes of a same object by selecting the most representative ones. After having removed all boxes having a probability prediction lower than 0.6, the following steps are repeated while there are boxes remaining:**
 
-&#10230; Suppression non-max ― La technique de suppression non-max (en anglais <i>non-max suppression</i>) a pour but d'enlever des zones délimitantes qui se chevauchent et qui prédisent un seul et même objet, en sélectionnant les zones les plus representatives. Après avoir enlevé toutes les zones ayant une probabilité prédite de moins de 0.6, les étapes suivantes sont répétées pour éliminer les zones redondantes :
+&#10230; Suppression non-max ― La technique de suppression non-max (en anglais <i>non-max suppression</i>) a pour but d'enlever des zones délimitantes qui se chevauchent et qui prédisent un seul et même objet, en sélectionnant les zones les plus représentatives. Après avoir enlevé toutes les zones ayant une probabilité prédite de moins de 0.6, les étapes suivantes sont répétées pour éliminer les zones redondantes :
 
 <br>
 
@@ -466,7 +466,7 @@
 
 **67. where pc is the probability of detecting an object, bx,by,bh,bw are the properties of the detected bouding box, c1,...,cp is a one-hot representation of which of the p classes were detected, and k is the number of anchor boxes.**
 
-&#10230; où pc est la probabilité de détecter un objet, bx,by,bh,bw sont les propriétés de la zone délimitante détectée, c1,...,cp est une répresentation binaire (en anglais <i>one-hot representation</i>) de l'une des p classes détectée, et k est le nombre de zones d'accroche.
+&#10230; où pc est la probabilité de détecter un objet, bx,by,bh,bw sont les propriétés de la zone délimitante détectée, c1,...,cp est une représentation binaire (en anglais <i>one-hot representation</i>) de l'une des p classes détectée, et k est le nombre de zones d'accroche.
 
 <br>
 
@@ -480,7 +480,7 @@
 
 **69. [Original image, Division in GxG grid, Bounding box prediction, Non-max suppression]**
 
-&#10230; [Image originale, Division en une grille de taille GxG, Prediction de zone délimitante, Suppression non-max]
+&#10230; [Image originale, Division en une grille de taille GxG, Prédiction de zone délimitante, Suppression non-max]
 
 <br>
 
@@ -550,7 +550,7 @@
 
 **79. Siamese Network ― Siamese Networks aim at learning how to encode images to then quantify how different two images are. For a given input image x(i), the encoded output is often noted as f(x(i)).**
 
-&#10230; Réseaux siamois ― Les réseaux siamois (en anglais <i>Siamese Networks</i>) ont pour but d'apprendre comment encoder des images pour quantifier le degré de difference de deux images données. Pour une image d'entrée donnée x(i), l'encodage de sortie est souvent notée f(x(i)).
+&#10230; Réseaux siamois ― Les réseaux siamois (en anglais <i>Siamese Networks</i>) ont pour but d'apprendre comment encoder des images pour quantifier le degré de différence de deux images données. Pour une image d'entrée donnée x(i), l'encodage de sortie est souvent notée f(x(i)).
 
 <br>
 

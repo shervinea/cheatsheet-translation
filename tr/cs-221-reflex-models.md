@@ -102,7 +102,9 @@
 
 **15. Classification case - The classification of a sample x of true label y∈{−1,+1} with a linear model of weights w can be done with the predictor fw(x)≜sign(s(x,w)). In this situation, a metric of interest quantifying the quality of the classification is given by the margin m(x,y,w), and can be used with the following loss functions:**
 
-&#10230; 
+&#10230; Sınıflandırma durumu - Doğru etiket y∈{−1,+1} değerinin x örneğinin doğrusal ağırlık w modeliyle sınıflandırılması fw(x)≜sign(s(x,w)) belirleyicisi ile yapılabilir. Bu durumda, sınıflandırma kalitesini ölçen bir fayda ölçütü m(x,y,w) marjı ile verilir ve aşağıdaki kayıp fonksiyonlarıyla birlikte kullanılabilir:
+
+Doğru etiket y örneğinin x değerinin doğrusal ağırlık w modeli ile sınıflandırılması f öngörüsü ile yapılabilir.
 
 <br>
 
@@ -116,7 +118,7 @@
 
 **17. Regression case - The prediction of a sample x of true label y∈R with a linear model of weights w can be done with the predictor fw(x)≜s(x,w). In this situation, a metric of interest quantifying the quality of the regression is given by the margin res(x,y,w) and can be used with the following loss functions:**
 
-&#10230;
+&#10230; Regresyon durumu - Doğru etiket y∈R değerinin x örneğinin bir doğrusal ağırlık modeli w ile öngörülmesi fw(x)≜s(x,w) öngörüsü ile yapılabilir. Bu durumda, regresyonun kalitesini ölçen bir fayda ölçütü res(x,y,w) marjı ile verilir ve aşağıdaki kayıp fonksiyonlarıyla birlikte kullanılabilir:
 
 <br>
 
@@ -186,154 +188,153 @@
 
 **27. For a more detailed overview of the concepts above, check out the Supervised Learning cheatsheets!**
 
-&#10230;
+&#10230; Yukarıdaki kavramlara daha ayrıntılı bir bakış için, Gözetimli Öğrenme el kitabına göz atın!
 
 <br>
 
 
 **28. Stochastic gradient descent**
 
-&#10230;
+&#10230; Stokastik gradyan inişi (Bayır inişi)
 
 <br>
 
 
 **29. Gradient descent ― By noting η∈R the learning rate (also called step size), the update rule for gradient descent is expressed with the learning rate and the loss function Loss(x,y,w) as follows:**
 
-&#10230;
+&#10230; Gradyan inişi (Bayır inişi) - η∈R öğrenme oranını (aynı zamanda adım boyutu olarak da bilinir) dikkate alınarak, gradyan inişine ilişkin güncelleme kuralı, öğrenme oranı ve Loss(x,y,w) kayıp fonksiyonu ile aşağıdaki şekilde ifade edilir:
 
 <br>
 
 
 **30. Stochastic updates ― Stochastic gradient descent (SGD) updates the parameters of the model one training example (ϕ(x),y)∈Dtrain at a time. This method leads to sometimes noisy, but fast updates.**
 
-&#10230;
+&#10230; Stokastik güncellemeler - Stokastik gradyan inişi (SGİ / SGD), bir seferde bir eğitim örneğinin (ϕ(x),y)∈Değitim parametrelerini günceller. Bu yöntem bazen gürültülü, ancak hızlı güncellemeler yol açar.
 
 <br>
 
 
 **31. Batch updates ― Batch gradient descent (BGD) updates the parameters of the model one batch of examples (e.g. the entire training set) at a time. This method computes stable update directions, at a greater computational cost.**
 
-&#10230;
+&#10230; Yığın güncellemeler - Yığın gradyan inişi (YGİ / BGD), bir seferde bir grup örnek (örneğin, tüm eğitim kümesi) parametrelerini günceller. Bu yöntem daha yüksek bir hesaplama maliyetiyle kararlı güncelleme talimatlarını hesaplar.
 
 <br>
 
 
 **32. Fine-tuning models**
 
-&#10230;
+&#10230; İnce ayar modelleri
 
 <br>
 
 
 **33. Hypothesis class ― A hypothesis class F is the set of possible predictors with a fixed ϕ(x) and varying w:**
 
-&#10230;
+&#10230; Hipotez sınıfı - Bir hipotez sınıfı F, sabit bir ϕ (x) ve değişken w ile olası öngörücü kümesidir:
 
 <br>
 
 
 **34. Logistic function ― The logistic function σ, also called the sigmoid function, is defined as:**
 
-&#10230;
+&#10230; Lojistik fonksiyon - Ayrıca sigmoid fonksiyon olarak da adlandırılan lojistik fonksiyon σ, şöyle tanımlanır:
 
 <br>
 
 
 **35. Remark: we have σ′(z)=σ(z)(1−σ(z)).**
 
-&#10230;
+&#10230; Not: σ′(z)=σ(z)(1−σ(z)) şeklinde ifade edilir.
 
 <br>
 
 
 **36. Backpropagation ― The forward pass is done through fi, which is the value for the subexpression rooted at i, while the backward pass is done through gi=∂out∂fi and represents how fi influences the output.**
 
-&#10230;
+&#10230; Geri yayılım - İleriye geçiş, i'de yer alan alt ifadenin değeri olan fi ile yapılırken, geriye doğru geçiş gi=∂out∂fi aracılığıyla yapılır ve fi'nin çıkışı nasıl etkilediğini gösterir.
 
 <br>
 
 
 **37. Approximation and estimation error ― The approximation error ϵapprox represents how far the entire hypothesis class F is from the target predictor g∗, while the estimation error ϵest quantifies how good the predictor ^f is with respect to the best predictor f∗ of the hypothesis class F.**
 
-&#10230;
-
+&#10230; Yaklaşım ve kestirim hatası - Yaklaşım hatası ϵapprox, F tüm hipotez sınıfının hedef öngörücü g∗ ne kadar uzak olduğunu gösterirken, kestirim hatası ϵest öngörücüsü ^f, F hipotez sınıfının en iyi yordayıcısı f∗'ya göre ne kadar iyi olduğunu gösterir.
 <br>
 
 
 **38. Regularization ― The regularization procedure aims at avoiding the model to overfit the data and thus deals with high variance issues. The following table sums up the different types of commonly used regularization techniques:**
 
-&#10230;
+&#10230; Düzenlileştirme (Regularization) - Düzenlileştirme prosedürü, modelin verilerin aşırı öğrenmesinden kaçınmayı amaçlar ve böylece yüksek değişkenlik sorunlarıyla ilgilenir. Aşağıdaki tablo, yaygın olarak kullanılan düzenlileştirme tekniklerinin farklı türlerini özetlemektedir:
 
 <br>
 
 
 **39. [Shrinks coefficients to 0, Good for variable selection, Makes coefficients smaller, Tradeoff between variable selection and small coefficients]**
 
-&#10230;
+&#10230; [Katsayıları 0'a düşürür, Değişken seçimi için iyi, Katsayıları daha küçük yapar, Değişken seçimi ile küçük katsayılar arasında ödünleşim]
 
 <br>
 
 
 **40. Hyperparameters ― Hyperparameters are the properties of the learning algorithm, and include features, regularization parameter λ, number of iterations T, step size η, etc.**
 
-&#10230;
+&#10230; Hiperparametreler - Hiperparametreler öğrenme algoritmasının özellikleridir ve öznitelikler dahildir, λ normalizasyon parametresi, yineleme sayısı T, adım büyüklüğü η, vb.
 
 <br>
 
 
 **41. Sets vocabulary ― When selecting a model, we distinguish 3 different parts of the data that we have as follows:**
 
-&#10230;
+&#10230; Kümeler - Bir model seçerken, veriyi aşağıdaki gibi 3 farklı parçaya ayırırız:
 
 <br>
 
 
 **42. [Training set, Validation set, Testing set]**
 
-&#10230;
+&#10230; [Eğitim kümesi, Doğrulama kümesi, Test kümesi]
 
 <br>
 
 
 **43. [Model is trained, Usually 80% of the dataset, Model is assessed, Usually 20% of the dataset, Also called hold-out or development set, Model gives predictions, Unseen data]**
 
-&#10230;
+&#10230; [Model eğitilir, Veri kümesinin genellikle %80'i, Model değerlendirilir, Veri kümesinin genellikle %20'si, Ayrıca tutma veya geliştirme kümesi olarak da adlandırılır, Model tahminlerini verir, Görünmeyen veriler]
 
 <br>
 
 
 **44. Once the model has been chosen, it is trained on the entire dataset and tested on the unseen test set. These are represented in the figure below:**
 
-&#10230;
+&#10230; Model seçildikten sonra, tüm veri kümesi üzerinde eğitilir ve görünmeyen test kümesinde test edilir. Bunlar aşağıdaki şekilde gösterilmektedir:
 
 <br>
 
 
 **45. [Dataset, Unseen data, train, validation, test]**
 
-&#10230;
+&#10230; [Veri kümesi, Görünmeyen veriler, eğitim, doğrulama, test]
 
 <br>
 
 
 **46. For a more detailed overview of the concepts above, check out the Machine Learning tips and tricks cheatsheets!**
 
-&#10230;
+&#10230; Yukarıdaki kavramlara daha ayrıntılı bir bakış için, Makine Öğrenmesi ipuçları ve püf noktaları el kitabını göz atın!
 
 <br>
 
 
 **47. Unsupervised Learning**
 
-&#10230;
+&#10230; Gözetimsiz Öğrenme
 
 <br>
 
 
 **48. The class of unsupervised learning methods aims at discovering the structure of the data, which may have of rich latent structures.**
 
-&#10230;
+&#10230; Gözetimsiz öğrenme yöntemlerinin sınıfı, zengin gizli yapılara sahip olabilecek verilerin yapısını keşfetmeyi amaçlamaktadır.
 
 <br>
 

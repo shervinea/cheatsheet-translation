@@ -74,7 +74,7 @@
 
 **11. Here, the constraint j with assignment x is said to be satisfied if and only if fj(x)=1.**
 
-&#10230;11.Burada, j kısıtlı x ataması ancak ve ancak fj(x)=1 olduğunda memnundur denir.
+&#10230;11.Burada, j kısıtlı x ataması ancak ve ancak fj(x)=1 olduğunda uygundur (satisfied) denir.
 
 <br>
 
@@ -88,7 +88,7 @@
 
 **13. Dynamic ordering**
 
-&#10230; 13. Dinamik düzenleşim
+&#10230; 13. Dinamik düzenleşim (Dynamic ordering)
 
 <br>
 
@@ -109,7 +109,7 @@
 
 **16. [Forward checking ― It is a one-step lookahead heuristic that preemptively removes inconsistent values from the domains of neighboring variables. It has the following characteristics:, After assigning a variable Xi, it eliminates inconsistent values from the domains of all its neighbors., If any of these domains becomes empty, we stop the local backtracking search., If we un-assign a variable Xi, we have to restore the domain of its neighbors.]**
 
-&#10230; 16. [İleri kontrol - Tutarsız değerleri komşu değişkenlerin etki alanlarından öncelikli bir şekilde ortadan kaldıran sezgisel bakış açısıdır. Aşağıdaki özelliklere sahiptir :, Bir Xi değişkenini atadıktan sonra, tüm komşularının etki alanlarından tutarsız değerleri eler., Bu etki alanlardan herhangi biri boş olursa, yerel geri arama araması durdurulur. , komşularının etki alanını eski haline getirilmek zorundadır.]
+&#10230; 16. [İleri kontrol - Tutarsız değerleri komşu değişkenlerin etki alanlarından öncelikli bir şekilde ortadan kaldıran sezgisel bakış açısıdır. Aşağıdaki özelliklere sahiptir : Bir Xi değişkenini atadıktan sonra, tüm komşularının etki alanlarından tutarsız değerleri eler. Bu etki alanlardan herhangi biri boş olursa, yerel geri arama araması durdurulur.Komşularının etki alanını eski haline getirilmek zorundadır.]
 
 <br>
 
@@ -123,7 +123,7 @@
 
 **18. Least constrained value ― It is a value-level ordering heuristic that assigns the next value that yields the highest number of consistent values of neighboring variables. Intuitively, this procedure chooses first the values that are most likely to work.**
 
-&#10230; 18. En düşük kısıtlı değer - Komşu değişkenlerin en yüksek tutarlı değerlerini elde ederek bir sonraki değeri veren değer seviyesi düzenleyici sezgisel bir değerdir. Sezgisel olarak, bu prosedür önce çalışması en muhtemel olan değerleri seçer.
+&#10230; 18. En düşük kısıtlı değer - Komşu değişkenlerin en yüksek tutarlı değerlerini elde ederek bir sonrakini veren seviye düzenleyici sezgisel bir değerdir. Sezgisel olarak, bu prosedür önce çalışması en muhtemel olan değerleri seçer.
 
 <br>
 
@@ -144,7 +144,7 @@
 
 **21. [Arc consistency ― We say that arc consistency of variable Xl with respect to Xk is enforced when for each xl∈Domainl:, unary factors of Xl are non-zero, there exists at least one xk∈Domaink such that any factor between Xl and Xk is non-zero.]**
 
-&#10230; 21. [Ark tutarlılığı - Xl değişkeninin ark tutarlılığının Xk'ye göre her bir xl∈Domainl için geçerli olduğu söylenir :, Xl'in birleşik faktörleri sıfır olmadığında, en az bir xk∈Domaink vardır, öyle ki Xl ve Xk arasında sıfır olmayan herhangi bir faktör vardır.
+&#10230; 21. [Ark tutarlılığı (Arc consistency) - Xl değişkeninin ark tutarlılığının Xk'ye göre her bir xl∈Domainl için geçerli olduğu söylenir : Xl'in birleşik faktörleri sıfır olmadığında, en az bir xk∈Domaink vardır, öyle ki Xl ve Xk arasında sıfır olmayan herhangi bir faktör vardır.
 
 <br>
 
@@ -172,14 +172,14 @@
 
 **25. Beam search ― Beam search is an approximate algorithm that extends partial assignments of n variables of branching factor b=|Domain| by exploring the K top paths at each step. The beam size K∈{1,...,bn} controls the tradeoff between efficiency and accuracy. This algorithm has a time complexity of O(n⋅Kblog(Kb)).**
 
-&#10230; 25. Işın araması - Işın araması, her adımda K en üst yollarını keşfederek, b=|Domain| dallanma faktörünün n değişkeninin kısmi atamalarını genişleten yaklaşık bir algoritmadır.
+&#10230; 25. Işın araması (Beam search) - Işın araması, her adımda K en üst yollarını keşfederek, b=|Domain| dallanma faktörünün n değişkeninin kısmi atamalarını genişleten yaklaşık bir algoritmadır.
 
 <br>
 
 
 **26. The example below illustrates a possible beam search of parameters K=2, b=3 and n=5.**
 
-&#10230; 26. Aşağıdaki örnek, K = 2, b = 3 ve n = 5 parametreleri ile muhtemel kiriş aramasını (beam search) göstermektedir.
+&#10230; 26. Aşağıdaki örnek, K = 2, b = 3 ve n = 5 parametreleri ile muhtemel ışın aramasını (beam search) göstermektedir.
 
 <br>
 
@@ -278,7 +278,7 @@ and fi,1,...,fi,k, Add fnew,i(x) defined as:]**
 
 **40. Treewidth ― The treewidth of a factor graph is the maximum arity of any factor created by variable elimination with the best variable ordering. In other words,**
 
-&#10230; 40. Ağaç genişliği - Bir faktör grafiğinin ağaç genişliği, değişken elemeli en iyi değişken sıralamasıyla oluşturulan herhangi bir faktörün maksimum ilişki derecesidir. Diğer bir deyişle,
+&#10230; 40. Ağaç genişliği (Treewidth) - Bir faktör grafiğinin ağaç genişliği, değişken elemeli en iyi değişken sıralamasıyla oluşturulan herhangi bir faktörün maksimum ilişki derecesidir. Diğer bir deyişle,
 
 <br>
 
@@ -390,7 +390,7 @@ and fi,1,...,fi,k, Add fnew,i(x) defined as:]**
 
 **56. Remark: examples of probabilistic programs include Hidden Markov model (HMM), factorial HMM, naive Bayes, latent Dirichlet allocation, diseases and symptoms and stochastic block models.**
 
-&#10230; 56. Not: Olasılık programlarına örnekler arasında Gizli Markov modeli (Hidden Markov model-HMM), faktöriyel HMM, naif Bayes (naive Bayes), gizli Dirichlet tahsisi (latent Dirichlet allocation), hastalıklar ve semptomlar ve stokastik blok modelleri bulunmaktadır.
+&#10230; 56. Not: Olasılık programlarına örnekler arasında Gizli Markov modeli (Hidden Markov model-HMM), faktöriyel HMM, naif Bayes (naive Bayes), gizli Dirichlet tahsisi (latent Dirichlet allocation), hastalıklar ve semptomları belirtirler ve stokastik blok modelleri bulunmaktadır.
 
 <br>
 
@@ -404,7 +404,7 @@ and fi,1,...,fi,k, Add fnew,i(x) defined as:]**
 
 **58. [Program, Algorithm, Illustration, Example]**
 
-&#10230; 58. [Program, Algoritma, İllüstrasyon, Örnek]
+&#10230; 58. [Program, Algoritma, Gösterim, Örnek]
 
 <br>
 
@@ -439,7 +439,7 @@ and fi,1,...,fi,k, Add fnew,i(x) defined as:]**
 
 **63. [General probabilistic inference strategy ― The strategy to compute the probability P(Q|E=e) of query Q given evidence E=e is as follows:, Step 1: Remove variables that are not ancestors of the query Q or the evidence E by marginalization, Step 2: Convert Bayesian network to factor graph, Step 3: Condition on the evidence E=e, Step 4: Remove nodes disconnected from the query Q by marginalization, Step 5: Run a probabilistic inference algorithm (manual, variable elimination, Gibbs sampling, particle filtering)]**
 
-&#10230; 63. [Genel olasılıksal çıkarım stratejisi - E = e kanıtı verilen Q sorgusunun P (Q | E = e) olasılığını hesaplama stratejisi aşağıdaki gibidir :, Adım 1: Q sorgusunun ataları olmayan değişkenlerini ya da marjinalleştirme yoluyla E kanıtını silin, Adım 2: Bayesçi ağı faktör grafiğine dönüştürün, Adım 3: Kanıtın koşulu E = e, Adım 4: Q sorgusu ile bağlantısı kesilen düğümleri marjinalleştirme yoluyla silin, Adım 5: Olasılıklı bir çıkarım algoritması çalıştırın (kılavuz, değişken eleme, Gibbs örneklemesi, parçacık filtreleme)]
+&#10230; 63. [Genel olasılıksal çıkarım stratejisi - E = e kanıtı verilen Q sorgusunun P (Q | E = e) olasılığını hesaplama stratejisi aşağıdaki gibidir : Adım 1: Q sorgusunun ataları olmayan değişkenlerini ya da marjinalleştirme yoluyla E kanıtını silin, Adım 2: Bayesçi ağı faktör grafiğine dönüştürün, Adım 3: Kanıtın koşulu E = e, Adım 4: Q sorgusu ile bağlantısı kesilen düğümleri marjinalleştirme yoluyla silin, Adım 5: Olasılıklı bir çıkarım algoritması çalıştırın (kılavuz, değişken eleme, Gibbs örneklemesi, parçacık filtreleme)]
 
 <br>
 
@@ -474,7 +474,7 @@ and fi,1,...,fi,k, Add fnew,i(x) defined as:]**
 
 **68. [Gibbs sampling ― This algorithm is an iterative approximate method that uses a small set of assignments (particles) to represent a large probability distribution. From a random assignment x, Gibbs sampling performs the following steps for i∈{1,...,n} until convergence:, For all u∈Domaini, compute the weight w(u) of assignment x where Xi=u, Sample v from the probability distribution induced by w: v∼P(Xi=v|X−i=x−i), Set Xi=v]**
 
-&#10230; 68. [Gibbs örneklemesi - Bu algoritma, büyük olasılık dağılımını temsil etmek için küçük bir dizi atama (parçacık) kullanan tekrarlı bir yaklaşık yöntemdir. Rasgele bir x atamasından Gibbs örneklemesi, i∈ {1, ..., n} için yakınsamaya kadar aşağıdaki adımları uygular :, Tüm u∈Domaini için, x atamasının x (u) ağırlığını hesaplayın, burada Xi = u, Sample w: v∼P (Xi = v | X − i = x − i), Set Xi = v] ile indüklenen olasılık dağılımından
+&#10230; 68. [Gibbs örneklemesi - Bu algoritma, büyük olasılık dağılımını temsil etmek için küçük bir dizi atama (parçacık) kullanan tekrarlı bir yaklaşık yöntemdir. Rasgele bir x atamasından Gibbs örneklemesi, i∈ {1, ..., n} için yakınsamaya kadar aşağıdaki adımları uygular :, Tüm u∈Domaini için, x atamasının x (u) ağırlığını hesaplayın, burada Xi = u, Sample w: v∼P (Xi = v | X − i = x − i), Set Xi = v] ile uyarılmış olasılık dağılımından
 
 <br>
 

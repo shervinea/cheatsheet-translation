@@ -137,7 +137,7 @@
 
 **20. The example above is an illustration of the 3-color problem with backtracking search coupled with most constrained variable exploration and least constrained value heuristic, as well as forward checking at each step.**
 
-&#10230; 20. Yukarıdaki örnek, en kısıtlı değişken keşfi ve sezgisel en düşük kısıtlı değerin yanı sıra, her adımda ileri kontrol ile birleştirilmiş geri izleme arama ile 3 renkli problemin bir gösterimidir.
+&#10230; 20. Yukarıdaki örnek, en kısıtlı değişken keşfi ve sezgisel en düşük kısıtlı değerin yanı sıra, her adımda ileri kontrol ile birleştirilmiş geri izleme arama ile 3 renk probleminin bir gösterimidir.
 
 <br>
 
@@ -165,7 +165,7 @@
 
 **24. Approximate methods**
 
-&#10230;24. Yaklaşık yöntemler
+&#10230;24. Yaklaşık yöntemler (Approximate methods)
 
 <br>
 

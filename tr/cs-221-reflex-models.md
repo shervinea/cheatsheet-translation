@@ -4,7 +4,7 @@
 
 **1. Reflex-based models with Machine Learning**
 
-&#10230; Makine Öğrenmesi ile Refleks tabanlı modeller
+&#10230; Makine Öğrenmesi ile Refleks-temelli modeller
 
 <br>
 
@@ -18,14 +18,14 @@
 
 **3. In this section, we will go through reflex-based models that can improve with experience, by going through samples that have input-output pairs.**
 
-&#10230; Bu bölümde, girdi-çıktı çiftleri olan örneklerden geçerek, deneyim ile gelişebilecek refleks bazlı modelleri göreceğiz.
+&#10230; Bu bölümde, girdi-çıktı çiftleri olan örneklerden geçerek, deneyim ile gelişebilecek refleks-temelli modelleri göreceğiz.
 
 <br>
 
 
 **4. Feature vector ― The feature vector of an input x is noted ϕ(x) and is such that:**
 
-&#10230; Öznitelik vektörü - x girişinin öznitelik vektörü ϕ (x) olarak not edilir ve şöyledir:
+&#10230; Öznitelik vektörü ― x girişinin öznitelik vektörü ϕ (x) olarak not edilir ve şöyledir:
 
 <br>
 
@@ -60,7 +60,7 @@
 
 **9. Margin ― The margin m(x,y,w)∈R of an example (ϕ(x),y)∈Rd×{−1,+1} associated to a linear model of weights w∈Rd quantifies the confidence of the prediction: larger values are better. It is given by:**
 
-&#10230; 
+&#10230; Marj ― (ϕ(x),y)∈Rd×{−1,+1} örneğinin m(x,y,w)∈R marjları w∈Rd doğrusal ağırlık modeliyle ilişkili olarak, tahminin güvenirliği ölçülür: daha büyük değerler daha iyidir. Şöyle ifade edilir:
 
 <br>
 
@@ -88,7 +88,7 @@
 
 **13. Loss minimization**
 
-&#10230; Kayıp minimizasyonu
+&#10230; Kayıp/Yitim minimizasyonu
 
 <br>
 
@@ -103,8 +103,6 @@
 **15. Classification case - The classification of a sample x of true label y∈{−1,+1} with a linear model of weights w can be done with the predictor fw(x)≜sign(s(x,w)). In this situation, a metric of interest quantifying the quality of the classification is given by the margin m(x,y,w), and can be used with the following loss functions:**
 
 &#10230; Sınıflandırma durumu - Doğru etiket y∈{−1,+1} değerinin x örneğinin doğrusal ağırlık w modeliyle sınıflandırılması fw(x)≜sign(s(x,w)) belirleyicisi ile yapılabilir. Bu durumda, sınıflandırma kalitesini ölçen bir fayda ölçütü m(x,y,w) marjı ile verilir ve aşağıdaki kayıp fonksiyonlarıyla birlikte kullanılabilir:
-
-Doğru etiket y örneğinin x değerinin doğrusal ağırlık w modeli ile sınıflandırılması f öngörüsü ile yapılabilir.
 
 <br>
 
@@ -125,7 +123,7 @@ Doğru etiket y örneğinin x değerinin doğrusal ağırlık w modeli ile sın�
 
 **18. [Name, Squared loss, Absolute deviation loss, Illustration]**
 
-&#10230; [Ad, Kareler kaybı, Mutlak sapma kaybı, Örnekleme]
+&#10230; [Ad, Kareler kaybı, Mutlak sapma kaybı, Görselleştirme]
 
 <br>
 
@@ -216,14 +214,14 @@ Doğru etiket y örneğinin x değerinin doğrusal ağırlık w modeli ile sın�
 
 **31. Batch updates ― Batch gradient descent (BGD) updates the parameters of the model one batch of examples (e.g. the entire training set) at a time. This method computes stable update directions, at a greater computational cost.**
 
-&#10230; Yığın güncellemeler - Yığın gradyan inişi (YGİ / BGD), bir seferde bir grup örnek (örneğin, tüm eğitim kümesi) parametrelerini günceller. Bu yöntem daha yüksek bir hesaplama maliyetiyle kararlı güncelleme talimatlarını hesaplar.
+&#10230; Yığın/küme güncellemeler - Yığın gradyan inişi (YGİ / BGD), bir seferde bir grup örnek (örneğin, tüm eğitim kümesi) parametrelerini günceller. Bu yöntem daha yüksek bir hesaplama maliyetiyle kararlı güncelleme talimatlarını hesaplar.
 
 <br>
 
 
 **32. Fine-tuning models**
 
-&#10230; İnce ayar modelleri
+&#10230; İnce ayar (Fine-tuning) modelleri
 
 <br>
 
@@ -460,7 +458,7 @@ Doğru etiket y örneğinin x değerinin doğrusal ağırlık w modeli ile sın�
 
 **66. [Linear predictors, Feature vector, Linear classifier/regression, Margin]**
 
-&#10230; [Doğrusal öngörücüler, Öznitelik vektörü, Doğrusal sınıflandırıcı/regresyon, Margin]
+&#10230; [Doğrusal öngörücüler, Öznitelik vektörü, Doğrusal sınıflandırıcı/regresyon, Marj]
 
 <br>
 
@@ -481,7 +479,7 @@ Doğru etiket y örneğinin x değerinin doğrusal ağırlık w modeli ile sın�
 
 **69. [Stochastic gradient descent, Gradient, Stochastic updates, Batch updates]**
 
-&#10230; [Stokastik Dereceli Azalma/Bayır İnişi, Gradyan, Stokastik güncellemeler, Yığın (Batch) güncellemeler]
+&#10230; [Stokastik Dereceli Azalma/Bayır İnişi, Gradyan, Stokastik güncellemeler, Yığın/Küme (Batch) güncellemeler]
 
 <br>
 
@@ -538,4 +536,3 @@ Doğru etiket y örneğinin x değerinin doğrusal ağırlık w modeli ile sın�
 **77. The Artificial Intelligence cheatsheets are now available in [target language].**
 
 &#10230; Yapay Zeka el kitabı şimdi [hedef dilde] mevcuttur.
-

@@ -25,7 +25,7 @@
 
 **4. [Name, Symbol, Meaning, Illustration]**
 
-&#10230; [Ad, Sembol, Anlamı, Gösterimi]
+&#10230; [Ad, Sembol, Anlamı, Gösterim]
 
 <br>
 
@@ -67,7 +67,7 @@
 
 **10. Interpretation function ― The interpretation function I(f,w) outputs whether model w satisfies formula f:**
 
-&#10230; Yorumlama fonksiyonu - Yorumlama fonksiyonu I(f,w), w modelinin f formülüne uygun olup olmadığını gösterir:
+&#10230; Yorumlama fonksiyonu ― Yorumlama fonksiyonu I(f,w), w modelinin f formülüne uygun olup olmadığını gösterir:
 
 <br>
 
@@ -81,7 +81,7 @@
 
 **12. Knowledge base**
 
-&#10230; Bilgi temeli
+&#10230; Bilgi temelli
 
 <br>
 
@@ -389,7 +389,7 @@
 
 **56. [Semi-decidability ― First-order logic, even restricted to only Horn clauses, is semi-decidable., if KB⊨f, forward inference on complete inference rules will prove f in finite time, if KB⊭f, no algorithm can show this in finite time]**
 
-&#10230; Yarı karar verilebilirlik ― Birinci dereceden mantık, sadece Horn cümleleriyle sınırlı olsa bile,  yarı kararsıdır eğer KB⊨f ise f sonsuz zamanlıdır. KB⊭f ise sonsuz zamanlı olabilirliği gösteren algoritma yoktur.
+&#10230; Yarı-karar verilebilirlik ― Birinci dereceden mantık, sadece Horn cümleleriyle sınırlı olsa bile,  yarı karar verilebilir eğer KB⊨f ise f sonsuz zamanlıdır. KB⊭f ise sonsuz zamanlı olabilirliği gösteren algoritma yoktur.
 
 <br>
 
@@ -417,7 +417,7 @@
 
 **60. [First-order logic, Substitution, Unification, Resolution rule, Modus ponens, Resolution, Semi-decidability]**
 
-&#10230; [Birinci derece mantık, Değiştirme, Birleştirme, Çözünürlük kuralı, Modus ponens, Çözünürlük, Yarı karar verilebilirlik]
+&#10230; [Birinci derece mantık, Değiştirme, Birleştirme, Çözünürlük kuralı, Modus ponens, Çözünürlük, Yarı-karar verilebilirlik]
 
 <br>
 

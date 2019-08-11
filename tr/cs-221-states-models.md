@@ -39,7 +39,7 @@
 
 **6. [Self-loop, More than a parent, Cycle, More than a root, Valid tree]**
 
-&#10230; [Kendinden-Döngü, Bir ebeveynden daha fazlası, Çevrim, Bir kökten daha fazlası, Geçerli ağaç]
+&#10230; [Kendinden-Döngü(Self-loop), Bir ebeveynden (parent) daha fazlası, Çevrim, Bir kökten daha fazlası, Geçerli ağaç]
 
 <br>
 
@@ -60,28 +60,28 @@
 
 **9. Backtracking search ― Backtracking search is a naive recursive algorithm that tries all possibilities to find the minimum cost path. Here, action costs can be either positive or negative.**
 
-&#10230; Geri izleme araması ― Geri izleme araması, asgari (minimum) maliyet yolunu bulmak için tüm olasılıkları deneyen saf bir özyinelemeli algoritmadır. Burada, eylem maliyetleri pozitif ya da negatif olabilir.
+&#10230; Geri izleme araması ― Geri izleme araması, asgari (minimum) maliyet yolunu bulmak için tüm olasılıkları deneyen saf (naive) bir özyinelemeli algoritmadır. Burada, eylem maliyetleri pozitif ya da negatif olabilir.
 
 <br>
 
 
 **10. Breadth-first search (BFS) ― Breadth-first search is a graph search algorithm that does a level-by-level traversal. We can implement it iteratively with the help of a queue that stores at each step future nodes to be visited. For this algorithm, we can assume action costs to be equal to a constant c⩾0.**
 
-&#10230; Genişlik-ilk arama (BFS) ― Genişlik-ilk arama, seviye seviye arama yapan bir çizge arama algoritmasıdır. Gelecekte her adımda ziyaret edilecek düğümleri tutan bir kuyruk yardımıyla yinelemeli olarak gerçekleyebiliriz. Bu algoritma için, eylem maliyetlerinin belirli bir sabite c⩾0 eşit olduğunu kabul edebiliriz.
+&#10230; Genişlik öncelikli arama (Breadth-first search-BFS) ― Genişlik öncelikli arama, seviye seviye arama yapan bir çizge arama algoritmasıdır. Gelecekte her adımda ziyaret edilecek düğümleri tutan bir kuyruk yardımıyla yinelemeli olarak gerçekleyebiliriz. Bu algoritma için, eylem maliyetlerinin belirli bir sabite c⩾0 eşit olduğunu kabul edebiliriz.
 
 <br>
 
 
 **11. Depth-first search (DFS) ― Depth-first search is a search algorithm that traverses a graph by following each path as deep as it can. We can implement it recursively, or iteratively with the help of a stack that stores at each step future nodes to be visited. For this algorithm, action costs are assumed to be equal to 0.**
 
-&#10230; Derinlik-ilk arama (DFS) ― Derinlik-ilk arama, her bir yolu olabildiğince derin bir şekilde takip ederek çizgeyi dolaşan bir arama algoritmasıdır. Bu algoritmayı, ziyaret edilecek gelecek düğümleri her adımda bir yığın yardımıyla saklayarak, yinelemeli (recursively) ya da tekrarlı (iteratively) olarak uygulayabiliriz. Bu algoritma için eylem maliyetlerinin 0 olduğu varsayılmaktadır.
+&#10230; Derinlik öncelikli arama (Depth-first search-DFS) ― Derinlik öncelikli arama, her bir yolu olabildiğince derin bir şekilde takip ederek çizgeyi dolaşan bir arama algoritmasıdır. Bu algoritmayı, ziyaret edilecek gelecek düğümleri her adımda bir yığın yardımıyla saklayarak, yinelemeli (recursively) ya da tekrarlı (iteratively) olarak uygulayabiliriz. Bu algoritma için eylem maliyetlerinin 0 olduğu varsayılmaktadır.
 
 <br>
 
 
 **12. Iterative deepening ― The iterative deepening trick is a modification of the depth-first search algorithm so that it stops after reaching a certain depth, which guarantees optimality when all action costs are equal. Here, we assume that action costs are equal to a constant c⩾0.**
 
-&#10230; Tekrarlı derinleşme ― Tekrarlı derinleşme hilesi, derinlik-ilk arama algoritmasının tadil edilmiş bir halidir, böylece belirli bir derinliğe ulaştıktan sonra durur, bu da tüm işlem maliyetleri eşit olduğunda en iyiliği (optimal) garanti eder. Burada, işlem maliyetlerinin sabit bir değere eşit olduğunu varsayıyoruz c⩾0.
+&#10230; Tekrarlı derinleşme ― Tekrarlı derinleşme hilesi, derinlik-ilk arama algoritmasının değiştirilmiş bir halidir, böylece belirli bir derinliğe ulaştıktan sonra durur, bu da tüm işlem maliyetleri eşit olduğunda en iyiliği (optimal) garanti eder. Burada, işlem maliyetlerinin c⩾0 gibi sabit bir değere eşit olduğunu varsayıyoruz.
 
 <br>
 
@@ -102,7 +102,7 @@
 
 **15. [Backtracking search, any, Breadth-first search, Depth-first search, DFS-Iterative deepening]**
 
-&#10230; [Geri izleme araması, herhangi bir şey, Genişlik-ilk arama, Derinlik-ilk arama, Derinlik-ilk arama - Tekrarlı derinleşme]
+&#10230; [Geri izleme araması, herhangi bir şey, Genişlik öncelikli arama, Derinlik öncelikli arama, DFS - Tekrarlı derinleşme]
 
 <br>
 
@@ -144,7 +144,7 @@
 
 **21. Dynamic programming ― Dynamic programming (DP) is a backtracking search algorithm with memoization (i.e. partial results are saved) whose goal is to find a minimum cost path from state s to an end state send. It can potentially have exponential savings compared to traditional graph search algorithms, and has the property to only work for acyclic graphs. For any given state s, the future cost is computed as follows:**
 
-&#10230; Dinamik programlama ― Dinamik programlama (DP), amacı s durumundan bitiş durumuna,send, kadar asgari(minimum) maliyet yolunu bulmak olan hatırlamalı (memoization) (başka bir deyişle kısmi sonuçlar kaydedilir) bir geri izleme (backtracking) arama algoritmasıdır. Geleneksel çizge arama algoritmalarına kıyasla üstel olarak tasarruf sağlayabilir ve yalnızca asiklik (çevrimsiz) çizgeler ile çalışma özelliğine sahiptir. Herhangi bir durum için gelecekteki maliyet aşağıdaki gibi hesaplanır:
+&#10230; Dinamik programlama ― Dinamik programlama (DP), amacı s durumundan bitiş durumu olan send'e kadar asgari(minimum) maliyet yolunu bulmak olan hatırlamalı (memoization) (başka bir deyişle kısmi sonuçlar kaydedilir) bir geri izleme (backtracking) arama algoritmasıdır. Geleneksel çizge arama algoritmalarına kıyasla üstel olarak tasarruf sağlayabilir ve yalnızca asiklik (çevrimsiz) çizgeler ile çalışma özelliğine sahiptir. Herhangi bir durum için gelecekteki maliyet aşağıdaki gibi hesaplanır:
 
 <br>
 
@@ -193,7 +193,7 @@
 
 **28. Uniform cost search ― Uniform cost search (UCS) is a search algorithm that aims at finding the shortest path from a state sstart to an end state send. It explores states s in increasing order of PastCost(s) and relies on the fact that all action costs are non-negative.**
 
-&#10230; Tek tip maliyet araması ― Tek tip maliyet araması (Uniform cost search - UCS) bir başlangıç durumu,Sstart, ile bir bitiş durumu,Send, arasındaki en kısa yolu bulmayı amaçlayan bir arama algoritmasıdır. Bu algoritma s durumlarını artan geçmiş maliyetlerine,PastCost(s), göre araştırır ve eylem maliyetlerinin negatif olmayacağı kuralına dayanır.
+&#10230; Tek tip maliyet araması ― Tek tip maliyet araması (Uniform cost search - UCS) bir başlangıç durumu olan Sstart, ile bir bitiş durumu olan Send arasındaki en kısa yolu bulmayı amaçlayan bir arama algoritmasıdır. Bu algoritma s durumlarını artan geçmiş maliyetleri olan PastCost(s)'a göre araştırır ve eylem maliyetlerinin negatif olmayacağı kuralına dayanır.
 
 <br>
 
@@ -214,7 +214,7 @@
 
 **31. Correctness theorem ― When a state s is popped from the frontier F and moved to explored set E, its priority is equal to PastCost(s) which is the minimum cost path from sstart to s.**
 
-&#10230; Doğruluk teoremi ― S durumu sıradaki (frontier) F'den çıkarılır ve daha önceden keşfedilmiş olan E kümesine taşınırsa, önceliği başlangıç durumundan,Sstart, s durumuna kadar asgari (minimum) maliyet yolu olan PastCost(s)'e eşittir.
+&#10230; Doğruluk teoremi ― S durumu sıradaki (frontier) F'den çıkarılır ve daha önceden keşfedilmiş olan E kümesine taşınırsa, önceliği başlangıç durumu olan Sstart'dan, s durumuna kadar asgari (minimum) maliyet yolu olan PastCost(s)'e eşittir.
 
 <br>
 
@@ -284,7 +284,7 @@
 
 **41. Heuristic function ― A heuristic is a function h over states s, where each h(s) aims at estimating FutureCost(s), the cost of the path from s to send.**
 
-&#10230; Sezgisel işlev ― Sezgisel, s durumu üzerinde işlem yapan bir h fonksiyonudur, burada her bir h(s), s ile send arasındaki yol maliyeti olan FutureCost(s)'yi tahmin etmeyi amaçlar.
+&#10230; Sezgisel işlev(Heuristic function) ― Sezgisel, s durumu üzerinde işlem yapan bir h fonksiyonudur, burada her bir h(s), s ile send arasındaki yol maliyeti olan FutureCost(s)'yi tahmin etmeyi amaçlar.
 
 <br>
 
@@ -326,7 +326,7 @@
 
 **47. Theorem ― Let h(s) be a given heuristic. We have:**
 
-&#10230; Teorem ― h(s) verilen sezgisel olsun ve:
+&#10230; Teorem ― h(s) sezgisel olsun ve:
 
 <br>
 
@@ -368,14 +368,14 @@
 
 **53. Relaxed search problem ― The relaxation of search problem P with costs Cost is noted Prel with costs Costrel, and satisfies the identity:**
 
-&#10230; Rahat arama problemi ― Cost maliyetli bir arama probleminin rahatlaması, Costrel maliyetli Prel ile ifade edilir ve kimliği (satisfy) karşılar:
+&#10230; Rahat arama problemi (Relaxed search problem) ― Cost maliyetli bir arama probleminin rahatlaması, Costrel maliyetli Prel ile ifade edilir ve kimliği karşılar (satisfies the identity) :
 
 <br>
 
 
 **54. Relaxed heuristic ― Given a relaxed search problem Prel, we define the relaxed heuristic h(s)=FutureCostrel(s) as the minimum cost path from s to an end state in the graph of costs Costrel(s,a).**
 
-&#10230; Rahat sezgisel ― Bir Prel rahat arama problemi verildiğinde, h(s)=FutureCostrel(s) rahat sezgisel eşitliğini Costrel(s,a) maliyet çizgesindeki s durumu ile bir bitiş durumu arasındaki asgari(minimum) maliyet yolu olarak tanımlarız.
+&#10230; Rahat sezgisel (Relaxed heuristic) ― Bir Prel rahat arama problemi verildiğinde, h(s)=FutureCostrel(s) rahat sezgisel eşitliğini Costrel(s,a) maliyet çizgesindeki s durumu ile bir bitiş durumu arasındaki asgari(minimum) maliyet yolu olarak tanımlarız.
 
 <br>
 
@@ -522,7 +522,7 @@
 
 **75. Optimal value ― The optimal value Vopt(s) of state s is defined as being the maximum value attained by any policy. It is computed as follows:**
 
-&#10230; En iyi değer ― S durumunun en iyi değeri,Vopt(s), herhangi bir politika ile elde edilen en yüksek değer olarak tanımlanmaktadır. En iyi değer aşağıdaki gibi hesaplanmaktadır:
+&#10230; En iyi değer ― S durumunun en iyi değeri olan Vopt(s), herhangi bir politika ile elde edilen en yüksek değer olarak tanımlanmaktadır. En iyi değer aşağıdaki gibi hesaplanmaktadır:
 
 <br>
 
@@ -536,14 +536,14 @@
 
 **77. Optimal policy ― The optimal policy πopt is defined as being the policy that leads to the optimal values. It is defined by:**
 
-&#10230; En iyi politika ― En iyi politika,πopt, en iyi değerlere götüren politika olarak tanımlanmaktadır. En iyi politika aşağıdaki gibi tanımlanmaktadır:
+&#10230; En iyi politika ― En iyi politika olan πopt, en iyi değerlere götüren politika olarak tanımlanmaktadır. En iyi politika aşağıdaki gibi tanımlanmaktadır:
 
 <br>
 
 
 **78. [Value iteration ― Value iteration is an algorithm that finds the optimal value Vopt as well as the optimal policy πopt. It is done as follows:, Initialization: for all states s, we have:, Iteration: for t from 1 to TVI, we have:, with]**
 
-&#10230; [Değer tekrarı(iteration) ― Değer tekrarı(iteration) en iyi politikanın,πopt, yanında en iyi değeri,Vopt, bulan bir algoritmadır. Değer tekrarı(iteration) aşağıdaki gibi yapılmaktadır:, İlklendirme: bütün s durumları için:, Tekrar: 1'den TVI'ya kadar her bir t için:, ile]
+&#10230; [Değer tekrarı(iteration) ― Değer tekrarı(iteration) en iyi politika olan πopt, yanında en iyi değeri Vopt'ı, bulan bir algoritmadır. Değer tekrarı(iteration) aşağıdaki gibi yapılmaktadır:, İlklendirme: bütün s durumları için:, Tekrar: 1'den TVI'ya kadar her bir t için:, ile]
 
 <br>
 
@@ -578,7 +578,7 @@
 
 **83. [# times (s,a,s′) occurs, and]**
 
-&#10230; [# (s,a,s′) gerçekleşme sayısı, ve]
+&#10230; [# kere (s,a,s′) gerçekleşme sayısı, ve]
 
 <br>
 
@@ -662,7 +662,7 @@
 
 **95. Epsilon-greedy ― The epsilon-greedy policy is an algorithm that balances exploration with probability ϵ and exploitation with probability 1−ϵ. For a given state s, the policy πact is computed as follows:**
 
-&#10230; Epsilon-açgözlü ― Epsilon-açgözlü politika, ϵ olasılıkla araştırmayı ve 1−ϵ olasılıkla sömürüyü dengeleyen bir algoritmadır. Her bir s durumu için, politika, πact, aşağıdaki şekilde hesaplanır:
+&#10230; Epsilon-açgözlü ― Epsilon-açgözlü politika, ϵ olasılıkla araştırmayı ve 1−ϵ olasılıkla sömürüyü dengeleyen bir algoritmadır. Her bir s durumu için, πact politikası aşağıdaki şekilde hesaplanır:
 
 <br>
 
@@ -711,14 +711,14 @@
 
 **102. [Types of policies ― There are two types of policies:, Deterministic policies, noted πp(s), which are actions that player p takes in state s., Stochastic policies, noted πp(s,a)∈[0,1], which are probabilities that player p takes action a in state s.]**
 
-&#10230; [Politika türleri ― İki tane politika türü vardır:, Belirlenimci politikalar, πp(s) olarak gösterilir, p oyuncusunun s durumunda gerçekleştirdiği eylemler., Olasılıksal politikalar, πp(s,a)∈[0,1] olarak gösterilir, p oyuncusunun s durumunda a eylemini gerçekleştirme olasılıkları.]
+&#10230; [Politika türleri ― İki tane politika türü vardır:, πp(s) olarak gösterilen belirlenimci politikalar , p oyuncusunun s durumunda gerçekleştirdiği eylemler., πp(s,a)∈[0,1] olarak gösterilen olasılıksal politikalar, p oyuncusunun s durumunda a eylemini gerçekleştirme olasılıkları.]
 
 <br>
 
 
 **103. Expectimax ― For a given state s, the expectimax value Vexptmax(s) is the maximum expected utility of any agent policy when playing with respect to a fixed and known opponent policy πopp. It is computed as follows:**
 
-&#10230; En yüksek beklenen değer(Expectimax) ― Belirli bir s durumu için, en yüksek beklenen değer, Vexptmax(s), sabit ve bilinen bir rakip politikasına,πopp, göre oynarken, bir oyuncu politikasının en yüksek beklenen faydasıdır. En yüksek beklenen değer(Expectimax) aşağıdaki gibi hesaplanmaktadır:
+&#10230; En yüksek beklenen değer(Expectimax) ― Belirli bir s durumu için, en yüksek beklenen değer olan Vexptmax(s), sabit ve bilinen bir rakip politikası olan πopp'a göre oynarken, bir oyuncu politikasının en yüksek beklenen faydasıdır. En yüksek beklenen değer(Expectimax) aşağıdaki gibi hesaplanmaktadır:
 
 <br>
 
@@ -732,14 +732,14 @@
 
 **105. Minimax ― The goal of minimax policies is to find an optimal policy against an adversary by assuming the worst case, i.e. that the opponent is doing everything to minimize the agent's utility. It is done as follows:**
 
-&#10230; En küçük-en büyük (minimax) ― En küçük-enbüyük (minimax) politikaların amacı en kötü durumu kabul ederek, diğer bir deyişle, rakip, oyuncunun faydasını en aza indirmek için her şeyi yaparken, rakibe karşı en iyi politikayı bulmaktır. En küçük-en büyük(minimax) aşağıdaki şekilde yapılır:
+&#10230; En küçük-en büyük (minimax) ― En küçük-enbüyük (minimax) politikaların amacı en kötü durumu kabul ederek, diğer bir deyişle; rakip, oyuncunun faydasını en aza indirmek için her şeyi yaparken, rakibe karşı en iyi politikayı bulmaktır. En küçük-en büyük(minimax) aşağıdaki şekilde yapılır:
 
 <br>
 
 
 **106. Remark: we can extract πmax and πmin from the minimax value Vminimax.**
 
-&#10230; Not: πmax ve πmin değerleri, en küçük-en büyükten,Vminimax, elde edilebilir.
+&#10230; Not: πmax ve πmin değerleri, en küçük-en büyük olan Vminimax'dan elde edilebilir.
 
 <br>
 
@@ -865,7 +865,7 @@
 
 **124. Payoff matrix ― We define Vp(πA,πB) to be the utility for player p.**
 
-&#10230; Getiri dizeyi ― Vp(πA,πB)'yi oyuncu p'nin faydası olarak tanımlıyoruz.
+&#10230; Getiri matrisi ― Vp(πA,πB)'yi oyuncu p'nin faydası olarak tanımlıyoruz.
 
 <br>
 
@@ -893,7 +893,7 @@
 
 **128. [Tree search, Backtracking search, Breadth-first search, Depth-first search, Iterative deepening]**
 
-&#10230; [Ağaç arama, Geri izleme araması, Genişlik-ilk arama, Derinlik-ilk arama, Tekrarlı (Iterative) derinleşme]
+&#10230; [Ağaç arama, Geri izleme araması, Genişlik öncelikli arama, Derinlik öncelikli arama, Tekrarlı (Iterative) derinleşme]
 
 <br>
 

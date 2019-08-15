@@ -198,7 +198,7 @@
 <br>
 
 
-**29. Remark 1: the UCS algorithm is logically equivalent to Djikstra's algorithm.**
+**29. Remark 1: the UCS algorithm is logically equivalent to Dijkstra's algorithm.**
 
 &#10230;
 

@@ -4,7 +4,7 @@
 
 **1. Reflex-based models with Machine Learning**
 
-&#10230; Modèles basés sur le réflex à l'aide de l'apprentissage automatique
+&#10230; Modèles basés sur le réflex : apprentissage automatique
 
 <br>
 
@@ -431,7 +431,7 @@
 
 **62. [Step 2: Compute Σ=1mm∑i=1ϕ(xi)ϕ(xi)T∈Rn×n, which is symmetric with real eigenvalues., Step 3: Compute u1,...,uk∈Rn the k orthogonal principal eigenvectors of Σ, i.e. the orthogonal eigenvectors of the k largest eigenvalues., Step 4: Project the data on spanR(u1,...,uk).]**
 
-&#10230; [Étape 2: Calculer Σ=1mm∑i=1ϕ(xi)ϕ(xi)T∈Rn×n, qui est symmétrique avec des valeurs propres réelles., Étape 3: Calculer u1,...,uk∈Rn les k valeurs propres principales orthogonales de Σ, i.e. les vecteurs propres orthogonaux des k valeurs propres les plus grandes., Étape 4: Projeter les données sur spanR(u1,...,uk).]
+&#10230; [Étape 2: Calculer Σ=1mm∑i=1ϕ(xi)ϕ(xi)T∈Rn×n, qui est symétrique avec des valeurs propres réelles., Étape 3: Calculer u1,...,uk∈Rn les k valeurs propres principales orthogonales de Σ, i.e. les vecteurs propres orthogonaux des k valeurs propres les plus grandes., Étape 4: Projeter les données sur spanR(u1,...,uk).]
 
 <br>
 

@@ -4,7 +4,7 @@
 
 **1. States-based models with search optimization and MDP**
 
-&#10230; Modèles basés sur les états, utilisés pour optimiser le parcours et les MDPs
+&#10230; Modèles basés sur les états : optimisation de parcours et MDPs
 
 <br>
 
@@ -977,4 +977,4 @@
 
 **140. The Artificial Intelligence cheatsheets are now available in [target language].**
 
-&#10230; Les pense-bête d'intelligence artificielle sont maintenant disponibles en français !
+&#10230; Les pense-bêtes d'intelligence artificielle sont maintenant disponibles en français !

@@ -4,7 +4,7 @@
 
 **1. Logic-based models with propositional and first-order logic**
 
-&#10230; Modèles logiques propositionnels et calcul des prédicats du premier ordre
+&#10230; Modèles basés sur la logique : logique propositionnelle et calcul des prédicats du premier ordre
 
 <br>
 
@@ -95,7 +95,7 @@
 
 **14. Probabilistic interpretation ― The probability that query f is evaluated to 1 can be seen as the proportion of models w of the knowledge base KB that satisfy f, i.e.:**
 
-&#10230; Interprétation en termes de probabilités - La probabilté que la requête f soit évaluée à 1 peut être vue comme la proportion des modèles w de la base de connaissance KB qui satisfait f, i.e. :
+&#10230; Interprétation en termes de probabilités - La probabilité que la requête f soit évaluée à 1 peut être vue comme la proportion des modèles w de la base de connaissance KB qui satisfait f, i.e. :
 
 <br>
 
@@ -172,7 +172,7 @@
 
 **25. Forward inference algorithm ― From a set of inference rules Rules, this algorithm goes through all possible f1,...,fk and adds g to the knowledge base KB if a matching rule exists. This process is repeated until no more additions can be made to KB.**
 
-&#10230; Algorithme de chaînage avant (forward inference algorithm) - Partant d'un ensemble de règles d'inférence Rules, cet algorithme parcourt tous les f1,...,fk et ajoute g à la base de connaissance KB si une règle parvient à une telle conclusion. Cette démarche est répétée jusqu'à ce qu'aucun autre ajout ne puisse être fait à KB.
+&#10230; Algorithme de chaînage avant - Partant d'un ensemble de règles d'inférence Rules, l'algorithme de chaînage avant (en anglais forward inference algorithm) parcourt tous les f1,...,fk et ajoute g à la base de connaissance KB si une règle parvient à une telle conclusion. Cette démarche est répétée jusqu'à ce qu'aucun autre ajout ne puisse être fait à KB.
 
 <br>
 
@@ -200,14 +200,14 @@
 
 **29. [Soundness, Completeness]**
 
-&#10230; [Correction, Complétude]
+&#10230; [Validité, Complétude]
 
 <br>
 
 
 **30. [Inferred formulas are entailed by KB, Can be checked one rule at a time, "Nothing but the truth", Formulas entailing KB are either already in the knowledge base or inferred from it, "The whole truth"]**
 
-&#10230; [Les formules inférées sont déduites par KB, Peut être vérifiée un règle à la fois, "Rien que la vérité", Les formules déduites par KB sont soit déjà dans la base de connaissance, soit inférées de celle-ci, "La vérité dans sa totalité"]
+&#10230; [Les formules inférées sont déduites par KB, Peut être vérifiée une règle à la fois, "Rien que la vérité", Les formules déduites par KB sont soit déjà dans la base de connaissance, soit inférées de celle-ci, "La vérité dans sa totalité"]
 
 <br>
 
@@ -221,7 +221,7 @@
 
 **32. In this section, we will go through logic-based models that use logical formulas and inference rules. The idea here is to balance expressivity and computational efficiency.**
 
-&#10230; Dans cette section, nous allons parcourir les modèles logiques utilisant des formules logiques et des règles d'inférence. L'idée est de trouver le juste milieu entre expressivité et efficacité en termes de calculs.
+&#10230; Dans cette section, nous allons parcourir les modèles logiques utilisant des formules logiques et des règles d'inférence. L'idée est de trouver le juste milieu entre expressivité et efficacité.
 
 <br>
 
@@ -263,7 +263,7 @@
 
 **38. Conjunctive normal form ― A conjunctive normal form (CNF) formula is a conjunction of clauses, where each clause is a disjunction of atomic formulas.**
 
-&#10230; Forme normale conjonctive - La forme normale conjonctive (en anglais conjunctive normal form ou CNF) d'une formule est une conjonction de clauses, chacune d'entre elles étant une dijonction de formules atomiques.
+&#10230; Forme normale conjonctive - La forme normale conjonctive (en anglais conjunctive normal form ou CNF) d'une formule est une conjonction de clauses, chacune d'entre elles étant une disjonction de formules atomiques.
 
 <br>
 

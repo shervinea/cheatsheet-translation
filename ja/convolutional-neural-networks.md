@@ -4,7 +4,7 @@
 
 **1. Convolutional Neural Networks cheatsheet**
 
-&#10230; 畳み込み神経の網チートシート
+&#10230; 畳み込みニューラルネットワーク チートシート
 
 <br>
 
@@ -25,7 +25,7 @@
 
 **4. [Types of layer, Convolution, Pooling, Fully connected]**
 
-&#10230; [層のタイプ, 畳み込み, プーリング, 完全接続]
+&#10230; [層のタイプ, 畳み込み, プーリング, 全結合]
 
 <br>
 
@@ -34,47 +34,47 @@
 
 &#10230;
 
-<br> [フィルタハイパーパラメータ, 寸法, ストライド, 詰め物]
+<br> [フィルタハイパーパラメータ, 大きさ, ストライド, パディング]
 
 
 **6. [Tuning hyperparameters, Parameter compatibility, Model complexity, Receptive field]**
 
-&#10230; [調律ハイパーパラメータ, パラメータの互換性, モデルの複雑, 受容的なフィールド]
+&#10230; [ハイパーパラメータの調整, パラメータの互換性, モデルの複雑さ, 受容野]
 
 <br>
 
 
 **7. [Activation functions, Rectified Linear Unit, Softmax]**
 
-&#10230; [活性化関数, 修正済み線形単位, ソフトマックス]
+&#10230; [活性化関数, 正規化線形ユニット, ソフトマックス]
 
 <br>
 
 
 **8. [Object detection, Types of models, Detection, Intersection over Union, Non-max suppression, YOLO, R-CNN]**
 
-&#10230; [オブジェクト検出, モデルのタイプ, 検出, 組合の上の交差点, 非最大抑制, YOLO, R-CNN]
+&#10230; [オブジェクト検出, モデルのタイプ, 検出, 積集合の和集合, 非最大抑制, YOLO, R-CNN]
 
 <br>
 
 
 **9. [Face verification/recognition, One shot learning, Siamese network, Triplet loss]**
 
-&#10230; [顔認証/認識, 一発学習, シャムネットワーク, トリプレット損失]
+&#10230; [顔認証/認識, 一発学習, シャムネットワーク, 三重項損失]
 
 <br>
 
 
 **10. [Neural style transfer, Activation, Style matrix, Style/content cost function]**
 
-&#10230; [神経スタイル転送, 活性化, スタイル行列, スタイル/コンテンツコスト関数]
+&#10230; [ニューラルスタイル変換, 活性化, スタイル行列, スタイル/コンテンツコスト関数]
 
 <br>
 
 
 **11. [Computational trick architectures, Generative Adversarial Net, ResNet, Inception Network]**
 
-&#10230; [計算詭計アーキテクチャ, 生成型敵対的ネットワーク, ResNet, インセプションネットワーク]
+&#10230; [計算トリックアーキテクチャ, 敵対的生成ネットワーク, ResNet, インセプションネットワーク]
 
 <br>
 
@@ -88,14 +88,14 @@
 
 **13. Architecture of a traditional CNN ― Convolutional neural networks, also known as CNNs, are a specific type of neural networks that are generally composed of the following layers:**
 
-&#10230; 伝統的な畳み込み神経の網のアーキテクチャ - CNNとも知られる畳み込み神経の網は一般的に次の層で構成されている特定タイプの神経の網です。
+&#10230; 伝統的な畳み込みニューラルネットワークのアーキテクチャ - CNNとしても知られる畳み込みニューラルネットワークは一般的に次の層で構成される特定タイプのニューラルネットワークです。
 
 <br>
 
 
 **14. The convolution layer and the pooling layer can be fine-tuned with respect to hyperparameters that are described in the next sections.**
 
-&#10230; 畳み込み層とプール層は次のセクションで説明されるハイパーパラメータに関して微調整されられる。
+&#10230; 畳み込み層とプーリング層は次のセクションで説明されるハイパーパラメータに関して微調整できます。
 
 <br>
 
@@ -109,21 +109,21 @@
 
 **16. Convolution layer (CONV) ― The convolution layer (CONV) uses filters that perform convolution operations as it is scanning the input I with respect to its dimensions. Its hyperparameters include the filter size F and stride S. The resulting output O is called feature map or activation map.**
 
-&#10230; 畳み込み層 (CONV) - 畳み込み層 (CONV)は入力Iを寸法に関して走査している時畳み込みオペレーションズを行うフィルタを使用する。畳み込み層のハイパーパラメータにはフィルタサイズFとストライドSが含まれる。結果出力0は特徴図及び活性化図で呼ばれる。
+&#10230; 畳み込み層 (CONV) - 畳み込み層 (CONV)は入力Iを各次元に関して走査する時に、畳み込み演算を行うフィルタを使用します。畳み込み層のハイパーパラメータにはフィルタサイズFとストライドSが含まれます。結果出力Oは特徴マップまたは活性化マップと呼ばれます。
 
 <br>
 
 
 **17. Remark: the convolution step can be generalized to the 1D and 3D cases as well.**
 
-&#10230; 注意: 畳み込みステップは1D及び3Dの場合にも一般化されられる。
+&#10230; 注: 畳み込みステップは1次元や3次元の場合にも一般化できます。
 
 <br>
 
 
 **18. Pooling (POOL) ― The pooling layer (POOL) is a downsampling operation, typically applied after a convolution layer, which does some spatial invariance. In particular, max and average pooling are special kinds of pooling where the maximum and average value is taken, respectively.**
 
-&#10230; プーリング (POOL) - プール層 (POOL)はダウンサンプリング操作で、通常は空間的に不変な畳み込み層の後に適用される。特に、最大及び平均プーリングはそれぞれ最大と平均値が取られる特別な種類のプールです。
+&#10230; プーリング (POOL) - プーリング層 (POOL)はダウンサンプリング操作で、通常は位置不変性をもつ畳み込み層の後に適用されます。特に、最大及び平均プーリングはそれぞれ最大と平均値が取られる特別な種類のプーリングです。
 
 <br>
 
@@ -137,21 +137,21 @@
 
 **20. [Max pooling, Average pooling, Each pooling operation selects the maximum value of the current view, Each pooling operation averages the values of the current view]**
 
-&#10230; [最大プール, 平均プール, 各プール操作は現在ビューの最大値を選ぶ, 各プール操作は現在ビューの値を平均する]
+&#10230; [最大プーリング, 平均プーリング, 各プーリング操作は現在のビューの中から最大値を選ぶ, 各プーリング操作は現在のビューに含まれる値を平均する]
 
 <br>
 
 
 **21. [Preserves detected features, Most commonly used, Downsamples feature map, Used in LeNet]**
 
-&#10230; [検出された特徴保持, 最も一般的に利用される, ダウンサンプル特徴図, LeNetで利用される]
+&#10230; [検出された特徴を保持する, 最も一般的に利用される, 特徴マップをダウンサンプリングする, LeNetで利用される]
 
 <br>
 
 
 **22. Fully Connected (FC) ― The fully connected layer (FC) operates on a flattened input where each input is connected to all neurons. If present, FC layers are usually found towards the end of CNN architectures and can be used to optimize objectives such as class scores.**
 
-&#10230; 完全接続 (FC) - 完全接続層は各入力は全ての神経に接続されているフラット化入力で動く。存在する場合、FC層は通常CNNアーキテクチャの終わりに向かって見られ、クラススコアなどの目的を最適化するため利用される。
+&#10230; 全結合 (FC) - 全結合 (FC) 層は平坦化された入力に対して演算を行います。各入力は全てのニューロンに接続されています。FC層が存在する場合、通常CNNアーキテクチャの末尾に向かって見られ、クラススコアなどの目的を最適化するため利用できます。
 
 <br>
 
@@ -165,14 +165,14 @@
 
 **24. The convolution layer contains filters for which it is important to know the meaning behind its hyperparameters.**
 
-&#10230; 畳み込み層にはハイパーパラメータの背後にある意味を知ることが重要なフィルタが含まれる。
+&#10230; 畳み込み層にはハイパーパラメータの背後にある意味を知ることが重要なフィルタが含まれています。
 
 <br>
 
 
 **25. Dimensions of a filter ― A filter of size F×F applied to an input containing C channels is a F×F×C volume that performs convolutions on an input of size I×I×C and produces an output feature map (also called activation map) of size O×O×1.**
 
-&#10230; フィルタの寸法 - C個別のチャネルを含む入力に適用されるFxFサイズのフィルタは0x0x1サイズの出力特徴図(活性化マップとも呼ばれている)を作り出し、IxIxCサイズの入力に対して畳み込みを実施するFxFxCボリュームです。
+&#10230; フィルタの大きさ - C個のチャネルを含む入力に適用されるF×Fサイズのフィルタの体積はF×F×Cで、それはI×I×Cサイズの入力に対して畳み込みを実行してO×O×1サイズの特徴マップ（活性化マップとも呼ばれる）出力を生成します。
 
 
 <br>
@@ -187,35 +187,35 @@
 
 **27. Remark: the application of K filters of size F×F results in an output feature map of size O×O×K.**
 
-&#10230; 注意: FxFサイズのK個別のフィルタを適用すると、0x0xKサイズの出力特徴図を得られる。
+&#10230; 注: F×FサイズのK個のフィルタを適用すると、O×O×Kサイズの特徴マップの出力を得られます。
 
 <br>
 
 
 **28. Stride ― For a convolutional or a pooling operation, the stride S denotes the number of pixels by which the window moves after each operation.**
 
-&#10230; ストライド - 畳み込みまたはプール操作に対して、ストライドSはそれぞれの操作の後にウィンドウに移動されるピクセル数を表示する。
+&#10230; ストライド - 畳み込みまたはプーリング操作において、ストライドSは各操作の後にウィンドウを移動させるピクセル数を表します。
 
 <br>
 
 
 **29. Zero-padding ― Zero-padding denotes the process of adding P zeroes to each side of the boundaries of the input. This value can either be manually specified or automatically set through one of the three modes detailed below:**
 
-&#10230; ゼロパディング - ゼロパディングは入力の境界線の各側にP個別のゼロ追加プロセスを表す。この値は手動で指定されることも、以下に詳述する３つのモードのいずれを通じて自動的に設定されることもできる。
+&#10230; ゼロパディング - ゼロパディングとは入力の各境界に対してP個のゼロを追加するプロセスを意味します。この値は手動で指定することも、以下に詳述する３つのモードのいずれかを使用して自動的に設定することもできます。
 
 <br>
 
 
 **30. [Mode, Value, Illustration, Purpose, Valid, Same, Full]**
 
-&#10230; [モード, 値, 図, 目的, 有効, 同様, フル]
+&#10230; [モード, 値, 図, 目的, Valid, Same, Full]
 
 <br>
 
 
 **31. [No padding, Drops last convolution if dimensions do not match, Padding such that feature map size has size ⌈IS⌉, Output size is mathematically convenient, Also called 'half' padding, Maximum padding such that end convolutions are applied on the limits of the input, Filter 'sees' the input end-to-end]**
 
-&#10230; [パディングなし, もし寸法が一致しなかったら最後の畳み込みを落とす, 特徴図のサイズが[IS]サイズになるようなパディング, 出力サイズは数学的に便利です, ハーフパディングとも呼ばれる, 入力の限界に端部畳み込みが適用されるような最大パディング, フィルタはエンドツーエンド入力を観察する]
+&#10230; [パディングなし, もし大きさが合わなかったら最後の畳み込みをやめる, 特徴マップのサイズが[IS]になるようなパディング, 出力サイズは数学的に扱いやすい, 「ハーフ」パディングとも呼ばれる, 入力の一番端まで畳み込みが適用されるような最大パディング, フィルタは入力を端から端まで「見る」]
 
 <br>
 
@@ -588,7 +588,7 @@
 
 &#10230;
 
-<br> 活性化 - 与えられた層Lで、活性化はa[l]と表示されて、nH×nw×ncの寸法。
+<br> 活性化 - 与えられた層lで、活性化はa[l]と表示されて、nH×nw×ncの寸法。
 
 
 **85. Content cost function ― The content cost function Jcontent(C,G) is used to determine how the generated image G differs from the original content image C. It is defined as follows:**

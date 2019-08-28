@@ -488,7 +488,7 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 
 **69. Remark: PP is commonly used in t-SNE.**
 
-&#10230;備考：PPはt-SNEで一般的に使用されています。
+&#10230;注：PPはt-SNEで一般的に使用されています。
 
 <br>
 

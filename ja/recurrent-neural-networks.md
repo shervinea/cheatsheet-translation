@@ -649,7 +649,7 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 
 **92. Original authors**
 
-&#10230;原作者
+&#10230;原著者
 
 <br>
 

@@ -643,7 +643,7 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 
 **91. The Deep Learning cheatsheets are now available in [target language].**
 
-&#10230;ディープラーニングのチートシートが[対象言語]で利用可能になりました。
+&#10230;ディープラーニングのチートシートが日本語で利用可能になりました。
 
 <br>
 

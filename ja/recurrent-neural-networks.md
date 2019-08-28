@@ -186,7 +186,7 @@
 
 **27. Vanishing/exploding gradient ― The vanishing and exploding gradient phenomena are often encountered in the context of RNNs. The reason why they happen is that it is difficult to capture long term dependencies because of multiplicative gradient that can be exponentially decreasing/increasing with respect to the number of layers.**
 
-&#10230;勾配消失と勾配爆発について - 勾配消失と勾配爆発の現象は、RNNでよく見られます。これらの現象が起こる理由は、多層にわたり勾配が指数関数的に減少/増加する可能性があるため、長期の依存関係を計算するのには向いていないからです。
+&#10230;勾配消失と勾配爆発について - 勾配消失と勾配爆発の現象は、RNNでよく見られます。これらの現象が起こる理由は、掛け算の勾配が層の数に対して指数関数的に減少/増加する可能性があるため、長期の依存関係を捉えるのが難しいからです。
 
 <br>
 

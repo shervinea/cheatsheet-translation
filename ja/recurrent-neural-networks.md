@@ -270,7 +270,7 @@
 
 **39. Variants of RNNs ― The table below sums up the other commonly used RNN architectures:**
 
-&#10230;RNNの変化版 - 以下の表は、一般的に使用されている他のRNNアーキテクチャをまとめたものです。
+&#10230;RNNの変種 - 以下の表は、一般的に使用されている他のRNNアーキテクチャをまとめたものです。
 
 <br>
 

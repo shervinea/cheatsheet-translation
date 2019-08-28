@@ -439,7 +439,7 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 
 **62. Remark: θ is the angle between words w1 and w2.**
 
-&#10230;注意：θはワードw1とw2の間の角度です。
+&#10230;注：θは単語w1とw2の間の角度です。
 
 <br>
 

@@ -95,7 +95,7 @@
 
 **14. where Wax,Waa,Wya,ba,by are coefficients that are shared temporally and g1,g2 activation functions.**
 
-&#10230;Wax,Waa,Wya,baは一時的に共有係数であり、g1,g2は活性化関数です。
+&#10230;Wax,Waa,Wya,baは全ての時点で共有される係数であり、g1,g2は活性化関数です。
 
 <br>
 

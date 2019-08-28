@@ -474,7 +474,7 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 
 **67. n-gram model ― This model is a naive approach aiming at quantifying the probability that an expression appears in a corpus by counting its number of appearance in the training data.**
 
-&#10230;n-gramモデル - このモデルは、トレーニングデータでの出現数を数えることによって、コーパス表現の出現確率を定量化することを目的とした単純なアプローチです。
+&#10230;n-gramモデル - このモデルは、トレーニングデータでの出現数を数えることによって、ある表現がコーパスに出現する確率を定量化することを目的とした単純なアプローチです。
 
 <br>
 

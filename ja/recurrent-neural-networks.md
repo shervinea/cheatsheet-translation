@@ -312,7 +312,7 @@
 
 **45. [1-hot representation, Word embedding]**
 
-&#10230;[1-ホット表現、Wordの埋め込み]
+&#10230;[1-hot表現、単語埋め込み]
 
 <br>
 

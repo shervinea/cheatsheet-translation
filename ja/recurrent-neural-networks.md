@@ -396,7 +396,7 @@
 
 **57. Remark: this method is less computationally expensive than the skip-gram model.**
 
-&#10230;注意：この計算コストは、スキップグラムモデルよりも少ないです。
+&#10230;注：この方法の計算コストは、スキップグラムモデルよりも少ないです。
 
 <br>
 

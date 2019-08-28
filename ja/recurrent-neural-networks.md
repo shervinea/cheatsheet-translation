@@ -368,7 +368,7 @@
 
 **53. [Train network on proxy task, Extract high-level representation, Compute word embeddings]**
 
-&#10230;[代理タスク上のネットワークの訓練、高水準表現の抽出、単語埋め込み重みの計算]
+&#10230;[代理タスクでのネットワークの訓練、高水準表現の抽出、単語埋め込み重みの計算]
 
 <br>
 

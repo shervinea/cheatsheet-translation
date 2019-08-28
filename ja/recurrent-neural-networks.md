@@ -389,7 +389,7 @@
 
 **56. Negative sampling ― It is a set of binary classifiers using logistic regressions that aim at assessing how a given context and a given target words are likely to appear simultaneously, with the models being trained on sets of k negative examples and 1 positive example. Given a context word c and a target word t, the prediction is expressed by:**
 
-&#10230;ネガティブサンプリング -  k個のネガティブな例と1つのポジティブな例で訓練されたモデルで、ある与えられた文脈とターゲット単語の出現確率を評価するロジスティック回帰を使用するバイナリ分類器です。単語cとターゲット語tが与えられると、予測は次のように表現されます。
+&#10230;ネガティブサンプリング - ロジスティック回帰を使用したバイナリ分類器のセットで、特定の文脈とあるターゲット単語が同時に出現する確率を評価することを目的としています。モデルはk個のネガティブな例と1つのポジティブな例のセットで訓練されます。コンテキスト単語cとターゲット単語tが与えられると、予測は次のように表現されます。
 
 <br>
 

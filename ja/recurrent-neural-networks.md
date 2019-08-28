@@ -481,7 +481,8 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 
 **68. Perplexity ― Language models are commonly assessed using the perplexity metric, also known as PP, which can be interpreted as the inverse probability of the dataset normalized by the number of words T. The perplexity is such that the lower, the better and is defined as follows:**
 
-&#10230;パープレキシティ - 言語モデルは、一般的にPPとも呼ばれるパープレキシティメトリックを使用して評価されます。これは、ワード数Tにより正規化されたデータセットの確率の逆数と解釈できます。パープレキシティの数値はより低いものがより選択しやすい単語として評価されます(訳注:10であれば10個の中から1つ選択される、10000であれば10000個の中から1つ)、評価式は下記のようになります。
+&#10230;パープレキシティ - 言語モデルは一般的に、PPとも呼ばれるパープレキシティメトリックを使用して評価されます。これは、単語数Tにより正規化されたデータセットの逆確率と解釈できます。パープレキシティは低いほど良く、次のように定義されます。
+(訳注:パープレキシティの数値はより低いものがより選択しやすい単語として評価されます。10であれば10個の中から1つ、10000であれば10000個の中から1つ選択されます。)
 
 <br>
 

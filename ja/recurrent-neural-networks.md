@@ -453,7 +453,7 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 
 **64. [literature, art, book, culture, poem, reading, knowledge, entertaining, loveable, childhood, kind, teddy bear, soft, hug, cute, adorable]**
 
-&#10230;[文学、芸術、本、文化、詩、読書、知識、娯楽、愛らしい、幼年期、親切、テディベア、ソフト、抱擁、かわいい、愛らしい] 
+&#10230;[文学、芸術、本、文化、詩、読書、知識、面白い、愛らしい、幼年期、親切、テディベア、柔らかい、抱擁、かわいい、愛らしい] 
 
 <br>
 

@@ -249,7 +249,7 @@
 
 **36. GRU/LSTM ― Gated Recurrent Unit (GRU) and Long Short-Term Memory units (LSTM) deal with the vanishing gradient problem encountered by traditional RNNs, with LSTM being a generalization of GRU. Below is a table summing up the characterizing equations of each architecture:**
 
-&#10230;GRU/LSTM -  ゲートリカレントユニット（GRU）およびロングショートタームメモリユニット（LSTM）は、従来のRNNで問題になった勾配消失問題を解決します。LSTMはGRUの一般化名称です。以下は、各アーキテクチャの特性式をまとめた表です。
+&#10230;GRU/LSTM - ゲート付きリカレントユニット（GRU）およびロングショートタームメモリユニット（LSTM）は、従来のRNNが直面した勾配消失問題を解決しようとします。LSTMはGRUを一般化したものです。以下は、各アーキテクチャを特徴づける式をまとめた表です。
 
 <br>
 

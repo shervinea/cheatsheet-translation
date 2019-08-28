@@ -375,7 +375,7 @@
 
 **54. Skip-gram ― The skip-gram word2vec model is a supervised learning task that learns word embeddings by assessing the likelihood of any given target word t happening with a context word c. By noting θt a parameter associated with t, the probability P(t|c) is given by:**
 
-&#10230;スキップグラム - スキップグラムword2vecモデルは、あるコンテキスト単語を与え、ターゲット単語t の出現確率を計算することで単語の埋め込みを学習する教師付き学習タスクです。時点tと関係するパラメーターθtと表記すると、確率P(t|c) は下記のように表現されます。
+&#10230;スキップグラム - スキップグラムword2vecモデルは、あるターゲット単語tがコンテキスト単語cと一緒に出現する確率を評価することで単語の埋め込みを学習する教師付き学習タスクです。tに関するパラメータをθtと表記すると、その確率P(t|c) は下記の式で与えられます。
 
 <br>
 

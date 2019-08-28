@@ -291,7 +291,7 @@
 
 **42. In this section, we note V the vocabulary and |V| its size.**
 
-&#10230;この節では、Vを語彙、そして|V|を語彙のサイズとして定義します。
+&#10230;この節では、Vは語彙、そして|V|は語彙のサイズを表します。
 
 <br>
 

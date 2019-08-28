@@ -333,7 +333,7 @@
 
 **48. Embedding matrix ― For a given word w, the embedding matrix E is a matrix that maps its 1-hot representation ow to its embedding ew as follows:**
 
-&#10230;埋め込み行列 - 与えられた単語wに対して、埋め込み行列Eは、1-hot表現owを埋め込み行列ewに写像します。式は以下のようになります。
+&#10230;埋め込み行列 - 与えられた単語wに対して、埋め込み行列Eは、以下のように1-hot表現owを埋め込み行列ewに写像します。
 
 <br>
 

@@ -130,7 +130,7 @@
 
 **19. [Type of RNN, Illustration, Example]**
 
-&#10230;RNNの種類、イラスト、例
+&#10230;RNNの種類、図、例
 
 <br>
 

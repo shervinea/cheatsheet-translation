@@ -193,7 +193,7 @@
 
 **28. Gradient clipping ― It is a technique used to cope with the exploding gradient problem sometimes encountered when performing backpropagation. By capping the maximum value for the gradient, this phenomenon is controlled in practice.**
 
-&#10230;勾配クリッピング - 誤差逆伝播法を実行するときに時折発生する勾配爆発問題に対処するために使用される手法です。勾配の最大値(閾値)を定義することで、この現象が抑制されます。
+&#10230;勾配クリッピング - 誤差逆伝播法を実行するときに時折発生する勾配爆発問題に対処するために使用される手法です。勾配の上限値を定義することで、実際にこの現象が抑制されます。
 
 <br>
 

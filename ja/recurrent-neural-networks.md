@@ -74,7 +74,7 @@
 
 **11. Architecture of a traditional RNN ― Recurrent neural networks, also known as RNNs, are a class of neural networks that allow previous outputs to be used as inputs while having hidden states. They are typically as follows:**
 
-&#10230;一般的なRNNのアーキテクチャ - RNNとして知られるリカレントニューラルネットワークは、直前隠れ層の状態を利用しながら、過去の(一時点前の)情報を入力情報と取り扱うことを可能にするニューラルネットワークです。一般的なモデルは下記のようになります。
+&#10230;一般的なRNNのアーキテクチャ - RNNとして知られるリカレントニューラルネットワークは、隠れ層の状態を利用して、前の出力を次の入力として取り扱うことを可能にするニューラルネットワークの一種です。一般的なモデルは下記のようになります。
 
 <br>
 

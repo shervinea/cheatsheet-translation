@@ -411,7 +411,7 @@
 **58. where f is a weighting function such that Xi,j=0⟹f(Xi,j)=0.
 Given the symmetry that e and θ play in this model, the final word embedding e(final)w is given by:**
 
-&#10230;ここで、fはXi、j =0⟹f（Xi、j）= 0となるような重み関数です。このモデルでeとθが果たす対称性を考えると、e（final）wが最後の単語の埋め込みになります。
+&#10230;ここで、fはXi,j =0⟹f（Xi,j）= 0となるような重み関数です。このモデルでeとθが果たす対称性を考えると、最後の単語の埋め込みe（final）wは下記ののようになります。
 
 <br>
 

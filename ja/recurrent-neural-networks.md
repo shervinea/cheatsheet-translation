@@ -123,7 +123,7 @@
 
 **18. Applications of RNNs ― RNN models are mostly used in the fields of natural language processing and speech recognition. The different applications are summed up in the table below:**
 
-&#10230;RNNの応用 -  RNNモデルは主に自然言語処理と音声認識の分野で使用されます。以下の表に、さまざまなアプリケーションの概要が下記のテーブルに示されます。
+&#10230;RNNの応用 - RNNモデルは主に自然言語処理と音声認識の分野で使用されます。以下の表に、さまざまな応用例がまとめられています。
 
 <br>
 

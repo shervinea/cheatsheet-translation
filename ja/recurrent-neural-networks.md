@@ -172,7 +172,7 @@
 
 **25. Commonly used activation functions ― The most common activation functions used in RNN modules are described below:**
 
-&#10230;一般的に使用される活性化関数 -  RNNモジュールで使用される最も一般的な活性化関数を以下に説明します。
+&#10230;一般的に使用される活性化関数 - RNNモジュールで使用される最も一般的な活性化関数を以下に説明します。
 
 <br>
 

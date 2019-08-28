@@ -354,7 +354,7 @@
 
 **51. Word2vec ― Word2vec is a framework aimed at learning word embeddings by estimating the likelihood that a given word is surrounded by other words. Popular models include skip-gram, negative sampling and CBOW.**
 
-&#10230;Word2vec -  Word2vecは、ある単語が他の周辺単語から導きだされる可能性を推定することで、単語の埋め込みの重みを学習することを目的としたフレームワークです。この一般的なモデルは、スキップグラム、ネガティブサンプリング、およびCBOWがあります。
+&#10230;Word2vec - Word2vecは、ある単語が他の単語の周辺にある可能性を推定することで、単語の埋め込みの重みを学習することを目的としたフレームワークです。人気のあるモデルは、スキップグラム、ネガティブサンプリング、およびCBOWです。
 
 <br>
 

@@ -361,7 +361,7 @@
 
 **52. [A cute teddy bear is reading, teddy bear, soft, Persian poetry, art]**
 
-&#10230;[かわいいテディベアが読んでいる、テディベア、ソフト、ペルシャ詩、芸術]
+&#10230;[かわいいテディベアが読んでいる、テディベア、柔らかい、ペルシャ詩、芸術]
 
 <br>
 

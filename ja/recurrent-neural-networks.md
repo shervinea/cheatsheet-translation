@@ -179,7 +179,7 @@
 
 **26. [Sigmoid, Tanh, RELU]**
 
-&#10230;[ジグモイド、Tanh、RELU]
+&#10230;[シグモイド、Tanh、RELU]
 
 <br>
 

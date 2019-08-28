@@ -116,7 +116,7 @@
 
 **17. [Drawbacks, Computation being slow, Difficulty of accessing information from a long time ago, Cannot consider any future input for the current state]**
 
-&#10230;短所、遅い計算時間、長期の時間軸にわたるデータ探索が困難、現在の状態から将来の入力を予測不可能
+&#10230;短所、遅い計算、長い時間軸での情報の利用が困難、現在の状態から将来の入力を予測不可能
 
 <br>
 

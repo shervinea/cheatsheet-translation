@@ -538,7 +538,7 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 
 **76. Length normalization ― In order to improve numerical stability, beam search is usually applied on the following normalized objective, often called the normalized log-likelihood objective, defined as:**
 
-&#10230;文章の長さの正規化 - 数値の安定性を向上させるために、ビームサーチは通常次のような正規化、特に対数尤度正規化された探索対象物に対して適用されます。
+&#10230;文章の長さの正規化 - 数値の安定性を向上させるために、ビーム検索は通常次のように正規化（対数尤度正規化）された目的関数に対して適用されます。
 
 <br>
 

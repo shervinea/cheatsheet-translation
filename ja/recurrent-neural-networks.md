@@ -673,6 +673,6 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 
 **96. By X and Y**
 
-&#10230;XそしてYによる。
+&#10230;X・Y 著
 
 <br>

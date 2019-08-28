@@ -517,7 +517,7 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 
 **73. [Step 1: Find top B likely words y<1>, Step 2: Compute conditional probabilities y<k>|x,y<1>,...,y<k−1>, Step 3: Keep top B combinations x,y<1>,...,y<k>, End process at a stop word]**
 
-&#10230;［ステップ１：単語y<1>と高い確率を持つ上位Ｂ個の組み合わせを見つける。ステップ２：条件付き確率y<k>|x,y<1>,...,y<k−1>を計算する。ステップ３：上位Ｂ個の組み合わせx,y<1>,...,y<k>を保持しながら、あるストップワードでプロセスを終了する]
+&#10230;［ステップ１：上位Ｂ個の高い確率を持つ単語y<1>を見つける。ステップ２：条件付き確率y<k>|x,y<1>,...,y<k−1>を計算する。ステップ３：上位Ｂ個の組み合わせx,y<1>,...,y<k>を保持する。あるストップワードでプロセスを終了する]
 
 <br>
 

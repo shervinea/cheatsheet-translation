@@ -200,7 +200,7 @@
 
 **29. clipped**
 
-&#10230;クリップド
+&#10230;clipped
 
 <br>
 
@@ -545,14 +545,14 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 
 **77. Remark: the parameter α can be seen as a softener, and its value is usually between 0.5 and 1.**
 
-&#10230;注意：パラメーターαは緩衝パラメーターと見なされ、その値は通常0.5から1の間です。
+&#10230;注：パラメータαは緩衝パラメータと見なされ、その値は通常0.5から1の間です。
 
 <br>
 
 
 **78. Error analysis ― When obtaining a predicted translation ˆy that is bad, one can wonder why we did not get a good translation y∗ by performing the following error analysis:**
 
-&#10230;エラー分析 - 予測ˆyの翻訳が誤りである場合、その文の後に続く誤り分析を実行することで訳文y*がなぜ不正解であるかを理解することが可能です。
+&#10230;エラー分析 - 予測されたˆyの翻訳が良くない場合、以下のようなエラー分析を実行することで、なぜy∗のような良い翻訳を得られなかったのか考えることが可能です。
 
 <br>
 
@@ -566,28 +566,28 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 
 **80. [Beam search faulty, RNN faulty, Increase beam width, Try different architecture, Regularize, Get more data]**
 
-&#10230;[ビーム検索の誤り、RNNの誤り、ビーム幅の拡大、さまざまなアーキテクチャを試す、正規化、データをさらに取得] 
+&#10230;[ビーム検索の誤り、RNNの誤り、ビーム幅の拡大、さまざまなアーキテクチャを試す、正則化、データをさらに取得] 
 
 <br>
 
 
 **81. Bleu score ― The bilingual evaluation understudy (bleu) score quantifies how good a machine translation is by computing a similarity score based on n-gram precision. It is defined as follows:**
 
-&#10230;Bleuスコア - バイリンガル正確性の代替評価（bleu）スコアは、n-gramの精度に基づき類似性スコアを計算することで、機械翻訳がどれほど優れているかを定量化します。以下のように定義されています。
+&#10230;Bleuスコア - Bleu（Bilingual evaluation understudy）スコアは、n-gramの精度に基づき類似性スコアを計算することで、機械翻訳がどれほど優れているかを定量化します。以下のように定義されています。
 
 <br>
 
 
 **82. where pn is the bleu score on n-gram only defined as follows:**
 
-&#10230;ここで、pnは、唯一定義されたn-gramでのbleuスコアです。定義は下記のようになります。
+&#10230;ここで、pnはn-gramでのbleuスコアで下記のようにだけ定義されています。
 
 <br>
 
 
 **83. Remark: a brevity penalty may be applied to short predicted translations to prevent an artificially inflated bleu score.**
 
-&#10230;注：人為的に水増しされたブルースコアを防ぐために、短い翻訳評価には簡潔なペナルティが適用される場合があります。
+&#10230;注：人為的に水増しされたブルースコアを防ぐために、短い翻訳評価には簡潔さへのペナルティが適用される場合があります。
 
 <br>
 
@@ -601,21 +601,21 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 
 **85. Attention model ― This model allows an RNN to pay attention to specific parts of the input that is considered as being important, which improves the performance of the resulting model in practice. By noting α<t,t′> the amount of attention that the output y<t> should pay to the activation a<t′> and c<t> the context at time t, we have:**
 
-&#10230;アテンションモデル - このモデルはRNNが重要であると考えられる特定の入力部分に注目することで、モデルの実際の性能結果を向上させます。時点tにおける出力y<t>が、活性化関数a<t'>およびコンテキストc <t>に注目するとき、α<t、t'>はアテンション量と定義されます。式は次のようになります。
+&#10230;アテンションモデル - このモデルを使用するとRNNは重要であると考えられる入力の特定部分に注目することができ、得られるモデルの性能が実際に向上します。時刻tにおいて、出力y<t>が活性化関数a<t'>とコンテキストc<t>とに払うべき注意量をα<t,t′>と表記すると次のようになります。
 
 <br>
 
 
 **86. with**
 
-&#10230;ウェイト
+&#10230;および
 
 <br>
 
 
 **87. Remark: the attention scores are commonly used in image captioning and machine translation.**
 
-&#10230;注：アテンションスコアは、一般的に画像のキャプション作成および機械翻訳で使用されています。*
+&#10230;注：アテンションスコアは、一般的に画像のキャプション作成および機械翻訳で使用されています。
 
 <br>
 
@@ -629,14 +629,14 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 
 **89. Attention weight ― The amount of attention that the output y<t> should pay to the activation a<t′> is given by α<t,t′> computed as follows:**
 
-&#10230;アテンションの重み - 出力y<t>が活性化関数a<t'>で表現されるアテンションのウェイト量α<t,t>は、次のように計算されます。
+&#10230;アテンションの重み - 出力y<t>が活性化関数a<t'>に払うべき注意量α<t,t′>は次のように計算されます。
 
 <br>
 
 
 **90. Remark: computation complexity is quadratic with respect to Tx.**
 
-&#10230;注意：この計算の複雑さはTxの２次関数です。
+&#10230;注：この計算の複雑さはTxに関して2次です。
 
 <br>
 

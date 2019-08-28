@@ -158,7 +158,7 @@
 
 **23. Backpropagation through time ― Backpropagation is done at each point in time. At timestep T, the derivative of the loss L with respect to weight matrix W is expressed as follows:**
 
-&#10230;時間軸での誤差逆伝播法 - 誤差逆伝播法(バックプロパゲーション)は各時点で行われます。時間ステップＴにおいて、重み行列Ｗに関する損失Ｌの導関数は以下のように表されます。
+&#10230;時間軸での誤差逆伝播法 - 誤差逆伝播(バックプロパゲーション)が各時点で行われます。時刻 T における、重み行列 W に関する損失 L の導関数は以下のように表されます。
 
 <br>
 

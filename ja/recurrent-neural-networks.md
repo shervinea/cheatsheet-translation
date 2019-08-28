@@ -235,7 +235,7 @@
 
 **34. [How much past should matter now?, Drop previous information?, Erase a cell or not?, How much to reveal of a cell?]**
 
-&#10230;[過去情報はどのくらい重要ですか？ 前の情報を削除しますか？、セルを消去しますか？　しませんか？　セルを表示するコストはどのくらいですか？]
+&#10230;[過去情報はどのくらい重要ですか？、前の情報を削除しますか？、セルを消去しますか？しませんか？、セルをどのくらい見せますか？]
 
 <br>
 

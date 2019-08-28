@@ -109,7 +109,7 @@
 
 **16. [Advantages, Possibility of processing input of any length, Model size not increasing with size of input, Computation takes into account historical information, Weights are shared across time]**
 
-&#10230;長所、任意の長さの入力を処理できる、入力サイズに比べてモデルサイズは大きくならない、時間軸を考慮した計算パワー、時間軸での重みは共有される
+&#10230;長所、任意の長さの入力を処理できる、入力サイズに応じてモデルサイズが大きくならない、計算は時系列情報を考慮している、重みは全ての時点で共有される
 
 <br>
 

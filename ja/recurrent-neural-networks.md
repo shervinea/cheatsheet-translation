@@ -144,7 +144,7 @@
 
 **21. [Traditional neural network, Music generation, Sentiment classification, Name entity recognition, Machine translation]**
 
-&#10230;伝統的なニューラルネットワーク、音楽生成、感情分類、固有名詞認識、機械翻訳
+&#10230;伝統的なニューラルネットワーク、音楽生成、感情分類、固有表現認識、機械翻訳
 
 <br>
 

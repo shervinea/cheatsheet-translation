@@ -151,7 +151,7 @@
 
 **22. Loss function ― In the case of a recurrent neural network, the loss function L of all time steps is defined based on the loss at every time step as follows:**
 
-&#10230;損失関数 - リカレントニューラルネットワークの場合、すべての時間軸での損失関数Lは、それぞれの時点での損失に基づき、次のように定義されます
+&#10230;損失関数 - リカレントニューラルネットワークの場合、時間軸全体での損失関数Lは、各時点での損失に基づき、次のように定義されます。
 
 <br>
 

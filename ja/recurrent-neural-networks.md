@@ -510,7 +510,7 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 
 **72. Beam search ― It is a heuristic search algorithm used in machine translation and speech recognition to find the likeliest sentence y given an input x.**
 
-&#10230;ビーム検索 - 入力xが与えられたとき最も可能性の高い文yを見つける、機械翻訳と音声認識で使用されるヒューリスティック探索アルゴリズムです。
+&#10230;ビーム検索 - 入力xが与えられたとき最も可能性の高い文yを見つけるために、機械翻訳と音声認識で使用されるヒューリスティック探索アルゴリズムです。
 
 <br>
 

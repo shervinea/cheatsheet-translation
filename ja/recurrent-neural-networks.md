@@ -655,7 +655,7 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 
 **93. Translated by X, Y and Z**
 
-&#10230;X,YそしてZにより翻訳されました。
+&#10230;X・Y・Z 訳
 
 <br>
 

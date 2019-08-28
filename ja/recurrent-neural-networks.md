@@ -661,7 +661,7 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 
 **94. Reviewed by X, Y and Z**
 
-&#10230;X,YそしてZにより校正されました。
+&#10230;X・Y・Z 校正
 
 <br>
 

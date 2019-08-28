@@ -524,7 +524,7 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 
 **74. Remark: if the beam width is set to 1, then this is equivalent to a naive greedy search.**
 
-&#10230;注意：ビーム幅が1に設定されている場合、これは単純な貪欲法と同等の結果を導きます。
+&#10230;注意：ビーム幅が1に設定されている場合、これは単純な貪欲法と同等です。
 
 <br>
 

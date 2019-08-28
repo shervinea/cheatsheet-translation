@@ -418,7 +418,7 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 
 **59. Remark: the individual components of the learned word embeddings are not necessarily interpretable.**
 
-&#10230;注意：学習された単語の埋め込みの個々の要素は、必ずしも関係性がある必要はないです。
+&#10230;注：学習された単語の埋め込みの個々の要素は、必ずしも解釈可能ではありません。
 
 <br>
 

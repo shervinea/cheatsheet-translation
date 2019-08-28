@@ -256,7 +256,7 @@
 
 **37. [Characterization, Gated Recurrent Unit (GRU), Long Short-Term Memory (LSTM), Dependencies]**
 
-&#10230;特性評価、ゲートリカレントユニット（GRU）、ロングショートタームメモリ（LSTM）、依存関係
+&#10230;特徴づけ、ゲート付きリカレントユニット（GRU）、ロングショートタームメモリ（LSTM）、依存関係
 
 <br>
 

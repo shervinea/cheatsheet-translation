@@ -81,7 +81,7 @@
 
 **12. For each timestep t, the activation a<t> and the output y<t> are expressed as follows:**
 
-&#10230;それぞれの時点t において活性化関数の状態 a<t> と出力 y<t> は下記のように表現されます。　
+&#10230;それぞれの時点 t において活性化関数の状態 a<t> と出力 y<t> は下記のように表現されます。　
 
 <br>
 

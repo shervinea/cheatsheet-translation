@@ -531,7 +531,7 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 
 **75. Beam width ― The beam width B is a parameter for beam search. Large values of B yield to better result but with slower performance and increased memory. Small values of B lead to worse results but is less computationally intensive. A standard value for B is around 10.**
 
-&#10230;ビーム幅 - ビーム幅Bはビームサーチのパラメータです。 Bの値を大きくするとより良い結果が得られますが、探索パフォーマンスは低下し、メモリ使用量が増加します。 Bの値が小さいと結果が悪くなりますが、計算量は少なくなります。 Bの標準推奨値は10前後です。
+&#10230;ビーム幅 - ビーム幅Bはビーム検索のパラメータです。 Bの値を大きくするとより良い結果が得られますが、探索パフォーマンスは低下し、メモリ使用量が増加します。 Bの値が小さいと結果が悪くなりますが、計算量は少なくなります。 Bの標準値は10前後です。
 
 <br>
 

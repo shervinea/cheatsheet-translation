@@ -446,7 +446,7 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 
 **63. t-SNE ― t-SNE (t-distributed Stochastic Neighbor Embedding) is a technique aimed at reducing high-dimensional embeddings into a lower dimensional space. In practice, it is commonly used to visualize word vectors in the 2D space.**
 
-&#10230; t-SNE − t-SNE（ｔ−分布確率的近傍埋め込み）は、高次元埋め込みから低次元埋め込み空間への次元削減を目的とした技法です。実際には、2次元空間で単語ベクトルを視覚化するために使用されます。
+&#10230; t-SNE − t-SNE（ｔ−分布型確率的近傍埋め込み）は、高次元埋め込みから低次元埋め込み空間への次元削減を目的とした手法です。実際には、2次元空間で単語ベクトルを視覚化するために使用されます。
 
 <br>
 

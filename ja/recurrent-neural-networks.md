@@ -326,7 +326,7 @@
 
 **47. [Noted ow, Naive approach, no similarity information, Noted ew, Takes into account words similarity]**
 
-&#10230;[表記 ow、ナイーブベイズアプローチ、類似性情報なし、表記 ew、単語の類似性を考慮に入れる]
+&#10230;[owと表記される、素朴なアプローチ、類似性情報なし、ewと表記される、単語の類似性を考慮に入れる]
 
 <br>
 

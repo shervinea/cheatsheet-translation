@@ -65,7 +65,7 @@ Please make sure to propose the translation of **only one** cheatsheet per pull 
 |**Magyar**|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/124)|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/124)|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/124)|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/124)|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/124)|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/124)|
 |**Bahasa Indonesia**|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/154)|not started|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/139)|not started|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/151)|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/150)|
 |**Italiano**|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/78)|not started|not started|not started|not started|not started|
-|**日本語**|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/96)|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/144)|not started|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/99)|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/142)|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/140)|
+|**日本語**|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/96)|done|not started|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/99)|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/142)|done|
 |**한국어**|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/80)|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/90)|done|done|done|done|
 |**Polski**|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/8)|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/8)|not started|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/8)|not started|not started|
 |**Português**|done|done|done|done|done|done|
@@ -90,7 +90,7 @@ Please make sure to propose the translation of **only one** cheatsheet per pull 
 |**Magyar**|not started|not started|not started|
 |**Bahasa Indonesia**|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/155)|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/152)|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/153)|
 |**Italiano**|not started|not started|not started|
-|**日本語**|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/145)|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/146)|done|
+|**日本語**|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/145)|done|done|
 |**한국어**|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/109)|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/107)|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/108)|
 |**Polski**|not started|not started|not started|
 |**Português**|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/128)|not started|not started|

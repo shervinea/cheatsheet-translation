@@ -32,7 +32,7 @@
 
 **5. [Filter hyperparameters, Dimensions, Stride, Padding]**
 
-&#10230; [フィルタハイパーパラメータ, 大きさ, ストライド, パディング]
+&#10230; [フィルタハイパーパラメータ, 次元, ストライド, パディング]
 
 <br>
 
@@ -53,14 +53,14 @@
 
 **8. [Object detection, Types of models, Detection, Intersection over Union, Non-max suppression, YOLO, R-CNN]**
 
-&#10230; [オブジェクト検出, モデルのタイプ, 検出, 積集合の和集合, 非最大抑制, YOLO, R-CNN]
+&#10230; [物体検出, モデルのタイプ, 検出, IoU, 非極大抑制, YOLO, R-CNN]
 
 <br>
 
 
 **9. [Face verification/recognition, One shot learning, Siamese network, Triplet loss]**
 
-&#10230; [顔認証/認識, 一発学習, シャムネットワーク, 三重項損失]
+&#10230; [顔認証/認識, One shot学習, シャムネットワーク, 三重項損失]
 
 <br>
 
@@ -95,7 +95,7 @@
 
 **14. The convolution layer and the pooling layer can be fine-tuned with respect to hyperparameters that are described in the next sections.**
 
-&#10230; 畳み込み層とプーリング層は次のセクションで説明されるハイパーパラメータに関して微調整できます。
+&#10230; 畳み込み層とプーリング層は次のセクションで説明されるハイパーパラメータに関してファインチューニングできます。
 
 <br>
 
@@ -123,7 +123,7 @@
 
 **18. Pooling (POOL) ― The pooling layer (POOL) is a downsampling operation, typically applied after a convolution layer, which does some spatial invariance. In particular, max and average pooling are special kinds of pooling where the maximum and average value is taken, respectively.**
 
-&#10230; プーリング (POOL) - プーリング層 (POOL)はダウンサンプリング操作で、通常は位置不変性をもつ畳み込み層の後に適用されます。特に、最大及び平均プーリングはそれぞれ最大と平均値が取られる特別な種類のプーリングです。
+&#10230; プーリング (POOL) - プーリング層 (POOL)は位置不変性をもつ縮小操作で、通常は畳み込み層の後に適用されます。特に、最大及び平均プーリングはそれぞれ最大と平均値が取られる特別な種類のプーリングです。
 
 <br>
 
@@ -172,7 +172,7 @@
 
 **25. Dimensions of a filter ― A filter of size F×F applied to an input containing C channels is a F×F×C volume that performs convolutions on an input of size I×I×C and produces an output feature map (also called activation map) of size O×O×1.**
 
-&#10230; フィルタの大きさ - C個のチャネルを含む入力に適用されるF×Fサイズのフィルタの体積はF×F×Cで、それはI×I×Cサイズの入力に対して畳み込みを実行してO×O×1サイズの特徴マップ（活性化マップとも呼ばれる）出力を生成します。
+&#10230; フィルタの次元 - C個のチャネルを含む入力に適用されるF×Fサイズのフィルタの体積はF×F×Cで、それはI×I×Cサイズの入力に対して畳み込みを実行してO×O×1サイズの特徴マップ（活性化マップとも呼ばれる）出力を生成します。
 
 
 <br>
@@ -215,21 +215,21 @@
 
 **31. [No padding, Drops last convolution if dimensions do not match, Padding such that feature map size has size ⌈IS⌉, Output size is mathematically convenient, Also called 'half' padding, Maximum padding such that end convolutions are applied on the limits of the input, Filter 'sees' the input end-to-end]**
 
-&#10230; [パディングなし, もし大きさが合わなかったら最後の畳み込みをやめる, 特徴マップのサイズが[IS]になるようなパディング, 出力サイズは数学的に扱いやすい, 「ハーフ」パディングとも呼ばれる, 入力の一番端まで畳み込みが適用されるような最大パディング, フィルタは入力を端から端まで「見る」]
+&#10230; [パディングなし, もし次元が合わなかったら最後の畳み込みをやめる, 特徴マップのサイズが[IS]になるようなパディング, 出力サイズは数学的に扱いやすい, 「ハーフ」パディングとも呼ばれる, 入力の一番端まで畳み込みが適用されるような最大パディング, フィルタは入力を端から端まで「見る」]
 
 <br>
 
 
 **32. Tuning hyperparameters**
 
-&#10230; 調律ハイパーパラメータ
+&#10230; ハイパーパラメータの調整
 
 <br>
 
 
 **33. Parameter compatibility in convolution layer ― By noting I the length of the input volume size, F the length of the filter, P the amount of zero padding, S the stride, then the output size O of the feature map along that dimension is given by:**
 
-&#10230; 畳み込み層内のパラメータ互換性 - Iを入力ボリュームサイズの長さ、Fをフィルタの長さ、Pをゼロパディングの量, Sをストライドとすると、その寸法に沿った特徴図の出力サイズOは次式で与えられる:
+&#10230; 畳み込み層内のパラメータ互換性 - Iを入力ボリュームサイズの長さ、Fをフィルタの長さ、Pをゼロパディングの量, Sをストライドとすると、その次元に沿った特徴マップの出力サイズOは次式で与えられます:
 
 <br>
 
@@ -243,28 +243,28 @@
 
 **35. Remark: often times, Pstart=Pend≜P, in which case we can replace Pstart+Pend by 2P in the formula above.**
 
-&#10230; 注意: しばしば、Pstart=Pend≜P、その場合、上記の式のようにPstart+Pendを2Pに置き換える事ができる。
+&#10230; 注: 多くの場合Pstart=Pend≜Pであり、上記の式のPstart+Pendを2Pに置き換える事ができます。
 
 <br>
 
 
 **36. Understanding the complexity of the model ― In order to assess the complexity of a model, it is often useful to determine the number of parameters that its architecture will have. In a given layer of a convolutional neural network, it is done as follows:**
 
-&#10230; モデルの複雑さを理解する - モデルの複雑さを評価する為モデルのアーキテクチャが持つことになるパラメータの数を決定することはしばしば有用です。畳み込みニューラルネットワーク内で、以下のように行なわれる。
+&#10230; モデルの複雑さを理解する - モデルの複雑さを評価するために、モデルのアーキテクチャが持つパラメータの数を測定することがしばしば有用です。畳み込みニューラルネットワークの各レイヤでは、以下のように行なわれます。
 
 <br>
 
 
 **37. [Illustration, Input size, Output size, Number of parameters, Remarks]**
 
-&#10230; [図, 入力サイズ, 出力サイズ, 引数の数, 備考]
+&#10230; [図, 入力サイズ, 出力サイズ, パラメータの数, 備考]
 
 <br>
 
 
 **38. [One bias parameter per filter, In most cases, S<F, A common choice for K is 2C]**
 
-&#10230; [フィルタにあたり1つのバイアスパラメータ, ほとんどの場合, S<F, Kの一般的な選択は2C]
+&#10230; [フィルタごとに1つのバイアスパラメータ, ほとんどの場合, S<F, Kの一般的な選択は2C]
 
 <br>
 
@@ -278,21 +278,21 @@
 
 **40. [Input is flattened, One bias parameter per neuron, The number of FC neurons is free of structural constraints]**
 
-&#10230; [入力は平坦化される, ニューラルごとにひとつのバイアスパラメータ, FCニューラルの数は構造制約がない]
+&#10230; [入力は平坦化される, ニューロンごとにひとつのバイアスパラメータ, FCのニューロンの数には構造的制約がない]
 
 <br>
 
 
 **41. Receptive field ― The receptive field at layer k is the area denoted Rk×Rk of the input that each pixel of the k-th activation map can 'see'. By calling Fj the filter size of layer j and Si the stride value of layer i and with the convention S0=1, the receptive field at layer k can be computed with the formula:**
 
-&#10230; 受容的なフィルド - 層kの受容的なフィルドはk番目の活性化図の各ピックセルが見られる入力のRkxRkを表示されるエリアです。j層のフィルタサイズをFj、i層のストライド値をSi、規約S0=1とすると、k層での受容的なフィルドは式で計算される:
+&#10230; 受容野 - レイヤkにおける受容野は、k番目の活性化マップの各ピクセルが「見る」ことができる入力のRk×Rkの領域です。レイヤjのフィルタサイズをFj、レイヤiのストライド値をSiとし、慣例に従ってS0=1とすると、レイヤkでの受容野は次の式で計算されます：
 
 <br>
 
 
 **42. In the example below, we have F1=F2=3 and S1=S2=1, which gives R2=1+2⋅1+2⋅1=5.**
 
-&#10230; 下記の例で、F1=F2=3、S1=S2=1となるのでR2=1+2⋅1+2⋅1=5となる。
+&#10230; 下記の例のようにF1=F2=3、S1=S2=1とすると、R2=1+2⋅1+2⋅1=5となります。
 
 <br>
 
@@ -306,70 +306,70 @@
 
 **44. Rectified Linear Unit ― The rectified linear unit layer (ReLU) is an activation function g that is used on all elements of the volume. It aims at introducing non-linearities to the network. Its variants are summarized in the table below:**
 
-&#10230; 整流線形ユニット - 整流線形ユニット層(ReLU)はボリュームの全ての要素に利用される活性化関数gです。ReLUの目的は非線型性をネットワークに紹介する。ReLUの変種は以下の表でまとめられる:
+&#10230; 正規化線形ユニット - 正規化線形ユニットレイヤ(ReLU)はボリュームの全ての要素に利用される活性化関数gです。ReLUの目的は非線型性をネットワークに導入することです。変種は以下の表でまとめられています：
 
 <br>
 
 
 **45. [ReLU, Leaky ReLU, ELU, with]**
 
-&#10230;[ReLU, Leaky ReLU, ELU, with]
+&#10230;[ReLU, Leaky ReLU, ELU, ただし]
 
 <br>
 
 
 **46. [Non-linearity complexities biologically interpretable, Addresses dying ReLU issue for negative values, Differentiable everywhere]**
 
-&#10230; [生物学的に解釈可能な非線形複雑性, 負の値の為dyingReLUの問題を示す,どこても差別化可能]
+&#10230; [生物学的に解釈可能な非線形複雑性, 負の値に対してReLUが死んでいる問題に対処する,どこても微分可能]
 
 <br>
 
 
 **47. Softmax ― The softmax step can be seen as a generalized logistic function that takes as input a vector of scores x∈Rn and outputs a vector of output probability p∈Rn through a softmax function at the end of the architecture. It is defined as follows:**
 
-&#10230; ソフトマックス - ソフトマックスステップは入力としてx∈Rnスコアのベクターを取り、アーキテクチャの最後にソフトマックス関数を通じてp∈Rn出力確率のベクターを出して、一般化ロジスティック関数として見る事ができる。
+&#10230; ソフトマックス - ソフトマックスのステップは入力としてスコアx∈Rnのベクトルを取り、アーキテクチャの最後にあるソフトマックス関数を通じて確率p∈Rnのベクトルを出力する一般化されたロジスティック関数として見ることができます。次のように定義されます。
 
 <br>
 
 
 **48. where**
 
-&#10230; どこ
+&#10230; ここで
 
 <br>
 
 
 **49. Object detection**
 
-&#10230; オブジェクト検出
+&#10230; 物体検出
 
 <br>
 
 
 **50. Types of models ― There are 3 main types of object recognition algorithms, for which the nature of what is predicted is different. They are described in the table below:**
 
-&#10230; モデルの種類 - 物体認識アルゴリズムは主に三つのタイプがあり、予測されるものの性質は異なります。次の表で説明される。
+&#10230; モデルの種類 - 物体認識アルゴリズムは主に3つの種類があり、予測されるものの性質は異なります。次の表で説明されています。
 
 <br>
 
 
 **51. [Image classification, Classification w. localization, Detection]**
 
-&#10230; [画像分類, 分類 w. 局地化, 検出]
+&#10230; [画像分類, 位置特定を伴う分類, 検出]
 
 <br>
 
 
 **52. [Teddy bear, Book]**
 
-&#10230; [テディ熊, 本]
+&#10230; [テディベア, 本]
 
 <br>
 
 
 **53. [Classifies a picture, Predicts probability of object, Detects an object in a picture, Predicts probability of object and where it is located, Detects up to several objects in a picture, Predicts probabilities of objects and where they are located]**
 
-&#10230; [画像分類, オブジェクトの確率予測, 画像内のオブジェクト検出, オブジェクトの確率と所在地予測, 画像内の複数オブジェクト検出, 複数オブジェクトの確率と所在地予測]
+&#10230; [画像を分類する, 物体の確率を予測する, 画像内の物体を検出する, 物体の確率とその位置を予測する, 画像内の複数の物体を検出する, 複数の物体の確率と位置を予測する]
 
 <br>
 
@@ -383,133 +383,133 @@
 
 **55. Detection ― In the context of object detection, different methods are used depending on whether we just want to locate the object or detect a more complex shape in the image. The two main ones are summed up in the table below:**
 
-&#10230; 検出 - 物体検出の文脈では、画像内で物体を特定するのかそれとも複雑な形状を検出するのかによって、様々な方法は使用される。二つの主なものは次の表でまとめられる:
+&#10230; 検出 - 物体検出の文脈では、画像内の物体の位置を特定したいだけなのかあるいは複雑な形状を検出したいのかによって、異なる方法が使用されます。二つの主なものは次の表でまとめられています：
 
 <br>
 
 
 **56. [Bounding box detection, Landmark detection]**
 
-&#10230; [物体検出, ランドマーク検出]
+&#10230; [境界ボックス検出, ランドマーク検出]
 
 <br>
 
 
 **57. [Detects the part of the image where the object is located, Detects a shape or characteristics of an object (e.g. eyes), More granular]**
 
-&#10230; [物体が配置されている画像の部分検出, (例: 目)物体の特徴または形状検出, より粒状]
+&#10230; [物体が配置されている画像の部分を検出する, 物体（たとえば目）の形状または特徴を検出する, よりきめ細かい]
 
 <br>
 
 
 **58. [Box of center (bx,by), height bh and width bw, Reference points (l1x,l1y), ..., (lnx,lny)]**
 
-&#10230; [センターのボックス(bx, by), 縦bhと幅bw, 各参照ポイント　(l1x,l1y), ..., (lnx,lny)]
+&#10230; [中心(bx, by)、高さbh、幅bwのボックス, 参照点(l1x,l1y), ..., (lnx,lny)]
 
 <br>
 
 
 **59. Intersection over Union ― Intersection over Union, also known as IoU, is a function that quantifies how correctly positioned a predicted bounding box Bp is over the actual bounding box Ba. It is defined as:**
 
-&#10230; 労働組合の交差点 - 労働組合の交差点(IoUとも呼ばれる)は予測バウンディングボックスBpが実際のバウンディングボックスBaに対してどれだけ正しくかを定量化する関数です。次のように定義される:
+&#10230; Intersection over Union - Intersection over Union （IoUとしても知られる）は予測された境界ボックスBpが実際の境界ボックスBaに対してどれだけ正しく配置されているかを定量化する関数です。次のように定義されます：
 
 <br>
 
 
 **60. Remark: we always have IoU∈[0,1]. By convention, a predicted bounding box Bp is considered as being reasonably good if IoU(Bp,Ba)⩾0.5.**
 
-&#10230; 注意: 常にIoU∈[0,1]を持ってます。規約により、予測されたバウンディングボックスBpはIoU(Bp,Ba)⩾0.5の場合適度に良いと見なされる。
+&#10230; 注：常にIoU∈[0,1]となります。慣例では、IoU(Bp,Ba)⩾0.5の場合、予測された境界ボックスBpはそこそこ良いと見なされます。
 
 <br>
 
 
 **61. Anchor boxes ― Anchor boxing is a technique used to predict overlapping bounding boxes. In practice, the network is allowed to predict more than one box simultaneously, where each box prediction is constrained to have a given set of geometrical properties. For instance, the first prediction can potentially be a rectangular box of a given form, while the second will be another rectangular box of a different geometrical form.**
 
-&#10230; アンカーボックス - アンカーボクシングは重複バウンディングボックスを予測する為利用される技術です。実際には、同時に複雑のボックスを予測すろことを許可されており、各ボックス予測は与えられた幾何学的なプロパーティのセットを持つように制約される。例えば、最初の予測は与えられたフォームの長方形のボックスになる可能性があり、二番目のボックスは異なる幾何学的なフォームの別の長方形になります。
+&#10230; アンカーボックス - アンカーボクシングは重なり合う境界ボックスを予測するために使用される手法です。 実際には、ネットワークは同時に複数のボックスを予測することを許可されており、各ボックスの予測は特定の幾何学的属性の組み合わせを持つように制約されます。例えば、最初の予測は特定の形式の長方形のボックスになる可能性があり、2番目の予測は異なる幾何学的形式の別の長方形のボックスになります。
 
 <br>
 
 
 **62. Non-max suppression ― The non-max suppression technique aims at removing duplicate overlapping bounding boxes of a same object by selecting the most representative ones. After having removed all boxes having a probability prediction lower than 0.6, the following steps are repeated while there are boxes remaining:**
 
-&#10230; 非最大抑制 - 非最大抑制技術のねらいは最も代表的なもの選択によって同物体の重複する重なり合う境界ボックスを除去することです。0.6未満予測確率があるボックスを全て除去した後、残りのボックスがある間に以下のステップが繰り返される:
+&#10230; 非極大抑制 - 非極大抑制技術のねらいは、最も代表的なものを選択することによって、同じ物体の重複した重なり合う境界ボックスを除去することです。0.6未満の予測確率を持つボックスを全て除去した後、残りのボックスがある間、以下の手順が繰り返されます:
 
 <br>
 
 
 **63. [For a given class, Step 1: Pick the box with the largest prediction probability., Step 2: Discard any box having an IoU⩾0.5 with the previous box.]**
 
-&#10230; [与えられたクラス, ステップ1: 最大予測確率があるボックスを取り。, ステップ2: 前のボックスと一緒にIoU⩾0.5のボックスを切り捨てる。]
+&#10230; [特定のクラスに対して, ステップ1: 最大の予測確率を持つボックスを選ぶ。, ステップ2: そのボックスに対してIoU⩾0.5となる全てのボックスを破棄する。]
 
 <br>
 
 
 **64. [Box predictions, Box selection of maximum probability, Overlap removal of same class, Final bounding boxes]**
 
-&#10230; [ボックス予測, 最大確率のボックス選択, 同じクラスの重なり合う除去, 最後のバウンディングボックス]
+&#10230; [ボックス予測, 最大確率のボックス選択, 同じクラスの重複除去, 最終的な境界ボックス]
 
 <br>
 
 
 **65. YOLO ― You Only Look Once (YOLO) is an object detection algorithm that performs the following steps:**
 
-&#10230; YOLO - 貴方は一度だけ見る (YOLO)は次のステップを実行するオブジェクト検出アルゴリズムです。
+&#10230; YOLO - You Only Look Once (YOLO)は次の手順を実行する物体検出アルゴリズムです。
 
 <br>
 
 
 **66. [Step 1: Divide the input image into a G×G grid., Step 2: For each grid cell, run a CNN that predicts y of the following form:, repeated k times]**
 
-&#10230; [ステップ1: 入力画像をGxGグリッドに分ける。, ステップ2: 各グリッドセルに対して次の形式のyを予測するCNNを実行する:,k回繰り返す]
+&#10230; [ステップ1: 入力画像をGxGグリッドに分割する。, ステップ2: 各グリッドセルに対して次の形式のyを予測するCNNを実行する:,k回繰り返す]
 
 <br>
 
 
 **67. where pc is the probability of detecting an object, bx,by,bh,bw are the properties of the detected bouding box, c1,...,cp is a one-hot representation of which of the p classes were detected, and k is the number of anchor boxes.**
 
-&#10230; ここで、pcは物体認識の確率、bx,by,bh,bwはバウンディングボックスのプロパーティ、c1, ..., cpはpクラスのうちどれが検出されたかのワンホット表現で、kはアンカーボックスの数です。
+&#10230; ここで、pcは物体を検出する確率、bx,by,bh,bwは検出された境界ボックスの属性、c1, ..., cpはp個のクラスのうちどれが検出されたかのOne-hot表現、kはアンカーボックスの数です。
 
 <br>
 
 
 **68. Step 3: Run the non-max suppression algorithm to remove any potential duplicate overlapping bounding boxes.**
 
-&#10230; 潜在的な重複バウンディングボックスを除去する為に非最大抑制アルゴリズムを実行する。
+&#10230; ステップ3: 重複する可能性のある重なり合う境界ボックスを全て除去するため、非極大抑制アルゴリズムを実行する。
 
 <br>
 
 
 **69. [Original image, Division in GxG grid, Bounding box prediction, Non-max suppression]**
 
-&#10230; [元の画像, GxGグリッドでの分割, 物体検出, 非最大抑制]
+&#10230; [元の画像, GxGグリッドでの分割, 境界ボックス予測, 非極大抑制]
 
 <br>
 
 
 **70. Remark: when pc=0, then the network does not detect any object. In that case, the corresponding predictions bx,...,cp have to be ignored.**
 
-&#10230; 注意: pc=0時、ネットワークは物体を検出しません。その場合には適当な予測 bx, ..., cpそれぞれは無視する必要があります。
+&#10230; 注: pc=0のとき、ネットワークは物体を検出しません。その場合には、対応する予測 bx, ..., cpは無視する必要があります。
 
 <br>
 
 
 **71. R-CNN ― Region with Convolutional Neural Networks (R-CNN) is an object detection algorithm that first segments the image to find potential relevant bounding boxes and then run the detection algorithm to find most probable objects in those bounding boxes.**
 
-&#10230; R-CNN - 畳み込みニューラルネットワークを利用した領域は最初に潜在的な関連する境界ボックスを見つけるため画像を分割し、次にそれらの境界ボックス内の最も可能性の高いオブジェクトを見つけるため検出アルゴリズムを実行する物体検出アルゴリズムです。
+&#10230; R-CNN - Region with Convolutional Neural Networks (R-CNN)は物体検出アルゴリズムで、最初に画像をセグメント化して潜在的に関連する境界ボックスを見つけ、次に検出アルゴリズムを実行してそれらの境界ボックス内で最も可能性の高い物体を見つけます。
 
 <br>
 
 
 **72. [Original image, Segmentation, Bounding box prediction, Non-max suppression]**
 
-&#10230; [元の画像, セグメンテーション, 物体予測, 非最大抑制]
+&#10230; [元の画像, セグメンテーション, 境界ボックス予測, 非極大抑制]
 
 <br>
 
 
 **73. Remark: although the original algorithm is computationally expensive and slow, newer architectures enabled the algorithm to run faster, such as Fast R-CNN and Faster R-CNN.**
 
-&#10230; 注意: 元のアルゴリズムは計算コストが高くて遅くても、より新たなアーキテクチャでは、Fast R-CNNやFaster R-CNNなど、アルゴリズムをより高い速度に実行できる。
+&#10230; 注: 元のアルゴリズムは計算コストが高くて遅いですが、Fast R-CNNやFaster R-CNNなどの、より新しいアーキテクチャではアルゴリズムをより速く実行できます。
 
 <br>
 

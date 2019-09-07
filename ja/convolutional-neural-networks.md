@@ -32,9 +32,9 @@
 
 **5. [Filter hyperparameters, Dimensions, Stride, Padding]**
 
-&#10230;
+&#10230; [フィルタハイパーパラメータ, 大きさ, ストライド, パディング]
 
-<br> [フィルタハイパーパラメータ, 大きさ, ストライド, パディング]
+<br>
 
 
 **6. [Tuning hyperparameters, Parameter compatibility, Model complexity, Receptive field]**
@@ -348,9 +348,9 @@
 
 **50. Types of models ― There are 3 main types of object recognition algorithms, for which the nature of what is predicted is different. They are described in the table below:**
 
-&#10230;
+&#10230; モデルの種類 - 物体認識アルゴリズムは主に三つのタイプがあり、予測されるものの性質は異なります。次の表で説明される。
 
-<br> モデルの種類 - 物体認識アルゴリズムは主に三つのタイプがあり、予測されるものの性質は異なります。次の表で説明される。
+<br>
 
 
 **51. [Image classification, Classification w. localization, Detection]**
@@ -523,9 +523,9 @@
 
 **75. Types of models ― Two main types of model are summed up in table below:**
 
-&#10230;
+&#10230; モデルのタイプ - 主な二つのモデルは次の表で要約される:
 
-<br> モデルのタイプ - 主な二つのモデルは次の表で要約される:
+<br>
 
 
 **76. [Face verification, Face recognition, Query, Reference, Database]**
@@ -572,9 +572,9 @@
 
 **82. Motivation ― The goal of neural style transfer is to generate an image G based on a given content C and a given style S.**
 
-&#10230;
+&#10230; モチベーション - 神経のスタイル転送の目的は与えられたコンテンツCとスタイルSに基づく画像Gを生成する。
 
-<br> モチベーション - 神経のスタイル転送の目的は与えられたコンテンツCとスタイルSに基づく画像Gを生成する。
+<br>
 
 
 **83. [Content C, Style S, Generated image G]**
@@ -586,9 +586,9 @@
 
 **84. Activation ― In a given layer l, the activation is noted a[l] and is of dimensions nH×nw×nc**
 
-&#10230;
+&#10230; 活性化 - 与えられた層lで、活性化はa[l]と表示されて、nH×nw×ncの寸法。
 
-<br> 活性化 - 与えられた層lで、活性化はa[l]と表示されて、nH×nw×ncの寸法。
+<br>
 
 
 **85. Content cost function ― The content cost function Jcontent(C,G) is used to determine how the generated image G differs from the original content image C. It is defined as follows:**
@@ -677,9 +677,9 @@
 
 **97. The Deep Learning cheatsheets are now available in [target language].**
 
-&#10230;
+&#10230; 深層学習チートシートは今[ターゲット言語]で利用可能です。
 
-<br> 深層学習チートシートは今[ターゲット言語]で利用可能です。
+<br>
 
 
 **98. Original authors**
@@ -705,9 +705,9 @@
 
 **101. View PDF version on GitHub**
 
-&#10230;
+&#10230; GithubでPDFバージョン見る
 
-<br> GithubでPDFバージョン見る
+<br>
 
 
 **102. By X and Y**

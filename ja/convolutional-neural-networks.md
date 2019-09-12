@@ -11,7 +11,7 @@
 
 **2. CS 230 - Deep Learning**
 
-&#10230; CS 230 - 深層学習
+&#10230; CS 230 - ディープラーニング
 
 <br>
 
@@ -25,7 +25,7 @@
 
 **4. [Types of layer, Convolution, Pooling, Fully connected]**
 
-&#10230; [層のタイプ, 畳み込み, プーリング, 全結合]
+&#10230; [層の種類, 畳み込み, プーリング, 全結合]
 
 <br>
 
@@ -53,14 +53,14 @@
 
 **8. [Object detection, Types of models, Detection, Intersection over Union, Non-max suppression, YOLO, R-CNN]**
 
-&#10230; [物体検出, モデルのタイプ, 検出, IoU, 非極大抑制, YOLO, R-CNN]
+&#10230; [物体検出, モデルの種類, 検出, IoU, 非極大抑制, YOLO, R-CNN]
 
 <br>
 
 
 **9. [Face verification/recognition, One shot learning, Siamese network, Triplet loss]**
 
-&#10230; [顔認証/認識, One shot学習, シャムネットワーク, 三重項損失]
+&#10230; [顔認証/認識, One shot学習, シャムネットワーク, トリプレット損失]
 
 <br>
 
@@ -88,7 +88,7 @@
 
 **13. Architecture of a traditional CNN ― Convolutional neural networks, also known as CNNs, are a specific type of neural networks that are generally composed of the following layers:**
 
-&#10230; 伝統的な畳み込みニューラルネットワークのアーキテクチャ - CNNとしても知られる畳み込みニューラルネットワークは一般的に次の層で構成される特定タイプのニューラルネットワークです。
+&#10230; 伝統的な畳み込みニューラルネットワークのアーキテクチャ - CNNとしても知られる畳み込みニューラルネットワークは一般的に次の層で構成される特定種類のニューラルネットワークです。
 
 <br>
 
@@ -102,7 +102,7 @@
 
 **15. Types of layer**
 
-&#10230; 層のタイプ
+&#10230; 層の種類
 
 <br>
 
@@ -130,7 +130,7 @@
 
 **19. [Type, Purpose, Illustration, Comments]**
 
-&#10230; [タイプ, 目的, 図, コメント]
+&#10230; [種類, 目的, 図, コメント]
 
 <br>
 
@@ -250,7 +250,7 @@
 
 **36. Understanding the complexity of the model ― In order to assess the complexity of a model, it is often useful to determine the number of parameters that its architecture will have. In a given layer of a convolutional neural network, it is done as follows:**
 
-&#10230; モデルの複雑さを理解する - モデルの複雑さを評価するために、モデルのアーキテクチャが持つパラメータの数を測定することがしばしば有用です。畳み込みニューラルネットワークの各レイヤでは、以下のように行なわれます。
+&#10230; モデルの複雑さを理解する - モデルの複雑さを評価するために、モデルのアーキテクチャが持つパラメータの数を測定することがしばしば有用です。畳み込みニューラルネットワークの各層では、以下のように行なわれます。
 
 <br>
 
@@ -285,7 +285,7 @@
 
 **41. Receptive field ― The receptive field at layer k is the area denoted Rk×Rk of the input that each pixel of the k-th activation map can 'see'. By calling Fj the filter size of layer j and Si the stride value of layer i and with the convention S0=1, the receptive field at layer k can be computed with the formula:**
 
-&#10230; 受容野 - レイヤkにおける受容野は、k番目の活性化マップの各ピクセルが「見る」ことができる入力のRk×Rkの領域です。レイヤjのフィルタサイズをFj、レイヤiのストライド値をSiとし、慣例に従ってS0=1とすると、レイヤkでの受容野は次の式で計算されます：
+&#10230; 受容野 - 層kにおける受容野は、k番目の活性化マップの各ピクセルが「見る」ことができる入力のRk×Rkの領域です。層jのフィルタサイズをFj、層iのストライド値をSiとし、慣例に従ってS0=1とすると、層kでの受容野は次の式で計算されます：
 
 <br>
 
@@ -306,7 +306,7 @@
 
 **44. Rectified Linear Unit ― The rectified linear unit layer (ReLU) is an activation function g that is used on all elements of the volume. It aims at introducing non-linearities to the network. Its variants are summarized in the table below:**
 
-&#10230; 正規化線形ユニット - 正規化線形ユニットレイヤ(ReLU)はボリュームの全ての要素に利用される活性化関数gです。ReLUの目的は非線型性をネットワークに導入することです。変種は以下の表でまとめられています：
+&#10230; 正規化線形ユニット - 正規化線形ユニット層(ReLU)はボリュームの全ての要素に利用される活性化関数gです。ReLUの目的は非線型性をネットワークに導入することです。変種は以下の表でまとめられています：
 
 <br>
 
@@ -390,7 +390,7 @@
 
 **56. [Bounding box detection, Landmark detection]**
 
-&#10230; [境界ボックス検出, ランドマーク検出]
+&#10230; [バウンディングボックス検出, ランドマーク検出]
 
 <br>
 
@@ -523,7 +523,7 @@
 
 **75. Types of models ― Two main types of model are summed up in table below:**
 
-&#10230; モデルのタイプ - 主な二つのモデルは次の表で要約される:
+&#10230; モデルの種類 - 2種類の主要なモデルが次の表にまとめられています:
 
 <br>
 
@@ -537,42 +537,42 @@
 
 **77. [Is this the correct person?, One-to-one lookup, Is this one of the K persons in the database?, One-to-many lookup]**
 
-&#10230; [これは正しい人ですか?, 一対一見上げる, これはデータベース内のk人のうちの一人ですか, 一対多見上げる]
+&#10230; [これは正しい人ですか?, 1対1検索, これはデータベース内のK人のうちの1人ですか, 1対多検索]
 
 <br>
 
 
 **78. One Shot Learning ― One Shot Learning is a face verification algorithm that uses a limited training set to learn a similarity function that quantifies how different two given images are. The similarity function applied to two images is often noted d(image 1,image 2).**
 
-&#10230; ワンショット学習 - ワンショット学習は二つの与えられた画像の違いを定量かする類似性関数を学ぶ為有限トレーニングセットを利用する顔認証アルゴリズムです。二つの画像に適用される類似性関数はしばしばd(画像１、画像２)と記される。
+&#10230; ワンショット学習 - ワンショット学習は限られた学習セットを利用して、2つの与えられた画像の違いを定量化する類似度関数を学習する顔認証アルゴリズムです。2つの画像に適用される類似度関数はしばしばd(画像1, 画像2)と記されます。
 
 <br>
 
 
 **79. Siamese Network ― Siamese Networks aim at learning how to encode images to then quantify how different two images are. For a given input image x(i), the encoded output is often noted as f(x(i)).**
 
-&#10230; シャムネットワー - シャムネットワーは2つの画像の違いを定量化して、画像暗号化方法を学ぶことを目的としている。与えられたインプット画像x(i)に対して暗号化された出力はしばしばf(x(i))と表示される。
+&#10230; シャムネットワーク - シャムネットワークは画像のエンコード方法を学習して2つの画像の違いを定量化することを目的としています。与えられた入力画像x(i)に対してエンコードされた出力はしばしばf(x(i))と記されます。
 
 <br>
 
 
 **80. Triplet loss ― The triplet loss ℓ is a loss function computed on the embedding representation of a triplet of images A (anchor), P (positive) and N (negative). The anchor and the positive example belong to a same class, while the negative example to another one. By calling α∈R+ the margin parameter, this loss is defined as follows:**
 
-&#10230; トリプレット損失 - トリプレット損失ℓはトリプレットの画像A(アンカー)、P(ポジティブ)、N(負)の埋め込み表現で計算する損失関数です。アンカーとポジティブ例は同じクラスに属し、ネガティブ例は別のものに属する。マージンパラメータはα∈R+と呼ぶことによってこの損失は次のように定義される:
+&#10230; トリプレット損失 - トリプレット損失ℓは3つ組の画像A(アンカー)、P(ポジティブ)、N(ネガティブ)の埋め込み表現で計算される損失関数です。アンカーとポジティブ例は同じクラスに属し、ネガティブ例は別のクラスに属します。マージンパラメータをα∈R+と呼ぶことによってこの損失は次のように定義されます:
 
 <br>
 
 
 **81. Neural style transfer**
 
-&#10230; 神経のスタイル転送
+&#10230; ニューラルスタイル変換
 
 <br>
 
 
 **82. Motivation ― The goal of neural style transfer is to generate an image G based on a given content C and a given style S.**
 
-&#10230; モチベーション - 神経のスタイル転送の目的は与えられたコンテンツCとスタイルSに基づく画像Gを生成する。
+&#10230; モチベーション - ニューラルスタイル変換の目的は与えられたコンテンツCとスタイルSに基づく画像Gを生成することです。
 
 <br>
 
@@ -586,98 +586,98 @@
 
 **84. Activation ― In a given layer l, the activation is noted a[l] and is of dimensions nH×nw×nc**
 
-&#10230; 活性化 - 与えられた層lで、活性化はa[l]と表示されて、nH×nw×ncの寸法。
+&#10230; 活性化 - 層lにおける活性化はa[l]と表記され、次元はnH×nw×ncです。
 
 <br>
 
 
 **85. Content cost function ― The content cost function Jcontent(C,G) is used to determine how the generated image G differs from the original content image C. It is defined as follows:**
 
-&#10230; コンテンツコスト関数 - Jcontent(C, G)というコンテンツコスト関数は元のコンテンツ画像Cと生成された画像Gとの違いを決定するため利用される。以下のように定義される:
+&#10230; コンテンツコスト関数 - Jcontent(C, G)というコンテンツコスト関数は生成された画像Gと元のコンテンツ画像Cとの違いを測定するため利用されます。以下のように定義されます:
 
 <br>
 
 
 **86. Style matrix ― The style matrix G[l] of a given layer l is a Gram matrix where each of its elements G[l]kk′ quantifies how correlated the channels k and k′ are. It is defined with respect to activations a[l] as follows:**
 
-&#10230; スタイル行列 - 与えられた層lのスタイル行列 G[l]はグラム配列で、各要素G[l]kk′がチャネルkとｋ′の相関関係を定量化する。
+&#10230; スタイル行列 - 与えられた層lのスタイル行列G[l]はグラム行列で、各要素G[l]kk′がチャネルkとk′の相関関係を定量化します。活性化a[l]に関して次のように定義されます。
 
 <br>
 
 
 **87. Remark: the style matrix for the style image and the generated image are noted G[l] (S) and G[l] (G) respectively.**
 
-&#10230; 注意: スタイル画像及び生成された画像に対するスタイル行列はそれぞれG[l] (S)、G[l] (G)と表示される。
+&#10230; 注: スタイル画像及び生成された画像に対するスタイル行列はそれぞれG[l] (S)、G[l] (G)と表記されます。
 
 <br>
 
 
 **88. Style cost function ― The style cost function Jstyle(S,G) is used to determine how the generated image G differs from the style S. It is defined as follows:**
 
-&#10230;　スタイルコスト関数 - スタイルコスト関数Jstyle(S,G)はスタイルSと生成された画像Gどう違うかを決定する為利用される。次のように定義される:
+&#10230;　スタイルコスト関数 - スタイルコスト関数Jstyle(S,G)は生成された画像GとスタイルSとの違いを測定するため利用されます。以下のように定義されます:
 
 <br>
 
 
 **89. Overall cost function ― The overall cost function is defined as being a combination of the content and style cost functions, weighted by parameters α,β, as follows:**
 
-&#10230; 全体コスト関数 - 全体コスト関数は以下のようにパラメータα,βによって重み付けされ、スタイルコスト関数とコンテンツの組み合わせた物として定義される:
+&#10230; 全体のコスト関数 - 全体のコスト関数は以下のようにパラメータα,βによって重み付けされたコンテンツ及びスタイルコスト関数の組み合わせとして定義されます:
 
 <br>
 
 
 **90. Remark: a higher value of α will make the model care more about the content while a higher value of β will make it care more about the style.**
 
-&#10230; 注意: αのより高い値はモデルが内容をより気にするようにさせ、βのより高い値はスタイルをより気にするようになる。
+&#10230; 注: αの値を大きくするとモデルはコンテンツを重視し、βの値を大きくするとスタイルを重視します。
 
 <br>
 
 
 **91. Architectures using computational tricks**
 
-&#10230; アーキテクチャは計算の詭計を利用している。
+&#10230; 計算トリックを使うアーキテクチャ
 
 <br>
 
 
 **92. Generative Adversarial Network ― Generative adversarial networks, also known as GANs, are composed of a generative and a discriminative model, where the generative model aims at generating the most truthful output that will be fed into the discriminative which aims at differentiating the generated and true image.**
 
-&#10230; 生成型敵対的ネットワーク - 生成型敵対的ネットワーク、GANsとも呼ばれるは生成モデルと識別モデルで構成される、生成モデルの目的は生成された画像と実像を区別する目的とする識別にフィードされる最も真実の出力を生成する。
+&#10230; 敵対的生成ネットワーク - 敵対的生成ネットワーク（GANsとも呼ばれる）は生成モデルと識別モデルで構成されます。生成モデルの目的は、生成された画像と本物の画像を区別することを目的とする識別モデルに与えられる、最も本物らしい出力を生成することです。
 
 <br>
 
 
-**93. [Training, Noise, Real-world image, Generator, Discriminator, Real Fake]**
+**93. [Training set, Noise, Real-world image, Generator, Discriminator, Real Fake]**
 
-&#10230; [トレーニング, 騒音, 現実世界の画像, ジェネレータ, 弁別器, 偽のリアル]
+&#10230; [学習セット, ノイズ, 現実世界の画像, 生成器, 識別器, 真 偽]
 
 <br>
 
 
 **94. Remark: use cases using variants of GANs include text to image, music generation and synthesis.**
 
-&#10230; 注意: GANsの変種を使用するユースケースには画像へのテキスト, 音楽生成及び合成があります。
+&#10230; 注: GANsの変種を使用するユースケースにはテキストからの画像生成, 音楽生成及び合成があります。
 
 <br>
 
 
 **95. ResNet ― The Residual Network architecture (also called ResNet) uses residual blocks with a high number of layers meant to decrease the training error. The residual block has the following characterizing equation:**
 
-&#10230; ResNet - 残渣ネットワークアーキテクチャ（ResNetとも呼ばれる）はトレーニングエラーを減らすため多数の層がある残差ブロックを使用する。残差ブロックは次の特定方程式を有する。
+&#10230; ResNet - Residual Networkアーキテクチャ（ResNetとも呼ばれる）は学習エラーを減らすため多数の層がある残差ブロックを使用します。残差ブロックは次の特性方程式を有します。
 
 <br>
 
 
 **96. Inception Network ― This architecture uses inception modules and aims at giving a try at different convolutions in order to increase its performance through features diversification. In particular, it uses the 1×1 convolution trick to limit the computational burden.**
 
-&#10230; インセプションネットワーク - このアーキテクチャはインセプションモジュールを利用し、特徴多様化を通じてパーフォーマンス改善の為別の畳み込みを試してみる目的とする。特に、計算負荷を限定する為1×1畳み込みトリックを使う。
+&#10230; インセプションネットワーク - このアーキテクチャはインセプションモジュールを利用し、特徴量の多様化を通じてパーフォーマンスを向上させるため、様々な畳み込みを試すことを目的としています。特に、計算負荷を限定するため1×1畳み込みトリックを使います。
 
 <br>
 
 
 **97. The Deep Learning cheatsheets are now available in [target language].**
 
-&#10230; 深層学習チートシートは今[ターゲット言語]で利用可能です。
+&#10230; ディープラーニングのチートシートが日本語で利用可能になりました。
 
 <br>
 
@@ -691,7 +691,7 @@
 
 **99. Translated by X, Y and Z**
 
-&#10230; X, Y, Zによる翻訳された
+&#10230; X・Y・Z 訳
 
 <br>
 
@@ -705,13 +705,13 @@
 
 **101. View PDF version on GitHub**
 
-&#10230; GithubでPDFバージョン見る
+&#10230; GitHubでPDF版を見る
 
 <br>
 
 
 **102. By X and Y**
 
-&#10230; X, Yによる
+&#10230; X・Y 著
 
 <br>

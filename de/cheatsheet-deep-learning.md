@@ -48,7 +48,7 @@
 
 **9. [Sigmoid, Tanh, ReLU, Leaky ReLU]**
 
-&#10230; [Sigmoid, Tanh, ReLU, undichte ReLU]
+&#10230; [Sigmoid, Tanh, ReLU, undichte ReLU (Leaky ReLU)]
 
 <br>
 
@@ -66,7 +66,7 @@
 
 **12. Backpropagation ― Backpropagation is a method to update the weights in the neural network by taking into account the actual output and the desired output. The derivative with respect to weight w is computed using chain rule and is of the following form:**
 
-&#10230; Fehlerrückführung - Fehlerrückführung aktualisiert die Gewichte in neuronalen Netzen durch Einberechnung der tatsächlichen und der gewünschten Ausgabe. Die Ableitung nach der Gewichtung w wird mit Hilfe der Kettenregel berechnet und hat die folgende Form:
+&#10230; Fehlerrückführung (Backpropagation) - Fehlerrückführung aktualisiert die Gewichte in neuronalen Netzen durch Einberechnung der tatsächlichen und der gewünschten Ausgabe. Die Ableitung nach der Gewichtung w wird mit Hilfe der Kettenregel berechnet und hat die folgende Form:
 
 <br>
 
@@ -114,7 +114,7 @@
 
 **20. Convolutional Neural Networks**
 
-&#10230; Faltende neuronale Netzwerke
+&#10230; Faltende neuronale Netzwerke (convolutional neural networks, CNN)
 
 <br>
 
@@ -138,7 +138,7 @@
 
 **24. Recurrent Neural Networks**
 
-&#10230; Rekurrente neuronale Netze
+&#10230; Rekurrente neuronale Netze (recurrent neural networks, RNN)
 
 <br>
 

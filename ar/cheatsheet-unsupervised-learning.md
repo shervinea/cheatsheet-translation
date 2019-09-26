@@ -1,7 +1,7 @@
 **1. Unsupervised Learning cheatsheet**
 
 <div dir="rtl">
-ورقة مراجعة للتعلم بدون إشراف
+  مرجع سريع للتعلّم غير المُوَجَّه
 </div>
 
 <br>
@@ -9,7 +9,7 @@
 **2. Introduction to Unsupervised Learning**
 
 <div dir=\"rtl\">
-  مقدمة للتعلم بدون إشراف
+  مقدمة للتعلّم غير المُوَجَّه
 </div>
 
 <br>
@@ -17,7 +17,7 @@
 **3. Motivation ― The goal of unsupervised learning is to find hidden patterns in unlabeled data {x(1),...,x(m)}.**
 
 <div dir=\"rtl\"> 
-  {x(1),...,x(m)} الحافز ― الهدف من التعلم بدون إشراف هو إيجاد الأنماط الخفية في البيانات غير الموسومة 
+  {x(1),...,x(m)} الحافز ― الهدف من التعلّم غير المُوَجَّه هو إيجاد الأنماط الخفية في البيانات غير المٌعلمّة 
 </div> 
 
 <br>
@@ -25,8 +25,7 @@
 **4. Jensen's inequality ― Let f be a convex function and X a random variable. We have the following inequality:**
 
 <div dir="rtl">
-متباينة جينسن  ― لتكن f دالة محدبة و X متغير عشوائي. لدينا المتفاوتة التالية
-:
+متباينة جينسن ― لتكن f دالة محدبة و X متغير عشوائي. لدينا المتباينة التالية:
 </div>
 
 <br>
@@ -34,14 +33,14 @@
 **5. Clustering**
 
 <div dir="rtl">
-  تجميع
+  التجميع
 </div>
 <br>
 
 **6. Expectation-Maximization**
 
 <div dir="rtl">
-تحقيق أقصى قدر للتوقع
+  
 </div>
 <br>
 

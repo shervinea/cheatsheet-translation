@@ -112,67 +112,67 @@
 
 **19. Hierarchical clustering**
 
-&#10230;
+&#10230; Phân cụm phân tầng
 
 <br>
 
 **20. Algorithm ― It is a clustering algorithm with an agglomerative hierarchical approach that build nested clusters in a successive manner.**
 
-&#10230;
+&#10230; Giải thuật - Đây là giải thuật phân cụm với một phần tầng "đi từ dưới lên" để xây dựng các cụm lồng nhau theo cách liên tiếp
 
 <br>
 
 **21. Types ― There are different sorts of hierarchical clustering algorithms that aims at optimizing different objective functions, which is summed up in the table below:**
 
-&#10230;
+&#10230; Loại - Có nhiều loại giải thuật phân cụm phân tầng để nhằm mục đích tối ưu các hàm mục tiêu khác nhau, những hàm được tổng kết dưới bảng sau:
 
 <br>
 
 **22. [Ward linkage, Average linkage, Complete linkage]**
 
-&#10230;
+&#10230; [Liên kết nhóm, Liên kết trung bình, Liên kết hoàn chỉnh]
 
 <br>
 
 **23. [Minimize within cluster distance, Minimize average distance between cluster pairs, Minimize maximum distance of between cluster pairs]**
 
-&#10230;
+&#10230; [Tối thiểu hóa khoảng cách giữa các cụm, tối thiếu hiểu hóa khoảng cách trung bình giữa các cặp cụm, Tối thiểu hóa khoảng cách tối đa giữa các cặp cụm]
 
 <br>
 
 **24. Clustering assessment metrics**
 
-&#10230;
+&#10230; Ma trận đánh giá phân cụm
 
 <br>
 
 **25. In an unsupervised learning setting, it is often hard to assess the performance of a model since we don't have the ground truth labels as was the case in the supervised learning setting.**
 
-&#10230;
+&#10230; Trong một cài đặt học không giám sát, thường khó để đánh giá hiệu quả của một mô hình bở chúng ta không có tập dữ liệu đã gán nhán chuẩn như trong trường hợp cài đặt học có giám sát. 
 
 <br>
 
 **26. Silhouette coefficient ― By noting a and b the mean distance between a sample and all other points in the same class, and between a sample and all other points in the next nearest cluster, the silhouette coefficient s for a single sample is defined as follows:**
 
-&#10230;
+&#10230; Hệ số hình chiéu - Với a là khoảng cách trung bình giữa một mẫu với tất các điểm khác trong cùng nhóm, và b là khoảng cách trung bình giữa một mẫu với tất cacr các điểm khác trong cụm gần nhất, hệ số hình chiếu s cho một mẫu đơn được định nghĩa như sau: 
 
 <br>
 
 **27. Calinski-Harabaz index ― By noting k the number of clusters, Bk and Wk the between and within-clustering dispersion matrices respectively defined as**
 
-&#10230;
+&#10230; Chỉ mục Calinski-Harabaz - Với k là số cụm, Bk và Wk là ................ được định nghĩa bởi
 
 <br>
 
 **28. the Calinski-Harabaz index s(k) indicates how well a clustering model defines its clusters, such that the higher the score, the more dense and well separated the clusters are. It is defined as follows:**
 
-&#10230;
+&#10230; chỉ mục Calinski-Harabaz s(k) cho biết độ tốt của mô hình phân cụm định nghĩa các cụm của nó, như là điểm càng cao, thì các cụm càng dày và càng tách biệt. Nó được định nghĩa như sau: 
 
 <br>
 
 **29. Dimension reduction**
 
-&#10230;
+&#10230; Giảm chiều
 
 <br>
 

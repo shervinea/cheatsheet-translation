@@ -47,7 +47,7 @@ Please make sure to propose the translation of **only one** cheatsheet per pull 
 |**한국어**|not started|not started|not started|not started|
 |**Português**|not started|not started|not started|not started|
 |**Türkçe**|done|done|done|done|
-|**Tiếng Việt**|not started|not started|not started|not started|
+|**Tiếng Việt**|not started|not started|not started|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/179)|
 |**中文**|not started|not started|not started|not started|
 
 ### CS 229 (Machine Learning)
@@ -97,7 +97,7 @@ Please make sure to propose the translation of **only one** cheatsheet per pull 
 |**Русский**|not started|not started|not started|
 |**Türkçe**|done|done|done|
 |**Українська**|not started|not started|not started|
-|**Tiếng Việt**|not started|not started|not started|
+|**Tiếng Việt**|not started|not started|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/178)|
 |**中文**|not started|not started|not started|
 
 ## Acknowledgements

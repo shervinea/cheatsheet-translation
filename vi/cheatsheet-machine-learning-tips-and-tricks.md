@@ -18,7 +18,7 @@
 
 **4. Confusion matrix ― The confusion matrix is used to have a more complete picture when assessing the performance of a model. It is defined as follows:**
 
-&#10230; Ma trận nhầm lẫn (Confusion matrix) - Confusion matrix được sử dụng để có nhiều hơn các kết quả hoàn chỉnh khi đánh giá hiệu năng của model. Nó được định nghĩa như sau:
+&#10230; Ma trận nhầm lẫn (Confusion matrix) - Confusion matrix được sử dụng để có kết quả hoàn chỉnh hơn khi đánh giá hiệu năng của model. Nó được định nghĩa như sau:
 
 <br>
 
@@ -48,19 +48,19 @@
 
 **9. How accurate the positive predictions are**
 
-&#10230; Các dự đoán positive chính xác bao nhiêu
+&#10230; Độ chính xác của các dự đoán positive
 
 <br>
 
 **10. Coverage of actual positive sample**
 
-&#10230; Bao phủ các ví dụ chính xác (positive) thực sự 
+&#10230; Bao phủ các mẫu thử chính xác (positive) thực sự 
 
 <br>
 
 **11. Coverage of actual negative sample**
 
-&#10230; Bao phủ các ví dụ sai (negative) thực sự 
+&#10230; Bao phủ các mẫu thử sai (negative) thực sự 
 
 <br>
 

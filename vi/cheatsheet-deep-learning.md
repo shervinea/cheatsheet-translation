@@ -66,7 +66,7 @@
 
 **12. Backpropagation ― Backpropagation is a method to update the weights in the neural network by taking into account the actual output and the desired output. The derivative with respect to weight w is computed using chain rule and is of the following form:**
 
-&#10230; Backpropagation (Lan truyền ngược) - Backpropagation là phương thức dùng để cập nhật trọng số trong mạng neural bằng cách tính toán đầu ra thực sự và đầu ra mong muốn. Đạo hàm liên quan tới trọng số w được tính bằng cách sử dụng quy tắc chuỗi (chain rule) theo như cách dưới đây:
+&#10230; Backpropagation (Lan truyền ngược) - Backpropagation là phương thức dùng để cập nhật trọng số trong mạng neural bằng cách tính toán đầu ra thực sự và đầu ra mong muốn. Đạo hàm theo trọng số w được tính bằng cách sử dụng quy tắc chuỗi (chain rule) theo như cách dưới đây:
 
 <br>
 
@@ -162,7 +162,7 @@
 
 **28. LSTM ― A long short-term memory (LSTM) network is a type of RNN model that avoids the vanishing gradient problem by adding 'forget' gates.**
 
-&#10230; LSTM - Mạng bộ nhớ ngắn dài (LSTM) là 1 loại RNN model tránh vấn đề vanishing gradient (gradient biến mất đột ngột) bằng cách thêm vào cổng 'quên' ('forget' gates).
+&#10230; LSTM - Mạng bộ nhớ dài-ngắn (LSTM) là 1 loại RNN model tránh vấn đề vanishing gradient (gradient biến mất đột ngột) bằng cách thêm vào cổng 'quên' ('forget' gates).
 
 <br>
 
@@ -258,7 +258,7 @@
 
 **44. 1) We initialize the value:**
 
-&#10230; 1) Ta khởi tạo gái trị (value):
+&#10230; 1) Ta khởi tạo giá trị (value):
 
 <br>
 

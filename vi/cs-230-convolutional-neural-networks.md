@@ -18,14 +18,14 @@
 
 **3. [Overview, Architecture structure]**
 
-&#10230; [T?ng quan, K?t c?u ki?n tr�c]
+&#10230; [Tổng quan, Kết cấu kiến trúc]
 
 <br>
 
 
 **4. [Types of layer, Convolution, Pooling, Fully connected]**
 
-&#10230; [C�c ki?u t?ng(layer), T�ch ch?p, Pooling, K?t n?i ??y ??] 
+&#10230; [Các kiểu tầng(layer), Tích chập, Pooling, Kết nối đầy đủ] 
 
 <br>
 
@@ -81,21 +81,21 @@
 
 **12. Overview**
 
-&#10230; T?ng quan
+&#10230; Tổng quan
 
 <br>
 
 
-**13. Architecture of a traditional CNN ― Convolutional neural networks, also known as CNNs, are a specific type of neural networks that are generally composed of the following layers:**
+**13. Architecture of a traditional CNN â€• Convolutional neural networks, also known as CNNs, are a specific type of neural networks that are generally composed of the following layers:**
 
-&#10230; Ki?n tr�c truy?n th?ng c?a m?t m?ng CNN ― M?ng neural t�ch ch?p (Convolutional neural networks), c�n ???c bi?t ??n v?i t�n CNNs, l� m?t d?ng m?ng neural ???c c?u th�nh b?i c�c t?ng sau: 
+&#10230; Kiến trúc truyền thống của một mạng CNN â€• Mạng neural tích chập (Convolutional neural networks), còn được biết đến với tên CNNs, là một dạng mạng neural được cấu thành bởi các tầng sau: 
 
 <br>
 
 
 **14. The convolution layer and the pooling layer can be fine-tuned with respect to hyperparameters that are described in the next sections.**
 
-&#10230; T?ng t�ch ch?p v� t?ng pooling c� th? ???c hi?u ch?nh theo c�c tham s? c?u h�nh (hyperparameters) ???c m� t? ? nh?ng ph?n ti?p theo.
+&#10230; Tầng tích chập và tầng pooling có thể được hiệu chỉnh theo các tham số cấu hình (hyperparameters) được mô tả ở những phần tiếp theo.
 
 <br>
 
@@ -107,23 +107,23 @@
 <br>
 
 
-**16. Convolution layer (CONV) ― The convolution layer (CONV) uses filters that perform convolution operations as it is scanning the input I with respect to its dimensions. Its hyperparameters include the filter size F and stride S. The resulting output O is called feature map or activation map.**
+**16. Convolution layer (CONV) â€• The convolution layer (CONV) uses filters that perform convolution operations as it is scanning the input I with respect to its dimensions. Its hyperparameters include the filter size F and stride S. The resulting output O is called feature map or activation map.**
 
-&#10230; T?ng t�ch ch?p (CONV) ― T?ng t�ch ch?p (CONV) s? d?ng c�c b? l?c ?? th?c hi?n ph�p t�ch ch?p khi ??a ch�ng ?i qua ??u v�o I theo c�c chi?u c?a n�. C�c tham s? c?u h�nh c?a b? c�c b? l?c n�y bao g?m k�ch th??c b? l?c F v� ?? tr??t (stride) S. K?t qu? ??u ra O ???c g?i l� feature map hay activation map.
+&#10230; Tầng tích chập (CONV) â€• Tầng tích chập (CONV) sử dụng các bộ lọc để thực hiện phép tích chập khi đưa chúng đi qua đầu vào I theo các chiều của nó. Các tham số cấu hình của các bộ lọc này bao gồm kích thước bộ lọc F và độ trượt (stride) S. Kết quả đầu ra O được gọi là feature map hay activation map.
 
 <br>
 
 
 **17. Remark: the convolution step can be generalized to the 1D and 3D cases as well.**
 
-&#10230; L?u �: B??c t�ch ch?p c?ng c� th? ???c t?ng quan h�a c? v?i tr??ng h?p m?t chi?u (1D) v� ba chi?u (3D).
+&#10230; Lưu ý: Bước tích chập cũng có thể được khái quát hóa cả với trường hợp một chiều (1D) và ba chiều (3D).
 
 <br>
 
 
-**18. Pooling (POOL) ― The pooling layer (POOL) is a downsampling operation, typically applied after a convolution layer, which does some spatial invariance. In particular, max and average pooling are special kinds of pooling where the maximum and average value is taken, respectively.**
+**18. Pooling (POOL) â€• The pooling layer (POOL) is a downsampling operation, typically applied after a convolution layer, which does some spatial invariance. In particular, max and average pooling are special kinds of pooling where the maximum and average value is taken, respectively.**
 
-&#10230; Pooling (POOL) ― T?ng pooling (POOL) l� m?t ph�p downsampling, th??ng ???c s? d?ng sau t?ng t�ch ch?p, gi�p t?ng t�nh b?t bi?n kh�ng gian. C? th?, max pooling v� average pooling l� nh?ng d?ng pooling ??c bi?t, m� t??ng ?ng l� trong ?� gi� tr? l?n nh?t v� gi� tr? trung b�nh ???c l?y ra.
+&#10230; Pooling (POOL) â€• Tầng pooling (POOL) là một phép downsampling, thường được sử dụng sau tầng tích chập, giúp tăng tính bất biến không gian. Cụ thể, max pooling và average pooling là những dạng pooling đặc biệt, mà tương ứng là trong đó giá trị lớn nhất và giá trị trung bình được lấy ra.
 
 <br>
 
@@ -137,7 +137,7 @@
 
 **20. [Max pooling, Average pooling, Each pooling operation selects the maximum value of the current view, Each pooling operation averages the values of the current view]**
 
-&#10230; [Max pooling, Average pooling, T?ng ph�p pooling ch?n gi� tr? l?n nh?t trong khu v?c m� n� ?ang ???c �p d?ng, T?ng ph�p pooling t�nh trung b�nh c�c gi� tr? trong khu v?c m� n� ?ang ???c s? d?ng]
+&#10230; [Max pooling, Average pooling, Từng phép pooling chọn giá trị lớn nhất trong khu vực mà nó đang được áp dụng, Từng phép pooling tính trung bình các giá trị trong khu vực mà nó đang được áp dụng]
 
 <br>
 
@@ -149,7 +149,7 @@
 <br>
 
 
-**22. Fully Connected (FC) ― The fully connected layer (FC) operates on a flattened input where each input is connected to all neurons. If present, FC layers are usually found towards the end of CNN architectures and can be used to optimize objectives such as class scores.**
+**22. Fully Connected (FC) â€• The fully connected layer (FC) operates on a flattened input where each input is connected to all neurons. If present, FC layers are usually found towards the end of CNN architectures and can be used to optimize objectives such as class scores.**
 
 &#10230;
 
@@ -170,7 +170,7 @@
 <br>
 
 
-**25. Dimensions of a filter ― A filter of size F×F applied to an input containing C channels is a F×F×C volume that performs convolutions on an input of size I×I×C and produces an output feature map (also called activation map) of size O×O×1.**
+**25. Dimensions of a filter â€• A filter of size FÃ—F applied to an input containing C channels is a FÃ—FÃ—C volume that performs convolutions on an input of size IÃ—IÃ—C and produces an output feature map (also called activation map) of size OÃ—OÃ—1.**
 
 &#10230;
 
@@ -184,21 +184,21 @@
 <br>
 
 
-**27. Remark: the application of K filters of size F×F results in an output feature map of size O×O×K.**
+**27. Remark: the application of K filters of size FÃ—F results in an output feature map of size OÃ—OÃ—K.**
 
 &#10230;
 
 <br>
 
 
-**28. Stride ― For a convolutional or a pooling operation, the stride S denotes the number of pixels by which the window moves after each operation.**
+**28. Stride â€• For a convolutional or a pooling operation, the stride S denotes the number of pixels by which the window moves after each operation.**
 
 &#10230;
 
 <br>
 
 
-**29. Zero-padding ― Zero-padding denotes the process of adding P zeroes to each side of the boundaries of the input. This value can either be manually specified or automatically set through one of the three modes detailed below:**
+**29. Zero-padding â€• Zero-padding denotes the process of adding P zeroes to each side of the boundaries of the input. This value can either be manually specified or automatically set through one of the three modes detailed below:**
 
 &#10230;
 
@@ -212,7 +212,7 @@
 <br>
 
 
-**31. [No padding, Drops last convolution if dimensions do not match, Padding such that feature map size has size ⌈IS⌉, Output size is mathematically convenient, Also called 'half' padding, Maximum padding such that end convolutions are applied on the limits of the input, Filter 'sees' the input end-to-end]**
+**31. [No padding, Drops last convolution if dimensions do not match, Padding such that feature map size has size âŒˆISâŒ‰, Output size is mathematically convenient, Also called 'half' padding, Maximum padding such that end convolutions are applied on the limits of the input, Filter 'sees' the input end-to-end]**
 
 &#10230;
 
@@ -226,7 +226,7 @@
 <br>
 
 
-**33. Parameter compatibility in convolution layer ― By noting I the length of the input volume size, F the length of the filter, P the amount of zero padding, S the stride, then the output size O of the feature map along that dimension is given by:**
+**33. Parameter compatibility in convolution layer â€• By noting I the length of the input volume size, F the length of the filter, P the amount of zero padding, S the stride, then the output size O of the feature map along that dimension is given by:**
 
 &#10230;
 
@@ -240,14 +240,14 @@
 <br>
 
 
-**35. Remark: often times, Pstart=Pend≜P, in which case we can replace Pstart+Pend by 2P in the formula above.**
+**35. Remark: often times, Pstart=Pendâ‰œP, in which case we can replace Pstart+Pend by 2P in the formula above.**
 
 &#10230;
 
 <br>
 
 
-**36. Understanding the complexity of the model ― In order to assess the complexity of a model, it is often useful to determine the number of parameters that its architecture will have. In a given layer of a convolutional neural network, it is done as follows:**
+**36. Understanding the complexity of the model â€• In order to assess the complexity of a model, it is often useful to determine the number of parameters that its architecture will have. In a given layer of a convolutional neural network, it is done as follows:**
 
 &#10230;
 
@@ -282,14 +282,14 @@
 <br>
 
 
-**41. Receptive field ― The receptive field at layer k is the area denoted Rk×Rk of the input that each pixel of the k-th activation map can 'see'. By calling Fj the filter size of layer j and Si the stride value of layer i and with the convention S0=1, the receptive field at layer k can be computed with the formula:**
+**41. Receptive field â€• The receptive field at layer k is the area denoted RkÃ—Rk of the input that each pixel of the k-th activation map can 'see'. By calling Fj the filter size of layer j and Si the stride value of layer i and with the convention S0=1, the receptive field at layer k can be computed with the formula:**
 
 &#10230;
 
 <br>
 
 
-**42. In the example below, we have F1=F2=3 and S1=S2=1, which gives R2=1+2⋅1+2⋅1=5.**
+**42. In the example below, we have F1=F2=3 and S1=S2=1, which gives R2=1+2â‹…1+2â‹…1=5.**
 
 &#10230;
 
@@ -303,7 +303,7 @@
 <br>
 
 
-**44. Rectified Linear Unit ― The rectified linear unit layer (ReLU) is an activation function g that is used on all elements of the volume. It aims at introducing non-linearities to the network. Its variants are summarized in the table below:**
+**44. Rectified Linear Unit â€• The rectified linear unit layer (ReLU) is an activation function g that is used on all elements of the volume. It aims at introducing non-linearities to the network. Its variants are summarized in the table below:**
 
 &#10230;
 
@@ -324,7 +324,7 @@
 <br>
 
 
-**47. Softmax ― The softmax step can be seen as a generalized logistic function that takes as input a vector of scores x∈Rn and outputs a vector of output probability p∈Rn through a softmax function at the end of the architecture. It is defined as follows:**
+**47. Softmax â€• The softmax step can be seen as a generalized logistic function that takes as input a vector of scores xâˆˆRn and outputs a vector of output probability pâˆˆRn through a softmax function at the end of the architecture. It is defined as follows:**
 
 &#10230;
 
@@ -345,7 +345,7 @@
 <br>
 
 
-**50. Types of models ― There are 3 main types of object recognition algorithms, for which the nature of what is predicted is different. They are described in the table below:**
+**50. Types of models â€• There are 3 main types of object recognition algorithms, for which the nature of what is predicted is different. They are described in the table below:**
 
 &#10230;
 
@@ -380,7 +380,7 @@
 <br>
 
 
-**55. Detection ― In the context of object detection, different methods are used depending on whether we just want to locate the object or detect a more complex shape in the image. The two main ones are summed up in the table below:**
+**55. Detection â€• In the context of object detection, different methods are used depending on whether we just want to locate the object or detect a more complex shape in the image. The two main ones are summed up in the table below:**
 
 &#10230;
 
@@ -408,35 +408,35 @@
 <br>
 
 
-**59. Intersection over Union ― Intersection over Union, also known as IoU, is a function that quantifies how correctly positioned a predicted bounding box Bp is over the actual bounding box Ba. It is defined as:**
+**59. Intersection over Union â€• Intersection over Union, also known as IoU, is a function that quantifies how correctly positioned a predicted bounding box Bp is over the actual bounding box Ba. It is defined as:**
 
 &#10230;
 
 <br>
 
 
-**60. Remark: we always have IoU∈[0,1]. By convention, a predicted bounding box Bp is considered as being reasonably good if IoU(Bp,Ba)⩾0.5.**
+**60. Remark: we always have IoUâˆˆ[0,1]. By convention, a predicted bounding box Bp is considered as being reasonably good if IoU(Bp,Ba)â©¾0.5.**
 
 &#10230;
 
 <br>
 
 
-**61. Anchor boxes ― Anchor boxing is a technique used to predict overlapping bounding boxes. In practice, the network is allowed to predict more than one box simultaneously, where each box prediction is constrained to have a given set of geometrical properties. For instance, the first prediction can potentially be a rectangular box of a given form, while the second will be another rectangular box of a different geometrical form.**
+**61. Anchor boxes â€• Anchor boxing is a technique used to predict overlapping bounding boxes. In practice, the network is allowed to predict more than one box simultaneously, where each box prediction is constrained to have a given set of geometrical properties. For instance, the first prediction can potentially be a rectangular box of a given form, while the second will be another rectangular box of a different geometrical form.**
 
 &#10230;
 
 <br>
 
 
-**62. Non-max suppression ― The non-max suppression technique aims at removing duplicate overlapping bounding boxes of a same object by selecting the most representative ones. After having removed all boxes having a probability prediction lower than 0.6, the following steps are repeated while there are boxes remaining:**
+**62. Non-max suppression â€• The non-max suppression technique aims at removing duplicate overlapping bounding boxes of a same object by selecting the most representative ones. After having removed all boxes having a probability prediction lower than 0.6, the following steps are repeated while there are boxes remaining:**
 
 &#10230;
 
 <br>
 
 
-**63. [For a given class, Step 1: Pick the box with the largest prediction probability., Step 2: Discard any box having an IoU⩾0.5 with the previous box.]**
+**63. [For a given class, Step 1: Pick the box with the largest prediction probability., Step 2: Discard any box having an IoUâ©¾0.5 with the previous box.]**
 
 &#10230;
 
@@ -450,14 +450,14 @@
 <br>
 
 
-**65. YOLO ― You Only Look Once (YOLO) is an object detection algorithm that performs the following steps:**
+**65. YOLO â€• You Only Look Once (YOLO) is an object detection algorithm that performs the following steps:**
 
 &#10230;
 
 <br>
 
 
-**66. [Step 1: Divide the input image into a G×G grid., Step 2: For each grid cell, run a CNN that predicts y of the following form:, repeated k times]**
+**66. [Step 1: Divide the input image into a GÃ—G grid., Step 2: For each grid cell, run a CNN that predicts y of the following form:, repeated k times]**
 
 &#10230;
 
@@ -492,7 +492,7 @@
 <br>
 
 
-**71. R-CNN ― Region with Convolutional Neural Networks (R-CNN) is an object detection algorithm that first segments the image to find potential relevant bounding boxes and then run the detection algorithm to find most probable objects in those bounding boxes.**
+**71. R-CNN â€• Region with Convolutional Neural Networks (R-CNN) is an object detection algorithm that first segments the image to find potential relevant bounding boxes and then run the detection algorithm to find most probable objects in those bounding boxes.**
 
 &#10230;
 
@@ -520,7 +520,7 @@
 <br>
 
 
-**75. Types of models ― Two main types of model are summed up in table below:**
+**75. Types of models â€• Two main types of model are summed up in table below:**
 
 &#10230;
 
@@ -541,21 +541,21 @@
 <br>
 
 
-**78. One Shot Learning ― One Shot Learning is a face verification algorithm that uses a limited training set to learn a similarity function that quantifies how different two given images are. The similarity function applied to two images is often noted d(image 1,image 2).**
+**78. One Shot Learning â€• One Shot Learning is a face verification algorithm that uses a limited training set to learn a similarity function that quantifies how different two given images are. The similarity function applied to two images is often noted d(image 1,image 2).**
 
 &#10230;
 
 <br>
 
 
-**79. Siamese Network ― Siamese Networks aim at learning how to encode images to then quantify how different two images are. For a given input image x(i), the encoded output is often noted as f(x(i)).**
+**79. Siamese Network â€• Siamese Networks aim at learning how to encode images to then quantify how different two images are. For a given input image x(i), the encoded output is often noted as f(x(i)).**
 
 &#10230;
 
 <br>
 
 
-**80. Triplet loss ― The triplet loss ℓ is a loss function computed on the embedding representation of a triplet of images A (anchor), P (positive) and N (negative). The anchor and the positive example belong to a same class, while the negative example to another one. By calling α∈R+ the margin parameter, this loss is defined as follows:**
+**80. Triplet loss â€• The triplet loss â„“ is a loss function computed on the embedding representation of a triplet of images A (anchor), P (positive) and N (negative). The anchor and the positive example belong to a same class, while the negative example to another one. By calling Î±âˆˆR+ the margin parameter, this loss is defined as follows:**
 
 &#10230;
 
@@ -569,7 +569,7 @@
 <br>
 
 
-**82. Motivation ― The goal of neural style transfer is to generate an image G based on a given content C and a given style S.**
+**82. Motivation â€• The goal of neural style transfer is to generate an image G based on a given content C and a given style S.**
 
 &#10230;
 
@@ -583,21 +583,21 @@
 <br>
 
 
-**84. Activation ― In a given layer l, the activation is noted a[l] and is of dimensions nH×nw×nc**
+**84. Activation â€• In a given layer l, the activation is noted a[l] and is of dimensions nHÃ—nwÃ—nc**
 
 &#10230;
 
 <br>
 
 
-**85. Content cost function ― The content cost function Jcontent(C,G) is used to determine how the generated image G differs from the original content image C. It is defined as follows:**
+**85. Content cost function â€• The content cost function Jcontent(C,G) is used to determine how the generated image G differs from the original content image C. It is defined as follows:**
 
 &#10230;
 
 <br>
 
 
-**86. Style matrix ― The style matrix G[l] of a given layer l is a Gram matrix where each of its elements G[l]kk′ quantifies how correlated the channels k and k′ are. It is defined with respect to activations a[l] as follows:**
+**86. Style matrix â€• The style matrix G[l] of a given layer l is a Gram matrix where each of its elements G[l]kkâ€² quantifies how correlated the channels k and kâ€² are. It is defined with respect to activations a[l] as follows:**
 
 &#10230;
 
@@ -611,21 +611,21 @@
 <br>
 
 
-**88. Style cost function ― The style cost function Jstyle(S,G) is used to determine how the generated image G differs from the style S. It is defined as follows:**
+**88. Style cost function â€• The style cost function Jstyle(S,G) is used to determine how the generated image G differs from the style S. It is defined as follows:**
 
 &#10230;
 
 <br>
 
 
-**89. Overall cost function ― The overall cost function is defined as being a combination of the content and style cost functions, weighted by parameters α,β, as follows:**
+**89. Overall cost function â€• The overall cost function is defined as being a combination of the content and style cost functions, weighted by parameters Î±,Î², as follows:**
 
 &#10230;
 
 <br>
 
 
-**90. Remark: a higher value of α will make the model care more about the content while a higher value of β will make it care more about the style.**
+**90. Remark: a higher value of Î± will make the model care more about the content while a higher value of Î² will make it care more about the style.**
 
 &#10230;
 
@@ -639,7 +639,7 @@
 <br>
 
 
-**92. Generative Adversarial Network ― Generative adversarial networks, also known as GANs, are composed of a generative and a discriminative model, where the generative model aims at generating the most truthful output that will be fed into the discriminative which aims at differentiating the generated and true image.**
+**92. Generative Adversarial Network â€• Generative adversarial networks, also known as GANs, are composed of a generative and a discriminative model, where the generative model aims at generating the most truthful output that will be fed into the discriminative which aims at differentiating the generated and true image.**
 
 &#10230;
 
@@ -660,14 +660,14 @@
 <br>
 
 
-**95. ResNet ― The Residual Network architecture (also called ResNet) uses residual blocks with a high number of layers meant to decrease the training error. The residual block has the following characterizing equation:**
+**95. ResNet â€• The Residual Network architecture (also called ResNet) uses residual blocks with a high number of layers meant to decrease the training error. The residual block has the following characterizing equation:**
 
 &#10230;
 
 <br>
 
 
-**96. Inception Network ― This architecture uses inception modules and aims at giving a try at different convolutions in order to increase its performance through features diversification. In particular, it uses the 1×1 convolution trick to limit the computational burden.**
+**96. Inception Network â€• This architecture uses inception modules and aims at giving a try at different convolutions in order to increase its performance through features diversification. In particular, it uses the 1Ã—1 convolution trick to limit the computational burden.**
 
 &#10230;
 

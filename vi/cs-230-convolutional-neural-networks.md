@@ -1,0 +1,716 @@
+**Convolutional Neural Networks translation** [[webpage]](https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-convolutional-neural-networks)
+
+<br>
+
+**1. Convolutional Neural Networks cheatsheet**
+
+&#10230; Convolutional Neural Networks cheatsheet
+
+<br>
+
+
+**2. CS 230 - Deep Learning**
+
+&#10230; CS 230 - Deep Learning
+
+<br>
+
+
+**3. [Overview, Architecture structure]**
+
+&#10230; [T?ng quan, K?t c?u ki?n trúc]
+
+<br>
+
+
+**4. [Types of layer, Convolution, Pooling, Fully connected]**
+
+&#10230; [Các ki?u t?ng(layer), Tích ch?p, Pooling, K?t n?i ??y ??] 
+
+<br>
+
+
+**5. [Filter hyperparameters, Dimensions, Stride, Padding]**
+
+&#10230; [Filter hyperparameters, Dimensions, Stride, Padding] 
+
+<br>
+
+
+**6. [Tuning hyperparameters, Parameter compatibility, Model complexity, Receptive field]**
+
+&#10230; [Tuning hyperparameters, Parameter compatibility, Model complexity, Receptive field]**
+
+<br>
+
+
+**7. [Activation functions, Rectified Linear Unit, Softmax]**
+
+&#10230; [Activation functions, Rectified Linear Unit, Softmax]
+
+<br>
+
+
+**8. [Object detection, Types of models, Detection, Intersection over Union, Non-max suppression, YOLO, R-CNN]**
+
+&#10230; [Object detection, Types of models, Detection, Intersection over Union, Non-max suppression, YOLO, R-CNN]
+
+<br>
+
+
+**9. [Face verification/recognition, One shot learning, Siamese network, Triplet loss]**
+
+&#10230; [Face verification/recognition, One shot learning, Siamese network, Triplet loss]
+
+<br>
+
+
+**10. [Neural style transfer, Activation, Style matrix, Style/content cost function]**
+
+&#10230; [Neural style transfer, Activation, Style matrix, Style/content cost function]
+
+<br>
+
+
+**11. [Computational trick architectures, Generative Adversarial Net, ResNet, Inception Network]**
+
+&#10230; [Computational trick architectures, Generative Adversarial Net, ResNet, Inception Network]
+
+<br>
+
+
+**12. Overview**
+
+&#10230; T?ng quan
+
+<br>
+
+
+**13. Architecture of a traditional CNN â€• Convolutional neural networks, also known as CNNs, are a specific type of neural networks that are generally composed of the following layers:**
+
+&#10230; Ki?n trúc truy?n th?ng c?a m?t m?ng CNN â€• M?ng neural tích ch?p (Convolutional neural networks), còn ???c bi?t ??n v?i tên CNNs, là m?t d?ng m?ng neural ???c c?u thành b?i các t?ng sau: 
+
+<br>
+
+
+**14. The convolution layer and the pooling layer can be fine-tuned with respect to hyperparameters that are described in the next sections.**
+
+&#10230; T?ng tích ch?p và t?ng pooling có th? ???c hi?u ch?nh theo các tham s? c?u hình (hyperparameters) ???c mô t? ? nh?ng ph?n ti?p theo.
+
+<br>
+
+
+**15. Types of layer**
+
+&#10230; Types of layer
+
+<br>
+
+
+**16. Convolution layer (CONV) â€• The convolution layer (CONV) uses filters that perform convolution operations as it is scanning the input I with respect to its dimensions. Its hyperparameters include the filter size F and stride S. The resulting output O is called feature map or activation map.**
+
+&#10230; T?ng tích ch?p (CONV) â€• T?ng tích ch?p (CONV) s? d?ng các b? l?c ?? th?c hi?n phép tích ch?p khi ??a chúng ?i qua ??u vào I theo các chi?u c?a nó. Các tham s? c?u hình c?a b? các b? l?c này bao g?m kích th??c b? l?c F và ?? tr??t (stride) S. K?t qu? ??u ra O ???c g?i là feature map hay activation map.
+
+<br>
+
+
+**17. Remark: the convolution step can be generalized to the 1D and 3D cases as well.**
+
+&#10230; L?u ý: B??c tích ch?p c?ng có th? ???c t?ng quan hóa c? v?i tr??ng h?p m?t chi?u (1D) và ba chi?u (3D).
+
+<br>
+
+
+**18. Pooling (POOL) â€• The pooling layer (POOL) is a downsampling operation, typically applied after a convolution layer, which does some spatial invariance. In particular, max and average pooling are special kinds of pooling where the maximum and average value is taken, respectively.**
+
+&#10230; Pooling (POOL) â€• T?ng pooling (POOL) là m?t phép downsampling, th??ng ???c s? d?ng sau t?ng tích ch?p, giúp t?ng tính b?t bi?n không gian. C? th?, max pooling và average pooling là nh?ng d?ng pooling ??c bi?t, mà t??ng ?ng là trong ?ó giá tr? l?n nh?t và giá tr? trung bình ???c l?y ra.
+
+<br>
+
+
+**19. [Type, Purpose, Illustration, Comments]**
+
+&#10230; [Type, Purpose, Illustration, Comments]
+
+<br>
+
+
+**20. [Max pooling, Average pooling, Each pooling operation selects the maximum value of the current view, Each pooling operation averages the values of the current view]**
+
+&#10230; [Max pooling, Average pooling, T?ng phép pooling ch?n giá tr? l?n nh?t trong khu v?c mà nó ?ang ???c áp d?ng, T?ng phép pooling tính trung bình các giá tr? trong khu v?c mà nó ?ang ???c s? d?ng]
+
+<br>
+
+
+**21. [Preserves detected features, Most commonly used, Downsamples feature map, Used in LeNet]**
+
+&#10230; [Preserves detected features, Most commonly used, Downsamples feature map, Used in LeNet]
+
+<br>
+
+
+**22. Fully Connected (FC) â€• The fully connected layer (FC) operates on a flattened input where each input is connected to all neurons. If present, FC layers are usually found towards the end of CNN architectures and can be used to optimize objectives such as class scores.**
+
+&#10230;
+
+<br>
+
+
+**23. Filter hyperparameters**
+
+&#10230;
+
+<br>
+
+
+**24. The convolution layer contains filters for which it is important to know the meaning behind its hyperparameters.**
+
+&#10230;
+
+<br>
+
+
+**25. Dimensions of a filter â€• A filter of size FÃ—F applied to an input containing C channels is a FÃ—FÃ—C volume that performs convolutions on an input of size IÃ—IÃ—C and produces an output feature map (also called activation map) of size OÃ—OÃ—1.**
+
+&#10230;
+
+<br>
+
+
+**26. Filter**
+
+&#10230;
+
+<br>
+
+
+**27. Remark: the application of K filters of size FÃ—F results in an output feature map of size OÃ—OÃ—K.**
+
+&#10230;
+
+<br>
+
+
+**28. Stride â€• For a convolutional or a pooling operation, the stride S denotes the number of pixels by which the window moves after each operation.**
+
+&#10230;
+
+<br>
+
+
+**29. Zero-padding â€• Zero-padding denotes the process of adding P zeroes to each side of the boundaries of the input. This value can either be manually specified or automatically set through one of the three modes detailed below:**
+
+&#10230;
+
+<br>
+
+
+**30. [Mode, Value, Illustration, Purpose, Valid, Same, Full]**
+
+&#10230;
+
+<br>
+
+
+**31. [No padding, Drops last convolution if dimensions do not match, Padding such that feature map size has size âŒˆISâŒ‰, Output size is mathematically convenient, Also called 'half' padding, Maximum padding such that end convolutions are applied on the limits of the input, Filter 'sees' the input end-to-end]**
+
+&#10230;
+
+<br>
+
+
+**32. Tuning hyperparameters**
+
+&#10230;
+
+<br>
+
+
+**33. Parameter compatibility in convolution layer â€• By noting I the length of the input volume size, F the length of the filter, P the amount of zero padding, S the stride, then the output size O of the feature map along that dimension is given by:**
+
+&#10230;
+
+<br>
+
+
+**34. [Input, Filter, Output]**
+
+&#10230;
+
+<br>
+
+
+**35. Remark: often times, Pstart=Pendâ‰œP, in which case we can replace Pstart+Pend by 2P in the formula above.**
+
+&#10230;
+
+<br>
+
+
+**36. Understanding the complexity of the model â€• In order to assess the complexity of a model, it is often useful to determine the number of parameters that its architecture will have. In a given layer of a convolutional neural network, it is done as follows:**
+
+&#10230;
+
+<br>
+
+
+**37. [Illustration, Input size, Output size, Number of parameters, Remarks]**
+
+&#10230;
+
+<br>
+
+
+**38. [One bias parameter per filter, In most cases, S<F, A common choice for K is 2C]**
+
+&#10230;
+
+<br>
+
+
+**39. [Pooling operation done channel-wise, In most cases, S=F]**
+
+&#10230;
+
+<br>
+
+
+**40. [Input is flattened, One bias parameter per neuron, The number of FC neurons is free of structural constraints]**
+
+&#10230;
+
+<br>
+
+
+**41. Receptive field â€• The receptive field at layer k is the area denoted RkÃ—Rk of the input that each pixel of the k-th activation map can 'see'. By calling Fj the filter size of layer j and Si the stride value of layer i and with the convention S0=1, the receptive field at layer k can be computed with the formula:**
+
+&#10230;
+
+<br>
+
+
+**42. In the example below, we have F1=F2=3 and S1=S2=1, which gives R2=1+2â‹…1+2â‹…1=5.**
+
+&#10230;
+
+<br>
+
+
+**43. Commonly used activation functions**
+
+&#10230;
+
+<br>
+
+
+**44. Rectified Linear Unit â€• The rectified linear unit layer (ReLU) is an activation function g that is used on all elements of the volume. It aims at introducing non-linearities to the network. Its variants are summarized in the table below:**
+
+&#10230;
+
+<br>
+
+
+**45. [ReLU, Leaky ReLU, ELU, with]**
+
+&#10230;
+
+<br>
+
+
+**46. [Non-linearity complexities biologically interpretable, Addresses dying ReLU issue for negative values, Differentiable everywhere]**
+
+&#10230;
+
+<br>
+
+
+**47. Softmax â€• The softmax step can be seen as a generalized logistic function that takes as input a vector of scores xâˆˆRn and outputs a vector of output probability pâˆˆRn through a softmax function at the end of the architecture. It is defined as follows:**
+
+&#10230;
+
+<br>
+
+
+**48. where**
+
+&#10230;
+
+<br>
+
+
+**49. Object detection**
+
+&#10230;
+
+<br>
+
+
+**50. Types of models â€• There are 3 main types of object recognition algorithms, for which the nature of what is predicted is different. They are described in the table below:**
+
+&#10230;
+
+<br>
+
+
+**51. [Image classification, Classification w. localization, Detection]**
+
+&#10230;
+
+<br>
+
+
+**52. [Teddy bear, Book]**
+
+&#10230;
+
+<br>
+
+
+**53. [Classifies a picture, Predicts probability of object, Detects an object in a picture, Predicts probability of object and where it is located, Detects up to several objects in a picture, Predicts probabilities of objects and where they are located]**
+
+&#10230;
+
+<br>
+
+
+**54. [Traditional CNN, Simplified YOLO, R-CNN, YOLO, R-CNN]**
+
+&#10230;
+
+<br>
+
+
+**55. Detection â€• In the context of object detection, different methods are used depending on whether we just want to locate the object or detect a more complex shape in the image. The two main ones are summed up in the table below:**
+
+&#10230;
+
+<br>
+
+
+**56. [Bounding box detection, Landmark detection]**
+
+&#10230;
+
+<br>
+
+
+**57. [Detects the part of the image where the object is located, Detects a shape or characteristics of an object (e.g. eyes), More granular]**
+
+&#10230;
+
+<br>
+
+
+**58. [Box of center (bx,by), height bh and width bw, Reference points (l1x,l1y), ..., (lnx,lny)]**
+
+&#10230;
+
+<br>
+
+
+**59. Intersection over Union â€• Intersection over Union, also known as IoU, is a function that quantifies how correctly positioned a predicted bounding box Bp is over the actual bounding box Ba. It is defined as:**
+
+&#10230;
+
+<br>
+
+
+**60. Remark: we always have IoUâˆˆ[0,1]. By convention, a predicted bounding box Bp is considered as being reasonably good if IoU(Bp,Ba)â©¾0.5.**
+
+&#10230;
+
+<br>
+
+
+**61. Anchor boxes â€• Anchor boxing is a technique used to predict overlapping bounding boxes. In practice, the network is allowed to predict more than one box simultaneously, where each box prediction is constrained to have a given set of geometrical properties. For instance, the first prediction can potentially be a rectangular box of a given form, while the second will be another rectangular box of a different geometrical form.**
+
+&#10230;
+
+<br>
+
+
+**62. Non-max suppression â€• The non-max suppression technique aims at removing duplicate overlapping bounding boxes of a same object by selecting the most representative ones. After having removed all boxes having a probability prediction lower than 0.6, the following steps are repeated while there are boxes remaining:**
+
+&#10230;
+
+<br>
+
+
+**63. [For a given class, Step 1: Pick the box with the largest prediction probability., Step 2: Discard any box having an IoUâ©¾0.5 with the previous box.]**
+
+&#10230;
+
+<br>
+
+
+**64. [Box predictions, Box selection of maximum probability, Overlap removal of same class, Final bounding boxes]**
+
+&#10230;
+
+<br>
+
+
+**65. YOLO â€• You Only Look Once (YOLO) is an object detection algorithm that performs the following steps:**
+
+&#10230;
+
+<br>
+
+
+**66. [Step 1: Divide the input image into a GÃ—G grid., Step 2: For each grid cell, run a CNN that predicts y of the following form:, repeated k times]**
+
+&#10230;
+
+<br>
+
+
+**67. where pc is the probability of detecting an object, bx,by,bh,bw are the properties of the detected bouding box, c1,...,cp is a one-hot representation of which of the p classes were detected, and k is the number of anchor boxes.**
+
+&#10230;
+
+<br>
+
+
+**68. Step 3: Run the non-max suppression algorithm to remove any potential duplicate overlapping bounding boxes.**
+
+&#10230;
+
+<br>
+
+
+**69. [Original image, Division in GxG grid, Bounding box prediction, Non-max suppression]**
+
+&#10230;
+
+<br>
+
+
+**70. Remark: when pc=0, then the network does not detect any object. In that case, the corresponding predictions bx,...,cp have to be ignored.**
+
+&#10230;
+
+<br>
+
+
+**71. R-CNN â€• Region with Convolutional Neural Networks (R-CNN) is an object detection algorithm that first segments the image to find potential relevant bounding boxes and then run the detection algorithm to find most probable objects in those bounding boxes.**
+
+&#10230;
+
+<br>
+
+
+**72. [Original image, Segmentation, Bounding box prediction, Non-max suppression]**
+
+&#10230;
+
+<br>
+
+
+**73. Remark: although the original algorithm is computationally expensive and slow, newer architectures enabled the algorithm to run faster, such as Fast R-CNN and Faster R-CNN.**
+
+&#10230;
+
+<br>
+
+
+**74. Face verification and recognition**
+
+&#10230;
+
+<br>
+
+
+**75. Types of models â€• Two main types of model are summed up in table below:**
+
+&#10230;
+
+<br>
+
+
+**76. [Face verification, Face recognition, Query, Reference, Database]**
+
+&#10230;
+
+<br>
+
+
+**77. [Is this the correct person?, One-to-one lookup, Is this one of the K persons in the database?, One-to-many lookup]**
+
+&#10230;
+
+<br>
+
+
+**78. One Shot Learning â€• One Shot Learning is a face verification algorithm that uses a limited training set to learn a similarity function that quantifies how different two given images are. The similarity function applied to two images is often noted d(image 1,image 2).**
+
+&#10230;
+
+<br>
+
+
+**79. Siamese Network â€• Siamese Networks aim at learning how to encode images to then quantify how different two images are. For a given input image x(i), the encoded output is often noted as f(x(i)).**
+
+&#10230;
+
+<br>
+
+
+**80. Triplet loss â€• The triplet loss â„“ is a loss function computed on the embedding representation of a triplet of images A (anchor), P (positive) and N (negative). The anchor and the positive example belong to a same class, while the negative example to another one. By calling Î±âˆˆR+ the margin parameter, this loss is defined as follows:**
+
+&#10230;
+
+<br>
+
+
+**81. Neural style transfer**
+
+&#10230;
+
+<br>
+
+
+**82. Motivation â€• The goal of neural style transfer is to generate an image G based on a given content C and a given style S.**
+
+&#10230;
+
+<br>
+
+
+**83. [Content C, Style S, Generated image G]**
+
+&#10230;
+
+<br>
+
+
+**84. Activation â€• In a given layer l, the activation is noted a[l] and is of dimensions nHÃ—nwÃ—nc**
+
+&#10230;
+
+<br>
+
+
+**85. Content cost function â€• The content cost function Jcontent(C,G) is used to determine how the generated image G differs from the original content image C. It is defined as follows:**
+
+&#10230;
+
+<br>
+
+
+**86. Style matrix â€• The style matrix G[l] of a given layer l is a Gram matrix where each of its elements G[l]kkâ€² quantifies how correlated the channels k and kâ€² are. It is defined with respect to activations a[l] as follows:**
+
+&#10230;
+
+<br>
+
+
+**87. Remark: the style matrix for the style image and the generated image are noted G[l] (S) and G[l] (G) respectively.**
+
+&#10230;
+
+<br>
+
+
+**88. Style cost function â€• The style cost function Jstyle(S,G) is used to determine how the generated image G differs from the style S. It is defined as follows:**
+
+&#10230;
+
+<br>
+
+
+**89. Overall cost function â€• The overall cost function is defined as being a combination of the content and style cost functions, weighted by parameters Î±,Î², as follows:**
+
+&#10230;
+
+<br>
+
+
+**90. Remark: a higher value of Î± will make the model care more about the content while a higher value of Î² will make it care more about the style.**
+
+&#10230;
+
+<br>
+
+
+**91. Architectures using computational tricks**
+
+&#10230;
+
+<br>
+
+
+**92. Generative Adversarial Network â€• Generative adversarial networks, also known as GANs, are composed of a generative and a discriminative model, where the generative model aims at generating the most truthful output that will be fed into the discriminative which aims at differentiating the generated and true image.**
+
+&#10230;
+
+<br>
+
+
+**93. [Training, Noise, Real-world image, Generator, Discriminator, Real Fake]**
+
+&#10230;
+
+<br>
+
+
+**94. Remark: use cases using variants of GANs include text to image, music generation and synthesis.**
+
+&#10230;
+
+<br>
+
+
+**95. ResNet â€• The Residual Network architecture (also called ResNet) uses residual blocks with a high number of layers meant to decrease the training error. The residual block has the following characterizing equation:**
+
+&#10230;
+
+<br>
+
+
+**96. Inception Network â€• This architecture uses inception modules and aims at giving a try at different convolutions in order to increase its performance through features diversification. In particular, it uses the 1Ã—1 convolution trick to limit the computational burden.**
+
+&#10230;
+
+<br>
+
+
+**97. The Deep Learning cheatsheets are now available in [target language].**
+
+&#10230;
+
+<br>
+
+
+**98. Original authors**
+
+&#10230;
+
+<br>
+
+
+**99. Translated by X, Y and Z**
+
+&#10230;
+
+<br>
+
+
+**100. Reviewed by X, Y and Z**
+
+&#10230;
+
+<br>
+
+
+**101. View PDF version on GitHub**
+
+&#10230;
+
+<br>
+
+
+**102. By X and Y**
+
+&#10230;
+
+<br>

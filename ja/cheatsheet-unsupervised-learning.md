@@ -180,25 +180,25 @@
 
 **31. It is a dimension reduction technique that finds the variance maximizing directions onto which to project the data.**
 
-&#10230; これはデータを投影する方向で、分散を最大にする方向を見つける次元削減手法です。
+&#10230; これは分散を最大にするデータの射影方向を見つける次元削減手法です。
 
 <br>
 
 **32. Eigenvalue, eigenvector ― Given a matrix A∈Rn×n, λ is said to be an eigenvalue of A if there exists a vector z∈Rn∖{0}, called eigenvector, such that we have:**
 
-&#10230; 固有値、固有ベクトル - 行列 A∈Rn×nが与えられたとき、次の式で固有ベクトルと呼ばれるベクトルz∈Rn∖{0}が存在した場合に、λはAの固有値と呼ばれる。
+&#10230; 固有値、固有ベクトル - 行列 A∈Rn×nが与えられたとき、次の式で固有ベクトルと呼ばれるベクトルz∈Rn∖{0}が存在した場合に、λはAの固有値と呼ばれます。
 
 <br>
 
 **33. Spectral theorem ― Let A∈Rn×n. If A is symmetric, then A is diagonalizable by a real orthogonal matrix U∈Rn×n. By noting Λ=diag(λ1,...,λn), we have:**
 
-&#10230; スペクトル定理 - A∈Rn×nとする。Aが対称のとき、Aは実直交行列U∈Rn×nを用いて対角化可能である。Λ=diag(λ1,...,λn)と表記することで、次の式を得る。
+&#10230; スペクトル定理 - A∈Rn×nとする。Aが対称のとき、Aは実直交行列U∈Rn×nを用いて対角化可能です。Λ=diag(λ1,...,λn)と表記することで、次の式を得ます。
 
 <br>
 
 **34. diagonal**
 
-&#10230; 対角
+&#10230; diagonal
 
 <br>
 
@@ -210,7 +210,7 @@
 
 **36. Algorithm ― The Principal Component Analysis (PCA) procedure is a dimension reduction technique that projects the data on k dimensions by maximizing the variance of the data as follows:**
 
-&#10230; アルゴリズム ― 主成分分析 (PCA)の過程は、次のようにデータの分散を最大化することによりデータをk次元に射影する次元削減の技術である。
+&#10230; アルゴリズム ― 主成分分析 (PCA)の過程は、次のようにデータの分散を最大化することによりデータをk次元に射影する次元削減の技術です。
 
 <br>
 
@@ -294,7 +294,7 @@
 
 **50. Therefore, the stochastic gradient ascent learning rule is such that for each training example x(i), we update W as follows:**
 
-&#10230; そのため、確率的勾配上昇法の学習規則は、学習サンプルx(i)に対して次のようにwを更新するものです：
+&#10230; そのため、確率的勾配上昇法の学習規則は、学習サンプルx(i)に対して次のようにWを更新するものです：
 
 <br>
 
@@ -312,13 +312,13 @@
 
 **53. Translated by X, Y and Z**
 
-&#10230; X, Y, Zによる翻訳
+&#10230; X・Y・Z 訳
 
 <br>
 
 **54. Reviewed by X, Y and Z**
 
-&#10230; X, Y, Zによるレビュー
+&#10230; X・Y・Z 校正
 
 <br>
 

@@ -25,42 +25,42 @@
 
 **4. [Types of layer, Convolution, Pooling, Fully connected]**
 
-&#10230; [Các kiểu tầng(layer), Tích chập, Pooling, Kết nối đầy đủ]
+&#10230; [Các kiểu tầng (layer), Tích chập, Pooling, Kết nối đầy đủ]
 
 <br>
 
 
 **5. [Filter hyperparameters, Dimensions, Stride, Padding]**
 
-&#10230; [Filter hyperparameters, Dimensions, Stride, Padding]
+&#10230; [Các tham số cấu hình của bộ lọc, Các chiều, Stride, Padding]
 
 <br>
 
 
 **6. [Tuning hyperparameters, Parameter compatibility, Model complexity, Receptive field]**
 
-&#10230; [Tuning hyperparameters, Parameter compatibility, Model complexity, Receptive field]
+&#10230; [Điều chỉnh các tham số cấu hình, Độ tương thích tham số, Độ phức tạp mô hình, Receptive field]
 
 <br>
 
 
 **7. [Activation functions, Rectified Linear Unit, Softmax]**
 
-&#10230; [Activation functions, Rectified Linear Unit, Softmax]
+&#10230; [Các hàm kích hoạt, Rectified Linear Unit, Softmax]
 
 <br>
 
 
 **8. [Object detection, Types of models, Detection, Intersection over Union, Non-max suppression, YOLO, R-CNN]**
 
-&#10230; [Object detection, Types of models, Detection, Intersection over Union, Non-max suppression, YOLO, R-CNN]
+&#10230; [Nhận diện vật thể, Các kiểu mô hình, Detection, Intersection over Union, Non-max suppression, YOLO, R-CNN]
 
 <br>
 
 
 **9. [Face verification/recognition, One shot learning, Siamese network, Triplet loss]**
 
-&#10230; [Face verification/recognition, One shot learning, Siamese network, Triplet loss]
+&#10230; [Nhận diện/ xác nhận gương mặt, One shot learning, Siamese network, Triplet loss]
 
 <br>
 
@@ -102,7 +102,7 @@
 
 **15. Types of layer**
 
-&#10230; Types of layer
+&#10230; Các kiểu tầng
 
 <br>
 
@@ -130,7 +130,7 @@
 
 **19. [Type, Purpose, Illustration, Comments]**
 
-&#10230; [Type, Purpose, Illustration, Comments]
+&#10230; [Kiểu, Chức năng, Minh họa, Nhận xét]
 
 <br>
 
@@ -144,140 +144,140 @@
 
 **21. [Preserves detected features, Most commonly used, Downsamples feature map, Used in LeNet]**
 
-&#10230; [Preserves detected features, Most commonly used, Downsamples feature map, Used in LeNet]
+&#10230; [Bảo toàn các đặc trưng đã phát hiện, Được sử dụng thường xuyên, Giảm kích thước feature map, Được sử dụng trong mạng LeNet]
 
 <br>
 
 
 **22. Fully Connected (FC) ― The fully connected layer (FC) operates on a flattened input where each input is connected to all neurons. If present, FC layers are usually found towards the end of CNN architectures and can be used to optimize objectives such as class scores.**
 
-&#10230;
+&#10230;  Fully Connected (FC) ― Tầng kết nối đầy đủ (FC) nhận đầu vào là các dữ liệu đã được làm phẳng, mà mỗi đầu vào đó được kết nối đến tất cả neuron. Trong mô hình mạng CNNs, các tầng kết nối đầy đủ thường được tìm thấy ở cuối mạng và được dùng để tối ưu hóa mục tiêu của mạng ví dụ như độ chính xác của lớp (class).
 
 <br>
 
 
 **23. Filter hyperparameters**
 
-&#10230;
+&#10230; Các tham số cấu hình của bộ lọc
 
 <br>
 
 
 **24. The convolution layer contains filters for which it is important to know the meaning behind its hyperparameters.**
 
-&#10230;
+&#10230; Tầng tích chập chứa các bộ lọc mà rất quan trọng cho ta khi biết ý nghĩa đằng sau các tham số cấu hình của chúng.
 
 <br>
 
 
 **25. Dimensions of a filter ― A filter of size F×F applied to an input containing C channels is a F×F×C volume that performs convolutions on an input of size I×I×C and produces an output feature map (also called activation map) of size O×O×1.**
 
-&#10230;
+&#10230; Các chiều của một bộ lọc ― Một bộ lọc kích thước F×F áp dụng lên đầu vào chứa C kênh (channels) thì có kích thước tổng kể là F×F×C thực hiện phép tích chập trên đầu vào kích thước I×I×C và cho ra một  feature map (hay còn gọi là activation map) có kích thước O×O×1.
 
 <br>
 
 
 **26. Filter**
 
-&#10230;
+&#10230; Bộ lọc
 
 <br>
 
 
 **27. Remark: the application of K filters of size F×F results in an output feature map of size O×O×K.**
 
-&#10230;
+&#10230; Lưu ý: Việc áp dụng K bộ lọc có kích thước F×F cho ra một feature map có kích thước O×O×K.
 
 <br>
 
 
 **28. Stride ― For a convolutional or a pooling operation, the stride S denotes the number of pixels by which the window moves after each operation.**
 
-&#10230;
+&#10230; Stride ― Đối với phép tích chập hoặc phép pooling, độ trượt S ký hiệu số pixel mà cửa sổ sẽ di chuyển sau mỗi lần thực hiện phép tính.
 
 <br>
 
 
 **29. Zero-padding ― Zero-padding denotes the process of adding P zeroes to each side of the boundaries of the input. This value can either be manually specified or automatically set through one of the three modes detailed below:**
 
-&#10230;
+&#10230;  Zero-padding ― Zero-padding là tên gọi của quá trình thêm P số không vào các biên của đầu vào. Giá trị này có thể được lựa chọn thủ công hoặc một cách tự động bằng một trong ba những phương pháp mô tả bên dưới:
 
 <br>
 
 
 **30. [Mode, Value, Illustration, Purpose, Valid, Same, Full]**
 
-&#10230;
+&#10230; [Phương pháp, Giá trị, Mục đích, Valid, Same, Full]
 
 <br>
 
 
 **31. [No padding, Drops last convolution if dimensions do not match, Padding such that feature map size has size ⌈IS⌉, Output size is mathematically convenient, Also called 'half' padding, Maximum padding such that end convolutions are applied on the limits of the input, Filter 'sees' the input end-to-end]**
 
-&#10230;
+&#10230; [Không sử dụng padding, Bỏ phép tích chập cuối nếu số chiều không khớp, Sử dụng padding để làm cho feature map có kích  thước ⌈IS⌉, Kích thước đầu ra thuận lợi về mặt toán học, Còn được gọi là 'half' padding, Padding tối đa sao cho các phép tích chập có thể được sử dụng tại các rìa của đầu vào, Bộ lọc 'thấy' được đầu vào từ đầu đến cuối]
 
 <br>
 
 
 **32. Tuning hyperparameters**
 
-&#10230;
+&#10230; Điều chỉnh tham số cấu hình
 
 <br>
 
 
 **33. Parameter compatibility in convolution layer ― By noting I the length of the input volume size, F the length of the filter, P the amount of zero padding, S the stride, then the output size O of the feature map along that dimension is given by:**
 
-&#10230;
+&#10230; Tính tương thích của tham số trong tầng tích chập ― Bằng cách ký hiệu I là độ dài kích thước đầu vào, F là độ dài của bộ lọc, P là số lượng zero padding, S là độ trượt, ta có thể tính được độ dài O của feature map theo một chiều bằng công thức:
 
 <br>
 
 
 **34. [Input, Filter, Output]**
 
-&#10230;
+&#10230; [Đầu vào, Bộ lọc, Đầu ra]
 
 <br>
 
 
 **35. Remark: often times, Pstart=Pend≜P, in which case we can replace Pstart+Pend by 2P in the formula above.**
 
-&#10230;
+&#10230; Lưu ý: Trong một số trường hợp, Pstart=Pend≜P, ta có thể thay thế Pstart+Pend bằng 2P trong công thức trên.
 
 <br>
 
 
 **36. Understanding the complexity of the model ― In order to assess the complexity of a model, it is often useful to determine the number of parameters that its architecture will have. In a given layer of a convolutional neural network, it is done as follows:**
 
-&#10230;
+&#10230; Hiểu về độ phức tạp của mô hình ― Để đánh giá độ phức tạp của một mô hình, cách hữu hiệu là xác định số tham số mà mô hình đó sẽ có. Trong một tầng của mạng neural tích chập, nó sẽ được tính toán như sau:
 
 <br>
 
 
 **37. [Illustration, Input size, Output size, Number of parameters, Remarks]**
 
-&#10230;
+&#10230; [Minh họa, Kích thước đầu vào, Kích thước đầu ra, Số lượng tham số, Lưu ý]
 
 <br>
 
 
 **38. [One bias parameter per filter, In most cases, S<F, A common choice for K is 2C]**
 
-&#10230;
+&#10230; [Một tham số bias với mỗi bộ lọc, Trong đa số trường hợp, S<F, Một lựa chọn phổ biến cho K là 2C]
 
 <br>
 
 
 **39. [Pooling operation done channel-wise, In most cases, S=F]**
 
-&#10230;
+&#10230; [Phép pooling được áp dụng lên từng kênh (channel-wise), Trong đa số trường hợp, S=F]
 
 <br>
 
 
 **40. [Input is flattened, One bias parameter per neuron, The number of FC neurons is free of structural constraints]**
 
-&#10230;
+&#10230; [Đầu vào được làm phẳng, Mỗi neuron có một tham số bias, Số neuron trong một tầng FC phụ thuộc vào ràng buộc kết cấu]
 
 <br>
 

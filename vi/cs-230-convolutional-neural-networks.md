@@ -298,91 +298,91 @@
 
 **43. Commonly used activation functions**
 
-&#10230;
+&#10230; Các hàm kích hoạt thường gặp
 
 <br>
 
 
 **44. Rectified Linear Unit ― The rectified linear unit layer (ReLU) is an activation function g that is used on all elements of the volume. It aims at introducing non-linearities to the network. Its variants are summarized in the table below:**
 
-&#10230;
+&#10230; Rectified Linear Unit ― Tầng rectified linear unit (ReLU) là một hàm kích hoạt g  được sử dụng trên tất cả các thành phần. Mục đích của nó là tăng tính phi tuyến tính cho mạng. Những biến thể khác của ReLU được tổng hợp ở bảng dưới:
 
 <br>
 
 
 **45. [ReLU, Leaky ReLU, ELU, with]**
 
-&#10230;
+&#10230; [ReLU, Leaky ReLU, ELU, with]
 
 <br>
 
 
 **46. [Non-linearity complexities biologically interpretable, Addresses dying ReLU issue for negative values, Differentiable everywhere]**
 
-&#10230;
+&#10230; [Độ phức tạp phi tuyến tính có thể thông dịch được về mặt sinh học, Gán vấn đề ReLU chết cho những giá trị âm, Khả vi tại mọi nơi]
 
 <br>
 
 
 **47. Softmax ― The softmax step can be seen as a generalized logistic function that takes as input a vector of scores x∈Rn and outputs a vector of output probability p∈Rn through a softmax function at the end of the architecture. It is defined as follows:**
 
-&#10230;
+&#10230; Softmax ― Bước softmax có thể được coi là một hàm logistic tổng quát lấy đầu vào là một vector chứa các giá trị x∈Rn và cho ra là một vector gồm các xác suất p∈Rn thông qua một hàm softmax ở cuối kiến trúc. Nó được định nghĩa như sau:
 
 <br>
 
 
 **48. where**
 
-&#10230;
+&#10230; với
 
 <br>
 
 
 **49. Object detection**
 
-&#10230;
+&#10230; Nhận diện vật thể (Object detection)
 
 <br>
 
 
 **50. Types of models ― There are 3 main types of object recognition algorithms, for which the nature of what is predicted is different. They are described in the table below:**
 
-&#10230;
+&#10230; Các kiểu mô hình ― Có 3 kiểu thuật toán nhận diện vật thể chính, vì thế mà bản chất của thứ được dự đoán sẽ khác nhau. Chúng được miêu tả ở bảng dưới:
 
 <br>
 
 
 **51. [Image classification, Classification w. localization, Detection]**
 
-&#10230;
+&#10230; [Phân loại hình ảnh, Phân loại cùng với định vị, Nhận diện]
 
 <br>
 
 
 **52. [Teddy bear, Book]**
 
-&#10230;
+&#10230; [Gấu bông, Sách]
 
 <br>
 
 
 **53. [Classifies a picture, Predicts probability of object, Detects an object in a picture, Predicts probability of object and where it is located, Detects up to several objects in a picture, Predicts probabilities of objects and where they are located]**
 
-&#10230;
+&#10230; [Phân loại một tấm ảnh, Dự đoán xác suất của một vật thể, Nhận diện một vật thể trong ảnh, Dự đoán xác suất của vật thể và định vị nó, Nhận diện nhiều vật thể trong cùng một tấm ảnh, Dự đoán xác suất của các vật thể và định vị chúng]
 
 <br>
 
 
 **54. [Traditional CNN, Simplified YOLO, R-CNN, YOLO, R-CNN]**
 
-&#10230;
+&#10230; [CNN cổ điển, YOLO đơn giản hóa, R-CNN, YOLO, R-CNN]
 
 <br>
 
 
 **55. Detection ― In the context of object detection, different methods are used depending on whether we just want to locate the object or detect a more complex shape in the image. The two main ones are summed up in the table below:**
 
-&#10230;
+&#10230; Detection ― Trong bối cảnh nhận diện vật thể, những phương pháp khác nhau được áp dụng tùy thuộc vào liệu chúng ta chỉ muốn định vị vật thể hay nhận diện được những hình dạng phức tạp hơn trong tấm ảnh. Hai phương pháp chính được tổng hợp ở bảng dưới: 
 
 <br>
 

@@ -126,7 +126,7 @@
 
 **22. [Ward linkage, Average linkage, Complete linkage]**
 
-&#10230; [Ward linkage, Average linkage, Complete linkage]
+&#10230; [ウォードリンケージ, 平均リンケージ, 完全リンケージ]
 
 <br>
 
@@ -144,13 +144,13 @@
 
 **25. In an unsupervised learning setting, it is often hard to assess the performance of a model since we don't have the ground truth labels as was the case in the supervised learning setting.**
 
-&#10230; 教師なし学習では、教師あり学習の場合のような正解ラベルがないため、モデルの性能を評価することが難しい場合が多いです。
+&#10230; 教師なし学習では、教師あり学習の場合のような正解ラベルがないため、モデルの性能を評価することが困難な場合が多いです。
 
 <br>
 
 **26. Silhouette coefficient ― By noting a and b the mean distance between a sample and all other points in the same class, and between a sample and all other points in the next nearest cluster, the silhouette coefficient s for a single sample is defined as follows:**
 
-&#10230; シルエット係数 ― サンプルと同じクラスタ内のその他全ての点との平均距離をa、最も近いクラスタ内の全ての点との平均距離をbと表記すると、サンプルのシルエット係数sは次のように定義されます:
+&#10230; シルエット係数 ― ある1つのサンプルと同じクラス内のその他全ての点との平均距離をa、そのサンプルから最も近いクラスタ内の全ての点との平均距離をbと表記すると、そのサンプルのシルエット係数sは次のように定義されます:
 
 <br>
 
@@ -162,7 +162,7 @@
 
 **28. the Calinski-Harabaz index s(k) indicates how well a clustering model defines its clusters, such that the higher the score, the more dense and well separated the clusters are. It is defined as follows:**
 
-&#10230; Calinski-Harabazインデックスs(k)はクラスタリングモデルが各クラスタをどの程度適切に定義しているかを示します。スコアが高いほど、各クラスタはより密で、十分に分離されています。 それは次のように定義されます:
+&#10230; Calinski-Harabazインデックスs(k)はクラスタリングモデルが各クラスタをどの程度適切に定義しているかを示します。つまり、スコアが高いほど、各クラスタはより密で、十分に分離されています。 それは次のように定義されます:
 
 <br>
 
@@ -330,7 +330,7 @@
 
 **56. [Clustering, Expectation-Maximization, k-means, Hierarchical clustering, Metrics]**
 
-&#10230;[クラスタリング, EM, k-means, 階層クラスタリング, 指標]
+&#10230;[クラスタリング, 期待値最大化法, k-means, 階層クラスタリング, 指標]
 
 <br>
 

@@ -48,7 +48,8 @@ Please make sure to propose the translation of **only one** cheatsheet per pull 
 |**Português**|not started|not started|not started|not started|
 |**Türkçe**|done|done|done|done|
 |**Tiếng Việt**|not started|not started|not started|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/179)|
-|**中文**|not started|not started|not started|not started|
+|**简体中文**|not started|not started|not started|not started|
+|**繁體中文**|not started|not started|not started|not started|
 
 ### CS 229 (Machine Learning)
 | |[Deep learning](https://github.com/shervinea/cheatsheet-translation/blob/master/template/cs-229-deep-learning.md)|[Supervised](https://github.com/shervinea/cheatsheet-translation/blob/master/template/cs-229-supervised-learning.md)|[Unsupervised](https://github.com/shervinea/cheatsheet-translation/blob/master/template/cs-229-unsupervised-learning.md)|[ML tips](https://github.com/shervinea/cheatsheet-translation/blob/master/template/cs-229-machine-learning-tips-and-tricks.md)|[Probabilities](https://github.com/shervinea/cheatsheet-translation/blob/master/template/cs-229-probability.md)|[Algebra](https://github.com/shervinea/cheatsheet-translation/blob/master/template/cs-229-linear-algebra.md)|
@@ -73,7 +74,8 @@ Please make sure to propose the translation of **only one** cheatsheet per pull 
 |**Türkçe**|done|done|done|done|done|done|
 |**Українська**|not started|not started|not started|not started|done|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/95)|
 |**Tiếng Việt**|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/159)|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/162)|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/177)|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/160)|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/175)|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/176)|
-|**中文**|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/12)|done|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/48)|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/7)|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/73)|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/72)|
+|**简体中文**|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/12)|done|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/48)|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/7)|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/73)|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/72)|
+|**繁體中文**|done|done|done|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/137)|done|done|
 
 ### CS 230 (Deep Learning)
 | |[Convolutional Neural Networks](https://github.com/shervinea/cheatsheet-translation/blob/master/template/cs-230-convolutional-neural-networks.md)|[Recurrent Neural Networks](https://github.com/shervinea/cheatsheet-translation/blob/master/template/cs-230-recurrent-neural-networks.md)|[Deep Learning tips](https://github.com/shervinea/cheatsheet-translation/blob/master/template/cs-230-deep-learning-tips-and-tricks.md)|
@@ -98,7 +100,8 @@ Please make sure to propose the translation of **only one** cheatsheet per pull 
 |**Türkçe**|done|done|done|
 |**Українська**|not started|not started|not started|
 |**Tiếng Việt**|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/180)|not started|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/178)|
-|**中文**|not started|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/181)|not started|
+|**简体中文**|not started|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/181)|not started|
+|**繁體中文**|not started|not started|not started|
 
 ## Acknowledgements
 Thank you everyone for your help! Please do not forget to add your name to the `CONTRIBUTORS` file so that we can give you proper credit in the cheatsheets' [official website](https://stanford.edu/~shervine/teaching).

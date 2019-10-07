@@ -26,7 +26,7 @@ CS 230 - 深度学习
 **4. [Handling long term dependencies, Common activation functions, Vanishing/exploding gradient, Gradient clipping, GRU/LSTM, Types of gates, Bidirectional RNN, Deep RNN]**
 
 &#10230;
-[处理长时间依赖性, 常见激活函数, 梯度消失/梯度爆炸, 梯度截断, 门控循环单元(GRU)/长短时记忆(LSTM), 门类型, 双向循环神经网络, 深度循环神经网络]
+[处理长时间依赖性, 常见激活函数, 梯度消失/梯度爆炸, 梯度裁剪, 门控循环单元(GRU)/长短时记忆(LSTM), 门类型, 双向循环神经网络, 深度循环神经网络]
 <br>
 
 
@@ -194,13 +194,13 @@ CS 230 - 深度学习
 **28. Gradient clipping ― It is a technique used to cope with the exploding gradient problem sometimes encountered when performing backpropagation. By capping the maximum value for the gradient, this phenomenon is controlled in practice.**
 
 &#10230;
-梯度截断 - 一种用于解决反向传播时时而出现梯度爆炸问题的方法。通过限制梯度的最大值, 这种现象在实际中得到了相应的控制。
+梯度裁剪 - 一种用于解决反向传播时时而出现梯度爆炸问题的方法。通过限制梯度的最大值, 这种现象在实际中得到了相应的控制。
 <br>
 
 **29. clipped**
 
 &#10230;
-截断
+裁剪
 <br>
 
 

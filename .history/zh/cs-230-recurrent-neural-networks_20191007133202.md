@@ -19,14 +19,14 @@ CS 230 - 深度学习
 **3. [Overview, Architecture structure, Applications of RNNs, Loss function, Backpropagation]**
 
 &#10230;
-[概述, 网络结构, 循环神经网络的应用, 损失函数, 反向传播]
+[概述, 网络结构, RNN的应用, 损失函数, 反向传播]
 <br>
 
 
 **4. [Handling long term dependencies, Common activation functions, Vanishing/exploding gradient, Gradient clipping, GRU/LSTM, Types of gates, Bidirectional RNN, Deep RNN]**
 
 &#10230;
-[处理长时间依赖性, 常见激活函数, 梯度消失/梯度爆炸, 梯度截断, 门控循环单元(GRU)/长短时记忆(LSTM), 门类型, 双向循环神经网络, 深度循环神经网络]
+[处理长时间依赖性, 常见激活函数, 梯度消失/梯度爆炸, 梯度裁剪, GRU/LSTM, 门类型, 双向RNN, 深度RNN]
 <br>
 
 
@@ -124,14 +124,14 @@ CS 230 - 深度学习
 **18. Applications of RNNs ― RNN models are mostly used in the fields of natural language processing and speech recognition. The different applications are summed up in the table below:**
 
 &#10230;
-循环神经网络的应用 - 循环神经网络(RNN)模型常用于自然语言处理和语音识别, 下表总结了循环神经网络(RNN)模型的不同应用场景：
+RNNs的应用 - RNN模型常用于自然语言处理和语音识别, 下表总结了RNN模型的不同应用场景：
 <br>
 
 
 **19. [Type of RNN, Illustration, Example]**
 
 &#10230;
-[循环神经网络的类型, 图形表示, 示例]
+[RNN的类型, 图形表示, 示例]
 <br>
 
 
@@ -173,34 +173,34 @@ CS 230 - 深度学习
 **25. Commonly used activation functions ― The most common activation functions used in RNN modules are described below:**
 
 &#10230;
-常用的激活函数 - 在循环神经网络(RNN)模型中常用的激活函数如下所示：
+常用的激活函数 - 在RNN模型中常用的激活函数如下所示：
 <br>
 
 
 **26. [Sigmoid, Tanh, RELU]**
 
 &#10230;
-[Sigmoid, 双曲正切函数(Tanh), 整流线性单元(RELU)]
+[Sigmoid, Tanh, RELU]
 <br>
 
 
 **27. Vanishing/exploding gradient ― The vanishing and exploding gradient phenomena are often encountered in the context of RNNs. The reason why they happen is that it is difficult to capture long term dependencies because of multiplicative gradient that can be exponentially decreasing/increasing with respect to the number of layers.**
 
 &#10230;
-梯度消失/梯度爆炸 - 梯度消失和梯度爆炸现象常出现在循环神经网络(RNN)模型中。其原因是该模型结构难以捕获长期依赖性, 因为乘法梯度会随着层数增加而呈指数递减/递增。
+梯度消失/梯度爆炸 - 梯度消失和梯度爆炸现象常出现在RNN模型中。其原因是该模型结构难以捕获长期依赖性, 因为乘法梯度会随着层数增加而呈指数递减/递增。
 <br>
 
 
 **28. Gradient clipping ― It is a technique used to cope with the exploding gradient problem sometimes encountered when performing backpropagation. By capping the maximum value for the gradient, this phenomenon is controlled in practice.**
 
 &#10230;
-梯度截断 - 一种用于解决反向传播时时而出现梯度爆炸问题的方法。通过限制梯度的最大值, 这种现象在实际中得到了相应的控制。
+梯度裁剪 - 一种用于解决反向传播时时而出现梯度爆炸问题的方法。通过限制梯度的最大值, 这种现象在实际中得到了相应的控制。
 <br>
 
 **29. clipped**
 
 &#10230;
-截断
+裁剪
 <br>
 
 
@@ -242,21 +242,21 @@ CS 230 - 深度学习
 **35. [LSTM, GRU]**
 
 &#10230;
-[长短时记忆(LSTM), 门控循环单元(GRU)]
+[长短时记忆网络(LSTM), 门控循环单元(GRU)]
 <br>
 
 
 **36. GRU/LSTM ― Gated Recurrent Unit (GRU) and Long Short-Term Memory units (LSTM) deal with the vanishing gradient problem encountered by traditional RNNs, with LSTM being a generalization of GRU. Below is a table summing up the characterizing equations of each architecture:**
 
 &#10230;
-门控循环单元(GRU)/长短时记忆(LSTM) ― 门控循环单元(GRU)和长短时记忆(LSTM)可解决传统循环神经网络(RNNs)中遇到的梯度消失问题, 其中GRU是LSTM的一种推广。下表总结了每种结构的特性方程：
+GRU/LSTM ― 门控循环单元(GRU)和长短时记忆单元(LSTM)可解决传统RNNs中遇到的梯度消失问题, 其中GRU是LSTM的一种推广。下表总结了每种结构的特性方程：
 <br>
 
 
 **37. [Characterization, Gated Recurrent Unit (GRU), Long Short-Term Memory (LSTM), Dependencies]**
 
 &#10230;
-[特性, 门控循环单元(GRU), 长短时记忆(LSTM), 依赖项]
+[特性, 门控循环单元(GRU), 长短时记忆网络(LSTM), 依赖项]
 <br>
 
 
@@ -270,7 +270,7 @@ CS 230 - 深度学习
 **39. Variants of RNNs ― The table below sums up the other commonly used RNN architectures:**
 
 &#10230;
-循环神经网络(RNN)模型的变种 - 下表列出了其他常用的RNN结构: 
+RNN模型的变种 - 下表列出了其他常用的RNN结构: 
 <br>
 
 

@@ -389,140 +389,140 @@
 
 **56. [Bounding box detection, Landmark detection]**
 
-&#10230;
+&#10230; [Phát hiện hộp giới hạn (bounding box), Phát hiện landmark]
 
 <br>
 
 
 **57. [Detects the part of the image where the object is located, Detects a shape or characteristics of an object (e.g. eyes), More granular]**
 
-&#10230;
+&#10230; [Phát hiện phần trong ảnh mà có sự xuất hiện của vật thể, Phát hiện hình dạng và đặc điểm của một đối tượng (vd: mắt), Nhiều hạt]
 
 <br>
 
 
 **58. [Box of center (bx,by), height bh and width bw, Reference points (l1x,l1y), ..., (lnx,lny)]**
 
-&#10230;
+&#10230; [Hộp có tọa độ trung tâm (bx, by), chiều cao bh và chiều rộng bw, Các điểm tương quan (l1x,l1y), ..., (lnx,lny)]
 
 <br>
 
 
 **59. Intersection over Union ― Intersection over Union, also known as IoU, is a function that quantifies how correctly positioned a predicted bounding box Bp is over the actual bounding box Ba. It is defined as:**
 
-&#10230;
+&#10230; Intersection over Union ― Tỉ lệ vùng giao trên vùng hợp, còn được biết đến là IoU, là một hàm định lượng vị trí Bp của hộp giới hạn dự đoán được định vị đúng như thế nào so với hộp giới hạn thực tế Ba. Nó được định nghĩa:
 
 <br>
 
 
 **60. Remark: we always have IoU∈[0,1]. By convention, a predicted bounding box Bp is considered as being reasonably good if IoU(Bp,Ba)⩾0.5.**
 
-&#10230;
+&#10230; Lưu ý: ta luôn có IoU∈[0,1]. Để thuận tiện, một hộp giới hạn Bp được cho là khá tốt nếu IoU(Bp,Ba)⩾0.5.
 
 <br>
 
 
 **61. Anchor boxes ― Anchor boxing is a technique used to predict overlapping bounding boxes. In practice, the network is allowed to predict more than one box simultaneously, where each box prediction is constrained to have a given set of geometrical properties. For instance, the first prediction can potentially be a rectangular box of a given form, while the second will be another rectangular box of a different geometrical form.**
 
-&#10230;
+&#10230; Anchor boxes ― Hộp mỏ neo là một kỹ thuật được dùng để dự đoán những hộp giới hạn nằm chồng lên nhau. Trong thực nghiệm, mạng được phép dự đoán nhiều hơn một hộp cùng một lúc, trong đó mỗi dự đoán được giới hạn theo một tập những tính chất hình học cho trước. Ví dụ, dự đoán đầu tiên có khả năng là một hộp hình chữ nhật có hình dạng cho trước, trong khi dự đoán thứ hai sẽ là một hộp hình chữ nhật nữa với hình dạng hình học khác.
 
 <br>
 
 
 **62. Non-max suppression ― The non-max suppression technique aims at removing duplicate overlapping bounding boxes of a same object by selecting the most representative ones. After having removed all boxes having a probability prediction lower than 0.6, the following steps are repeated while there are boxes remaining:**
 
-&#10230;
+&#10230; Non-max suppression ― Kỹ thuật non-max suppression hướng tới việc loại bỏ những hộp giới hạn bị trùng chồng lên nhau của cùng một đối tượng bằng cách chọn chiếc hộp có tính đặc trưng nhất. Sau khi loại bỏ tất cả các hộp có xác suất dự đoán nhỏ hơn 0.6, những bước tiếp theo được lặp lại khi vẫn còn tồn tại những hộp khác.
 
 <br>
 
 
 **63. [For a given class, Step 1: Pick the box with the largest prediction probability., Step 2: Discard any box having an IoU⩾0.5 with the previous box.]**
 
-&#10230;
+&#10230; [Với một lớp cho trước, Bước 1: Chọn chiếc hộp có xác suất dự đoán lớn nhất., Bước 2: Loại bỏ những hộp có IoU⩾0.5 với hộp đã chọn.]
 
 <br>
 
 
 **64. [Box predictions, Box selection of maximum probability, Overlap removal of same class, Final bounding boxes]**
 
-&#10230;
+&#10230; [Các dự đoán hộp, Chọn hộp với xác suất cao nhất, Loại bỏ trùng lặp trong cùng một lớp, Các hộp giới hạn cuối cùng]
 
 <br>
 
 
 **65. YOLO ― You Only Look Once (YOLO) is an object detection algorithm that performs the following steps:**
 
-&#10230;
+&#10230; YOLO ― You Only Look Once (YOLO) là một thuật toán phát hiện vật thể thực hiện những bước sau:
 
 <br>
 
 
 **66. [Step 1: Divide the input image into a G×G grid., Step 2: For each grid cell, run a CNN that predicts y of the following form:, repeated k times]**
 
-&#10230;
+&#10230; [Bước 1: Phân chia tấm ảnh đầu vào thành một lưới G×G., Bước 2: Với mỗi lưới, chạy một mạng CNN dự đoán y có dạng sau:, lặp lại k lần]
 
 <br>
 
 
 **67. where pc is the probability of detecting an object, bx,by,bh,bw are the properties of the detected bouding box, c1,...,cp is a one-hot representation of which of the p classes were detected, and k is the number of anchor boxes.**
 
-&#10230;
+&#10230; với pc là xác suất dự đoán được một vật thể, bx,by,bh,bw là những thuộc tính của hộp giới hạn được dự đoán, c1,...,cp là biểu diễn one-hot của việc lớp nào trong p các lớp được dự đoán, và k là số lượng các hộp mỏ neo.
 
 <br>
 
 
 **68. Step 3: Run the non-max suppression algorithm to remove any potential duplicate overlapping bounding boxes.**
 
-&#10230;
+&#10230; Bước 3: Chạy thuật toán non-max suppression để loại bỏ bất kỳ hộp giới hạn có khả năng bị trùng lặp.
 
 <br>
 
 
 **69. [Original image, Division in GxG grid, Bounding box prediction, Non-max suppression]**
 
-&#10230;
+&#10230; [Ảnh gốc, Phân chia thành lưới GxG, Dự đoán hộp giới hạn, Non-max suppression]
 
 <br>
 
 
 **70. Remark: when pc=0, then the network does not detect any object. In that case, the corresponding predictions bx,...,cp have to be ignored.**
 
-&#10230;
+&#10230; Lưu ý: khi pc=0, thì mạng không phát hiện bất kỳ vật thể nào. Trong trường hợp đó, Các dự đoán liên quan bx,...,cp sẽ bị lờ đi.
 
 <br>
 
 
 **71. R-CNN ― Region with Convolutional Neural Networks (R-CNN) is an object detection algorithm that first segments the image to find potential relevant bounding boxes and then run the detection algorithm to find most probable objects in those bounding boxes.**
 
-&#10230;
+&#10230; R-CNN ― Region with Convolutional Neural Networks (R-CNN) là một thuật toán phát hiện vật thể mà đầu tiên phân chia ảnh thành các vùng để tìm các hộp giới hạn có khả năng liên quan cao rồi chạy một thuật toán phát hiện để tìm những thứ có khả năng cao là vật thể trong những hộp giới hạn đó. 
 
 <br>
 
 
 **72. [Original image, Segmentation, Bounding box prediction, Non-max suppression]**
 
-&#10230;
+&#10230; [Ảnh gốc, Phân vùng, Dự đoán hộp giới hạn, Non-max suppression]
 
 <br>
 
 
 **73. Remark: although the original algorithm is computationally expensive and slow, newer architectures enabled the algorithm to run faster, such as Fast R-CNN and Faster R-CNN.**
 
-&#10230;
+&#10230; Lưu ý: mặc dù thuật toán gốc có chi phí tính toán cao và chậm, những kiến trúc mới đã có thể cho phép thuật toán này chạy nhanh hơn, như là Fast R-CNN và Faster R-CNN.
 
 <br>
 
 
 **74. Face verification and recognition**
 
-&#10230;
+&#10230; Xác nhận khuôn mặt và nhận diện khuôn mặt
 
 <br>
 
 
 **75. Types of models ― Two main types of model are summed up in table below:**
 
-&#10230;
+&#10230; Các kiểu mô hình ― Hai kiểu mô hình chính được tổng hợp trong bảng dưới:
 
 <br>
 

@@ -6,19 +6,19 @@
 
 **2. Neural Networks**
 
-&#10230;Neural Network
+&#10230;Jaringan Saraf
 
 <br>
 
 **3. Neural networks are a class of models that are built with layers. Commonly used types of neural networks include convolutional and recurrent neural networks.**
 
-&#10230;Neural network adalah sebuah model yang dibentuk dari beberapa lapisan (layer). Neural network yang sering digunakan meliputi neural network convolution dan recurrent.
+&#10230;Jaringan Saraf adalah sebuah kelas model yang dibentuk dari beberapa lapisan (layer). Tipe-tipe jaringan ini meliputi neural network convolution dan recurrent.
 
 <br>
 
 **4. Architecture ― The vocabulary around neural networks architectures is described in the figure below:**
 
-&#10230;Arsitekture - kosakata pada aritekture neural network dijelaskan pada gambar dibawah ini:
+&#10230;Arsitektur - Kosa kata pada aritekture neural network dijelaskan pada gambar di bawah ini:
 
 <br>
 
@@ -42,7 +42,7 @@
 
 **8. Activation function ― Activation functions are used at the end of a hidden unit to introduce non-linear complexities to the model. Here are the most common ones:**
 
-&#10230;Fungsi aktifasi- Fungsi aktfiasi digunakan setelah sebuah hidden unit agar model dapat memodelkan permasalahan non-linear. Berikut adalah fungsi aktifasi yang sering digunakan:
+&#10230;Fungsi aktifasi- Fungsi aktifasi digunakan setelah sebuah hidden unit agar model dapat memodelkan permasalahan non-linear. Berikut adalah fungsi aktifasi yang sering digunakan:
 
 <br>
 

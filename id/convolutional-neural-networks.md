@@ -16,7 +16,7 @@
 <br>
 
 
-**3. [Overview, Architecture structure]**
+**3. [Intisari, Struktur arsitektur]**
 
 &#10230;[Overview, Struktur Arsitektur]
 
@@ -25,21 +25,21 @@
 
 **4. [Types of layer, Convolution, Pooling, Fully connected]**
 
-&#10230;[Jenis-jenis layer, Covolution, Pooling, Fully connected]
+&#10230;[Jenis-jenis layer, Konvolusi, Pooling, Fully connected]
 
 <br>
 
 
 **5. [Filter hyperparameters, Dimensions, Stride, Padding]**
 
-&#10230;[Hyperparameters filter, Dimensi, Stride, Padding]
+&#10230;[Hiperparameter filter, Dimensi, Stride, Padding]
 
 <br>
 
 
 **6. [Tuning hyperparameters, Parameter compatibility, Model complexity, Receptive field]**
 
-&#10230;[Hyperparameters tuning, Kompability parameter, Kompleksitas model, Receptive field]
+&#10230;[Penyetelan hiperparameter, Kesesuaian parameter, Kompleksitas model, Receptive field]
 
 <br>
 
@@ -60,7 +60,7 @@
 
 **9. [Face verification/recognition, One shot learning, Siamese network, Triplet loss]**
 
-&#10230;[Verifikasi/rekognisi wajah, One shot learning, Siamese network, Loss triplet]
+&#10230;[Verifikasi/pengenal wajah, One shot learning, Siamese network, Loss triplet]
 
 <br>
 
@@ -74,28 +74,28 @@
 
 **11. [Computational trick architectures, Generative Adversarial Net, ResNet, Inception Network]**
 
-&#10230;[Arkitektur trik komputasi, Generative Adversarial Net, ResNet, Inception Network]
+&#10230;[Arkitektur trik komputasional, Generative Adversarial Net, ResNet, Inception Network]
 
 <br>
 
 
 **12. Overview**
 
-&#10230;Overview
+&#10230;Ringkasan
 
 <br>
 
 
 **13. Architecture of a traditional CNN ― Convolutional neural networks, also known as CNNs, are a specific type of neural networks that are generally composed of the following layers:**
 
-&#10230;Arkitektur dari sebuah tradisional CNN - Convolutional neural network, juga dikenal sebagai CNN, adalah sebuah tipe khusus dari neural network yang secara general terdiri dari layer-layer berikut:
+&#10230;Arkitektur dari sebuah tradisional CNN - Convolutional neural network, juga dikenal sebagai CNN, adalah sebuah tipe khusus dari neural network yang secara umum terdiri dari layer-layer berikut:
 
 <br>
 
 
 **14. The convolution layer and the pooling layer can be fine-tuned with respect to hyperparameters that are described in the next sections.**
 
-&#10230;Layer convolution and layer pooling dapat disesuaikan terhadap hyperparameters yang dijelaskan pada sesi selanjutnya.
+&#10230;Layer konvolusi and layer pooling dapat disesuaikan terhadap hiperparameter yang dijelaskan pada bagian selanjutnya.
 
 <br>
 
@@ -109,21 +109,21 @@
 
 **16. Convolution layer (CONV) ― The convolution layer (CONV) uses filters that perform convolution operations as it is scanning the input I with respect to its dimensions. Its hyperparameters include the filter size F and stride S. The resulting output O is called feature map or activation map.**
 
-&#10230;Layer convolution - Layer convolution (CONV) menggunakan filter yang melakukan operasi konvolusion seakan CONV net menscan masukan I berdasarkan dimensinya. Hyperparameter dari CONV meliputi ukuran filter F dan ukuran stride S. Keluaran hasil O disebut feature map atau activation map.
+&#10230;Layer convolution - Layer convolution (CONV) menggunakan banyak filter yang dapat melakukan operasi konvolusi karena CONV memindai input I dengan memperhatikan dimensinya. Hiperparameter dari CONV meliputi ukuran filter F dan stride S. Keluaran hasil O disebut feature map atau activation map.
 
 <br>
 
 
 **17. Remark: the convolution step can be generalized to the 1D and 3D cases as well.**
 
-&#10230;Perlu diingat: tahap konvolusion dapat digeneralisasi terhadap masukan 1D dan 3D.
+&#10230;Catatan: tahap konvolusi dapat digeneralisasi juga dalam kasus 1D dan 3D.
 
 <br>
 
 
 **18. Pooling (POOL) ― The pooling layer (POOL) is a downsampling operation, typically applied after a convolution layer, which does some spatial invariance. In particular, max and average pooling are special kinds of pooling where the maximum and average value is taken, respectively.**
 
-&#10230;Pooling (POOL) - Layer pooling adalah sebuah operasi downsampling, biasanya diaplikasikan setelah sebauh layer convolution, yang mengnyebabkan ianvariansi spasial. Pada khususnya, pooling max dan average adalah jenis khusus dari pooling layer masing-masing mengambil nilai maksimum dan rata-rata.
+&#10230;Pooling (POOL) - Layer pooling adalah sebuah operasi downsampling, biasanya diaplikasikan setelah lapisan konvolusi, yang menyebabkan invarian spasial. Pada khususnya, pooling max dan average merupakan jenis-jenis pooling spesial di mana masing-masing nilai maksimal dan rata-rata diambil.
 
 <br>
 
@@ -137,36 +137,35 @@
 
 **20. [Max pooling, Average pooling, Each pooling operation selects the maximum value of the current view, Each pooling operation averages the values of the current view]**
 
-&#10230;[Pooling max, Pooling average, Setiap operasi pooling mengambil nilai tertinggi dari tinjauan sekarang, Setiap operasi poling menghitung rata-rata dari tinjauan sekarang]
+&#10230;[Max pooling, Average pooling, Setiap operasi pooling mewakili nilai maksimal dari tampilan terbaru, setiap operasi pooling meratakan nilai-nilai dari tampilan terbaru]
 
 <br>
 
 
 **21. [Preserves detected features, Most commonly used, Downsamples feature map, Used in LeNet]**
 
-&#10230;[Mempertahankan fitur yang terdeteksi, Yang biasa dipakai, Downsample feature map, Digunakan di LeNet]
+&#10230;[Mempertahankan fitur yang terdeteksi, yang paling sering digunakan, Downsamples feature map, dipakai di LeNet]
 
 <br>
 
 
 **22. Fully Connected (FC) ― The fully connected layer (FC) operates on a flattened input where each input is connected to all neurons. If present, FC layers are usually found towards the end of CNN architectures and can be used to optimize objectives such as class scores.**
 
-&#10230;Fully Connected (FC) - Fully connected layer (FC) menangani sebuah masukan dijadikan 1D dimana setiap elemen masukan terkoneksi keseluruh neuron. Layer FC biasanya ditemukan pada akhir dari arsitektur CNN dan dapat digunakan untuk mengoptimisasi objektif seperti skor kelas (pada kasus klasifikasi).
+&#10230;Fully Connected (FC) - Fully connected layer (FC) menangani sebuah masukan dijadikan 1D ddi mana setiap masukan terhubung ke seluruh neuron. Bila ada, lapisan-lapisan FC biasanya ditemukan pada akhir arsitektur CNN dan dapat digunakan untuk mengoptimalkan hasil seperti skor-skor kelas (pada kasus klasifikasi).
 
 <br>
 
 
 **23. Filter hyperparameters**
 
-&#10230;Hyperparameters filter
+&#10230;Hiperparameter filter
 
 <br>
 
 
 **24. The convolution layer contains filters for which it is important to know the meaning behind its hyperparameters.**
 
-&#10230;Layer convolutional memuat filter yang mana adalah penting untuk mengerti tentang maksud dari hyperparameter filter tersebut.
-
+&#10230;Layer konvolusi mengandung penyaring yang penting untuk dimengerti tentang maksud dari penyaring hiperparameter tersebut.
 <br>
 
 
@@ -186,14 +185,14 @@
 
 **27. Remark: the application of K filters of size F×F results in an output feature map of size O×O×K.**
 
-&#10230;Perlu diperhatikan: aplikasi dari K filter dengan ukuran FxF menhasilkan sebuah keluaran feature map dengan ukuran O×O×K.
+&#10230;Catatan: pengaplikasian dari penyaring F dengan ukuran FxF menghasilkan sebuah keluaran fitur peta dengan ukuran O×O×K.
 
 <br>
 
 
 **28. Stride ― For a convolutional or a pooling operation, the stride S denotes the number of pixels by which the window moves after each operation.**
 
-&#10230;Stride - Untuk sebuah konvolution atau sebauh operasi pooling, stide S melambangkan jumlah pixel yang dilewati window setelah setiap operasi.
+&#10230;Stride - Untuk sebuah konvolusi atau sebauh operasi pooling, stide S melambangkan jumlah pixel yang dilewati window setelah setiap operasi.
 
 <br>
 
@@ -221,14 +220,14 @@
 
 **32. Tuning hyperparameters**
 
-&#10230;Menyetel hyperparameters
+&#10230;Menyetel hiperparameter
 
 <br>
 
 
 **33. Parameter compatibility in convolution layer ― By noting I the length of the input volume size, F the length of the filter, P the amount of zero padding, S the stride, then the output size O of the feature map along that dimension is given by:**
 
-&#10230;Kompabilitas hyperparameter pada layer konvolusion - Dengan menuliskan I sebagai panjang dari ukuran volume masukan, F sebagai panjang dari filter, P sebagai jumlah zero padding, S sebagai stride, maka ukuran keluaran O dari feature map pada dimensi tersebut dituliskan sebagai:
+&#10230;Kompabilitas parameter pada lapisan konvolusi - Dengan menuliskan I sebagai panjang dari ukuran volume masukan, F sebagai panjang dari filter, P sebagai jumlah dari zero padding, S sebagai stride, maka ukuran keluaran 0 dari feature map pada dimensi tersebut ditandai dengan:
 
 <br>
 
@@ -242,7 +241,7 @@
 
 **35. Remark: often times, Pstart=Pend≜P, in which case we can replace Pstart+Pend by 2P in the formula above.**
 
-&#10230;Perlu diperhatikan: sering, Pstart=Pend≜P, yang mana pada kasus tersebut kita dapat mengganti Pstart+Pend dengan 2P pada formula diatas.
+&#10230;Catatan: sering, Pstart=Pend≜P, pada kasus tersebut kita dapat mengganti Pstart+Pend dengan 2P pada formula di atas.
 
 <br>
 
@@ -263,35 +262,35 @@
 
 **38. [One bias parameter per filter, In most cases, S<F, A common choice for K is 2C]**
 
-&#10230;[Satu parameter bias untuk setiap filter, Pada banyak kasus, S<F, Sebuah pilihan yang umum untuk K berinali 2C]
+&#10230;[Satu parameter bias per filter, Pada banyak kasus, S>F, sebuah pilihan umum untuk K adalah 2C]
 
 <br>
 
 
 **39. [Pooling operation done channel-wise, In most cases, S=F]**
 
-&#10230;[Operasi pooling dan dilakukan channel-wise, Pada banyak kasus, S=F]
+&#10230;[Operasi pooling yang dilakukan dengan channel-wise, Pada banyak kasus, S=F]
 
 <br>
 
 
 **40. [Input is flattened, One bias parameter per neuron, The number of FC neurons is free of structural constraints]**
 
-&#10230;[Input diratakan(menjadi 1D), Satu parameter bias untuk setiap neuron, Jumlah dari neuron FC adalah bebas dari batasan struktural.]
+&#10230;[Masukan diratakan, satu parameter bias untuk setiap neuron, Jumlah dari neuron FC adalah terbebas dari batasan struktural]
 
 <br>
 
 
 **41. Receptive field ― The receptive field at layer k is the area denoted Rk×Rk of the input that each pixel of the k-th activation map can 'see'. By calling Fj the filter size of layer j and Si the stride value of layer i and with the convention S0=1, the receptive field at layer k can be computed with the formula:**
 
-&#10230;Receptive field - Receptive field pada layer k adalah area yang dinotasikan RkxRk dari input yang setiap pixel dari k-th activation map dapat 'melihat'. Dengan menulasikan Fj sebagai ukuran filter dari layer j dan Si sebagai nilai stride pada layer i dan dengan konvensi S0=1, receptive field pada layer K dapat dihitung dengan formula berikut:
+&#10230;Receptive field - Receptive field pada layer k adalah area yang dinotasikan RkxRk dari masukan yang setiap pixel dari k-th activation map dapat "melihat". Dengan menyebut Fj (sebagai) ukuran penyaring dari lapisan j dan Si (sebagai) nilai stride dari lapisan i dan dengan konvensi 50=1, receptive field pada lapisan k dapat dihitung dengan formula:
 
 <br>
 
 
 **42. In the example below, we have F1=F2=3 and S1=S2=1, which gives R2=1+2⋅1+2⋅1=5.**
 
-&#10230;Pada contoh dibawah ini, kita memiliki F1=f2=3 dan S1=S2=1, yang menghasilkan R2=1+2⋅1+2⋅1=5.
+&#10230;Pada contoh dibawah ini, kita memiliki F1=F2=3 dan S1=S2=1, yang menghasilkan R2=1+2⋅1+2⋅1=5.
 
 <br>
 
@@ -305,7 +304,7 @@
 
 **44. Rectified Linear Unit ― The rectified linear unit layer (ReLU) is an activation function g that is used on all elements of the volume. It aims at introducing non-linearities to the network. Its variants are summarized in the table below:**
 
-&#10230;Rectified Linear Unit - Layer rectified linear unit (ReLU) adalah sebuah fungsi aktifasi g yang digunakan pada seluruh elemen. Penggunaan ReLU adalah untuk memasukan non-linearitas ke network. Variasi-variasi dari ReLU dirangkum pada tebel dibawah ini:
+&#10230;Rectified Linear Unit - Layer rectified linear unit (ReLU) adalah sebuat fungsi aktivasi g yang digunakan pada seluruh elemen volume. Unit ini bertujuan untuk menempatkan non-linearitas pada jaringan. Variasi-variasi ReLU ini dirangkum pada tabel di bawah ini:
 
 <br>
 
@@ -319,21 +318,21 @@
 
 **46. [Non-linearity complexities biologically interpretable, Addresses dying ReLU issue for negative values, Differentiable everywhere]**
 
-&#10230;[Kompleksitas non-linearitas yang dapat diinterpretasikan secara biologi, Menangani permasalahan dying ReLU yang terjadi untuk nilai negatif, Dapat diturunkan]
+&#10230;[Kompleksitas non-linearitas yang dapat ditafsirkan secara biologi, Menangani permasalahan dying ReLU yang bernilai negatif, Yang dapat dibedakan di mana pun]
 
 <br>
 
 
 **47. Softmax ― The softmax step can be seen as a generalized logistic function that takes as input a vector of scores x∈Rn and outputs a vector of output probability p∈Rn through a softmax function at the end of the architecture. It is defined as follows:**
 
-&#10230;Softmax - Langkah softmax dapat dilihat sebagai fungsi logistik yang digeneralisasi yang mengambil masukan sebuah vektor x∈Rn dan mengeluarkan sebuah probabilitas vektor p∈Rn melalui sebuah fungsi softmax pada akhir arsitektur network. Softmax didefinisikan sebagai berikut:
+&#10230;Softmax - Langkah softmax dapat dilihat sebagai sebuah fungsi logistik umum yang berperan sebagai masukan dari nilai skor vektor x∈Rn dan mengualarkan probabilitas produk vektor p∈Rn melalui sebuah fungsi softmax pada akhir dari jaringan arsitektur. Softmax didefinisikan sebagai berikut:
 
 <br>
 
 
 **48. where**
 
-&#10230;Dimana
+&#10230;Di mana
 
 <br>
 
@@ -347,7 +346,7 @@
 
 **50. Types of models ― There are 3 main types of object recognition algorithms, for which the nature of what is predicted is different. They are described in the table below:**
 
-&#10230;Tipe-tipe model - Ada tiga tipe utama dari algoritma rekognisi objek, yang mana berbeda pada hal yang diprediksi. Tipe-tipe tersebut dijelaskan pada tabel dibawah ini:
+&#10230;Tipe-tipe model - Ada tiga tipe utama dari algoritma rekognisi objek, yang mana hakikat yang diprediksi tersebut berbeda. Tipe-tipe tersebut dijelaskan pada tabel di bawah ini:
 
 <br>
 
@@ -683,7 +682,7 @@
 
 **98. Original authors**
 
-&#10230;Penulis orisinil
+&#10230;Penulis asli
 
 <br>
 

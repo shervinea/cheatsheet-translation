@@ -67,7 +67,7 @@
 
 **12. Loss function ― A loss function is a function L:(z,y)∈R×Y⟼L(z,y)∈R that takes as inputs the predicted value z corresponding to the real data value y and outputs how different they are. The common loss functions are summed up in the table below:**
 
-دالة الخسارة (Loss function) - دالة الخسارة هي الدالة L:(z,y)∈R×Y⟼L(z,y)∈R التي تأخذ كمدخلات القيمة المتوقعة z والقيمة الحقيقية y وتعطينا الفرق بينهما. الجدول التالي يحتوي على بعض دوال الخسارة الشائعة:
+دالة الخسارة (Loss function) - دالة الخسارة هي الدالة L:(z,y)∈R×Y⟼L(z,y)∈R التي تأخذ كمدخلات القيمة المتوقعة z والقيمة الحقيقية y وتعطينا الاختلاف بينهما. الجدول التالي يحتوي على بعض دوال الخسارة الشائعة:
 
 <br>
 
@@ -97,7 +97,7 @@
 
 **17. Remark: Stochastic gradient descent (SGD) is updating the parameter based on each training example, and batch gradient descent is on a batch of training examples.**
 
-ملاحظة: في النزول الاشتقاقي العشوائي (Stochastic gradient descent (SGD)) يتم تحديث المُدخلات (parameters) بناءاً على كل عينة تدريب على حدة، بينما في النزول الاشتقاقي الحُزَمي (batch gradient descent) يتم تحديثها باستخدام حُزَم من عينات التدريب.
+ملاحظة: في النزول الاشتقاقي العشوائي (Stochastic gradient descent (SGD)) يتم تحديث المُعاملات (parameters) بناءاً على كل عينة تدريب على حدة، بينما في النزول الاشتقاقي الحُزَمي (batch gradient descent) يتم تحديثها باستخدام حُزَم من عينات التدريب.
 
 <br>
 
@@ -289,7 +289,7 @@
 
 **49. In practice, the kernel K defined by K(x,z)=exp(−||x−z||22σ2) is called the Gaussian kernel and is commonly used.**
 
-في التطبيق، يمكن أن تُعَرَّف الدالة K عن طريق المعادلة K(x,z)=exp(−||x−z||22σ2)، ويطلق عليها النواة الجاوسية (Gaussian kernel)، وهي تستخدم بكثرة.
+عملياً، يمكن أن تُعَرَّف الدالة K عن طريق المعادلة K(x,z)=exp(−||x−z||22σ2)، ويطلق عليها النواة الجاوسية (Gaussian kernel)، وهي تستخدم بكثرة.
 
 <br>
 
@@ -493,7 +493,7 @@
 
 **83. Shattering ― Given a set S={x(1),...,x(d)}, and a set of classifiers H, we say that H shatters S if for any set of labels {y(1),...,y(d)}, we have:**
 
-مجموعة تكسيرية (Shattering Set) - إذا كان لدينا المجموعة S={x(1),...,x(d)}، ومجموعة مُصنٍّفات H، نقول أن H shatters S إذا كان لكل مجموعة علامات (labels) {y(1),...,y(d)} لدينا:
+مجموعة تكسيرية (Shattering Set) - إذا كان لدينا المجموعة S={x(1),...,x(d)}، ومجموعة مُصنٍّفات H، نقول أن H تكسر S (H shatters S) إذا كان لكل مجموعة علامات (labels) {y(1),...,y(d)} لدينا:
 
 <br>
 
@@ -505,7 +505,7 @@
 
 **85. VC dimension ― The Vapnik-Chervonenkis (VC) dimension of a given infinite hypothesis class H, noted VC(H) is the size of the largest set that is shattered by H.**
 
-بُعْد فابنيك-تشرفونيكس (Vapnik-Chervonenkis - VC) لفئة فرضية غير محدودة (infinite hypothesis class) H، ويرمز له بـ VC(H)، هو حجم أكبر مجموعة (set) التي shattered by H.
+بُعْد فابنيك-تشرفونيكس (Vapnik-Chervonenkis - VC) لفئة فرضية غير محدودة (infinite hypothesis class) H، ويرمز له بـ VC(H)، هو حجم أكبر مجموعة (set) التي تم تكسيرها بواسطة H (shattered by H).
 
 <br>
 

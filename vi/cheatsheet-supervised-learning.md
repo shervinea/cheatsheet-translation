@@ -12,7 +12,7 @@
 
 **3. Given a set of data points {x(1),...,x(m)} associated to a set of outcomes {y(1),...,y(m)}, we want to build a classifier that learns how to predict y from x.**
 
-&#10230; Cho một tập hợp các điểm dữ liệu {x(1),...,x(m)} tương ứng với đó là tập các kết quả {y(1),...,y(m)}, chúng ta muốn xây dựng một bộ phân loại học được các dự đoán y từ x.
+&#10230; Cho một tập hợp các điểm dữ liệu {x(1),...,x(m)} tương ứng với đó là tập các đầu ra {y(1),...,y(m)}, chúng ta muốn xây dựng một bộ phân loại học được cách dự đoán y từ x.
 
 <br>
 
@@ -42,13 +42,13 @@
 
 **8. [Discriminative model, Generative model, Goal, What's learned, Illustration, Examples]**
 
-&#10230; [Mô hình phân biệt, Mô hình sáng tạo, Mục tiêu, Những gì học được, Hình minh hoạ, Các ví dụ]
+&#10230; [Mô hình phân biệt, Mô hình sinh, Mục tiêu, Những gì học được, Hình minh hoạ, Các ví dụ]
 
 <br>
 
 **9. [Directly estimate P(y|x), Estimate P(x|y) to then deduce P(y|x), Decision boundary,  	Probability distributions of the data, Regressions, SVMs, GDA, Naive Bayes]**
 
-&#10230; []
+&#10230; [Ước lượng trực tiếp P(y|x), Ước lượng P(x|y) để tiếp tục suy luận P(y|x), Biên quyết địnhđịnh, Phân bố xác suất của dữ liệu, Hồi quy, SVMs, GDA, Naive Bayes]
 
 <br>
 
@@ -60,7 +60,7 @@
 
 **11. Hypothesis ― The hypothesis is noted hθ and is the model that we choose. For a given input data x(i) the model prediction output is hθ(x(i)).**
 
-&#10230; Hypothesis - Hypothesis được kí hiệu là h0, là một mô hình mà chúng ta chọn. Với dữ liệu đầu vào cho trước x(i), mô hình dự đoaans đầu ra là h0(x(i)).
+&#10230; Hypothesis - Hypothesis được kí hiệu là h0, là một mô hình mà chúng ta chọn. Với dữ liệu đầu vào cho trước x(i), mô hình dự đoán đầu ra là h0(x(i)).
 
 <br>
 
@@ -72,7 +72,7 @@
 
 **13. [Least squared error, Logistic loss, Hinge loss, Cross-entropy]**
 
-&#10230;
+&#10230; [Least squared error, Mất mát Logistic, Mất mát Hinge, Cross-entropy]
 
 <br>
 
@@ -102,7 +102,7 @@
 
 **18. Likelihood ― The likelihood of a model L(θ) given parameters θ is used to find the optimal parameters θ through maximizing the likelihood. In practice, we use the log-likelihood ℓ(θ)=log(L(θ)) which is easier to optimize. We have:**
 
-&#10230;
+&#10230; Likelihood - Likelihood của một mô hình L(θ) với tham số θ được sử dụng để tìm tham số tối ưu θ thông qua việc cực đại hoá likelihood. Trong thực tế, chúng ta sử dụng log-likelihood ℓ(θ)=log(L(θ)) đễ dễ dàng hơn trong việc tôi ưu hoá. Ta có:
 
 <br>
 
@@ -138,7 +138,7 @@
 
 **24. Normal equations ― By noting X the matrix design, the value of θ that minimizes the cost function is a closed-form solution such that:**
 
-&#10230; Phương trình normal - Bằng việc kí hiệu X là ma trận thiết kế, giá trị của θ mà cực tiểu hoá cost function là một phương pháp dạng đóng như là:
+&#10230; Phương trình chuẩn - Bằng việc kí hiệu X là ma trận thiết kế, giá trị của θ mà cực tiểu hoá cost function là một phương pháp dạng đóng như là:
 
 <br>
 
@@ -198,13 +198,13 @@
 
 **34. Exponential family ― A class of distributions is said to be in the exponential family if it can be written in terms of a natural parameter, also called the canonical parameter or link function, η, a sufficient statistic T(y) and a log-partition function a(η) as follows:**
 
-&#10230;
+&#10230; Họ số mũ - Một lớp của phân phối được cho rằng thuộc về họ số mũ nếu nó có thể được viết dưới dạng một thuật ngữ của tham số tự nhiên, cũng được gọi là tham số kinh điển (canonical parameter) hoặc hàm kết nối, η, một số liệu thống kê đầy đủ T(y) và hàm phân vùng log (log-partition function) a(η) sẽ có dạng như sau:
 
 <br>
 
 **35. Remark: we will often have T(y)=y. Also, exp(−a(η)) can be seen as a normalization parameter that will make sure that the probabilities sum to one.**
 
-&#10230;
+&#10230; Chú ý: chúng ta thường có T(y)=y. Đồng thời, exp(−a(η)) có thể được xem như là tham số chuẩn hoá sẽ đảm bảo rằng tổng các xác suất là một.
 
 <br>
 
@@ -222,13 +222,13 @@
 
 **38. Assumptions of GLMs ― Generalized Linear Models (GLM) aim at predicting a random variable y as a function fo x∈Rn+1 and rely on the following 3 assumptions:**
 
-&#10230;
+&#10230; Giả thuyết GLMs - Mô hình tuyến tính tổng quát (GLM) với mục đích là dự đoán một biến ngẫu nhiên y như là hàm cho biến x∈Rn+1 và dựa trên 3 giả thuyết sau:
 
 <br>
 
 **39. Remark: ordinary least squares and logistic regression are special cases of generalized linear models.**
 
-&#10230;
+&#10230; Chú ý: Bình phương nhỏ nhất thông thường và logistirc regression đều là các trường hợp đặc biệt của các mô hình tuyến tính tổng quát.
 
 <br>
 
@@ -246,7 +246,7 @@
 
 **42: Optimal margin classifier ― The optimal margin classifier h is such that:**
 
-&#10230;
+&#10230; Optimal margin classifier - Optimal margin classifier h là như sau:
 
 <br>
 
@@ -270,73 +270,73 @@
 
 **46. Remark: the line is defined as wTx−b=0.**
 
-&#10230;
+&#10230; Chú ý: đường thẳng có phương trình là wTx−b=0.
 
 <br>
 
 **47. Hinge loss ― The hinge loss is used in the setting of SVMs and is defined as follows:**
 
-&#10230;
+&#10230; Mất mát Hinge - Mất mát Hinge được sử dụng trong thiết lập của SVMs và nó được định nghĩa như sau:
 
 <br>
 
 **48. Kernel ― Given a feature mapping ϕ, we define the kernel K to be defined as:**
 
-&#10230;
+&#10230; Kernel (nhân) - Cho trước feature mapping ϕ, chúng ta định nghĩa kernel K như sau:
 
 <br>
 
 **49. In practice, the kernel K defined by K(x,z)=exp(−||x−z||22σ2) is called the Gaussian kernel and is commonly used.**
 
-&#10230;
+&#10230; Trong thực tế, kernel K được định nghĩa bởi K(x,z)=exp(−||x−z||22σ2) được gọi là Gaussian kernal và thường được sử dụng.
 
 <br>
 
 **50. [Non-linear separability, Use of a kernel mapping, Decision boundary in the original space]**
 
-&#10230;
+&#10230; [Phân tách phi tuyến, Việc sử dụng một kernel mapping, Biến quyết định trong không gian gốc]
 
 <br>
 
 **51. Remark: we say that we use the "kernel trick" to compute the cost function using the kernel because we actually don't need to know the explicit mapping ϕ, which is often very complicated. Instead, only the values K(x,z) are needed.**
 
-&#10230;
+&#10230; Chú ý: chúng ta nói rằng chúng ta sử dụng "kernel trick" để tính toán cost function sử dụng kernel bởi vì chúng ta thực sự không cần biết đến mapping tường minh ϕ, nó thường khá phức tạp. Thay vào đó, chỉ cần biết giá trị K(x,z).
 
 <br>
 
 **52. Lagrangian ― We define the Lagrangian L(w,b) as follows:**
 
-&#10230;
+&#10230; Lagrangian - Chúng ta định nghĩa Lagrangian L(w,b) như sau:
 
 <br>
 
 **53. Remark: the coefficients βi are called the Lagrange multipliers.**
 
-&#10230;
+&#10230; Chú ý: hệ số βi được gọi là bội số Lagrange.
 
 <br>
 
 **54. Generative Learning**
 
-&#10230;
+&#10230; Generative Learning
 
 <br>
 
 **55. A generative model first tries to learn how the data is generated by estimating P(x|y), which we can then use to estimate P(y|x) by using Bayes' rule.**
 
-&#10230;
+&#10230; Một generative model đầu tiên cố gắng học cách dữ liệu được sinh ra thông qua việc ước lượng P(x|y), chúng ta có thể sau đó sử dụng P(x|y) để ước lượng P(y|x) bằng cách sử dụng luật Bayes.
 
 <br>
 
 **56. Gaussian Discriminant Analysis**
 
-&#10230;
+&#10230; Gaussian Discriminant Analysis
 
 <br>
 
 **57. Setting ― The Gaussian Discriminant Analysis assumes that y and x|y=0 and x|y=1 are such that:**
 
-&#10230;
+&#10230; Thiết lập - Gaussian Discriminant Analysis giả sử rằng y và x|y=0 và x|y=1 là như sau:
 
 <br>
 
@@ -348,7 +348,7 @@
 
 **59. Naive Bayes**
 
-&#10230;
+&#10230; Naive Bayes
 
 <br>
 
@@ -372,7 +372,7 @@
 
 **63. Tree-based and ensemble methods**
 
-&#10230;
+&#10230; Phương thức Tree-based và toàn thể
 
 <br>
 
@@ -450,7 +450,7 @@
 
 **76. Union bound ― Let A1,...,Ak be k events. We have:**
 
-&#10230;
+&#10230; Union bound - Cho k sự kiện là A1,...,Ak. Ta có:
 
 <br>
 
@@ -540,7 +540,7 @@
 
 **91. [Support vector machines, Optimal margin classifier, Hinge loss, Kernel]**
 
-&#10230;
+&#10230; [Máy vector hỗ trợ, Optimal margin classifier, Mất mát Hinge, Kernel]
 
 <br>
 
@@ -558,10 +558,10 @@
 
 **94. [Other methods, k-NN]**
 
-&#10230;
+&#10230; [Các phương thức khác, k-NN]
 
 <br>
 
 **95. [Learning theory, Hoeffding inequality, PAC, VC dimension]**
 
-&#10230;
+&#10230; [Lí thuyết học, Bất đẳng thức Hoeffding, PAC, VC dimension]

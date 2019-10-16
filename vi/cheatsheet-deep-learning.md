@@ -306,7 +306,7 @@
 
 **52. [Convolutional Neural Networks, Convolutional layer, Batch normalization]**
 
-&#10230; [Mạng neural tích chập, Tầng chập, Chuẩn hoá batch]
+&#10230; [Mạng neural tích chập, Tầng tích chập, Chuẩn hoá batch]
 
 <br>
 

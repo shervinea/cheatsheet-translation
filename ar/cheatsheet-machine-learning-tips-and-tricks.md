@@ -179,7 +179,7 @@
 
 **31. [Generally k=5 or 10, Case p=1 is called leave-one-out]**
 
-[بشكل غالب k=5 أو 10، الحالة p=1 يطلق عليها الإبقاء على واحد (leave-one-out)]
+[بشكل عام k=5 أو 10، الحالة p=1 يطلق عليها الإبقاء على واحد (leave-one-out)]
 
 <br>
 

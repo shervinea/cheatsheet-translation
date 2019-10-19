@@ -60,7 +60,7 @@
 
 **11. Learning rate ― The learning rate, often noted α or sometimes η, indicates at which pace the weights get updated. This can be fixed or adaptively changed. The current most popular method is called Adam, which is a method that adapts the learning rate.**
 
-&#10230;**11. Learning rate - Learning rate (Tingkat pembelajaran), sering dinotasikan sebagai α atau η, merupakan fase pembaruan pembobotan. Tingkat pembelajaran dapat diperbaiki atau diubah secara adaptif. Metode yang paling populer saat ini disebut Adam, yang merupakan metode yang dapat menyesuaikan tingkat pembelajaran.**
+&#10230;**11. Learning rate - Learning rate, sering dinotasikan sebagai α atau η, mendefinisikan seberapa cepat nilai weight diperbaharui. Learning rate bisa diset dengan nilai fix atau dirubah secara adaptif. Metode yang paling terkenal saat ini adalah Adam. Sebuah method yang merubah learning rate secara adaptif.**
 
 <br>
 
@@ -78,19 +78,19 @@
 
 **14. Updating weights ― In a neural network, weights are updated as follows:**
 
-&#10230;**14. Memperbaharui bobot w - Dalam neural network, bobot w diperbarui nilainya dengan cara berikut:**
+&#10230;**14. Memperbaharui nilai weights - Dalam neural network, nilai weights diperbarui nilainya dengan cara berikut:**
 
 <br>
 
 **15. Step 1: Take a batch of training data.**
 
-&#10230;**15. Langkah 1: Mengambil jumlah batch dari data latih.**
+&#10230;**15. Langkah 1: Mengambil batch (sampel data) dari keseluruhan training data.**
 
 <br>
 
 **16. Step 2: Perform forward propagation to obtain the corresponding loss.**
 
-&#10230;**16. Langkah 2: Melakukan forward propagation untuk mendapatkan nilai loss yang sesuai.**
+&#10230;**16. Langkah 2: Melakukan forward propagation untuk mendapatkan nilai loss berdasarkan nilai masukan (input).**
 
 <br>
 
@@ -102,13 +102,13 @@
 
 **18. Step 4: Use the gradients to update the weights of the network.**
 
-&#10230;**18. Langkah 4: Menggunakan gradient untuk untuk memperbarui nilai dari network.**
+&#10230;**18. Langkah 4: Menggunakan gradient untuk untuk memperbarui nilai weights dari network.**
 
 <br>
 
 **19. Dropout ― Dropout is a technique meant at preventing overfitting the training data by dropping out units in a neural network. In practice, neurons are either dropped with probability p or kept with probability 1−p**
 
-&#10230;**19. Dropout - Dropout adalah teknik untuk mencegah overfitting data latih dengan menghilangkan satu atau lebih unit layer dalam neural network. Pada praktiknya, neurons melakukan drop dengan probabilitas p atau tidak melakukannya dengan probabilitas 1-p** 
+&#10230;**19. Dropout - Dropout adalah teknik untuk mencegah overfit terhadap data training dengan menghilangkan satu atau lebih unit layer dalam neural network. Pada praktiknya, neurons di-drop dengan probabilitas p atau dipertahankan dengan probabilitas 1-p** 
 
 <br>
 

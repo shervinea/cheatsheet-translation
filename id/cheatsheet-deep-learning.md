@@ -120,19 +120,19 @@
 
 **21. Convolutional layer requirement ― By noting W the input volume size, F the size of the convolutional layer neurons, P the amount of zero padding, then the number of neurons N that fit in a given volume is such that:**
 
-&#10230; **21. Kebutuhan layer convolutional - W adalah ukuran volume input, F adalah ukuran dari layer neuron convolutional, P adalah jumlah zero padding, maka jumlah neurons N yang dapat dibentuk dari volume yang diberikan adalah:**
+&#10230; **21. Kebutuhan layer convolutional - W adalah ukuran volume input, F adalah ukuran dari layer neuron convolutional, P adalah jumlah zero padding, maka jumlah neurons N yang sesuai dengan ukuran dimensi masukan adalah:**
 
 <br>
 
 **22. Batch normalization ― It is a step of hyperparameter γ,β that normalizes the batch {xi}. By noting μB,σ2B the mean and variance of that we want to correct to the batch, it is done as follows:**
 
-&#10230; **22. Batch normalization - Adalah salah satu step hyperparameter γ,β yang menormalisasikan batch {xi}. Dengan notasi μB,σ2B adalah rata-rata dan variansi nilai yang digunakan untuk perbaikan dalam batch, dapat diselesaikan sebagai berikut:** 
+&#10230; **22. Batch normalization - Adalah salah satu step hyperparameter γ,β yang menormalisasikan batch {xi}. Dengan mendefiniskan μB,σ2B sebagai nilai rata-rata dan variansi dari batch yang ingin kita normalisasi, hal tersebut dapat dilakukan dengan cara:** 
 
 <br>
 
 **23. It is usually done after a fully connected/convolutional layer and before a non-linearity layer and aims at allowing higher learning rates and reducing the strong dependence on initialization.**
 
-&#10230; **23. Biasanya dilakukan setelah layer sepenuhnya terhubung / konvolusional dan sebelum layer non-linearitas, yang bertujuan untuk peningkatan tingkat pembelajaran yang lebih tinggi dan mengurangi ketergantungan yang kuat pada inisialisasi.**
+&#10230; **23. Biasanya diaplikasikan setelah layer fully connected dan sebelum layer non-linear, yang bertujuan agar memungkinkannya penggunaan nilai learning rates yang lebih tinggi dan mengurangi ketergantungan pada nilai inisialisasi parameter neural network.**
  
 
 <br>

@@ -264,7 +264,7 @@
 
 **45. [Classification metrics, confusion matrix, accuracy, precision, recall, F1 score, ROC]**
 
-&#10230; [Độ đo phân loại, Ma trận confusion, chính xác, dự đoán, recall, Điểm F1, ROC]
+&#10230; [Độ đo phân loại, Ma trận nhầm lẫn, chính xác, dự đoán, recall, Điểm F1, ROC]
 
 <br>
 
@@ -282,4 +282,4 @@
 
 **48. [Diagnostics, Bias/variance tradeoff, error/ablative analysis]**
 
-&#10230; [Dự đoán, Thay thế Bias/phương sai, Phân tích lỗi/ablative]
+&#10230; [Dự đoán, Đánh đổi Bias/phương sai, Phân tích lỗi/ablative]

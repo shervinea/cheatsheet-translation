@@ -28,42 +28,43 @@
 
 **5. Axioms of probability For each event E, we denote P(E) as the probability of event E occuring.**
 <div dir="rtl">
-مسلَّمات الاحتمالات. من أجل كل حدث E، نرمز لإحتمال وقوعه بـ P(E).
+مسلَّمات الاحتمالات. لكل حدث E، نرمز لإحتمال وقوعه بـ P(E).
 </div>
 <br>
 
 **6. Axiom 1 ― Every probability is between 0 and 1 included, i.e:**
 <div dir="rtl">
-المسلَّمة 1 ― كل احتمال يأخد قيماً بين الـ 0 والـ 1 مضمَّنة، على سبيل المثال:
+المسلَّمة 1 ― كل احتمال يأخد قيماً بين الـ 0 والـ 1 مضمَّنة:
 </div>
 <br>
 
 **7. Axiom 2 ― The probability that at least one of the elementary events in the entire sample space will occur is 1, i.e:**
 <div dir="rtl">
-المسلَّمة 2 ― احتمال وقوع حدث ابتدائي واحد على الأقل من الأحداث الابتدائية في فضاء العينة يساوي الـ 1، على سبيل المثال:
+المسلَّمة 2 ― احتمال وقوع حدث ابتدائي واحد على الأقل من الأحداث الابتدائية في فضاء العينة يساوي الـ 1:
 </div>
 <br>
 
 **8. Axiom 3 ― For any sequence of mutually exclusive events E1,...,En, we have:**
 <div dir="rtl">
-المسلَّمة 3 ― من أجل أي سلسلة من الأحداث الغير متداخلة E1,...,En، لدينا:
+المسلَّمة 3 ― لأي سلسلة من الأحداث الغير متداخلة E1,...,En، لدينا:
 </div>
 <br>
 
 **9. Permutation ― A permutation is an arrangement of r objects from a pool of n objects, in a given order. The number of such arrangements is given by P(n,r), defined as:**
 <div dir="rtl">
-التباديل ― التبديل هو عبارة عن ترتيب معين لـ r غرض مختارة من مجموعة من n غرض. عدد هكذا تراتيب يرمز له بـ P(n, r)، المعرف كالتالي:</div>
-<br>
+التباديل ― التبديل هو عبارة عن عدد الاختيارات لـ r غرض من مجموعة مكونة من n غرض بترتيب محدد. عدد هكذا تراتيب يرمز له بـ P(n, r)، المعرف كالتالي:
+ </div>
+ <br>
 
 **10. Combination ― A combination is an arrangement of r objects from a pool of n objects, where the order does not matter. The number of such arrangements is given by C(n,r), defined as:**
 <div dir="rtl">
-التوافيق ― التوفيق هو اختيار لـ r غرض من مجموعة مكونة من n غرض بدون إعطاء الترتيب أية أهمية. عدد هكذا توافيق يرمز له بـ C(n, r)، المعرف كالتالي:
+التوافيق ― التوفيق هو عدد الاختيارات لـ r غرض من مجموعة مكونة من n غرض بدون إعطاء الترتيب أية أهمية. عدد هكذا توافيق يرمز له بـ C(n, r)، المعرف كالتالي:
 </div>
 <br>
 
 **11. Remark: we note that for 0⩽r⩽n, we have P(n,r)⩾C(n,r)**
 <div dir="rtl">
-ملاحظة: من أجل <span dir="ltr">0⩽r⩽n</span>، يكون لدينا P(n,r)⩾C(n,r)
+ملاحظة: لكل <span dir="ltr">0⩽r⩽n</span>، يكون لدينا P(n,r)⩾C(n,r) 
 </div>
 <br>
 
@@ -75,7 +76,7 @@
 
 **13. Bayes' rule ― For events A and B such that P(B)>0, we have:**
 <div dir="rtl">
-قاعدة بايز ― من أجل الأحداث A و B بحيث P(B)>0، يكون لدينا:
+قاعدة بايز ― إذا كانت لدينا الأحداث A و B بحيث P(B)>0، يكون لدينا:
 </div>
 <br>
 
@@ -87,13 +88,13 @@
 
 **15. Partition ― Let {Ai,i∈[[1,n]]} be such that for all i, Ai≠∅. We say that {Ai} is a partition if we have:**
 <div dir="rtl">
-القسم ― ليكن {Ai,i∈[[1,n]]} بحيث من أجل كل i، لدينا<span dir="ltr">Ai≠∅ </span>. نقول أن {Ai} قسم إذا كان لدينا: 
+القسم ― ليكن {Ai,i∈[[1,n]]} بحيث لكل i لدينا<span dir="ltr">Ai≠∅ </span>. نقول أن {Ai} قسم إذا كان لدينا: 
 </div>
 <br>
 
 **16. Remark: for any event B in the sample space, we have P(B)=n∑i=1P(B|Ai)P(Ai).**
 <div dir="rtl">
-ملاحظة: من أجل أي حدث B من فضاء العينة، لدينا P(B)=n∑i=1P(B|Ai)P(Ai).
+ملاحظة: لأي حدث B في فضاء العينة، لدينا P(B)=n∑i=1P(B|Ai)P(Ai).
 </div>
 <br>
 
@@ -123,13 +124,13 @@
 
 **21. Random variable ― A random variable, often noted X, is a function that maps every element in a sample space to a real line.**
 <div dir="rtl">
-المتحول العشوائي ― المتحول العشوائي، المرمز له عادة ب X، هو دالة تربط كل عنصر من فضاء العينة إلى خط الأعداد الحقيقية.
+المتحول العشوائي ― المتحول العشوائي، ويرمز له عادة بـ X، هو دالة تربط كل عنصر في فضاء العينة إلى خط الأعداد الحقيقية.
 </div>
 <br>
 
 **22. Cumulative distribution function (CDF) ― The cumulative distribution function F, which is monotonically non-decreasing and is such that limx→−∞F(x)=0 and limx→+∞F(x)=1, is defined as:**
 <div dir="rtl">
-دالة التوزيع التراكمي (CDF) ― تعرف دالة التوزيع التراكمي F، والتي تكون غير متناقصة بشكل دائم وتحقق limx→−∞F(x)=0 و limx→+∞F(x)=1، كالتالي:
+دالة التوزيع التراكمي (CDF) ― تعرف دالة التوزيع التراكمي F، والتي تكون غير متناقصة بشكل رتيب وتحقق limx→−∞F(x)=0 و limx→+∞F(x)=1، كالتالي: 
 </div>
 <br>
 
@@ -159,7 +160,7 @@
 
 **27. Expectation and Moments of the Distribution ― Here are the expressions of the expected value E[X], generalized expected value E[g(X)], kth moment E[Xk] and characteristic function ψ(ω) for the discrete and continuous cases:**
 <div dir="rtl">
-التوقع وعزوم التوزيع ― فيما يلي المصطلحات المستخدمة للتعبير عن القيمة المتوقعة E[X]، الصيغة العامة للقيمة المتوقعة E[g(X)]، العزم رقم K  <span dir="ltr">E[XK]</span>  ودالة السمة ψ(ω) من أجل الحالات المتقطعة والمستمرة:
+التوقع وعزوم التوزيع ― فيما يلي المصطلحات المستخدمة للتعبير عن القيمة المتوقعة E[X]، الصيغة العامة للقيمة المتوقعة E[g(X)]، العزم رقم K  <span dir="ltr">E[XK]</span>  ودالة السمة ψ(ω) للحالات المتقطعة والمستمرة:
 </div>
 <br>
 
@@ -182,43 +183,43 @@
 
 **31. Leibniz integral rule ― Let g be a function of x and potentially c, and a,b boundaries that may depend on c. We have:**
 <div dir="rtl">
-قاعدة لايبنتز للتكامل ― لتكن g دالة لـ x وربما لـ c، ولتكن a وb حدود قد تعتمد على c. يكون لدينا:
+ قاعدة لايبنتز (Leibniz) للتكامل ― لتكن g دالة لـ x وربما لـ c، ولتكن a وb حدود قد تعتمد على c. يكون لدينا: 
 </div>
 <br>
 
 **32. Probability Distributions**
 <div dir="rtl">
-التوزعات الاحتمالية
+التوزيعات الاحتمالية
 </div>
 <br>
 
 **33. Chebyshev's inequality ― Let X be a random variable with expected value μ. For k,σ>0, we have the following inequality:**
 <div dir="rtl">
-متراجحة تشيبشيف ― ليكن X متحولاً عشوائياً قيمته المتوقعة تساوي μ. من أجل k ،σ>0، لدينا المتراجحة التالية:
+متراجحة تشيبشيف (Chebyshev) ― ليكن X متحولاً عشوائياً قيمته المتوقعة تساوي μ. إذا كان لدينا k ،σ>0، سنحصل على المتراجحة التالية:
 </div>
 <br>
 
 **34. Main distributions ― Here are the main distributions to have in mind:**
 <div dir="rtl">
-التوزعات الأساسية ― فيما يلي التوزعات الأساسية لأخذها بالاعتبار:
+التوزيعات الأساسية ― فيما يلي التوزيعات الأساسية لأخذها بالاعتبار: 
 </div>
 <br>
 
 **35. [Type, Distribution]**
 <div dir="rtl">
-[الحالة، التوزع]
+[الحالة، التوزيع]
 </div>
 <br>
 
 **36. Jointly Distributed Random Variables**
 <div dir="rtl">
-المتحولات العشوائية الموزعة بشكل مشترك
+المتغيرات العشوائية الموزعة اشتراكياً
 </div>
 <br>
 
 **37. Marginal density and cumulative distribution ― From the joint density probability function fXY , we have**
 <div dir="rtl">
-الكثافة الهامشية والتوزع التراكمي ― من دالة الكثافة الاحتمالية المشتركة fXY، لدينا:
+الكثافة الهامشية والتوزيع التراكمي ― من دالة الكثافة الاحتمالية المشتركة fXY، لدينا: 
 </div>
 <br>
 
@@ -248,13 +249,13 @@
 
 **42. Correlation ― By noting σX,σY the standard deviations of X and Y, we define the correlation between the random variables X and Y, noted ρXY, as follows:**
 <div dir="rtl">
-الارتباط ― بأخذ σX، σY كانحراف معياري لـ X و Y، نعرف الارتباط بين المتحولات العشوائية X و Y، و المرمز بـ ρXY، كالتالي:
+الارتباط ― بأخذ σX، σY كانحراف معياري لـ X و Y، نعرف الارتباط بين المتحولات العشوائية X و Y، والمرمز بـ ρXY، كالتالي: 
 </div>
 <br>
 
 **43. Remark 1: we note that for any random variables X,Y, we have ρXY∈[−1,1].**
 <div dir="rtl">
-ملاحظة 1: من أجل أية متحولات عشوائية X، Y، لدينا ρXY∈[−1,1].
+ملاحظة 1: لأي متحولات عشوائية X، Y، لدينا ρXY∈[−1,1]. 
 </div>
 <br>
 
@@ -266,7 +267,7 @@
 
 **45. Parameter estimation**
 <div dir="rtl">
-تقدير المُدخَل
+تقدير المُدخَل (Parameter)
 </div>
 <br>
 
@@ -278,19 +279,19 @@
 
 **47. Random sample ― A random sample is a collection of n random variables X1,...,Xn that are independent and identically distributed with X.**
 <div dir="rtl">
-العينة العشوائية ― العينة العشوائية هي مجموعة من n متحول عشوائي X1,...,Xn والتي تكون مستقلة وموزعة بشكل متطابق مع X.
+العينة العشوائية ― العينة العشوائية هي مجموعة من n متحول عشوائي X1,...,Xn والتي تكون مستقلة وموزعة تطابقياً مع X.
 </div>
 <br>
 
 **48. Estimator ― An estimator is a function of the data that is used to infer the value of an unknown parameter in a statistical model.**
 <div dir="rtl">
-المُقَدِّر ― المُقَدِّر هو تابع للبيانات المستخدمة لاستنباط قيمة متحول غير معلوم ضمن نموذج إحصائي.
+المُقَدِّر ― المُقَدِّر هو دالة للبيانات المستخدمة ويستخدم لاستنباط قيمة مُدخل غير معلوم ضمن نموذج إحصائي.
 </div>
 <br>
 
 **49. Bias ― The bias of an estimator ^θ is defined as being the difference between the expected value of the distribution of ^θ and the true value, i.e.:**
 <div dir="rtl">
-الانحياز ― انحياز مُقَدِّر ^θ هو الفرق بين القيمة المتوقعة لتوزع ^θ والقيمة الحقيقية، كمثال:
+الانحياز ― انحياز مُقَدِّر ^θ هو الفرق بين القيمة المتوقعة لتوزيع ^θ والقيمة الحقيقية، كالتالي:
 </div>
 <br>
 
@@ -308,7 +309,7 @@
 
 **52. Sample mean ― The sample mean of a random sample is used to estimate the true mean μ of a distribution, is often noted ¯¯¯¯¯X and is defined as follows:**
 <div dir="rtl">
-متوسط العينة ― يستخدم متوسط عينة عشوائية لتقدير المتوسط الحقيقي μ لتوزع ما، عادةً ما يرمز له بـ ¯¯¯¯¯X ويعرف كالتالي:
+متوسط العينة ― يستخدم متوسط عينة عشوائية لتقدير المتوسط الحقيقي μ لتوزيع ما، عادةً ما يرمز له بـ ¯¯¯¯¯X ويعرف كالتالي: 
 </div>
 <br>
 
@@ -320,7 +321,7 @@
 
 **54. Central Limit Theorem ― Let us have a random sample X1,...,Xn following a given distribution with mean μ and variance σ2, then we have:**
 <div dir="rtl">
-مبرهنة النهاية المركزية ― ليكن لدينا عينة عشوائية X1,...,Xn والتي تتبع لتوزع معطى له متوسط μ وتباين σ2، فيكون:
+مبرهنة النهاية المركزية ― ليكن لدينا عينة عشوائية X1,...,Xn والتي تتبع لتوزيع معطى له متوسط μ وتباين σ2، فيكون:
 </div>
 <br>
 
@@ -332,7 +333,7 @@
 
 **56. Sample variance ― The sample variance of a random sample is used to estimate the true variance σ2 of a distribution, is often noted s2 or ^σ2 and is defined as follows:**
 <div dir="rtl">
-تباين العينة ― يستخدم تباين عينة عشوائية لتقدير التباين الحقيقي σ2 لتوزع ما، والذي يرمز له عادةً بـ s2 أو ^σ2 ويعرّف بالشكل التالي:
+تباين العينة ― يستخدم تباين عينة عشوائية لتقدير التباين الحقيقي σ2 لتوزيع ما، والذي يرمز له عادةً بـ s2 أو ^σ2 ويعرّف بالشكل التالي:
 </div>
 <br>
 
@@ -344,7 +345,7 @@
 
 **58. Chi-Squared relation with sample variance ― Let s2 be the sample variance of a random sample. We have:**
 <div dir="rtl">
-علاقة مربع كاي مع تباين العينة ― ليكن s2 تباين العينة لعينة عشوائية. لدينا:
+علاقة مربع كاي (Chi-Squared) مع تباين العينة ― ليكن s2 تباين العينة لعينة عشوائية. لدينا:
 </div>
 <br>
 
@@ -368,13 +369,13 @@
 
 **62. [Probability distributions, Chebyshev's inequality, Main distributions]**
 <div dir="rtl">
-[التوزعات الاحتمالية، متراجحة تشيبشيف، توزعات رئيسية]
+[التوزيعات الاحتمالية، متراجحة تشيبشيف، توزيعات رئيسية] 
 </div>
 <br>
 
 **63. [Jointly distributed random variables, Density, Covariance, Correlation]**
 <div dir="rtl">
-[المتحولات العشوائية الموزعة بشكل مشترك، الكثافة، التغاير، الارتباط]
+[المتحولات العشوائية الموزعة اشتراكياً، الكثافة، التغاير، الارتباط] 
 </div>
 <br>
 

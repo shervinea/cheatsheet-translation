@@ -284,14 +284,14 @@
 
 **41. Receptive field ― The receptive field at layer k is the area denoted Rk×Rk of the input that each pixel of the k-th activation map can 'see'. By calling Fj the filter size of layer j and Si the stride value of layer i and with the convention S0=1, the receptive field at layer k can be computed with the formula:**
 
-&#10230;
+&#10230; Trường thụ cảm (Receptive field) ― Trường thụ cảm tại tầng k là vùng được ký hiệu Rk×Rk của đầu vào mà những pixel của activation map thứ k có thể "nhìn thấy". Bằng cách gọi Fj là kích thước bộ lọc của tầng j và Si là giá trị độ trượt của tầng i và để thuận tiện, ta mặc định S0=1, trường thụ cảm của tầng k được tính toán bằng công thức:
 
 <br>
 
 
 **42. In the example below, we have F1=F2=3 and S1=S2=1, which gives R2=1+2⋅1+2⋅1=5.**
 
-&#10230;
+&#10230; Trong ví dụ bên dưới, ta có F1=F2=3 và S1=S2=1, nên cho ra được R2=1+2⋅1+2⋅1=5.
 
 <br>
 
@@ -529,188 +529,189 @@
 
 **76. [Face verification, Face recognition, Query, Reference, Database]**
 
-&#10230;
+&#10230; [Xác nhận khuôn mặt, Nhận diện khuôn mặt, Truy vấn, Tham vấn, Cơ sở dữ liệu]
 
 <br>
 
 
 **77. [Is this the correct person?, One-to-one lookup, Is this one of the K persons in the database?, One-to-many lookup]**
 
-&#10230;
+&#10230; [Có đúng người không?, Tra cứu một-một, Đây có phải là 1 trong K người trong cơ sở dữ liệu không?, Tra cứu một với tất cả]
 
 <br>
 
 
 **78. One Shot Learning ― One Shot Learning is a face verification algorithm that uses a limited training set to learn a similarity function that quantifies how different two given images are. The similarity function applied to two images is often noted d(image 1,image 2).**
 
-&#10230;
+&#10230; One Shot Learning ― One Shot Learning là một thuật toán xác minh khuôn mặt sử dụng một tập huấn luyện hạn chế để học một hàm similarity nhằm ước lượng sự khác nhau giữa hai tấm hình. Hàm này được áp dụng cho hai tấm ảnh thường được ký hiệu d(image 1,image 2).
 
 <br>
 
 
 **79. Siamese Network ― Siamese Networks aim at learning how to encode images to then quantify how different two images are. For a given input image x(i), the encoded output is often noted as f(x(i)).**
 
-&#10230;
+&#10230; Siamese Network ― Siamese Networks hướng tới việc học cách mã hóa tấm ảnh để rồi định lượng sự khác nhau giữa hai tấm ảnh. Với một tấm ảnh đầu vào x(i), đầu ra được mã hóa thường được ký hiệu là f(x(i)).
 
 <br>
 
 
 **80. Triplet loss ― The triplet loss ℓ is a loss function computed on the embedding representation of a triplet of images A (anchor), P (positive) and N (negative). The anchor and the positive example belong to a same class, while the negative example to another one. By calling α∈R+ the margin parameter, this loss is defined as follows:**
 
-&#10230;
+&#10230; Triplet loss ― Triplet loss ℓ là một hàm mất mát được tính toán dựa trên biểu diễn nhúng của bộ ba hình ảnh A (mỏ neo), P (dương tính) và N(âm tính). Ảnh mỏ neo và ảnh dương tính đều thuộc một lớp, trong khi đó ảnh âm tính thuộc về một lớp khác. Bằng các gọi α∈R+ là tham số margin, hàm mất mát này được định nghĩa như sau:
 
 <br>
 
 
 **81. Neural style transfer**
 
-&#10230;
+&#10230; Neural style transfer
 
 <br>
 
 
 **82. Motivation ― The goal of neural style transfer is to generate an image G based on a given content C and a given style S.**
 
-&#10230;
+&#10230; Ý tưởng ― Mục tiêu của neural style transfer là tạo ra một ảnh G dựa trên một nội dung C và một phong cách S. 
 
 <br>
 
 
 **83. [Content C, Style S, Generated image G]**
 
-&#10230;
+&#10230; [Nội dung C, Phong cách S, Ảnh tạo được G]
 
 <br>
 
 
 **84. Activation ― In a given layer l, the activation is noted a[l] and is of dimensions nH×nw×nc**
 
-&#10230;
+&#10230; Tầng kích hoạt ― Trong một tầng l cho trước, tầng kích hoạt được ký hiệu a[l] và có các chiều là nH×nw×nc
 
 <br>
 
 
 **85. Content cost function ― The content cost function Jcontent(C,G) is used to determine how the generated image G differs from the original content image C. It is defined as follows:**
 
-&#10230;
+&#10230; Hàm mất mát nội dung ― Hàm mất mát nội dung Jcontent(C,G) được sử dụng để xác định nội dung của ảnh được tạo G khác biệt với nội dung gốc trong ảnh C. Nó được định nghĩa như dưới đây:
 
 <br>
 
 
 **86. Style matrix ― The style matrix G[l] of a given layer l is a Gram matrix where each of its elements G[l]kk′ quantifies how correlated the channels k and k′ are. It is defined with respect to activations a[l] as follows:**
 
-&#10230;
+&#10230; Ma trận phong cách ― Ma trận phong cách G[l] của một tầng cho trước l  là một ma trận Gram mà mỗi thành phần G[l]kk′ của ma trận xác định sự tương quan giữa kênh k và kênh k'. Nó được định nghĩa theo tầng kích hoạt a[l] như sau:
 
 <br>
 
 
 **87. Remark: the style matrix for the style image and the generated image are noted G[l] (S) and G[l] (G) respectively.**
 
-&#10230;
+&#10230; Lưu ý: ma trận phong cách cho ảnh phong cách và ảnh được tạo được ký hiệu tương ứng là G[l] (S) và G[l] (G).
 
 <br>
 
 
 **88. Style cost function ― The style cost function Jstyle(S,G) is used to determine how the generated image G differs from the style S. It is defined as follows:**
 
-&#10230;
+&#10230; Hàm mất mát phong cách ― Hàm mất mát phong cách Jstyle(S,G) được sử dụng để xác định sự khác biệt về phong cách giữa ảnh được tạo G và ảnh phong cách S. Nó được định nghĩa như sau:
 
 <br>
 
 
 **89. Overall cost function ― The overall cost function is defined as being a combination of the content and style cost functions, weighted by parameters α,β, as follows:**
 
-&#10230;
+&#10230; Hàm mất mát tổng quát ― Hàm mất mát tổng quát được định nghĩa là sự kết hợp của hàm mất mát nội dung và hàm mất mát phong cách, độ quan trọng của chúng được xác định bởi hai tham số α,β, như dưới đây:
 
 <br>
 
 
 **90. Remark: a higher value of α will make the model care more about the content while a higher value of β will make it care more about the style.**
 
-&#10230;
+&#10230; Lưu ý: giá trị của α càng lớn dẫn tới việc mô hình sẽ quan tâm hơn cho nội dung, trong khi đó, giá trị của β càng lớn sẽ khiến nó quan tâm hơn đến phong cách.
 
 <br>
 
 
 **91. Architectures using computational tricks**
 
-&#10230;
+&#10230; Những kiến trúc sử dụng computational tricks
 
 <br>
 
 
 **92. Generative Adversarial Network ― Generative adversarial networks, also known as GANs, are composed of a generative and a discriminative model, where the generative model aims at generating the most truthful output that will be fed into the discriminative which aims at differentiating the generated and true image.**
 
-&#10230;
+
+&#10230; Generative Adversarial Network ― Generative adversarial networks, hay còn được gọi là GAN, là sự kết hợp giữa mô hình khởi tạo và mô hình phân biệt, khi mà mô hình khởi tạo cố gắng tạo ra hình ảnh đầu ra chân thực nhất, sau đó được đưa vô mô hình phân biệt, mà mục tiêu của nó là phân biệt giữa ảnh được tạo và ảnh thật.
 
 <br>
 
 
 **93. [Training, Noise, Real-world image, Generator, Discriminator, Real Fake]**
 
-&#10230;
+&#10230; [Huấn luyện, Nhiễu, Ảnh thật, Mô hình khởi tạo, Mô hình phân biệt, Thật Giả]
 
 <br>
 
 
 **94. Remark: use cases using variants of GANs include text to image, music generation and synthesis.**
 
-&#10230;
+&#10230; Lưu ý: có nhiều loại GAN khác nhau bao gồm từ văn bản thành ảnh, sinh nhạc và tổ hợp.
 
 <br>
 
 
 **95. ResNet ― The Residual Network architecture (also called ResNet) uses residual blocks with a high number of layers meant to decrease the training error. The residual block has the following characterizing equation:**
 
-&#10230;
+&#10230; ResNet ― Kiến trúc Residual Network (hay còn gọi là ResNet) sử dụng những khối residual (residual blocks) cùng với một lượng lớn các tầng để giảm lỗi huấn luyện. Những khối residual có những tính chất sau đây:
 
 <br>
 
 
 **96. Inception Network ― This architecture uses inception modules and aims at giving a try at different convolutions in order to increase its performance through features diversification. In particular, it uses the 1×1 convolution trick to limit the computational burden.**
 
-&#10230;
+&#10230; Inception Network ― Kiến trúc này sử dụng những inception module và hướng tới việc thử các tầng tích chập khác nhau để tăng hiệu suất thông qua sự đa dạng của các feature. Cụ thể, kiến trúc này sử dụng thủ thuật tầng tích chập 1×1 để hạn chế gánh nặng tính toán. 
 
 <br>
 
 
 **97. The Deep Learning cheatsheets are now available in [target language].**
 
-&#10230;
+&#10230; Những cheatsheet về Deep Learning nay đã được dịch sang [target language].
 
 <br>
 
 
 **98. Original authors**
 
-&#10230;
+&#10230; Các tác giả
 
 <br>
 
 
 **99. Translated by X, Y and Z**
 
-&#10230;
+&#10230; Được dịch bởi X, Y và Z
 
 <br>
 
 
 **100. Reviewed by X, Y and Z**
 
-&#10230;
+&#10230; Xem qua bởi X, Y và Z
 
 <br>
 
 
 **101. View PDF version on GitHub**
 
-&#10230;
+&#10230; Xem bản PDF trên Github
 
 <br>
 
 
 **102. By X and Y**
 
-&#10230;
+&#10230; Bởi X và Y
 
 <br>

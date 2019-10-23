@@ -116,112 +116,112 @@
 
 **17. [Drawbacks, Computation being slow, Difficulty of accessing information from a long time ago, Cannot consider any future input for the current state]**
 
-&#10230;
+&#10230; [Hạn chế, Tính toán chậm, Khó để truy cập các thông tin từ một khoảng thời gian dài trước đây, Không thể xem xét bất kì đầu vào sau này nào cho trạng thái hiện tại]
 
 <br>
 
 
 **18. Applications of RNNs ― RNN models are mostly used in the fields of natural language processing and speech recognition. The different applications are summed up in the table below:**
 
-&#10230;
+&#10230; Ứng dụng của RNNs - Các mô hình RNN hầu như được sử dụng trong lĩnh vực xử lí ngôn ngữ tự nhiên và ghi nhận tiếng nói. Các ứng dụng khác được tổng kết trong bảng dưới đây:
 
 <br>
 
 
 **19. [Type of RNN, Illustration, Example]**
 
-&#10230;
+&#10230; [Các loại RNN, Hình minh hoạ, Ví dụ]
 
 <br>
 
 
 **20. [One-to-one, One-to-many, Many-to-one, Many-to-many]**
 
-&#10230;
+&#10230; [Một-Một, Một-nhiều, Nhiều-một, Nhiều-nhiều]
 
 <br>
 
 
 **21. [Traditional neural network, Music generation, Sentiment classification, Name entity recognition, Machine translation]**
 
-&#10230;
+&#10230; [Mạng neural truyền thống, Sinh nhạc, Phân loại ý kiến, Ghi nhận thực thể tên, Dịch máy]
 
 <br>
 
 
 **22. Loss function ― In the case of a recurrent neural network, the loss function L of all time steps is defined based on the loss at every time step as follows:**
 
-&#10230;
+&#10230; Hàm mất mát - Trong trường hợp của mạng neural hồi quy, hàm mất mát L của tất cả các bước thời gian được định nghĩa dựa theo mất mát ở mọi thời điểm như sau:
 
 <br>
 
 
 **23. Backpropagation through time ― Backpropagation is done at each point in time. At timestep T, the derivative of the loss L with respect to weight matrix W is expressed as follows:**
 
-&#10230;
+&#10230; Lan truyền ngược theo thời gian - Lan truyền ngược được hoàn thành ở mỗi một thời điểm cụ thể. Ở bước T, đạo hàm của hàm mất mát L với ma trận trọng số W được biểu diễn như sau:
 
 <br>
 
 
 **24. Handling long term dependencies**
 
-&#10230;
+&#10230; Xử lí phụ thuộc dài hạn
 
 <br>
 
 
 **25. Commonly used activation functions ― The most common activation functions used in RNN modules are described below:**
 
-&#10230;
+&#10230; Các hàm kích hoạt thường dùng - Các hàm kích hoạt thường dùng trong các modules RNN được miêu tả như sau:
 
 <br>
 
 
 **26. [Sigmoid, Tanh, RELU]**
 
-&#10230;
+&#10230; [Sigmoid, Tanh, RELU]
 
 <br>
 
 
 **27. Vanishing/exploding gradient ― The vanishing and exploding gradient phenomena are often encountered in the context of RNNs. The reason why they happen is that it is difficult to capture long term dependencies because of multiplicative gradient that can be exponentially decreasing/increasing with respect to the number of layers.**
 
-&#10230;
+&#10230; Vanishing/exploding gradient - Hiện tượng vanishing và exploding gradient thường gặp trong ngữ cảnh của RNNs. Lí do tại sao chúng thường xảy ra đó là khó để có được sự phụ thuộc dài hạn vì multiplicative gradient có thể tăng/giảm theo hàm mũ tương ứng với số lượng các tầng.
 
 <br>
 
 
 **28. Gradient clipping ― It is a technique used to cope with the exploding gradient problem sometimes encountered when performing backpropagation. By capping the maximum value for the gradient, this phenomenon is controlled in practice.**
 
-&#10230;
+&#10230; Gradient clipping - Là một kĩ thuật được sử dụng để giải quyết vấn đề exploding gradient xảy ra khi thực hiện lan truyền ngược. Bằng việc giới hạn giá trị lớn nhất cho gradient, hiện tượng này sẽ được kiểm soát trong thực tế.
 
 <br>
 
 
 **29. clipped**
 
-&#10230;
+&#10230; clipped
 
 <br>
 
 
 **30. Types of gates ― In order to remedy the vanishing gradient problem, specific gates are used in some types of RNNs and usually have a well-defined purpose. They are usually noted Γ and are equal to:**
 
-&#10230;
+&#10230; Các loại cổng - Để giải quyết vấn đề vanishing gradient, các cổng cụ thể được sử dụng trong một vài loại RNNs và thường có mục đích rõ ràng. Chúng thường được kí hiệu là Γ và bằng với:
 
 <br>
 
 
 **31. where W,U,b are coefficients specific to the gate and σ is the sigmoid function. The main ones are summed up in the table below:**
 
-&#10230;
+&#10230; Với W, U, b là các hệ số của một cổng và σ là hàm sigmoid. Các loại chính được tổng kết ở bảng dưới đây:
 
 <br>
 
 
 **32. [Type of gate, Role, Used in]**
 
-&#10230;
+&#10230; [Loại cổng, Vai trò, Được sử dụng trong]
 
 <br>
 

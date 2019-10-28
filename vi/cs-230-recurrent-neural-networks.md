@@ -228,182 +228,182 @@
 
 **33. [Update gate, Relevance gate, Forget gate, Output gate]**
 
-&#10230;
+&#10230; [Cổng cập nhật, Cổng relevance, Cổng quên, Cổng ra]
 
 <br>
 
 
 **34. [How much past should matter now?, Drop previous information?, Erase a cell or not?, How much to reveal of a cell?]**
 
-&#10230;
+&#10230; [Dữ liệu cũ nên có tầm quan trọng như thế nào ở hiện tại?, Bỏ qua thông tin phía trước?, Xoá ô hay không xoá?, Biểu thị một ô ở mức độ bao nhiêu?]
 
 <br>
 
 
 **35. [LSTM, GRU]**
 
-&#10230;
+&#10230; [LSTM, GRU]
 
 <br>
 
 
 **36. GRU/LSTM ― Gated Recurrent Unit (GRU) and Long Short-Term Memory units (LSTM) deal with the vanishing gradient problem encountered by traditional RNNs, with LSTM being a generalization of GRU. Below is a table summing up the characterizing equations of each architecture:**
 
-&#10230;
+&#10230; GRU/LSTM ― Gated Recurrent Unit (GRU) và Các đơn vị bộ nhớ dài-ngắn hạn (LSTM) đối phó với vấn đề vanishing gradient khi gặp phải bằng mạng RNNs truyền thống, với LSTM là sự tổng quát của GRU. Phía dưới là bảng tổng kết các phương trình đặc trưng của mỗi kiến trúc: 
 
 <br>
 
 
 **37. [Characterization, Gated Recurrent Unit (GRU), Long Short-Term Memory (LSTM), Dependencies]**
 
-&#10230;
+&#10230; [Đặc tính, Gated Recurrent Unit (GRU), Bộ nhớ dài-ngắn hạn (LSTM), Các phụ thuộc]
 
 <br>
 
 
 **38. Remark: the sign ⋆ denotes the element-wise multiplication between two vectors.**
 
-&#10230;
+&#10230; Chú ý: kí hiệu ⋆ chỉ phép nhân nguyên tố giữa hai vectors.
 
 <br>
 
 
 **39. Variants of RNNs ― The table below sums up the other commonly used RNN architectures:**
 
-&#10230;
+&#10230; Các biến thể của RNNs - Bảng dưới đây tổng kết các kiến trúc thường được sử dụng khác của RNN:
 
 <br>
 
 
 **40. [Bidirectional (BRNN), Deep (DRNN)]**
 
-&#10230;
+&#10230; [RNN hai chiều (Bidirectional - BRNN), RNN sâu (Deep - DRNN)]
 
 <br>
 
 
 **41. Learning word representation**
 
-&#10230;
+&#10230; Học thể hiện từ
 
 <br>
 
 
 **42. In this section, we note V the vocabulary and |V| its size.**
 
-&#10230;
+&#10230; Trong phần này, chúng ta kí hiệu V là tập từ vựng và |V| là kích cỡ của nó.
 
 <br>
 
 
 **43. Motivation and notations**
 
-&#10230;
+&#10230; Giải thích và các kí hiệu
 
 <br>
 
 
 **44. Representation techniques ― The two main ways of representing words are summed up in the table below:**
 
-&#10230;
+&#10230; Các kĩ thuật biểu diễn - Có hai cách chính của biểu diễn các từ được tổng kết ở bảng bên dưới:
 
 <br>
 
 
 **45. [1-hot representation, Word embedding]**
 
-&#10230;
+&#10230; [Biểu diễn 1-hot, Word embedding]
 
 <br>
 
 
 **46. [teddy bear, book, soft]**
 
-&#10230;
+&#10230; [gấu bông, sách, mềm]
 
 <br>
 
 
 **47. [Noted ow, Naive approach, no similarity information, Noted ew, Takes into account words similarity]**
 
-&#10230;
+&#10230; [Lưu ý ow, Tiếp cận Naive, không có thông tin chung, Lưu ý ew, Xem xét độ tương đồng của các từ]
 
 <br>
 
 
 **48. Embedding matrix ― For a given word w, the embedding matrix E is a matrix that maps its 1-hot representation ow to its embedding ew as follows:**
 
-&#10230;
+&#10230; Embedding matrix - Cho một từ w, embedding matrix E là một ma trận tham chiếu thể hiện 1-hot ow của nó với embedding ew của nó như sau:
 
 <br>
 
 
 **49. Remark: learning the embedding matrix can be done using target/context likelihood models.**
 
-&#10230;
+&#10230; Chú ý: học embedding matrix có thể hoàn thành bằng cách sử dụng các mô hình target/context likelihood.
 
 <br>
 
 
 **50. Word embeddings**
 
-&#10230;
+&#10230; Word embeddings
 
 <br>
 
 
 **51. Word2vec ― Word2vec is a framework aimed at learning word embeddings by estimating the likelihood that a given word is surrounded by other words. Popular models include skip-gram, negative sampling and CBOW.**
 
-&#10230;
+&#10230; Word2vec - Word2vec là một framework tập trung vào việc học word embeddings bằng cách ước lượng khả năng mà một từ cho trước được bao quanh bởi các từ khác. Các mô hình phổ biến bao gồm skip-gram, negative sampling và CBOW.
 
 <br>
 
 
 **52. [A cute teddy bear is reading, teddy bear, soft, Persian poetry, art]**
 
-&#10230;
+&#10230; [Một chú gấu bông dễ thương đang đọc sách, gấu bông teddy, soft, thơ Persian, hội hoạ]
 
 <br>
 
 
 **53. [Train network on proxy task, Extract high-level representation, Compute word embeddings]**
 
-&#10230;
+&#10230; [Huấn luyện mạng trên proxy task, Bóc tách các thể hiện cấp cao, Tính toán word embeddings]
 
 <br>
 
 
 **54. Skip-gram ― The skip-gram word2vec model is a supervised learning task that learns word embeddings by assessing the likelihood of any given target word t happening with a context word c. By noting θt a parameter associated with t, the probability P(t|c) is given by:**
 
-&#10230;
+&#10230; Skip-gram - Mô hình skip-gram word2vec là một task supervised learning, nó học các word embeddings bằng cách đánh giá khả năng của bất kì target word t cho trước nào xảy ra với context word c. Bằng việc kí hiệu θt là tham số đi kèm với t, xác suất P(t|c) được tính như sau:
 
 <br>
 
 
 **55. Remark: summing over the whole vocabulary in the denominator of the softmax part makes this model computationally expensive. CBOW is another word2vec model using the surrounding words to predict a given word.**
 
-&#10230;
+&#10230; Chú ý: Cộng tổng tất cả các từ vựng trong mẫu số của phần softmax khiến mô hình này tốn nhiều chi phí tính toán. CBOW là một mô hình word2vec khác sử dụng các từ xung quanh để dự đoán một từ cho trước.
 
 <br>
 
 
 **56. Negative sampling ― It is a set of binary classifiers using logistic regressions that aim at assessing how a given context and a given target words are likely to appear simultaneously, with the models being trained on sets of k negative examples and 1 positive example. Given a context word c and a target word t, the prediction is expressed by:**
 
-&#10230;
+&#10230; Negative sampling ― Nó là một tập của các bộ phân loại nhị phân sử dụng logistic regressions với mục tiêu là đánh giá khả năng mà một ngữ cảnh cho trước và các target words cho trước có thể xuất hiện đồng thời, với các mô hình đang được huấn luyện trên các tập của k negative examples và 1 positive example. Cho trước context word c và target word t, dự đoán được thể hiện bởi:
 
 <br>
 
 
 **57. Remark: this method is less computationally expensive than the skip-gram model.**
 
-&#10230;
+&#10230; Chú ý: phương thức này tốn ít chi phí tính toán hơn mô hình skip-gram.
 
 <br>
 
 
 **57bis. GloVe ― The GloVe model, short for global vectors for word representation, is a word embedding technique that uses a co-occurence matrix X where each Xi,j denotes the number of times that a target i occurred with a context j. Its cost function J is as follows:**
 
-&#10230;
+&#10230; GloVe - Mô hình GloVe
 
 <br>
 
@@ -648,30 +648,30 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 
 **92. Original authors**
 
-&#10230;
+&#10230; Tác giả
 
 <br>
 
 **93. Translated by X, Y and Z**
 
-&#10230;
+&#10230; Dịch bởi X, Y và Z
 
 <br>
 
 **94. Reviewed by X, Y and Z**
 
-&#10230;
+&#10230; Reviewed bởi X, Y và Z
 
 <br>
 
 **95. View PDF version on GitHub**
 
-&#10230;
+&#10230; Xem bản PDF trên GibHub
 
 <br>
 
 **96. By X and Y**
 
-&#10230;
+&#10230; Bởi X và Y
 
 <br>

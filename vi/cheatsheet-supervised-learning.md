@@ -30,7 +30,7 @@
 
 **6. [Continuous, Class, Linear regression, Logistic regression, SVM, Naive Bayes]**
 
-&#10230; [Tiếp diễn, Lớp, Hồi quy tuyến tính, Hồi quy Logistic, SVM, Naive Bayes]
+&#10230; [Liên tục, Lớp, Hồi quy tuyến tính, Hồi quy Logistic, SVM, Naive Bayes]
 
 <br>
 
@@ -48,7 +48,7 @@
 
 **9. [Directly estimate P(y|x), Estimate P(x|y) to then deduce P(y|x), Decision boundary,  	Probability distributions of the data, Regressions, SVMs, GDA, Naive Bayes]**
 
-&#10230; [Ước lượng trực tiếp P(y|x), Ước lượng P(x|y) để tiếp tục suy luận P(y|x), Biên quyết địnhđịnh, Phân bố xác suất của dữ liệu, Hồi quy, SVMs, GDA, Naive Bayes]
+&#10230; [Ước lượng trực tiếp P(y|x), Ước lượng P(x|y) để tiếp tục suy luận P(y|x), Biên quyết định, Phân bố xác suất của dữ liệu, Hồi quy, SVMs, GDA, Naive Bayes]
 
 <br>
 
@@ -372,7 +372,7 @@
 
 **63. Tree-based and ensemble methods**
 
-&#10230; Phương thức Tree-based và toàn thể
+&#10230; Phương thức Tree-based và ensemble
 
 <br>
 

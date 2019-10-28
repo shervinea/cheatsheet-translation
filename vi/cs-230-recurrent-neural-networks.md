@@ -403,7 +403,7 @@
 
 **57bis. GloVe ― The GloVe model, short for global vectors for word representation, is a word embedding technique that uses a co-occurence matrix X where each Xi,j denotes the number of times that a target i occurred with a context j. Its cost function J is as follows:**
 
-&#10230; GloVe - Mô hình GloVe
+&#10230; GloVe - Mô hình GloVe, viết tắt của global vectors for word representation, nó là một kĩ thuật word embedding sử dụng ma trận đồng thời X với mỗi Xi,j là số lần mà target i xảy ra tại ngữ cảnh j. Cost function J của nó như sau:
 
 <br>
 
@@ -411,63 +411,63 @@
 **58. where f is a weighting function such that Xi,j=0⟹f(Xi,j)=0.
 Given the symmetry that e and θ play in this model, the final word embedding e(final)w is given by:**
 
-&#10230;
+&#10230; f là hàm trong số với Xi,j=0⟹f(Xi,j)=0. Với tính đối xứng mà e và θ có được trong mô hình này, word embedding cuối cùng e(final)w được định nghĩa như sau:
 
 <br>
 
 
 **59. Remark: the individual components of the learned word embeddings are not necessarily interpretable.**
 
-&#10230;
+&#10230; Chú ý: Các phần tử riêng của các word embedding học được không nhất thiết là phải thông dịch được.
 
 <br>
 
 
 **60. Comparing words**
 
-&#10230;
+&#10230; So sánh các từ
 
 <br>
 
 
 **61. Cosine similarity ― The cosine similarity between words w1 and w2 is expressed as follows:**
 
-&#10230;
+&#10230; Độ tương đồng Cosine - Độ tương đồng cosine giữa các từ w1 và w2 được trình bày như sau:
 
 <br>
 
 
 **62. Remark: θ is the angle between words w1 and w2.**
 
-&#10230;
+&#10230; Chú ý: θ là góc giữa các từ w1 và w2.
 
 <br>
 
 
 **63. t-SNE ― t-SNE (t-distributed Stochastic Neighbor Embedding) is a technique aimed at reducing high-dimensional embeddings into a lower dimensional space. In practice, it is commonly used to visualize word vectors in the 2D space.**
 
-&#10230;
+&#10230; t-SNE ― t-SNE (t-distributed Stochastic Neighbor Embedding) là một kĩ thuật nhằm giảm đi số chiều của không gian embedding. Trong thực tế, nó thường được sử dụng để trực quan hoá các word vectors trong không gian 2 chiều (2D).
 
 <br>
 
 
 **64. [literature, art, book, culture, poem, reading, knowledge, entertaining, loveable, childhood, kind, teddy bear, soft, hug, cute, adorable]**
 
-&#10230;
+&#10230; [văn học, nghệ thuật, sách, văn hoá, thơ, đọc, hiểu biết, giải trí, ngôn tình, thiếu nhi, loại, gấu teddy, mềm, ôm, dễ thương, đáng mến]
 
 <br>
 
 
 **65. Language model**
 
-&#10230;
+&#10230; Mô hình ngôn ngữ
 
 <br>
 
 
 **66. Overview ― A language model aims at estimating the probability of a sentence P(y).**
 
-&#10230;
+&#10230; Tổng quan - Một mô hình ngôn ngữ sẽ dự đoán xác suất của một câu P(y).
 
 <br>
 
@@ -495,7 +495,7 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 
 **70. Machine translation**
 
-&#10230;
+&#10230; Dịch máy
 
 <br>
 
@@ -593,7 +593,7 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 
 **84. Attention**
 
-&#10230;
+&#10230; Chú ý
 
 <br>
 
@@ -607,7 +607,7 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 
 **86. with**
 
-&#10230;
+&#10230; với
 
 <br>
 
@@ -642,7 +642,7 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 
 **91. The Deep Learning cheatsheets are now available in [target language].**
 
-&#10230;
+&#10230; Deep Learning cheatsheets hiện đã có bản dịch [tiếng việt].
 
 <br>
 

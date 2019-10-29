@@ -25,7 +25,7 @@
 **5. Matrix ― We note A∈Rm×n a matrix with m rows and n columns, where Ai,j∈R is the entry located in the ith row and jth column:**
 
 &#10230;
-行列 - m行n列の行列をA∈Rm×nと表記し、Ai、j∈Rは i行目のj列目の要素を指します。
+行列 - m行n列の行列をA∈Rm×nと表記し、Ai,j∈Rは i行目のj列目の要素を指します。
 <br>
 
 **6. Remark: the vector x defined above can be viewed as a n×1 matrix and is more particularly called a column-vector.**

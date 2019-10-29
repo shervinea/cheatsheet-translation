@@ -55,7 +55,7 @@
 **10. Diagonal matrix ― A diagonal matrix D∈Rn×n is a square matrix with nonzero values in its diagonal and zero everywhere else:**
 
 &#10230;
-対角行列 - 対角行列D∈Rn×nは、対角成分の値がゼロ以外で、それ以外はゼロである正方行列です。
+対角行列 - 対角行列D∈Rn×nは、対角成分の値が 0 以外で、それ以外は 0 である正方行列です。
 <br>
 
 **11. Remark: we also note D as diag(d1,...,dn).**

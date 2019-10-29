@@ -61,7 +61,7 @@
 **11. Remark: we also note D as diag(d1,...,dn).**
 
 &#10230;
-備考：Dをdiag（d 1、...、d n）とも表記します。
+備考：D を diag(d1,...,dn) とも表記します。
 <br>
 
 **12. Matrix operations**
@@ -115,7 +115,7 @@
 **20. where aTr,i,bTr,i are the vector rows and ac,j,bc,j are the vector columns of A and B respectively**
 
 &#10230;
-aTr,i、bTr,iはAとBの行ベクトルで　ac,j、bc,jはAとBの列ベクトルです。
+aTr,i, bTr,iはAとBの行ベクトルで　ac,j、bc,jはAとBの列ベクトルです。
 <br>
 
 **21. Other operations**

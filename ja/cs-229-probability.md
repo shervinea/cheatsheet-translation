@@ -222,7 +222,7 @@
 
 **38. [Case, Marginal density, Cumulative function]**
 
-&#10230;[種類,、周辺密度、累積関数]
+&#10230;[種類、周辺密度、累積関数]
 
 <br>
 

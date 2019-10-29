@@ -474,21 +474,21 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 
 **67. n-gram model ― This model is a naive approach aiming at quantifying the probability that an expression appears in a corpus by counting its number of appearance in the training data.**
 
-&#10230;
+&#10230; Mô hình n-gram - Mô hình này là cách tiếp cận naive với mục đích định lượng xác suất mà một biểu hiện xuất hiện trong văn bản bằng cách đếm số lần xuất hiện của nó trong tập dữ liệu huấn luyện.
 
 <br>
 
 
 **68. Perplexity ― Language models are commonly assessed using the perplexity metric, also known as PP, which can be interpreted as the inverse probability of the dataset normalized by the number of words T. The perplexity is such that the lower, the better and is defined as follows:**
 
-&#10230;
+&#10230; Độ hỗn tạp - Các mô hình ngôn ngữ thường được đánh giá dựa theo độ đo hỗ tạp, cũng được biết đến là PP, có thể được hiểu như là nghịch đảo xác suất của tập dữ liệu được chuẩn hoá bởi số lượng các từ T. Độ hỗn tạp càng thấp thì càng tốt và được định nghĩa như sau:
 
 <br>
 
 
 **69. Remark: PP is commonly used in t-SNE.**
 
-&#10230;
+&#10230; Chú ý: PP thường được sử dụng trong t-SNE.
 
 <br>
 
@@ -502,91 +502,91 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 
 **71. Overview ― A machine translation model is similar to a language model except it has an encoder network placed before. For this reason, it is sometimes referred as a conditional language model. The goal is to find a sentence y such that:**
 
-&#10230;
+&#10230; Tổng quan - Một mô hình dịch máy tương tự với mô hình ngôn ngữ ngoại trừ nó có một mạng encoder được đặt phía trước. Vì lí do này, đôi khi nó còn được biết đến là mô hình ngôn ngữ có điều kiện. Mục tiêu là tìm một câu văn y như sau:
 
 <br>
 
 
 **72. Beam search ― It is a heuristic search algorithm used in machine translation and speech recognition to find the likeliest sentence y given an input x.**
 
-&#10230;
+&#10230; Tìm kiếm Beam - Nó là một giải thuật tìm kiếm heuristic được sử dụng trong dịch máy và ghi nhận tiếng nói để tìm câu văn y đúng nhất tương ứng với đầu vào x.
 
 <br>
 
 
 **73. [Step 1: Find top B likely words y<1>, Step 2: Compute conditional probabilities y<k>|x,y<1>,...,y<k−1>, Step 3: Keep top B combinations x,y<1>,...,y<k>, End process at a stop word]**
 
-&#10230;
+&#10230; [Bước 1: Tìm top B các từ y<1>, Bước 2: Tính xác suất có điều kiện y<k>|x,y<1>,...,y<k-1>, Bước 3: Giữ top B các tổ hợp x,y<1>,...,y<k>, Kết thúc quá trình xử lí bằng một từ dừng]
 
 <br>
 
 
 **74. Remark: if the beam width is set to 1, then this is equivalent to a naive greedy search.**
 
-&#10230;
+&#10230; Chú ý: nếu độ rộng của beam được thiết lập là 1, thì nó tương đương với tìm kiếm tham lam naive. 
 
 <br>
 
 
 **75. Beam width ― The beam width B is a parameter for beam search. Large values of B yield to better result but with slower performance and increased memory. Small values of B lead to worse results but is less computationally intensive. A standard value for B is around 10.**
 
-&#10230;
+&#10230; Độ rộng Beam - Độ rộng beam B là một tham số của giải thuật tìm kiếm beam. Các giá trị lớn của B tạo ra kết quả tốt hơn nhưng với hiệu năng thấp hơn và lượng bộ nhớ sử dụng sẽ tăng.
 
 <br>
 
 
 **76. Length normalization ― In order to improve numerical stability, beam search is usually applied on the following normalized objective, often called the normalized log-likelihood objective, defined as:**
 
-&#10230;
+&#10230; Chuẩn hoá độ dài - Đến cải thiện tính ổn định, beam search thường được áp dụng mục tiêu chuẩn hoá sau, thường được gọi là mục tiêu chuẩn hoá log-likelihood, được định nghĩa như sau:
 
 <br>
 
 
 **77. Remark: the parameter α can be seen as a softener, and its value is usually between 0.5 and 1.**
 
-&#10230;
+&#10230; Chú ý: tham số α có thể được xem như là softener, và giá trị của nó thường nằm trong đoạn 0.5 và 1.
 
 <br>
 
 
 **78. Error analysis ― When obtaining a predicted translation ˆy that is bad, one can wonder why we did not get a good translation y∗ by performing the following error analysis:**
 
-&#10230;
+&#10230; Phân tích lỗi - Khi có được một bản dịch tồi ˆy, chúng ta có thể tự hỏi rằng tại sao chúng ta không có được một kết quả dịch tốt y∗ bằng việc thực hiện việc phân tích lỗi như sau:
 
 <br>
 
 
 **79. [Case, Root cause, Remedies]**
 
-&#10230;
+&#10230; [Trường hợp, Nguyên nhân xâu xa, Biện pháp khắc phục]
 
 <br>
 
 
 **80. [Beam search faulty, RNN faulty, Increase beam width, Try different architecture, Regularize, Get more data]**
 
-&#10230;
+&#10230; [Lỗi Beam search, lỗi RNN, Tăng beam width, Thử kiến trúc khác, Chính quy, Lấy nhiều dữ liệu hơn]
 
 <br>
 
 
 **81. Bleu score ― The bilingual evaluation understudy (bleu) score quantifies how good a machine translation is by computing a similarity score based on n-gram precision. It is defined as follows:**
 
-&#10230;
+&#10230; Điểm Bleu - Bilingual evaluation understudy (bleu) score định lượng mức độ tốt của dịch máy bằng cách tính một độ tương đồng dựa trên dự đoán n-gram. Nó được định nghĩa như sau:
 
 <br>
 
 
 **82. where pn is the bleu score on n-gram only defined as follows:**
 
-&#10230;
+&#10230; với pn là bleu score chỉ trên n-gram được định nghĩa như sau:
 
 <br>
 
 
 **83. Remark: a brevity penalty may be applied to short predicted translations to prevent an artificially inflated bleu score.**
 
-&#10230;
+&#10230; Chú ý: một mức phạt ngắn có thể được áp dụng với các dự đoán dịch ngắn để tránh việc làm thổi phồng giá trị bleu score.
 
 <br>
 
@@ -600,7 +600,7 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 
 **85. Attention model ― This model allows an RNN to pay attention to specific parts of the input that is considered as being important, which improves the performance of the resulting model in practice. By noting α<t,t′> the amount of attention that the output y<t> should pay to the activation a<t′> and c<t> the context at time t, we have:**
 
-&#10230;
+&#10230; Attention model - Mô hình này cho phép một RNN chú ý lên các phần cụ thể của đầu vào được xem xét là quan trọng, nó giúp cải thiện hiệu năng của mô hình kết quả trong thực tế. Bằng việc kí hiệu α<t,t′> là mức độ chú ý mà đầu ra y<t> nên có đối với hàm kích hoạt a<t′> và c<t> là ngữ cảnh ở thời điểm t, chúng ta có:
 
 <br>
 
@@ -614,28 +614,28 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 
 **87. Remark: the attention scores are commonly used in image captioning and machine translation.**
 
-&#10230;
+&#10230; Chú ý: Các attention scores thường được sử dụng trong chú thích ảnh và dịch máy.
 
 <br>
 
 
 **88. A cute teddy bear is reading Persian literature.**
 
-&#10230;
+&#10230; Một chú gấu bông dễ thương đang đọc bài văn Persian.
 
 <br>
 
 
 **89. Attention weight ― The amount of attention that the output y<t> should pay to the activation a<t′> is given by α<t,t′> computed as follows:**
 
-&#10230;
+&#10230; Attention weight - Sự chú ý mà đầu ra y<t> nên có với hàm kích hoạt a<t′> với α<t,t′> được tính như sau:
 
 <br>
 
 
 **90. Remark: computation complexity is quadratic with respect to Tx.**
 
-&#10230;
+&#10230; Chú ý: độ phức tạp tính toán là một phương trình bậc hai đối với Tx.
 
 <br>
 

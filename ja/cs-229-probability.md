@@ -102,7 +102,7 @@
 
 **18. Independence ― Two events A and B are independent if and only if we have:**
 
-&#10230;独立性 - 次が成り立つ場合かつその場合に限り、2つの事象AとBは独立であるといいます:
+&#10230;独立性 - 次が成り立ちかつその場合に限り（必要十分）、2つの事象AとBは独立であるといいます:
 
 <br>
 

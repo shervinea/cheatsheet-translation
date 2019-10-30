@@ -649,7 +649,7 @@
 
 **93. [Training set, Noise, Real-world image, Generator, Discriminator, Real Fake]**
 
-&#10230; [学習セット, ノイズ, 現実世界の画像, 生成器, 識別器, 真 偽]
+&#10230; [学習セット, ノイズ, 現実世界の画像, 生成器, 識別器, 真偽]
 
 <br>
 
@@ -698,7 +698,7 @@
 
 **100. Reviewed by X, Y and Z**
 
-&#10230; X, Y, Z 校正
+&#10230; X・Y・Z 校正
 
 <br>
 

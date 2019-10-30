@@ -42,13 +42,13 @@
 
 **8. [Setting, Latent variable z, Comments]**
 
-&#10230;[設定, 潜在変数z, コメント]
+&#10230;[設定、潜在変数z、コメント]
 
 <br>
 
 **9. [Mixture of k Gaussians, Factor analysis]**
 
-&#10230;[k個のガウス分布の混, 因子分析]
+&#10230;[k個のガウス分布の混合、因子分析]
 
 <br>
 
@@ -72,7 +72,7 @@
 
 **13. [Gaussians initialization, Expectation step, Maximization step, Convergence]**
 
-&#10230;[ガウス分布初期化, 期待値ステップ, 最大化ステップ, 収束]
+&#10230;[ガウス分布初期化、期待値ステップ、最大化ステップ、収束]
 
 <br>
 
@@ -96,7 +96,7 @@
 
 **17. [Means initialization, Cluster assignment, Means update, Convergence]**
 
-&#10230; [平均の初期化, クラスター割り当て,平均の更新, 収束]
+&#10230; [平均の初期化、クラスター割り当て、平均の更新、収束]
 
 <br>
 
@@ -126,7 +126,7 @@
 
 **22. [Ward linkage, Average linkage, Complete linkage]**
 
-&#10230; [ウォードリンケージ, 平均リンケージ, 完全リンケージ]
+&#10230; [ウォードリンケージ、平均リンケージ、完全リンケージ]
 
 <br>
 
@@ -144,7 +144,7 @@
 
 **25. In an unsupervised learning setting, it is often hard to assess the performance of a model since we don't have the ground truth labels as was the case in the supervised learning setting.**
 
-&#10230; 教師なし学習では、教師あり学習の場合のような正解ラベルがないため、モデルの性能を評価することが困難な場合が多いです。
+&#10230; 教師なし学習では、教師あり学習の場合のような正解ラベルがないため、モデルの性能を評価することが困難な場合が多くあります。
 
 <br>
 
@@ -162,7 +162,7 @@
 
 **28. the Calinski-Harabaz index s(k) indicates how well a clustering model defines its clusters, such that the higher the score, the more dense and well separated the clusters are. It is defined as follows:**
 
-&#10230; Calinski-Harabazインデックスs(k)はクラスタリングモデルが各クラスタをどの程度適切に定義しているかを示します。つまり、スコアが高いほど、各クラスタはより密で、十分に分離されています。 それは次のように定義されます:
+&#10230; Calinski-Harabazインデックスs(k)はクラスタリングモデルが各クラスタをどの程度適切に定義しているかを示します。つまり、スコアが高いほど、各クラスタはより密で、十分に分離されています。それは次のように定義されます:
 
 <br>
 
@@ -210,7 +210,7 @@
 
 **36. Algorithm ― The Principal Component Analysis (PCA) procedure is a dimension reduction technique that projects the data on k dimensions by maximizing the variance of the data as follows:**
 
-&#10230; アルゴリズム ― 主成分分析 (PCA)の過程は、次のようにデータの分散を最大化することによりデータをk次元に射影する次元削減の技術です。
+&#10230; アルゴリズム ― 主成分分析（PCA）の過程は、次のようにデータの分散を最大化することによりデータをk次元に射影する次元削減の技術です。
 
 <br>
 
@@ -246,7 +246,7 @@
 
 **42. [Data in feature space, Find principal components, Data in principal components space]**
 
-&#10230; [特徴空間内のデータ, 主成分を見つける, 主成分空間内のデータ]
+&#10230; [特徴空間内のデータ、主成分の探索、主成分空間内のデータ]
 
 <br>
 
@@ -324,16 +324,16 @@
 
 **55. [Introduction, Motivation, Jensen's inequality]**
 
-&#10230; [導入, 動機, イェンセンの不等式]
+&#10230; [導入、動機、イェンセンの不等式]
 
 <br>
 
 **56. [Clustering, Expectation-Maximization, k-means, Hierarchical clustering, Metrics]**
 
-&#10230;[クラスタリング, 期待値最大化法, k-means, 階層クラスタリング, 指標]
+&#10230;[クラスタリング、期待値最大化法、k-means、階層クラスタリング、指標]
 
 <br>
 
 **57. [Dimension reduction, PCA, ICA]**
 
-&#10230; [次元削減, PCA, ICA]
+&#10230; [次元削減、PCA、ICA]

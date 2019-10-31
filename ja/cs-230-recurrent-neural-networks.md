@@ -18,49 +18,49 @@
 
 **3. [Overview, Architecture structure, Applications of RNNs, Loss function, Backpropagation]**
 
-&#10230;概要、アーキテクチャの構造、RNNの応用アプリケーション、損失関数、逆伝播
+&#10230;[概要、アーキテクチャの構造、RNNの応用アプリケーション、損失関数、逆伝播]
 
 <br>
 
 
 **4. [Handling long term dependencies, Common activation functions, Vanishing/exploding gradient, Gradient clipping, GRU/LSTM, Types of gates, Bidirectional RNN, Deep RNN]**
 
-&#10230;長期依存性関係の処理、活性化関数、勾配喪失と発散、勾配クリッピング、GRU/LTSM、ゲートの種類、双方向性RNN、ディープ(深層学習)RNN
+&#10230;[長期依存性関係の処理、活性化関数、勾配喪失と発散、勾配クリッピング、GRU/LTSM、ゲートの種類、双方向性RNN、ディープ(深層学習)RNN]
 
 <br>
 
 
 **5. [Learning word representation, Notations, Embedding matrix, Word2vec, Skip-gram, Negative sampling, GloVe]**
 
-&#10230;単語出現の学習、ノーテーション、埋め込み行列、Word2vec、スキップグラム、ネガティブサンプリング、グローブ
+&#10230;[単語出現の学習、ノーテーション、埋め込み行列、Word2vec、スキップグラム、ネガティブサンプリング、グローブ]
 
 <br>
 
 
 **6. [Comparing words, Cosine similarity, t-SNE]**
 
-&#10230;単語の比較、コサイン類似度、t-SNE
+&#10230;[単語の比較、コサイン類似度、t-SNE]
 
 <br>
 
 
 **7. [Language model, n-gram, Perplexity]**
 
-&#10230;言語モデル、n-gramモデル、パープレキシティ
+&#10230;[言語モデル、n-gramモデル、パープレキシティ]
 
 <br>
 
 
 **8. [Machine translation, Beam search, Length normalization, Error analysis, Bleu score]**
 
-&#10230;機械翻訳、ビームサーチ、言語長正規化、エラー分析、ブルースコア(機械翻訳比較スコア)
+&#10230;[機械翻訳、ビームサーチ、単語長の正規化、エラー分析、BLEUスコア(機械翻訳比較スコア)]
 
 <br>
 
 
 **9. [Attention, Attention model, Attention weights]**
 
-&#10230;アテンション、アテンションモデル、アテンションウェイト
+&#10230;[アテンション、アテンションモデル、アテンションウェイト]
 
 <br>
 
@@ -74,14 +74,14 @@
 
 **11. Architecture of a traditional RNN ― Recurrent neural networks, also known as RNNs, are a class of neural networks that allow previous outputs to be used as inputs while having hidden states. They are typically as follows:**
 
-&#10230;一般的なRNNのアーキテクチャ - RNNとして知られるリカレントニューラルネットワークは、隠れ層の状態を利用して、前の出力を次の入力として取り扱うことを可能にするニューラルネットワークの一種です。一般的なモデルは下記のようになります。
+&#10230;一般的なRNNのアーキテクチャ - RNNとして知られるリカレントニューラルネットワークは、隠れ層の状態を利用して、前の出力を次の入力として取り扱うことを可能にするニューラルネットワークの一種です。一般的なモデルは下記のようになります:
 
 <br>
 
 
 **12. For each timestep t, the activation a<t> and the output y<t> are expressed as follows:**
 
-&#10230;それぞれの時点 t において活性化関数の状態 a<t> と出力 y<t> は下記のように表現されます。　
+&#10230;それぞれの時点 t において活性化関数の状態 a<t> と出力 y<t> は下記のように表現されます:
 
 <br>
 
@@ -95,7 +95,7 @@
 
 **14. where Wax,Waa,Wya,ba,by are coefficients that are shared temporally and g1,g2 activation functions.**
 
-&#10230;Wax,Waa,Wya,baは全ての時点で共有される係数であり、g1,g2は活性化関数です。
+&#10230;ここで、Wax,Waa,Wya,ba,by は全ての時点で共有される係数であり、g1,g2 は活性化関数です。
 
 <br>
 
@@ -109,56 +109,56 @@
 
 **16. [Advantages, Possibility of processing input of any length, Model size not increasing with size of input, Computation takes into account historical information, Weights are shared across time]**
 
-&#10230;長所、任意の長さの入力を処理できる、入力サイズに応じてモデルサイズが大きくならない、計算は時系列情報を考慮している、重みは全ての時点で共有される
+&#10230;[長所、任意の長さの入力の処理可能性、入力サイズに応じて大きくならないモデルサイズ、時系列情報を考慮した計算、全ての時点で共有される重み]
 
 <br>
 
 
 **17. [Drawbacks, Computation being slow, Difficulty of accessing information from a long time ago, Cannot consider any future input for the current state]**
 
-&#10230;短所、遅い計算、長い時間軸での情報の利用が困難、現在の状態から将来の入力を予測不可能
+&#10230;[短所、遅い計算、長い時間軸での情報の利用の困難性、現在の状態から将来の入力が予測不可能]
 
 <br>
 
 
 **18. Applications of RNNs ― RNN models are mostly used in the fields of natural language processing and speech recognition. The different applications are summed up in the table below:**
 
-&#10230;RNNの応用 - RNNモデルは主に自然言語処理と音声認識の分野で使用されます。以下の表に、さまざまな応用例がまとめられています。
+&#10230;RNNの応用 - RNNモデルは主に自然言語処理と音声認識の分野で使用されます。さまざまな応用例が以下の表にとめられています:
 
 <br>
 
 
 **19. [Type of RNN, Illustration, Example]**
 
-&#10230;RNNの種類、図、例
+&#10230;[RNNの種類、図、例]
 
 <br>
 
 
 **20. [One-to-one, One-to-many, Many-to-one, Many-to-many]**
 
-&#10230;一対一、一対多、多対一、多対多
+&#10230;[一対一、一対多、多対一、多対多]
 
 <br>
 
 
 **21. [Traditional neural network, Music generation, Sentiment classification, Name entity recognition, Machine translation]**
 
-&#10230;伝統的なニューラルネットワーク、音楽生成、感情分類、固有表現認識、機械翻訳
+&#10230;[伝統的なニューラルネットワーク、音楽生成、感情分類、固有表現認識、機械翻訳]
 
 <br>
 
 
 **22. Loss function ― In the case of a recurrent neural network, the loss function L of all time steps is defined based on the loss at every time step as follows:**
 
-&#10230;損失関数 - リカレントニューラルネットワークの場合、時間軸全体での損失関数Lは、各時点での損失に基づき、次のように定義されます。
+&#10230;損失関数 - リカレントニューラルネットワークの場合、時間軸全体での損失関数Lは、各時点での損失に基づき、次のように定義されます:
 
 <br>
 
 
 **23. Backpropagation through time ― Backpropagation is done at each point in time. At timestep T, the derivative of the loss L with respect to weight matrix W is expressed as follows:**
 
-&#10230;時間軸での誤差逆伝播法 - 誤差逆伝播(バックプロパゲーション)が各時点で行われます。時刻 T における、重み行列 W に関する損失 L の導関数は以下のように表されます。
+&#10230;時間軸での誤差逆伝播法 - 誤差逆伝播(バックプロパゲーション)が各時点で行われます。時刻 T における、重み行列 W に関する損失 L の導関数は以下のように表されます:
 
 <br>
 
@@ -172,14 +172,14 @@
 
 **25. Commonly used activation functions ― The most common activation functions used in RNN modules are described below:**
 
-&#10230;一般的に使用される活性化関数 - RNNモジュールで使用される最も一般的な活性化関数を以下に説明します。
+&#10230;一般的に使用される活性化関数 - RNNモジュールで使用される最も一般的な活性化関数を以下に説明します:
 
 <br>
 
 
 **26. [Sigmoid, Tanh, RELU]**
 
-&#10230;[シグモイド、Tanh、RELU]
+&#10230;[シグモイド、ハイパボリックタンジェント、RELU]
 
 <br>
 
@@ -207,21 +207,21 @@
 
 **30. Types of gates ― In order to remedy the vanishing gradient problem, specific gates are used in some types of RNNs and usually have a well-defined purpose. They are usually noted Γ and are equal to:**
 
-&#10230;ゲートの種類 - 勾配消失問題を解決するために、特定のゲートがいくつかのRNNで使用され、通常明確に定義された目的を持っています。それらは通常Γと記され、以下のように定義されます。
+&#10230;ゲートの種類 - 勾配消失問題を解決するために、特定のゲートがいくつかのRNNで使用され、通常明確に定義された目的を持っています。それらは通常Γと記され、以下のように定義されます:
 
 <br>
 
 
 **31. where W,U,b are coefficients specific to the gate and σ is the sigmoid function. The main ones are summed up in the table below:**
 
-&#10230;ここで、W、U、bはゲート固有の係数、σはシグモイド関数です。主なものは以下の表にまとめられています。
+&#10230;ここで、W、U、bはゲート固有の係数、σはシグモイド関数です。主なものは以下の表にまとめられています:
 
 <br>
 
 
 **32. [Type of gate, Role, Used in]**
 
-&#10230;[ゲートの種類、役割、下記で使用される]
+&#10230;[ゲートの種類、役割、下記で使用]
 
 <br>
 
@@ -242,35 +242,35 @@
 
 **35. [LSTM, GRU]**
 
-&#10230;[LSTM GRU]
+&#10230;[LSTM、GRU]
 
 <br>
 
 
 **36. GRU/LSTM ― Gated Recurrent Unit (GRU) and Long Short-Term Memory units (LSTM) deal with the vanishing gradient problem encountered by traditional RNNs, with LSTM being a generalization of GRU. Below is a table summing up the characterizing equations of each architecture:**
 
-&#10230;GRU/LSTM - ゲート付きリカレントユニット（GRU）およびロングショートタームメモリユニット（LSTM）は、従来のRNNが直面した勾配消失問題を解決しようとします。LSTMはGRUを一般化したものです。以下は、各アーキテクチャを特徴づける式をまとめた表です。
+&#10230;GRU/LSTM - ゲート付きリカレントユニット（GRU）およびロングショートタームメモリユニット（LSTM）は、従来のRNNが直面した勾配消失問題を解決しようとします。LSTMはGRUを一般化したものです。各アーキテクチャを特徴づける式を以下の表にまとめます:
 
 <br>
 
 
 **37. [Characterization, Gated Recurrent Unit (GRU), Long Short-Term Memory (LSTM), Dependencies]**
 
-&#10230;特徴づけ、ゲート付きリカレントユニット（GRU）、ロングショートタームメモリ（LSTM）、依存関係
+&#10230;[特徴づけ、ゲート付きリカレントユニット（GRU）、ロングショートタームメモリ（LSTM）、依存関係]
 
 <br>
 
 
 **38. Remark: the sign ⋆ denotes the element-wise multiplication between two vectors.**
 
-&#10230;備考：記号*は2つのベクトル間の要素ごとの乗算を表します。
+&#10230;備考：記号 ⋆ は2つのベクトル間の要素ごとの乗算を表します。
 
 <br>
 
 
 **39. Variants of RNNs ― The table below sums up the other commonly used RNN architectures:**
 
-&#10230;RNNの変種 - 以下の表は、一般的に使用されている他のRNNアーキテクチャをまとめたものです。
+&#10230;RNNの変種 - 一般的に使用されている他のRNNアーキテクチャを以下の表にまとめます:
 
 <br>
 
@@ -312,28 +312,28 @@
 
 **45. [1-hot representation, Word embedding]**
 
-&#10230;[1-hot表現、単語埋め込み]
+&#10230;[1-hot表現、単語埋め込み（単語分散表現）]
 
 <br>
 
 
 **46. [teddy bear, book, soft]**
 
-&#10230;テディベア、本、柔らかい
+&#10230;[テディベア、本、柔らかい]
 
 <br>
 
 
 **47. [Noted ow, Naive approach, no similarity information, Noted ew, Takes into account words similarity]**
 
-&#10230;[owと表記される、素朴なアプローチ、類似性情報なし、ewと表記される、単語の類似性を考慮に入れる]
+&#10230;[owの表記、素朴なアプローチ、類似性のない情報、ewの表記、単語の類似性の考慮]
 
 <br>
 
 
 **48. Embedding matrix ― For a given word w, the embedding matrix E is a matrix that maps its 1-hot representation ow to its embedding ew as follows:**
 
-&#10230;埋め込み行列 - 与えられた単語wに対して、埋め込み行列Eは、以下のように1-hot表現owを埋め込み行列ewに写像します。
+&#10230;埋め込み行列（分散表現行列） - 与えられた単語wに対して、埋め込み行列Eは、1-hot表現owを以下のように埋め込み行列ewに写像します:
 
 <br>
 
@@ -375,7 +375,7 @@
 
 **54. Skip-gram ― The skip-gram word2vec model is a supervised learning task that learns word embeddings by assessing the likelihood of any given target word t happening with a context word c. By noting θt a parameter associated with t, the probability P(t|c) is given by:**
 
-&#10230;スキップグラム - スキップグラムword2vecモデルは、あるターゲット単語tがコンテキスト単語cと一緒に出現する確率を評価することで単語の埋め込みを学習する教師付き学習タスクです。tに関するパラメータをθtと表記すると、その確率P(t|c) は下記の式で与えられます。
+&#10230;スキップグラム - スキップグラムword2vecモデルは、あるターゲット単語tがコンテキスト単語cと一緒に出現する確率を評価することで単語の埋め込みを学習する教師付き学習タスクです。tに関するパラメータをθtと表記すると、その確率P(t|c) は以下の式で与えられます:
 
 <br>
 
@@ -403,7 +403,7 @@
 
 **57bis. GloVe ― The GloVe model, short for global vectors for word representation, is a word embedding technique that uses a co-occurence matrix X where each Xi,j denotes the number of times that a target i occurred with a context j. Its cost function J is as follows:**
 
-&#10230;GloVe - GloVeモデルは、単語表現のためのグローバルベクトルの略で、共起行列Xを使用する単語の埋め込み手法です。ここで、各Xi,jは、ターゲットiがコンテキストjで発生した回数を表します。そのコスト関数Jは以下の通りです。
+&#10230;GloVe - GloVeモデルは、単語表現のためのグローバルベクトルの略で、共起行列Xを使用する単語の埋め込み手法です。ここで、各Xi,jは、ターゲットiがコンテキストjで発生した回数を表します。そのコスト関数Jは以下の通りです:
 
 <br>
 
@@ -411,7 +411,7 @@
 **58. where f is a weighting function such that Xi,j=0⟹f(Xi,j)=0.
 Given the symmetry that e and θ play in this model, the final word embedding e(final)w is given by:**
 
-&#10230;ここで、fはXi,j =0⟹f（Xi,j）= 0となるような重み関数です。このモデルでeとθが果たす対称性を考えると、最後の単語の埋め込みe（final）wは下記ののようになります。
+&#10230;ここで、fはXi,j =0⟹f（Xi,j）= 0となるような重み関数です。このモデルでeとθが果たす対称性を考えると、最後の単語の埋め込みe（final）wは以下のようになります:
 
 <br>
 
@@ -432,7 +432,7 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 
 **61. Cosine similarity ― The cosine similarity between words w1 and w2 is expressed as follows:**
 
-&#10230;コサイン類似度 - 単語w1とw2のコサイン類似度は次のように表されます。
+&#10230;コサイン類似度 - 単語w1とw2のコサイン類似度は次のように表されます
 
 <br>
 
@@ -481,7 +481,7 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 
 **68. Perplexity ― Language models are commonly assessed using the perplexity metric, also known as PP, which can be interpreted as the inverse probability of the dataset normalized by the number of words T. The perplexity is such that the lower, the better and is defined as follows:**
 
-&#10230;パープレキシティ - 言語モデルは一般的に、PPとも呼ばれるパープレキシティメトリックを使用して評価されます。これは、単語数Tにより正規化されたデータセットの逆確率と解釈できます。パープレキシティは低いほど良く、次のように定義されます。
+&#10230;パープレキシティ - 言語モデルは一般的に、PPとも呼ばれるパープレキシティメトリックを使用して評価されます。これは、単語数Tにより正規化されたデータセットの逆確率と解釈できます。パープレキシティは低いほど良く、次のように定義されます:
 (訳注:パープレキシティの数値はより低いものがより選択しやすい単語として評価されます。10であれば10個の中から1つ、10000であれば10000個の中から1つ選択されます。)
 
 <br>
@@ -503,7 +503,7 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 
 **71. Overview ― A machine translation model is similar to a language model except it has an encoder network placed before. For this reason, it is sometimes referred as a conditional language model. The goal is to find a sentence y such that:**
 
-&#10230;概要 - 機械翻訳モデルは、エンコーダーネットワークのロジックが最初に付加されている以外は、言語モデルと似ています。このため、条件付き言語モデルと呼ばれることもあります。目的は次のような文yを見つけることです。
+&#10230;概要 - 機械翻訳モデルは、エンコーダーネットワークのロジックが最初に付加されている以外は、言語モデルと似ています。このため、条件付き言語モデルと呼ばれることもあります。目的は次のような文yを見つけることです:
 
 <br>
 
@@ -517,7 +517,7 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 
 **73. [Step 1: Find top B likely words y<1>, Step 2: Compute conditional probabilities y<k>|x,y<1>,...,y<k−1>, Step 3: Keep top B combinations x,y<1>,...,y<k>, End process at a stop word]**
 
-&#10230;［ステップ１：上位Ｂ個の高い確率を持つ単語y<1>を見つける。ステップ２：条件付き確率y<k>|x,y<1>,...,y<k−1>を計算する。ステップ３：上位Ｂ個の組み合わせx,y<1>,...,y<k>を保持する。あるストップワードでプロセスを終了する]
+&#10230;［ステップ１：上位Ｂ個の高い確率を持つ単語y<1>を見つけ、ステップ２：条件付き確率y<k>|x,y<1>,...,y<k−1>を計算し、ステップ３：上位Ｂ個の組み合わせx,y<1>,...,y<k>を保持し、あるストップワードでプロセスを終了します]
 
 <br>
 
@@ -538,21 +538,21 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 
 **76. Length normalization ― In order to improve numerical stability, beam search is usually applied on the following normalized objective, often called the normalized log-likelihood objective, defined as:**
 
-&#10230;文章の長さの正規化 - 数値の安定性を向上させるために、ビーム検索は通常次のように正規化（対数尤度正規化）された目的関数に対して適用されます。
+&#10230;文章の長さの正規化 - 数値の安定性を向上させるために、ビーム検索は通常、正規化（対数尤度正規化）された目的関数に対して適用され、次のように定義されます:
 
 <br>
 
 
 **77. Remark: the parameter α can be seen as a softener, and its value is usually between 0.5 and 1.**
 
-&#10230;注：パラメータαは緩衝パラメータと見なされ、その値は通常0.5から1の間です。
+&#10230;注：パラメータαは緩衝パラメータと見なされ、その値は通常、0.5から1の間です。
 
 <br>
 
 
 **78. Error analysis ― When obtaining a predicted translation ˆy that is bad, one can wonder why we did not get a good translation y∗ by performing the following error analysis:**
 
-&#10230;エラー分析 - 予測されたˆyの翻訳が良くない場合、以下のようなエラー分析を実行することで、なぜy∗のような良い翻訳を得られなかったのか考えることが可能です。
+&#10230;エラー分析 - 予測されたˆyの翻訳が良くない場合、以下のようなエラー分析を実行することで、なぜy∗のような良い翻訳を得られなかったのか考えることが可能です:
 
 <br>
 
@@ -573,14 +573,14 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 
 **81. Bleu score ― The bilingual evaluation understudy (bleu) score quantifies how good a machine translation is by computing a similarity score based on n-gram precision. It is defined as follows:**
 
-&#10230;Bleuスコア - Bleu（Bilingual evaluation understudy）スコアは、n-gramの精度に基づき類似性スコアを計算することで、機械翻訳がどれほど優れているかを定量化します。以下のように定義されています。
+&#10230;Bleuスコア - Bleu（Bilingual evaluation understudy）スコアは、n-gramの精度に基づき類似性スコアを計算することで、機械翻訳がどれほど優れているかを定量化します。以下のように定義されています:
 
 <br>
 
 
 **82. where pn is the bleu score on n-gram only defined as follows:**
 
-&#10230;ここで、pnはn-gramでのbleuスコアで下記のようにだけ定義されています。
+&#10230;ここで、pnはn-gramでのbleuスコアで下記のようにだけ定義されています:
 
 <br>
 
@@ -601,7 +601,7 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 
 **85. Attention model ― This model allows an RNN to pay attention to specific parts of the input that is considered as being important, which improves the performance of the resulting model in practice. By noting α<t,t′> the amount of attention that the output y<t> should pay to the activation a<t′> and c<t> the context at time t, we have:**
 
-&#10230;アテンションモデル - このモデルを使用するとRNNは重要であると考えられる入力の特定部分に注目することができ、得られるモデルの性能が実際に向上します。時刻tにおいて、出力y<t>が活性化関数a<t'>とコンテキストc<t>とに払うべき注意量をα<t,t′>と表記すると次のようになります。
+&#10230;アテンションモデル - このモデルを使用するとRNNは重要であると考えられる入力の特定部分に注目することができ、得られるモデルの性能が実際に向上します。時刻tにおいて、出力y<t>が活性化関数a<t'>とコンテキストc<t>とに払うべき注意量をα<t,t′>と表記すると次のようになります:
 
 <br>
 
@@ -643,7 +643,7 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 
 **91. The Deep Learning cheatsheets are now available in [target language].**
 
-&#10230;ディープラーニングのチートシートが日本語で利用可能になりました。
+&#10230;ディープラーニングのチートシートが[日本語]で利用可能になりました。
 
 <br>
 

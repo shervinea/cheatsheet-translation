@@ -12,13 +12,13 @@
 
 **3. Neural networks are a class of models that are built with layers. Commonly used types of neural networks include convolutional and recurrent neural networks.**
 
-&#10230;Jaringan Saraf adalah sebuah kelas model yang dibentuk dari beberapa lapisan (layer). Tipe-tipe jaringan ini meliputi neural network convolution dan recurrent.
+&#10230;*Neural networks* adalah sebuah kelas model yang dibentuk dari beberapa lapisan. Tipe-tipe jaringan ini meliputi jaringan konvolusi dan *recurrent neural networks*.
 
 <br>
 
 **4. Architecture ― The vocabulary around neural networks architectures is described in the figure below:**
 
-&#10230;Arsitektur - Kosa kata pada aritekture neural network dijelaskan pada gambar di bawah ini:
+&#10230;Arsitektur ― Kosa kata seputar arsitektur jaringan saraf dijelaskan pada gambar di bawah ini:
 
 <br>
 
@@ -30,19 +30,19 @@
 
 **6. By noting i the ith layer of the network and j the jth hidden unit of the layer, we have:**
 
-&#10230;Dengan menuliskan i sebagai layer ke-i dari network dan j sebagai hidden unit ke-j dari layer, kita mendapatkan
+&#10230;Dengan menuliskan i sebagai lapisan ke-i dari network dan j sebagai hidden unit ke-j dari lapisan, kita mendapatkan:
 
 <br>
 
 **7. where we note w, b, z the weight, bias and output respectively.**
 
-&#10230;dimana w, b, z adalah weight, bias, dan keluaran neural network.
+&#10230;di mana kita menulis w, b, z sebagai secara berturut-turut bobot, simpangan, dan keluaran.
 
 <br>
 
 **8. Activation function ― Activation functions are used at the end of a hidden unit to introduce non-linear complexities to the model. Here are the most common ones:**
 
-&#10230;Fungsi aktifasi- Fungsi aktifasi digunakan setelah sebuah hidden unit agar model dapat memodelkan permasalahan non-linear. Berikut adalah fungsi aktifasi yang sering digunakan:
+&#10230;Fungsi aktivasi - Fungsi aktivasi digunakan oleh sebuah hidden unit akhir untuk mengenalkan kompleksitas non-linear kepada mode tersebut. Berikut ini adalah fungsi aktivasi yang sering digunakan:
 
 <br>
 
@@ -54,25 +54,25 @@
 
 **10. Cross-entropy loss ― In the context of neural networks, the cross-entropy loss L(z,y) is commonly used and is defined as follows:**
 
-&#10230;Fungsi loss cross-entropy - Pada neural network, loss cross-entropy L(z,y) adalah fungsi loss yang sering digunakan dan didefinisikan sebagai berikut:
+&#10230;*Cross-entropy loss* - Pada neural network, *cross-entropy loss* L(z,y) adalah fungsi loss yang umumnya digunakan dan didefinisikan sebagai berikut:
 
 <br>
 
 **11. Learning rate ― The learning rate, often noted α or sometimes η, indicates at which pace the weights get updated. This can be fixed or adaptively changed. The current most popular method is called Adam, which is a method that adapts the learning rate.**
 
-&#10230;Learning rate- Learning rate, sering dituliskan sebagai α atau η, mendefinisikan seberapa cepat nilai weight diperbaharui. Learning rate bisa diset dengan nilai fix atau dirubah secara adaptif. Metode yang paling terkenal saat ini adalah Adam, sebuah method yang merubah learning rate secara adaptif.
+&#10230;*Learning rate* - *Learning rate*, sering dituliskan sebagai α atau η, menunjukkan seberapa cepat nilai *weight* dapat diperbaharui. *Learning rate* bisa dimanipulasi atau diubah secara adaptif. Metode yang paling terkenal saat ini adalah Adam, sebuah method yang mengubah *learning rate* secara adaptif.
 
 <br>
 
 **12. Backpropagation ― Backpropagation is a method to update the weights in the neural network by taking into account the actual output and the desired output. The derivative with respect to weight w is computed using chain rule and is of the following form:**
 
-&#10230;Backpropagation - Backpropagation adalah method untuk mengubah nilai weight pada neural network dengan mempertimbangkan perbedaan dari keluaran prediksi dan keluaran yang diinginkan. Turunan terhadap weight w dihitung menggunakan chain rule dan dapat diformulakan dengan:
+&#10230;*Backpropagation* - *Backpropagation* adalah sebuah metode untuk mengubah nilai *weight* pada *neural network* dengan mempertimbangkan perbedaan dari keluaran prediksi dan keluaran yang diinginkan. Turunan terhadap *weight* w dihitung menggunakan *chain rule* dan dapat diformulasikan dengan:
 
 <br>
 
 **13. As a result, the weight is updated as follows:**
 
-&#10230;Oleh karena itu, nilai weight diubah dengan formula sebagai berikut
+&#10230;Akibatnya, nilai *weight* diubah dengan formula sebagai berikut:
 
 <br>
 
@@ -84,13 +84,13 @@
 
 **15. Step 1: Take a batch of training data.**
 
-&#10230;Ambil sebuah batch (sample, contoh dari 100 training data ambil 50 data) dari training data.
+&#10230;Tahap 1: Ambil sebuah *batch* (sample, contoh dari 100 training data ambil 50 data) dari *training data*.
 
 <br>
 
 **16. Step 2: Perform forward propagation to obtain the corresponding loss.**
 
-&#10230;Lakukan perhitungan forward propagation dan hitung loss berdasarkan keluaran prediksi dan yang diinginkan.
+&#10230;Tahap 2: Lakukan perhitungan *forward propagation* untuk memperoleh data dari *loss* yang bersangkutan.
 
 <br>
 
@@ -264,7 +264,7 @@
 
 **45. 2) We iterate the value based on the values before:**
 
-&#10230;Kita melakukan iterasi value berdasarkan value sebelumnya
+&#10230;Kita melakukan *iterasi value* berdasarkan *value* sebelumnya:
 
 <br>
 
@@ -276,7 +276,7 @@
 
 **47. times took action a in state s and got to s′**
 
-&#10230;Jumlah melakukan aksi a pada state s dan menuju state s'
+&#10230;Masa melakukan aksi a pada *state* s dan menuju *state* s
 
 <br>
 
@@ -300,13 +300,13 @@
 
 **51. [Neural Networks, Architecture, Activation function, Backpropagation, Dropout]**
 
-&#10230;[Neural Network, Arsitektur, Fungsi-fungsi Aktifasi, Bakcpropagation, Dropout]
+&#10230;[*Neural Network*, Arsitektur, Fungsi-fungsi Aktivasi, *Backpropagation*, *Dropout*]
 
 <br>
 
 **52. [Convolutional Neural Networks, Convolutional layer, Batch normalization]**
 
-&#10230;[Convolutional Neural Network, Layer Convolutional, Normalisasi Batch]
+&#10230;[*Convolutional Neural Network*, Layer Konvolusi, *Batch normalization*]
 
 <br>
 
@@ -318,4 +318,4 @@
 
 **54. [Reinforcement learning, Markov decision processes, Value/policy iteration, Approximate dynamic programming, Policy search]**
 
-&#10230;[Reinforcement learning, Markov decision processes, Iterasi Value/policy, Approximate dynamic programming, Policy search]
+&#10230;[*Reinforcement learning*, *Markov decision processes*, Iterasi Value/kebijakan, *Approximate dynamic programming*, Pencarian kebijakan]

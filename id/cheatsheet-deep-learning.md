@@ -120,7 +120,7 @@
 
 **21. Convolutional layer requirement ― By noting W the input volume size, F the size of the convolutional layer neurons, P the amount of zero padding, then the number of neurons N that fit in a given volume is such that:**
 
-&#10230;Ketentuan layer convolutional - Dengan mendefinisikan W sebagai ukuran volume (dimensi) dari masukan, F sebagai jumlah neuron (yang diinginkan) pada layer convolutional, P sebagai jumlah zero padding (penambahan nilai zero pada masukan), maka jumlah neuron N yang sesuai dengan ukuran dimensi masukan adalah:
+&#10230;Ketentuan layer konvolusi - Dengan mendefinisikan W sebagai masukan dari ukuran volume (dimensi), F sebagai besaran neuron dari layer konvolusi, P sebagai jumlah *zero padding*, maka jumlah neuron N yang sesuai dengan ukuran dimensi masukan adalah:
 
 <br>
 
@@ -168,7 +168,7 @@
 
 **29. Reinforcement Learning and Control**
 
-&#10230;Reinforcement Learning dan Kontrol
+&#10230;*Reinforcement Learning* dan Kontrol
 
 <br>
 
@@ -222,25 +222,25 @@
 
 **38. Policy ― A policy π is a function π:S⟶A that maps states to actions.**
 
-&#10230;Kebijakan - sebuah kebijakan adalah sebuah fungsi π:S⟶A yang memetakan state-state ke aksi-aksi.
+&#10230;Kebijakan ― Sebuah kebijakan adalah sebuah fungsi π:S⟶A yang memetakan tahap-tahap ke aksi-aksi.
 
 <br>
 
 **39. Remark: we say that we execute a given policy π if given a state s we take the action a=π(s).**
 
-&#10230;Perlu diperhatikan: kita mengatakan bahwa kita mengeksekusi sebuah kebijakan π jika sebuah state s maka kita melakukan aksi a=π(s).
+&#10230;Catatan: kita mengatakan bahwa kita menjalankan sebuah kebijakan π jika diberikan sebuah *state* s maka kita mengambil tindakan a=π(s).
 
 <br>
 
 **40. Value function ― For a given policy π and a given state s, we define the value function Vπ as follows:**
 
-&#10230;Fungsi value - Untuk sebuah kebijakan π dan sebuah state s, kita mendefinisikan fungsi value Vπ sebagai berikut:
+&#10230;Fungsi *value* - Untuk sebuah kebijakan π dan sebuah state s, kita mendefinisikan fungsi *value* Vπ sebagai berikut:
 
 <br>
 
 **41. Bellman equation ― The optimal Bellman equations characterizes the value function Vπ∗ of the optimal policy π∗:**
 
-&#10230;Bellman equation - Persamaan optimal Bellman menandakan fungsi value Vπ∗ dari kebijakan yang optimal π∗:
+&#10230;Persamaan Bellman - Persamaan optimal Bellman bercirikan dengan fungsi *value* Vπ∗ dari kebijakan yang terbaik π∗:
 
 <br>
 

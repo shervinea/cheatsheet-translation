@@ -228,7 +228,7 @@
 
 **39. Remark: ordinary least squares and logistic regression are special cases of generalized linear models.**
 
-&#10230; Chú ý: Bình phương nhỏ nhất thông thường và logistic regression đều là các trường hợp đặc biệt của các mô hình tuyến tính tổng quát.
+&#10230; Chú ý: Bình phương nhỏ nhất thông thường và hồi quy logistic đều là các trường hợp đặc biệt của các mô hình tuyến tính tổng quát.
 
 <br>
 
@@ -438,7 +438,7 @@
 
 **74. Remark: The higher the parameter k, the higher the bias, and the lower the parameter k, the higher the variance.**
 
-&#10230; Chú ý: Tham số k cao hơn, bias cao hơn, tham số k thấp hơn, phương sai cao hơn
+&#10230; Chú ý: Tham số k cao hơn, độ chệch (bias) cao hơn, tham số k thấp hơn, phương sai cao hơn
 
 <br>
 

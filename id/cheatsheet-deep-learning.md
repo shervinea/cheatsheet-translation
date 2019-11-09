@@ -108,13 +108,13 @@
 
 **19. Dropout ― Dropout is a technique meant at preventing overfitting the training data by dropping out units in a neural network. In practice, neurons are either dropped with probability p or kept with probability 1−p**
 
-&#10230;Dropout - Dropout adalah sebuah teknik yang digunakan untuk mencegah overfitting pada saraf tiruan dengan men-drop out unit pada sebuah neural network. Pada pengaplikasiannya, neuron di drop dengan probabilitas p atau dipertahankan dengan probabilitas 1-p
+&#10230;*Droput* - *Dropout* adalah sebuah teknik yang digunakan untuk mencegah *overfitting* pada saraf tiruan dengan memutus unit yang terdapat pada sebuah *neural network*. Dalam praktiknya, neuron dikurangi dengan probabilitas p atau dipertahankan dengan probabilitas 1-p
 
 <br>
 
 **20. Convolutional Neural Networks**
 
-&#10230;Convolutional Neural Network
+&#10230;*Convolutional Neural Network*
 
 <br>
 
@@ -132,13 +132,13 @@
 
 **23. It is usually done after a fully connected/convolutional layer and before a non-linearity layer and aims at allowing higher learning rates and reducing the strong dependence on initialization.**
 
-&#10230;Batch normalisasi biasa ditempatkan setelah sebuah layer fully-connected atau convolutional dan sebelum sebuah non-linear layer yang bertujun untuk memungkinkannya penggunaan nilai learning rate yang lebih tinggi dan mengurangi ketergantungan model pada nilai inisialisasi parameter.
+&#10230;Normalisasi *batch* - Normalisasi *batch* adalah sebuah langkah dari hiperparameter γ,β untuk menormalisasi *batch* {xi}. Dengan mendefinisikan μB,σ2B sebagai nilai rata-rata dan variansi dari *batch* yang ingin kita normalisasi, hal tersebut dapat dilakukan dengan cara:
 
 <br>
 
 **24. Recurrent Neural Networks**
 
-&#10230;Recurrent Neural Networks
+&#10230;*Recurrent Neural Networks*
 
 <br>
 
@@ -258,7 +258,7 @@
 
 **44. 1) We initialize the value:**
 
-&#10230;Kita menginialisasi value
+&#10230;Kita menginialisasi *value*
 
 <br>
 

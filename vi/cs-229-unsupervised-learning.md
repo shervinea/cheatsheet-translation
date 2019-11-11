@@ -52,49 +52,49 @@
 
 **9. [Mixture of k Gaussians, Factor analysis]**
 
-&#10230;
+&#10230; [Sự kết hợp của k Gaussians, Phân tích hệ số]
 
 <br>
 
 **10. Algorithm ― The Expectation-Maximization (EM) algorithm gives an efficient method at estimating the parameter θ through maximum likelihood estimation by repeatedly constructing a lower-bound on the likelihood (E-step) and optimizing that lower bound (M-step) as follows:**
 
-&#10230;
+&#10230; Thuật toán - Thuật toán tối đa hoá kì vọng (EM) mang lại một phương thức có hiệu quả trong việc ước lượng tham số θ thông qua tối đa hoá giá trị ước lượng likelihood bằng cách lặp lại việc tạo nên một cận dưới cho likelihood (E-step) và tối ưu hoá cận dưới (M-step) như sau:   
 
 <br>
 
 **11. E-step: Evaluate the posterior probability Qi(z(i)) that each data point x(i) came from a particular cluster z(i) as follows:**
 
-&#10230;
+&#10230; E-step: Đánh giá xác suất hậu nghiệm Qi(z(i)) cho mỗi điểm dữ liệu x(i) đến từ một cụm z(i) cụ thể như sau:
 
 <br>
 
 **12. M-step: Use the posterior probabilities Qi(z(i)) as cluster specific weights on data points x(i) to separately re-estimate each cluster model as follows:**
 
-&#10230;
+&#10230; M-step: Sử dụng xác suất hậu nghiệm Qi(z(i)) như các trọng số cụ thể của cụm trên các điểm dữ liệu x(i) để ước lượng lại một cách riêng biệt cho mỗi mô hình cụm như sau:
 
 <br>
 
 **13. [Gaussians initialization, Expectation step, Maximization step, Convergence]**
 
-&#10230;
+&#10230; [Khởi tạo Gaussians, Bước kì vọng, Bước tối đa hoá, Hội tụ]
 
 <br>
 
 **14. k-means clustering**
 
-&#10230;
+&#10230; Phân cụm k-means
 
 <br>
 
 **15. We note c(i) the cluster of data point i and μj the center of cluster j.**
 
-&#10230;
+&#10230; Chúng ta kí hiệu c(i) là cụm của điểm dữ liệu i và μj là điểm trung tâm của cụm j.
 
 <br>
 
 **16. Algorithm ― After randomly initializing the cluster centroids μ1,μ2,...,μk∈Rn, the k-means algorithm repeats the following step until convergence:**
 
-&#10230;
+&#10230; Thuật toán - Sau khi khởi tạo ngẫu nhiên các tâm của cụm (centroids) μ1,μ2,...,μk∈Rn, thuật toán k-means lặp lại bước sau cho đến khi hội tụ:
 
 <br>
 

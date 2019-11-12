@@ -100,31 +100,31 @@
 
 **17. [Means initialization, Cluster assignment, Means update, Convergence]**
 
-&#10230;
+&#10230; [Khởi tạo giá trị trung bình, Gán cụm, Cập nhật giá trị trung bình, Hội tụ]
 
 <br>
 
 **18. Distortion function ― In order to see if the algorithm converges, we look at the distortion function defined as follows:**
 
-&#10230;
+&#10230; Hàm Distortion - Để nhận biết khi nào thuật toán hội tụ, chúng ta sẽ xem xét hàm distortion được định nghĩa như sau: 
 
 <br>
 
 **19. Hierarchical clustering**
 
-&#10230;
+&#10230; Hierarchical clustering
 
 <br>
 
 **20. Algorithm ― It is a clustering algorithm with an agglomerative hierarchical approach that build nested clusters in a successive manner.**
 
-&#10230;
+&#10230; Thuật toán - Là một thuật toán phân cụm với cách tiếp cận phân cấp kết tập, cách tiếp cận này sẽ xây dựng các cụm lồng nhau theo một quy tắc nối tiếp.
 
 <br>
 
 **21. Types ― There are different sorts of hierarchical clustering algorithms that aims at optimizing different objective functions, which is summed up in the table below:**
 
-&#10230;
+&#10230; Các loại - Các loại thuật toán hierarchical clustering khác nhau với mục tiêu là tối ưu hoá các hàm đối tượng khác nhau sẽ được tổng kết trong bảng dưới đây:
 
 <br>
 

@@ -74,14 +74,14 @@
 
 **11. Architecture of a traditional RNN ― Recurrent neural networks, also known as RNNs, are a class of neural networks that allow previous outputs to be used as inputs while having hidden states. They are typically as follows:**
 
-&#10230; Kiến trúc của một mạng RNN truyền thống - Các mạng neural hồi quy, còn được biến đến như là RNNs, là một lớp của mạng neural cho phép đầu ra của tầng trước được sử dụng như đầu vào của tầng kế tiếp khi có các trạng thái ẩn. Thông thường là như sau:
+&#10230; Kiến trúc của một mạng RNN truyền thống - Các mạng neural hồi quy, còn được biến đến như là RNNs, là một lớp của mạng neural cho phép đầu ra được sử dụng như đầu vào trong khi có các trạng thái ẩn. Thông thường là như sau:
 
 <br>
 
 
 **12. For each timestep t, the activation a<t> and the output y<t> are expressed as follows:**
 
-&#10230; Tại mỗi bước t, hàm activation a<t> và đầu ra y<t> được biểu diễn như sau:
+&#10230; Tại mỗi bước t, giá trị kích hoạt a<t> và đầu ra y<t> được biểu diễn như sau:
 
 <br>
 
@@ -284,7 +284,7 @@
 
 **41. Learning word representation**
 
-&#10230; Học thể hiện từ
+&#10230; Học từ đại diện
 
 <br>
 
@@ -305,7 +305,7 @@
 
 **44. Representation techniques ― The two main ways of representing words are summed up in the table below:**
 
-&#10230; Các kĩ thuật biểu diễn - Có hai cách chính của biểu diễn các từ được tổng kết ở bảng bên dưới:
+&#10230; Các kĩ thuật biểu diễn - Có hai cách chính để biểu diễn từ được tổng kết ở bảng bên dưới:
 
 <br>
 
@@ -558,7 +558,7 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 
 **79. [Case, Root cause, Remedies]**
 
-&#10230; [Trường hợp, Nguyên nhân xâu xa, Biện pháp khắc phục]
+&#10230; [Trường hợp, Nguyên nhân sâu xa, Biện pháp khắc phục]
 
 <br>
 
@@ -600,7 +600,7 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 
 **85. Attention model ― This model allows an RNN to pay attention to specific parts of the input that is considered as being important, which improves the performance of the resulting model in practice. By noting α<t,t′> the amount of attention that the output y<t> should pay to the activation a<t′> and c<t> the context at time t, we have:**
 
-&#10230; Attention model - Mô hình này cho phép một RNN chú ý lên các phần cụ thể của đầu vào được xem xét là quan trọng, nó giúp cải thiện hiệu năng của mô hình kết quả trong thực tế. Bằng việc kí hiệu α<t,t′> là mức độ chú ý mà đầu ra y<t> nên có đối với hàm kích hoạt a<t′> và c<t> là ngữ cảnh ở thời điểm t, chúng ta có:
+&#10230; Attention model - Mô hình này cho phép một RNN tập trung lên các phần cụ thể của đầu vào được xem xét là quan trọng, nó giúp cải thiện hiệu năng của mô hình kết quả trong thực tế. Bằng việc kí hiệu α<t,t′> là mức độ chú ý mà đầu ra y<t> nên có đối với hàm kích hoạt a<t′> và c<t> là ngữ cảnh ở thời điểm t, chúng ta có:
 
 <br>
 

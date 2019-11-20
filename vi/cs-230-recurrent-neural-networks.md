@@ -102,7 +102,7 @@
 
 **15. The pros and cons of a typical RNN architecture are summed up in the table below:**
 
-&#10230; pros và cons của một kiến trúc RNN thông thường được tổng kết ở bảng dưới đây:
+&#10230; Ưu và nhược điểm của một kiến trúc RNN thông thường được tổng kết ở bảng dưới đây:
 
 <br>
 
@@ -263,7 +263,7 @@
 
 **38. Remark: the sign ⋆ denotes the element-wise multiplication between two vectors.**
 
-&#10230; Chú ý: kí hiệu ⋆ chỉ phép nhân nguyên tố giữa hai vectors.
+&#10230; Chú ý: kí hiệu ⋆ chỉ phép nhân từng phần tử với nhau giữa hai vectors.
 
 <br>
 
@@ -403,7 +403,7 @@
 
 **57bis. GloVe ― The GloVe model, short for global vectors for word representation, is a word embedding technique that uses a co-occurence matrix X where each Xi,j denotes the number of times that a target i occurred with a context j. Its cost function J is as follows:**
 
-&#10230; GloVe - Mô hình GloVe, viết tắt của global vectors for word representation, nó là một kĩ thuật word embedding sử dụng ma trận đồng thời X với mỗi Xi,j là số lần mà target i xảy ra tại ngữ cảnh j. Cost function J của nó như sau:
+&#10230; GloVe - Mô hình GloVe, viết tắt của global vectors for word representation, nó là một kĩ thuật word embedding sử dụng ma trận đồng xuất hiện X với mỗi Xi,j là số lần mà từ đích (target) i xuất hiện tại ngữ cảnh j. Cost function J của nó như sau:
 
 <br>
 
@@ -600,7 +600,7 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 
 **85. Attention model ― This model allows an RNN to pay attention to specific parts of the input that is considered as being important, which improves the performance of the resulting model in practice. By noting α<t,t′> the amount of attention that the output y<t> should pay to the activation a<t′> and c<t> the context at time t, we have:**
 
-&#10230; Attention model - Mô hình này cho phép một RNN tập trung lên các phần cụ thể của đầu vào được xem xét là quan trọng, nó giúp cải thiện hiệu năng của mô hình kết quả trong thực tế. Bằng việc kí hiệu α<t,t′> là mức độ chú ý mà đầu ra y<t> nên có đối với hàm kích hoạt a<t′> và c<t> là ngữ cảnh ở thời điểm t, chúng ta có:
+&#10230; Attention model - Mô hình này cho phép một RNN tập trung vào các phần cụ thể của đầu vào được xem xét là quan trọng, nó giúp cải thiện hiệu năng của mô hình kết quả trong thực tế. Bằng việc kí hiệu α<t,t′> là mức độ chú ý mà đầu ra y<t> nên có đối với hàm kích hoạt a<t′> và c<t> là ngữ cảnh ở thời điểm t, chúng ta có:
 
 <br>
 

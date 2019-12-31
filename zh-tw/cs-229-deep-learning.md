@@ -13,7 +13,7 @@
 3. **Neural networks are a class of models that are built with layers. Commonly used types of neural networks include convolutional and recurrent neural networks.**
 
 &#10230;
-神經網路是一種透過 layer 來建構的模型。經常被使用的神經網路模型包括了卷積神經網路 (CNN) 和遞迴式神經網路 (RNN)。
+神經網路是一種透過層來建構的模型。經常被使用的神經網路模型包括了卷積神經網路 (CNN) 和遞迴式神經網路 (RNN)。
 <br>
 
 4. **Architecture ― The vocabulary around neural networks architectures is described in the figure below:**
@@ -43,19 +43,19 @@
 8. **Activation function ― Activation functions are used at the end of a hidden unit to introduce non-linear complexities to the model. Here are the most common ones:**
 
 &#10230;
-Activation function - Activation function 是為了在每一層尾端的神經元帶入非線性轉換而設計的。底下是一些常見 Activation function：
+激活函數 - 激活函數是為了在每一層尾端的神經元帶入非線性轉換而設計的。底下是一些常見激活函數：
 <br>
 
 9. **[Sigmoid, Tanh, ReLU, Leaky ReLU]**
 
 &#10230;
-[Sigmoid, Tanh, ReLU, Leaky ReLU]
+[Sigmoid, 雙曲正切函數, 線性整流函數, 洩漏線性整流函數]
 <br>
 
 10. **Cross-entropy loss ― In the context of neural networks, the cross-entropy loss L(z,y) is commonly used and is defined as follows:**
 
 &#10230;
-交叉熵損失函式
+交叉熵損失函式 - 在神經網路中，時常使用交叉熵損失函式 L(z,y),定義如下:
 <br>
 
 11. **Learning rate ― The learning rate, often noted α or sometimes η, indicates at which pace the weights get updated. This can be fixed or adaptively changed. The current most popular method is called Adam, which is a method that adapts the learning rate.**
@@ -121,7 +121,7 @@ Dropout - Dropout 是一種透過丟棄一些神經元，來避免過擬和的�
 21. **Convolutional layer requirement ― By noting W the input volume size, F the size of the convolutional layer neurons, P the amount of zero padding, then the number of neurons N that fit in a given volume is such that:**
 
 &#10230;
-卷積層的需求 - 我們使用 W 來表示輸入資料的維度大小、F 代表卷積層的 filter 尺寸、P 代表對資料墊零 (zero padding) 使資料長度齊一後的長度，S 代表卷積後取出的特徵 stride 數量，則輸出的維度大小可以透過以下的公式表示：
+卷積層的需求 - 我們使用 W 來表示輸入資料的維度大小、F 代表卷積層的卷積核尺寸、P 代表對資料墊零 (zero padding) 使資料長度齊一後的長度，S 代表卷積後取出的特徵 stride 數量，則輸出的維度大小可以透過以下的公式表示：
 <br>
 
 22. **Batch normalization ― It is a step of hyperparameter γ,β that normalizes the batch {xi}. By noting μB,σ2B the mean and variance of that we want to correct to the batch, it is done as follows:**
@@ -289,7 +289,7 @@ R:S×A⟶R 或 R:S⟶R 指的是獎勵函數，也就是演算法想要去最大
 49. **Q-learning ― Q-learning is a model-free estimation of Q, which is done as follows:**
 
 &#10230;
-Q-learning 演算法 - Q-learning 演算法是針對 Q 的一個 model-free 的估計，如下：
+Q 學習演算法 - Q 學習演算法是針對 Q 的一個無模型的估計，如下：
 
 50. **View PDF version on GitHub**
 
@@ -300,7 +300,7 @@ Q-learning 演算法 - Q-learning 演算法是針對 Q 的一個 model-free 的�
 51. **[Neural Networks, Architecture, Activation function, Backpropagation, Dropout]**
 
 &#10230;
-[神經網路, 架構, Activation function, 反向傳播演算法, Dropout]
+[神經網路, 架構, 激活函數, 反向傳播演算法, Dropout]
 <br>
 
 52. **[Convolutional Neural Networks, Convolutional layer, Batch normalization]**

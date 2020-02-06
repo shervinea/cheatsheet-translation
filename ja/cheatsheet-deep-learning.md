@@ -12,13 +12,13 @@
 
 **3. Neural networks are a class of models that are built with layers. Commonly used types of neural networks include convolutional and recurrent neural networks.**
 
-&#10230; ニューラルネットワークとは複数の層を用いて組まれる数学モデルです。代表的なネットワークとして畳み込みと再帰型ニューラルネットワークが挙げられます。
+&#10230; ニューラルネットワークとは複数の層を用いて構成されたモデルの種類を指します。一般的に利用されるネットワークとして畳み込みニューラルネットワークとリカレントニューラルネットワークが挙げられます。
 
 <br>
 
 **4. Architecture ― The vocabulary around neural networks architectures is described in the figure below:**
 
-&#10230; 構造　－ ニューラルネットワークを組む上で重要な用語は以下の図により説明されます：
+&#10230; アーキテクチャ　－ ニューラルネットワークに関する用語は以下の図により説明されます：
 
 <br>
 
@@ -36,49 +36,49 @@
 
 **7. where we note w, b, z the weight, bias and output respectively.**
 
-&#10230; この場合重み付けをw、バイアス項をb、出力をzとします。
+&#10230; この場合重みをw、バイアス項をb、出力をzとします。
 
 <br>
 
 **8. Activation function ― Activation functions are used at the end of a hidden unit to introduce non-linear complexities to the model. Here are the most common ones:**
 
-&#10230; 活性化関数　ー ユニットの出力に非線形性を与える関数を活性化関数といいます。一般的には以下の関数がよく使われます：
+&#10230; 活性化関数　ー 活性化関数はモデルに非線形性を与えるために隠れユニットの最後で利用されます。一般的には以下の関数がよく使われます：
 
 <br>
 
 **9. [Sigmoid, Tanh, ReLU, Leaky ReLU]**
 
-&#10230; [Sigmoid(シグモイド関数), Tanh(双曲線関数), ReLU(ランプ関数), Leaky ReLU]
+&#10230; [Sigmoid(シグモイド関数), Tanh(双曲線関数), ReLU(正規化線形ユニット), Leaky ReLU(漏洩ReLU)]
 
 <br>
 
 **10. Cross-entropy loss ― In the context of neural networks, the cross-entropy loss L(z,y) is commonly used and is defined as follows:**
 
-&#10230; 交差エントロピーロス　ー ニューラルネットにおいて交差エントロピーロスL(z,y)は頻繁に使われ、以下のように定義されています：
+&#10230; 交差エントロピーロス　ー ニューラルネットにおいて交差エントロピーロスL(z,y)は一般的に使われ、以下のように定義されています：
 
 <br>
 
 **11. Learning rate ― The learning rate, often noted α or sometimes η, indicates at which pace the weights get updated. This can be fixed or adaptively changed. The current most popular method is called Adam, which is a method that adapts the learning rate.**
 
-&#10230; 学習率　ー αやηで表される学習率は勾配法による重み付けのアップデートをする速度を表します。学習率は固定または適応的に変更することができます。現在一般的に使われている学習法はAdam（アダム）であり、学習率を適用させる方法です。
+&#10230; 学習率　ー 学習率は多くの場合α、しばしばηで表記され、勾配法による重み付けのアップデートをする速度を表します。学習率は固定または適応的に変更することができます。現在一般的に使われている学習法はAdam（アダム）であり、学習率を適用的に変更する方法です。
 
 <br>
 
 **12. Backpropagation ― Backpropagation is a method to update the weights in the neural network by taking into account the actual output and the desired output. The derivative with respect to weight w is computed using chain rule and is of the following form:**
 
-&#10230; 誤差逆伝播法（backpropagation）ー 誤差逆伝播法はニューラルネットの期待される出力値と実際の出力の差異を考慮し重み付けのアップデートをする方法の一つです。重みwに関する導関数は連鎖規則を使用して計算され、次の形式で表される：
+&#10230; 誤差逆伝播法（backpropagation）ー 誤差逆伝播法はニューラルネットにおいて実際の出力と期待される出力との差異を考慮して重みを更新する方法の一つです。重みwに関する導関数は連鎖律を使用して計算され、次の形式で表されます：
 
 <br>
 
 **13. As a result, the weight is updated as follows:**
 
-&#10230; 結果、重みは以下のようにアップデートされます：
+&#10230; 結果として、重みは以下のように更新されます：
 
 <br>
 
 **14. Updating weights ― In a neural network, weights are updated as follows:**
 
-&#10230; 重みアップデート　ー ニューラルネットでは以下のように重みがアップデートされます：
+&#10230; 重みの更新 ー ニューラルネットでは以下のように重みが更新されます：
 
 <br>
 
@@ -90,25 +90,25 @@
 
 **16. Step 2: Perform forward propagation to obtain the corresponding loss.**
 
-&#10230; ステップ２：　フォワードプロパゲーションを行い誤差を求める。
+&#10230; ステップ２：　順伝播を行いそれに対する誤差を求める。
 
 <br>
 
 **17. Step 3: Backpropagate the loss to get the gradients.**
 
-&#10230; 求められた誤差を用い、傾斜を計算する。
+&#10230; 誤差を逆伝播し、勾配を計算する。
 
 <br>
 
 **18. Step 4: Use the gradients to update the weights of the network.**
 
-&#10230; 傾斜を使い誤差が小さくなるように重みを調整する。
+&#10230; 勾配を使いネットワークの重みを更新する。
 
 <br>
 
 **19. Dropout ― Dropout is a technique meant at preventing overfitting the training data by dropping out units in a neural network. In practice, neurons are either dropped with probability p or kept with probability 1−p**
 
-&#10230;ドロップアウト　ー ドロップアウトはニューラルネット内の一部のユニットを非活性化させることにより過学習を防ぐテクニックである。実際には、ニューロンはある確率pで非活性、1-pの確率で活性化されるようになってる。
+&#10230;ドロップアウト　ー ドロップアウトはニューラルネット内の一部のユニットを無効にすることで学習データへの過学習を防ぐテクニックです。実際には、ニューロンは確率pで無効、確率1-pで有効のどちらかになります。
 
 <br>
 
@@ -120,13 +120,13 @@
 
 **21. Convolutional layer requirement ― By noting W the input volume size, F the size of the convolutional layer neurons, P the amount of zero padding, then the number of neurons N that fit in a given volume is such that:**
 
-&#10230; 畳み込みレイヤーの条件　ー Wを入力サイズ、Fを畳み込みレイヤーニューロンのサイズ、Pをゼロパディングの量とすると、与えられた体積に収まるニューロン数Nは次のようになります。
+&#10230; 畳み込みレイヤーの条件　ー Wを入力サイズ、Fを畳み込み層のニューロンのサイズ、Pをゼロ埋めの量とすると、これらに対応するニューロンの数Nは次のようになります。
 
 <br>
 
 **22. Batch normalization ― It is a step of hyperparameter γ,β that normalizes the batch {xi}. By noting μB,σ2B the mean and variance of that we want to correct to the batch, it is done as follows:**
 
-&#10230; バッチ正規化　ー バッチ{xi}を正規化するハイパーパラメータγ、βのステップです。バッチに修正したい平均値と分散値をμB,σ2Bとすると、正規化は以下のように行われます:
+&#10230; バッチ正規化　ー バッチ{xi}を正規化するハイパーパラメータγ、βのステップです。補正を行うバッチの平均と分散をμB,σ2Bとすると、正規化は以下のように行われます:
 
 <br>
 
@@ -138,7 +138,7 @@
 
 **24. Recurrent Neural Networks**
 
-&#10230; 再帰型ニューラルネットワーク (RNN)
+&#10230; リカレントニューラルネットワーク (RNN)
 
 <br>
 
@@ -168,7 +168,7 @@
 
 **29. Reinforcement Learning and Control**
 
-&#10230; 強化学習とコントロール
+&#10230; 強化学習と制御
 
 <br>
 
@@ -192,13 +192,13 @@
 
 **33. S is the set of states**
 
-&#10230; Sは状態の有限集合
+&#10230; Sは状態の集合
 
 <br>
 
 **34. A is the set of actions**
 
-&#10230; Aは行動の有限集合
+&#10230; Aは行動の集合
 
 <br>
 
@@ -210,7 +210,7 @@
 
 **36. γ∈[0,1[ is the discount factor**
 
-&#10230; γ∈[0,1[は割引因子と呼ばれる値
+&#10230; γ∈[0,1[は割引因子
 
 <br>
 
@@ -222,31 +222,31 @@
 
 **38. Policy ― A policy π is a function π:S⟶A that maps states to actions.**
 
-&#10230; 政策 - 政策πは状態と行動を写像する関数π:S⟶A
+&#10230; 方策 - 方策πは状態を行動に写像する関数π:S⟶A
 
 <br>
 
 **39. Remark: we say that we execute a given policy π if given a state s we take the action a=π(s).**
 
-&#10230; 備考: 状態sを与えられた際に行動a=π(s)を行うことを政策πを実行すると言う。
+&#10230; 備考: 状態sを与えられた際に行動a=π(s)を行うことを方策πを実行すると言います。
 
 <br>
 
 **40. Value function ― For a given policy π and a given state s, we define the value function Vπ as follows:**
 
-&#10230; 価値関数 - ある政策πとある状態sにおいて価値関数Vπを以下のように定義する：
+&#10230; 価値関数 - ある方策πとある状態sにおける価値関数Vπを以下のように定義します：
 
 <br>
 
 **41. Bellman equation ― The optimal Bellman equations characterizes the value function Vπ∗ of the optimal policy π∗:**
 
-&#10230; ベルマン方程式 - 政策πをとった価値関数Vπ∗に対する最適なベルマン方程式：
+&#10230; ベルマン方程式 - 最適ベルマン方程式は最適方策π∗の価値関数Vπ∗で記述されます：
 
 <br>
 
 **42. Remark: we note that the optimal policy π∗ for a given state s is such that:**
 
-&#10230; 備考: 与えられた状態sに対する最適方針π*はこのようになります：
+&#10230; 備考: 与えられた状態sに対する最適方策π*はこのようになります：
 
 <br>
 
@@ -258,7 +258,7 @@
 
 **44. 1) We initialize the value:**
 
-&#10230; 1) 値を初期化する。
+&#10230; 1) 値を初期化する：
 
 <br>
 
@@ -288,7 +288,7 @@
 
 **49. Q-learning ― Q-learning is a model-free estimation of Q, which is done as follows:**
 
-&#10230;  Q学習　ー Q学習は数学モデルを使わないQ値の評価手法であり、以下のように行われる：
+&#10230;  Q学習 ― Q学習はモデルフリーのQ値の推定であり、以下のように行われます：
 
 <br>
 
@@ -306,16 +306,16 @@
 
 **52. [Convolutional Neural Networks, Convolutional layer, Batch normalization]**
 
-&#10230; [畳み込みニューラルネットワーク, 畳み込み層, バッチノーマライゼーション]
+&#10230; [畳み込みニューラルネットワーク, 畳み込み層, バッチ正規化]
 
 <br>
 
 **53. [Recurrent Neural Networks, Gates, LSTM]**
 
-&#10230; [再帰型ニューラルネットワーク, ゲート, LSTM]
+&#10230; [リカレントニューラルネットワーク, ゲート, LSTM]
 
 <br>
 
 **54. [Reinforcement learning, Markov decision processes, Value/policy iteration, Approximate dynamic programming, Policy search]**
 
-&#10230; [強化学習, マルコフ決定過程, バリュー/ポリシー反復, 近似動的計画法, ポリシーサーチ]
+&#10230; [強化学習, マルコフ決定過程, 価値/方策反復, 近似動的計画法, 方策探索]

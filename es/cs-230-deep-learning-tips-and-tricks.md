@@ -165,7 +165,7 @@
 
 **24. Cross-entropy loss ― In the context of binary classification in neural networks, the cross-entropy loss L(z,y) is commonly used and is defined as follows:**
 
-&#10230;
+&#10230;Pérdida de entropía cruzada - En el contexto de clasificación binaria con redes neuronales, la pérdida de entropía cruzada L(z,y) es utilizada comúnmente y definida de la siguiente manera:
 
 <br>
 
@@ -179,7 +179,7 @@
 
 **26. Backpropagation ― Backpropagation is a method to update the weights in the neural network by taking into account the actual output and the desired output. The derivative with respect to each weight w is computed using the chain rule.**
 
-&#10230;
+&#10230; Retropropagación - La retropropagación, o propagación inversa, es un método de actualización de los pesos en una red neuronal, teniendo en cuenta la salida actual y la salida esperada. La derivada respecto al peso w es calculada utilizando la regla de la cadena.
 
 <br>
 
@@ -284,7 +284,7 @@
 
 **41. [Method, Explanation, Update of w, Update of b]**
 
-&#10230;
+&#10230;[Método, Explicación, Actualización de w, Actualización de b]
 
 <br>
 
@@ -305,21 +305,21 @@
 
 **44. [Adam, Adaptive Moment estimation, Most popular method, 4 parameters to tune]**
 
-&#10230;
+&#10230; [Adam, Estimación adaptativa de momento, Método más popular, 4 parámetros que ajustar]
 
 <br>
 
 
 **45. Remark: other methods include Adadelta, Adagrad and SGD.**
 
-&#10230;
+&#10230; Observación: otros métodos incluyen Adadelta, Adagrad y SGD.
 
 <br>
 
 
 **46. Regularization**
 
-&#10230;
+&#10230; Regularización.
 
 <br>
 
@@ -333,7 +333,7 @@
 
 **48. Remark: most deep learning frameworks parametrize dropout through the 'keep' parameter 1−p.**
 
-&#10230;
+&#10230; Observación: la mayoría de los entornos de trabajo(frameworks) de aprendizaje profundo parametrizan el abandono mediante el parámetro 'keep' 1−p.
 
 <br>
 
@@ -360,14 +360,14 @@
 
 **52. [Error, Validation, Training, early stopping, Epochs]**
 
-&#10230;
+&#10230;[Error, Validación, Entrenamiento, Parada temprana, Épocas]
 
 <br>
 
 
 **53. Good practices**
 
-&#10230;
+&#10230; Buenas práctias.
 
 <br>
 
@@ -388,14 +388,14 @@
 
 **56. [Type, Numerical gradient, Analytical gradient]**
 
-&#10230;
+&#10230; [Tipo, Gradiente numérico, Gradiente Analítico]
 
 <br>
 
 
 **57. [Formula, Comments]**
 
-&#10230;
+&#10230; [Fórmula, Comentarios]
 
 <br>
 
@@ -409,7 +409,7 @@
 
 **59. ['Exact' result, Direct computation, Used in the final implementation]**
 
-&#10230;
+&#10230; [Resultado 'exacto', Computación directa, Usado en la implementación final]
 
 <br>
 
@@ -427,7 +427,7 @@
 
 **62.Translated by X, Y and Z**
 
-&#10230;
+&#10230; Traducido por Hugo Valencia Vargas.
 
 <br>
 
@@ -439,7 +439,7 @@
 
 **64.View PDF version on GitHub**
 
-&#10230;
+&#10230; Ver la version PDF en Github.
 
 <br>
 

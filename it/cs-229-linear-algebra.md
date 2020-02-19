@@ -24,13 +24,13 @@
 
 **4. Vector ― We note x∈Rn a vector with n entries, where xi∈R is the ith entry:**
 
-&#10230; Vettore - Definiamo x∈Rn un vettore con n elementi, dove xi∈R è l'i-esimo elemento:
+&#10230; Vettore ― Definiamo x∈Rn un vettore con n elementi, dove xi∈R è l'i-esimo elemento:
 
 <br>
 
 **5. Matrix ― We note A∈Rm×n a matrix with m rows and n columns, where Ai,j∈R is the entry located in the ith row and jth column:**
 
-&#10230; Matrice - Definiamo A∈Rm×n una matriche con m righe e n colonne, dove Ai,j∈R è l'elemento posizionato alla i-esima riga e j-esima colonna:
+&#10230; Matrice ― Definiamo A∈Rm×n una matriche con m righe e n colonne, dove Ai,j∈R è l'elemento posizionato alla i-esima riga e j-esima colonna:
 
 <br>
 
@@ -48,19 +48,19 @@
 
 **8. Identity matrix ― The identity matrix I∈Rn×n is a square matrix with ones in its diagonal and zero everywhere else:**
 
-&#10230; matrice identità - La matrice identità I∈Rn×n è una matrice quadrata con tutti 1 sulla diagonale principale e 0 in tutte le altre posizioni:
+&#10230; matrice identità ― La matrice identità I∈Rn×n è una matrice quadrata con tutti 1 sulla diagonale principale e 0 in tutte le altre posizioni:
 
 <br>
 
 **9. Remark: for all matrices A∈Rn×n, we have A×I=I×A=A.**
 
-&#10230; Osservazione: per tutte le matrici A∈Rn×n, si ha che A×I=I×A=A.
+&#10230; Osservazione: per tutte le matrici A∈Rn×n, abbiamo che A×I=I×A=A.
 
 <br>
 
 **10. Diagonal matrix ― A diagonal matrix D∈Rn×n is a square matrix with nonzero values in its diagonal and zero everywhere else:**
 
-&#10230; matrice diagonale - Una matrice diagonale D∈Rn×n è una matrice quadrata con valori diversi da zero sulla diagonale principale e zero in tutte le altre posizioni:
+&#10230; matrice diagonale ― Una matrice diagonale D∈Rn×n è una matrice quadrata con valori diversi da zero sulla diagonale principale e zero in tutte le altre posizioni:
 
 <br>
 
@@ -72,91 +72,91 @@
 
 **12. Matrix operations**
 
-&#10230;
+&#10230; Operazioni sulle matrici
 
 <br>
 
 **13. Multiplication**
 
-&#10230;
+&#10230; Moltiplicazione
 
 <br>
 
 **14. Vector-vector ― There are two types of vector-vector products:**
 
-&#10230;
+&#10230; Vettore-vettore ― Ci sono due tipi di prodotto vettore-vettore:
 
 <br>
 
 **15. inner product: for x,y∈Rn, we have:**
 
-&#10230;
+&#10230; prodotto scalare: per ogni x,y∈Rn, abbiamo che:
 
 <br>
 
 **16. outer product: for x∈Rm,y∈Rn, we have:**
 
-&#10230;
+&#10230; prodotto vettoriale: per ogni x∈Rm,y∈Rn, abbiamo che:
 
 <br>
 
 **17. Matrix-vector ― The product of matrix A∈Rm×n and vector x∈Rn is a vector of size Rn, such that:**
 
-&#10230;
+&#10230; Matrice-vettore ― Il prodotto di una matrice A∈Rm×n ed un vettore x∈Rn, è un vettore di dimensione Rn, tale che:
 
 <br>
 
 **18. where aTr,i are the vector rows and ac,j are the vector columns of A, and xi are the entries of x.**
 
-&#10230;
+&#10230; dove aTr,i sono i vettori riga, ac,j sono i vettori colonna di A e xi sono gli elementi di x.
 
 <br>
 
 **19. Matrix-matrix ― The product of matrices A∈Rm×n and B∈Rn×p is a matrix of size Rn×p, such that:**
 
-&#10230;
+&#10230; Matrice-matrice — Il prodotto di matrici A∈Rm×n e B∈Rn×p è una matriche di dimensione Rn×p, tale che:
 
 <br>
 
 **20. where aTr,i,bTr,i are the vector rows and ac,j,bc,j are the vector columns of A and B respectively**
 
-&#10230;
+&#10230; dove aTr,i,bTr,i sono i vettori riga e ac,j,bc,j sono i vettori colonna rispettivamente di A e di B
 
 <br>
 
 **21. Other operations**
 
-&#10230;
+&#10230; Altre operazioni
 
 <br>
 
 **22. Transpose ― The transpose of a matrix A∈Rm×n, noted AT, is such that its entries are flipped:**
 
-&#10230;
+&#10230; Trasposta — La trasposta di una matrice A∈Rm×n, indicata con AT, è tale che i suoi elementi sono scambiati:
 
 <br>
 
 **23. Remark: for matrices A,B, we have (AB)T=BTAT**
 
-&#10230;
+&#10230; Osservazione: per le matrici A,B abbiamo che (AB)T=BTAT
 
 <br>
 
 **24. Inverse ― The inverse of an invertible square matrix A is noted A−1 and is the only matrix such that:**
 
-&#10230;
+&#10230; Inversa — L'inversa di una matrice quadrata invertibile A è indicata con A-1 ed è l'unica matrice tale che:
 
 <br>
 
 **25. Remark: not all square matrices are invertible. Also, for matrices A,B, we have (AB)−1=B−1A−1**
 
-&#10230;
+&#10230; Osservazione: non tutte le matrici quadrate sono invertibili. Inoltre, per le matrici A,B, abbiamo che (AB)−1=B−1A−1
 
 <br>
 
 **26. Trace ― The trace of a square matrix A, noted tr(A), is the sum of its diagonal entries:**
 
-&#10230;
+&#10230; 
 
 <br>
 

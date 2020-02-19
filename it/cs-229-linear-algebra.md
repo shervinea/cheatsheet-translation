@@ -235,7 +235,7 @@ x,y∈V, abbiamo che:
 
 **39. Linearly dependence ― A set of vectors is said to be linearly dependent if one of the vectors in the set can be defined as a linear combination of the others.**
 
-&#10230; Linearmente dipendente — Un insieme di vettori è detto linearmente dipendente se uno dei vettori nell'insieme può essere definito come combinazione lineare degli altri.
+&#10230; Linearmente dipendente — Un insieme di vettori è detto linearmente dipendente, se uno dei vettori dell'insieme può essere definito come combinazione lineare degli altri.
 
 <br>
 
@@ -259,88 +259,88 @@ x,y∈V, abbiamo che:
 
 **43. Remark: similarly, a matrix A is said to be positive definite, and is noted A≻0, if it is a PSD matrix which satisfies for all non-zero vector x, xTAx>0.**
 
-&#10230;
+&#10230; Osservazione: analogamente, una matrice A è detta definita positiva, ed è indicata con A≻0, se è una matrice PSD che soddisfa per ogni vettore x non nullo, xTAx>0.
 
 <br>
 
 **44. Eigenvalue, eigenvector ― Given a matrix A∈Rn×n, λ is said to be an eigenvalue of A if there exists a vector z∈Rn∖{0}, called eigenvector, such that we have:**
 
-&#10230;
+&#10230; Autovalore, autovettore — Data una matrice A∈Rn×n, si dice che λ è un autovalore di A, se esiste un vettore z∈Rn∖{0}, chiamato autovettore, tale che abbiamo:
 
 <br>
 
 **45. Spectral theorem ― Let A∈Rn×n. If A is symmetric, then A is diagonalizable by a real orthogonal matrix U∈Rn×n. By noting Λ=diag(λ1,...,λn), we have:**
 
-&#10230;
+&#10230; Teorema spettrale — Sia A∈Rn×n. Se A è simmetrico, allora A è diagonalizzabile da una matrice reale ortogonale U∈Rn×n. Osservando Λ=diag(λ1,...,λn), abbiamo che: 
 
 <br>
 
 **46. diagonal**
 
-&#10230;
+&#10230; diagonale
 
 <br>
 
 **47. Singular-value decomposition ― For a given matrix A of dimensions m×n, the singular-value decomposition (SVD) is a factorization technique that guarantees the existence of U m×m unitary, Σ m×n diagonal and V n×n unitary matrices, such that:**
 
-&#10230;
+&#10230; Decomposizione ai valori singolari — Per una data matrice A di dimensione m×n, la decomposizione ai valori singolari (SVD) è una tecnica di fattorizzazione che garantisce l'esistenza della matrice unitaria m×m, della matrice diagonale Σ m×n e della matrice unitaria V n×n, tale che:
 
 <br>
 
 **48. Matrix calculus**
 
-&#10230;
+&#10230; Matrice
 
 <br>
 
 **49. Gradient ― Let f:Rm×n→R be a function and A∈Rm×n be a matrix. The gradient of f with respect to A is a m×n matrix, noted ∇Af(A), such that:**
 
-&#10230;
+&#10230; Gradiente — Sia f:Rm×n→R una funzione e A∈Rm×n una matrice. Il gradiente di f in funzione di A è una matrice m×n, indicata con ∇Af(A), tale che:
 
 <br>
 
 **50. Remark: the gradient of f is only defined when f is a function that returns a scalar.**
 
-&#10230;
+&#10230; Osservazione: il gradiente di f è definito solamente quando f è una funzione che restituisce uno scalare.
 
 <br>
 
 **51. Hessian ― Let f:Rn→R be a function and x∈Rn be a vector. The hessian of f with respect to x is a n×n symmetric matrix, noted ∇2xf(x), such that:**
 
-&#10230;
+&#10230; Matrice Hessiana — Sia f:Rn→R una funzione e un x∈Rn vettore. La matrice hessiana di f in funzione di x è una matrice non simmetrica, indicata con ∇2xf(x), tale che:
 
 <br>
 
 **52. Remark: the hessian of f is only defined when f is a function that returns a scalar**
 
-&#10230;
+&#10230; Osservazione: la matrice Hessiana di f è definita solamente quando f è una funzione che restituisce uno scalare
 
 <br>
 
 **53. Gradient operations ― For matrices A,B,C, the following gradient properties are worth having in mind:**
 
-&#10230;
+&#10230; Operazioni del gradiente — Per le matrici A,B,C, vale la pena ricordare le seguenti proprietà del gradiente:
 
 <br>
 
 **54. [General notations, Definitions, Main matrices]**
 
-&#10230;
+&#10230; [Notazione generale, Definizioni, Matrici principali]
 
 <br>
 
 **55. [Matrix operations, Multiplication, Other operations]**
 
-&#10230;
+&#10230; [Operazioni tra matrici, Moltiplicazione, Altre operazioni]
 
 <br>
 
 **56. [Matrix properties, Norm, Eigenvalue/Eigenvector, Singular-value decomposition]**
 
-&#10230;
+&#10230; [Proprietà delle matrici, Norma, Autovalore/Autovettore, Decomposizione ai valori singolari]
 
 <br>
 
 **57. [Matrix calculus, Gradient, Hessian, Operations]**
 
-&#10230;
+&#10230; [Calcolo tra matrici, Gradiente, Matrice Hessiana, Operazioni]

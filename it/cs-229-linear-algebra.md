@@ -1,70 +1,72 @@
 **Linear Algebra and Calculus translation** [[webpage]](https://stanford.edu/~shervine/teaching/cs-229/refresher-algebra-calculus)
 
+&#10230; Algebra lineare e Calcolo numerico
+
 <br>
 
 **1. Linear Algebra and Calculus refresher**
 
-&#10230;
+&#10230; Ripasso di Algebra lineare e Calcolo
 
 <br>
 
 **2. General notations**
 
-&#10230;
+&#10230; Notazione generale
 
 <br>
 
 **3. Definitions**
 
-&#10230;
+&#10230; Definizioni
 
 <br>
 
 **4. Vector ― We note x∈Rn a vector with n entries, where xi∈R is the ith entry:**
 
-&#10230;
+&#10230; Vettore - Definiamo x∈Rn un vettore con n elementi, dove xi∈R è l'i-esimo elemento:
 
 <br>
 
 **5. Matrix ― We note A∈Rm×n a matrix with m rows and n columns, where Ai,j∈R is the entry located in the ith row and jth column:**
 
-&#10230;
+&#10230; Matrice - Definiamo A∈Rm×n una matriche con m righe e n colonne, dove Ai,j∈R è l'elemento posizionato alla i-esima riga e j-esima colonna:
 
 <br>
 
 **6. Remark: the vector x defined above can be viewed as a n×1 matrix and is more particularly called a column-vector.**
 
-&#10230;
+&#10230; Osservazione: il vettore x, definito precedentemente, può essere visto come una matrice nx1 ed è chiamato, più particolarmente, un vettore colonna.
 
 <br>
 
 **7. Main matrices**
 
-&#10230;
+&#10230; Matrici principali
 
 <br>
 
 **8. Identity matrix ― The identity matrix I∈Rn×n is a square matrix with ones in its diagonal and zero everywhere else:**
 
-&#10230;
+&#10230; matrice identità - La matrice identità I∈Rn×n è una matrice quadrata con tutti 1 sulla diagonale principale e 0 in tutte le altre posizioni:
 
 <br>
 
 **9. Remark: for all matrices A∈Rn×n, we have A×I=I×A=A.**
 
-&#10230;
+&#10230; Osservazione: per tutte le matrici A∈Rn×n, si ha che A×I=I×A=A.
 
 <br>
 
 **10. Diagonal matrix ― A diagonal matrix D∈Rn×n is a square matrix with nonzero values in its diagonal and zero everywhere else:**
 
-&#10230;
+&#10230; matrice diagonale - Una matrice diagonale D∈Rn×n è una matrice quadrata con valori diversi da zero sulla diagonale principale e zero in tutte le altre posizioni:
 
 <br>
 
 **11. Remark: we also note D as diag(d1,...,dn).**
 
-&#10230;
+&#10230; Osservazione: definiamo, inoltre, D come diag(d1,...,dn)
 
 <br>
 

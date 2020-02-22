@@ -292,13 +292,13 @@
 
 **49. Bias ― The bias of an estimator ^θ is defined as being the difference between the expected value of the distribution of ^θ and the true value, i.e.:**
 
-&#10230; Bias ―
+&#10230; Bias (distorsione) ― La distorsione di uno stimatore ^θ è definita come la differenza tra il valore atteso della distribuzione di ^θ e il vero valore, quindi:
 
 <br>
 
 **50. Remark: an estimator is said to be unbiased when we have E[^θ]=θ.**
 
-&#10230; Osservazione: uno stimatore si dice ??? quando abbiamo E[^θ]=θ.
+&#10230; Osservazione: uno stimatore si dice non distorto quando abbiamo E[^θ]=θ.
 
 <br>
 

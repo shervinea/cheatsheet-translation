@@ -238,7 +238,7 @@
 
 **40. Independence ― Two random variables X and Y are said to be independent if we have:**
 
-&#10230; Indipendenza― Due variabili aleatorie X e Y si dicono indipendenti se:
+&#10230; Indipendenza ― Due variabili aleatorie X e Y si dicono indipendenti se:
 
 <br>
 
@@ -280,7 +280,7 @@
 
 **47. Random sample ― A random sample is a collection of n random variables X1,...,Xn that are independent and identically distributed with X.**
 
-&#10230; ―
+&#10230; Campione casuale ― Un campione casuale è un gruppo di n variabili aleatorie X1,...,Xn distribuite in modo indipendente e indentico con X.
 
 <br>
 
@@ -292,7 +292,7 @@
 
 **49. Bias ― The bias of an estimator ^θ is defined as being the difference between the expected value of the distribution of ^θ and the true value, i.e.:**
 
-&#10230; Bias (distorsione) ― La distorsione di uno stimatore ^θ è definita come la differenza tra il valore atteso della distribuzione di ^θ e il vero valore, quindi:
+&#10230; Distorsione ― La distorsione di uno stimatore ^θ è definita come la differenza tra il valore atteso della distribuzione di ^θ e il vero valore, quindi:
 
 <br>
 
@@ -310,19 +310,19 @@
 
 **52. Sample mean ― The sample mean of a random sample is used to estimate the true mean μ of a distribution, is often noted ¯¯¯¯¯X and is defined as follows:**
 
-&#10230; Media campionaria ―
+&#10230; Media campionaria ― La media campionaria di un campione casuale è usata per stimare la vera media μ di una distribuzione, è spesso denotata da ¯¯¯¯¯X ed è definita come segue:
 
 <br>
 
 **53. Remark: the sample mean is unbiased, i.e E[¯¯¯¯¯X]=μ.**
 
-&#10230; Osservazione:
+&#10230; Osservazione: la media campionaria non è distorta, quindi E[¯¯¯¯¯X]=μ.
 
 <br>
 
 **54. Central Limit Theorem ― Let us have a random sample X1,...,Xn following a given distribution with mean μ and variance σ2, then we have:**
 
-&#10230; Teorema del Limite Centrale ―
+&#10230; Teorema del Limite Centrale ― Sia X1,...,Xn un campione casuale che segue una data distribuzione di media μ e varianza σ2, di conseguenza abbiamo che:
 
 <br>
 
@@ -334,52 +334,52 @@
 
 **56. Sample variance ― The sample variance of a random sample is used to estimate the true variance σ2 of a distribution, is often noted s2 or ^σ2 and is defined as follows:**
 
-&#10230; Varianza campionaria ―
+&#10230; Varianza campionaria ― La varianza campionaria di un campione casuale è usata per stimare il vero valore della varianza σ2 di una distribuzione, è spesso denotata da s2 o ^σ2 ed è definita come segue:
 
 <br>
 
 **57. Remark: the sample variance is unbiased, i.e E[s2]=σ2.**
 
-&#10230; Osservazione: 
+&#10230; Osservazione: la varianza campionaria non è distorta, quindi E[s2]=σ2.
 
 <br>
 
 **58. Chi-Squared relation with sample variance ― Let s2 be the sample variance of a random sample. We have:**
 
-&#10230; ―
+&#10230; Relazione tra Chi-Quadro e la varianza campionaria ― Sia s2 la varianza campionaria di un campione casuale. Abbiamo che:
 
 <br>
 
 **59. [Introduction, Sample space, Event, Permutation]**
 
-&#10230;
+&#10230; [Introduzione, Spazio campionaria, Evento, Permutazione]
 
 <br>
 
 **60. [Conditional probability, Bayes' rule, Independence]**
 
-&#10230;
+&#10230; [Probabilità condizionata, Teorema di Bayes, Indipendenza]
 
 <br>
 
 **61. [Random variables, Definitions, Expectation, Variance]**
 
-&#10230;
+&#10230; [Variabile aleatoria, Definizioni, Valore atteso, Varianza]
 
 <br>
 
 **62. [Probability distributions, Chebyshev's inequality, Main distributions]**
 
-&#10230;
+&#10230; [Distribuzioni, Disuguaglianza di Chebyshev, Distribuzioni principali]
 
 <br>
 
 **63. [Jointly distributed random variables, Density, Covariance, Correlation]**
 
-&#10230;
+&#10230; [Distribuzione congiunta di variabili aleatorie, Densità, Covarianza, Correlazione]
 
 <br>
 
 **64. [Parameter estimation, Mean, Variance]**
 
-&#10230;
+&#10230; [Stima del parametro, Media, Varianza]

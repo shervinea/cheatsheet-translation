@@ -16,7 +16,7 @@
 
 **3. Sample space ― The set of all possible outcomes of an experiment is known as the sample space of the experiment and is denoted by S.**
 
-&#10230; Spazio campionario ― L'insieme di tutti i risultati possibili di un esperimento è noto come spazio campionario dell'esperimento ed è chiamato S.
+&#10230; Spazio campionario ― L'insieme di tutti i risultati possibili di un esperimento è noto come spazio campionario dell'esperimento ed è denotato da S.
 
 <br>
 
@@ -88,7 +88,7 @@
 
 **15. Partition ― Let {Ai,i∈[[1,n]]} be such that for all i, Ai≠∅. We say that {Ai} is a partition if we have:**
 
-&#10230; Partizione ― Sia {Ai,i∈[[1,n]]} tale che for ogni i, Ai≠∅. Diciamo che {Ai} è una partizione se abbiamo che:
+&#10230; Partizione ― Sia {Ai,i∈[[1,n]]} tale che per ogni i, Ai≠∅. Diciamo che {Ai} è una partizione se abbiamo che:
 
 <br>
 
@@ -124,7 +124,7 @@
 
 **21. Random variable ― A random variable, often noted X, is a function that maps every element in a sample space to a real line.**
 
-&#10230; Variabile aleatoria ― Una variabile aleatoria, spesso chiamata X, è una funzione dagli elementi dello spazio campionario a un reale.
+&#10230; Variabile aleatoria ― Una variabile aleatoria, spesso chiamata X, è una funzione che associa ogni elemento dello spazio campionario a un reale.
 
 <br>
 
@@ -202,7 +202,7 @@
 
 **34. Main distributions ― Here are the main distributions to have in mind:**
 
-&#10230; Distribuzioni principali ― Sono presentati le distribuzioni principali da tenere a mente:
+&#10230; Distribuzioni principali ― Di seguito le distribuzioni principali da tenere a mente:
 
 <br>
 
@@ -352,7 +352,7 @@
 
 **59. [Introduction, Sample space, Event, Permutation]**
 
-&#10230; [Introduzione, Spazio campionaria, Evento, Permutazione]
+&#10230; [Introduzione, Spazio campionario, Evento, Permutazione]
 
 <br>
 
@@ -370,7 +370,7 @@
 
 **62. [Probability distributions, Chebyshev's inequality, Main distributions]**
 
-&#10230; [Distribuzioni, Disuguaglianza di Chebyshev, Distribuzioni principali]
+&#10230; [Distribuzioni di probabilità, Disuguaglianza di Chebyshev, Distribuzioni principali]
 
 <br>
 

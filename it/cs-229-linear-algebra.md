@@ -1,6 +1,6 @@
 **Linear Algebra and Calculus translation** [[webpage]](https://stanford.edu/~shervine/teaching/cs-229/refresher-algebra-calculus)
 
-&#10230; Algebra lineare e Calcolo numerico
+&#10230; Algebra lineare e Analisi
 
 <br>
 

@@ -6,7 +6,7 @@
 
 **1. Linear Algebra and Calculus refresher**
 
-&#10230; Ripasso di Algebra lineare e Calcolo
+&#10230; Ripasso di Algebra lineare e Analisi
 
 <br>
 

@@ -286,7 +286,7 @@
 
 **48. Estimator ― An estimator is a function of the data that is used to infer the value of an unknown parameter in a statistical model.**
 
-&#10230; Stimatore ― Uno stimatore è una funzione dei dati usata per dedurre il valore di un parametro sconosciuto in un  modello statistico.
+&#10230; Stimatore ― Uno stimatore è una funzione dei dati usata per dedurre il valore di un parametro sconosciuto in un modello statistico.
 
 <br>
 

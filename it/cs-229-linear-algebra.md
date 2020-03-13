@@ -168,7 +168,7 @@
 
 **28. Determinant ― The determinant of a square matrix A∈Rn×n, noted |A| or det(A) is expressed recursively in terms of A∖i,∖j, which is the matrix A without its ith row and jth column, as follows:**
 
-&#10230; Determinante — Il determinante di una matrice quadrata A∈Rn×n, indicata con |A| o det(A) è espresso ricorsivamente come A\i,\j, che è la matrice A senza l'i-esima riga e la j-esima colonna, come segue:
+&#10230; Determinante — Il determinante di una matrice quadrata A∈Rn×n, indicata con |A| o det(A) è espresso ricorsivamente rispetto a A\i,\j, che è la matrice A senza l'i-esima riga e la j-esima colonna, come segue:
 
 <br>
 

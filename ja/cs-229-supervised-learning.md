@@ -12,7 +12,7 @@
 
 **3. Given a set of data points {x(1),...,x(m)} associated to a set of outcomes {y(1),...,y(m)}, we want to build a classifier that learns how to predict y from x.**
 
-&#10230;入力が{x(1),...,x(m)}, 出力が{y(1),...,y(m)}であるとき, xからyを予測する分類器を構築したい。
+&#10230;入力が{x(1),...,x(m)}、出力が{y(1),...,y(m)}であるとき、xからyを予測する分類器を構築したい。
 
 <br>
 
@@ -24,13 +24,13 @@
 
 **5. [Regression, Classifier, Outcome, Examples]**
 
-&#10230;回帰, 分類, 出力, 例
+&#10230;回帰、分類、出力、例
 
 <br>
 
 **6. [Continuous, Class, Linear regression, Logistic regression, SVM, Naive Bayes]**
 
-&#10230;連続値, クラス, 線形回帰, ロジスティック回帰, SVM, ナイーブベイズ
+&#10230;連続値、クラス、線形回帰、ロジスティック回帰、SVM、ナイーブベイズ
 
 <br>
 
@@ -42,13 +42,13 @@
 
 **8. [Discriminative model, Generative model, Goal, What's learned, Illustration, Examples]**
 
-&#10230;判別モデル, 生成モデル, 目的, 学習対象, イメージ図, 例
+&#10230;判別モデル、生成モデル、目的、学習対象、イメージ図、例
 
 <br>
 
 **9. [Directly estimate P(y|x), Estimate P(x|y) to then deduce P(y|x), Decision boundary,  	Probability distributions of the data, Regressions, SVMs, GDA, Naive Bayes]**
 
-&#10230;P(y|x)を直接推定する, P(y|x)を推測するためにP(x|y)を推定する, 決定境界, データの確率分布, 回帰, SVM, GDA, ナイーブベイズ
+&#10230;P(y|x)の直接推定、後にP(y|x)を推測するためのP(x|y)の推定、決定境界、データの確率分布、回帰、SVM、GDA、ナイーブベイズ
 
 <br>
 
@@ -72,13 +72,13 @@
 
 **13. [Least squared error, Logistic loss, Hinge loss, Cross-entropy]**
 
-&#10230;最小2乗誤差, ロジスティック損失, ヒンジ損失, クロスエントロピー
+&#10230;最小2乗誤差、ロジスティック損失、ヒンジ損失、交差エントロピー
 
 <br>
 
 **14. [Linear regression, Logistic regression, SVM, Neural Network]**
 
-&#10230;線形回帰, ロジスティック回帰, SVM, ニューラルネットワーク
+&#10230;線形回帰、ロジスティック回帰、SVM、ニューラルネットワーク
 
 <br>
 
@@ -198,13 +198,13 @@
 
 **34. Exponential family ― A class of distributions is said to be in the exponential family if it can be written in terms of a natural parameter, also called the canonical parameter or link function, η, a sufficient statistic T(y) and a log-partition function a(η) as follows:**
 
-&#10230;指数分布族 ― 正準パラメータまたはリンク関数とも呼ばれる自然パラメータη、十分統計量T(y)及び対数分配関数a(η)を用いて、次のように表すことのできる一群の分布は指数分布族と呼ばれる：
+&#10230;指数分布族 ― ある分布の集合は指数分布族と呼ばれ、正準パラメータまたはリンク関数とも呼ばれる自然パラメータη、十分統計量T(y)及び対数分配関数a(η)を用いて、次のように表される：
 
 <br>
 
 **35. Remark: we will often have T(y)=y. Also, exp(−a(η)) can be seen as a normalization parameter that will make sure that the probabilities sum to one.**
 
-&#10230;備考：T(y)=yとすることが多い。また、exp(−a(η))は確率の合計が１になることを担保する正規化定数だと見なせる。
+&#10230;備考：T(y)=yとすることが多い。また、exp(−a(η))は確率の合計が1になることを保証する正規化定数と見なせる。
 
 <br>
 
@@ -216,7 +216,7 @@
 
 **37. [Distribution, Bernoulli, Gaussian, Poisson, Geometric]**
 
-&#10230;分布, ベルヌーイ, ガウス, ポワソン, 幾何
+&#10230;分布、ベルヌーイ、ガウス、ポワソン、幾何
 
 <br>
 
@@ -294,7 +294,7 @@
 
 **50. [Non-linear separability, Use of a kernel mapping, Decision boundary in the original space]**
 
-&#10230;非線形分離問題, カーネル写像の適用, 元の空間における決定境界
+&#10230;非線形分離問題、カーネル写像の適用、元の空間における決定境界
 
 <br>
 
@@ -396,7 +396,7 @@
 
 **67. Remark: random forests are a type of ensemble methods.**
 
-&#10230;備考：ランダムフォレストはアンサンブル学習の1種である。
+&#10230;備考：ランダムフォレストはアンサンブル学習の一種である。
 
 <br>
 
@@ -408,7 +408,7 @@
 
 **69. [Adaptive boosting, Gradient boosting]**
 
-&#10230;[適応的ブースティング, 勾配ブースティング]
+&#10230;[適応的ブースティング、勾配ブースティング]
 
 <br>
 
@@ -426,13 +426,13 @@
 
 **72. Other non-parametric approaches**
 
-&#10230;他のノン・パラメトリックな手法
+&#10230;他のノンパラメトリックな手法
 
 <br>
 
 **73. k-nearest neighbors ― The k-nearest neighbors algorithm, commonly known as k-NN, is a non-parametric approach where the response of a data point is determined by the nature of its k neighbors from the training set. It can be used in both classification and regression settings.**
 
-&#10230;k近傍法 ― k近傍法は、一般的にk-NNとして知られ、あるデータ点の応答はそのk個の最近傍点の性質によって決まるノン・パラメトリックな手法である。分類と回帰の両方に用いることができる。
+&#10230;k近傍法 ― k近傍法は、一般的にk-NNとして知られ、あるデータ点の応答はそのk個の最近傍点の性質によって決まるノンパラメトリックな手法である。分類と回帰の両方に用いることができる。
 
 <br>
 
@@ -468,7 +468,7 @@
 
 **79. Training error ― For a given classifier h, we define the training error ˆϵ(h), also known as the empirical risk or empirical error, to be as follows:**
 
-&#10230;学習誤差 ― ある分類器hに対して、学習誤差、あるいは経験損失か経験誤差としても知られる、ˆϵ(h)を次のように定義する：
+&#10230;学習誤差 ― ある分類器hに対して、学習誤差、あるいは経験損失か経験誤差としても知られるˆϵ(h)を次のように定義する：
 
 <br>
 
@@ -498,7 +498,7 @@
 
 **84. Upper bound theorem ― Let H be a finite hypothesis class such that |H|=k and let δ and the sample size m be fixed. Then, with probability of at least 1−δ, we have:**
 
-&#10230;上界定理 ― Hを|H|=kで有限の仮説集合とし、δとサンプルサイズmは定数とする。そのとき、少なくとも1-δ の確率で次が成り立つ：
+&#10230;上界定理 ― Hを|H|=kで有限の仮説集合とし、δとサンプルサイズmは定数とする。そのとき、少なくとも1-δの確率で次が成り立つ：
 
 <br>
 
@@ -522,13 +522,13 @@
 
 **88. [Introduction, Type of prediction, Type of model]**
 
-&#10230;[導入, 予測の種類, モデルの種類]
+&#10230;[導入、予測の種類、モデルの種類]
 
 <br>
 
 **89. [Notations and general concepts, loss function, gradient descent, likelihood]**
 
-&#10230;[記法と全般的な概念, 損失関数, 勾配降下, 尤度]
+&#10230;[記法と全般的な概念、損失関数、勾配降下、尤度]
 
 <br>
 
@@ -536,32 +536,32 @@
 
 &#10230;
 
-<br>[線形モデル, 線形回帰, ロジスティック回帰, 一般化線形モデル]
+<br>[線形モデル、線形回帰、ロジスティック回帰、一般化線形モデル]
 
 **91. [Support vector machines, Optimal margin classifier, Hinge loss, Kernel]**
 
 &#10230;
 
-<br>[サポートベクターマシン, 最適マージン分類器, ヒンジ損失, カーネル]
+<br>[サポートベクターマシン、最適マージン分類器、ヒンジ損失、カーネル]
 
 **92. [Generative learning, Gaussian Discriminant Analysis, Naive Bayes]**
 
 &#10230;
 
-<br>[生成学習, ガウシアン判別分析, ナイーブベイズ]
+<br>[生成学習、ガウシアン判別分析、ナイーブベイズ]
 
 **93. [Trees and ensemble methods, CART, Random forest, Boosting]**
 
-&#10230;[ツリーとアンサンブル学習, CART, ランダムフォレスト, ブースティング]
+&#10230;[ツリーとアンサンブル学習、CART、ランダムフォレスト、ブースティング]
 
 <br>
 
 **94. [Other methods, k-NN]**
 
-&#10230;[他の手法, k近傍法]
+&#10230;[他の手法、k近傍法]
 
 <br>
 
 **95. [Learning theory, Hoeffding inequality, PAC, VC dimension]**
 
-&#10230;[学習理論, ヘフディング不等式, PAC, VC次元]
+&#10230;[学習理論、ヘフディング不等式、PAC、VC次元]

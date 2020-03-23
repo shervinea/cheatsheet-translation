@@ -18,63 +18,63 @@
 
 **3. [Overview, Architecture structure]**
 
-&#10230; [概要, アーキテクチャ構造]
+&#10230; [概要、アーキテクチャ構造]
 
 <br>
 
 
 **4. [Types of layer, Convolution, Pooling, Fully connected]**
 
-&#10230; [層の種類, 畳み込み, プーリング, 全結合]
+&#10230; [層の種類、畳み込み、プーリング、全結合]
 
 <br>
 
 
 **5. [Filter hyperparameters, Dimensions, Stride, Padding]**
 
-&#10230; [フィルタハイパーパラメータ, 次元, ストライド, パディング]
+&#10230; [フィルタハイパーパラメータ、次元、ストライド、パディング]
 
 <br>
 
 
 **6. [Tuning hyperparameters, Parameter compatibility, Model complexity, Receptive field]**
 
-&#10230; [ハイパーパラメータの調整, パラメータの互換性, モデルの複雑さ, 受容野]
+&#10230; [ハイパーパラメータの調整、パラメータの互換性、モデルの複雑さ、受容野]
 
 <br>
 
 
 **7. [Activation functions, Rectified Linear Unit, Softmax]**
 
-&#10230; [活性化関数, 正規化線形ユニット, ソフトマックス]
+&#10230; [活性化関数、正規化線形ユニット、ソフトマックス]
 
 <br>
 
 
 **8. [Object detection, Types of models, Detection, Intersection over Union, Non-max suppression, YOLO, R-CNN]**
 
-&#10230; [物体検出, モデルの種類, 検出, IoU, 非極大抑制, YOLO, R-CNN]
+&#10230; [物体検出、モデルの種類、検出、IoU、非極大抑制、YOLO、R-CNN]
 
 <br>
 
 
 **9. [Face verification/recognition, One shot learning, Siamese network, Triplet loss]**
 
-&#10230; [顔認証/認識, One shot学習, シャムネットワーク, トリプレット損失]
+&#10230; [顔認証/認識、One shot学習、シャムネットワーク、トリプレット損失]
 
 <br>
 
 
 **10. [Neural style transfer, Activation, Style matrix, Style/content cost function]**
 
-&#10230; [ニューラルスタイル変換, 活性化, スタイル行列, スタイル/コンテンツコスト関数]
+&#10230; [ニューラルスタイル変換、活性化、スタイル行列、スタイル/コンテンツコスト関数]
 
 <br>
 
 
 **11. [Computational trick architectures, Generative Adversarial Net, ResNet, Inception Network]**
 
-&#10230; [計算トリックアーキテクチャ, 敵対的生成ネットワーク, ResNet, インセプションネットワーク]
+&#10230; [計算トリックアーキテクチャ、敵対的生成ネットワーク、ResNet、インセプションネットワーク]
 
 <br>
 
@@ -130,21 +130,21 @@
 
 **19. [Type, Purpose, Illustration, Comments]**
 
-&#10230; [種類, 目的, 図, コメント]
+&#10230; [種類、目的、図、コメント]
 
 <br>
 
 
 **20. [Max pooling, Average pooling, Each pooling operation selects the maximum value of the current view, Each pooling operation averages the values of the current view]**
 
-&#10230; [最大プーリング, 平均プーリング, 各プーリング操作は現在のビューの中から最大値を選ぶ, 各プーリング操作は現在のビューに含まれる値を平均する]
+&#10230; [最大プーリング、平均プーリング、各プーリング操作は現在のビューの中から最大値を選ぶ、各プーリング操作は現在のビューに含まれる値を平均する]
 
 <br>
 
 
 **21. [Preserves detected features, Most commonly used, Downsamples feature map, Used in LeNet]**
 
-&#10230; [検出された特徴を保持する, 最も一般的に利用される, 特徴マップをダウンサンプリングする, LeNetで利用される]
+&#10230; [検出された特徴の保持、最も一般的な利用、特徴マップをダウンサンプリング、LeNetでの利用]
 
 <br>
 
@@ -208,14 +208,14 @@
 
 **30. [Mode, Value, Illustration, Purpose, Valid, Same, Full]**
 
-&#10230; [モード, 値, 図, 目的, Valid, Same, Full]
+&#10230; [モード、値、図、目的、Valid、Same、Full]
 
 <br>
 
 
 **31. [No padding, Drops last convolution if dimensions do not match, Padding such that feature map size has size ⌈IS⌉, Output size is mathematically convenient, Also called 'half' padding, Maximum padding such that end convolutions are applied on the limits of the input, Filter 'sees' the input end-to-end]**
 
-&#10230; [パディングなし, もし次元が合わなかったら最後の畳み込みをやめる, 特徴マップのサイズが[IS]になるようなパディング, 出力サイズは数学的に扱いやすい, 「ハーフ」パディングとも呼ばれる, 入力の一番端まで畳み込みが適用されるような最大パディング, フィルタは入力を端から端まで「見る」]
+&#10230; [パディングなし、次元が合わなかったら場合の最後の畳み込みの終了, 特徴マップのサイズが⌈IS⌉になるようなパディング、出力サイズは数学的に扱いやすい、「ハーフ」パディングとも呼ばれる、入力の一番端まで畳み込みが適用されるような最大パディング, フィルタは入力を端から端まで「見る」]
 
 <br>
 
@@ -236,7 +236,7 @@
 
 **34. [Input, Filter, Output]**
 
-&#10230; [入力, フィルタ, 出力]
+&#10230; [入力、フィルタ、出力]
 
 <br>
 
@@ -250,35 +250,35 @@
 
 **36. Understanding the complexity of the model ― In order to assess the complexity of a model, it is often useful to determine the number of parameters that its architecture will have. In a given layer of a convolutional neural network, it is done as follows:**
 
-&#10230; モデルの複雑さを理解する - モデルの複雑さを評価するために、モデルのアーキテクチャが持つパラメータの数を測定することがしばしば有用です。畳み込みニューラルネットワークの各層では、以下のように行なわれます。
+&#10230; モデルの複雑さを理解する - モデルの複雑さを評価するために、モデルのアーキテクチャが持つパラメータの数を測定することがしばしば有用です。畳み込みニューラルネットワークの各層では、以下のように行なわれます:
 
 <br>
 
 
 **37. [Illustration, Input size, Output size, Number of parameters, Remarks]**
 
-&#10230; [図, 入力サイズ, 出力サイズ, パラメータの数, 備考]
+&#10230; [図、入力サイズ、出力サイズ、パラメータの数、備考]
 
 <br>
 
 
 **38. [One bias parameter per filter, In most cases, S<F, A common choice for K is 2C]**
 
-&#10230; [フィルタごとに1つのバイアスパラメータ, ほとんどの場合, S<F, Kの一般的な選択は2C]
+&#10230; [フィルタごとの1つのバイアスパラメータ、ほとんどの場合、S<F、Kの一般的な選択は2C]
 
 <br>
 
 
 **39. [Pooling operation done channel-wise, In most cases, S=F]**
 
-&#10230; [プール操作はチャネルごとに行われる, ほとんどの場合, S=F]
+&#10230; [チャネルごとに行われるプーリング操作、ほとんどの場合、S=F]
 
 <br>
 
 
 **40. [Input is flattened, One bias parameter per neuron, The number of FC neurons is free of structural constraints]**
 
-&#10230; [入力は平坦化される, ニューロンごとにひとつのバイアスパラメータ, FCのニューロンの数には構造的制約がない]
+&#10230; [入力は平坦化される、ニューロンごとにひとつのバイアスパラメータ、FCのニューロンの数には構造的制約がない]
 
 <br>
 
@@ -313,21 +313,21 @@
 
 **45. [ReLU, Leaky ReLU, ELU, with]**
 
-&#10230;[ReLU, Leaky ReLU, ELU, ただし]
+&#10230;[ReLU、Leaky ReLU、ELU、ただし]
 
 <br>
 
 
 **46. [Non-linearity complexities biologically interpretable, Addresses dying ReLU issue for negative values, Differentiable everywhere]**
 
-&#10230; [生物学的に解釈可能な非線形複雑性, 負の値に対してReLUが死んでいる問題に対処する,どこても微分可能]
+&#10230; [生物学的に解釈可能な非線形複雑性、負の値に対してReLUが死んでいる問題への対処、どこても微分可能]
 
 <br>
 
 
 **47. Softmax ― The softmax step can be seen as a generalized logistic function that takes as input a vector of scores x∈Rn and outputs a vector of output probability p∈Rn through a softmax function at the end of the architecture. It is defined as follows:**
 
-&#10230; ソフトマックス - ソフトマックスのステップは入力としてスコアx∈Rnのベクトルを取り、アーキテクチャの最後にあるソフトマックス関数を通じて確率p∈Rnのベクトルを出力する一般化されたロジスティック関数として見ることができます。次のように定義されます。
+&#10230; ソフトマックス - ソフトマックスのステップは入力としてスコアx∈Rnのベクトルを取り、アーキテクチャの最後にあるソフトマックス関数を通じて確率p∈Rnのベクトルを出力する一般化されたロジスティック関数として見ることができます。次のように定義されます:
 
 <br>
 
@@ -348,35 +348,35 @@
 
 **50. Types of models ― There are 3 main types of object recognition algorithms, for which the nature of what is predicted is different. They are described in the table below:**
 
-&#10230; モデルの種類 - 物体認識アルゴリズムは主に3つの種類があり、予測されるものの性質は異なります。次の表で説明されています。
+&#10230; モデルの種類 - 物体認識アルゴリズムは主に3つの種類があり、予測されるものの性質は異なります。次の表で説明されています:
 
 <br>
 
 
 **51. [Image classification, Classification w. localization, Detection]**
 
-&#10230; [画像分類, 位置特定を伴う分類, 検出]
+&#10230; [画像分類、位置特定を伴う分類、検出]
 
 <br>
 
 
 **52. [Teddy bear, Book]**
 
-&#10230; [テディベア, 本]
+&#10230; [テディベア、本]
 
 <br>
 
 
 **53. [Classifies a picture, Predicts probability of object, Detects an object in a picture, Predicts probability of object and where it is located, Detects up to several objects in a picture, Predicts probabilities of objects and where they are located]**
 
-&#10230; [画像を分類する, 物体の確率を予測する, 画像内の物体を検出する, 物体の確率とその位置を予測する, 画像内の複数の物体を検出する, 複数の物体の確率と位置を予測する]
+&#10230; [画像の分類、物体の確率の予測, 画像内の物体の検出、物体の確率とその位置の予測、画像内の複数の物体の検出、複数の物体の確率と位置の予測]
 
 <br>
 
 
 **54. [Traditional CNN, Simplified YOLO, R-CNN, YOLO, R-CNN]**
 
-&#10230; [伝統的なCNN, 単純されたYOLO, R-CNN, YOLO, R-CNN]
+&#10230; [伝統的なCNN、単純されたYOLO、R-CNN、YOLO、R-CNN]
 
 <br>
 
@@ -390,21 +390,21 @@
 
 **56. [Bounding box detection, Landmark detection]**
 
-&#10230; [バウンディングボックス検出, ランドマーク検出]
+&#10230; [バウンディングボックス検出、ランドマーク検出]
 
 <br>
 
 
 **57. [Detects the part of the image where the object is located, Detects a shape or characteristics of an object (e.g. eyes), More granular]**
 
-&#10230; [物体が配置されている画像の部分を検出する, 物体（たとえば目）の形状または特徴を検出する, よりきめ細かい]
+&#10230; [物体が配置されている画像の部分の検出、物体（たとえば目）の形状または特徴の検出、詳細]
 
 <br>
 
 
 **58. [Box of center (bx,by), height bh and width bw, Reference points (l1x,l1y), ..., (lnx,lny)]**
 
-&#10230; [中心(bx, by)、高さbh、幅bwのボックス, 参照点(l1x,l1y), ..., (lnx,lny)]
+&#10230; [中心(bx, by)、高さbh、幅bwのボックス、参照点(l1x,l1y), ..., (lnx,lny)]
 
 <br>
 
@@ -439,28 +439,28 @@
 
 **63. [For a given class, Step 1: Pick the box with the largest prediction probability., Step 2: Discard any box having an IoU⩾0.5 with the previous box.]**
 
-&#10230; [特定のクラスに対して, ステップ1: 最大の予測確率を持つボックスを選ぶ。, ステップ2: そのボックスに対してIoU⩾0.5となる全てのボックスを破棄する。]
+&#10230; [特定のクラスに対して、ステップ1: 最大の予測確率を持つボックスを選ぶ。ステップ2: そのボックスに対してIoU⩾0.5となる全てのボックスを破棄する。]
 
 <br>
 
 
 **64. [Box predictions, Box selection of maximum probability, Overlap removal of same class, Final bounding boxes]**
 
-&#10230; [ボックス予測, 最大確率のボックス選択, 同じクラスの重複除去, 最終的な境界ボックス]
+&#10230; [ボックス予測、最大確率のボックス選択、同じクラスの重複除去、最終的な境界ボックス]
 
 <br>
 
 
 **65. YOLO ― You Only Look Once (YOLO) is an object detection algorithm that performs the following steps:**
 
-&#10230; YOLO - You Only Look Once (YOLO)は次の手順を実行する物体検出アルゴリズムです。
+&#10230; YOLO - You Only Look Once (YOLO)は次の手順を実行する物体検出アルゴリズムです:
 
 <br>
 
 
 **66. [Step 1: Divide the input image into a G×G grid., Step 2: For each grid cell, run a CNN that predicts y of the following form:, repeated k times]**
 
-&#10230; [ステップ1: 入力画像をGxGグリッドに分割する。, ステップ2: 各グリッドセルに対して次の形式のyを予測するCNNを実行する:,k回繰り返す]
+&#10230; [ステップ1: 入力画像をGxGグリッドに分割する。ステップ2: 各グリッドセルに対して次の形式のyを予測するCNNを実行する:,k回繰り返す。]
 
 <br>
 
@@ -481,7 +481,7 @@
 
 **69. [Original image, Division in GxG grid, Bounding box prediction, Non-max suppression]**
 
-&#10230; [元の画像, GxGグリッドでの分割, 境界ボックス予測, 非極大抑制]
+&#10230; [元の画像、GxGグリッドでの分割、境界ボックス予測、非極大抑制]
 
 <br>
 
@@ -502,7 +502,7 @@
 
 **72. [Original image, Segmentation, Bounding box prediction, Non-max suppression]**
 
-&#10230; [元の画像, セグメンテーション, 境界ボックス予測, 非極大抑制]
+&#10230; [元の画像、セグメンテーション、境界ボックス予測、非極大抑制]
 
 <br>
 
@@ -530,14 +530,14 @@
 
 **76. [Face verification, Face recognition, Query, Reference, Database]**
 
-&#10230; [顔認証, 顔認識, クエリ, 参照, データベース]
+&#10230; [顔認証、顔認識、クエリ、参照、データベース]
 
 <br>
 
 
 **77. [Is this the correct person?, One-to-one lookup, Is this one of the K persons in the database?, One-to-many lookup]**
 
-&#10230; [これは正しい人ですか?, 1対1検索, これはデータベース内のK人のうちの1人ですか, 1対多検索]
+&#10230; [これは正しい人ですか?、1対1検索、これはデータベース内のK人のうちの1人ですか？、1対多検索]
 
 <br>
 
@@ -579,7 +579,7 @@
 
 **83. [Content C, Style S, Generated image G]**
 
-&#10230; [コンテンツC, スタイルS, 生成された画像G]
+&#10230; [コンテンツC、スタイルS、生成された画像G]
 
 <br>
 
@@ -600,7 +600,7 @@
 
 **86. Style matrix ― The style matrix G[l] of a given layer l is a Gram matrix where each of its elements G[l]kk′ quantifies how correlated the channels k and k′ are. It is defined with respect to activations a[l] as follows:**
 
-&#10230; スタイル行列 - 与えられた層lのスタイル行列G[l]はグラム行列で、各要素G[l]kk′がチャネルkとk′の相関関係を定量化します。活性化a[l]に関して次のように定義されます。
+&#10230; スタイル行列 - 与えられた層lのスタイル行列G[l]はグラム行列で、各要素G[l]kk′がチャネルkとk′の相関関係を定量化します。活性化a[l]に関して次のように定義されます:
 
 <br>
 
@@ -649,7 +649,7 @@
 
 **93. [Training set, Noise, Real-world image, Generator, Discriminator, Real Fake]**
 
-&#10230; [学習セット, ノイズ, 現実世界の画像, 生成器, 識別器, 真 偽]
+&#10230; [学習セット、ノイズ、現実世界の画像、生成器、識別器、真偽]
 
 <br>
 
@@ -663,7 +663,7 @@
 
 **95. ResNet ― The Residual Network architecture (also called ResNet) uses residual blocks with a high number of layers meant to decrease the training error. The residual block has the following characterizing equation:**
 
-&#10230; ResNet - Residual Networkアーキテクチャ（ResNetとも呼ばれる）は学習エラーを減らすため多数の層がある残差ブロックを使用します。残差ブロックは次の特性方程式を有します。
+&#10230; ResNet - Residual Networkアーキテクチャ（ResNetとも呼ばれる）は学習エラーを減らすため多数の層がある残差ブロックを使用します。残差ブロックは次の特性方程式を有します:
 
 <br>
 
@@ -677,7 +677,7 @@
 
 **97. The Deep Learning cheatsheets are now available in [target language].**
 
-&#10230; ディープラーニングのチートシートが日本語で利用可能になりました。
+&#10230; ディープラーニングのチートシートが[日本語]で利用可能になりました。
 
 <br>
 
@@ -698,7 +698,7 @@
 
 **100. Reviewed by X, Y and Z**
 
-&#10230; X, Y, Z 校正
+&#10230; X・Y・Z 校正
 
 <br>
 

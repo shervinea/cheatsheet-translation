@@ -24,25 +24,25 @@
 
 **5. [Input layer, hidden layer, output layer]**
 
-&#10230; [Camada de entrada, camada escondida, camada de saída]
+&#10230; [Camada de entrada, camada oculta, camada de saída]
 
 <br>
 
 **6. By noting i the ith layer of the network and j the jth hidden unit of the layer, we have:**
 
-&#10230; Dado que i é a i-ésima camada da rede e j a j-ésima unidade escondida da camada, nós temos:
+&#10230; Dado que i é a i-ésima camada da rede e j a j-ésima unidade oculta da camada, nós temos:
 
 <br>
 
 **7. where we note w, b, z the weight, bias and output respectively.**
 
-&#10230; onde é definido que w, b, z, o peso, o viés e a saída respectivamente. 
+&#10230; onde é definido que w, b, z, representam o peso, o viés e a saída, respectivamente. 
 
 <br>
 
 **8. Activation function ― Activation functions are used at the end of a hidden unit to introduce non-linear complexities to the model. Here are the most common ones:**
 
-&#10230; Função de ativação - Funções de ativação são usadas no fim de uma unidade escondida para introduzir complexidades não lineares ao modelo. Aqui estão as mais comuns:
+&#10230; Função de ativação - Funções de ativação são usadas no fim de uma unidade oculta para introduzir complexidades não lineares ao modelo. Aqui estão as mais comuns:
 
 <br>
 
@@ -108,7 +108,7 @@
 
 **19. Dropout ― Dropout is a technique meant at preventing overfitting the training data by dropping out units in a neural network. In practice, neurons are either dropped with probability p or kept with probability 1−p**
 
-&#10230; Abandono (Dropout) - Abandono (Dropout) é uma técnica que pretende prevenir o sobreajuste dos dados de treinamente abandonando unidades na rede neural. Na prática, neurônios são ou abandonados com a propabilidade p ou mantidos com a propabilidade 1-p
+&#10230; Abandono (Dropout) - Abandono (Dropout) é uma técnica que pretende evitar o sobreajuste (overfitting) dos dados de treinamento abandonando unidades na rede neural. Na prática, os neurônios são, ou abandonados com a propabilidade p, ou mantidos com a propabilidade 1-p
 
 <br>
 
@@ -120,7 +120,7 @@
 
 **21. Convolutional layer requirement ― By noting W the input volume size, F the size of the convolutional layer neurons, P the amount of zero padding, then the number of neurons N that fit in a given volume is such that:**
 
-&#10230; Requisito de camada convolucional - Dado que W é o tamanho do volume de entrada, F o tamanho dos neurônios da camada convolucional, P a quantidade de preenchimento de zeros, então o número de neurônios N que cabem em um dado volume é tal que:
+&#10230; Requisito da camada convolucional - Dado que W é o tamanho do volume de entrada, F o tamanho dos neurônios da camada convolucional, P a quantidade de preenchimento de zeros, então o número de neurônios N que cabem em um dado volume é tal que:
 
 <br>
 
@@ -132,7 +132,7 @@
 
 **23. It is usually done after a fully connected/convolutional layer and before a non-linearity layer and aims at allowing higher learning rates and reducing the strong dependence on initialization.**
 
-&#10230; Isso é usualmente feito após de uma totalmente conectada/camada concolucional e antes de uma camada não linear e objetiva permitir maiores taxas de apredizado e reduzir a forte dependência na inicialização.
+&#10230; Isso é geralmente feito após uma camada convolucional totalmente conectada e antes de uma camada não-linear, e objetiva permitir maiores taxas de apredizado e reduzir a forte dependência na inicialização.
 
 <br>
 
@@ -144,7 +144,7 @@
 
 **25. Types of gates ― Here are the different types of gates that we encounter in a typical recurrent neural network:**
 
-&#10230; Tipos de portas (gates) - Aqui estão os diferentes tipos de portas (gates) que encontramos em uma rede neural recorrente típica:
+&#10230; Tipos de portas (gates) - Aqui estão os diferentes tipos de portas (gates) que encontramos em uma típica rede neural recorrente:
 
 <br>
 
@@ -162,19 +162,19 @@
 
 **28. LSTM ― A long short-term memory (LSTM) network is a type of RNN model that avoids the vanishing gradient problem by adding 'forget' gates.**
 
-&#10230; LSTM - Uma rede de memória de longo prazo (LSTM) é um tipo de modelo de rede neural recorretne (RNN) que evita o problema do desaparecimento da gradiente adicionando portas de 'esquecimento'.
+&#10230; LSTM - Uma rede de memória de longo prazo (LSTM) é um tipo de modelo de rede neural recorrente (RNN) que evita o problema do desaparecimento do gradiente adicionando portas de 'esquecimento' (forget gate).
 
 <br>
 
 **29. Reinforcement Learning and Control**
 
-&#10230; Aprendizado e Controle Reforçado
+&#10230; Controle e Aprendizado por Reforço
 
 <br>
 
 **30. The goal of reinforcement learning is for an agent to learn how to evolve in an environment.**
 
-&#10230; O objetivo do aprendizado reforçado é fazer um agente aprender como evoluir em um ambiente.
+&#10230; O objetivo do aprendizado por reforço é fazer um agente aprender como evoluir em um ambiente.
 
 <br>
 
@@ -204,7 +204,7 @@
 
 **35. {Psa} are the state transition probabilities for s∈S and a∈A**
 
-&#10230; Psa são as probabilidade de transição de estado para s∈S e a∈A
+&#10230; {Psa} são as probabilidade de transição de estado para s∈S e a∈A
 
 <br>
 
@@ -222,7 +222,7 @@
 
 **38. Policy ― A policy π is a function π:S⟶A that maps states to actions.**
 
-&#10230; Diretriz - Uma diretriz π é a função π:S⟶A que mapeia os estados a ações.
+&#10230; Diretriz - Uma diretriz π é a função π:S⟶A que mapeia os estados em ações.
 
 <br>
 
@@ -240,13 +240,13 @@
 
 **41. Bellman equation ― The optimal Bellman equations characterizes the value function Vπ∗ of the optimal policy π∗:**
 
-&#10230; Equação de Bellman - As equações de Bellman ótimas caracterizam a função de valor Vπ∗ para a ótima diretriz π∗:
+&#10230; Equação de Bellman - As equações de Bellman ótimas descrevem a função de valor Vπ∗ a partir da diretriz ótima π∗:
 
 <br>
 
 **42. Remark: we note that the optimal policy π∗ for a given state s is such that:**
 
-&#10230; Observação: definimos que a ótima diretriz π∗ para um dado estado s é tal que: 
+&#10230; Observe: definimos que a diretriz ótima π∗ para um dado estado s é tal que: 
 
 <br>
 
@@ -270,7 +270,7 @@
 
 **46. Maximum likelihood estimate ― The maximum likelihood estimates for the state transition probabilities are as follows:**
 
-&#10230; Máxima probabilidade estimada - A máxima probabildiade estima para o estado de transição de probabilidades como se segue:
+&#10230; Estimador de Máxima Verossimilhança - O estimador de máxima verossimilhança para as probabilidades de transição de estados são como segue:
 
 <br>
 
@@ -288,7 +288,7 @@
 
 **49. Q-learning ― Q-learning is a model-free estimation of Q, which is done as follows:**
 
-&#10230; Aprendizado Q - Aprendizado Q é um modelo livre de estimativa de Q, o qual é feito como se segue:
+&#10230; Aprendizado-Q (Q-learning) - Aprendizado-Q é um modelo livre de estimativa de Q, o qual é feito como se segue:
 
 <br>
 
@@ -306,16 +306,16 @@
 
 **52. [Convolutional Neural Networks, Convolutional layer, Batch normalization]**
 
-&#10230; [Redes Neurais Convolucionais, Camada convolucional, Normalização em lote]
+&#10230; [Redes Neurais Convolucionais (CNN), Camada Convolucional, Normalização em lote]
 
 <br>
 
 **53. [Recurrent Neural Networks, Gates, LSTM]**
 
-&#10230;[Redes Nerais Recorrentes, Portas (Gates), LSTM]
+&#10230;[Redes Neurais Recorrentes (RNN), Portas (Gates), LSTM]
 
 <br>
 
 **54. [Reinforcement learning, Markov decision processes, Value/policy iteration, Approximate dynamic programming, Policy search]**
 
-&#10230; [Aprendizado reforçado, Processo de decisão de Markov, Iteração de valor/diretriz, Programação dinâmica aproximada, Busca de diretriz]
+&#10230; [Aprendizado por Reforço, Processo de Decisão de Markov, Iteração de valor/diretriz, Programação dinâmica aproximada, Busca de diretriz]

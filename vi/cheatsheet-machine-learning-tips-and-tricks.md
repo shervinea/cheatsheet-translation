@@ -1,6 +1,6 @@
 **1. Machine Learning tips and tricks cheatsheet**
 
-&#10230; Các lời khuyên và kinh nghiệm trong Machine Learning (Học máy)
+&#10230; Các mẹo và thủ thuật trong Machine Learning (Học máy)
 
 <br>
 
@@ -12,7 +12,7 @@
 
 **3. In a context of a binary classification, here are the main metrics that are important to track in order to assess the performance of the model.**
 
-&#10230; Trong ngữ cảnh của phân loại nhị phân (binary classification), ở đây là các độ đo chính, chúng khá quan trọng để theo dõi (track), qua đó đánh giá hiệu năng của mô hình (model)
+&#10230; Đối với phân loại nhị phân (binary classification) là các độ đo chính, chúng khá quan trọng để theo dõi (track), qua đó đánh giá hiệu năng của mô hình (model)
 
 <br>
 
@@ -72,7 +72,7 @@
 
 **13. ROC ― The receiver operating curve, also noted ROC, is the plot of TPR versus FPR by varying the threshold. These metrics are are summed up in the table below:**
 
-&#10230; ROC - Đường cong hoạt động nhận, được kí hiệu là ROC, là minh hoạ của TPR với FPR bằng việc thay đổi ngưỡng (threshold). Các độ đo này được tổng kết ở bảng bên dưới:
+&#10230; ROC - Đường cong thao tác nhận, được kí hiệu là ROC, là minh hoạ của TPR với FPR bằng việc thay đổi ngưỡng (threshold). Các độ đo này được tổng kết ở bảng bên dưới:
 
 <br>
 
@@ -96,7 +96,7 @@
 
 **17. Basic metrics ― Given a regression model f, the following metrics are commonly used to assess the performance of the model:**
 
-&#10230; Độ đo cơ bản - Cho trước mô hình hồi quy f, độ đo sau được sử dụng phổ biến để đánh giá hiệu năng của mô hình: 
+&#10230; Độ đo cơ bản - Cho trước mô hình hồi quy f, độ đo sau được sử dụng phổ biến để đánh giá hiệu năng của mô hình:
 
 <br>
 
@@ -108,7 +108,7 @@
 
 **19. Coefficient of determination ― The coefficient of determination, often noted R2 or r2, provides a measure of how well the observed outcomes are replicated by the model and is defined as follows:**
 
-&#10230; Hệ số quyết định - Hệ số quyết định, thường được kí hiệu là R2 hoặc r2, cung cấp độ đo mức độ tốt của kết quả quan sát đầu ra và được nhân rộng bởi mô hình, được định nghĩa như sau:
+&#10230; Hệ số quyết định - Hệ số quyết định, thường được kí hiệu là R2 hoặc r2, cung cấp độ đo mức độ tốt của kết quả quan sát đầu ra (được nhân rộng bởi mô hình), và được định nghĩa như sau:
 
 <br>
 
@@ -120,7 +120,7 @@
 
 **21. where L is the likelihood and ˆσ2 is an estimate of the variance associated with each response.**
 
-&#10230; trong đó L là khả năng và ˆσ2 là giá trị ước tính của phương sai tương ứng với mỗi response (hồi đáp) 
+&#10230; trong đó L là khả năng và ˆσ2 là giá trị ước tính của phương sai tương ứng với mỗi response (hồi đáp).
 
 <br>
 
@@ -132,7 +132,7 @@
 
 **23. Vocabulary ― When selecting a model, we distinguish 3 different parts of the data that we have as follows:**
 
-&#10230; Vocabulary - Khi lựa chọn mô hình, chúng ta phân biệt 3 phần khác nhau của dữ liệu mà ta có như sau:
+&#10230; Vocabulary - Khi lựa chọn mô hình, chúng ta chia tập dữ liệu thành 3 tập con như sau:
 
 <br>
 
@@ -156,25 +156,25 @@
 
 **27. [Also called hold-out or development set, Unseen data]**
 
-&#10230; [Cũng được gọi là hold-out hoặc development set, Dữ liệu chưa hề biết]
+&#10230; [Cũng được gọi là hold-out hoặc development set (tập phát triển), Dữ liệu chưa được biết]
 
 <br>
 
 **28. Once the model has been chosen, it is trained on the entire dataset and tested on the unseen test set. These are represented in the figure below:**
 
-&#10230; Khi mô hình đã được chọn, nó được huấn luyện trên tập dữ liệu đầu vào, được test trên tập dữ liệu test hoàn toàn khác. Tất cả được minh hoạ ở hình bên dưới:
+&#10230; Khi mô hình đã được chọn, nó sẽ được huấn luyện trên tập dữ liệu đầu vào và được test trên tập dữ liệu test hoàn toàn khác. Tất cả được minh hoạ ở hình bên dưới:
 
 <br>
 
 **29. Cross-validation ― Cross-validation, also noted CV, is a method that is used to select a model that does not rely too much on the initial training set. The different types are summed up in the table below:**
 
-&#10230; Cross-validation - Cross-validation, còn được gọi là CV, một phương thức được sử dụng để chọn ra 1 mô hình không dựa quá nhiều vào tập dữ liệu huấn luyện ban đầu. Các loại khác nhau được tổng kết ở bảng bên dưới:
+&#10230; Cross-validation - Cross-validation, còn được gọi là CV, một phương thức được sử dụng để chọn ra một mô hình không dựa quá nhiều vào tập dữ liệu huấn luyện ban đầu. Các loại khác nhau được tổng kết ở bảng bên dưới:
 
 <br>
 
 **30. [Training on k−1 folds and assessment on the remaining one, Training on n−p observations and assessment on the p remaining ones]**
 
-&#10230; [Huấn luyện trên k-1 phần mà đánh giá trên 1 phần còn lại, Huấn luyện trên n-p phần và đánh giá trên p phần còn lại]
+&#10230; [Huấn luyện trên k-1 phần và đánh giá trên 1 phần còn lại, Huấn luyện trên n-p phần và đánh giá trên p phần còn lại]
 
 <br>
 
@@ -192,7 +192,7 @@
 
 **33. Regularization ― The regularization procedure aims at avoiding the model to overfit the data and thus deals with high variance issues. The following table sums up the different types of commonly used regularization techniques:**
 
-&#10230; Chuẩn hoá - Mục đích của thủ tục chính quy hoá là tránh cho mô hình bị overfit với dữ liệu, do đó gặp phải vấn đề phương sai lớn. Bảng sau đây sẽ tổng kết các loại khác nhau của kĩ thuật chính quy hoá hay được sử dụng:
+&#10230; Chuẩn hoá - Mục đích của thủ tục chuẩn hoá là tránh cho mô hình bị overfit với dữ liệu, do đó gặp phải vấn đề phương sai lớn. Bảng sau đây sẽ tổng kết các loại kĩ thuật chuẩn hoá khác nhau hay được sử dụng:
 
 <br>
 
@@ -234,7 +234,7 @@
 
 **40. [High training error, Training error close to test error, High bias, Training error slightly lower than test error, Very low training error, Training error much lower than test error, High variance]**
 
-&#10230; [Lỗi huấn luyện cao, Lỗi huấn luyện tiến gần tới lỗi test, Bias cao, Lỗi huấn luyện thấp hơn một chút so với lỗi test, Lỗi huẩn luyện rất thấp, Lỗi huấn luyện thấp hơn lỗi test rất nhiều, Phương sai cao]
+&#10230; [Lỗi huấn luyện cao, Lỗi huấn luyện tiến gần tới lỗi test, Bias cao, Lỗi huấn luyện thấp hơn một chút so với lỗi test, Lỗi huấn luyện rất thấp, Lỗi huấn luyện thấp hơn lỗi test rất nhiều, Phương sai cao]
 
 <br>
 

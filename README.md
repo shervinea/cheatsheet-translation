@@ -101,7 +101,7 @@ Please make sure to propose the translation of **only one** cheatsheet per pull 
 |**Українська**|not started|not started|not started|
 |**Tiếng Việt**|done|done|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/178)|
 |**简体中文**|not started|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/181)|not started|
-|**繁體中文**|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/196)|not started|not started|
+|**繁體中文**|done|not started|not started|
 
 ## Acknowledgements
 Thank you everyone for your help! Please do not forget to add your name to the `CONTRIBUTORS` file so that we can give you proper credit in the cheatsheets' [official website](https://stanford.edu/~shervine/teaching).

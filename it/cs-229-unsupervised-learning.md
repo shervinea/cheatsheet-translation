@@ -34,13 +34,13 @@
 
 **6. Expectation-Maximization**
 
-&#10230; Massimizzazione delle aspettative
+&#10230; Expectation-Maximization
 
 <br>
 
 **7. Latent variables ― Latent variables are hidden/unobserved variables that make estimation problems difficult, and are often denoted z. Here are the most common settings where there are latent variables:**
 
-&#10230; Variabili latenti: le variabili latenti sono variabili nascoste / non osservate che rendono difficili i problemi di stima e sono spesso indicate con z. Ecco le impostazioni più comuni in cui sono presenti variabili latenti
+&#10230; Variabili latenti: le variabili latenti sono variabili nascoste / non osservate che rendono difficili i problemi di stima e sono spesso indicate da z. Seguono le impostazioni più comuni in cui sono presenti variabili latenti
 
 <br>
 
@@ -64,13 +64,13 @@
 
 **11. E-step: Evaluate the posterior probability Qi(z(i)) that each data point x(i) came from a particular cluster z(i) as follows:**
 
-&#10230; E-step: valutare la probabilità posteriore Qi (z (i)) che ciascun punto dati x (i) provenga da un particolare cluster z (i) come segue: 
+&#10230; E-step: valutare la probabilità a posteriori Qi(z(i)) che ciascun punto x(i) provenga da un particolare cluster z(i) come segue: 
 
 <br>
 
 **12. M-step: Use the posterior probabilities Qi(z(i)) as cluster specific weights on data points x(i) to separately re-estimate each cluster model as follows:**
 
-&#10230; Fase M: utilizzare le probabilità posteriori Qi (z (i)) come pesi specifici del cluster sui punti dati x (i) per rivalutare separatamente ciascun modello di cluster come segue: 
+&#10230; Fase M: utilizzare la probabilità a posteriori Qi(z(i)) come peso specifico del cluster sui dati x(i) per rivalutare separatamente ciascun modello di cluster come segue: 
 
 <br>
 
@@ -82,13 +82,13 @@
 
 **14. k-means clustering** 
 
-&#10230; clustering k-significa 
+&#10230; clustering k-signifivo
 
 <br>
 
 **15. We note c(i) the cluster of data point i and μj the center of cluster j.**
 
-&#10230; Notiamo c (i) il cluster del punto dati i e μj il centro del cluster j. 
+&#10230; Notiamo che c(i) e' il cluster dei dati i e μj il centro del cluster j. 
 
 <br>
 
@@ -100,7 +100,7 @@
 
 **17. [Means initialization, Cluster assignment, Means update, Convergence]**
 
-&#10230; [Inizializzazione dei mezzi, assegnazione del cluster, aggiornamento dei mezzi, convergenza] 
+&#10230; [Inizializzazione dei mezzi, assegnazione del cluster, aggiornamento delle meadie, convergenza] 
 
 <br>
 
@@ -118,19 +118,19 @@
 
 **20. Algorithm ― It is a clustering algorithm with an agglomerative hierarchical approach that build nested clusters in a successive manner.**
 
-&#10230; Algoritmo: è un algoritmo di clustering con un approccio gerarchico agglomerato che crea cluster nidificati in un modo successivo. 
+&#10230; Algoritmo: è un algoritmo di clustering con un approccio gerarchico agglomerato che crea cluster nidificati in modo ripetitivo. 
 
 <br>
 
 **21. Types ― There are different sorts of hierarchical clustering algorithms that aims at optimizing different objective functions, which is summed up in the table below:**
 
-&#10230; Esistono diversi tipi di algoritmi di clustering gerarchici che mirano a ottimizzare diverse funzioni oggettive, che è riassunto nella tabella seguente: 
+&#10230; Esistono diversi tipi di algoritmi di clustering gerarchici che mirano ad ottimizzare diverse funzioni oggettive, che è riassunto nella tabella seguente: 
 
 <br>
 
 **22. [Ward linkage, Average linkage, Complete linkage]**
 
-&#10230; [Collegamento di reparto, collegamento medio, collegamento completo]
+&#10230; [Ward linkage, Average linkage, Complete linkage]
 
 <br>
 

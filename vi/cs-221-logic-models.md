@@ -88,7 +88,7 @@
 
 **13. Definition ― The knowledge base KB is the conjunction of all formulas that have been considered so far. The set of models of the knowledge base is the intersection of the set of models that satisfy each formula. In other words:**
 
-&#10230; Định nghĩa - Cơ sở tri thức KB là sự kết hợp của tất cả các công thức đã được xem xét cho đến nay. Tập hợp các mô hình của cơ sở tri thức là giao điểm của tập hợp các mô hình thỏa mãn từng công thức. Nói cách khác:
+&#10230; Định nghĩa - Cơ sở tri thức KB là sự kết hợp của tất cả các công thức đã được xem xét cho đến nay. Tập hợp các mô hình của cơ sở tri thức là tập giao của tập hợp các mô hình thỏa mãn từng công thức. Nói cách khác:
 
 <br>
 
@@ -123,7 +123,7 @@
 
 **18. Relation between formulas and knowledge base - We define the following properties between the knowledge base KB and a new formula f:**
 
-&#10230; Mối liên hệ giữa công thức và cơ sở tri thức - Chúng tôi xác định các thuộc tính sau giữa KB cơ sở tri thức và công thức mới f:
+&#10230; Mối liên hệ giữa công thức và cơ sở tri thức - Chúng tôi định nghĩa các thuộc tính sau giữa KB cơ sở tri thức và công thức mới f:
 
 <br>
 
@@ -137,7 +137,7 @@
 
 **20. [KB entails f, KB contradicts f, f contingent to KB]**
 
-&#10230; [KB đòi hỏi f, KB mâu thuẫn với f, f phụ thuộc vào KB]
+&#10230; [KB suy luận (kết thừa) từ f, KB mâu thuẫn với f, f phụ thuộc vào KB]
 
 <br>
 
@@ -403,7 +403,7 @@
 
 **58. [Knowledge base, Definition, Probabilistic interpretation, Satisfiability, Relationship with formulas, Forward inference, Rule properties]**
 
-&#10230; [Cơ sở tri thức, Định nghĩa, Giải thích xác suất, Hài lòng, Mối quan hệ với các công thức, Suy luận chuyển tiếp, Thuộc tính quy tắc]
+&#10230; [Cơ sở tri thức, Định nghĩa, Giải thích xác suất, Sự thỏa mãn, Mối quan hệ với các công thức, Suy luận chuyển tiếp, Thuộc tính quy tắc]
 
 <br>
 
@@ -459,4 +459,4 @@
 
 **66. The Artificial Intelligence cheatsheets are now available in [target language].**
 
-&#10230; Trí tuệ nhân tạo cheatsheats hiện đã có vơi ngôn ngữ [Tiếng Việt]
+&#10230; Trí tuệ nhân tạo cheatsheats hiện đã có với ngôn ngữ [Tiếng Việt]

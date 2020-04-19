@@ -250,7 +250,7 @@
 
 **42. Correlation ― By noting σX,σY the standard deviations of X and Y, we define the correlation between the random variables X and Y, noted ρXY, as follows:**
 
-&#10230; Mối tương quan ― Kí hiệu σX,σY là độ lệch chuẩn của X và Y, chúng ta xác định mối tương quan giữa X và Y, kí hiệu ρXY, như sau:
+&#10230; Hệ số tương quan ― Kí hiệu σX,σY là độ lệch chuẩn của X và Y, chúng ta xác định hệ số tương quan giữa X và Y, kí hiệu ρXY, như sau:
 
 <br>
 
@@ -376,7 +376,7 @@
 
 **63. [Jointly distributed random variables, Density, Covariance, Correlation]**
 
-&#10230; [Các biến ngẫu nhiên đồng thời, Mật độ, Hiệp phương sai, Mối tương quan]
+&#10230; [Các biến ngẫu nhiên đồng thời, Mật độ, Hiệp phương sai, Hệ số tương quan]
 
 <br>
 

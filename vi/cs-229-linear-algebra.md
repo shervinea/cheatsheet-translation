@@ -130,7 +130,7 @@
 
 **22. Transpose ― The transpose of a matrix A∈Rm×n, noted AT, is such that its entries are flipped:**
 
-&#10230; Chuyển vị ― Chuyển vị của một ma trận A∈Rm×n, kí hiệu AT, khi các phần tử hàng cột hoán vị trí cho nhau:
+&#10230; Chuyển vị ― Chuyển vị của một ma trận A∈Rm×n, kí hiệu AT, khi các phần tử hàng cột hoán đổi vị trí cho nhau:
 
 <br>
 
@@ -166,7 +166,7 @@
 
 **28. Determinant ― The determinant of a square matrix A∈Rn×n, noted |A| or det(A) is expressed recursively in terms of A∖i,∖j, which is the matrix A without its ith row and jth column, as follows:**
 
-&#10230; Định thức ― Định thức của một ma trận vuông A∈Rn×n, kí hiệu |A| hay det(A) được tính hồi quy với A∖i,∖j, ma trận A xóa đi hàng thứ i và cột thứ j:
+&#10230; Định thức ― Định thức của một ma trận vuông A∈Rn×n, kí hiệu |A| hay det(A) được tính đệ quy với A∖i,∖j, ma trận A xóa đi hàng thứ i và cột thứ j:
 
 <br>
 

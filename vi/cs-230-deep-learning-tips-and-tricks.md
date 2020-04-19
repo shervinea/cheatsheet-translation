@@ -46,14 +46,14 @@
 
 **7. [Regularization, Dropout, Weight regularization, Early stopping]**
 
-&#10230; [Sự phạt mô hình, Dropout, Khởi tạo trọng số, Dừng sớm]
+&#10230; [Regularization, Dropout, Weight regularization, Kỹ thuật Dừng sớm]
 
 <br>
 
 
 **8. [Good practices, Overfitting small batch, Gradient checking]**
 
-&#10230; [Thói quen tốt, Quá khớp tập nhỏ, Kiểm tra đạo hàm]
+&#10230; [Good practices, Overfitting small batch, Gradient checking]
 
 <br>
 
@@ -116,7 +116,7 @@
 
 **17. Batch normalization ― It is a step of hyperparameter γ,β that normalizes the batch {xi}. By noting μB,σ2B the mean and variance of that we want to correct to the batch, it is done as follows:**
 
-&#10230; Chuẩn hóa batch ― Đây là một bước của siêu tham số γ,β chuẩn hóa tập dữ liệu {xi}. Kí hiệu μB,σ2B là trung bình và phương sai của tập dữ liệu ta muốn chuẩn hóa, tuân theo công thức sau:
+&#10230; Chuẩn hóa batch ― Đây là một bước của hyperparameter γ,β chuẩn hóa tập dữ liệu {xi}. Bằng việc kí hiệu μB,σ2B là trung bình và phương sai của tập dữ liệu ta muốn chuẩn hóa, nó được thực hiện như sau:
 
 <br>
 
@@ -165,7 +165,7 @@
 
 **24. Cross-entropy loss ― In the context of binary classification in neural networks, the cross-entropy loss L(z,y) is commonly used and is defined as follows:**
 
-&#10230; Mất entropy chéo - Trong bối cảnh phân loại nhị phân trong các mạng thần kinh, tổn thất entropy chéo L(z,y) thường được sử dụng và được định nghĩa như sau:
+&#10230; Cross-entropy loss - Khi áp dụng phân loại nhị phân (binary classification) trong các mạng neural, cross-entropy loss L(z,y) thường được sử dụng và được định nghĩa như sau:
 
 <br>
 

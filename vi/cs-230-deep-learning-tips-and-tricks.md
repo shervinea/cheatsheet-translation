@@ -39,7 +39,7 @@
 
 **6. [Parameter tuning, Xavier initialization, Transfer learning, Learning rate, Adaptive learning rates]**
 
-&#10230; [Tinh chỉnh tham số, Khởi tạo Xavier, Học chuyển tiếp, Tốc độ học, Tốc độ học đáp ứng]
+&#10230; [Parameter tuning, Khởi tạo Xavier, Transfer learning, Tốc độ học, Tốc độ học đáp ứng]
 
 <br>
 

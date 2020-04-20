@@ -112,7 +112,7 @@
 
 **19. Hierarchical clustering**
 
-&#10230; Hierarchical clustering
+&#10230; Phân cụm phân cấp
 
 <br>
 

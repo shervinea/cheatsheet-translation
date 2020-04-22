@@ -47,7 +47,7 @@ Please make sure to propose the translation of **only one** cheatsheet per pull 
 |**한국어**|not started|not started|not started|not started|
 |**Português**|not started|not started|not started|not started|
 |**Türkçe**|done|done|done|done|
-|**Tiếng Việt**|not started|not started|not started|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/179)|
+|**Tiếng Việt**|not started|not started|not started|done|
 |**简体中文**|not started|not started|not started|not started|
 |**繁體中文**|not started|not started|not started|not started|
 

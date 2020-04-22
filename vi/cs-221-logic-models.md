@@ -459,4 +459,4 @@
 
 **66. The Artificial Intelligence cheatsheets are now available in [target language].**
 
-&#10230; Trí tuệ nhân tạo cheatsheats hiện đã có với ngôn ngữ [Tiếng Việt]
+&#10230; Trí tuệ nhân tạo cheatsheets hiện đã có với ngôn ngữ [Tiếng Việt].

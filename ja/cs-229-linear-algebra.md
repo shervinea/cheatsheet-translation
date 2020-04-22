@@ -19,19 +19,19 @@
 **4. Vector ― We note x∈Rn a vector with n entries, where xi∈R is the ith entry:**
 
 &#10230;
-ベクトル - x∈Rn は n個の要素を持つベクトルを表し、xi∈Rはi番目の要素を表します。
+ベクトル - x∈Rn はn個の要素を持つベクトルを表し、xi∈R はi番目の要素を表します。
 <br>
 
 **5. Matrix ― We note A∈Rm×n a matrix with m rows and n columns, where Ai,j∈R is the entry located in the ith row and jth column:**
 
 &#10230;
-行列 - m行n列の行列をA∈Rm×nと表記し、Ai、j∈Rは i行目のj列目の要素を指します。
+行列 - m行n列の行列を A∈Rm×n と表記し、Ai,j∈R はi行目のj列目の要素を指します。
 <br>
 
 **6. Remark: the vector x defined above can be viewed as a n×1 matrix and is more particularly called a column-vector.**
 
 &#10230;
-備考：上記で定義されたベクトルxはn×1の行列と見なすことができ、列ベクトルと呼ばれます。
+備考：上記で定義されたベクトル x は n×1 の行列と見なすことができ、列ベクトルと呼ばれます。
 <br>
 
 **7. Main matrices**
@@ -43,25 +43,25 @@
 **8. Identity matrix ― The identity matrix I∈Rn×n is a square matrix with ones in its diagonal and zero everywhere else:**
 
 &#10230;
-単位行列 - 単位行列I∈Rn×nは、対角成分に 1 が並び、他は全て 0 となる正方行列です。
+単位行列 - 単位行列 I∈Rn×n は、対角成分に 1 が並び、他は全て 0 となる正方行列です。
 <br>
 
 **9. Remark: for all matrices A∈Rn×n, we have A×I=I×A=A.**
 
 &#10230;
-備考：すべての行列A∈Rn×nに対して、A×I = I×A = Aとなります。
+備考：すべての行列 A∈Rn×n に対して、A×I=I×A=A となります。
 <br>
 
 **10. Diagonal matrix ― A diagonal matrix D∈Rn×n is a square matrix with nonzero values in its diagonal and zero everywhere else:**
 
 &#10230;
-対角行列 - 対角行列D∈Rn×nは、対角成分の値がゼロ以外で、それ以外はゼロである正方行列です。
+対角行列 - 対角行列 D∈Rn×n は、対角成分の値が 0 以外で、それ以外は 0 である正方行列です。
 <br>
 
 **11. Remark: we also note D as diag(d1,...,dn).**
 
 &#10230;
-備考：Dをdiag（d 1、...、d n）とも表記します。
+備考：Dをdiag(d1,...,dn) とも表記します。
 <br>
 
 **12. Matrix operations**
@@ -85,37 +85,37 @@
 **15. inner product: for x,y∈Rn, we have:**
 
 &#10230;
-内積: x、y∈Rnに対して、内積の定義は下記の通りです:
+内積: x,y∈Rn に対して、内積の定義は下記の通りです:
 <br>
 
 **16. outer product: for x∈Rm,y∈Rn, we have:**
 
 &#10230;
-外積: x∈Rm,y∈Rnに対して、外積の定義は下記の通りです:
+外積: x∈Rm,y∈Rn に対して、外積の定義は下記の通りです:
 <br>
 
 **17. Matrix-vector ― The product of matrix A∈Rm×n and vector x∈Rn is a vector of size Rn, such that:**
 
 &#10230;
-行列-ベクトル - 行列A∈Rm×nとベクトルx∈Rnの積は以下の条件を満たすようなサイズRnのベクトルです。
+行列-ベクトル - 行列 A∈Rm×n とベクトル x∈Rn の積は以下の条件を満たすようなサイズ Rn のベクトルです。
 <br>
 
 **18. where aTr,i are the vector rows and ac,j are the vector columns of A, and xi are the entries of x.**
 
 &#10230;
-上記 aTr、iはAの行ベクトルで、ac、jはAの列ベクトルです。 xiはxの要素です。
+上記 aTr,i は A の行ベクトルで、ac,j は A の列ベクトルです。 xi は x の要素です。
 <br>
 
 **19. Matrix-matrix ― The product of matrices A∈Rm×n and B∈Rn×p is a matrix of size Rn×p, such that:**
 
 &#10230;
-行列-行列 - 行列A∈Rm×nとB∈Rn×pの積は以下の条件を満たすようなサイズRm×pの行列です。 (There is a typo in the original: Rn×p)
+行列-行列 - 行列 A∈Rm×n と B∈Rn×p の積は以下の条件を満たすようなサイズ Rm×p の行列です。 (There is a typo in the original: Rn×p)
 <br>
 
 **20. where aTr,i,bTr,i are the vector rows and ac,j,bc,j are the vector columns of A and B respectively**
 
 &#10230;
-aTr,i、bTr,iはAとBの行ベクトルで　ac,j、bc,jはAとBの列ベクトルです。
+aTr,i,bTr,i は A と B の行ベクトルで　ac,j,bc,j は A と B の列ベクトルです。
 <br>
 
 **21. Other operations**
@@ -127,50 +127,50 @@ aTr,i、bTr,iはAとBの行ベクトルで　ac,j、bc,jはAとBの列ベクト�
 **22. Transpose ― The transpose of a matrix A∈Rm×n, noted AT, is such that its entries are flipped:**
 
 &#10230;
-転置 ― A∈Rm×nの転置行列はATと表記し、Aの行列要素が交換した行列です。
+転置 ― A∈Rm×n の転置行列は AT と表記し、A の行列要素が交換した行列です。
 <br>
 
 **23. Remark: for matrices A,B, we have (AB)T=BTAT**
 
 &#10230;
-備考： 行列AとBの場合、（AB）T = BTAT** となります。
+備考： 行列AとBの場合、(AB)T=BTAT** となります。
 <br>
 
 **24. Inverse ― The inverse of an invertible square matrix A is noted A−1 and is the only matrix such that:**
 
 &#10230;
-逆行列 ― 可逆正方行列Ａの逆行列はＡ − １と表記し、 以下の条件を満たす唯一の行列です。
+逆行列 ― 可逆正方行列 A の逆行列は A-1 と表記し、 以下の条件を満たす唯一の行列です。
 <br>
 
 **25. Remark: not all square matrices are invertible. Also, for matrices A,B, we have (AB)−1=B−1A−1**
 
 &#10230;
-備考： すべての正方行列が可逆とは限りません。　行列A、Bについては、(AB)−1=B−1A−1
+備考： すべての正方行列が可逆とは限りません。　行列 A,B については、(AB)−1=B−1A−1
 <br>
 
 **26. Trace ― The trace of a square matrix A, noted tr(A), is the sum of its diagonal entries:**
 
 &#10230;
-跡 - 正方行列Aの跡は、tr(A)と表記し、その対角成分の要素の和です。
+跡 - 正方行列 A の跡は、tr(A) と表記し、その対角成分の要素の和です。
 <br>
 
 **27. Remark: for matrices A,B, we have tr(AT)=tr(A) and tr(AB)=tr(BA)**
 
 &#10230;
-備考： 行列A、Bの場合：　tr(AT)=tr(A)とtr(AB)=tr(BA)となります。
+備考： 行列 A,B の場合：　tr(AT)=tr(A) と tr(AB)=tr(BA) となります。
 <br>
 
 **28. Determinant ― The determinant of a square matrix A∈Rn×n, noted |A| or det(A) is expressed recursively in terms of A∖i,∖j, which is the matrix A without its ith row and jth column, as follows:**
 
 &#10230;
-行列式 ― 正方行列A∈Rn×nの行列式は|A| または det(A) と表記し、以下のように i番目の行とj番目の列を抜いたA, Aijによって再帰的に表現されます。
+行列式 ― 正方行列 A∈Rn×n の行列式は |A| または det(A) と表記し、以下のように i番目の行とj番目の列を抜いた行列A、Aij によって再帰的に表現されます。
  それはi番目の行とj番目の列のない行列Aです。 次のように：
 <br>
 
 **29. Remark: A is invertible if and only if |A|≠0. Also, |AB|=|A||B| and |AT|=|A|.**
 
 &#10230;
-備考： |A|≠0の場合に限り、行列は可逆行列です。また|AB|=|A||B| と |AT|=|A|。
+備考： |A|≠0の場合に限り、行列は可逆行列です。また |AB|=|A||B| と |AT|=|A|。
 <br>
 
 **30. Matrix properties**
@@ -200,7 +200,7 @@ aTr,i、bTr,iはAとBの行ベクトルで　ac,j、bc,jはAとBの列ベクト�
 **34. Norm ― A norm is a function N:V⟶[0,+∞[ where V is a vector space, and such that for all x,y∈V, we have:**
 
 &#10230;
-ノルムは関数N:V⟶[0,+∞[　Vはすべてのx、y∈Vに対して、以下の条件を満たすようなベクトル空間です。
+ノルムは関数N:V⟶[0,+∞[　Vはすべての x,y∈V に対して、以下の条件を満たすようなベクトル空間です。
 ]]
 <br>
 
@@ -243,31 +243,31 @@ x∈Vに対して、最も多用されているノルムは、以下の表にま
 **41. Matrix rank ― The rank of a given matrix A is noted rank(A) and is the dimension of the vector space generated by its columns. This is equivalent to the maximum number of linearly independent columns of A.**
 
 &#10230;
-行列の階数　―　行列Aの階数は rank（A）と表記し、列空間の次元を表します。これは、Aの線形独立の列の最大数に相当します。
+行列の階数　―　行列Aの階数は rank(A) と表記し、列空間の次元を表します。これは、Aの線形独立の列の最大数に相当します。
 <br>
 
 **42. Positive semi-definite matrix ― A matrix A∈Rn×n is positive semi-definite (PSD) and is noted A⪰0 if we have:**
 
 &#10230;
-半正定値行列 ― 行列 A, A∈Rn×nに対して、以下の式が成り立つならば、 Aを半正定値(PSD)といい、A⪰0と表記します。
+半正定値行列 ― 行列A、A∈Rn×nに対して、以下の式が成り立つならば、 Aを半正定値(PSD)といい、A⪰0 と表記します。
 <br>
 
 **43. Remark: similarly, a matrix A is said to be positive definite, and is noted A≻0, if it is a PSD matrix which satisfies for all non-zero vector x, xTAx>0.**
 
 &#10230;
-備考：　同様に、全ての非ゼロベクトルx, xTAx>0に対して条件を満たすような行列Aは正定値行列といい、A≻0と表記します。
+備考：　同様に、全ての非ゼロベクトルx、xTAx>0 に対して条件を満たすような行列Aは正定値行列といい、A≻0 と表記します。
 <br>
 
 **44. Eigenvalue, eigenvector ― Given a matrix A∈Rn×n, λ is said to be an eigenvalue of A if there exists a vector z∈Rn∖{0}, called eigenvector, such that we have:**
 
 &#10230;
-固有値、固有ベクトル　―　行列 A, A∈Rn×nに対して、以下の条件を満たすようなベクトルz, z∈Rn∖{0}が存在するならば、λは固有値といい、z は固有ベクトルといいます。
+固有値、固有ベクトル　―　行列A、A∈Rn×n に対して、以下の条件を満たすようなベクトルz、z∈Rn∖{0} が存在するならば、λ は固有値といい、z は固有ベクトルといいます。
 <br>
 
 **45. Spectral theorem ― Let A∈Rn×n. If A is symmetric, then A is diagonalizable by a real orthogonal matrix U∈Rn×n. By noting Λ=diag(λ1,...,λn), we have:**
 
 &#10230;
-スペクトル定理 ― A∈Rn×nとします。　Aが対称ならば、Aは実直交行列U∈Rn×nによって対角化可能です。Λ=diag(λ1,...,λn)と表記すると、次のように表現できます。
+スペクトル定理 ― A∈Rn×n とします。A が対称ならば、A は実直交行列 U∈Rn×n によって対角化可能です。Λ=diag(λ1,...,λn) と表記すると、次のように表現できます。
 <br>
 
 **46. diagonal**
@@ -279,7 +279,7 @@ x∈Vに対して、最も多用されているノルムは、以下の表にま
 **47. Singular-value decomposition ― For a given matrix A of dimensions m×n, the singular-value decomposition (SVD) is a factorization technique that guarantees the existence of U m×m unitary, Σ m×n diagonal and V n×n unitary matrices, such that:**
 
 &#10230;
-特異値分解 ― Aをm×nの行列とします。特異値分解（SVD）は、ユニタリ行列Ｕ ｍ×ｍ、Σ ｍ×ｎの対角行列、およびユニタリ行列Ｖ ｎ×ｎの存在を保証する因数分解手法で、以下の条件を満たします。
+特異値分解 ― A を m×n の行列とします。特異値分解（SVD）は、ユニタリ行列 U m×m、Σ m×n の対角行列、およびユニタリ行列 V n×n の存在を保証する因数分解手法で、以下の条件を満たします。
 <br>
 
 **48. Matrix calculus**
@@ -291,31 +291,31 @@ x∈Vに対して、最も多用されているノルムは、以下の表にま
 **49. Gradient ― Let f:Rm×n→R be a function and A∈Rm×n be a matrix. The gradient of f with respect to A is a m×n matrix, noted ∇Af(A), such that:**
 
 &#10230;
-勾配 ― f:Rm×n→Rを関数とし、A∈Rm×nを行列とします。 Aに対するfの勾配はm×n行列で、∇Af（A）と表記し、次の条件を満たします。
+勾配 ― f:Rm×n→R を関数とし、A∈Rm×n を行列とします。 A に対する f の勾配は m×n 行列で、∇Af(A) と表記し、次の条件を満たします。
 <br>
 
 **50. Remark: the gradient of f is only defined when f is a function that returns a scalar.**
 
 &#10230;
-備考：　fの勾配は、fがスカラーを返す関数であるときに限り存在します。
+備考：　f の勾配は、f がスカラーを返す関数であるときに限り存在します。
 <br>
 
 **51. Hessian ― Let f:Rn→R be a function and x∈Rn be a vector. The hessian of f with respect to x is a n×n symmetric matrix, noted ∇2xf(x), such that:**
 
 &#10230;
-ヘッセ行列 ― f：Rn→Rを関数とし、x∈Rnをベクトルとします。 xに対するfのヘッセ行列は、n×n対称行列で∇2xf（x）と表記し、以下の条件を満たします。
+ヘッセ行列 ― f:Rn→R を関数とし、x∈Rn をベクトルとします。 x に対する f のヘッセ行列は、n×n 対称行列で ∇2xf(x) と表記し、以下の条件を満たします。
 <br>
 
 **52. Remark: the hessian of f is only defined when f is a function that returns a scalar**
 
 &#10230;
-備考：　fのヘッセ行列は、fがスカラーを返す関数である場合に限り存在します。
+備考：　f のヘッセ行列は、f がスカラーを返す関数である場合に限り存在します。
 <br>
 
 **53. Gradient operations ― For matrices A,B,C, the following gradient properties are worth having in mind:**
 
 &#10230;
-勾配演算 ― 行列A、B、Cの場合、特に以下の勾配の性質を意識する甲斐があります。
+勾配演算 ― 行列 A,B,C の場合、特に以下の勾配の性質を意識する甲斐があります。
 <br>
 
 **54. [General notations, Definitions, Main matrices]**

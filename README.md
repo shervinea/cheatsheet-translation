@@ -99,7 +99,7 @@ Please make sure to propose the translation of **only one** cheatsheet per pull 
 |**Русский**|not started|not started|not started|
 |**Türkçe**|done|done|done|
 |**Українська**|not started|not started|not started|
-|**Tiếng Việt**|done|done|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/178)|
+|**Tiếng Việt**|done|done|done|
 |**简体中文**|not started|[in progress](https://github.com/shervinea/cheatsheet-translation/pull/181)|not started|
 |**繁體中文**|done|not started|not started|
 

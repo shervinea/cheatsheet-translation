@@ -124,103 +124,103 @@
 
 **21. Random variable ― A random variable, often noted X, is a function that maps every element in a sample space to a real line.**
 
-&#10230;
+&#10230; 21. Zmienna losowa - zmienna losowa, często oznaczana jako X, jest funkcją, która odwzorowuje każdy element w przestrzeni próbki na rzeczywistą linię.
 
 <br>
 
 **22. Cumulative distribution function (CDF) ― The cumulative distribution function F, which is monotonically non-decreasing and is such that limx→−∞F(x)=0 and limx→+∞F(x)=1, is defined as:**
 
-&#10230;
+&#10230; 22. Dystrybuanta (CDF) - dystrybuanta F, jest funkcją która nie zmniejsza się monotonicznie i jest taka, że limx→−∞F(x)=0 oraz limx→+∞F(x)=1, jest zdefiniowana jako:
 
 <br>
 
 **23. Remark: we have P(a<X⩽B)=F(b)−F(a).**
 
-&#10230;
+&#10230; 23. Uwaga: mamy P(a<X⩽B)=F(b)−F(a).
 
 <br>
 
 **24. Probability density function (PDF) ― The probability density function f is the probability that X takes on values between two adjacent realizations of the random variable.**
 
-&#10230;
+&#10230; 24. Funkcja gęstości prawdopodobieństwa (PDF) - Funkcja gęstości prawdopodobieństwa f to prawdopodobieństwo, że X przyjmuje wartości między dwiema sąsiednimi realizacjami zmiennej losowej.
 
 <br>
 
 **25. Relationships involving the PDF and CDF ― Here are the important properties to know in the discrete (D) and the continuous (C) cases.**
 
-&#10230;
+&#10230; 25. Relacje dotyczące funkcji gęstości prawdopodobieństwa i dystrybuanty - Oto ważne właściwości, które należy znać w przypadkach dyskretnych (D) i ciągłych (C).
 
 <br>
 
 **26. [Case, CDF F, PDF f, Properties of PDF]**
 
-&#10230;
+&#10230; 26. [Przypadek, Dystrybuanta F, Funkcja gęstości prawdopodobieństwa f, Właściwości funkcji gęstości prawdopodobieństwa]
 
 <br>
 
 **27. Expectation and Moments of the Distribution ― Here are the expressions of the expected value E[X], generalized expected value E[g(X)], kth moment E[Xk] and characteristic function ψ(ω) for the discrete and continuous cases:**
 
-&#10230;
+&#10230; 27. Oczekiwanie i momenty rozkładu - oto wyrażenia wartości oczekiwanej E[X], uogólnionej wartości oczekiwanej E[g(X)], k-tego momentu E[Xk] i funkcji charakterystycznej ψ(ω) dla przypadków dyskretnych i ciągłych:
 
 <br>
 
 **28. Variance ― The variance of a random variable, often noted Var(X) or σ2, is a measure of the spread of its distribution function. It is determined as follows:**
 
-&#10230;
+&#10230; 28. Wariancja - wariancja zmiennej losowej, często oznaczana Var(X) lub σ2, jest miarą rozproszenia jej funkcji rozkładu. Jest określana w następujący sposób:
 
 <br>
 
 **29. Standard deviation ― The standard deviation of a random variable, often noted σ, is a measure of the spread of its distribution function which is compatible with the units of the actual random variable. It is determined as follows:**
 
-&#10230;
+&#10230; 29. Odchylenie standardowe - odchylenie standardowe zmiennej losowej, często oznaczane σ, jest miarą rozproszenia funkcji rozkładu, która jest zgodna z jednostkami rzeczywistej zmiennej losowej. Jest określane w następujący sposób:
 
 <br>
 
 **30. Transformation of random variables ― Let the variables X and Y be linked by some function. By noting fX and fY the distribution function of X and Y respectively, we have:**
 
-&#10230;
+&#10230; 30. Transformacja zmiennych losowych - niech zmienne X i Y zostaną połączone jakąś funkcją. Biorąc pod uwagę fX i fY, i odpowiednio funkcję rozkładu X i Y, mamy:
 
 <br>
 
 **31. Leibniz integral rule ― Let g be a function of x and potentially c, and a,b boundaries that may depend on c. We have:**
 
-&#10230;
+&#10230; 31. Twierdzenie Leibniza (o różniczkowaniu pod znakiem całki) - niech g będzie funkcją x i potencjalnie granic c oraz a, b, które mogą zależeć od c. Mamy:
 
 <br>
 
 **32. Probability Distributions**
 
-&#10230;
+&#10230; 32. Rozkłady prawdopodobieństwa
 
 <br>
 
 **33. Chebyshev's inequality ― Let X be a random variable with expected value μ. For k,σ>0, we have the following inequality:**
 
-&#10230;
+&#10230; 33. Nierówność Czebyszewa - Niech X będzie zmienną losową o oczekiwanej wartości μ. Dla k,σ>0 mamy następującą nierówność:
 
 <br>
 
 **34. Main distributions ― Here are the main distributions to have in mind:**
 
-&#10230;
+&#10230; 34. Główne rozkłady - oto główne rozkłady, o których należy pamiętać:
 
 <br>
 
 **35. [Type, Distribution]**
 
-&#10230;
+&#10230; 35. [Rodzaj, rozkład]
 
 <br>
 
 **36. Jointly Distributed Random Variables**
 
-&#10230;
+&#10230; 36. Wspólny rozkład zmiennych losowych
 
 <br>
 
 **37. Marginal density and cumulative distribution ― From the joint density probability function fXY , we have**
 
-&#10230;
+&#10230; 37. Gęstość brzegowa i rozkład skumulowany - Ze złączenia funkcji gęstości prawdopodobieństwa fXY, mamy
 
 <br>
 

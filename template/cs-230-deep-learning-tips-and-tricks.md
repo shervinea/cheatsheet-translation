@@ -268,8 +268,7 @@
 <br>
 
 
-**39. Learning rate ― The learning rate, often noted α or sometimes η, indicates at which pace the weights get updated. It can be fixed or adaptively changed. The current most popular method is called Adam, which is a method that adapts the learning rate.
-**
+**39. Learning rate ― The learning rate, often noted α or sometimes η, indicates at which pace the weights get updated. It can be fixed or adaptively changed. The current most popular method is called Adam, which is a method that adapts the learning rate.**
 
 &#10230;
 
@@ -346,13 +345,7 @@
 <br>
 
 
-**50. [LASSO, Ridge, Elastic Net]**
-
-&#10230;
-
-<br>
-
-**50 bis. Shrinks coefficients to 0, Good for variable selection, Makes coefficients smaller, Tradeoff between variable selection and small coefficients]**
+**50. [LASSO, Ridge, Elastic Net, Shrinks coefficients to 0, Good for variable selection, Makes coefficients smaller, Tradeoff between variable selection and small coefficients]**
 
 &#10230;
 
@@ -421,7 +414,7 @@
 <br>
 
 
-**60. The Deep Learning cheatsheets are now available in [target language].
+**60. The Deep Learning cheatsheets are now available in [target language].**
 
 &#10230;
 

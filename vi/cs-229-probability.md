@@ -34,13 +34,13 @@
 
 **6. Axiom 1 ― Every probability is between 0 and 1 included, i.e:**
 
-&#10230; Tiên đề 1 - Mọi xác suất bất kì đều nằm trong khoảng 0 đến 1.
+&#10230; Tiên đề 1 - Mọi xác suất bất kì đều nằm trong khoảng 0 đến 1:
 
 <br>
 
 **7. Axiom 2 ― The probability that at least one of the elementary events in the entire sample space will occur is 1, i.e:**
 
-&#10230; Tiên đề 2 - Xác suất xảy ra của ít nhất một phần tử trong toàn bộ không gian mẫu là 1. 
+&#10230; Tiên đề 2 - Xác suất xảy ra của ít nhất một phần tử trong toàn bộ không gian mẫu là 1:
 
 <br>
 
@@ -124,7 +124,7 @@
 
 **21. Random variable ― A random variable, often noted X, is a function that maps every element in a sample space to a real line.**
 
-&#10230; Biến ngẫu nhiên - Một biến ngẫu nhiên, thường được kí hiệu là X, là một hàm nối mỗi phần tử trong một không gian mẫu thành một số thực
+&#10230; Biến ngẫu nhiên - Một biến ngẫu nhiên, thường được kí hiệu là X, là một hàm nối mỗi phần tử trong một không gian mẫu thành một số thực.
 
 <br>
 
@@ -166,7 +166,7 @@
 
 **28. Variance ― The variance of a random variable, often noted Var(X) or σ2, is a measure of the spread of its distribution function. It is determined as follows:**
 
-&#10230; Phương sai - Phương sai của một biến ngẫu nhiên, thường được kí hiệu là Var (X) hoặc σ2, là một độ đo mức độ phân tán của hàm phân phối. Nó được xác định như sau:
+&#10230; Phương sai - Phương sai của một biến ngẫu nhiên, thường được kí hiệu là Var(X) hoặc σ2, là một độ đo mức độ phân tán của hàm phân phối. Nó được xác định như sau:
 
 <br>
 
@@ -184,7 +184,7 @@
 
 **31. Leibniz integral rule ― Let g be a function of x and potentially c, and a,b boundaries that may depend on c. We have:**
 
-&#10230; Quy tắc tích phân Leibniz - Gọi g là hàm của x và có khả năng c, và a, b là các ranh giới có thể phụ thuộc vào c. Chúng ta có:
+&#10230; Quy tắc tích phân Leibniz - Gọi g là hàm của x và có khả năng c, và a,b là các ranh giới có thể phụ thuộc vào c. Chúng ta có:
 
 <br>
 
@@ -286,19 +286,19 @@
 
 **48. Estimator ― An estimator is a function of the data that is used to infer the value of an unknown parameter in a statistical model.**
 
-&#10230; Công cụ ước tính (Estimator) - Công cụ ước tính (Estimator) là một hàm của dữ liệu được sử dụng để suy ra giá trị của một tham số chưa biết trong mô hình thống kê.
+&#10230; Công cụ ước tính (estimator) - Công cụ ước tính (estimator) là một hàm của dữ liệu được sử dụng để suy ra giá trị của một tham số chưa biết trong mô hình thống kê.
 
 <br>
 
 **49. Bias ― The bias of an estimator ^θ is defined as being the difference between the expected value of the distribution of ^θ and the true value, i.e.:**
 
-&#10230; Thiên vị (Bias) - Thiên vị (Bias) của Estimator ^θ được định nghĩa là chênh lệch giữa giá trị kì vọng ​​của phân phối ^θ và giá trị thực, tức là
+&#10230; Thiên vị (bias) - Thiên vị (bias) của Estimator ^θ được định nghĩa là chênh lệch giữa giá trị kì vọng ​​của phân phối ^θ và giá trị thực, tức là
 
 <br>
 
 **50. Remark: an estimator is said to be unbiased when we have E[^θ]=θ.**
 
-&#10230; Ghi chú: một công cụ ước tính (estimator) được cho là không thiên vị (unbias) khi chúng ta có E[^θ]=θ.
+&#10230; Ghi chú: một công cụ ước tính (estimator) được cho là không thiên vị (unbiased) khi chúng ta có E[^θ]=θ.
 
 <br>
 
@@ -316,7 +316,7 @@
 
 **53. Remark: the sample mean is unbiased, i.e E[¯¯¯¯¯X]=μ.**
 
-&#10230; Ghi chú: Trung bình mẫu là không thiên vị (unbias), nghĩa là E[¯¯¯¯¯X]=μ.
+&#10230; Ghi chú: Trung bình mẫu là không thiên vị (unbiased), nghĩa là E[¯¯¯¯¯X]=μ.
 
 <br>
 
@@ -340,7 +340,7 @@
 
 **57. Remark: the sample variance is unbiased, i.e E[s2]=σ2.**
 
-&#10230; Ghi chú: phương sai mẫu không thiên vị (unbias), nghĩa là E[s2]=σ2.
+&#10230; Ghi chú: phương sai mẫu không thiên vị (unbiased), nghĩa là E[s2]=σ2.
 
 <br>
 

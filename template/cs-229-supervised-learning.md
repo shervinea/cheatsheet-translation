@@ -242,19 +242,19 @@
 
 <br>
 
-**41: The goal of support vector machines is to find the line that maximizes the minimum distance to the line.**
+**41. The goal of support vector machines is to find the line that maximizes the minimum distance to the line.**
 
 &#10230;
 
 <br>
 
-**42: Optimal margin classifier ― The optimal margin classifier h is such that:**
+**42. Optimal margin classifier ― The optimal margin classifier h is such that:**
 
 &#10230;
 
 <br>
 
-**43: where (w,b)∈Rn×R is the solution of the following optimization problem:**
+**43. where (w,b)∈Rn×R is the solution of the following optimization problem:**
 
 &#10230;
 
@@ -476,13 +476,13 @@
 
 <br>
 
-**80. Probably Approximately Correct (PAC) ― PAC is a framework under which numerous results on learning theory were proved, and has the following set of assumptions: **
+**80. Probably Approximately Correct (PAC) ― PAC is a framework under which numerous results on learning theory were proved, and has the following set of assumptions:**
 
 &#10230;
 
 <br>
 
-**81: the training and testing sets follow the same distribution **
+**81: the training and testing sets follow the same distribution**
 
 &#10230;
 

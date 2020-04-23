@@ -22,19 +22,19 @@
 
 **4. Vector ― We note x∈Rn a vector with n entries, where xi∈R is the ith entry:**
 
-&#10230; Vector - Chúng ta kí hiệu x∈Rn là một vector với n phần tử, với xi∈R là phần tử thứ i:
+&#10230; Vectơ ― Chúng ta kí hiệu x∈Rn là một vectơ với n phần tử, với xi∈R là phần tử thứ i:
 
 <br>
 
 **5. Matrix ― We note A∈Rm×n a matrix with m rows and n columns, where Ai,j∈R is the entry located in the ith row and jth column:**
 
-&#10230; Ma trận - Kí hiệu A∈Rm×n là một ma trận với m hàng và n cột, Ai,j∈R là phần tử nằm ở hàng thứ i, cột j:
+&#10230; Ma trận ― Kí hiệu A∈Rm×n là một ma trận với m hàng và n cột, Ai,j∈R là phần tử nằm ở hàng thứ i, cột j:
 
 <br>
 
 **6. Remark: the vector x defined above can be viewed as a n×1 matrix and is more particularly called a column-vector.**
 
-&#10230; Ghi chú: Vector x được xác định ở trên có thể coi như một ma trận nx1 và được gọi là vector cột.
+&#10230; Ghi chú: vectơ x được xác định ở trên có thể coi như một ma trận nx1 và được gọi là vectơ cột.
 
 <br>
 
@@ -46,7 +46,7 @@
 
 **8. Identity matrix ― The identity matrix I∈Rn×n is a square matrix with ones in its diagonal and zero everywhere else:**
 
-&#10230; Ma trận đơn vị - Ma trận đơn vị I∈Rn×n là một ma trận vuông với các phần tử trên đường chéo chính bằng 1 và các phần tử còn lại bằng 0:
+&#10230; Ma trận đơn vị ― Ma trận đơn vị I∈Rn×n là một ma trận vuông với các phần tử trên đường chéo chính bằng 1 và các phần tử còn lại bằng 0:
 
 <br>
 
@@ -58,13 +58,13 @@
 
 **10. Diagonal matrix ― A diagonal matrix D∈Rn×n is a square matrix with nonzero values in its diagonal and zero everywhere else:**
 
-&#10230; Ma trận đường chéo - Ma trận đường chéo D∈Rn×n là một ma trận vuông với các phần tử trên đường chéo chính khác 0 và các phần tử còn lại bằng 0:
+&#10230; Ma trận đường chéo ― Ma trận đường chéo D∈Rn×n là một ma trận vuông với các phần tử trên đường chéo chính khác 0 và các phần tử còn lại bằng 0:
 
 <br>
 
 **11. Remark: we also note D as diag(d1,...,dn).**
 
-&#10230; Ghi chú: Chúng ta kí hiệu D là diag(d1,...,dn).
+&#10230; Ghi chú: chúng ta kí hiệu D là diag(d1,...,dn).
 
 <br>
 
@@ -82,43 +82,43 @@
 
 **14. Vector-vector ― There are two types of vector-vector products:**
 
-&#10230; Vector-vector ― Có hai loại phép nhân vector-vector:
+&#10230; Vectơ/vectơ ― Có hai loại phép nhân vectơ/vectơ:
 
 <br>
 
 **15. inner product: for x,y∈Rn, we have:**
 
-&#10230; Phép nhân inner: với x,y∈Rn, ta có:
+&#10230; phép nhân inner: với x,y∈Rn, ta có:
 
 <br>
 
 **16. outer product: for x∈Rm,y∈Rn, we have:**
 
-&#10230; Phép nhân outer: với x∈Rm,y∈Rn, ta có:
+&#10230; phép nhân outer: với x∈Rm,y∈Rn, ta có:
 
 <br>
 
 **17. Matrix-vector ― The product of matrix A∈Rm×n and vector x∈Rn is a vector of size Rn, such that:**
 
-&#10230; Ma trận - Vector ― Phép nhân giữa ma trận A∈Rm×n và vector x∈Rn là một vector có kích thước Rn:
+&#10230; Ma trận/vectơ ― Phép nhân giữa ma trận A∈Rm×n và vectơ x∈Rn là một vectơ có kích thước Rn:
 
 <br>
 
 **18. where aTr,i are the vector rows and ac,j are the vector columns of A, and xi are the entries of x.**
 
-&#10230; với aTr,i là các vector hàng và ac,j là các vector cột của A, và xi là các phần tử của x.
+&#10230; với aTr,i là các vectơ hàng và ac,j là các vectơ cột của A, và xi là các phần tử của x.
 
 <br>
 
 **19. Matrix-matrix ― The product of matrices A∈Rm×n and B∈Rn×p is a matrix of size Rn×p, such that:**
 
-&#10230; Ma trận - ma trận ― Phép nhân giữa ma trận A∈Rm×n và B∈Rn×p là một ma trận kích thước Rn×p:
+&#10230; Ma trận/ma trận ― Phép nhân giữa ma trận A∈Rm×n và B∈Rn×p là một ma trận kích thước Rn×p:
 
 <br>
 
 **20. where aTr,i,bTr,i are the vector rows and ac,j,bc,j are the vector columns of A and B respectively**
 
-&#10230; với aTr,i,bTr,i là các vector hàng và ac,j,bc,j lần lượt là các vector cột của A and B.
+&#10230; với aTr,i,bTr,i là các vectơ hàng và ac,j,bc,j lần lượt là các vectơ cột của A và B.
 
 <br>
 
@@ -202,7 +202,7 @@
 
 **34. Norm ― A norm is a function N:V⟶[0,+∞[ where V is a vector space, and such that for all x,y∈V, we have:**
 
-&#10230; Chuẩn (norm) ― Một chuẩn (norm) là một hàm N:V⟶[0,+∞[ mà V là một không gian vector, và với mọi x,y∈V, ta có:
+&#10230; Chuẩn (norm) ― Một chuẩn (norm) là một hàm N:V⟶[0,+∞[ mà V là một không gian vectơ, và với mọi x,y∈V, ta có:
 
 <br>
 
@@ -262,7 +262,7 @@
 
 **44. Eigenvalue, eigenvector ― Given a matrix A∈Rn×n, λ is said to be an eigenvalue of A if there exists a vector z∈Rn∖{0}, called eigenvector, such that we have:**
 
-&#10230; Giá trị riêng, vector riêng - Cho ma trận A∈Rn×n, λ được gọi là giá trị riêng của A nếu tồn tại một vectơ z∈Rn∖{0}, được gọi là vector riêng, sao cho:
+&#10230; Giá trị riêng, vectơ riêng - Cho ma trận A∈Rn×n, λ được gọi là giá trị riêng của A nếu tồn tại một vectơ z∈Rn∖{0}, được gọi là vectơ riêng, sao cho:
 
 <br>
 
@@ -306,7 +306,7 @@
 
 **51. Hessian ― Let f:Rn→R be a function and x∈Rn be a vector. The hessian of f with respect to x is a n×n symmetric matrix, noted ∇2xf(x), such that:**
 
-&#10230; Hessian - Cho f:Rn→R là một hàm và x∈Rn là một vector. Hessian của f đối với x là một ma trận đối xứng n×n, ghi chú ∇2xf(x), sao cho:
+&#10230; Hessian ― Cho f:Rn→R là một hàm và x∈Rn là một vectơ. Hessian của f đối với x là một ma trận đối xứng n×n, ghi chú ∇2xf(x), sao cho:
 
 <br>
 
@@ -336,7 +336,7 @@
 
 **56. [Matrix properties, Norm, Eigenvalue/Eigenvector, Singular-value decomposition]**
 
-&#10230; [Các thuộc tính ma trận, Chuẩn, Giá trị riêng/Vector riêng, Phân tích giá trị suy biến]
+&#10230; [Các thuộc tính ma trận, Chuẩn, Giá trị riêng/Vectơ riêng, Phân tích giá trị suy biến]
 
 <br>
 

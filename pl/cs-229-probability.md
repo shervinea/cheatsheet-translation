@@ -226,160 +226,160 @@
 
 **38. [Case, Marginal density, Cumulative function]**
 
-&#10230;
+&#10230; 38. [Przypadek, gęstość krańcowa, funkcja skumulowana]
 
 <br>
 
 **39. Conditional density ― The conditional density of X with respect to Y, often noted fX|Y, is defined as follows:**
 
-&#10230;
+&#10230; 39. Gęstość warunkowa - Gęstość warunkowa X w odniesieniu do Y, często oznaczana fX|Y, jest zdefiniowana w następujący sposób:
 
 <br>
 
 **40. Independence ― Two random variables X and Y are said to be independent if we have:**
 
-&#10230;
+&#10230; 40. Niezależność - mówi się, że dwie zmienne losowe X i Y są niezależne, jeśli mamy:
 
 <br>
 
 **41. Covariance ― We define the covariance of two random variables X and Y, that we note σ2XY or more commonly Cov(X,Y), as follows:**
 
-&#10230;
+&#10230; 41. Kowariancja - definiujemy kowariancję dwóch zmiennych losowych X i Y, które odnotowujemy σ2XY lub częściej Cov(X,Y), w następujący sposób:
 
 <br>
 
 **42. Correlation ― By noting σX,σY the standard deviations of X and Y, we define the correlation between the random variables X and Y, noted ρXY, as follows:**
 
-&#10230;
+&#10230; 42. Korelacja - biorąc σX,σY odchylenia standardowe X i Y, definiujemy korelację między zmiennymi losowymi X i Y, oznaczonymi ρXY, w następujący sposób:
 
 <br>
 
 **43. Remark 1: we note that for any random variables X,Y, we have ρXY∈[−1,1].**
 
-&#10230;
+&#10230; 43. Uwaga 1: zauważmy, że dla dowolnych zmiennych losowych X,Y, mamy ρXY∈[−1,1].
 
 <br>
 
 **44. Remark 2: If X and Y are independent, then ρXY=0.**
 
-&#10230;
+&#10230; 44. Uwaga 2: Jeśli X i Y są niezależne, to ρXY=0.
 
 <br>
 
 **45. Parameter estimation**
 
-&#10230;
+&#10230; 45. Oszacowanie parametrów
 
 <br>
 
 **46. Definitions**
 
-&#10230;
+&#10230; 46. Definicje
 
 <br>
 
 **47. Random sample ― A random sample is a collection of n random variables X1,...,Xn that are independent and identically distributed with X.**
 
-&#10230;
+&#10230; 47. Losowa próbka - losowa próbka to zbiór n losowych zmiennych X1,...,Xn, które są niezależne i identycznie rozmieszczone z X.
 
 <br>
 
 **48. Estimator ― An estimator is a function of the data that is used to infer the value of an unknown parameter in a statistical model.**
 
-&#10230;
+&#10230; 48. Estymator - estymator to funkcja danych służąca do wnioskowania o wartości nieznanego parametru w modelu statystycznym.
 
 <br>
 
 **49. Bias ― The bias of an estimator ^θ is defined as being the difference between the expected value of the distribution of ^θ and the true value, i.e.:**
 
-&#10230;
+&#10230; 49. Odchylenie - odchylenie estymatora ^θ jest zdefiniowane, jako różnica między wartością oczekiwaną rozkładu ^θ, a wartością rzeczywistą, tj .:
 
 <br>
 
 **50. Remark: an estimator is said to be unbiased when we have E[^θ]=θ.**
 
-&#10230;
+&#10230; 50. Uwaga: mówi się, że estymator jest bezstronny, kiedy mamy E[^θ]=θ.
 
 <br>
 
 **51. Estimating the mean**
 
-&#10230;
+&#10230; 51. Oszacowanie średniej
 
 <br>
 
 **52. Sample mean ― The sample mean of a random sample is used to estimate the true mean μ of a distribution, is often noted ¯¯¯¯¯X and is defined as follows:**
 
-&#10230;
+&#10230; 52. Próbka średnia ― próbka średnia z próby losowej służy do oszacowania rzeczywistej średniej μ rozkładu, często jest oznaczana ¯¯¯¯¯X i jest zdefiniowana następująco:
 
 <br>
 
 **53. Remark: the sample mean is unbiased, i.e E[¯¯¯¯¯X]=μ.**
 
-&#10230;
+&#10230; 53. Uwaga: próbka średnia jest bezstronna, tj. E[¯¯¯¯¯X]=μ.
 
 <br>
 
 **54. Central Limit Theorem ― Let us have a random sample X1,...,Xn following a given distribution with mean μ and variance σ2, then we have:**
 
-&#10230;
+&#10230; 54. Centralne twierdzenie graniczne - uzyskajmy losową próbkę X1,...,Xn po danym rozkładzie ze średnią μ i wariancją σ2, a następnie mamy:
 
 <br>
 
 **55. Estimating the variance**
 
-&#10230;
+&#10230; 55. Oszacowanie wariancji
 
 <br>
 
 **56. Sample variance ― The sample variance of a random sample is used to estimate the true variance σ2 of a distribution, is often noted s2 or ^σ2 and is defined as follows:**
 
-&#10230;
+&#10230; 56. Wariancja próbki - wariancja próbki losowej jest używana do oszacowania prawdziwej wariancji σ2 rozkładu, jest często oznaczana jako s2 lub ^σ2 i jest zdefiniowana następująco:
 
 <br>
 
 **57. Remark: the sample variance is unbiased, i.e E[s2]=σ2.**
 
-&#10230;
+&#10230; 57. Uwaga: wariancja próbki jest bezstronna, tj. E[s2]=σ2.
 
 <br>
 
 **58. Chi-Squared relation with sample variance ― Let s2 be the sample variance of a random sample. We have:**
 
-&#10230;
+&#10230; 58. Relacja chi-kwadrat z wariancją próbki - niech s2 będzie wariancją próbki losowej. Mamy:
 
 <br>
 
 **59. [Introduction, Sample space, Event, Permutation]**
 
-&#10230;
+&#10230; 59. [Wprowadzenie, przestrzeń próbki, zdarzenie, permutacja]
 
 <br>
 
 **60. [Conditional probability, Bayes' rule, Independence]**
 
-&#10230;
+&#10230; 60. [Prawdopodobieństwo warunkowe, twierdzenie Bayesa, niezależność]
 
 <br>
 
 **61. [Random variables, Definitions, Expectation, Variance]**
 
-&#10230;
+&#10230; 61. [Zmienne losowe, Definicje, Oczekiwanie, Wariancja]
 
 <br>
 
 **62. [Probability distributions, Chebyshev's inequality, Main distributions]**
 
-&#10230;
+&#10230; 62. [Rozkłady prawdopodobieństwa, nierówność Czebyszewa, rozkłady główne]
 
 <br>
 
 **63. [Jointly distributed random variables, Density, Covariance, Correlation]**
 
-&#10230;
+&#10230; 63. [Wspólnie rozłożone zmienne losowe, Gęstość, Kowariancja, Korelacja]
 
 <br>
 
 **64. [Parameter estimation, Mean, Variance]**
 
-&#10230;
+&#10230; 64. [Szacowanie parametrów, Średnia, Wariancja]

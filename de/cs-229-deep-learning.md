@@ -18,7 +18,7 @@
 
 **4. Architecture ― The vocabulary around neural networks architectures is described in the figure below:**
 
-&#10230; Architektur - Das Vokabular rund um Architekturen neuronaler Netze ist in folgender Abbildung beschrieben: 
+&#10230; Architektur ― Das Vokabular rund um Architekturen neuronaler Netze ist in folgender Abbildung beschrieben: 
 
 <br>
 
@@ -42,7 +42,7 @@
 
 **8. Activation function ― Activation functions are used at the end of a hidden unit to introduce non-linear complexities to the model. Here are the most common ones:**
 
-&#10230; Aktivierungsfunktion - Aktivierungsfunktionen werden am Ende einer verborgenen Schicht benutzt um nicht-lineare Komplexität zu ermöglichen. Am häufigsten werden folgende Funktionen angewendet:
+&#10230; Aktivierungsfunktion ― Aktivierungsfunktionen werden am Ende einer verborgenen Schicht benutzt um nicht-lineare Komplexität zu ermöglichen. Am häufigsten werden folgende Funktionen angewendet:
 
 <br>
 
@@ -54,19 +54,19 @@
 
 **10. Cross-entropy loss ― In the context of neural networks, the cross-entropy loss L(z,y) is commonly used and is defined as follows:**
 
-&#10230; Kreuzentropieverlust - Im Kontext neuronaler Netze wird der Kreuzentropieverlust L(z,y) gebräuchlicherweise benutzt und definiert wie folgt:
+&#10230; Kreuzentropieverlust ― Im Kontext neuronaler Netze wird der Kreuzentropieverlust L(z,y) gebräuchlicherweise benutzt und definiert wie folgt:
 
 <br>
 
 **11. Learning rate ― The learning rate, often noted α or sometimes η, indicates at which pace the weights get updated. This can be fixed or adaptively changed. The current most popular method is called Adam, which is a method that adapts the learning rate.**
 
-&#10230; Lernrate - Die Lernrate, oft mit α oder manchmal mit η bezeichnet, gibt an mit welcher Rate die Gewichtungen aktualisiert werden. Die Lernrate kann konstant sein oder dynamisch angepasst werden. Die aktuell populärste Methode, Adam, aktualisiert die Lernrate dynamisch.
+&#10230; Lernrate ― Die Lernrate, oft mit α oder manchmal mit η bezeichnet, gibt an mit welcher Rate die Gewichtungen aktualisiert werden. Die Lernrate kann konstant sein oder dynamisch angepasst werden. Die aktuell populärste Methode, Adam, aktualisiert die Lernrate dynamisch.
 
 <br>
 
 **12. Backpropagation ― Backpropagation is a method to update the weights in the neural network by taking into account the actual output and the desired output. The derivative with respect to weight w is computed using chain rule and is of the following form:**
 
-&#10230; Fehlerrückführung (Backpropagation) - Fehlerrückführung aktualisiert die Gewichte in neuronalen Netzen durch Einberechnung der tatsächlichen und der gewünschten Ausgabe. Die Ableitung nach der Gewichtung w wird mit Hilfe der Kettenregel berechnet und hat die folgende Form:
+&#10230; Fehlerrückführung (backpropagation) ― Fehlerrückführung aktualisiert die Gewichte in neuronalen Netzen durch Einberechnung der tatsächlichen und der gewünschten Ausgabe. Die Ableitung nach der Gewichtung w wird mit Hilfe der Kettenregel berechnet und hat die folgende Form:
 
 <br>
 
@@ -78,7 +78,7 @@
 
 **14. Updating weights ― In a neural network, weights are updated as follows:**
 
-&#10230; Das Aktualisieren der Gewichte - In neuronalen Netzen werden die Gewichtungen wie folgt aktualisiert:
+&#10230; Das Aktualisieren der Gewichte ― In neuronalen Netzen werden die Gewichtungen wie folgt aktualisiert:
 
 <br>
 
@@ -108,7 +108,7 @@
 
 **19. Dropout ― Dropout is a technique meant at preventing overfitting the training data by dropping out units in a neural network. In practice, neurons are either dropped with probability p or kept with probability 1−p**
 
-&#10230; Aussetzen - Aussetzen ist eine Technik um eine Überanpassung der Lerndaten zu verhindern bei der Einheiten in einem neuronalen Netz ausfallen. In der Praxis setzen Neuronen entweder mit Wahrscheinlichkeit p aus oder werden mit Wahrscheinlichkeit 1-p behalten.
+&#10230; Aussetzen ― Aussetzen ist eine Technik um eine Überanpassung der Lerndaten zu verhindern bei der Einheiten in einem neuronalen Netz ausfallen. In der Praxis setzen Neuronen entweder mit Wahrscheinlichkeit p aus oder werden mit Wahrscheinlichkeit 1-p behalten.
 
 <br>
 
@@ -120,13 +120,13 @@
 
 **21. Convolutional layer requirement ― By noting W the input volume size, F the size of the convolutional layer neurons, P the amount of zero padding, then the number of neurons N that fit in a given volume is such that:**
 
-&#10230; Vorraussetzung für eine faltende Schicht - Sei W das Eingangsvolumen, f die Größe der Neuronen der faltenden Schicht, P die Anzahl der aufgefüllten Nullen, dann ist die Anzahl der Neuronen N die in ein gegebenes Volumen passen:  
+&#10230; Vorraussetzung für eine faltende Schicht ― Sei W das Eingangsvolumen, f die Größe der Neuronen der faltenden Schicht, P die Anzahl der aufgefüllten Nullen, dann ist die Anzahl der Neuronen N die in ein gegebenes Volumen passen:  
 
 <br>
 
 **22. Batch normalization ― It is a step of hyperparameter γ,β that normalizes the batch {xi}. By noting μB,σ2B the mean and variance of that we want to correct to the batch, it is done as follows:**
 
-&#10230; Bündelnormalisierung - Ein Schritt des Hyperparameters γ,β welcher das Bündel {xi} normalisiert. Seien μB der Mittelwert und σ2B die Varianz von dem Wert mit dem der Batch korrigiert werden soll, dann gilt folgendes:
+&#10230; Bündelnormalisierung ― Ein Schritt des Hyperparameters γ,β welcher das Bündel {xi} normalisiert. Seien μB der Mittelwert und σ2B die Varianz von dem Wert mit dem der Batch korrigiert werden soll, dann gilt folgendes:
 
 <br>
 
@@ -144,7 +144,7 @@
 
 **25. Types of gates ― Here are the different types of gates that we encounter in a typical recurrent neural network:**
 
-&#10230; Typen von Gattern - Verschiedene Typen der einzelnen Gattern die man in einem LSTM Block vorfindet:
+&#10230; Typen von Gattern ― Verschiedene Typen der einzelnen Gattern die man in einem LSTM Block vorfindet:
 
 <br>
 
@@ -162,7 +162,7 @@
 
 **28. LSTM ― A long short-term memory (LSTM) network is a type of RNN model that avoids the vanishing gradient problem by adding 'forget' gates.**
 
-&#10230; LSTM - Ein langes Kurzzeitgedächtnis (long short-term memory, LSTM) gehört zu der Klasse der RNN, welches durch Hinzufügen von Vergessgattern das Problem der verschwindenden Gradienten vermeidet. 
+&#10230; LSTM ― Ein langes Kurzzeitgedächtnis (long short-term memory, LSTM) gehört zu der Klasse der RNN, welches durch Hinzufügen von Vergessgattern das Problem der verschwindenden Gradienten vermeidet. 
 
 <br>
 
@@ -186,7 +186,7 @@
 
 **32. Markov decision processes ― A Markov decision process (MDP) is a 5-tuple (S,A,{Psa},γ,R) where:**
 
-&#10230; Markow-Entscheidungsproblem - Ein Markow-Entscheidungsproblem (Markow decision process, MDP) ist ein 5-Tupel (S,A,{Psa},γ,R), wobei
+&#10230; Markow-Entscheidungsproblem ― Ein Markow-Entscheidungsproblem (Markow decision process, MDP) ist ein 5-Tupel (S,A,{Psa},γ,R), wobei
 
 <br>
 
@@ -222,7 +222,7 @@
 
 **38. Policy ― A policy π is a function π:S⟶A that maps states to actions.**
 
-&#10230; Strategie - Die Strategie π ist die Funktion π:S⟶A welche Zustände auf Aktionen abbildet.
+&#10230; Strategie ― Die Strategie π ist die Funktion π:S⟶A welche Zustände auf Aktionen abbildet.
 
 <br>
 
@@ -234,13 +234,13 @@
 
 **40. Value function ― For a given policy π and a given state s, we define the value function Vπ as follows:**
 
-&#10230; Wertfunktion - Für eine gegebene Strategie π und einen gegebenen Zustand s definieren wir die Wertfunktion Vπ wie folgt:
+&#10230; Wertfunktion ― Für eine gegebene Strategie π und einen gegebenen Zustand s definieren wir die Wertfunktion Vπ wie folgt:
 
 <br>
 
 **41. Bellman equation ― The optimal Bellman equations characterizes the value function Vπ∗ of the optimal policy π∗:**
 
-&#10230; Bellman-Gleichung - Die optimale Bellman-Gleichung charakterisiert die Wertfunktion Vπ∗ der optimalen Strategie π∗:
+&#10230; Bellman-Gleichung ― Die optimale Bellman-Gleichung charakterisiert die Wertfunktion Vπ∗ der optimalen Strategie π∗:
 
 <br>
 
@@ -252,7 +252,7 @@
 
 **43. Value iteration algorithm ― The value iteration algorithm is in two steps:**
 
-&#10230; Wert-Interationsalgorithmus - Der Wert-Iterationsalgorithmus hat zwei Schritte:
+&#10230; Wert-Interationsalgorithmus ― Der Wert-Iterationsalgorithmus hat zwei Schritte:
 
 <br>
 
@@ -270,7 +270,7 @@
 
 **46. Maximum likelihood estimate ― The maximum likelihood estimates for the state transition probabilities are as follows:**
 
-&#10230; Maximum-Likelihood-Schätzung - Die Maximum-Likelihood-Schätzungen für die Zustandsübergangswahrscheinlichkeiten sind wie folgt: 
+&#10230; Maximum-Likelihood-Schätzung ― Die Maximum-Likelihood-Schätzungen für die Zustandsübergangswahrscheinlichkeiten sind wie folgt: 
 
 <br>
 
@@ -288,7 +288,7 @@
 
 **49. Q-learning ― Q-learning is a model-free estimation of Q, which is done as follows:**
 
-&#10230; Q-Lernen - Q-Lernen ist eine modellfreie Schätzung von Q welche wie folgt durchgeführt wird: 
+&#10230; Q-Lernen ― Q-Lernen ist eine modellfreie Schätzung von Q welche wie folgt durchgeführt wird: 
 
 <br>
 

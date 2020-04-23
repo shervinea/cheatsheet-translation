@@ -4,121 +4,121 @@
 
 **1. Probabilities and Statistics refresher**
 
-&#10230;
+&#10230; 1. Odświeżenie prawdopodobieństwa i statystyki
 
 <br>
 
 **2. Introduction to Probability and Combinatorics**
 
-&#10230;
+&#10230; 2. Wprowadzenie do prawdopodobieństwa i kombinatoryki
 
 <br>
 
 **3. Sample space ― The set of all possible outcomes of an experiment is known as the sample space of the experiment and is denoted by S.**
 
-&#10230;
+&#10230; 3. Przestrzeń próbki - zbiór wszystkich możliwych wyników eksperymentu jest znany jako przestrzeń próby i jest oznaczony przez S.
 
 <br>
 
 **4. Event ― Any subset E of the sample space is known as an event. That is, an event is a set consisting of possible outcomes of the experiment. If the outcome of the experiment is contained in E, then we say that E has occurred.**
 
-&#10230;
+&#10230; 4. Zdarzenie - dowolny podzbiór E przestrzeni próbki jest znany jako zdarzenie. To znaczy, zdarzenie jest zbiorem składającym się z możliwych wyników eksperymentu. Jeśli wynik eksperymentu jest zawarty w E, to mówimy, że E wystąpiło.
 
 <br>
 
 **5. Axioms of probability For each event E, we denote P(E) as the probability of event E occuring.**
 
-&#10230;
+&#10230; 5. Aksjomaty prawdopodobieństwa dla każdego zdarzenia E oznaczamy P(E), jako prawdopodobieństwo wystąpienia zdarzenia E.
 
 <br>
 
 **6. Axiom 1 ― Every probability is between 0 and 1 included, i.e:**
 
-&#10230;
+&#10230; 6. Aksjomat 1 - Każde prawdopodobieństwo zawiera się między 0 a 1, tj.:
 
 <br>
 
 **7. Axiom 2 ― The probability that at least one of the elementary events in the entire sample space will occur is 1, i.e:**
 
-&#10230;
+&#10230; 7. Aksjomat 2 - Prawdopodobieństwo wystąpienia co najmniej jednego zdarzenia elementarnego w całej przestrzeni próbki wynosi 1, tj.:
 
 <br>
 
 **8. Axiom 3 ― For any sequence of mutually exclusive events E1,...,En, we have:**
 
-&#10230;
+&#10230; 8. Aksjomat 3 - Dla dowolnej sekwencji wzajemnie wykluczających się zdarzeń E1,...,En, mamy:
 
 <br>
 
 **9. Permutation ― A permutation is an arrangement of r objects from a pool of n objects, in a given order. The number of such arrangements is given by P(n,r), defined as:**
 
-&#10230;
+&#10230; 9. Permutacja - Permutacja to układ r obiektów z puli n obiektów w podanej kolejności. Liczba takich układów jest określona przez P(n,r), zdefiniowane jako:
 
 <br>
 
 **10. Combination ― A combination is an arrangement of r objects from a pool of n objects, where the order does not matter. The number of such arrangements is given by C(n,r), defined as:**
 
-&#10230;
+&#10230; 10. Kombinacja - Kombinacja to układ r obiektów z puli n obiektów, w którym kolejność nie ma znaczenia. Liczba takich układów jest określona przez C(n,r), zdefiniowane jako:
 
 <br>
 
 **11. Remark: we note that for 0⩽r⩽n, we have P(n,r)⩾C(n,r)**
 
-&#10230;
+&#10230; 11. Uwaga: zauważmy, że dla 0⩽r⩽n, mamy P(n,r)⩾C(n,r)
 
 <br>
 
 **12. Conditional Probability**
 
-&#10230;
+&#10230; 12. Prawdopodobieństwo warunkowe 
 
 <br>
 
 **13. Bayes' rule ― For events A and B such that P(B)>0, we have:**
 
-&#10230;
+&#10230; 13. Twierdzenie Bayesa - w przypadku zdarzeń A i B takich, że P(B)>0, mamy:
 
 <br>
 
 **14. Remark: we have P(A∩B)=P(A)P(B|A)=P(A|B)P(B)**
 
-&#10230;
+&#10230; 14. Uwaga: mamy P(A∩B)=P(A)P(B|A)=P(A|B)P(B)
 
 <br>
 
 **15. Partition ― Let {Ai,i∈[[1,n]]} be such that for all i, Ai≠∅. We say that {Ai} is a partition if we have:**
 
-&#10230;
+&#10230; 15. Partycja - niech {Ai,i∈[[1,n]]} będzie takie, że dla wszystkich i, Ai≠∅. Mówimy, że {Ai} to partycja, jeśli mamy:
 
 <br>
 
 **16. Remark: for any event B in the sample space, we have P(B)=n∑i=1P(B|Ai)P(Ai).**
 
-&#10230;
+&#10230; 16. Uwaga: dla każdego zdarzenia B w przestrzeni próbki, mamy P(B)=n∑i=1P(B|Ai)P(Ai).
 
 <br>
 
 **17. Extended form of Bayes' rule ― Let {Ai,i∈[[1,n]]} be a partition of the sample space. We have:**
 
-&#10230;
+&#10230; 17. Rozszerzona postać twierdzenia Bayesa - niech {Ai,i∈[[1,n]]} będzie partycją przestrzeni próbki. Mamy:
 
 <br>
 
 **18. Independence ― Two events A and B are independent if and only if we have:**
 
-&#10230;
+&#10230; 18. Niezależność - dwa zdarzenia A i B są niezależne tylko wtedy, gdy mamy:
 
 <br>
 
 **19. Random Variables**
 
-&#10230;
+&#10230; 19. Zmienne losowe
 
 <br>
 
 **20. Definitions**
 
-&#10230;
+&#10230; 20. Definicje
 
 <br>
 

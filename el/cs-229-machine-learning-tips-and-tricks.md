@@ -10,103 +10,103 @@
 
 **2. Classification metrics**
 
-&#10230;
+&#10230; Μετρικές Κατηγοριοποίησης
 
 <br>
 
 **3. In a context of a binary classification, here are the main metrics that are important to track in order to assess the performance of the model.**
 
-&#10230;
+&#10230; Αναφορικά με την δυαδική κατηγοριοποίηση, αυτές είναι οι βασικές μετρικές που είναι σημαντικό να παρακολουθεί κανείς όταν θέλει να αξιολογήσει την επίδοση του μοντέλου.
 
 <br>
 
 **4. Confusion matrix ― The confusion matrix is used to have a more complete picture when assessing the performance of a model. It is defined as follows:**
 
-&#10230;
+&#10230; Πίνακας Σύγχυσης - Ο πίνακας σύγχυσης (confusion matrix) χρησιμοποιείται για να υπάρχει πλήρης εικόνα στην αξιολόγηση της επίδοσης του μοντέλου. Ορίζεται ως εξής:
 
 <br>
 
 **5. [Predicted class, Actual class]**
 
-&#10230;
+&#10230; [Κατηγορία πρόβλεψης, Πραγματική κατηγορία]
 
 <br>
 
 **6. Main metrics ― The following metrics are commonly used to assess the performance of classification models:**
 
-&#10230;
+&#10230; Βασικές μετρικές - Οι ακόλουθες μετρικές συχνά χρησιμοποιούνται για να εκτιμήσουν την επίδοση μοντέλων κατηγοριοποίησης.
 
 <br>
 
 **7. [Metric, Formula, Interpretation]**
 
-&#10230;
+&#10230; [Μετρική, Τύπος, Επεξήγηση]
 
 <br>
 
 **8. Overall performance of model**
 
-&#10230;
+&#10230; Γενική επίδοση του μοντέλου
 
 <br>
 
 **9. How accurate the positive predictions are**
 
-&#10230;
+&#10230; Πόσο ακριβείς είναι οι θετικές προβλέψεις
 
 <br>
 
 **10. Coverage of actual positive sample**
 
-&#10230;
+&#10230; Κάλυψη του πραγματικού θετικού δείγματος
 
 <br>
 
 **11. Coverage of actual negative sample**
 
-&#10230;
+&#10230; Κάλυψη του πραγματικού αρνητικού δείγματος
 
 <br>
 
 **12. Hybrid metric useful for unbalanced classes**
 
-&#10230;
+&#10230; Υβριδική μετρική, χρήσιμη για μη ισορροπημένες κατηγορίες
 
 <br>
 
 **13. ROC ― The receiver operating curve, also noted ROC, is the plot of TPR versus FPR by varying the threshold. These metrics are are summed up in the table below:**
 
-&#10230;
+&#10230; ROC - Η καμπύλη ROC είναι το γράφημα του ποσοστού αληθώς θετικών αποτελεσμάτων (TPR) έναντι των ψευδώς θετικών αποτελεσμάτων (FPR), με μεταβλητό όριο. Αυτές οι μετρικές συνοψίζονται στον παρακάτω πίνακα.
 
 <br>
 
 **14. [Metric, Formula, Equivalent]**
 
-&#10230;
+&#10230; [Μετρική, Τύπο, Αντίστοιχο με]
 
 <br>
 
 **15. AUC ― The area under the receiving operating curve, also noted AUC or AUROC, is the area below the ROC as shown in the following figure:**
 
-&#10230;
+&#10230; AUC - Η περιοχή κάτω από την καμπύλη ROC, γνωστή ως AUC ή AUROC, είναι η περιοχή κάτω από την ROC καμπύλη όπως φαίνεται στην ακόλουθη εικόνα:
 
 <br>
 
 **16. [Actual, Predicted]**
 
-&#10230;
+&#10230; [Πραγματικό, Προβλεφθέν]
 
 <br>
 
 **17. Basic metrics ― Given a regression model f, the following metrics are commonly used to assess the performance of the model:**
 
-&#10230;
+&#10230; Βασικές μετρικές - Δεδομένου ενός μοντέλου παλινδρόμησης f, οι ακόλουθες μετρικές συχνά χρησιμοποιούνται για να αξιολογήσουν την επίδοση του μοντέλου:
 
 <br>
 
-**18. [Total sum of squares, Explained sum of squares, Residual sum of squares]**
+**18. [Total sum of squares, Explained sum of squares, Περιθωριακό sum of squares]**
 
-&#10230;
+&#10230; [Συνολικό άθροισμα τετραγώγων, Explained άθροισμα τετραγώγων, Συνολικό άθροισμα τετραγώγων]
 
 <br>
 

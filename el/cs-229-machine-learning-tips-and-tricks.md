@@ -130,31 +130,31 @@
 
 **22. Model selection**
 
-&#10230;
+&#10230; Επιλογή μοντέλου
 
 <br>
 
 **23. Vocabulary ― When selecting a model, we distinguish 3 different parts of the data that we have as follows:**
 
-&#10230;
+&#10230; Λεξιλόγιο -  Όταν επιλέγουμε ένα μοντέλο, ξεχωρίζουμε τα δεδομένα που έχουμε σε 3 διαφορετικά κομμάτια ως εξής:
 
 <br>
 
 **24. [Training set, Validation set, Testing set]**
 
-&#10230;
+&#10230; [Σύνολο εκπαίδευσης, Σύνολο Επικύρωσης, Σύνολο Ελέγχου]
 
 <br>
 
 **25. [Model is trained, Model is assessed, Model gives predictions]**
 
-&#10230;
+&#10230; [Το μοντέλο εκπαιδεύεται, Το μοντέλο αξιολογείται, Το μοντέλο κάνει προβλέψεις]
 
 <br>
 
 **26. [Usually 80% of the dataset, Usually 20% of the dataset]**
 
-&#10230;
+&#10230; [Συνήθως 80% των δεδομένων, Συνήθως 20% των δεδομένων]
 
 <br>
 
@@ -166,13 +166,13 @@
 
 **28. Once the model has been chosen, it is trained on the entire dataset and tested on the unseen test set. These are represented in the figure below:**
 
-&#10230;
+&#10230; Άπαξ και το μοντέλο επιλεγεί, εκπαιδεύεται σε όλο το σύνολο δεδομένων και ελέγχεται στο πρωτοφανές σύνολο ελέγχου. Αυτά αναπαριστώνται στην ακόλουθη εικόνα:
 
 <br>
 
 **29. Cross-validation ― Cross-validation, also noted CV, is a method that is used to select a model that does not rely too much on the initial training set. The different types are summed up in the table below:**
 
-&#10230;
+&#10230; Διασταυρωμένη επικύρωση - Η διασταυρωμένη επικύρωση (Cross-validation) ή CV, είναι μια μέθοδος που χρησιμοποιείται για να επιλεχθεί ένα μοντέλο το οποίο δεν βασίζεται υπερβολικά στο αρχικό σύνολο εκπαίδευσης. Οι διάφοροι τύποι συνοψίζονται στον παρακάτω πίνακα:
 
 <br>
 

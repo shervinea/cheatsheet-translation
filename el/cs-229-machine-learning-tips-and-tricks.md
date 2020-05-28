@@ -4,7 +4,7 @@
 
 **1. Machine Learning tips and tricks cheatsheet**
 
-&#10230;
+&#10230; Μηχανική Μάθηση - σκονάκι με συμβουλές και κόλπα
 
 <br>
 

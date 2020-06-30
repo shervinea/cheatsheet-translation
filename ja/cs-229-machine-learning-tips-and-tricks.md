@@ -1,6 +1,6 @@
 **1. Machine Learning tips and tricks cheatsheet**
 
-&#10230; 機械学習チップ&トリック　チートシート
+&#10230; 機械学習のアドバイスやコツのチートシート
 
 <br>
 
@@ -12,13 +12,13 @@
 
 **3. In a context of a binary classification, here are the main metrics that are important to track in order to assess the performance of the model.**
 
-&#10230; 二値分類の文脈では，次のようなモデルの性能を評価するための重要な評価指標があります。
+&#10230; 二値分類において、モデルの性能を評価する際の主要な指標として次のものがあります。
 
 <br>
 
 **4. Confusion matrix ― The confusion matrix is used to have a more complete picture when assessing the performance of a model. It is defined as follows:**
 
-&#10230; 混同行列 ― 混同行列はモデルの性能を評価する際に，より完全な描像を得るために用いられます。
+&#10230; 混同行列 ― 混同行列はモデルの性能を評価する際に、より完全に理解するために用いられます。次のように定義されます：
 
 <br>
 
@@ -30,7 +30,7 @@
 
 **6. Main metrics ― The following metrics are commonly used to assess the performance of classification models:**
 
-&#10230; 主要な評価指標 ― 次の指標が分類モデルの性能の評価のために一般的に用いられます。
+&#10230; 主要な評価指標 ― 分類モデルの性能を評価するために、一般的に次の指標が用いられます。
 
 <br>
 
@@ -48,19 +48,19 @@
 
 **9. How accurate the positive predictions are**
 
-&#10230; 正と判断された予測の正答率
+&#10230; 陽性判定は、どれくらい正確ですか
 
 <br>
 
 **10. Coverage of actual positive sample**
 
-&#10230; 実際には正であるサンプルを正しく正と予測した割合
+&#10230; 実際に陽性であるサンプル
 
 <br>
 
 **11. Coverage of actual negative sample**
 
-&#10230; 実際には負であるサンプルを正しく負と予測した割合
+&#10230; 実際に陰性であるサンプル
 
 <br>
 
@@ -72,7 +72,7 @@
 
 **13. ROC ― The receiver operating curve, also noted ROC, is the plot of TPR versus FPR by varying the threshold. These metrics are are summed up in the table below:**
 
-&#10230; ROC曲線 ― 受信者動作特性曲線(ROC)は閾値を変えていく際のFPRに対するTPRのグラフです。
+&#10230; ROC曲線 ― 受信者動作特性曲線(ROC)は閾値を変えていく際のFPRに対するTPRのグラフです。これらの指標は下表の通りまとめられます。
 
 <br>
 
@@ -84,7 +84,7 @@
 
 **15. AUC ― The area under the receiving operating curve, also noted AUC or AUROC, is the area below the ROC as shown in the following figure:**
 
-&#10230; AUC ― ROC曲線下面積(AUC,AUROC)は次の図のようにROC曲線の下側の面積のことです。
+&#10230; AUC ― ROC曲線下面積(AUC,AUROC)は次の図に示される通りROC曲線の下側面積のことです。
 
 <br>
 
@@ -102,7 +102,7 @@
 
 **18. [Total sum of squares, Explained sum of squares, Residual sum of squares]**
 
-&#10230; [総平方和,説明された平方和,残差平方和]
+&#10230; [全平方和,回帰平方和,残差平方和]
 
 <br>
 
@@ -132,19 +132,19 @@
 
 **23. Vocabulary ― When selecting a model, we distinguish 3 different parts of the data that we have as follows:**
 
-&#10230; 用語 ― モデルを選択するときには，次のように，データの種類を異なる３つに区別します。
+&#10230; 用語 ― モデルを選択するときには，次のようにデータの種類を異なる３つに区別します。
 
 <br>
 
 **24. [Training set, Validation set, Testing set]**
 
-&#10230; [訓練データセット,検証データセット,テストセット]
+&#10230; [訓練セット,検証セット,テストセット]
 
 <br>
 
 **25. [Model is trained, Model is assessed, Model gives predictions]**
 
-&#10230; [モデルが学習される,モデルが評価される,モデルを用いて予測する]
+&#10230; [モデルを学習させる,モデルを評価する,モデルが予測する]
 
 <br>
 
@@ -162,13 +162,13 @@
 
 **28. Once the model has been chosen, it is trained on the entire dataset and tested on the unseen test set. These are represented in the figure below:**
 
-&#10230; 一度モデル選択が行われた場合，学習はデータセットの全体を用いて行われ，またテストは未知のテストセットに対して行われます。これらは次のように表されます。
+&#10230; 一度モデル選択が行われた場合,学習にはデータセット全体が用いられ,テストには未知のテストセットが使用されます。これらは次の図ように表されます。
 
 <br>
 
 **29. Cross-validation ― Cross-validation, also noted CV, is a method that is used to select a model that does not rely too much on the initial training set. The different types are summed up in the table below:**
 
-&#10230; 交差検証 ― 交差検証(CV)は，初期の学習データセットに強く依存しないようにモデル選択を行う方法です。いくつかの種類を下にまとめます。
+&#10230; 交差検証 ― 交差検証(CV)は，初期の学習データセットに強く依存しないようにモデル選択を行う方法です。２つの方法を下表にまとめました。
 
 <br>
 
@@ -180,19 +180,19 @@
 
 **31. [Generally k=5 or 10, Case p=1 is called leave-one-out]**
 
-&#10230; [k=5か10が一般的,p=1の場合はLeave-one-out cross validation法と呼ばれる]
+&#10230; [一般的にはk=5または10,p=1の場合は一個抜き交差検証と呼ばれます]
 
 <br>
 
 **32. The most commonly used method is called k-fold cross-validation and splits the training data into k folds to validate the model on one fold while training the model on the k−1 other folds, all of this k times. The error is then averaged over the k folds and is named cross-validation error.**
 
-&#10230; 最も一般的に用いられている方法はk交差検証法であり，データセットをk群に分け，1群を検証に，残りのk-1群を学習に用います。これをk回繰り返します。求められた検証誤差はk群全てにわたって平均化され，これは交差検証誤差と呼ばれています。
+&#10230; 最も一般的に用いられている方法はk交差検証法です．データセットをk群に分けた後，1群を検証に使用し残りのk-1群を学習に使用するという操作を順番にk回繰り返します。求められた検証誤差はk群すべてにわたって平均化されます。この平均された誤差のことを交差検証誤差と呼びます。
 
 <br>
 
 **33. Regularization ― The regularization procedure aims at avoiding the model to overfit the data and thus deals with high variance issues. The following table sums up the different types of commonly used regularization techniques:**
 
-&#10230; 正則化 ― 正則化はモデルが過学習するのを避ける目的としており，したがってバリアンスが大きくなる問題に対処します。次の表は一般的に使用されるいくつかの正則化法をまとめたものです。
+&#10230; 正則化 ― 正則化はモデルの過学習状態を回避することが目的であり,したがってハイバリアンス問題(オーバーフィット問題)に対処できます。一般的に使用されるいくつかの正則化法を下表にまとめました。
 
 <br>
 
@@ -204,19 +204,19 @@
 
 **35. Diagnostics**
 
-&#10230; 分析
+&#10230; 診断方法
 
 <br>
 
 **36. Bias ― The bias of a model is the difference between the expected prediction and the correct model that we try to predict for given data points.**
 
-&#10230; バイアス ― モデルのバイアスとは，予測するあるデータ点における，予測した結果の期待値と正しいモデルによる結果との差です。
+&#10230; バイアス ― ある標本値群を予測する際の期待値と正しいモデルの結果との差異のことです。
 
 <br>
 
 **37. Variance ― The variance of a model is the variability of the model prediction for given data points.**
 
-&#10230; バリアンス ― モデルのバリアンスとは，予測するあるデータ点における，予測した結果の分散です。
+&#10230; バリアンス ― モデルのバリアンスとは，ある標本値群に対するモデルの予測値のばらつきのことです。
 
 <br>
 
@@ -246,13 +246,13 @@
 
 **42. Error analysis ― Error analysis is analyzing the root cause of the difference in performance between the current and the perfect models.**
 
-&#10230; エラー分析 ― エラー分析は完璧なモデルと現在のモデル間の性能差の主要な要因を分析することです。
+&#10230; エラー分析 ― エラー分析は現在のモデルと完璧なモデル間の性能差の主要な要因を分析することです。
 
 <br>
 
 **43. Ablative analysis ― Ablative analysis is analyzing the root cause of the difference in performance between the current and the baseline models.**
 
-&#10230; アブレーション分析 ― アブレーション分析は，ベースラインとするモデルと現在のモデル間の性能差の主要な要因を分析することです。
+&#10230; アブレーション分析 ― アブレーション分析は，ベースライン・モデルと現在されたモデル間で発生したパフォーマンスの差異の原因を分析することです。
 
 <br>
 
@@ -264,7 +264,7 @@
 
 **45. [Classification metrics, confusion matrix, accuracy, precision, recall, F1 score, ROC]**
 
-&#10230; [分類評価指標,混同行列,正解率,適合率,再現率,F値,ROC]
+&#10230; [分類評価指標,混同行列,正解率,適合率,再現率,F値,ROC曲線]
 
 <br>
 
@@ -276,10 +276,10 @@
 
 **47. [Model selection, cross-validation, regularization]**
 
-&#10230; [モデル選択，交差検証，正則化]
+&#10230; [モデルの選択，交差検証，正則化]
 
 <br>
 
 **48. [Diagnostics, Bias/variance tradeoff, error/ablative analysis]**
 
-&#10230; [分析，バイアス・バリアンストレードオフ，エラー・アブレーション分析]
+&#10230; [診断方法，バイアス・バリアンストレードオフ，エラー・アブレーション分析]

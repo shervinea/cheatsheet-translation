@@ -19,6 +19,8 @@
   Fares Al-Qunaieer (review of unsupervised learning)
 
 --de
+  Philip Düe (translation of deep learning)
+  Bettina Schlager (review of deep learning)
 
 --es
   Erick Gabriel Mendoza Flores (translation of deep learning)
@@ -97,6 +99,13 @@
   Prasetia Utama Putra (translation of convolutional neural networks)
   Gunawan Tri (review of convolutional neural networks)
 
+--it
+  Alessandro Piotti (translation of linear algebra)
+  Nicola Dall'Asen (review of linear algebra)
+  
+  Nicola Dall'Asen (translation of probabilities and statistics)
+  Alessandro Piotti (review of probabilities and statistics)
+
 --ko
   Wooil Jeong (translation of machine learning tips and tricks)
   
@@ -121,6 +130,12 @@
   Robert Altena (translation of linear algebra)
   Kamuela Lau (review of linear algebra)
   
+  UMU (translation of machine learning tips and tricks)
+  Hiroki Mori (review of machine learning tips and tricks)
+  H. Hamano (review of machine learning tips and tricks)
+  Tian-Jian Jiang (review of machine learning tips and tricks)
+  Yuta Kanzawa (review of machine learning tips and tricks)
+  
   Takatoshi Nao (translation of probabilities and statistics)
   Yuta Kanzawa (review of probabilities and statistics)
   
@@ -141,6 +156,7 @@
 
   Gabriel Fonseca (translation of deep learning)
   Leticia Portella (review of deep learning)
+  Renato Kano (review of deep learning)
 
   Gabriel Fonseca (translation of linear algebra)
   Leticia Portella (review of linear algebra)
@@ -205,10 +221,46 @@
   Denys (review of probabilities and statistics)
   
 --vi
-  Tran Tuan Anh (translation of supervised learning)
-  Dam Minh Tien (review of supervised learning)
+  Phạm Hồng Vinh (translation of convolutional neural networks)
+  Đàm Minh Tiến (review of convolutional neural networks)
+  
+  Trần Tuấn Anh (translation of deep learning)
+  Phạm Hồng Vinh (review of deep learning)
+  Đàm Minh Tiến (review of deep learning)
+  Nguyễn Khánh Hưng (review of deep learning)
+  Hoàng Vũ Đạt (review of deep learning)
+  Nguyễn Trí Minh (review of deep learning)
+  
+  Hoàng Minh Tuấn (translation of deep learning tips and tricks)
+  Trần Tuấn Anh (review of deep learning tips and tricks)
+  Đàm Minh Tiến (review of deep learning tips and tricks)
+  
+  Hoàng Minh Tuấn (translation of linear algebra)
+  Phạm Hồng Vinh (review of linear algebra)
+  
+  Hoàng Minh Tuấn (translation of logic-based models)
+  Đàm Minh Tiến (review of logic-based models)
+
+  Trần Tuấn Anh (translation of machine learning tips and tricks)
+  Nguyễn Trí Minh (review of machine learning tips and tricks)
+  Vinh Pham (review of machine learning tips and tricks)
+  Đàm Minh Tiến (review of machine learning tips and tricks)
+  
+  Hoàng Minh Tuấn (translation of probabilities and statistics)
+  Hung Nguyễn (review of probabilities and statistics)
+
+  Trần Tuấn Anh (translation of recurrent neural networks)
+  Đàm Minh Tiến (review of recurrent neural networks)
+  Hung Nguyễn (review of recurrent neural networks)
+  Nguyễn Trí Minh (review of recurrent neural networks)
+
+  Trần Tuấn Anh (translation of supervised learning)
+  Đàm Minh Tiến (review of supervised learning)
   Hung Nguyễn (review of supervised learning)
   Nguyễn Trí Minh (review of supervised learning)
+  
+  Trần Tuấn Anh (translation of unsupervised learning)
+  Đàm Minh Tiến (review of unsupervised learning)
   
 --zh
   Wang Hongnian (translation of supervised learning)
@@ -216,6 +268,9 @@
   Chaoying Xue (review of supervised learning)
 
 --zh-tw
+  kentropy (translation of convolutional neural networks)
+  kevingo (review of convolutional neural networks)
+
   kevingo (translation of deep learning)
   TobyOoO (review of deep learning)
 

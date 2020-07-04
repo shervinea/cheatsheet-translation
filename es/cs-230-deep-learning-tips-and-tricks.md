@@ -353,7 +353,7 @@
 
 **51. Early stopping ― This regularization technique stops the training process as soon as the validation loss reaches a plateau or starts to increase.**
 
-&#10230;Terminación temprana ―
+&#10230;Terminación temprana ― Esta técnica de regularización detiene el proceso de entrenamiento en cuanto la perdida de validación se estanca en una meseta o comienza a incrementar.
 
 <br>
 

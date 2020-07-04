@@ -116,7 +116,7 @@
 
 **17. Batch normalization ― It is a step of hyperparameter γ,β that normalizes the batch {xi}. By noting μB,σ2B the mean and variance of that we want to correct to the batch, it is done as follows:**
 
-&#10230; Normalización por lotes - Es un paso del híperparámetro y,β que normaliza el lote {xi}. Denotando μB,σ2B la media y la varianza de lo que queremos corregir en el lote, se realiza de la siguiente manera:
+&#10230; Normalización por lotes ― Es un paso del híperparámetro y,β que normaliza el lote {xi}. Denotando μB,σ2B la media y la varianza de lo que queremos corregir en el lote, se realiza de la siguiente manera:
 
 <br>
 
@@ -144,7 +144,7 @@
 
 **21. Epoch ― In the context of training a model, epoch is a term used to refer to one iteration where the model sees the whole training set to update its weights.**
 
-&#10230;
+&#10230; Época ― En el contexto del entrenamiento de un modelo, Época es un término utilizado para referirse a una iteración donde el modelo es expuesto a todo el set de entrenamiento para actualizar sus pesos.
 
 <br>
 
@@ -158,14 +158,14 @@
 
 **23. Loss function ― In order to quantify how a given model performs, the loss function L is usually used to evaluate to what extent the actual outputs y are correctly predicted by the model outputs z.**
 
-&#10230;
+&#10230;Función de pérdida ― Para cuantificar cómo se desempeña un modelo dado, es usualmente utilizada la función de pérdida L para evaluar en qué medida las salidas reales y son predichas correctamente por las salidas z del modelo.
 
 <br>
 
 
 **24. Cross-entropy loss ― In the context of binary classification in neural networks, the cross-entropy loss L(z,y) is commonly used and is defined as follows:**
 
-&#10230;Pérdida de entropía cruzada - En el contexto de clasificación binaria con redes neuronales, la pérdida de entropía cruzada L(z,y) es utilizada comúnmente y definida de la siguiente manera:
+&#10230;Pérdida de entropía cruzada ― En el contexto de clasificación binaria con redes neuronales, la pérdida de entropía cruzada L(z,y) es utilizada comúnmente y está definida de la siguiente manera:
 
 <br>
 
@@ -179,7 +179,7 @@
 
 **26. Backpropagation ― Backpropagation is a method to update the weights in the neural network by taking into account the actual output and the desired output. The derivative with respect to each weight w is computed using the chain rule.**
 
-&#10230; Retropropagación - La retropropagación, o propagación inversa, es un método de actualización de los pesos en una red neuronal, teniendo en cuenta la salida actual y la salida esperada. La derivada respecto al peso w es calculada utilizando la regla de la cadena.
+&#10230; Retropropagación ― La retropropagación, o propagación inversa, es un método de actualización de los pesos en una red neuronal, teniendo en cuenta la salida actual y la salida esperada. La derivada respecto al peso w es calculada utilizando la regla de la cadena.
 
 <br>
 
@@ -256,7 +256,7 @@
 
 **37. [Freezes all layers, trains weights on softmax, Freezes most layers, trains weights on last layers and softmax, Trains weights on layers and softmax by initializing weights on pre-trained ones]**
 
-&#10230;
+&#10230;Congela todas las capas, entrena pesos en softmax, Congela la mayoría de las capas, entrena pesos en las últimas capas y softmax, Entrena los pesos en capas y softmax inicializando los pesos con otros pre-entrenados.
 
 <br>
 
@@ -270,7 +270,7 @@
 
 **39. Learning rate ― The learning rate, often noted α or sometimes η, indicates at which pace the weights get updated. It can be fixed or adaptively changed. The current most popular method is called Adam, which is a method that adapts the learning rate.**
 
-&#10230; Tasa de aprendizaje - La tasa de aprendizaje, denotada como α o algunas veces η, indica a que ritmo los pesos son actualizados. Este valor puede ser fijo o cambiar de forma adaptativa. El método más popular en este momento es llamado Adam, que es un método que adapta la tasa de aprendizaje.
+&#10230; Tasa de aprendizaje ― La tasa de aprendizaje, denotada como α o algunas veces η, indica a que ritmo los pesos son actualizados. Este valor puede ser fijo o cambiar de forma adaptativa. El método más popular en este momento es llamado Adam, que es un método que adapta la tasa de aprendizaje.
 
 <br>
 
@@ -353,7 +353,7 @@
 
 **51. Early stopping ― This regularization technique stops the training process as soon as the validation loss reaches a plateau or starts to increase.**
 
-&#10230;
+&#10230;Terminación temprana ―
 
 <br>
 

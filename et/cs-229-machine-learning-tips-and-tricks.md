@@ -4,7 +4,7 @@
 
 **1. Machine Learning tips and tricks cheatsheet**
 
-&#10230; Tehisõppe näpunäidete spikker
+&#10230; Masinõppe näpunäidete spikker
 
 <br>
 
@@ -16,13 +16,13 @@
 
 **3. In a context of a binary classification, here are the main metrics that are important to track in order to assess the performance of the model.**
 
-&#10230; Siin on meil põhi mõõdikud, mille jälgimine on oluline, et mõõta meie mudeli toivimist binaarse klassifikatsiooni kontekstis.
+&#10230; Siin on meil põhi mõõdikud, mille jälgimine on oluline, et mõõta meie mudeli võimekust binaarse klassifikatsiooni kontekstis.
 
 <br>
 
 **4. Confusion matrix ― The confusion matrix is used to have a more complete picture when assessing the performance of a model. It is defined as follows:**
 
-&#10230; Eksimismaatriks - Eksimismaatriksit kasutatakse mudeli toivimise hindamisel täielikuma pildi saamiseks. See on defineeritud järgmiselt:
+&#10230; Eksimismaatriks - Eksimismaatriksit kasutatakse mudeli võimekust hindamisel täielikuma pildi saamiseks. See on defineeritud järgmiselt:
 
 <br>
 
@@ -34,19 +34,19 @@
 
 **6. Main metrics ― The following metrics are commonly used to assess the performance of classification models:**
 
-&#10230; Põhimõõdikud - järgnevad mõõdikud on tavaliselt kasutatud, et hinnata klassifikatsiooni mudelite toimivust:
+&#10230; Põhimõõdikud - järgnevad mõõdikud on tavaliselt kasutatud, et hinnata klassifikatsiooni mudelite võimekust:
 
 <br>
 
 **7. [Metric, Formula, Interpretation]**
 
-&#10230; [Mõõdik, Valem, Tõlgenuds]
+&#10230; [Mõõdik, Valem, Tõlgendus]
 
 <br>
 
 **8. Overall performance of model**
 
-&#10230; Mudeli üldine resultatiivsus
+&#10230; Mudeli üldine võimekus
 
 <br>
 
@@ -58,13 +58,13 @@
 
 **10. Coverage of actual positive sample**
 
-&#10230; Tegeliku positiivse näite katvus
+&#10230; Tegeliku positiivse valimi katvus
 
 <br>
 
 **11. Coverage of actual negative sample**
 
-&#10230; Tegeliku negatiivse näite katvus
+&#10230; Tegeliku negatiivse valimi katvus
 
 <br>
 
@@ -82,7 +82,7 @@
 
 **14. [Metric, Formula, Equivalent]**
 
-&#10230; [Mõõdik, Valem, Tõlgenuds]
+&#10230; [Mõõdik, Valem, Ekvivalent]
 
 <br>
 
@@ -100,7 +100,7 @@
 
 **17. Basic metrics ― Given a regression model f, the following metrics are commonly used to assess the performance of the model:**
 
-&#10230; Põhilised mõõdikud - Arvestades regressioonimudelit f, kasutatakse mudeli toimivuse hindamiseks tavaliselt järgmisi mõõdikuid.
+&#10230; Põhilised mõõdikud - Arvestades regressioonimudelit f, kasutatakse mudeli võimekuse hindamiseks tavaliselt järgmisi mõõdikuid.
 
 <br>
 
@@ -118,7 +118,7 @@
 
 **20. Main metrics ― The following metrics are commonly used to assess the performance of regression models, by taking into account the number of variables n that they take into consideration:**
 
-&#10230; Põhimõõdikud - Regressioonimudelite toimivuse hindamiseks kasutatakse tavaliselt järgmisi mõõdikuid, võttes arvesse muutujate arvu n, mida nad arvestavad.
+&#10230; Põhimõõdikud - Regressioonimudelite võimekuse hindamiseks kasutatakse tavaliselt järgmisi mõõdikuid, võttes arvesse muutujate arvu n, mida nad arvestavad.
 
 <br>
 
@@ -130,7 +130,7 @@
 
 **22. Model selection**
 
-&#10230; Mudelivalik
+&#10230; Mudeli valik
 
 <br>
 
@@ -166,13 +166,13 @@
 
 **28. Once the model has been chosen, it is trained on the entire dataset and tested on the unseen test set. These are represented in the figure below:**
 
-&#10230; Kui mudel on valitud, treenitakse seda kogu andmehulgaga ja testitakse mitte nähtud andmetega. Need on esitatud alloleval joonisel.
+&#10230; Kui mudel on valitud, treenitakse seda kogu andmehulgaga ja testitakse andmetega mida mudel ei ole näinud. Need on esitatud alloleval joonisel.
 
 <br>
 
 **29. Cross-validation ― Cross-validation, also noted CV, is a method that is used to select a model that does not rely too much on the initial training set. The different types are summed up in the table below:**
 
-&#10230; Ristvalideerimine - Ristvalideerimine, tuntud kui CV, on meetod, mida kasutatakse mudeli valimiseks ning mis ei sõltu liiga palju algsest treeningkomplektist. Erinevad ristkontrolli tüübid on kokkuvõetud allolevas tabelis:
+&#10230; Ristvalideerimine - Ristvalideerimine, tuntud kui CV, on meetod, mida kasutatakse mudeli valimiseks ning mis ei sõltu liiga palju algsest treeningkomplektist. Erinevad ristkontrolli tüübid on kokku võetud allolevas tabelis:
 
 <br>
 
@@ -190,13 +190,13 @@
 
 **32. The most commonly used method is called k-fold cross-validation and splits the training data into k folds to validate the model on one fold while training the model on the k−1 other folds, all of this k times. The error is then averaged over the k folds and is named cross-validation error.**
 
-&#10230; Kõige sagedamini kasutatavat meetodit nimetatakse k-kordseks ristvalideerimiseks ja see jagab treeningu andmehulga k kordseks osadeks, et mudelit valideerida ühel osaga, samal ajal treenides mudelit k − 1 teisel osaga, seda kõike k korda. Seejärel arvutatakse viga keskmiselt k korda ja seda nimetatakse ristvalideerimise veaks.
+&#10230; Kõige sagedamini kasutatavat meetodit nimetatakse k-kordseks ristvalideerimiseks ja see jagab treeningu andmehulga k kordseks osadeks, et mudelit valideerida ühe osaga, samal ajal treenides mudelit k − 1 teisel osaga, seda kõike k korda. Seejärel arvutatakse viga keskmiselt k korda ja seda nimetatakse ristvalideerimise veaks.
 
 <br>
 
 **33. Regularization ― The regularization procedure aims at avoiding the model to overfit the data and thus deals with high variance issues. The following table sums up the different types of commonly used regularization techniques:**
 
-&#10230; Regulariseerimine - Regulariseerimisprotsessi eesmärk on vältida mudeli ülemäärast ülesobitust treeningandmestikule ning kõrge dispersiooni probleemidega. Järgmises tabelis on toodud levinumate reguleerimist meetodite tüübid:
+&#10230; Regulariseerimine - Regulariseerimisprotsessi eesmärk on vältida mudeli ülemäärast ülesobitust treeningandmestikule ning seeläbi tegeleb kõrge dispersiooni probleemidega. Järgmises tabelis on toodud levinumate reguleerimist meetodite tüübid:
 
 <br>
 
@@ -250,19 +250,19 @@
 
 **42. Error analysis ― Error analysis is analyzing the root cause of the difference in performance between the current and the perfect models.**
 
-&#10230; Veaanalüüs - Veaanalüüs on olemasoleva ja perfektse mudeli toivimuse erinevuse algpõhjuse leidmine.
+&#10230; Veaanalüüs - Veaanalüüs on olemasoleva ja perfektse mudeli võimekuse erinevuse algpõhjuse leidmine.
 
 <br>
 
 **43. Ablative analysis ― Ablative analysis is analyzing the root cause of the difference in performance between the current and the baseline models.**
 
-&#10230; Ablatiivne analüüs - Ablatiivne analüüs on olemasoleva ja baas mudeli toivimuse erinevuse algpõhjuse leidmine.
+&#10230; Ablatiivne analüüs - Ablatiivne analüüs on olemasoleva ja baas mudeli võimekuse erinevuse algpõhjuse leidmine.
 
 <br>
 
 **44. Regression metrics**
 
-&#10230; Regresiooni mõõdikud
+&#10230; Regressiooni mõõdikud
 
 <br>
 

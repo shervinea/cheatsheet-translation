@@ -22,7 +22,7 @@
 
 **4. Confusion matrix ― The confusion matrix is used to have a more complete picture when assessing the performance of a model. It is defined as follows:**
 
-&#10230; Eksimismaatriks - Eksimismaatriksit kasutatakse mudeli võimekust hindamisel täielikuma pildi saamiseks. See on defineeritud järgmiselt:
+&#10230; Eksimismaatriks ― Eksimismaatriksit kasutatakse mudeli võimekust hindamisel täielikuma pildi saamiseks. See on defineeritud järgmiselt:
 
 <br>
 
@@ -34,7 +34,7 @@
 
 **6. Main metrics ― The following metrics are commonly used to assess the performance of classification models:**
 
-&#10230; Põhimõõdikud - järgnevad mõõdikud on tavaliselt kasutatud, et hinnata klassifikatsiooni mudelite võimekust:
+&#10230; Põhimõõdikud ― järgnevad mõõdikud on tavaliselt kasutatud, et hinnata klassifikatsiooni mudelite võimekust:
 
 <br>
 
@@ -76,7 +76,7 @@
 
 **13. ROC ― The receiver operating curve, also noted ROC, is the plot of TPR versus FPR by varying the threshold. These metrics are are summed up in the table below:**
 
-&#10230; ROC - Vastuvõtja töökõver on graafik, millel kuvatakse TPR-i ja FPR-i suhet erineval lävel. Need mõõdikud on kokku võetud allolevas tabelis.
+&#10230; ROC ― Vastuvõtja töökõver on graafik, millel kuvatakse TPR-i ja FPR-i suhet erineval lävel. Need mõõdikud on kokku võetud allolevas tabelis:
 
 <br>
 
@@ -88,7 +88,7 @@
 
 **15. AUC ― The area under the receiving operating curve, also noted AUC or AUROC, is the area below the ROC as shown in the following figure:**
 
-&#10230; AUC - Vastuvõtva töökõvera alune ala, tuntud kui AUC või AUROC, on ROC töökõvera alune ala, mis on näidatud järgmisel joonisel.
+&#10230; AUC ― Vastuvõtva töökõvera alune ala, tuntud kui AUC või AUROC, on ROC töökõvera alune ala, mis on näidatud järgmisel joonisel:
 
 <br>
 
@@ -100,7 +100,7 @@
 
 **17. Basic metrics ― Given a regression model f, the following metrics are commonly used to assess the performance of the model:**
 
-&#10230; Põhilised mõõdikud - Arvestades regressioonimudelit f, kasutatakse mudeli võimekuse hindamiseks tavaliselt järgmisi mõõdikuid.
+&#10230; Põhilised mõõdikud ― Arvestades regressioonimudelit f, kasutatakse mudeli võimekuse hindamiseks tavaliselt järgmisi mõõdikuid:
 
 <br>
 
@@ -112,13 +112,13 @@
 
 **19. Coefficient of determination ― The coefficient of determination, often noted R2 or r2, provides a measure of how well the observed outcomes are replicated by the model and is defined as follows:**
 
-&#10230; Determinatsioonikordaja - tuntud kui R2 või r2 näitab, kui hästi jälgitavad tulemused mudelis korduvad, ja see on määratletud järgmiselt.
+&#10230; Determinatsioonikordaja ― Determinatsioonikordaja, tuntud kui R2 või r2 näitab, kui hästi jälgitavad tulemused mudelis korduvad, ja see on määratletud järgmiselt:
 
 <br>
 
 **20. Main metrics ― The following metrics are commonly used to assess the performance of regression models, by taking into account the number of variables n that they take into consideration:**
 
-&#10230; Põhimõõdikud - Regressioonimudelite võimekuse hindamiseks kasutatakse tavaliselt järgmisi mõõdikuid, võttes arvesse muutujate arvu n, mida nad arvestavad.
+&#10230; Põhimõõdikud ― Regressioonimudelite võimekuse hindamiseks kasutatakse tavaliselt järgmisi mõõdikuid, võttes arvesse muutujate arvu n, mida nad arvestavad.
 
 <br>
 
@@ -136,7 +136,7 @@
 
 **23. Vocabulary ― When selecting a model, we distinguish 3 different parts of the data that we have as follows:**
 
-&#10230; Sõnavara - Mudeli valimisel eristame 3 erinevat osa andmetest järgnevalt:
+&#10230; Sõnavara ― Mudeli valimisel eristame 3 erinevat osa andmetest järgnevalt:
 
 <br>
 
@@ -166,13 +166,13 @@
 
 **28. Once the model has been chosen, it is trained on the entire dataset and tested on the unseen test set. These are represented in the figure below:**
 
-&#10230; Kui mudel on valitud, treenitakse seda kogu andmehulgaga ja testitakse andmetega mida mudel ei ole näinud. Need on esitatud alloleval joonisel.
+&#10230; Kui mudel on valitud, treenitakse seda kogu andmehulgaga ja testitakse andmetega mida mudel ei ole näinud. Need on esitatud alloleval joonisel:
 
 <br>
 
 **29. Cross-validation ― Cross-validation, also noted CV, is a method that is used to select a model that does not rely too much on the initial training set. The different types are summed up in the table below:**
 
-&#10230; Ristvalideerimine - Ristvalideerimine, tuntud kui CV, on meetod, mida kasutatakse mudeli valimiseks ning mis ei sõltu liiga palju algsest treeningkomplektist. Erinevad ristkontrolli tüübid on kokku võetud allolevas tabelis:
+&#10230; Ristvalideerimine ― Ristvalideerimine, tuntud kui CV, on meetod, mida kasutatakse mudeli valimiseks ning mis ei sõltu liiga palju algsest treeningkomplektist. Erinevad ristkontrolli tüübid on kokku võetud allolevas tabelis:
 
 <br>
 
@@ -190,13 +190,13 @@
 
 **32. The most commonly used method is called k-fold cross-validation and splits the training data into k folds to validate the model on one fold while training the model on the k−1 other folds, all of this k times. The error is then averaged over the k folds and is named cross-validation error.**
 
-&#10230; Kõige sagedamini kasutatavat meetodit nimetatakse k-kordseks ristvalideerimiseks ja see jagab treeningu andmehulga k kordseks osadeks, et mudelit valideerida ühe osaga, samal ajal treenides mudelit k − 1 teisel osaga, seda kõike k korda. Seejärel arvutatakse viga keskmiselt k korda ja seda nimetatakse ristvalideerimise veaks.
+&#10230; Kõige sagedamini kasutatavat meetodit nimetatakse k-kordseks ristvalideerimiseks ja see jagab treeningu andmehulga k kordseks osadeks, et mudelit valideerida ühe osaga, samal ajal treenides mudelit k−1 teisel osaga, seda kõike k korda. Seejärel arvutatakse viga keskmiselt k korda ja seda nimetatakse ristvalideerimise veaks.
 
 <br>
 
 **33. Regularization ― The regularization procedure aims at avoiding the model to overfit the data and thus deals with high variance issues. The following table sums up the different types of commonly used regularization techniques:**
 
-&#10230; Regulariseerimine - Regulariseerimisprotsessi eesmärk on vältida mudeli ülemäärast ülesobitust treeningandmestikule ning seeläbi tegeleb kõrge dispersiooni probleemidega. Järgmises tabelis on toodud levinumate reguleerimist meetodite tüübid:
+&#10230; Regulariseerimine ― Regulariseerimisprotsessi eesmärk on vältida mudeli ülemäärast ülesobitust treeningandmestikule ning seeläbi tegeleb kõrge dispersiooni probleemidega. Järgmises tabelis on toodud levinumate reguleerimist meetodite tüübid:
 
 <br>
 
@@ -214,19 +214,19 @@
 
 **36. Bias ― The bias of a model is the difference between the expected prediction and the correct model that we try to predict for given data points.**
 
-&#10230; Nihe (Vabaliige) - Mudeli vabaliige on erinevus eeldatava ennustuse ja õige mudeli vahel, mida proovime antud andmepunktidega ennustada.
+&#10230; Nihe (Vabaliige) ― Mudeli vabaliige on erinevus eeldatava ennustuse ja õige mudeli vahel, mida proovime antud andmepunktidega ennustada.
 
 <br>
 
 **37. Variance ― The variance of a model is the variability of the model prediction for given data points.**
 
-&#10230; Variatsioon - Mudeli variatsioon on mudeli ennustuse ja antud andmepunkti varieeruvus.
+&#10230; Variatsioon ― Mudeli variatsioon on mudeli ennustuse ja antud andmepunkti varieeruvus.
 
 <br>
 
 **38. Bias/variance tradeoff ― The simpler the model, the higher the bias, and the more complex the model, the higher the variance.**
 
-&#10230; Nihke/Variatsioon kompromiss - Mida lihtsam mudel seda suurem on nihe (vabaliige) ning mida keerulisem on mudel seda suurem on dispersioon.
+&#10230; Nihke/Variatsioon kompromiss ― Mida lihtsam mudel seda suurem on nihe (vabaliige) ning mida keerulisem on mudel seda suurem on dispersioon.
 
 <br>
 
@@ -250,13 +250,13 @@
 
 **42. Error analysis ― Error analysis is analyzing the root cause of the difference in performance between the current and the perfect models.**
 
-&#10230; Veaanalüüs - Veaanalüüs on olemasoleva ja perfektse mudeli võimekuse erinevuse algpõhjuse leidmine.
+&#10230; Veaanalüüs ― Veaanalüüs on olemasoleva ja perfektse mudeli võimekuse erinevuse algpõhjuse leidmine.
 
 <br>
 
 **43. Ablative analysis ― Ablative analysis is analyzing the root cause of the difference in performance between the current and the baseline models.**
 
-&#10230; Ablatiivne analüüs - Ablatiivne analüüs on olemasoleva ja baas mudeli võimekuse erinevuse algpõhjuse leidmine.
+&#10230; Ablatiivne analüüs ― Ablatiivne analüüs on olemasoleva ja baas mudeli võimekuse erinevuse algpõhjuse leidmine.
 
 <br>
 

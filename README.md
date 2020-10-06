@@ -12,19 +12,19 @@ The translation process of each cheatsheet contains two steps:
 
 1. Fork the repository.
 
-2. Copy the template of the cheatsheet you wish to translate (provided in the `template/` folder) into the language folder with a naming that follows the [ISO 639-1 notation](https://www.loc.gov/standards/iso639-2/php/code_list.php).
+2. Copy [the template](https://github.com/shervinea/cheatsheet-translation/tree/master/template) of the cheatsheet you wish to translate into the language folder with a naming that follows the [ISO 639-1 notation](https://www.loc.gov/standards/iso639-2/php/code_list.php) (e.g. `[es]` for Spanish, `[zh]` for Mandarin Chinese).
 
-3. Translate anything you want by keeping the [following template](https://github.com/shervinea/cheatsheet-translation/tree/master/template):
+3. Translate sentences by keeping the following structure:
 > 34. **English blabla**
 >
 > &#10230; Translated blabla
 
 4. Commit the changes to your forked repository.
 
-5. Submit a [pull request](https://help.github.com/articles/creating-a-pull-request/) and call it `[code of language name] Topic name`. For example, a translation in Spanish of the deep learning cheatsheet will be called `[es] Deep learning`.
+5. Submit a [pull request](https://help.github.com/articles/creating-a-pull-request/) and call it `[language code] file-name`. For example, the PR related to the translation in Spanish of the `template/cs-229-deep-learning.md` cheatsheet will be entitled `[es] cs-229-deep-learning`.
 
 ### Reviewers
-1. Go to the [list of pull requests](https://github.com/shervinea/cheatsheet-translation/pulls) and filter them by your native language (e.g. `[es]` for Spanish, `[zh]` for Mandarin Chinese).
+1. Go to the [list of pull requests](https://github.com/shervinea/cheatsheet-translation/pulls) and filter them by your native language.
 
 2. Locate pull requests where help is needed. Those contain the tag `reviewer wanted`.
 

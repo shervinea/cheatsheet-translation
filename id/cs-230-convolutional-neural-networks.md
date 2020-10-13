@@ -39,42 +39,42 @@
 
 **6. [Tuning hyperparameters, Parameter compatibility, Model complexity, Receptive field]**
 
-&#10230;[Penyetelan hiperparameter, Kesesuaian parameter, Kompleksitas model, Receptive field]
+&#10230;[Pengaturan hiperparameter, kompatibilitas parameter, kompleksitas model, Receptive field]
 
 <br>
 
 
 **7. [Activation functions, Rectified Linear Unit, Softmax]**
 
-&#10230;[Fungsi-fungsi aktifasi, Rectified Linear Unit, Softmax]
+&#10230;[Fungsi-fungsi aktivasi, Rectified Linear Unit, Softmax]
 
 <br>
 
 
 **8. [Object detection, Types of models, Detection, Intersection over Union, Non-max suppression, YOLO, R-CNN]**
 
-&#10230;[Deteksi objek, Tipe-tipe model, Deteksi, Intersection over Union, Non-max suppression, YOLO, R-CNN]
+&#10230;[Deteksi objek, Tipe-tipe model, Deteksi, Perbandingan Irisan terhadap Gabungan, Non-max suppression, YOLO, R-CNN]
 
 <br>
 
 
 **9. [Face verification/recognition, One shot learning, Siamese network, Triplet loss]**
 
-&#10230;[Verifikasi/pengenal wajah, One shot learning, Siamese network, Loss triplet]
+&#10230;[Verifikasi/pengenalan wajah, Pembelajaran Satu-kali, Jaringan Siamese, Rugi-rugi triplet]
 
 <br>
 
 
 **10. [Neural style transfer, Activation, Style matrix, Style/content cost function]**
 
-&#10230;[Transfer neural style, Aktifasi, Matriks style, Fungsi cost style/konten]
+&#10230;[Transfer neural style, Aktivasi, Matriks style, Fungsi kos style/konten]
 
 <br>
 
 
 **11. [Computational trick architectures, Generative Adversarial Net, ResNet, Inception Network]**
 
-&#10230;[Arkitektur trik komputasional, Generative Adversarial Net, ResNet, Inception Network]
+&#10230;[Arsitektur trik komputasional, Generative Adversarial Net, ResNet, Inception Network]
 
 <br>
 
@@ -88,28 +88,28 @@
 
 **13. Architecture of a traditional CNN ― Convolutional neural networks, also known as CNNs, are a specific type of neural networks that are generally composed of the following layers:**
 
-&#10230;Arkitektur dari sebuah tradisional CNN - Convolutional neural network, juga dikenal sebagai CNN, adalah sebuah tipe khusus dari neural network yang secara umum terdiri dari layer-layer berikut:
+&#10230;Arkitektur dari sebuah CNN - Convolutional neural network (jaringan saraf kovolusional) tradisional, juga dikenal sebagai CNN, adalah sebuah tipe khusus dari jaringan saraf tiruan (neural network) yang secara umum terdiri dari lapisan-lapisan (layer) seperti berikut ini:
 
 <br>
 
 
 **14. The convolution layer and the pooling layer can be fine-tuned with respect to hyperparameters that are described in the next sections.**
 
-&#10230;Layer konvolusi and layer pooling dapat disesuaikan terhadap hiperparameter yang dijelaskan pada bagian selanjutnya.
+&#10230;Lapisan konvolusi and lapisan pooling dapat disesuaikan terhadap hiperparameter yang dijelaskan pada bagian selanjutnya.
 
 <br>
 
 
 **15. Types of layer**
 
-&#10230;Jenis-jenis layer
+&#10230;Jenis-jenis lapisan
 
 <br>
 
 
 **16. Convolution layer (CONV) ― The convolution layer (CONV) uses filters that perform convolution operations as it is scanning the input I with respect to its dimensions. Its hyperparameters include the filter size F and stride S. The resulting output O is called feature map or activation map.**
 
-&#10230;Layer convolution - Layer convolution (CONV) menggunakan banyak filter yang dapat melakukan operasi konvolusi karena CONV memindai input I dengan memperhatikan dimensinya. Hiperparameter dari CONV meliputi ukuran filter F dan stride S. Keluaran hasil O disebut feature map atau activation map.
+&#10230;Lapisan konvolusi (CONV) - Lapisan konvolusi (CONV) menggunakan banyak filter dalam proses (operasi) konvolusi ketika CONV memindai masukan (input) I dengan memperhatikan dimensinya. Hiperparameter dari CONV meliputi ukuran filter F dan stride S. Luaran yang dihasilkan O disebut peta ciri (feature map) ataupun peta aktivasi (activation map).
 
 <br>
 
@@ -123,7 +123,7 @@
 
 **18. Pooling (POOL) ― The pooling layer (POOL) is a downsampling operation, typically applied after a convolution layer, which does some spatial invariance. In particular, max and average pooling are special kinds of pooling where the maximum and average value is taken, respectively.**
 
-&#10230;Pooling (POOL) - Layer pooling adalah sebuah operasi downsampling, biasanya diaplikasikan setelah lapisan konvolusi, yang menyebabkan invarian spasial. Pada khususnya, pooling max dan average merupakan jenis-jenis pooling spesial di mana masing-masing nilai maksimal dan rata-rata diambil.
+&#10230;Pooling (POOL) - Lapisan pooling adalah sebuah operasi downsampling, biasanya dilakukan setelah lapisan konvolusi, yang juga menghasilkan invarians spasial yang sama. Terutama, pooling maks dan rata-rata adalah jenis pooling yang khusus, yang mengambil nilai maksimal dan rata-rata.
 
 <br>
 
@@ -137,41 +137,41 @@
 
 **20. [Max pooling, Average pooling, Each pooling operation selects the maximum value of the current view, Each pooling operation averages the values of the current view]**
 
-&#10230;[Max pooling, Average pooling, Setiap operasi pooling mewakili nilai maksimal dari tampilan terbaru, setiap operasi pooling meratakan nilai-nilai dari tampilan terbaru]
+&#10230;[Pooling maks, Pooling Rerata, Setiap operasi pooling memilih nilai maksimum dari tampilan terkini, Setiap operasi pooling mencari nilai rata-rata dari tampilan terkini]
 
 <br>
 
 
 **21. [Preserves detected features, Most commonly used, Downsamples feature map, Used in LeNet]**
 
-&#10230;[Mempertahankan fitur yang terdeteksi, yang paling sering digunakan, Downsamples feature map, dipakai di LeNet]
+&#10230;[Mempertahankan ciri (fitur) yang terdeteksi, yang paling sering digunakan, peta ciri downsamples, dipakai di LeNet]
 
 <br>
 
 
 **22. Fully Connected (FC) ― The fully connected layer (FC) operates on a flattened input where each input is connected to all neurons. If present, FC layers are usually found towards the end of CNN architectures and can be used to optimize objectives such as class scores.**
 
-&#10230;Fully Connected (FC) - Fully connected layer (FC) menangani sebuah masukan dijadikan 1D ddi mana setiap masukan terhubung ke seluruh neuron. Bila ada, lapisan-lapisan FC biasanya ditemukan pada akhir arsitektur CNN dan dapat digunakan untuk mengoptimalkan hasil seperti skor-skor kelas (pada kasus klasifikasi).
+&#10230;Fully Connected (FC) - Lapisan fully connected (FC) digunakan untuk masukan yang telah disusun menjadi 1D, sehingga setiap masukan terhubung ke seluruh neuron. Bila ada, lapisan FC biasanya diletakkan pada akhir dari arsitektur CNN dan dapat digunakan untuk mengoptimalkan objektif (tujuan) seperti skor (nilai) pada kelas (pada kasus klasifikasi).
 
 <br>
 
 
 **23. Filter hyperparameters**
 
-&#10230;Hiperparameter filter
+&#10230;Hiperparameter pada filter
 
 <br>
 
 
 **24. The convolution layer contains filters for which it is important to know the meaning behind its hyperparameters.**
 
-&#10230;Layer konvolusi mengandung penyaring yang penting untuk dimengerti tentang maksud dari penyaring hiperparameter tersebut.
+&#10230;Lapisan konvolusi berisi filter, sehingga adalah penting untuk mengetahui makna dari hiperparameter pada filter itu sendiri.
 <br>
 
 
 **25. Dimensions of a filter ― A filter of size F×F applied to an input containing C channels is a F×F×C volume that performs convolutions on an input of size I×I×C and produces an output feature map (also called activation map) of size O×O×1.**
 
-&#10230;Dimensi dari sebuah filter - Sebuah filter dengan ukuran FxF diaplikasikan pada sebuah input yang memuat C channel memiliki volume FxFxC yang melakukan konvolusi pada sebuah input masukan dengan ukuran IxIxC dan menghasilkan sebuah keluaran feature map (juga dikenal activation map) dengan ukuran O×O×1
+&#10230;Dimensi dari sebuah filter - Sebuah filter dengan ukuran FxF digunakan pada sebuah masukan (input) yang memiliki channel C, akan memiliki volume FxFxC saat proses konvolusi pada sebuah masukan (input) yang berukuran IxIxC dan akan menghasilkan sebuah luaran peta ciri (feature map) yang juga dikenal sebagai peta aktivasi yang berukuran O×O×1
 
 <br>
 
@@ -185,91 +185,91 @@
 
 **27. Remark: the application of K filters of size F×F results in an output feature map of size O×O×K.**
 
-&#10230;Catatan: pengaplikasian dari penyaring F dengan ukuran FxF menghasilkan sebuah keluaran fitur peta dengan ukuran O×O×K.
+&#10230;Catatan: penggunaan filter sejumlah K dengan ukuran FxF akan menghasilkan sebuah luaran berupa peta ciri dengan ukuran O×O×K.
 
 <br>
 
 
 **28. Stride ― For a convolutional or a pooling operation, the stride S denotes the number of pixels by which the window moves after each operation.**
 
-&#10230;Stride - Untuk sebuah konvolusi atau sebauh operasi pooling, stide S melambangkan jumlah pixel yang dilewati window setelah setiap operasi.
+&#10230;Stride - Dalam proses konvolusi atau operasi pooling, stide S melambangkan banyaknya pixel yang dilewati oleh sebuah jendela (window) setelah setiap operasi.
 
 <br>
 
 
 **29. Zero-padding ― Zero-padding denotes the process of adding P zeroes to each side of the boundaries of the input. This value can either be manually specified or automatically set through one of the three modes detailed below:**
 
-&#10230;Zero-padding - Zero-padding melambangkan proses penambahan P nilai 0 pada setiap sisi akhir dari masukan. Nilai dari zero-padding dapat dispesifikasikan secara manual atau secara otomatis melalui salah satu dari tiga mode yang dijelaskan dibawah ini:
+&#10230;Zero-padding - Zero-padding melambangkan proses penambahan nilai 0 sebanyak P pada setiap tepi (ujung) dari masukan. Nilai ini ditentukan secara manual atau secara otomatis melalui salah satu dari tiga mode yang dijelaskan dibawah ini:
 
 <br>
 
 
 **30. [Mode, Value, Illustration, Purpose, Valid, Same, Full]**
 
-&#10230;[Mode, Nilai, Ilustrasi, Tujuan, Valid, Same, Full]
+&#10230;[Mode, Nilai, Ilustrasi, Tujuan, Valid, Sama, Penuh]
 
 <br>
 
 
 **31. [No padding, Drops last convolution if dimensions do not match, Padding such that feature map size has size ⌈IS⌉, Output size is mathematically convenient, Also called 'half' padding, Maximum padding such that end convolutions are applied on the limits of the input, Filter 'sees' the input end-to-end]**
 
-&#10230;[No padding, Hapus konvolusi terakhir jika dimensi tidak sesuai, Padding yang menghasilkan feature map dengan ukuran ⌈IS⌉, Ukuran keluaran cocok secara matematis, Juga disebut 'half' padding, Maximum padding menjadikan akhir konvolusi dipasangkan pada batasan dari input, Filter 'melihat' masukan end-to-end]
+&#10230;[No padding, Hapus konvolusi terakhir jika dimensi tidak sesuai, Padding sehingga menghasilkan peta ciri (feature map) memiliki ukuran ⌈IS⌉, Ukuran luaran cocok secara matematis, Juga disebut 'half' padding, Maximum padding sehingga konvolusi di akhir dapat dilakukan pada batasan dari input, Filter 'melihat' masukan end-to-end]
 
 <br>
 
 
 **32. Tuning hyperparameters**
 
-&#10230;Menyetel hiperparameter
+&#10230;Pengaturan hiperparameter
 
 <br>
 
 
 **33. Parameter compatibility in convolution layer ― By noting I the length of the input volume size, F the length of the filter, P the amount of zero padding, S the stride, then the output size O of the feature map along that dimension is given by:**
 
-&#10230;Kompabilitas parameter pada lapisan konvolusi - Dengan menuliskan I sebagai panjang dari ukuran volume masukan, F sebagai panjang dari filter, P sebagai jumlah dari zero padding, S sebagai stride, maka ukuran keluaran 0 dari feature map pada dimensi tersebut ditandai dengan:
+&#10230;Kompabilitas parameter pada lapisan konvolusi - Dengan catatan I sebagai panjang dari ukuran volume masukan, F sebagai panjang dari filter, P sebagai banyaknya dari zero padding, S sebagai stride, maka ukuran luaran O dari peta ciri (feature map) pada dimensi tersebut ditandai dengan:
 
 <br>
 
 
 **34. [Input, Filter, Output]**
 
-&#10230;[Masukan, Filter, Keluaran]
+&#10230;[Masukan, Filter, Luaran]
 
 <br>
 
 
 **35. Remark: often times, Pstart=Pend≜P, in which case we can replace Pstart+Pend by 2P in the formula above.**
 
-&#10230;Catatan: sering, Pstart=Pend≜P, pada kasus tersebut kita dapat mengganti Pstart+Pend dengan 2P pada formula di atas.
+&#10230;Catatan: sering kali, Pstart=Pend≜P, pada kasus tersebut kita dapat mengganti Pstart+Pend dengan 2P pada formula di atas.
 
 <br>
 
 
 **36. Understanding the complexity of the model ― In order to assess the complexity of a model, it is often useful to determine the number of parameters that its architecture will have. In a given layer of a convolutional neural network, it is done as follows:**
 
-&#10230;Memahami kompleksitas dari model - Untuk menilai kompleksitas dari sebuah model, sangatlah penting untuk menentukan jumlah parameter yang arsitektur dari model akan miliki. Pada sebuah convolutional neural network, hal tersebut dilakukan sebagai berikut:
+&#10230;Memahami kompleksitas dari model - Untuk menilai kompleksitas dari sebuah model, sangatlah penting untuk menentukan banyaknya parameter yang akan dimiliki pada suatu arsitektur. Pada sebuah lapisan dari convolutional neural network, hal tersebut dilakukan sebagai berikut:
 
 <br>
 
 
 **37. [Illustration, Input size, Output size, Number of parameters, Remarks]**
 
-&#10230;[Ilustrasi, Ukuran masukan, Ukuran keluaran, Jumlah parameter, Catatan]
+&#10230;[Ilustrasi, Ukuran masukan, Ukuran luaran, Banyaknya parameter, Catatan]
 
 <br>
 
 
 **38. [One bias parameter per filter, In most cases, S<F, A common choice for K is 2C]**
 
-&#10230;[Satu parameter bias per filter, Pada banyak kasus, S>F, sebuah pilihan umum untuk K adalah 2C]
+&#10230;[Satu parameter bias tiap filter, Pada banyak kasus, S<F, sebuah pilihan umum untuk K adalah 2C]
 
 <br>
 
 
 **39. [Pooling operation done channel-wise, In most cases, S=F]**
 
-&#10230;[Operasi pooling yang dilakukan dengan channel-wise, Pada banyak kasus, S=F]
+&#10230;[Operasi pooling yang dilakukan pada tiap kanal (channel-wise), Pada banyak kasus, S=F]
 
 <br>
 
@@ -297,7 +297,7 @@
 
 **43. Commonly used activation functions**
 
-&#10230;Fungsi-fungsi aktifasi yang biasa dipakai
+&#10230;Fungsi-fungsi aktivasi yang biasa dipakai
 
 <br>
 

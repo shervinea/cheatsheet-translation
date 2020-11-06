@@ -102,6 +102,14 @@
 --id
   Prasetia Utama Putra (translation of convolutional neural networks)
   Gunawan Tri (review of convolutional neural networks)
+  Jimmy The Lecturer (review of convolutional neural networks)
+  
+  Prasetia Utama Putra (translation of linear algebra)
+  Gunawan Tri (review of linear algebra)
+  Jimmy The Lecturer (review of linear algebra)
+  
+  Prasetia Utama Putra (translation of probabilities and statistics)
+  Jimmy The Lecturer (review of probabilities and statistics)
 
 --it
   Alessandro Piotti (translation of linear algebra)
@@ -111,6 +119,8 @@
   Alessandro Piotti (review of probabilities and statistics)
 
 --ko
+  Soyoung Lee (translation of linear algebra)
+
   Wooil Jeong (translation of machine learning tips and tricks)
   
   Wooil Jeong (translation of probabilities and statistics)
@@ -267,6 +277,9 @@
   Đàm Minh Tiến (review of unsupervised learning)
   
 --zh
+  Lin Li Hong (translation of convolutional neural networks)
+  Mengyun Liu (review of convolutional neural networks)
+
   Wang Hongnian (translation of supervised learning)
   Xiaohu Zhu (朱小虎) (review of supervised learning)
   Chaoying Xue (review of supervised learning)

@@ -1,96 +1,119 @@
 --ar
-  Amjad Khatabi (translation of cs-229-deep-learning)
-  Zaid Alyafeai (review of cs-229-deep-learning)
+  cs-229-deep-learning
+    Amjad Khatabi (translation)
+    Zaid Alyafeai (review)
 
-  Zaid Alyafeai (translation of cs-229-linear-algebra)
-  Amjad Khatabi (review of cs-229-linear-algebra)
-  Mazen Melibari (review of cs-229-linear-algebra)
+  cs-229-linear-algebra
+    Zaid Alyafeai (translation)
+    Amjad Khatabi (review)
+    Mazen Melibari (review)
 
-  Fares Al-Qunaieer (translation of cs-229-machine-learning-tips-and-tricks)
-  Zaid Alyafeai (review of cs-229-machine-learning-tips-and-tricks)
+  cs-229-machine-learning-tips-and-tricks
+    Fares Al-Qunaieer (translation)
+    Zaid Alyafeai (review)
 
-  Mahmoud Aslan (translation of cs-229-probability)
-  Fares Al-Qunaieer (review of cs-229-probability)
+  cs-229-probability
+    Mahmoud Aslan (translation)
+    Fares Al-Qunaieer (review)
 
-  Fares Al-Qunaieer (translation of cs-229-supervised-learning)
-  Zaid Alyafeai (review of cs-229-supervised-learning)
+  cs-229-supervised-learning
+    Fares Al-Qunaieer (translation)
+    Zaid Alyafeai (review)
 
-  Redouane Lguensat (translation of cs-229-unsupervised-learning)
-  Fares Al-Qunaieer (review of cs-229-unsupervised-learning)
+  cs-229-unsupervised-learning
+    Redouane Lguensat (translation)
+    Fares Al-Qunaieer (review)
 
 --de
-  Philip Düe (translation of cs-229-deep-learning)
-  Bettina Schlager (review of cs-229-deep-learning)
+  cs-229-deep-learning
+    Philip Düe (translation)
+    Bettina Schlager (review)
 
 --es
-  Erick Gabriel Mendoza Flores (translation of cs-229-deep-learning)
-  Fernando Diaz (review of cs-229-deep-learning)
-  Fernando González-Herrera (review of cs-229-deep-learning)
-  Mariano Ramirez (review of cs-229-deep-learning)
-  Juan P. Chavat (review of cs-229-deep-learning)
-  Alonso Melgar López (review of cs-229-deep-learning)
-  Gustavo Velasco-Hernández (review of cs-229-deep-learning)
-  Juan Manuel Nava Zamudio (review of cs-229-deep-learning)
+  cs-229-deep-learning
+    Erick Gabriel Mendoza Flores (translation)
+    Fernando Diaz (review)
+    Fernando González-Herrera (review)
+    Mariano Ramirez (review)
+    Juan P. Chavat (review)
+    Alonso Melgar López (review)
+    Gustavo Velasco-Hernández (review)
+    Juan Manuel Nava Zamudio (review)
 
-  Fernando González-Herrera (translation of cs-229-linear-algebra)
-  Fernando Diaz (review of cs-229-linear-algebra)
-  Gustavo Velasco-Hernández (review of cs-229-linear-algebra)
-  Juan P. Chavat (review of cs-229-linear-algebra)
+  cs-229-linear-algebra
+    Fernando González-Herrera (translation)
+    Fernando Diaz (review)
+    Gustavo Velasco-Hernández (review)
+    Juan P. Chavat (review)
 
-  David Jiménez Paredes (translation of cs-229-machine-learning-tips-and-tricks)
-  Fernando Diaz (translation of cs-229-machine-learning-tips-and-tricks)
-  Gustavo Velasco-Hernández (review of cs-229-machine-learning-tips-and-tricks)
-  Alonso Melgar-Lopez (review of cs-229-machine-learning-tips-and-tricks)
+  cs-229-machine-learning-tips-and-tricks
+    David Jiménez Paredes (translation)
+    Fernando Diaz (translation)
+    Gustavo Velasco-Hernández (review)
+    Alonso Melgar-Lopez (review)
 
-  Fermin Ordaz (translation of cs-229-probability)
-  Fernando González-Herrera (review of cs-229-probability)
-  Alonso Melgar López (review of cs-229-probability)
+  cs-229-probability
+    Fermin Ordaz (translation)
+    Fernando González-Herrera (review)
+    Alonso Melgar López (review)
 
-  Juan P. Chavat (translation of cs-229-supervised-learning)
-  Fernando Gonzalez-Herrera (review of cs-229-supervised-learning)
-  Fernando Diaz (review of cs-229-supervised-learning)
-  Alonso Melgar-Lopez (review of cs-229-supervised-learning)
+  cs-229-supervised-learning
+    Juan P. Chavat (translation)
+    Fernando Gonzalez-Herrera (review)
+    Fernando Diaz (review)
+    Alonso Melgar-Lopez (review)
 
-  Jaime Noel Alvarez Luna (translation of cs-229-unsupervised-learning)
-  Alonso Melgar López (review of cs-229-unsupervised-learning)
-  Fernando Diaz (review of cs-229-unsupervised-learning)
+  cs-229-unsupervised-learning
+    Jaime Noel Alvarez Luna (translation)
+    Alonso Melgar López (review)
+    Fernando Diaz (review)
 
 --et
-  kenkyusha (translation of cs-229-machine-learning-tips-and-tricks)
-  stemajo (review of cs-229-machine-learning-tips-and-tricks)
+  cs-229-machine-learning-tips-and-tricks
+    kenkyusha (translation)
+    stemajo (review)
 
 --fa
-  AlisterTA (translation of cs-230-convolutional-neural-networks)
-  Ehsan Kermani (translation of cs-230-convolutional-neural-networks)
-  Erfan Noury (review of cs-230-convolutional-neural-networks)
+  cs-230-convolutional-neural-networks
+    AlisterTA (translation)
+    Ehsan Kermani (translation)
+    Erfan Noury (review)
 
-  AlisterTA (translation of cs-229-deep-learning)
-  Mohammad Karimi (review of cs-229-deep-learning)
-  Erfan Noury (review of cs-229-deep-learning)
+  cs-229-deep-learning
+    AlisterTA (translation)
+    Mohammad Karimi (review)
+    Erfan Noury (review)
 
-  AlisterTA (translation of cs-230-deep-learning-tips-and-tricks)
-  Erfan Noury (review of cs-230-deep-learning-tips-and-tricks)
+  cs-230-deep-learning-tips-and-tricks
+    AlisterTA (translation)
+    Erfan Noury (review)
 
-  Erfan Noury (translation of cs-229-linear-algebra)
-  Mohammad Karimi (review of cs-229-linear-algebra)
+  cs-229-linear-algebra
+    Erfan Noury (translation)
+    Mohammad Karimi (review)
 
-  AlisterTA (translation of cs-229-machine-learning-tips-and-tricks)
-  Mohammad Reza (translation of cs-229-machine-learning-tips-and-tricks)
-  Erfan Noury (review of cs-229-machine-learning-tips-and-tricks)
-  Mohammad Karimi (review of cs-229-machine-learning-tips-and-tricks)
+  cs-229-machine-learning-tips-and-tricks
+    AlisterTA (translation)
+    Mohammad Reza (translation)
+    Erfan Noury (review)
+    Mohammad Karimi (review)
 
-  Erfan Noury (translation of cs-229-probability)
-  Mohammad Karimi (review of cs-229-probability)
+  cs-229-probability
+    Erfan Noury (translation)
+    Mohammad Karimi (review)
 
-  AlisterTA (translation of cs-230-recurrent-neural-networks)
-  Erfan Noury (review of cs-230-recurrent-neural-networks)
+  cs-230-recurrent-neural-networks
+    AlisterTA (translation)
+    Erfan Noury (review)
 
-  Amirhosein Kazemnejad (translation of cs-229-supervised-learning)
-  Erfan Noury (review of cs-229-supervised-learning)
-  Mohammad Karimi (review of cs-229-supervised-learning)
+  cs-229-supervised-learning
+    Amirhosein Kazemnejad (translation)
+    Erfan Noury (review)
+    Mohammad Karimi (review)
 
-  Erfan Noury (translation of cs-229-unsupervised-learning)
-  Mohammad Karimi (review of cs-229-unsupervised-learning)
+  cs-229-unsupervised-learning
+    Erfan Noury (translation)
+    Mohammad Karimi (review)
 
 --fr
   Original authors
@@ -100,209 +123,267 @@
 --hi
 
 --id
-  Prasetia Utama Putra (translation of cs-230-convolutional-neural-networks)
-  Gunawan Tri (review of cs-230-convolutional-neural-networks)
-  Jimmy The Lecturer (review of cs-230-convolutional-neural-networks)
+  cs-230-convolutional-neural-networks
+    Prasetia Utama Putra (translation)
+    Gunawan Tri (review)
+    Jimmy The Lecturer (review)
 
-  Prasetia Utama Putra (translation of cs-229-linear-algebra)
-  Gunawan Tri (review of cs-229-linear-algebra)
-  Jimmy The Lecturer (review of cs-229-linear-algebra)
+  cs-229-linear-algebra
+    Prasetia Utama Putra (translation)
+    Gunawan Tri (review)
+    Jimmy The Lecturer (review)
 
-  Prasetia Utama Putra (translation of cs-229-probability)
-  Jimmy The Lecturer (review of cs-229-probability)
+  cs-229-probability
+    Prasetia Utama Putra (translation)
+    Jimmy The Lecturer (review)
 
 --it
-  Alessandro Piotti (translation of cs-229-linear-algebra)
-  Nicola Dall'Asen (review of cs-229-linear-algebra)
+  cs-229-linear-algebra
+    Alessandro Piotti (translation)
+    Nicola Dall'Asen (review)
 
-  Nicola Dall'Asen (translation of cs-229-probability)
-  Alessandro Piotti (review of cs-229-probability)
+  cs-229-probability
+    Nicola Dall'Asen (translation)
+    Alessandro Piotti (review)
 
 --ko
-  Soyoung Lee (translation of cs-230-convolutional-neural-networks)
-  Jack Kang (review of cs-230-convolutional-neural-networks)
+  cs-230-convolutional-neural-networks
+    Soyoung Lee (translation)
+    Jack Kang (review)
 
-  Soyoung Lee (translation of cs-229-linear-algebra)
+  cs-229-linear-algebra
+    Soyoung Lee (translation)
 
-  Wooil Jeong (translation of cs-229-machine-learning-tips-and-tricks)
+  cs-229-machine-learning-tips-and-tricks
+    Wooil Jeong (translation)
 
-  Wooil Jeong (translation of cs-229-probability)
+  cs-229-probability
+    Wooil Jeong (translation)
 
-  Kwang Hyeok Ahn (translation of cs-229-unsupervised-learning)
+  cs-229-unsupervised-learning
+    Kwang Hyeok Ahn (translation)
 
 --ja
-  Tran Tuan Anh (translation of cs-230-convolutional-neural-networks)
-  Yoshiyuki Nakai (review of cs-230-convolutional-neural-networks)
-  Linh Dang (review of cs-230-convolutional-neural-networks)
+  cs-230-convolutional-neural-networks
+    Tran Tuan Anh (translation)
+    Yoshiyuki Nakai (review)
+    Linh Dang (review)
 
-  Taichi Kato (translation of cs-229-deep-learning)
-  Dan Lillrank (review of cs-229-deep-learning)
-  Yoshiyuki Nakai (review of cs-229-deep-learning)
-  Yuki Tokyo (review of cs-229-deep-learning)
+  cs-229-deep-learning
+    Taichi Kato (translation)
+    Dan Lillrank (review)
+    Yoshiyuki Nakai (review)
+    Yuki Tokyo (review)
 
-  Kamuela Lau (translation of cs-230-deep-learning-tips-and-tricks)
-  Yoshiyuki Nakai (review of cs-230-deep-learning-tips-and-tricks)
-  Hiroki Mori (review of cs-230-deep-learning-tips-and-tricks)
+  cs-230-deep-learning-tips-and-tricks
+    Kamuela Lau (translation)
+    Yoshiyuki Nakai (review)
+    Hiroki Mori (review)
 
-  Robert Altena (translation of cs-229-linear-algebra)
-  Kamuela Lau (review of cs-229-linear-algebra)
+  cs-229-linear-algebra
+    Robert Altena (translation)
+    Kamuela Lau (review)
 
-  UMU (translation of cs-229-machine-learning-tips-and-tricks)
-  Hiroki Mori (review of cs-229-machine-learning-tips-and-tricks)
-  H. Hamano (review of cs-229-machine-learning-tips-and-tricks)
-  Tian-Jian Jiang (review of cs-229-machine-learning-tips-and-tricks)
-  Yuta Kanzawa (review of cs-229-machine-learning-tips-and-tricks)
+  cs-229-machine-learning-tips-and-tricks
+    UMU (translation)
+    Hiroki Mori (review)
+    H. Hamano (review)
+    Tian-Jian Jiang (review)
+    Yuta Kanzawa (review)
 
-  Takatoshi Nao (translation of cs-229-probability)
-  Yuta Kanzawa (review of cs-229-probability)
+  cs-229-probability
+    Takatoshi Nao (translation)
+    Yuta Kanzawa (review)
 
-  H. Hamano (translation of cs-230-recurrent-neural-networks)
-  Yoshiyuki Nakai (review of cs-230-recurrent-neural-networks)
+  cs-230-recurrent-neural-networks
+    H. Hamano (translation)
+    Yoshiyuki Nakai (review)
 
-  Yuta Kanzawa (translation of cs-229-supervised-learning)
-  Tran Tuan Anh (review of cs-229-supervised-learning)
+  cs-229-supervised-learning
+    Yuta Kanzawa (translation)
+    Tran Tuan Anh (review)
 
-  Tran Tuan Anh (translation of cs-229-unsupervised-learning)
-  Yoshiyuki Nakai (review of cs-229-unsupervised-learning)
-  Yuta Kanzawa (review of cs-229-unsupervised-learning)
-  Dan Lillrank (review of cs-229-unsupervised-learning)
+  cs-229-unsupervised-learning
+    Tran Tuan Anh (translation)
+    Yoshiyuki Nakai (review)
+    Yuta Kanzawa (review)
+    Dan Lillrank (review)
 
 --pt
-  Leticia Portella (translation of cs-230-convolutional-neural-networks)
-  Gabriel Aparecido Fonseca (review of cs-230-convolutional-neural-networks)
+  cs-230-convolutional-neural-networks
+    Leticia Portella (translation)
+    Gabriel Aparecido Fonseca (review)
 
-  Gabriel Fonseca (translation of cs-229-deep-learning)
-  Leticia Portella (review of cs-229-deep-learning)
-  Renato Kano (review of cs-229-deep-learning)
+  cs-229-deep-learning
+    Gabriel Fonseca (translation)
+    Leticia Portella (review)
+    Renato Kano (review)
 
-  Gabriel Fonseca (translation of cs-229-linear-algebra)
-  Leticia Portella (review of cs-229-linear-algebra)
+  cs-229-linear-algebra
+    Gabriel Fonseca (translation)
+    Leticia Portella (review)
 
-  Fernando Santos (translation of cs-229-machine-learning-tips-and-tricks)
-  Leticia Portella (review of cs-229-machine-learning-tips-and-tricks)
-  Gabriel Fonseca (review of cs-229-machine-learning-tips-and-tricks)
+  cs-229-machine-learning-tips-and-tricks
+    Fernando Santos (translation)
+    Leticia Portella (review)
+    Gabriel Fonseca (review)
 
-  Leticia Portella (translation of cs-229-probability)
-  Flavio Clesio (review of cs-229-probability)
+  cs-229-probability
+    Leticia Portella (translation)
+    Flavio Clesio (review)
 
-  Leticia Portella (translation of cs-229-supervised-learning)
-  Gabriel Fonseca (review of cs-229-supervised-learning)
-  Flavio Clesio (review of cs-229-supervised-learning)
+  cs-229-supervised-learning
+    Leticia Portella (translation)
+    Gabriel Fonseca (review)
+    Flavio Clesio (review)
 
-  Gabriel Fonseca (translation of cs-229-unsupervised-learning)
-  Tiago Danin (review of cs-229-unsupervised-learning)
+  cs-229-unsupervised-learning
+    Gabriel Fonseca (translation)
+    Tiago Danin (review)
 
 --tr
-  Ayyüce Kızrak (translation of cs-230-convolutional-neural-networks)
-  Yavuz Kömeçoğlu (review of cs-230-convolutional-neural-networks)
+  cs-230-convolutional-neural-networks
+    Ayyüce Kızrak (translation)
+    Yavuz Kömeçoğlu (review)
 
-  Ekrem Çetinkaya (translation of cs-229-deep-learning)
-  Omer Bukte (review of cs-229-deep-learning)
+  cs-229-deep-learning
+    Ekrem Çetinkaya (translation)
+    Omer Bukte (review)
 
-  Ayyüce Kızrak (translation of cs-230-deep-learning-tips-and-tricks)
-  Yavuz Kömeçoğlu (review of cs-230-deep-learning-tips-and-tricks)
+  cs-230-deep-learning-tips-and-tricks
+    Ayyüce Kızrak (translation)
+    Yavuz Kömeçoğlu (review)
 
-  Kadir Tekeli (translation of cs-229-linear-algebra)
-  Ekrem Çetinkaya (review of cs-229-linear-algebra)
+  cs-229-linear-algebra
+    Kadir Tekeli (translation)
+    Ekrem Çetinkaya (review)
 
-  Ayyüce Kızrak (translation of cs-221-logic-models)
-  Başak Buluz (review of cs-221-logic-models)
+  cs-221-logic-models
+    Ayyüce Kızrak (translation)
+    Başak Buluz (review)
 
-  Seray Beşer (translation of cs-229-machine-learning-tips-and-tricks)
-  Ayyüce Kızrak (review of cs-229-machine-learning-tips-and-tricks)
-  Yavuz Kömeçoğlu (review of cs-229-machine-learning-tips-and-tricks)
+  cs-229-machine-learning-tips-and-tricks
+    Seray Beşer (translation)
+    Ayyüce Kızrak (review)
+    Yavuz Kömeçoğlu (review)
 
-  Ayyüce Kızrak (translation of cs-229-probability)
-  Başak Buluz (review of cs-229-probability)
+  cs-229-probability
+    Ayyüce Kızrak (translation)
+    Başak Buluz (review)
 
-  Başak Buluz (translation of cs-230-recurrent-neural-networks)
-  Yavuz Kömeçoğlu (review of cs-230-recurrent-neural-networks)
+  cs-230-recurrent-neural-networks
+    Başak Buluz (translation)
+    Yavuz Kömeçoğlu (review)
 
-  Yavuz Kömeçoğlu (translation of cs-221-reflex-models)
-  Ayyüce Kızrak (review of cs-221-reflex-models)
+  cs-221-reflex-models
+    Yavuz Kömeçoğlu (translation)
+    Ayyüce Kızrak (review)
 
-  Cemal Gurpinar (translation of cs-221-states-models)
-  Başak Buluz (review of cs-221-states-models)
+  cs-221-states-models
+    Cemal Gurpinar (translation)
+    Başak Buluz (review)
 
-  Başak Buluz (translation of cs-229-supervised-learning)
-  Ayyüce Kızrak (review of cs-229-supervised-learning)
+  cs-229-supervised-learning
+    Başak Buluz (translation)
+    Ayyüce Kızrak (review)
 
-  Yavuz Kömeçoğlu (translation of cs-229-unsupervised-learning)
-  Başak Buluz (review of cs-229-unsupervised-learning)
+  cs-229-unsupervised-learning
+    Yavuz Kömeçoğlu (translation)
+    Başak Buluz (review)
 
-  Başak Buluz (translation of cs-221-variables-models)
-  Ayyüce Kızrak (review of cs-221-variables-models)
+  cs-221-variables-models
+    Başak Buluz (translation)
+    Ayyüce Kızrak (review)
 
 --uk
-  Gregory Reshetniak (translation of cs-229-probability)
-  Denys (review of cs-229-probability)
+  cs-229-probability
+    Gregory Reshetniak (translation)
+    Denys (review)
 
 --vi
-  Phạm Hồng Vinh (translation of cs-230-convolutional-neural-networks)
-  Đàm Minh Tiến (review of cs-230-convolutional-neural-networks)
+  cs-230-convolutional-neural-networks
+    Phạm Hồng Vinh (translation)
+    Đàm Minh Tiến (review)
 
-  Trần Tuấn Anh (translation of cs-229-deep-learning)
-  Phạm Hồng Vinh (review of cs-229-deep-learning)
-  Đàm Minh Tiến (review of cs-229-deep-learning)
-  Nguyễn Khánh Hưng (review of cs-229-deep-learning)
-  Hoàng Vũ Đạt (review of cs-229-deep-learning)
-  Nguyễn Trí Minh (review of cs-229-deep-learning)
+  cs-229-deep-learning
+    Trần Tuấn Anh (translation)
+    Phạm Hồng Vinh (review)
+    Đàm Minh Tiến (review)
+    Nguyễn Khánh Hưng (review)
+    Hoàng Vũ Đạt (review)
+    Nguyễn Trí Minh (review)
 
-  Hoàng Minh Tuấn (translation of cs-230-deep-learning-tips-and-tricks)
-  Trần Tuấn Anh (review of cs-230-deep-learning-tips-and-tricks)
-  Đàm Minh Tiến (review of cs-230-deep-learning-tips-and-tricks)
+  cs-230-deep-learning-tips-and-tricks
+    Hoàng Minh Tuấn (translation)
+    Trần Tuấn Anh (review)
+    Đàm Minh Tiến (review)
 
-  Hoàng Minh Tuấn (translation of cs-229-linear-algebra)
-  Phạm Hồng Vinh (review of cs-229-linear-algebra)
+  cs-229-linear-algebra
+    Hoàng Minh Tuấn (translation)
+    Phạm Hồng Vinh (review)
 
-  Hoàng Minh Tuấn (translation of cs-221-logic-models)
-  Đàm Minh Tiến (review of cs-221-logic-models)
+  cs-221-logic-models
+    Hoàng Minh Tuấn (translation)
+    Đàm Minh Tiến (review)
 
-  Trần Tuấn Anh (translation of cs-229-machine-learning-tips-and-tricks)
-  Nguyễn Trí Minh (review of cs-229-machine-learning-tips-and-tricks)
-  Vinh Pham (review of cs-229-machine-learning-tips-and-tricks)
-  Đàm Minh Tiến (review of cs-229-machine-learning-tips-and-tricks)
+  cs-229-machine-learning-tips-and-tricks
+    Trần Tuấn Anh (translation)
+    Nguyễn Trí Minh (review)
+    Vinh Pham (review)
+    Đàm Minh Tiến (review)
 
-  Hoàng Minh Tuấn (translation of cs-229-probability)
-  Hung Nguyễn (review of cs-229-probability)
+  cs-229-probability
+    Hoàng Minh Tuấn (translation)
+    Hung Nguyễn (review)
 
-  Trần Tuấn Anh (translation of cs-230-recurrent-neural-networks)
-  Đàm Minh Tiến (review of cs-230-recurrent-neural-networks)
-  Hung Nguyễn (review of cs-230-recurrent-neural-networks)
-  Nguyễn Trí Minh (review of cs-230-recurrent-neural-networks)
+  cs-230-recurrent-neural-networks
+    Trần Tuấn Anh (translation)
+    Đàm Minh Tiến (review)
+    Hung Nguyễn (review)
+    Nguyễn Trí Minh (review)
 
-  Trần Tuấn Anh (translation of cs-229-supervised-learning)
-  Đàm Minh Tiến (review of cs-229-supervised-learning)
-  Hung Nguyễn (review of cs-229-supervised-learning)
-  Nguyễn Trí Minh (review of cs-229-supervised-learning)
+  cs-229-supervised-learning
+    Trần Tuấn Anh (translation)
+    Đàm Minh Tiến (review)
+    Hung Nguyễn (review)
+    Nguyễn Trí Minh (review)
 
-  Trần Tuấn Anh (translation of cs-229-unsupervised-learning)
-  Đàm Minh Tiến (review of cs-229-unsupervised-learning)
+  cs-229-unsupervised-learning
+    Trần Tuấn Anh (translation)
+    Đàm Minh Tiến (review)
 
 --zh
-  Wang Hongnian (translation of cs-229-supervised-learning)
-  Xiaohu Zhu (朱小虎) (review of cs-229-supervised-learning)
-  Chaoying Xue (review of cs-229-supervised-learning)
+  cs-229-supervised-learning
+    Wang Hongnian (translation)
+    Xiaohu Zhu (朱小虎) (review)
+    Chaoying Xue (review)
 
 --zh-tw
-  kentropy (translation of cs-230-convolutional-neural-networks)
-  kevingo (review of cs-230-convolutional-neural-networks)
+  cs-230-convolutional-neural-networks
+    kentropy (translation)
+    kevingo (review)
 
-  kevingo (translation of cs-229-deep-learning)
-  TobyOoO (review of cs-229-deep-learning)
+  cs-229-deep-learning
+    kevingo (translation)
+    TobyOoO (review)
 
-  kevingo (translation of cs-229-linear-algebra)
-  Miyaya (review of cs-229-linear-algebra)
+  cs-229-linear-algebra
+    kevingo (translation)
+    Miyaya (review)
 
-  kevingo (translation of cs-229-probability)
-  johnnychhsu (review of cs-229-probability)
+  cs-229-probability
+    kevingo (translation)
+    johnnychhsu (review)
 
-  kevingo (translation of cs-229-supervised-learning)
-  accelsao (review of cs-229-supervised-learning)
+  cs-229-supervised-learning
+    kevingo (translation)
+    accelsao (review)
 
-  kevingo (translation of cs-229-unsupervised-learning)
-  imironhead (review of cs-229-unsupervised-learning)
-  johnnychhsu (review of cs-229-unsupervised-learning)
+  cs-229-unsupervised-learning
+    kevingo (translation)
+    imironhead (review)
+    johnnychhsu (review)
 
-  kevingo (translation of cs-229-machine-learning-tips-and-tricks)
-  kentropy (review of cs-229-machine-learning-tips-and-tricks)
+  cs-229-machine-learning-tips-and-tricks
+    kevingo (translation)
+    kentropy (review)

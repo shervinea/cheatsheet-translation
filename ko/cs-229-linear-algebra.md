@@ -292,9 +292,9 @@
 
 <br>
 
-**50. Remark: the gradient of f is only defined when f is a function that returns a scalar.** 비고 : f의 그라디언트는 f가 스칼라를 반환하는 함수일 때만 정의된다. 
+**50. Remark: the gradient of f is only defined when f is a function that returns a scalar.**
 
-&#10230;
+&#10230; 비고 : f의 그라디언트는 f가 스칼라를 반환하는 함수일 때만 정의된다. 
 
 <br>
 

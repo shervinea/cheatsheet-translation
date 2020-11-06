@@ -74,18 +74,9 @@
     stemajo (review)
 
 --fa
-  cs-230-convolutional-neural-networks
-    AlisterTA (translation)
-    Ehsan Kermani (translation)
-    Erfan Noury (review)
-
   cs-229-deep-learning
     AlisterTA (translation)
     Mohammad Karimi (review)
-    Erfan Noury (review)
-
-  cs-230-deep-learning-tips-and-tricks
-    AlisterTA (translation)
     Erfan Noury (review)
 
   cs-229-linear-algebra
@@ -102,10 +93,6 @@
     Erfan Noury (translation)
     Mohammad Karimi (review)
 
-  cs-230-recurrent-neural-networks
-    AlisterTA (translation)
-    Erfan Noury (review)
-
   cs-229-supervised-learning
     Amirhosein Kazemnejad (translation)
     Erfan Noury (review)
@@ -115,6 +102,19 @@
     Erfan Noury (translation)
     Mohammad Karimi (review)
 
+  cs-230-convolutional-neural-networks
+    AlisterTA (translation)
+    Ehsan Kermani (translation)
+    Erfan Noury (review)
+
+  cs-230-deep-learning-tips-and-tricks
+    AlisterTA (translation)
+    Erfan Noury (review)
+
+  cs-230-recurrent-neural-networks
+    AlisterTA (translation)
+    Erfan Noury (review)
+
 --fr
   Original authors
 
@@ -123,11 +123,6 @@
 --hi
 
 --id
-  cs-230-convolutional-neural-networks
-    Prasetia Utama Putra (translation)
-    Gunawan Tri (review)
-    Jimmy The Lecturer (review)
-
   cs-229-linear-algebra
     Prasetia Utama Putra (translation)
     Gunawan Tri (review)
@@ -135,6 +130,11 @@
 
   cs-229-probability
     Prasetia Utama Putra (translation)
+    Jimmy The Lecturer (review)
+
+  cs-230-convolutional-neural-networks
+    Prasetia Utama Putra (translation)
+    Gunawan Tri (review)
     Jimmy The Lecturer (review)
 
 --it
@@ -147,10 +147,6 @@
     Alessandro Piotti (review)
 
 --ko
-  cs-230-convolutional-neural-networks
-    Soyoung Lee (translation)
-    Jack Kang (review)
-
   cs-229-linear-algebra
     Soyoung Lee (translation)
 
@@ -163,22 +159,16 @@
   cs-229-unsupervised-learning
     Kwang Hyeok Ahn (translation)
 
---ja
   cs-230-convolutional-neural-networks
-    Tran Tuan Anh (translation)
-    Yoshiyuki Nakai (review)
-    Linh Dang (review)
+    Soyoung Lee (translation)
+    Jack Kang (review)
 
+--ja
   cs-229-deep-learning
     Taichi Kato (translation)
     Dan Lillrank (review)
     Yoshiyuki Nakai (review)
     Yuki Tokyo (review)
-
-  cs-230-deep-learning-tips-and-tricks
-    Kamuela Lau (translation)
-    Yoshiyuki Nakai (review)
-    Hiroki Mori (review)
 
   cs-229-linear-algebra
     Robert Altena (translation)
@@ -195,10 +185,6 @@
     Takatoshi Nao (translation)
     Yuta Kanzawa (review)
 
-  cs-230-recurrent-neural-networks
-    H. Hamano (translation)
-    Yoshiyuki Nakai (review)
-
   cs-229-supervised-learning
     Yuta Kanzawa (translation)
     Tran Tuan Anh (review)
@@ -209,11 +195,21 @@
     Yuta Kanzawa (review)
     Dan Lillrank (review)
 
---pt
   cs-230-convolutional-neural-networks
-    Leticia Portella (translation)
-    Gabriel Aparecido Fonseca (review)
+    Tran Tuan Anh (translation)
+    Yoshiyuki Nakai (review)
+    Linh Dang (review)
 
+  cs-230-deep-learning-tips-and-tricks
+    Kamuela Lau (translation)
+    Yoshiyuki Nakai (review)
+    Hiroki Mori (review)
+
+  cs-230-recurrent-neural-networks
+    H. Hamano (translation)
+    Yoshiyuki Nakai (review)
+
+--pt
   cs-229-deep-learning
     Gabriel Fonseca (translation)
     Leticia Portella (review)
@@ -241,26 +237,34 @@
     Gabriel Fonseca (translation)
     Tiago Danin (review)
 
---tr
   cs-230-convolutional-neural-networks
+    Leticia Portella (translation)
+    Gabriel Aparecido Fonseca (review)
+
+--tr
+  cs-221-logic-models
     Ayyüce Kızrak (translation)
-    Yavuz Kömeçoğlu (review)
+    Başak Buluz (review)
+
+  cs-221-reflex-models
+    Yavuz Kömeçoğlu (translation)
+    Ayyüce Kızrak (review)
+
+  cs-221-states-models
+    Cemal Gurpinar (translation)
+    Başak Buluz (review)
+
+  cs-221-variables-models
+    Başak Buluz (translation)
+    Ayyüce Kızrak (review)
 
   cs-229-deep-learning
     Ekrem Çetinkaya (translation)
     Omer Bukte (review)
 
-  cs-230-deep-learning-tips-and-tricks
-    Ayyüce Kızrak (translation)
-    Yavuz Kömeçoğlu (review)
-
   cs-229-linear-algebra
     Kadir Tekeli (translation)
     Ekrem Çetinkaya (review)
-
-  cs-221-logic-models
-    Ayyüce Kızrak (translation)
-    Başak Buluz (review)
 
   cs-229-machine-learning-tips-and-tricks
     Seray Beşer (translation)
@@ -271,18 +275,6 @@
     Ayyüce Kızrak (translation)
     Başak Buluz (review)
 
-  cs-230-recurrent-neural-networks
-    Başak Buluz (translation)
-    Yavuz Kömeçoğlu (review)
-
-  cs-221-reflex-models
-    Yavuz Kömeçoğlu (translation)
-    Ayyüce Kızrak (review)
-
-  cs-221-states-models
-    Cemal Gurpinar (translation)
-    Başak Buluz (review)
-
   cs-229-supervised-learning
     Başak Buluz (translation)
     Ayyüce Kızrak (review)
@@ -291,9 +283,17 @@
     Yavuz Kömeçoğlu (translation)
     Başak Buluz (review)
 
-  cs-221-variables-models
+  cs-230-convolutional-neural-networks
+    Ayyüce Kızrak (translation)
+    Yavuz Kömeçoğlu (review)
+
+  cs-230-deep-learning-tips-and-tricks
+    Ayyüce Kızrak (translation)
+    Yavuz Kömeçoğlu (review)
+
+  cs-230-recurrent-neural-networks
     Başak Buluz (translation)
-    Ayyüce Kızrak (review)
+    Yavuz Kömeçoğlu (review)
 
 --uk
   cs-229-probability
@@ -301,8 +301,8 @@
     Denys (review)
 
 --vi
-  cs-230-convolutional-neural-networks
-    Phạm Hồng Vinh (translation)
+  cs-221-logic-models
+    Hoàng Minh Tuấn (translation)
     Đàm Minh Tiến (review)
 
   cs-229-deep-learning
@@ -313,18 +313,9 @@
     Hoàng Vũ Đạt (review)
     Nguyễn Trí Minh (review)
 
-  cs-230-deep-learning-tips-and-tricks
-    Hoàng Minh Tuấn (translation)
-    Trần Tuấn Anh (review)
-    Đàm Minh Tiến (review)
-
   cs-229-linear-algebra
     Hoàng Minh Tuấn (translation)
     Phạm Hồng Vinh (review)
-
-  cs-221-logic-models
-    Hoàng Minh Tuấn (translation)
-    Đàm Minh Tiến (review)
 
   cs-229-machine-learning-tips-and-tricks
     Trần Tuấn Anh (translation)
@@ -336,12 +327,6 @@
     Hoàng Minh Tuấn (translation)
     Hung Nguyễn (review)
 
-  cs-230-recurrent-neural-networks
-    Trần Tuấn Anh (translation)
-    Đàm Minh Tiến (review)
-    Hung Nguyễn (review)
-    Nguyễn Trí Minh (review)
-
   cs-229-supervised-learning
     Trần Tuấn Anh (translation)
     Đàm Minh Tiến (review)
@@ -352,6 +337,21 @@
     Trần Tuấn Anh (translation)
     Đàm Minh Tiến (review)
 
+  cs-230-convolutional-neural-networks
+    Phạm Hồng Vinh (translation)
+    Đàm Minh Tiến (review)
+
+  cs-230-deep-learning-tips-and-tricks
+    Hoàng Minh Tuấn (translation)
+    Trần Tuấn Anh (review)
+    Đàm Minh Tiến (review)
+
+  cs-230-recurrent-neural-networks
+    Trần Tuấn Anh (translation)
+    Đàm Minh Tiến (review)
+    Hung Nguyễn (review)
+    Nguyễn Trí Minh (review)
+
 --zh
   cs-229-supervised-learning
     Wang Hongnian (translation)
@@ -359,10 +359,6 @@
     Chaoying Xue (review)
 
 --zh-tw
-  cs-230-convolutional-neural-networks
-    kentropy (translation)
-    kevingo (review)
-
   cs-229-deep-learning
     kevingo (translation)
     TobyOoO (review)
@@ -387,3 +383,7 @@
   cs-229-machine-learning-tips-and-tricks
     kevingo (translation)
     kentropy (review)
+
+  cs-230-convolutional-neural-networks
+    kentropy (translation)
+    kevingo (review)

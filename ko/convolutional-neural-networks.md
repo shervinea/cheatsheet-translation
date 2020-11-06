@@ -46,14 +46,14 @@
 
 **7. [Activation functions, Rectified Linear Unit, Softmax]**
 
-&#10230; [활성화 함수, 수정된 선형 유닛, 소프트맥스]
+&#10230; [활성화 함수, 정류된 선형 유닛, 소프트맥스]
 
 <br>
 
 
 **8. [Object detection, Types of models, Detection, Intersection over Union, Non-max suppression, YOLO, R-CNN]**
 
-&#10230; [객체 탐지, 모델의 유형, 탐지, 합집합 분의 교집합, 논맥스 수프레션, YOLO, R-CNN]
+&#10230; [객체 탐지, 모델의 유형, 탐지, 합집합 분의 교집합, 비최대 억제, YOLO, R-CNN]
 
 <br>
 
@@ -67,7 +67,7 @@
 
 **10. [Neural style transfer, Activation, Style matrix, Style/content cost function]**
 
-&#10230; [뉴럴 스타일 전달, 활성화, 스타일 행렬, 스타일/콘텐츠 비용 함수]
+&#10230; [Neural Style Transfer (뉴럴 스타일 전달), 활성화, 스타일 행렬, 스타일/콘텐츠 비용 함수]
 
 <br>
 
@@ -304,7 +304,7 @@
 
 **44. Rectified Linear Unit ― The rectified linear unit layer (ReLU) is an activation function g that is used on all elements of the volume. It aims at introducing non-linearities to the network. Its variants are summarized in the table below:**
 
-&#10230; 수정된 선형 유닛 - rectified linear unit(ReLU) 레이어는 볼륨의 모든 요소에서 사용되는 활성화함수(activation function) g입니다. ReLU는 비선형성을 네트워크에 도입하는 것을 목표로 합니다. 그 변종은 아래 표에 요약되어 있습니다.
+&#10230; 정류된 선형 유닛 - Rectified linear unit (ReLU) 레이어는 볼륨의 모든 요소에서 사용되는 활성화함수(activation function) g입니다. ReLU는 비선형성을 네트워크에 도입하는 것을 목표로 합니다. 그 변종은 아래 표에 요약되어 있습니다.
 
 <br>
 

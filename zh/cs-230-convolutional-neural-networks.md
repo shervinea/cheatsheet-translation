@@ -53,19 +53,19 @@
 
 **9. [Face verification/recognition, One shot learning, Siamese network, Triplet loss]**
 
-&#10230; [人脸验证/识别，孪生神经网络，三重损失]
+&#10230; [人脸验证/识别，单样本学习，孪生神经网络，三重损失]
 
 <br>
 
 **10. [Neural style transfer, Activation, Style matrix, Style/content cost function]**
 
-&#10230; [神经风格迁移，激活，风格矩阵，风格/内容代价函数]
+&#10230; [风格迁移网络，激活，风格矩阵，风格/内容代价函数]
 
 <br>
 
 **11. [Computational trick architectures, Generative Adversarial Net, ResNet, Inception Network]**
 
-&#10230; [计算技巧体系结构，生成对抗网络，ResNet，Inception网络]
+&#10230; [使用计算技巧的网络结构，生成对抗网络，残差网络，Inception网络]
 
 <br>
 
@@ -79,14 +79,14 @@
 
 **13. Architecture of a traditional CNN ― Convolutional neural networks, also known as CNNs, are a specific type of neural networks that are generally composed of the following layers:**
 
-&#10230; 传统CNN架构 - 卷积神经网络，也称之为CNN，是一种特殊类型的神经网络，通常由下面的网络层构成：
+&#10230; 传统 CNN 架构 - 卷积神经网络，也被称为CNN，是一种特定类型的神经网络，通常由以下几种网络层构成：
 
 <br>
 
 
 **14. The convolution layer and the pooling layer can be fine-tuned with respect to hyperparameters that are described in the next sections.**
 
-&#10230; 下一节中将介绍通过相应的超参数来调整卷积层和池化层。
+&#10230; 卷积层和池化层可以通过超参数来进行微调，下一节将会对此进行介绍。
 
 <br>
 
@@ -98,19 +98,19 @@
 
 **16. Convolution layer (CONV) ― The convolution layer (CONV) uses filters that perform convolution operations as it is scanning the input I with respect to its dimensions. Its hyperparameters include the filter size F and stride S. The resulting output O is called feature map or activation map.**
 
-&#10230; 卷积层（CONV）―卷积层（OCNV）利用卷积核在相应的维度上扫描输入 I ，来实现卷积操作。它的超参数包括卷积核的大小 F 和步长 S 。
+&#10230; 卷积层（CONV）- 卷积层（CONV）利用卷积核在相应的维度上扫描输入 I ，来实现卷积操作。它的超参数包括卷积核的大小 F 和步长 S 。得到的输出结果 O 即为特征图或激活图。
 
 <br>
 
 **17. Remark: the convolution step can be generalized to the 1D and 3D cases as well.**
 
-&#10230; 备注：卷积操作也可以推广到 1D 和 3D 的情况。
+&#10230; 备注：卷积操作也可以推广到 一维 (1D) 和 三维 (3D) 的情况。
 
 <br>
 
 **18. Pooling (POOL) ― The pooling layer (POOL) is a downsampling operation, typically applied after a convolution layer, which does some spatial invariance. In particular, max and average pooling are special kinds of pooling where the maximum and average value is taken, respectively.**
 
-&#10230;  池化层（POOL） ― 池化层（POOL）是一个下采样操作，通常在卷积层后使用，可以得到一些空间的不变形。特别的，最大和平均池化是特殊的池化方式，分别取池内的最大值和平均值。
+&#10230; 池化层（POOL） ― 池化层（POOL）是一种下采样操作，通常接在卷积层之后，具有空间不变性。特别的，最大池化和平均池化是两种特殊的池化方式，分别取邻域内的最大值和平均值作为单元输出。
 
 <br>
 
@@ -137,7 +137,7 @@
 
 **22. Fully Connected (FC) ― The fully connected layer (FC) operates on a flattened input where each input is connected to all neurons. If present, FC layers are usually found towards the end of CNN architectures and can be used to optimize objectives such as class scores.**
 
-&#10230; 全连接层（FC） ― 全连接层（FC）是在展开的输入上操作的，其中每个输入都连接到所有的神经元。如果有的话，全连接层通常都是在CNN网络架构的末尾处，可以用于优化目标，比如说班级成绩。
+&#10230; 全连接层（FC） ― 全连接层（FC）是在展开的输入上操作的，其中每个输入都会和所有神经元连接。如果网络中存在全连结层的话，它通常出现在CNN网络结构的末尾处，可以用于目标函数的优化，例如类别评分等。
 
 <br>
 
@@ -150,7 +150,7 @@
 
 **24. The convolution layer contains filters for which it is important to know the meaning behind its hyperparameters.**
 
-&#10230; 卷积层中包含着卷积核，所以对于这些卷积核，了解其超参数的含义是很重要的。
+&#10230; 卷积层中包含卷积核，对于这些卷积核，了解其超参数的含义是很重要的。
 
 <br>
 

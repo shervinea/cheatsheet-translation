@@ -34,7 +34,7 @@
 
 **6. Remark: the vector x defined above can be viewed as a n×1 matrix and is more particularly called a column-vector.**
 
-&#10230; Remark: the vector x defined above can be viewed as a n×1 matrix and is more particularly called a column-vector.
+&#10230; Примечание: the vector x defined above can be viewed as a n×1 matrix and is more particularly called a column-vector.
 
 <br>
 
@@ -52,7 +52,7 @@
 
 **9. Remark: for all matrices A∈Rn×n, we have A×I=I×A=A.**
 
-&#10230; Remark: for all matrices A∈Rn×n, we have A×I=I×A=A.
+&#10230; Примечание: for all matrices A∈Rn×n, we have A×I=I×A=A.
 
 <br>
 
@@ -64,7 +64,7 @@
 
 **11. Remark: we also note D as diag(d1,...,dn).**
 
-&#10230; Remark: we also note D as diag(d1,...,dn).
+&#10230; Примечание: we also note D as diag(d1,...,dn).
 
 <br>
 
@@ -136,7 +136,7 @@
 
 **23. Remark: for matrices A,B, we have (AB)T=BTAT**
 
-&#10230; Remark: for matrices A,B, we have (AB)T=BTAT
+&#10230; Примечание: for matrices A,B, we have (AB)T=BTAT
 
 <br>
 
@@ -148,7 +148,7 @@
 
 **25. Remark: not all square matrices are invertible. Also, for matrices A,B, we have (AB)−1=B−1A−1**
 
-&#10230; Remark: not all square matrices are invertible. Also, for matrices A,B, we have (AB)−1=B−1A−1
+&#10230; Примечание: not all square matrices are invertible. Also, for matrices A,B, we have (AB)−1=B−1A−1
 
 <br>
 
@@ -160,7 +160,7 @@
 
 **27. Remark: for matrices A,B, we have tr(AT)=tr(A) and tr(AB)=tr(BA)**
 
-&#10230; Remark: for matrices A,B, we have tr(AT)=tr(A) and tr(AB)=tr(BA)
+&#10230; Примечание: for matrices A,B, we have tr(AT)=tr(A) and tr(AB)=tr(BA)
 
 <br>
 
@@ -172,7 +172,7 @@
 
 **29. Remark: A is invertible if and only if |A|≠0. Also, |AB|=|A||B| and |AT|=|A|.**
 
-&#10230; Remark: A is invertible if and only if |A|≠0. Also, |AB|=|A||B| and |AT|=|A|.
+&#10230; Примечание: A is invertible if and only if |A|≠0. Also, |AB|=|A||B| and |AT|=|A|.
 
 <br>
 
@@ -238,7 +238,7 @@
 
 **40. Remark: if no vector can be written this way, then the vectors are said to be linearly independent**
 
-&#10230; Remark: if no vector can be written this way, then the vectors are said to be linearly independent
+&#10230; Примечание: if no vector can be written this way, then the vectors are said to be linearly independent
 
 <br>
 
@@ -256,7 +256,7 @@
 
 **43. Remark: similarly, a matrix A is said to be positive definite, and is noted A≻0, if it is a PSD matrix which satisfies for all non-zero vector x, xTAx>0.**
 
-&#10230; Remark: similarly, a matrix A is said to be positive definite, and is noted A≻0, if it is a PSD matrix which satisfies for all non-zero vector x, xTAx>0.
+&#10230; Примечание: similarly, a matrix A is said to be positive definite, and is noted A≻0, if it is a PSD matrix which satisfies for all non-zero vector x, xTAx>0.
 
 <br>
 
@@ -298,7 +298,7 @@
 
 **50. Remark: the gradient of f is only defined when f is a function that returns a scalar.**
 
-&#10230; Remark: the gradient of f is only defined when f is a function that returns a scalar.
+&#10230; Примечание: the gradient of f is only defined when f is a function that returns a scalar.
 
 <br>
 
@@ -310,7 +310,7 @@
 
 **52. Remark: the hessian of f is only defined when f is a function that returns a scalar**
 
-&#10230; Remark: the hessian of f is only defined when f is a function that returns a scalar
+&#10230; Примечание: the hessian of f is only defined when f is a function that returns a scalar
 
 <br>
 

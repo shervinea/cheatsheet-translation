@@ -116,7 +116,7 @@
 
 **17. Remark: the convolution step can be generalized to the 1D and 3D cases as well.**
 
-&#10230; Remark: the convolution step can be generalized to the 1D and 3D cases as well.
+&#10230; Примечание: the convolution step can be generalized to the 1D and 3D cases as well.
 
 <br>
 
@@ -186,7 +186,7 @@
 
 **27. Remark: the application of K filters of size F×F results in an output feature map of size O×O×K.**
 
-&#10230; Remark: the application of K filters of size F×F results in an output feature map of size O×O×K.
+&#10230; Примечание: the application of K filters of size F×F results in an output feature map of size O×O×K.
 
 <br>
 
@@ -242,7 +242,7 @@
 
 **35. Remark: often times, Pstart=Pend≜P, in which case we can replace Pstart+Pend by 2P in the formula above.**
 
-&#10230; Remark: often times, Pstart=Pend≜P, in which case we can replace Pstart+Pend by 2P in the formula above.
+&#10230; Примечание: often times, Pstart=Pend≜P, in which case we can replace Pstart+Pend by 2P in the formula above.
 
 <br>
 
@@ -417,7 +417,7 @@
 
 **60. Remark: we always have IoU∈[0,1]. By convention, a predicted bounding box Bp is considered as being reasonably good if IoU(Bp,Ba)⩾0.5.**
 
-&#10230; Remark: we always have IoU∈[0,1]. By convention, a predicted bounding box Bp is considered as being reasonably good if IoU(Bp,Ba)⩾0.5.
+&#10230; Примечание: we always have IoU∈[0,1]. By convention, a predicted bounding box Bp is considered as being reasonably good if IoU(Bp,Ba)⩾0.5.
 
 <br>
 
@@ -487,7 +487,7 @@
 
 **70. Remark: when pc=0, then the network does not detect any object. In that case, the corresponding predictions bx,...,cp have to be ignored.**
 
-&#10230; Remark: when pc=0, then the network does not detect any object. In that case, the corresponding predictions bx,...,cp have to be ignored.
+&#10230; Примечание: when pc=0, then the network does not detect any object. In that case, the corresponding predictions bx,...,cp have to be ignored.
 
 <br>
 
@@ -508,7 +508,7 @@
 
 **73. Remark: although the original algorithm is computationally expensive and slow, newer architectures enabled the algorithm to run faster, such as Fast R-CNN and Faster R-CNN.**
 
-&#10230; Remark: although the original algorithm is computationally expensive and slow, newer architectures enabled the algorithm to run faster, such as Fast R-CNN and Faster R-CNN.
+&#10230; Примечание: although the original algorithm is computationally expensive and slow, newer architectures enabled the algorithm to run faster, such as Fast R-CNN and Faster R-CNN.
 
 <br>
 
@@ -606,7 +606,7 @@
 
 **87. Remark: the style matrix for the style image and the generated image are noted G[l] (S) and G[l] (G) respectively.**
 
-&#10230; Remark: the style matrix for the style image and the generated image are noted G[l] (S) and G[l] (G) respectively.
+&#10230; Примечание: the style matrix for the style image and the generated image are noted G[l] (S) and G[l] (G) respectively.
 
 <br>
 
@@ -627,7 +627,7 @@
 
 **90. Remark: a higher value of α will make the model care more about the content while a higher value of β will make it care more about the style.**
 
-&#10230; Remark: a higher value of α will make the model care more about the content while a higher value of β will make it care more about the style.
+&#10230; Примечание: a higher value of α will make the model care more about the content while a higher value of β will make it care more about the style.
 
 <br>
 
@@ -655,7 +655,7 @@
 
 **94. Remark: use cases using variants of GANs include text to image, music generation and synthesis.**
 
-&#10230; Remark: use cases using variants of GANs include text to image, music generation and synthesis.
+&#10230; Примечание: use cases using variants of GANs include text to image, music generation and synthesis.
 
 <br>
 

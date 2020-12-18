@@ -4,43 +4,43 @@
 
 **1. Deep Learning cheatsheet**
 
-&#10230; Deep Learning cheatsheet
+&#10230; Шпаргалка по глубокому обучению
 
 <br>
 
 **2. Neural Networks**
 
-&#10230; Neural Networks
+&#10230; Нейронные сети
 
 <br>
 
 **3. Neural networks are a class of models that are built with layers. Commonly used types of neural networks include convolutional and recurrent neural networks.**
 
-&#10230; Neural networks are a class of models that are built with layers. Commonly used types of neural networks include convolutional and recurrent neural networks.
+&#10230; Нейронные сети - это класс моделей, построенных с использованием слоёв. Обычно используемые типы нейронных сетей включают сверточные и рекуррентные нейронные сети.
 
 <br>
 
 **4. Architecture ― The vocabulary around neural networks architectures is described in the figure below:**
 
-&#10230; Architecture ― The vocabulary around neural networks architectures is described in the figure below:
+&#10230; Архитектура ― Словарь архитектур нейронных сетей описан на рисунке ниже:
 
 <br>
 
 **5. [Input layer, hidden layer, output layer]**
 
-&#10230; [Input layer, hidden layer, output layer]
+&#10230; [Входной слой, Скрытый слой, Выходной слой]
 
 <br>
 
 **6. By noting i the ith layer of the network and j the jth hidden unit of the layer, we have:**
 
-&#10230; By noting i the ith layer of the network and j the jth hidden unit of the layer, we have:
+&#10230; Отметив i-й слой сети и j-ю скрытую единицу слоя, мы имеем:
 
 <br>
 
 **7. where we note w, b, z the weight, bias and output respectively.**
 
-&#10230; where we note w, b, z the weight, bias and output respectively.
+&#10230; где мы отмечаем w,b,z вес, смещение и выход соответственно.
 
 <br>
 
@@ -232,7 +232,7 @@
 
 **39. Remark: we say that we execute a given policy π if given a state s we take the action a=π(s).**
 
-&#10230; Remark: we say that we execute a given policy π if given a state s we take the action a=π(s).
+&#10230; Примечание: we say that we execute a given policy π if given a state s we take the action a=π(s).
 
 <br>
 
@@ -250,7 +250,7 @@
 
 **42. Remark: we note that the optimal policy π∗ for a given state s is such that:**
 
-&#10230; Remark: we note that the optimal policy π∗ for a given state s is such that:
+&#10230; Примечание: we note that the optimal policy π∗ for a given state s is such that:
 
 <br>
 

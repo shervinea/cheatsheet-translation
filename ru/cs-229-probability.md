@@ -64,7 +64,7 @@
 
 **11. Remark: we note that for 0⩽r⩽n, we have P(n,r)⩾C(n,r)**
 
-&#10230; Remark: we note that for 0⩽r⩽n, we have P(n,r)⩾C(n,r)
+&#10230; Примечание: we note that for 0⩽r⩽n, we have P(n,r)⩾C(n,r)
 
 <br>
 
@@ -82,7 +82,7 @@
 
 **14. Remark: we have P(A∩B)=P(A)P(B|A)=P(A|B)P(B)**
 
-&#10230; Remark: we have P(A∩B)=P(A)P(B|A)=P(A|B)P(B)
+&#10230; Примечание: we have P(A∩B)=P(A)P(B|A)=P(A|B)P(B)
 
 <br>
 
@@ -94,7 +94,7 @@
 
 **16. Remark: for any event B in the sample space, we have P(B)=n∑i=1P(B|Ai)P(Ai).**
 
-&#10230; Remark: for any event B in the sample space, we have P(B)=n∑i=1P(B|Ai)P(Ai).
+&#10230; Примечание: for any event B in the sample space, we have P(B)=n∑i=1P(B|Ai)P(Ai).
 
 <br>
 
@@ -136,7 +136,7 @@
 
 **23. Remark: we have P(a<X⩽B)=F(b)−F(a).**
 
-&#10230; Remark: we have P(a<X⩽B)=F(b)−F(a).
+&#10230; Примечание: we have P(a<X⩽B)=F(b)−F(a).
 
 <br>
 
@@ -298,7 +298,7 @@
 
 **50. Remark: an estimator is said to be unbiased when we have E[^θ]=θ.**
 
-&#10230; Remark: an estimator is said to be unbiased when we have E[^θ]=θ.
+&#10230; Примечание: an estimator is said to be unbiased when we have E[^θ]=θ.
 
 <br>
 
@@ -316,7 +316,7 @@
 
 **53. Remark: the sample mean is unbiased, i.e E[¯¯¯¯¯X]=μ.**
 
-&#10230; Remark: the sample mean is unbiased, i.e E[¯¯¯¯¯X]=μ.
+&#10230; Примечание: the sample mean is unbiased, i.e E[¯¯¯¯¯X]=μ.
 
 <br>
 
@@ -340,7 +340,7 @@
 
 **57. Remark: the sample variance is unbiased, i.e E[s2]=σ2.**
 
-&#10230; Remark: the sample variance is unbiased, i.e E[s2]=σ2.
+&#10230; Примечание: the sample variance is unbiased, i.e E[s2]=σ2.
 
 <br>
 

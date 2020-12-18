@@ -151,7 +151,7 @@
 
 **22. Remark: the higher the parameter k, the higher the bias, and the lower the parameter k, the higher the variance.**
 
-&#10230; Remark: the higher the parameter k, the higher the bias, and the lower the parameter k, the higher the variance.
+&#10230; Примечание: the higher the parameter k, the higher the bias, and the lower the parameter k, the higher the variance.
 
 <br>
 
@@ -242,7 +242,7 @@
 
 **35. Remark: we have σ′(z)=σ(z)(1−σ(z)).**
 
-&#10230; Remark: we have σ′(z)=σ(z)(1−σ(z)).
+&#10230; Примечание: we have σ′(z)=σ(z)(1−σ(z)).
 
 <br>
 
@@ -403,7 +403,7 @@
 
 **58. Remark: the eigenvector associated with the largest eigenvalue is called principal eigenvector of matrix A.**
 
-&#10230; Remark: the eigenvector associated with the largest eigenvalue is called principal eigenvector of matrix A.
+&#10230; Примечание: the eigenvector associated with the largest eigenvalue is called principal eigenvector of matrix A.
 
 <br>
 

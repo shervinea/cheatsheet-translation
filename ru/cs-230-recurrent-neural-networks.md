@@ -102,7 +102,7 @@
 
 **15. The pros and cons of a typical RNN architecture are summed up in the table below:**
 
-&#10230; Плюсы и минусы типичной архитектуры RNN суммированы в таблице ниже:
+&#10230; Плюсы и минусы типичной архитектуры RNN перечислены в таблице ниже:
 
 <br>
 
@@ -249,7 +249,7 @@
 
 **36. GRU/LSTM ― Gated Recurrent Unit (GRU) and Long Short-Term Memory units (LSTM) deal with the vanishing gradient problem encountered by traditional RNNs, with LSTM being a generalization of GRU. Below is a table summing up the characterizing equations of each architecture:**
 
-&#10230; GRU/LSTM ― Вентильный Рекуррентный Блок (Gated Recurrent Unit, GRU) и Блок с Долгой Краткосрочной Памятью (Long Short-Term Memory units, LSTM) имеет дело с проблемой исчезающего градиента, с которой сталкиваются традиционные RNN, причем LSTM является обобщением GRU. Ниже представлена таблица, в которой суммируются характеризующие уравнения каждой архитектуры:
+&#10230; GRU/LSTM ― Вентильный Рекуррентный Блок (Gated Recurrent Unit, GRU) и Блок с Долгой Краткосрочной Памятью (Long Short-Term Memory units, LSTM) имеет дело с проблемой исчезающего градиента, с которой сталкиваются традиционные RNN, причем LSTM является обобщением GRU. Ниже представлена таблица, в которой перечислены характеризующие уравнения каждой архитектуры:
 
 <br>
 
@@ -263,14 +263,14 @@
 
 **38. Remark: the sign ⋆ denotes the element-wise multiplication between two vectors.**
 
-&#10230; Замечание: знак ⋆ означает поэлементное умножение двух векторов.
+&#10230; Примечание: знак ⋆ означает поэлементное умножение двух векторов.
 
 <br>
 
 
 **39. Variants of RNNs ― The table below sums up the other commonly used RNN architectures:**
 
-&#10230; Варианты RNN - В таблице ниже суммированы другие часто используемые архитектуры RNN:
+&#10230; Варианты RNN - В таблице ниже перечислены другие часто используемые архитектуры RNN:
 
 <br>
 
@@ -340,7 +340,7 @@
 
 **49. Remark: learning the embedding matrix can be done using target/context likelihood models.**
 
-&#10230; Remark: learning the embedding matrix can be done using target/context likelihood models.
+&#10230; Примечание: learning the embedding matrix can be done using target/context likelihood models.
 
 <br>
 
@@ -382,7 +382,7 @@
 
 **55. Remark: summing over the whole vocabulary in the denominator of the softmax part makes this model computationally expensive. CBOW is another word2vec model using the surrounding words to predict a given word.**
 
-&#10230; Remark: summing over the whole vocabulary in the denominator of the softmax part makes this model computationally expensive. CBOW is another word2vec model using the surrounding words to predict a given word.
+&#10230; Примечание: summing over the whole vocabulary in the denominator of the softmax part makes this model computationally expensive. CBOW is another word2vec model using the surrounding words to predict a given word.
 
 <br>
 
@@ -396,7 +396,7 @@
 
 **57. Remark: this method is less computationally expensive than the skip-gram model.**
 
-&#10230; Remark: this method is less computationally expensive than the skip-gram model.
+&#10230; Примечание: this method is less computationally expensive than the skip-gram model.
 
 <br>
 
@@ -418,7 +418,7 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 
 **59. Remark: the individual components of the learned word embeddings are not necessarily interpretable.**
 
-&#10230; Remark: the individual components of the learned word embeddings are not necessarily interpretable.
+&#10230; Примечание: the individual components of the learned word embeddings are not necessarily interpretable.
 
 <br>
 
@@ -439,7 +439,7 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 
 **62. Remark: θ is the angle between words w1 and w2.**
 
-&#10230; Remark: θ is the angle between words w1 and w2.
+&#10230; Примечание: θ is the angle between words w1 and w2.
 
 <br>
 
@@ -523,7 +523,7 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 
 **74. Remark: if the beam width is set to 1, then this is equivalent to a naive greedy search.**
 
-&#10230; Remark: if the beam width is set to 1, then this is equivalent to a naive greedy search.
+&#10230; Примечание: if the beam width is set to 1, then this is equivalent to a naive greedy search.
 
 <br>
 
@@ -544,7 +544,7 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 
 **77. Remark: the parameter α can be seen as a softener, and its value is usually between 0.5 and 1.**
 
-&#10230; Remark: the parameter α can be seen as a softener, and its value is usually between 0.5 and 1.
+&#10230; Примечание: the parameter α can be seen as a softener, and its value is usually between 0.5 and 1.
 
 <br>
 
@@ -586,7 +586,7 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 
 **83. Remark: a brevity penalty may be applied to short predicted translations to prevent an artificially inflated bleu score.**
 
-&#10230; Remark: a brevity penalty may be applied to short predicted translations to prevent an artificially inflated bleu score.
+&#10230; Примечание: a brevity penalty may be applied to short predicted translations to prevent an artificially inflated bleu score.
 
 <br>
 
@@ -614,7 +614,7 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 
 **87. Remark: the attention scores are commonly used in image captioning and machine translation.**
 
-&#10230; Remark: the attention scores are commonly used in image captioning and machine translation.
+&#10230; Примечание: the attention scores are commonly used in image captioning and machine translation.
 
 <br>
 
@@ -635,7 +635,7 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 
 **90. Remark: computation complexity is quadratic with respect to Tx.**
 
-&#10230; Remark: computation complexity is quadratic with respect to Tx.
+&#10230; Примечание: computation complexity is quadratic with respect to Tx.
 
 <br>
 

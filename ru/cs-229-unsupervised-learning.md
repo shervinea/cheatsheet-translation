@@ -208,7 +208,7 @@
 
 **35. Remark: the eigenvector associated with the largest eigenvalue is called principal eigenvector of matrix A.**
 
-&#10230; Remark: the eigenvector associated with the largest eigenvalue is called principal eigenvector of matrix A.
+&#10230; Примечание: the eigenvector associated with the largest eigenvalue is called principal eigenvector of matrix A.
 
 <br>
 

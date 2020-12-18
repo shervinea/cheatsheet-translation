@@ -46,7 +46,7 @@
 
 **7. Remark: formulas can be built up recursively out of these connectives.**
 
-&#10230; Remark: formulas can be built up recursively out of these connectives.
+&#10230; Примечание: formulas can be built up recursively out of these connectives.
 
 <br>
 
@@ -116,7 +116,7 @@
 
 **17. Remark: M(KB) denotes the set of models compatible with all the constraints of the knowledge base.**
 
-&#10230; Remark: M(KB) denotes the set of models compatible with all the constraints of the knowledge base.
+&#10230; Примечание: M(KB) denotes the set of models compatible with all the constraints of the knowledge base.
 
 <br>
 
@@ -158,7 +158,7 @@
 
 **23. Remark: popular model checking algorithms include DPLL and WalkSat.**
 
-&#10230; Remark: popular model checking algorithms include DPLL and WalkSat.
+&#10230; Примечание: popular model checking algorithms include DPLL and WalkSat.
 
 <br>
 
@@ -235,7 +235,7 @@
 
 **34. Remark: when q=false, it is called a "goal clause", otherwise we denote it as a "definite clause".**
 
-&#10230; Remark: when q=false, it is called a "goal clause", otherwise we denote it as a "definite clause".
+&#10230; Примечание: when q=false, it is called a "goal clause", otherwise we denote it as a "definite clause".
 
 <br>
 
@@ -249,7 +249,7 @@
 
 **36. Remark: it takes linear time to apply this rule, as each application generate a clause that contains a single propositional symbol.**
 
-&#10230; Remark: it takes linear time to apply this rule, as each application generate a clause that contains a single propositional symbol.
+&#10230; Примечание: it takes linear time to apply this rule, as each application generate a clause that contains a single propositional symbol.
 
 <br>
 
@@ -270,7 +270,7 @@
 
 **39. Remark: in other words, CNFs are ∧ of ∨.**
 
-&#10230; Remark: in other words, CNFs are ∧ of ∨.
+&#10230; Примечание: in other words, CNFs are ∧ of ∨.
 
 <br>
 
@@ -298,7 +298,7 @@
 
 **43. Remark: it can take exponential time to apply this rule, as each application generates a clause that has a subset of the propositional symbols.**
 
-&#10230; Remark: it can take exponential time to apply this rule, as each application generates a clause that has a subset of the propositional symbols.
+&#10230; Примечание: it can take exponential time to apply this rule, as each application generates a clause that has a subset of the propositional symbols.
 
 <br>
 

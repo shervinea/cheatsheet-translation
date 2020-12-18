@@ -4,175 +4,175 @@
 
 **1. Supervised Learning cheatsheet**
 
-&#10230; Supervised Learning cheatsheet
+&#10230; Шпаргалка по обучению с учителем
 
 <br>
 
 **2. Introduction to Supervised Learning**
 
-&#10230; Introduction to Supervised Learning
+&#10230; Введение в обучение с учителем
 
 <br>
 
 **3. Given a set of data points {x(1),...,x(m)} associated to a set of outcomes {y(1),...,y(m)}, we want to build a classifier that learns how to predict y from x.**
 
-&#10230; Given a set of data points {x(1),...,x(m)} associated to a set of outcomes {y(1),...,y(m)}, we want to build a classifier that learns how to predict y from x.
+&#10230; Задан набор точек данных {x(1),...,x(m)} связанный с набором результатов {y(1),...,y(m)}, мы хотим создать классификатор, который научится предсказывать y по x.
 
 <br>
 
 **4. Type of prediction ― The different types of predictive models are summed up in the table below:**
 
-&#10230; Type of prediction ― The different types of predictive models are summed up in the table below:
+&#10230; Тип предсказания ― Различные типы прогнозных моделей перечислены в таблице ниже:
 
 <br>
 
 **5. [Regression, Classifier, Outcome, Examples]**
 
-&#10230; [Regression, Classifier, Outcome, Examples]
+&#10230; [Регрессия, Классификатор, Результат, Примеры]
 
 <br>
 
 **6. [Continuous, Class, Linear regression, Logistic regression, SVM, Naive Bayes]**
 
-&#10230; [Continuous, Class, Linear regression, Logistic regression, SVM, Naive Bayes]
+&#10230; [Непрерывный, Класс, Линейная регрессия, Логистическая регрессия, SVM, Наивный Байес]
 
 <br>
 
 **7. Type of model ― The different models are summed up in the table below:**
 
-&#10230; Type of model ― The different models are summed up in the table below:
+&#10230; Тип модели ― Различные модели перечислены в таблице ниже:
 
 <br>
 
 **8. [Discriminative model, Generative model, Goal, What's learned, Illustration, Examples]**
 
-&#10230; [Discriminative model, Generative model, Goal, What's learned, Illustration, Examples]
+&#10230; [Дискриминационная модель, Генеративная модель, Цель, Что изучено, Иллюстрация, Примеры]
 
 <br>
 
 **9. [Directly estimate P(y|x), Estimate P(x|y) to then deduce P(y|x), Decision boundary,  	Probability distributions of the data, Regressions, SVMs, GDA, Naive Bayes]**
 
-&#10230; [Directly estimate P(y|x), Estimate P(x|y) to then deduce P(y|x), Decision boundary,  	Probability distributions of the data, Regressions, SVMs, GDA, Naive Bayes]
+&#10230; [Прямо оценить P(y|x), Оценить P(x|y) затем вывести P(y|x), Граница решения,  	Распределения вероятностей данных, Регрессии, SVM, GDA, Наивный Байес]
 
 <br>
 
 **10. Notations and general concepts**
 
-&#10230; Notations and general concepts
+&#10230; Обозначения и основные понятия
 
 <br>
 
 **11. Hypothesis ― The hypothesis is noted hθ and is the model that we choose. For a given input data x(i) the model prediction output is hθ(x(i)).**
 
-&#10230; Hypothesis ― The hypothesis is noted hθ and is the model that we choose. For a given input data x(i) the model prediction output is hθ(x(i)).
+&#10230; Гипотеза ― Гипотеза обозначена hθ и является выбранной нами моделью. Для заданных входных данных x(i) предсказанный результат модели обозначен hθ(x(i)).
 
 <br>
 
 **12. Loss function ― A loss function is a function L:(z,y)∈R×Y⟼L(z,y)∈R that takes as inputs the predicted value z corresponding to the real data value y and outputs how different they are. The common loss functions are summed up in the table below:**
 
-&#10230; Loss function ― A loss function is a function L:(z,y)∈R×Y⟼L(z,y)∈R that takes as inputs the predicted value z corresponding to the real data value y and outputs how different they are. The common loss functions are summed up in the table below:
+&#10230; Функция потерь ― это функция L:(z,y)∈R×Y⟼L(z,y)∈R которая принимает в качестве входных данных прогнозируемое значение z, соответствующее значению реальных данных y, и выводит, насколько они различны. Общие функции потерь приведены в таблице ниже:
 
 <br>
 
 **13. [Least squared error, Logistic loss, Hinge loss, Cross-entropy]**
 
-&#10230; [Least squared error, Logistic loss, Hinge loss, Cross-entropy]
+&#10230; [Метод наименьших квадратов (LSE), Логистическая функция потерь, Hinge loss, Перекрёстная энтропия]
 
 <br>
 
 **14. [Linear regression, Logistic regression, SVM, Neural Network]**
 
-&#10230; [Linear regression, Logistic regression, SVM, Neural Network]
+&#10230; [Линейная регрессия, Логистическая регрессия, SVM, Нейронная сеть]
 
 <br>
 
 **15. Cost function ― The cost function J is commonly used to assess the performance of a model, and is defined with the loss function L as follows:**
 
-&#10230; Cost function ― The cost function J is commonly used to assess the performance of a model, and is defined with the loss function L as follows:
+&#10230; Функция стоимости ― функция стоимости J обычно используется для оценки производительности модели и определяется функцией потерь L следующим образом:
 
 <br>
 
 **16. Gradient descent ― By noting α∈R the learning rate, the update rule for gradient descent is expressed with the learning rate and the cost function J as follows:**
 
-&#10230; Gradient descent ― By noting α∈R the learning rate, the update rule for gradient descent is expressed with the learning rate and the cost function J as follows:
+&#10230; Градиентный спуск ― правило обновления для градиентного спуска выражается скоростью обучения α∈R и функцией стоимости J следующим образом:
 
 <br>
 
 **17. Remark: Stochastic gradient descent (SGD) is updating the parameter based on each training example, and batch gradient descent is on a batch of training examples.**
 
-&#10230; Remark: Stochastic gradient descent (SGD) is updating the parameter based on each training example, and batch gradient descent is on a batch of training examples.
+&#10230; Примечание: Стохастический градиентный спуск (SGD) обновляет параметры на основе случайного обучающего примера, а пакетный градиентный спуск обновляет параметры используя пакет обучающих примеров.
 
 <br>
 
 **18. Likelihood ― The likelihood of a model L(θ) given parameters θ is used to find the optimal parameters θ through maximizing the likelihood. In practice, we use the log-likelihood ℓ(θ)=log(L(θ)) which is easier to optimize. We have:**
 
-&#10230; Likelihood ― The likelihood of a model L(θ) given parameters θ is used to find the optimal parameters θ through maximizing the likelihood. In practice, we use the log-likelihood ℓ(θ)=log(L(θ)) which is easier to optimize. We have:
+&#10230; Likelihood ― Правдоподобие модели L(θ) при заданных параметрах θ используются для нахождения оптимальных параметров θ посредством максимизации правдоподобия. На практике мы используем логарифмическую вероятность ℓ(θ)=log(L(θ)), которую легче оптимизировать. У нас есть:
 
 <br>
 
 **19. Newton's algorithm ― The Newton's algorithm is a numerical method that finds θ such that ℓ′(θ)=0. Its update rule is as follows:**
 
-&#10230; Newton's algorithm ― The Newton's algorithm is a numerical method that finds θ such that ℓ′(θ)=0. Its update rule is as follows:
+&#10230; Алгоритм Ньютона ― это численный метод, который находит такое θ, что ℓ′(θ)=0. Его правила обновления следующие:
 
 <br>
 
 **20. Remark: the multidimensional generalization, also known as the Newton-Raphson method, has the following update rule:**
 
-&#10230; Remark: the multidimensional generalization, also known as the Newton-Raphson method, has the following update rule:
+&#10230; Примечание: многомерное обобщение, также известное как метод Ньютона-Рафсона, имеет следующее правило обновления:
 
 <br>
 
 **21. Linear models**
 
-&#10230; Linear models
+&#10230; Линейные модели
 
 <br>
 
 **22. Linear regression**
 
-&#10230; Linear regression
+&#10230; Линейная регрессия
 
 <br>
 
 **23. We assume here that y|x;θ∼N(μ,σ2)**
 
-&#10230; We assume here that y|x;θ∼N(μ,σ2)
+&#10230; Мы предполагаем здесь что y|x;θ∼N(μ,σ2)
 
 <br>
 
 **24. Normal equations ― By noting X the matrix design, the value of θ that minimizes the cost function is a closed-form solution such that:**
 
-&#10230; Normal equations ― By noting X the matrix design, the value of θ that minimizes the cost function is a closed-form solution such that:
+&#10230; Нормальные уравнения ― Обозначим X как матрицу данных (объекты-признаки), значение θ, которое минимизирует функцию стоимости, является решением в замкнутой форме, так что:
 
 <br>
 
 **25. LMS algorithm ― By noting α the learning rate, the update rule of the Least Mean Squares (LMS) algorithm for a training set of m data points, which is also known as the Widrow-Hoff learning rule, is as follows:**
 
-&#10230; LMS algorithm ― By noting α the learning rate, the update rule of the Least Mean Squares (LMS) algorithm for a training set of m data points, which is also known as the Widrow-Hoff learning rule, is as follows:
+&#10230; Алгоритм LMS ― обозначим α скорость обучения, правило обновления алгоритма наименьших средних квадратов (LMS) для обучающего набора из m точек данных, которое также известно как правило обучения Уидроу-Хоффа, выглядит следующим образом:
 
 <br>
 
 **26. Remark: the update rule is a particular case of the gradient ascent.**
 
-&#10230; Remark: the update rule is a particular case of the gradient ascent.
+&#10230; Примечание: правило обновления - это частный случай градиентного подъема.
 
 <br>
 
 **27. LWR ― Locally Weighted Regression, also known as LWR, is a variant of linear regression that weights each training example in its cost function by w(i)(x), which is defined with parameter τ∈R as:**
 
-&#10230; LWR ― Locally Weighted Regression, also known as LWR, is a variant of linear regression that weights each training example in its cost function by w(i)(x), which is defined with parameter τ∈R as:
+&#10230; LWR ― Locally Weighted Regression ― Локально взвешенная регрессия, представляет собой вариант линейной регрессии, который взвешивает каждый обучающий пример в его функции стоимости по w(i)(x), которая определяется параметром τ∈R как:
 
 <br>
 
 **28. Classification and logistic regression**
 
-&#10230; Classification and logistic regression
+&#10230; Классификация и логистическая регрессия
 
 <br>
 
 **29. Sigmoid function ― The sigmoid function g, also known as the logistic function, is defined as follows:**
 
-&#10230; Sigmoid function ― The sigmoid function g, also known as the logistic function, is defined as follows:
+&#10230; Сигмоидальная функция ― сигмовидная функция g, также известная как логистическая функция, определяется следующим образом:
 
 <br>
 
@@ -184,7 +184,7 @@
 
 **31. Remark: there is no closed form solution for the case of logistic regressions.**
 
-&#10230; Remark: there is no closed form solution for the case of logistic regressions.
+&#10230; Примечание: there is no closed form solution for the case of logistic regressions.
 
 <br>
 
@@ -208,7 +208,7 @@
 
 **35. Remark: we will often have T(y)=y. Also, exp(−a(η)) can be seen as a normalization parameter that will make sure that the probabilities sum to one.**
 
-&#10230; Remark: we will often have T(y)=y. Also, exp(−a(η)) can be seen as a normalization parameter that will make sure that the probabilities sum to one.
+&#10230; Примечание: we will often have T(y)=y. Also, exp(−a(η)) can be seen as a normalization parameter that will make sure that the probabilities sum to one.
 
 <br>
 
@@ -232,7 +232,7 @@
 
 **39. Remark: ordinary least squares and logistic regression are special cases of generalized linear models.**
 
-&#10230; Remark: ordinary least squares and logistic regression are special cases of generalized linear models.
+&#10230; Примечание: ordinary least squares and logistic regression are special cases of generalized linear models.
 
 <br>
 
@@ -274,7 +274,7 @@
 
 **46. Remark: the line is defined as wTx−b=0.**
 
-&#10230; Remark: the line is defined as wTx−b=0.
+&#10230; Примечание: the line is defined as wTx−b=0.
 
 <br>
 
@@ -304,7 +304,7 @@
 
 **51. Remark: we say that we use the "kernel trick" to compute the cost function using the kernel because we actually don't need to know the explicit mapping ϕ, which is often very complicated. Instead, only the values K(x,z) are needed.**
 
-&#10230; Remark: we say that we use the "kernel trick" to compute the cost function using the kernel because we actually don't need to know the explicit mapping ϕ, which is often very complicated. Instead, only the values K(x,z) are needed.
+&#10230; Примечание: we say that we use the "kernel trick" to compute the cost function using the kernel because we actually don't need to know the explicit mapping ϕ, which is often very complicated. Instead, only the values K(x,z) are needed.
 
 <br>
 
@@ -316,7 +316,7 @@
 
 **53. Remark: the coefficients βi are called the Lagrange multipliers.**
 
-&#10230; Remark: the coefficients βi are called the Lagrange multipliers.
+&#10230; Примечание: the coefficients βi are called the Lagrange multipliers.
 
 <br>
 
@@ -370,7 +370,7 @@
 
 **62. Remark: Naive Bayes is widely used for text classification and spam detection.**
 
-&#10230; Remark: Naive Bayes is widely used for text classification and spam detection.
+&#10230; Примечание: Naive Bayes is widely used for text classification and spam detection.
 
 <br>
 
@@ -400,7 +400,7 @@
 
 **67. Remark: random forests are a type of ensemble methods.**
 
-&#10230; Remark: random forests are a type of ensemble methods.
+&#10230; Примечание: random forests are a type of ensemble methods.
 
 <br>
 
@@ -442,7 +442,7 @@
 
 **74. Remark: The higher the parameter k, the higher the bias, and the lower the parameter k, the higher the variance.**
 
-&#10230; Remark: The higher the parameter k, the higher the bias, and the lower the parameter k, the higher the variance.
+&#10230; Примечание: The higher the parameter k, the higher the bias, and the lower the parameter k, the higher the variance.
 
 <br>
 
@@ -466,7 +466,7 @@
 
 **78. Remark: this inequality is also known as the Chernoff bound.**
 
-&#10230; Remark: this inequality is also known as the Chernoff bound.
+&#10230; Примечание: this inequality is also known as the Chernoff bound.
 
 <br>
 
@@ -514,7 +514,7 @@
 
 **86. Remark: the VC dimension of H={set of linear classifiers in 2 dimensions} is 3.**
 
-&#10230; Remark: the VC dimension of H={set of linear classifiers in 2 dimensions} is 3.
+&#10230; Примечание: the VC dimension of H={set of linear classifiers in 2 dimensions} is 3.
 
 <br>
 

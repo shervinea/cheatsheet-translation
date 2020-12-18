@@ -53,7 +53,7 @@
 
 **8. Remark: factors of arity 1 and 2 are called unary and binary respectively.**
 
-&#10230; Remark: factors of arity 1 and 2 are called unary and binary respectively.
+&#10230; Примечание: factors of arity 1 and 2 are called unary and binary respectively.
 
 <br>
 
@@ -130,7 +130,7 @@
 
 **19. Remark: in practice, this heuristic is useful when all factors are constraints.**
 
-&#10230; Remark: in practice, this heuristic is useful when all factors are constraints.
+&#10230; Примечание: in practice, this heuristic is useful when all factors are constraints.
 
 <br>
 
@@ -158,7 +158,7 @@
 
 **23. Remark: AC-3 can be implemented both iteratively and recursively.**
 
-&#10230; Remark: AC-3 can be implemented both iteratively and recursively.
+&#10230; Примечание: AC-3 can be implemented both iteratively and recursively.
 
 <br>
 
@@ -186,7 +186,7 @@
 
 **27. Remark: K=1 corresponds to greedy search whereas K→+∞ is equivalent to BFS tree search.**
 
-&#10230; Remark: K=1 corresponds to greedy search whereas K→+∞ is equivalent to BFS tree search.
+&#10230; Примечание: K=1 corresponds to greedy search whereas K→+∞ is equivalent to BFS tree search.
 
 <br>
 
@@ -200,7 +200,7 @@
 
 **29. Remark: ICM may get stuck in local minima.**
 
-&#10230; Remark: ICM may get stuck in local minima.
+&#10230; Примечание: ICM may get stuck in local minima.
 
 <br>
 
@@ -214,7 +214,7 @@
 
 **31. Remark: Gibbs sampling can be seen as the probabilistic counterpart of ICM. It has the advantage to be able to escape local minima in most cases.**
 
-&#10230; Remark: Gibbs sampling can be seen as the probabilistic counterpart of ICM. It has the advantage to be able to escape local minima in most cases.
+&#10230; Примечание: Gibbs sampling can be seen as the probabilistic counterpart of ICM. It has the advantage to be able to escape local minima in most cases.
 
 <br>
 
@@ -235,7 +235,7 @@
 
 **34. Remark: independence is the key property that allows us to solve subproblems in parallel.**
 
-&#10230; Remark: independence is the key property that allows us to solve subproblems in parallel.
+&#10230; Примечание: independence is the key property that allows us to solve subproblems in parallel.
 
 <br>
 
@@ -292,7 +292,7 @@ and fi,1,...,fi,k, Add fnew,i(x) defined as:]**
 
 **42. Remark: finding the best variable ordering is a NP-hard problem.**
 
-&#10230; Remark: finding the best variable ordering is a NP-hard problem.
+&#10230; Примечание: finding the best variable ordering is a NP-hard problem.
 
 <br>
 
@@ -341,7 +341,7 @@ and fi,1,...,fi,k, Add fnew,i(x) defined as:]**
 
 **49. Remark: Bayesian networks are factor graphs imbued with the language of probability.**
 
-&#10230; Remark: Bayesian networks are factor graphs imbued with the language of probability.
+&#10230; Примечание: Bayesian networks are factor graphs imbued with the language of probability.
 
 <br>
 
@@ -362,7 +362,7 @@ and fi,1,...,fi,k, Add fnew,i(x) defined as:]**
 
 **52. Remark: local conditional distributions are the true conditional distributions.**
 
-&#10230; Remark: local conditional distributions are the true conditional distributions.
+&#10230; Примечание: local conditional distributions are the true conditional distributions.
 
 <br>
 
@@ -390,7 +390,7 @@ and fi,1,...,fi,k, Add fnew,i(x) defined as:]**
 
 **56. Remark: examples of probabilistic programs include Hidden Markov model (HMM), factorial HMM, naive Bayes, latent Dirichlet allocation, diseases and symptoms and stochastic block models.**
 
-&#10230; Remark: examples of probabilistic programs include Hidden Markov model (HMM), factorial HMM, naive Bayes, latent Dirichlet allocation, diseases and symptoms and stochastic block models.
+&#10230; Примечание: examples of probabilistic programs include Hidden Markov model (HMM), factorial HMM, naive Bayes, latent Dirichlet allocation, diseases and symptoms and stochastic block models.
 
 <br>
 
@@ -467,7 +467,7 @@ and fi,1,...,fi,k, Add fnew,i(x) defined as:]**
 
 **67. Remark: this algorithm interprets each assignment to be a path where each edge hi−1→hi is of weight p(hi|hi−1)p(ei|hi).**
 
-&#10230; Remark: this algorithm interprets each assignment to be a path where each edge hi−1→hi is of weight p(hi|hi−1)p(ei|hi).
+&#10230; Примечание: this algorithm interprets each assignment to be a path where each edge hi−1→hi is of weight p(hi|hi−1)p(ei|hi).
 
 <br>
 
@@ -481,7 +481,7 @@ and fi,1,...,fi,k, Add fnew,i(x) defined as:]**
 
 **69. Remark: X−i denotes X∖{Xi} and x−i represents the corresponding assignment.**
 
-&#10230; Remark: X−i denotes X∖{Xi} and x−i represents the corresponding assignment.
+&#10230; Примечание: X−i denotes X∖{Xi} and x−i represents the corresponding assignment.
 
 <br>
 
@@ -495,7 +495,7 @@ and fi,1,...,fi,k, Add fnew,i(x) defined as:]**
 
 **71. Remark: a more expensive version of this algorithm also keeps track of past particles in the proposal step.**
 
-&#10230; Remark: a more expensive version of this algorithm also keeps track of past particles in the proposal step.
+&#10230; Примечание: a more expensive version of this algorithm also keeps track of past particles in the proposal step.
 
 <br>
 

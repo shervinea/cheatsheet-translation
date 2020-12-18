@@ -123,14 +123,14 @@
 
 **18. Graph ― A graph is comprised of a set of vertices V (also called nodes) as well as a set of edges E (also called links).**
 
-&#10230; Граф ― граф состоит из набора вершин V (также называемых узлами), а также набора ребер E (также называемых связями).
+&#10230; Граф ― граф состоит из набора вершин V (также называемых узлами) и набора ребер E (также называемых связями).
 
 <br>
 
 
 **19. Remark: a graph is said to be acylic when there is no cycle.**
 
-&#10230; Замечание: граф называется ациклическим, когда нет цикла.
+&#10230; Примечание: граф называется ациклическим, когда нет цикла.
 
 <br>
 
@@ -158,7 +158,7 @@
 
 **23. Remark: the figure above illustrates a bottom-to-top approach whereas the formula provides the intuition of a top-to-bottom problem resolution.**
 
-&#10230; Remark: the figure above illustrates a bottom-to-top approach whereas the formula provides the intuition of a top-to-bottom problem resolution.
+&#10230; Примечание: the figure above illustrates a bottom-to-top approach whereas the formula provides the intuition of a top-to-bottom problem resolution.
 
 <br>
 
@@ -242,7 +242,7 @@
 
 **35. Remark: the complexity countdown supposes the number of possible actions per state to be constant.**
 
-&#10230; Remark: the complexity countdown supposes the number of possible actions per state to be constant.
+&#10230; Примечание: the complexity countdown supposes the number of possible actions per state to be constant.
 
 <br>
 
@@ -270,7 +270,7 @@
 
 **39. Remark: there are several versions of the algorithm, one of which simplifies the problem to only learning the cost of each action a, and the other parametrizes Cost(s,a) to a feature vector of learnable weights.**
 
-&#10230; Remark: there are several versions of the algorithm, one of which simplifies the problem to only learning the cost of each action a, and the other parametrizes Cost(s,a) to a feature vector of learnable weights.
+&#10230; Примечание: there are several versions of the algorithm, one of which simplifies the problem to only learning the cost of each action a, and the other parametrizes Cost(s,a) to a feature vector of learnable weights.
 
 <br>
 
@@ -298,7 +298,7 @@
 
 **43. Remark: this algorithm can be seen as a biased version of UCS exploring states estimated to be closer to the end state.**
 
-&#10230; Remark: this algorithm can be seen as a biased version of UCS exploring states estimated to be closer to the end state.
+&#10230; Примечание: this algorithm can be seen as a biased version of UCS exploring states estimated to be closer to the end state.
 
 <br>
 
@@ -347,7 +347,7 @@
 
 **50. Remark: larger values of h(s) is better as this equation shows it will restrict the set of states s going to be explored.**
 
-&#10230; Remark: larger values of h(s) is better as this equation shows it will restrict the set of states s going to be explored.
+&#10230; Примечание: larger values of h(s) is better as this equation shows it will restrict the set of states s going to be explored.
 
 <br>
 
@@ -487,7 +487,7 @@
 
 **70. Remark: Vπ(s) is equal to 0 if s is an end state.**
 
-&#10230; Remark: Vπ(s) is equal to 0 if s is an end state.
+&#10230; Примечание: Vπ(s) is equal to 0 if s is an end state.
 
 <br>
 
@@ -508,7 +508,7 @@
 
 **73. Remark: by noting S the number of states, A the number of actions per state, S′ the number of successors and T the number of iterations, then the time complexity is of O(TPESS′).**
 
-&#10230; Remark: by noting S the number of states, A the number of actions per state, S′ the number of successors and T the number of iterations, then the time complexity is of O(TPESS′).
+&#10230; Примечание: by noting S the number of states, A the number of actions per state, S′ the number of successors and T the number of iterations, then the time complexity is of O(TPESS′).
 
 <br>
 
@@ -550,7 +550,7 @@
 
 **79. Remark: if we have either γ<1 or the MDP graph being acyclic, then the value iteration algorithm is guaranteed to converge to the correct answer.**
 
-&#10230; Remark: if we have either γ<1 or the MDP graph being acyclic, then the value iteration algorithm is guaranteed to converge to the correct answer.
+&#10230; Примечание: if we have either γ<1 or the MDP graph being acyclic, then the value iteration algorithm is guaranteed to converge to the correct answer.
 
 <br>
 
@@ -592,7 +592,7 @@
 
 **85. Remark: model-based Monte Carlo is said to be off-policy, because the estimation does not depend on the exact policy.**
 
-&#10230; Remark: model-based Monte Carlo is said to be off-policy, because the estimation does not depend on the exact policy.
+&#10230; Примечание: model-based Monte Carlo is said to be off-policy, because the estimation does not depend on the exact policy.
 
 <br>
 
@@ -620,7 +620,7 @@
 
 **89. Remark: model-free Monte Carlo is said to be on-policy, because the estimated value is dependent on the policy π used to generate the data.**
 
-&#10230; Remark: model-free Monte Carlo is said to be on-policy, because the estimated value is dependent on the policy π used to generate the data.
+&#10230; Примечание: model-free Monte Carlo is said to be on-policy, because the estimated value is dependent on the policy π used to generate the data.
 
 <br>
 
@@ -648,7 +648,7 @@
 
 **93. Remark: the SARSA estimate is updated on the fly as opposed to the model-free Monte Carlo one where the estimate can only be updated at the end of the episode.**
 
-&#10230; Remark: the SARSA estimate is updated on the fly as opposed to the model-free Monte Carlo one where the estimate can only be updated at the end of the episode.
+&#10230; Примечание: the SARSA estimate is updated on the fly as opposed to the model-free Monte Carlo one where the estimate can only be updated at the end of the episode.
 
 <br>
 
@@ -704,7 +704,7 @@
 
 **101. Remark: we will assume that the utility of the agent has the opposite sign of the one of the opponent.**
 
-&#10230; Remark: we will assume that the utility of the agent has the opposite sign of the one of the opponent.
+&#10230; Примечание: we will assume that the utility of the agent has the opposite sign of the one of the opponent.
 
 <br>
 
@@ -725,7 +725,7 @@
 
 **104. Remark: expectimax is the analog of value iteration for MDPs.**
 
-&#10230; Remark: expectimax is the analog of value iteration for MDPs.
+&#10230; Примечание: expectimax is the analog of value iteration for MDPs.
 
 <br>
 
@@ -739,7 +739,7 @@
 
 **106. Remark: we can extract πmax and πmin from the minimax value Vminimax.**
 
-&#10230; Remark: we can extract πmax and πmin from the minimax value Vminimax.
+&#10230; Примечание: we can extract πmax and πmin from the minimax value Vminimax.
 
 <br>
 
@@ -795,7 +795,7 @@
 
 **114. Remark: FutureCost(s) is an analogy for search problems.**
 
-&#10230; Remark: FutureCost(s) is an analogy for search problems.
+&#10230; Примечание: FutureCost(s) is an analogy for search problems.
 
 <br>
 
@@ -886,7 +886,7 @@
 
 **127. Remark: in any finite-player game with finite number of actions, there exists at least one Nash equilibrium.**
 
-&#10230; Remark: in any finite-player game with finite number of actions, there exists at least one Nash equilibrium.
+&#10230; Примечание: in any finite-player game with finite number of actions, there exists at least one Nash equilibrium.
 
 <br>
 

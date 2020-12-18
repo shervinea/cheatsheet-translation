@@ -109,7 +109,7 @@
 
 **16. Remark: data is usually augmented on the fly during training.**
 
-&#10230; Remark: data is usually augmented on the fly during training.
+&#10230; Примечание: data is usually augmented on the fly during training.
 
 <br>
 
@@ -312,7 +312,7 @@
 
 **45. Remark: other methods include Adadelta, Adagrad and SGD.**
 
-&#10230; Remark: other methods include Adadelta, Adagrad and SGD.
+&#10230; Примечание: other methods include Adadelta, Adagrad and SGD.
 
 <br>
 
@@ -333,7 +333,7 @@
 
 **48. Remark: most deep learning frameworks parametrize dropout through the 'keep' parameter 1−p.**
 
-&#10230; Remark: most deep learning frameworks parametrize dropout through the 'keep' parameter 1−p.
+&#10230; Примечание: most deep learning frameworks parametrize dropout through the 'keep' parameter 1−p.
 
 <br>
 

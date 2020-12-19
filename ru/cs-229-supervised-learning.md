@@ -178,394 +178,394 @@
 
 **30. Logistic regression ― We assume here that y|x;θ∼Bernoulli(ϕ). We have the following form:**
 
-&#10230; Logistic regression ― We assume here that y|x;θ∼Bernoulli(ϕ). We have the following form:
+&#10230; Логистическая регрессия - мы предполагаем здесь y|x;θ∼Bernoulli(ϕ). Имеем следующий вид:
 
 <br>
 
 **31. Remark: there is no closed form solution for the case of logistic regressions.**
 
-&#10230; Примечание: there is no closed form solution for the case of logistic regressions.
+&#10230; Примечание: не существует решения в аналитическом виде для логистических регрессий.
 
 <br>
 
 **32. Softmax regression ― A softmax regression, also called a multiclass logistic regression, is used to generalize logistic regression when there are more than 2 outcome classes. By convention, we set θK=0, which makes the Bernoulli parameter ϕi of each class i equal to:**
 
-&#10230; Softmax regression ― A softmax regression, also called a multiclass logistic regression, is used to generalize logistic regression when there are more than 2 outcome classes. By convention, we set θK=0, which makes the Bernoulli parameter ϕi of each class i equal to:
+&#10230; Регрессия Softmax ― Регрессия softmax, также называемая многоклассовой логистической регрессией, используется для обобщения логистической регрессии, когда существует более двух классов результатов. По соглашению мы полагаем θK=0, что делает параметр Бернулли ϕi каждого класса i равным:
 
 <br>
 
 **33. Generalized Linear Models**
 
-&#10230; Generalized Linear Models
+&#10230; Обобщенные линейные модели
 
 <br>
 
 **34. Exponential family ― A class of distributions is said to be in the exponential family if it can be written in terms of a natural parameter, also called the canonical parameter or link function, η, a sufficient statistic T(y) and a log-partition function a(η) as follows:**
 
-&#10230; Exponential family ― A class of distributions is said to be in the exponential family if it can be written in terms of a natural parameter, also called the canonical parameter or link function, η, a sufficient statistic T(y) and a log-partition function a(η) as follows:
+&#10230; Экспоненциальное семейство - класс распределений называется экспоненциальным семейством, если его можно записать в терминах естественного параметра, также называемого каноническим параметром или функцией связи, η, достаточной статистикой T(y) и лог-статистическую сумму a(η) следующим образом:
 
 <br>
 
 **35. Remark: we will often have T(y)=y. Also, exp(−a(η)) can be seen as a normalization parameter that will make sure that the probabilities sum to one.**
 
-&#10230; Примечание: we will often have T(y)=y. Also, exp(−a(η)) can be seen as a normalization parameter that will make sure that the probabilities sum to one.
+&#10230; Примечание: у нас будет часто T(y)=y. Также, exp(−a(η)) можно рассматривать как параметр нормализации, который гарантирует, что сумма вероятностей равна единице.
 
 <br>
 
 **36. Here are the most common exponential distributions summed up in the following table:**
 
-&#10230; Here are the most common exponential distributions summed up in the following table:
+&#10230; Наиболее распространенные экспоненциальные распределения приведенны в следующей таблице:
 
 <br>
 
 **37. [Distribution, Bernoulli, Gaussian, Poisson, Geometric]**
 
-&#10230; [Distribution, Bernoulli, Gaussian, Poisson, Geometric]
+&#10230; [Распределения, Бернулли, Гауссово, Пуассон, Геометрическое]
 
 <br>
 
 **38. Assumptions of GLMs ― Generalized Linear Models (GLM) aim at predicting a random variable y as a function fo x∈Rn+1 and rely on the following 3 assumptions:**
 
-&#10230; Assumptions of GLMs ― Generalized Linear Models (GLM) aim at predicting a random variable y as a function fo x∈Rn+1 and rely on the following 3 assumptions:
+&#10230; Предположения GLM ― Обобщенные линейные модели (GLM) нацелены на предсказание случайной величины y как функции от x∈Rn+1 и основываются на следующих трех предположениях:
 
 <br>
 
 **39. Remark: ordinary least squares and logistic regression are special cases of generalized linear models.**
 
-&#10230; Примечание: ordinary least squares and logistic regression are special cases of generalized linear models.
+&#10230; Примечание: обыкновенный метод наименьших квадратов и логистическая регрессия являются частными случаями обобщенных линейных моделей.
 
 <br>
 
 **40. Support Vector Machines**
 
-&#10230; Support Vector Machines
+&#10230; Метод Опорных Векторов
 
 <br>
 
 **41. The goal of support vector machines is to find the line that maximizes the minimum distance to the line.**
 
-&#10230; The goal of support vector machines is to find the line that maximizes the minimum distance to the line.
+&#10230; Задача метода опорных векторов - найти линию, которая максимизирует минимальное расстояние до линии.
 
 <br>
 
 **42. Optimal margin classifier ― The optimal margin classifier h is such that:**
 
-&#10230; Optimal margin classifier ― The optimal margin classifier h is such that:
+&#10230; Оптимальный Классификатор с Отступом ― h таков, что:
 
 <br>
 
 **43. where (w,b)∈Rn×R is the solution of the following optimization problem:**
 
-&#10230; where (w,b)∈Rn×R is the solution of the following optimization problem:
+&#10230; где (w,b)∈Rn×R является решением следующей задачи оптимизации:
 
 <br>
 
 **44. such that**
 
-&#10230; such that
+&#10230; такой что
 
 <br>
 
 **45. support vectors**
 
-&#10230; support vectors
+&#10230; опорные векторы
 
 <br>
 
 **46. Remark: the line is defined as wTx−b=0.**
 
-&#10230; Примечание: the line is defined as wTx−b=0.
+&#10230; Примечание: линия определяется как wTx−b=0.
 
 <br>
 
 **47. Hinge loss ― The hinge loss is used in the setting of SVMs and is defined as follows:**
 
-&#10230; Hinge loss ― The hinge loss is used in the setting of SVMs and is defined as follows:
+&#10230; Hinge loss ― Потери на шарнирах используются при настройке SVM и определяются следующим образом:
 
 <br>
 
 **48. Kernel ― Given a feature mapping ϕ, we define the kernel K to be defined as:**
 
-&#10230; Kernel ― Given a feature mapping ϕ, we define the kernel K to be defined as:
+&#10230; Kernel - Учитывая отображение признаков ϕ, мы определяем ядро K как:
 
 <br>
 
 **49. In practice, the kernel K defined by K(x,z)=exp(−||x−z||22σ2) is called the Gaussian kernel and is commonly used.**
 
-&#10230; In practice, the kernel K defined by K(x,z)=exp(−||x−z||22σ2) is called the Gaussian kernel and is commonly used.
+&#10230; На практике ядро K определяется как K(x,z)=exp(−||x−z||22σ2) называется ядром Гаусса и обычно используется оно.
 
 <br>
 
 **50. [Non-linear separability, Use of a kernel mapping, Decision boundary in the original space]**
 
-&#10230; [Non-linear separability, Use of a kernel mapping, Decision boundary in the original space]
+&#10230; [Нелинейная разделимость, Использование отображения ядра, Граница решения в исходном пространстве]
 
 <br>
 
 **51. Remark: we say that we use the "kernel trick" to compute the cost function using the kernel because we actually don't need to know the explicit mapping ϕ, which is often very complicated. Instead, only the values K(x,z) are needed.**
 
-&#10230; Примечание: we say that we use the "kernel trick" to compute the cost function using the kernel because we actually don't need to know the explicit mapping ϕ, which is often very complicated. Instead, only the values K(x,z) are needed.
+&#10230; Примечание: мы говорим, что используем "трюк с ядром" для вычисления функции стоимости с использованием ядра, потому что нам фактически не нужно знать явное отображение ϕ, которое часто бывает очень сложным. Вместо этого нужны только значения K(x,z).
 
 <br>
 
 **52. Lagrangian ― We define the Lagrangian L(w,b) as follows:**
 
-&#10230; Lagrangian ― We define the Lagrangian L(w,b) as follows:
+&#10230; Лагранжиан ― Определим лагранжиан L(w,b) следующим образом:
 
 <br>
 
 **53. Remark: the coefficients βi are called the Lagrange multipliers.**
 
-&#10230; Примечание: the coefficients βi are called the Lagrange multipliers.
+&#10230; Примечание: коэффициенты βi называются множителями Лагранжа.
 
 <br>
 
 **54. Generative Learning**
 
-&#10230; Generative Learning
+&#10230; Генеративное обучение
 
 <br>
 
 **55. A generative model first tries to learn how the data is generated by estimating P(x|y), which we can then use to estimate P(y|x) by using Bayes' rule.**
 
-&#10230; A generative model first tries to learn how the data is generated by estimating P(x|y), which we can then use to estimate P(y|x) by using Bayes' rule.
+&#10230; Генеративная модель сначала пытается узнать, как генерируются данные, оценивая P(x|y), которое мы затем можем использовать для оценки P(y|x) с помощью правила Байеса.
 
 <br>
 
 **56. Gaussian Discriminant Analysis**
 
-&#10230; Gaussian Discriminant Analysis
+&#10230; Гауссовский дискриминантный анализ
 
 <br>
 
 **57. Setting ― The Gaussian Discriminant Analysis assumes that y and x|y=0 and x|y=1 are such that:**
 
-&#10230; Setting ― The Gaussian Discriminant Analysis assumes that y and x|y=0 and x|y=1 are such that:
+&#10230; Настройка - Гауссовский дискриминантный анализ предполагает, что y и x|y=0 и x|y=1 таковы, что:
 
 <br>
 
 **58. Estimation ― The following table sums up the estimates that we find when maximizing the likelihood:**
 
-&#10230; Estimation ― The following table sums up the estimates that we find when maximizing the likelihood:
+&#10230; Оценка - В следующей таблице суммированы оценки, которые мы находим при максимизации правдоподобия:
 
 <br>
 
 **59. Naive Bayes**
 
-&#10230; Naive Bayes
+&#10230; Наивный байес
 
 <br>
 
 **60. Assumption ― The Naive Bayes model supposes that the features of each data point are all independent:**
 
-&#10230; Assumption ― The Naive Bayes model supposes that the features of each data point are all independent:
+&#10230; Допущение ― Наивная байесовская модель предполагает, что все характеристики каждой точки данных независимы:
 
 <br>
 
 **61. Solutions ― Maximizing the log-likelihood gives the following solutions, with k∈{0,1},l∈[[1,L]]**
 
-&#10230; Solutions ― Maximizing the log-likelihood gives the following solutions, with k∈{0,1},l∈[[1,L]]
+&#10230; Решения ― Максимизация логарифмического правдоподобия дает следующие решения с k∈{0,1},l∈[[1,L]]
 
 <br>
 
 **62. Remark: Naive Bayes is widely used for text classification and spam detection.**
 
-&#10230; Примечание: Naive Bayes is widely used for text classification and spam detection.
+&#10230; Примечание: Наивный байесовский метод широко используется для классификации текста и обнаружения спама.
 
 <br>
 
 **63. Tree-based and ensemble methods**
 
-&#10230; Tree-based and ensemble methods
+&#10230; Древовидные и ансамблевые методы
 
 <br>
 
 **64. These methods can be used for both regression and classification problems.**
 
-&#10230; These methods can be used for both regression and classification problems.
+&#10230; Эти методы можно использовать как для регрессионных, так и для классификационных задач.
 
 <br>
 
 **65. CART ― Classification and Regression Trees (CART), commonly known as decision trees, can be represented as binary trees. They have the advantage to be very interpretable.**
 
-&#10230; CART ― Classification and Regression Trees (CART), commonly known as decision trees, can be represented as binary trees. They have the advantage to be very interpretable.
+&#10230; Classification and Regression Trees (CART) ― Деревья классификации и регрессии, широко известные как деревья решений, могут быть представлены как двоичные деревья. Их преимущество в том, что они легко интерпретируемы.
 
 <br>
 
 **66. Random forest ― It is a tree-based technique that uses a high number of decision trees built out of randomly selected sets of features. Contrary to the simple decision tree, it is highly uninterpretable but its generally good performance makes it a popular algorithm.**
 
-&#10230; Random forest ― It is a tree-based technique that uses a high number of decision trees built out of randomly selected sets of features. Contrary to the simple decision tree, it is highly uninterpretable but its generally good performance makes it a popular algorithm.
+&#10230; Случайный лес ― это метод, основанный на деревьях, который использует большое количество деревьев решений, построенных из случайно выбранных наборов функций. В отличие от простого дерева решений, его трудно интерпретировать, но в целом хорошая производительность делает его популярным алгоритмом.
 
 <br>
 
 **67. Remark: random forests are a type of ensemble methods.**
 
-&#10230; Примечание: random forests are a type of ensemble methods.
+&#10230; Примечание: случайные леса - это разновидность ансамблевых методов.
 
 <br>
 
 **68. Boosting ― The idea of boosting methods is to combine several weak learners to form a stronger one. The main ones are summed up in the table below:**
 
-&#10230; Boosting ― The idea of boosting methods is to combine several weak learners to form a stronger one. The main ones are summed up in the table below:
+&#10230; Boosting (усиление) - идея методов усиления заключается в объединении нескольких слабых учеников, чтобы сформировать более сильного. Основные из них приведены в таблице ниже:
 
 <br>
 
 **69. [Adaptive boosting, Gradient boosting]**
 
-&#10230; [Adaptive boosting, Gradient boosting]
+&#10230; [Адаптивный бустинг, Градиентный бустинг]
 
 <br>
 
 **70. High weights are put on errors to improve at the next boosting step**
 
-&#10230; High weights are put on errors to improve at the next boosting step
+&#10230; Ошибкам уделяется большое внимание, чтобы их можно было исправить на следующем этапе усиления
 
 <br>
 
 **71. Weak learners trained on remaining errors**
 
-&#10230; Weak learners trained on remaining errors
+&#10230; Слабые ученики обучаются оставшимся ошибкам
 
 <br>
 
 **72. Other non-parametric approaches**
 
-&#10230; Other non-parametric approaches
+&#10230; Другие непараметрические подходы
 
 <br>
 
 **73. k-nearest neighbors ― The k-nearest neighbors algorithm, commonly known as k-NN, is a non-parametric approach where the response of a data point is determined by the nature of its k neighbors from the training set. It can be used in both classification and regression settings.**
 
-&#10230; k-nearest neighbors ― The k-nearest neighbors algorithm, commonly known as k-NN, is a non-parametric approach where the response of a data point is determined by the nature of its k neighbors from the training set. It can be used in both classification and regression settings.
+&#10230; k-ближайшие соседи. Алгоритм k-ближайших соседей, широко известный как k-NN, представляет собой непараметрический подход, в котором ответ точки данных определяется природой ее k соседей из обучающего набора. Его можно использовать как для классификации, так и для настройки регрессии.
 
 <br>
 
 **74. Remark: The higher the parameter k, the higher the bias, and the lower the parameter k, the higher the variance.**
 
-&#10230; Примечание: The higher the parameter k, the higher the bias, and the lower the parameter k, the higher the variance.
+&#10230; Примечание: Чем выше параметр k, тем выше смещение, а чем ниже параметр k, тем выше дисперсия.
 
 <br>
 
 **75. Learning Theory**
 
-&#10230; Learning Theory
+&#10230; Теория вычислительного обучения
 
 <br>
 
 **76. Union bound ― Let A1,...,Ak be k events. We have:**
 
-&#10230; Union bound ― Let A1,...,Ak be k events. We have:
+&#10230; Связанный союз ― Пусть A1,...,Ak есть k событий. Мы имеем:
 
 <br>
 
 **77. Hoeffding inequality ― Let Z1,..,Zm be m iid variables drawn from a Bernoulli distribution of parameter ϕ. Let ˆϕ be their sample mean and γ>0 fixed. We have:**
 
-&#10230; Hoeffding inequality ― Let Z1,..,Zm be m iid variables drawn from a Bernoulli distribution of parameter ϕ. Let ˆϕ be their sample mean and γ>0 fixed. We have:
+&#10230; Неравенство Хёфдинга ― Пусть Z1,..,Zm - m независимых и одинаково распределенных переменных, взятых из распределения Бернулли для параметра ϕ. Пусть ˆϕ их выборочное среднее, а γ>0 фиксированное. У нас есть:
 
 <br>
 
 **78. Remark: this inequality is also known as the Chernoff bound.**
 
-&#10230; Примечание: this inequality is also known as the Chernoff bound.
+&#10230; Примечание: это неравенство также известно как граница Чернова.
 
 <br>
 
 **79. Training error ― For a given classifier h, we define the training error ˆϵ(h), also known as the empirical risk or empirical error, to be as follows:**
 
-&#10230; Training error ― For a given classifier h, we define the training error ˆϵ(h), also known as the empirical risk or empirical error, to be as follows:
+&#10230; Ошибка тренировки ― Для данного классификатора h мы определяем ошибку обучения ˆϵ(h), также известную как эмпирический риск или эмпирическая ошибка, следующим образом:
 
 <br>
 
 **80. Probably Approximately Correct (PAC) ― PAC is a framework under which numerous results on learning theory were proved, and has the following set of assumptions:**
 
-&#10230; Probably Approximately Correct (PAC) ― PAC is a framework under which numerous results on learning theory were proved, and has the following set of assumptions:
+&#10230; Probably Approximately Correct (PAC) ― Вероятно приближённо корректное обучение - эта схема, в рамках которой были доказаны многочисленные результаты по теории обучения, и имеет следующий набор предположений:
 
 <br>
 
 **81: the training and testing sets follow the same distribution**
 
-&#10230; the training and testing sets follow the same distribution
+&#10230; наборы для обучения и тестирования имеют одинаковое распределение
 
 <br>
 
 **82. the training examples are drawn independently**
 
-&#10230; the training examples are drawn independently
+&#10230; обучающие примеры строятся независимо
 
 <br>
 
 **83. Shattering ― Given a set S={x(1),...,x(d)}, and a set of classifiers H, we say that H shatters S if for any set of labels {y(1),...,y(d)}, we have:**
 
-&#10230; Shattering ― Given a set S={x(1),...,x(d)}, and a set of classifiers H, we say that H shatters S if for any set of labels {y(1),...,y(d)}, we have:
+&#10230; Разрушение (Shattering) ― Для набора S={x(1),...,x(d)} и набора классификаторов H мы говорим, что H разрушает S, если для любого набора меток {y(1),...,y(d)}, у нас есть:
 
 <br>
 
 **84. Upper bound theorem ― Let H be a finite hypothesis class such that |H|=k and let δ and the sample size m be fixed. Then, with probability of at least 1−δ, we have:**
 
-&#10230; Upper bound theorem ― Let H be a finite hypothesis class such that |H|=k and let δ and the sample size m be fixed. Then, with probability of at least 1−δ, we have:
+&#10230; Теорема о верхней оценке ― Пусть H - конечный класс гипотез, такой что |H|=k, и пусть δ и размер выборки m фиксированы. Тогда с вероятностью не менее 1−δ, у нас есть:
 
 <br>
 
 **85. VC dimension ― The Vapnik-Chervonenkis (VC) dimension of a given infinite hypothesis class H, noted VC(H) is the size of the largest set that is shattered by H.**
 
-&#10230; VC dimension ― The Vapnik-Chervonenkis (VC) dimension of a given infinite hypothesis class H, noted VC(H) is the size of the largest set that is shattered by H.
+&#10230; VC размерность ― Размерность Вапника-Червоненкиса (VC) данного бесконечного класса гипотез H, отмеченное как VC(H), - это размер самого большого множества, которое разрушается H.
 
 <br>
 
 **86. Remark: the VC dimension of H={set of linear classifiers in 2 dimensions} is 3.**
 
-&#10230; Примечание: the VC dimension of H={set of linear classifiers in 2 dimensions} is 3.
+&#10230; Примечание: VC размерность H={набор линейных классификаторов в 2-х измерениях} это 3.
 
 <br>
 
 **87. Theorem (Vapnik) ― Let H be given, with VC(H)=d and m the number of training examples. With probability at least 1−δ, we have:**
 
-&#10230; Theorem (Vapnik) ― Let H be given, with VC(H)=d and m the number of training examples. With probability at least 1−δ, we have:
+&#10230; Теорема (Вапника) ― Пусть задано H, VC(H)=d и m - количество обучающих примеров. По крайней мере, с вероятностью 1−δ, у нас есть:
 
 <br>
 
 **88. [Introduction, Type of prediction, Type of model]**
 
-&#10230; [Introduction, Type of prediction, Type of model]
+&#10230; [Введение, Тип предсказания, Тип модели]
 
 <br>
 
 **89. [Notations and general concepts, loss function, gradient descent, likelihood]**
 
-&#10230; [Notations and general concepts, loss function, gradient descent, likelihood]
+&#10230; [Обозначения и общие понятия, функция потерь, градиентный спуск, правдоподобие]
 
 <br>
 
 **90. [Linear models, linear regression, logistic regression, generalized linear models]**
 
-&#10230; [Linear models, linear regression, logistic regression, generalized linear models]
+&#10230; [Линейные модели, линейная регрессия, логистическая регрессия, обобщенные линейные модели]
 
 <br>
 
 **91. [Support vector machines, Optimal margin classifier, Hinge loss, Kernel]**
 
-&#10230; [Support vector machines, Optimal margin classifier, Hinge loss, Kernel]
+&#10230; [Метод опорных векторов, Оптимальный Классификатор с Отступом, Hinge loss, Ядро]
 
 <br>
 
 **92. [Generative learning, Gaussian Discriminant Analysis, Naive Bayes]**
 
-&#10230; [Generative learning, Gaussian Discriminant Analysis, Naive Bayes]
+&#10230; [Генеративное обучение, Гауссовский дискриминантный анализ, Наивный Байес]
 
 <br>
 
 **93. [Trees and ensemble methods, CART, Random forest, Boosting]**
 
-&#10230; [Trees and ensemble methods, CART, Random forest, Boosting]
+&#10230; [Деревья и ансамблевые методы, CART, Случайный лес, Boosting]
 
 <br>
 
 **94. [Other methods, k-NN]**
 
-&#10230; [Other methods, k-NN]
+&#10230; [Другие методы, k-NN]
 
 <br>
 
 **95. [Learning theory, Hoeffding inequality, PAC, VC dimension]**
 
-&#10230; [Learning theory, Hoeffding inequality, PAC, VC dimension]
+&#10230; [Теория обучения, Неравенство Хёфдинга, PAC, VC размерность]

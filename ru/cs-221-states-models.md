@@ -221,7 +221,7 @@
 
 **32. Graph search algorithms summary ― By noting N the number of total states, n of which are explored before the end state send, we have:**
 
-&#10230; Graph search algorithms summary ― By noting N the number of total states, n of which are explored before the end state send, we have:
+&#10230; Graph search algorithms summary ― By noting N the number of total states, n of which are explored before the end state send, у нас есть:
 
 <br>
 
@@ -319,14 +319,14 @@
 
 **46. Admissibility ― A heuristic h is said to be admissible if we have:**
 
-&#10230; Admissibility ― A heuristic h is said to be admissible if we have:
+&#10230; Admissibility ― A heuristic h is said to be admissible if у нас есть:
 
 <br>
 
 
 **47. Theorem ― Let h(s) be a given heuristic. We have:**
 
-&#10230; Theorem ― Let h(s) be a given heuristic. We have:
+&#10230; Theorem ― Let h(s) be a given heuristic. у нас есть:
 
 <br>
 
@@ -382,7 +382,7 @@
 
 **55. Consistency of relaxed heuristics ― Let Prel be a given relaxed problem. By theorem, we have:**
 
-&#10230; Consistency of relaxed heuristics ― Let Prel be a given relaxed problem. By theorem, we have:
+&#10230; Consistency of relaxed heuristics ― Let Prel be a given relaxed problem. By theorem, у нас есть:
 
 <br>
 
@@ -641,7 +641,7 @@
 
 **92. SARSA ― State-action-reward-state-action (SARSA) is a boostrapping method estimating Qπ by using both raw data and estimates as part of the update rule. For each (s,a,r,s′,a′), we have:**
 
-&#10230; SARSA ― State-action-reward-state-action (SARSA) is a boostrapping method estimating Qπ by using both raw data and estimates as part of the update rule. For each (s,a,r,s′,a′), we have:
+&#10230; SARSA ― State-action-reward-state-action (SARSA) is a boostrapping method estimating Qπ by using both raw data and estimates as part of the update rule. For each (s,a,r,s′,a′), у нас есть:
 
 <br>
 
@@ -655,7 +655,7 @@
 
 **94. Q-learning ― Q-learning is an off-policy algorithm that produces an estimate for Qopt. On each (s,a,r,s′,a′), we have:**
 
-&#10230; Q-learning ― Q-learning is an off-policy algorithm that produces an estimate for Qopt. On each (s,a,r,s′,a′), we have:
+&#10230; Q-learning ― Q-learning is an off-policy algorithm that produces an estimate for Qopt. On each (s,a,r,s′,a′), у нас есть:
 
 <br>
 
@@ -851,7 +851,7 @@
 
 **122. Minimax theorem ― By noting πA,πB ranging over mixed strategies, for every simultaneous two-player zero-sum game with a finite number of actions, we have:**
 
-&#10230; Minimax theorem ― By noting πA,πB ranging over mixed strategies, for every simultaneous two-player zero-sum game with a finite number of actions, we have:
+&#10230; Minimax theorem ― By noting πA,πB ranging over mixed strategies, for every simultaneous two-player zero-sum game with a finite number of actions, у нас есть:
 
 <br>
 
@@ -872,7 +872,7 @@
 
 **125. Nash equilibrium ― A Nash equilibrium is (π∗A,π∗B) such that no player has an incentive to change its strategy. We have:**
 
-&#10230; Nash equilibrium ― A Nash equilibrium is (π∗A,π∗B) such that no player has an incentive to change its strategy. We have:
+&#10230; Nash equilibrium ― A Nash equilibrium is (π∗A,π∗B) such that no player has an incentive to change its strategy. у нас есть:
 
 <br>
 

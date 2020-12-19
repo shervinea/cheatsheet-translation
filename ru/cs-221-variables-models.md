@@ -263,7 +263,7 @@
 
 **38. Proposition ― Let C=MarkovBlanket(A) and B=X∖(A∪C). Then we have:**
 
-&#10230; Proposition ― Let C=MarkovBlanket(A) and B=X∖(A∪C). Then we have:
+&#10230; Proposition ― Let C=MarkovBlanket(A) and B=X∖(A∪C). Then у нас есть:
 
 <br>
 

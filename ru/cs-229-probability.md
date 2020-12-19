@@ -46,7 +46,7 @@
 
 **8. Axiom 3 ― For any sequence of mutually exclusive events E1,...,En, we have:**
 
-&#10230; Axiom 3 ― For any sequence of mutually exclusive events E1,...,En, we have:
+&#10230; Axiom 3 ― For any sequence of mutually exclusive events E1,...,En, у нас есть:
 
 <br>
 
@@ -76,7 +76,7 @@
 
 **13. Bayes' rule ― For events A and B such that P(B)>0, we have:**
 
-&#10230; Bayes' rule ― For events A and B such that P(B)>0, we have:
+&#10230; Bayes' rule ― For events A and B such that P(B)>0, у нас есть:
 
 <br>
 
@@ -88,7 +88,7 @@
 
 **15. Partition ― Let {Ai,i∈[[1,n]]} be such that for all i, Ai≠∅. We say that {Ai} is a partition if we have:**
 
-&#10230; Partition ― Let {Ai,i∈[[1,n]]} be such that for all i, Ai≠∅. We say that {Ai} is a partition if we have:
+&#10230; Partition ― Let {Ai,i∈[[1,n]]} be such that for all i, Ai≠∅. We say that {Ai} is a partition if у нас есть:
 
 <br>
 
@@ -100,13 +100,13 @@
 
 **17. Extended form of Bayes' rule ― Let {Ai,i∈[[1,n]]} be a partition of the sample space. We have:**
 
-&#10230; Extended form of Bayes' rule ― Let {Ai,i∈[[1,n]]} be a partition of the sample space. We have:
+&#10230; Extended form of Bayes' rule ― Let {Ai,i∈[[1,n]]} be a partition of the sample space. У нас есть:
 
 <br>
 
 **18. Independence ― Two events A and B are independent if and only if we have:**
 
-&#10230; Independence ― Two events A and B are independent if and only if we have:
+&#10230; Independence ― Two events A and B are independent if and only if у нас есть:
 
 <br>
 
@@ -178,13 +178,13 @@
 
 **30. Transformation of random variables ― Let the variables X and Y be linked by some function. By noting fX and fY the distribution function of X and Y respectively, we have:**
 
-&#10230; Transformation of random variables ― Let the variables X and Y be linked by some function. By noting fX and fY the distribution function of X and Y respectively, we have:
+&#10230; Transformation of random variables ― Let the variables X and Y be linked by some function. By noting fX and fY the distribution function of X and Y respectively, у нас есть:
 
 <br>
 
 **31. Leibniz integral rule ― Let g be a function of x and potentially c, and a,b boundaries that may depend on c. We have:**
 
-&#10230; Leibniz integral rule ― Let g be a function of x and potentially c, and a,b boundaries that may depend on c. We have:
+&#10230; Leibniz integral rule ― Let g be a function of x and potentially c, and a,b boundaries that may depend on c. У нас есть:
 
 <br>
 
@@ -238,7 +238,7 @@
 
 **40. Independence ― Two random variables X and Y are said to be independent if we have:**
 
-&#10230; Independence ― Two random variables X and Y are said to be independent if we have:
+&#10230; Independence ― Two random variables X and Y are said to be independent if у нас есть:
 
 <br>
 
@@ -322,7 +322,7 @@
 
 **54. Central Limit Theorem ― Let us have a random sample X1,...,Xn following a given distribution with mean μ and variance σ2, then we have:**
 
-&#10230; Central Limit Theorem ― Let us have a random sample X1,...,Xn following a given distribution with mean μ and variance σ2, then we have:
+&#10230; Central Limit Theorem ― Let us have a random sample X1,...,Xn following a given distribution with mean μ and variance σ2, then у нас есть:
 
 <br>
 
@@ -346,7 +346,7 @@
 
 **58. Chi-Squared relation with sample variance ― Let s2 be the sample variance of a random sample. We have:**
 
-&#10230; Chi-Squared relation with sample variance ― Let s2 be the sample variance of a random sample. We have:
+&#10230; Chi-Squared relation with sample variance ― Let s2 be the sample variance of a random sample. У нас есть:
 
 <br>
 

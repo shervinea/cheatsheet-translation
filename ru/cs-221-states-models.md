@@ -46,7 +46,7 @@
 
 **7. [Search problem ― A search problem is defined with:, a starting state sstart, possible actions Actions(s) from state s, action cost Cost(s,a) from state s with action a, successor Succ(s,a) of state s after action a, whether an end state was reached IsEnd(s)]**
 
-&#10230; [Проблема поиска ― Задача поиска определяется с помощью:, начальное состояние sstart, возможные действия Actions(s) из состояния s, стоимость действия Cost(s,a) из состояния s с действием a, преемник Succ(s,a) состояния s после действия a, было ли достигнуто конечное состояние IsEnd(s)]
+&#10230; [Задача поиска ― определяется с помощью:, начальное состояние sstart, возможные действия Actions(s) из состояния s, стоимость действия Cost(s,a) из состояния s с действием a, преемник Succ(s,a) состояния s после действия a, было ли достигнуто конечное состояние IsEnd(s)]
 
 <br>
 
@@ -109,14 +109,14 @@
 
 **16. Graph search**
 
-&#10230; Поиск графа
+&#10230; Поиск по графу
 
 <br>
 
 
 **17. This category of states-based algorithms aims at constructing optimal paths, enabling exponential savings. In this section, we will focus on dynamic programming and uniform cost search.**
 
-&#10230; Эта категория алгоритмов на основе состояний направлена на построение оптимальных путей, обеспечивающих экспоненциальную экономию. В этом разделе мы сосредоточимся на динамическом программировании и поиске единой стоимости.
+&#10230; Эта категория алгоритмов на основе состояний направлена на построение оптимальных путей, обеспечивающих экспоненциальную экономию. В этом разделе мы сосредоточимся на динамическом программировании и поиске по единой стоимости.
 
 <br>
 
@@ -144,7 +144,7 @@
 
 **21. Dynamic programming ― Dynamic programming (DP) is a backtracking search algorithm with memoization (i.e. partial results are saved) whose goal is to find a minimum cost path from state s to an end state send. It can potentially have exponential savings compared to traditional graph search algorithms, and has the property to only work for acyclic graphs. For any given state s, the future cost is computed as follows:**
 
-&#10230; Динамическое программирование (DP) ― это алгоритм поиска с возвратом и запоминанием (то есть частичные результаты сохраняются), цель которого - найти путь с минимальной стоимостью от состояния s в конечное состояние send. Он потенциально может иметь экспоненциальную экономию по сравнению с традиционными алгоритмами поиска графов и имеет свойство работать только для ациклических графов. Для любого заданного состояния s будущая стоимость рассчитывается следующим образом:
+&#10230; Динамическое программирование (DP) ― это алгоритм поиска с возвратом и запоминанием (то есть частичные результаты сохраняются), цель которого - найти путь с минимальной стоимостью от состояния s в конечное состояние send. Он потенциально может иметь экспоненциальную экономию по сравнению с традиционными алгоритмами поиска по графу и имеет свойство работать только для ациклических графов. Для любого заданного состояния s будущая стоимость рассчитывается следующим образом:
 
 <br>
 
@@ -165,7 +165,7 @@
 
 **24. Types of states ― The table below presents the terminology when it comes to states in the context of uniform cost search:**
 
-&#10230; Типы состояний ― В таблице ниже представлена терминология, когда речь идет о состояниях в контексте поиска единой стоимости:
+&#10230; Типы состояний ― В таблице ниже представлена терминология, когда речь идет о состояниях в контексте поиска по единой стоимости:
 
 <br>
 
@@ -235,7 +235,7 @@
 
 **34. [Dynamic programming, Uniform cost search]**
 
-&#10230; [Динамическое программирование, Единый поиск стоимости]
+&#10230; [Динамическое программирование, Поиск по единой стоимости]
 
 <br>
 
@@ -676,7 +676,7 @@
 
 **97. Game playing**
 
-&#10230; Играть в игру
+&#10230; Игровой процесс
 
 <br>
 
@@ -711,168 +711,168 @@
 
 **102. [Types of policies ― There are two types of policies:, Deterministic policies, noted πp(s), which are actions that player p takes in state s., Stochastic policies, noted πp(s,a)∈[0,1], which are probabilities that player p takes action a in state s.]**
 
-&#10230; [Types of policies ― There are two types of policies:, Deterministic policies, noted πp(s), which are actions that player p takes in state s., Stochastic policies, noted πp(s,a)∈[0,1], which are probabilities that player p takes action a in state s.]
+&#10230; [Типы политик ― Есть два типа политик:, Детерминистские политики, обозначаются πp(s), действия игрока p в состоянии s., Стохастические политики, обозначаются πp(s,a)∈[0,1], вероятности совершения игроком p действия a в состоянии s.]
 
 <br>
 
 
 **103. Expectimax ― For a given state s, the expectimax value Vexptmax(s) is the maximum expected utility of any agent policy when playing with respect to a fixed and known opponent policy πopp. It is computed as follows:**
 
-&#10230; Expectimax ― For a given state s, the expectimax value Vexptmax(s) is the maximum expected utility of any agent policy when playing with respect to a fixed and known opponent policy πopp. It is computed as follows:
+&#10230; Expectimax ― Для данного состояния s значение expectimax Vexptmax(s) является максимальной ожидаемой полезностью любой политики агента при игре относительно фиксированной и известной политики противника πopp. Он рассчитывается следующим образом:
 
 <br>
 
 
 **104. Remark: expectimax is the analog of value iteration for MDPs.**
 
-&#10230; Примечание: expectimax is the analog of value iteration for MDPs.
+&#10230; Примечание: expectimax - аналог итерации значений для MDP.
 
 <br>
 
 
 **105. Minimax ― The goal of minimax policies is to find an optimal policy against an adversary by assuming the worst case, i.e. that the opponent is doing everything to minimize the agent's utility. It is done as follows:**
 
-&#10230; Minimax ― The goal of minimax policies is to find an optimal policy against an adversary by assuming the worst case, i.e. that the opponent is doing everything to minimize the agent's utility. It is done as follows:
+&#10230; Minimax ― Цель минимаксных политик - найти оптимальную политику против противника, предполагая наихудший случай, то есть то, что противник делает все, чтобы минимизировать полезность агента. Делается это следующим образом:
 
 <br>
 
 
 **106. Remark: we can extract πmax and πmin from the minimax value Vminimax.**
 
-&#10230; Примечание: we can extract πmax and πmin from the minimax value Vminimax.
+&#10230; Примечание: мы можем извлечь πmax и πmin из минимаксного значения Vminimax.
 
 <br>
 
 
 **107. Minimax properties ― By noting V the value function, there are 3 properties around minimax to have in mind:**
 
-&#10230; Minimax properties ― By noting V the value function, there are 3 properties around minimax to have in mind:
+&#10230; Свойства minimax ― Обозначим V как функцию ценности, необходимо иметь в виду 3 свойства вокруг минимакса:
 
 <br>
 
 
 **108. Property 1: if the agent were to change its policy to any πagent, then the agent would be no better off.**
 
-&#10230; Property 1: if the agent were to change its policy to any πagent, then the agent would be no better off.
+&#10230; Свойство 1: если агент изменит свою политику на какой-либо πagent, то ему не будет лучше.
 
 <br>
 
 
 **109. Property 2: if the opponent changes its policy from πmin to πopp, then he will be no better off.**
 
-&#10230; Property 2: if the opponent changes its policy from πmin to πopp, then he will be no better off.
+&#10230; Свойство 2: если противник изменит свою политику с πmin на πopp, то ему не станет лучше.
 
 <br>
 
 
 **110. Property 3: if the opponent is known to be not playing the adversarial policy, then the minimax policy might not be optimal for the agent.**
 
-&#10230; Property 3: if the opponent is known to be not playing the adversarial policy, then the minimax policy might not be optimal for the agent.
+&#10230; Свойство 3: если известно, что противник не использует состязательную политику, то минимаксная политика может быть неоптимальной для агента.
 
 <br>
 
 
 **111. In the end, we have the following relationship:**
 
-&#10230; In the end, we have the following relationship:
+&#10230; В итоге имеем следующие отношения:
 
 <br>
 
 
 **112. Speeding up minimax**
 
-&#10230; Speeding up minimax
+&#10230; Ускорение minimax
 
 <br>
 
 
 **113. Evaluation function ― An evaluation function is a domain-specific and approximate estimate of the value Vminimax(s). It is noted Eval(s).**
 
-&#10230; Evaluation function ― An evaluation function is a domain-specific and approximate estimate of the value Vminimax(s). It is noted Eval(s).
+&#10230; Функция оценки ― Функция оценки - это зависящая от предметной области и приблизительная оценка значения Vminimax(s). Обозначается Eval(s).
 
 <br>
 
 
 **114. Remark: FutureCost(s) is an analogy for search problems.**
 
-&#10230; Примечание: FutureCost(s) is an analogy for search problems.
+&#10230; Примечание: FutureCost(s) - аналог задачи поиска.
 
 <br>
 
 
 **115. Alpha-beta pruning ― Alpha-beta pruning is a domain-general exact method optimizing the minimax algorithm by avoiding the unnecessary exploration of parts of the game tree. To do so, each player keeps track of the best value they can hope for (stored in α for the maximizing player and in β for the minimizing player). At a given step, the condition β<α means that the optimal path is not going to be in the current branch as the earlier player had a better option at their disposal.**
 
-&#10230; Alpha-beta pruning ― Alpha-beta pruning is a domain-general exact method optimizing the minimax algorithm by avoiding the unnecessary exploration of parts of the game tree. To do so, each player keeps track of the best value they can hope for (stored in α for the maximizing player and in β for the minimizing player). At a given step, the condition β<α means that the optimal path is not going to be in the current branch as the earlier player had a better option at their disposal.
+&#10230; Альфа-бета обрезка ― Альфа-бета обрезка - это общий для предметной области точный метод, оптимизирующий алгоритм минимакса, избегая ненужного исследования частей игрового дерева. Для этого каждый игрок отслеживает наилучшее значение, на которое он может надеяться (сохраняется в α для максимизирующего игрока и в β для минимизирующего игрока). На данном шаге условие β<α означает, что оптимальный путь не будет в текущей ветви, поскольку у более раннего игрока был лучший вариант в своем распоряжении.
 
 <br>
 
 
 **116. TD learning ― Temporal difference (TD) learning is used when we don't know the transitions/rewards. The value is based on exploration policy. To be able to use it, we need to know rules of the game Succ(s,a). For each (s,a,r,s′), the update is done as follows:**
 
-&#10230; TD learning ― Temporal difference (TD) learning is used when we don't know the transitions/rewards. The value is based on exploration policy. To be able to use it, we need to know rules of the game Succ(s,a). For each (s,a,r,s′), the update is done as follows:
+&#10230; Обучение (Temporal difference TD) ― Обучение временной разнице используется, когда мы не знаем переходов/наград. Значение основано на политике разведки. Чтобы использовать его, нам необходимо знать правила игры Succ(s,a). Для каждого (s,a,r,s′) обновление выполняется следующим образом:
 
 <br>
 
 
 **117. Simultaneous games**
 
-&#10230; Simultaneous games
+&#10230; Одновременные игры
 
 <br>
 
 
 **118. This is the contrary of turn-based games, where there is no ordering on the player's moves.**
 
-&#10230; This is the contrary of turn-based games, where there is no ordering on the player's moves.
+&#10230; Это полная противоположность пошаговым играм, где нет упорядочивания ходов игрока.
 
 <br>
 
 
 **119. Single-move simultaneous game ― Let there be two players A and B, with given possible actions. We note V(a,b) to be A's utility if A chooses action a, B chooses action b. V is called the payoff matrix.**
 
-&#10230; Single-move simultaneous game ― Let there be two players A and B, with given possible actions. We note V(a,b) to be A's utility if A chooses action a, B chooses action b. V is called the payoff matrix.
+&#10230; Одновременная игра с одним ходом ― пусть есть два игрока A и B с заданными возможными действиями. Мы отмечаем, что V(a,b) является полезностью A, если A выбирает действие a, B выбирает действие b. V называется матрицей выигрыша.
 
 <br>
 
 
 **120. [Strategies ― There are two main types of strategies:, A pure strategy is a single action:, A mixed strategy is a probability distribution over actions:]**
 
-&#10230; [Strategies ― There are two main types of strategies:, A pure strategy is a single action:, A mixed strategy is a probability distribution over actions:]
+&#10230; [Стратегии ― Есть два основных типа стратегий:, Чистая стратегия - это одно действие:, Смешанная стратегия - это распределение вероятностей по действиям:]
 
 <br>
 
 
 **121. Game evaluation ― The value of the game V(πA,πB) when player A follows πA and player B follows πB is such that:**
 
-&#10230; Game evaluation ― The value of the game V(πA,πB) when player A follows πA and player B follows πB is such that:
+&#10230; Оценка игры ― Ценность игры V(πA,πB), когда игрок A следует за πA, а игрок B следует за πB, такова, что:
 
 <br>
 
 
 **122. Minimax theorem ― By noting πA,πB ranging over mixed strategies, for every simultaneous two-player zero-sum game with a finite number of actions, we have:**
 
-&#10230; Minimax theorem ― By noting πA,πB ranging over mixed strategies, for every simultaneous two-player zero-sum game with a finite number of actions, у нас есть:
+&#10230; Minimax теорема ― Положим, что πA, πB пробегают по смешанным стратегиям для любой одновременной игры двух игроков с нулевой суммой и конечного числа действий, у нас есть:
 
 <br>
 
 
 **123. Non-zero-sum games**
 
-&#10230; Non-zero-sum games
+&#10230; Игры с ненулевой суммой
 
 <br>
 
 
 **124. Payoff matrix ― We define Vp(πA,πB) to be the utility for player p.**
 
-&#10230; Payoff matrix ― We define Vp(πA,πB) to be the utility for player p.
+&#10230; Матрица выигрыша ― Мы определяем Vp(πA,πB) как полезность для игрока p.
 
 <br>
 
 
 **125. Nash equilibrium ― A Nash equilibrium is (π∗A,π∗B) such that no player has an incentive to change its strategy. We have:**
 
-&#10230; Nash equilibrium ― A Nash equilibrium is (π∗A,π∗B) such that no player has an incentive to change its strategy. у нас есть:
+&#10230; Nash equilibrium ― Равновесие по Нэшу - это (π∗A,π∗B) такое, что ни у одного игрока нет стимула изменить свою стратегию, у нас есть:
 
 <br>
 
@@ -886,56 +886,56 @@
 
 **127. Remark: in any finite-player game with finite number of actions, there exists at least one Nash equilibrium.**
 
-&#10230; Примечание: in any finite-player game with finite number of actions, there exists at least one Nash equilibrium.
+&#10230; Примечание: в любой игре с конечным числом игроков и конечным числом действий существует хотя бы одно равновесие по Нэшу.
 
 <br>
 
 
 **128. [Tree search, Backtracking search, Breadth-first search, Depth-first search, Iterative deepening]**
 
-&#10230; [Tree search, Backtracking search, Breadth-first search, Depth-first search, Iterative deepening]
+&#10230; [Поиск по дереву, Поиск с возвратом, Поиск в ширину, Поиск в глубину, С итеративным углублением]
 
 <br>
 
 
 **129. [Graph search, Dynamic programming, Uniform cost search]**
 
-&#10230; [Graph search, Dynamic programming, Uniform cost search]
+&#10230; [Поиск по графу, Динамическое программирование, Поиск по единой стоимости]
 
 <br>
 
 
 **130. [Learning costs, Structured perceptron]**
 
-&#10230; [Learning costs, Structured perceptron]
+&#10230; [Стоимость обучения, Структурированный перцептрон]
 
 <br>
 
 
 **131. [A star search, Heuristic function, Algorithm, Consistency, correctness, Admissibility, efficiency]**
 
-&#10230; [A star search, Heuristic function, Algorithm, Consistency, correctness, Admissibility, efficiency]
+&#10230; [A со звездой поиск, Эвристическая функция, Алгоритм, Консистентность, Корректность, Допустимость, Эффективность]
 
 <br>
 
 
 **132. [Relaxation, Relaxed search problem, Relaxed heuristic, Max heuristic]**
 
-&#10230; [Relaxation, Relaxed search problem, Relaxed heuristic, Max heuristic]
+&#10230; [Ослабление, Задача с ослабленными ограничениями поиска, Ослабленная эвристика, Max эвристика]
 
 <br>
 
 
 **133. [Markov decision processes, Overview, Policy evaluation, Value iteration, Transitions, rewards]**
 
-&#10230; [Markov decision processes, Overview, Policy evaluation, Value iteration, Transitions, rewards]
+&#10230; [Марковские процессы принятия решений, Обзор, Оценка политики, Итерация ценности, Переходы, Награды]
 
 <br>
 
 
 **134. [Game playing, Expectimax, Minimax, Speeding up minimax, Simultaneous games, Non-zero-sum games]**
 
-&#10230; [Game playing, Expectimax, Minimax, Speeding up minimax, Simultaneous games, Non-zero-sum games]
+&#10230; [Игровой процесс, Expectimax, Minimax, Ускорение minimax, Одновременные игры, Игры с ненулевой суммой]
 
 <br>
 

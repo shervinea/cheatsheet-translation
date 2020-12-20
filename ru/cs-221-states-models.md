@@ -949,7 +949,7 @@
 
 **136. Original authors**
 
-&#10230; Оригинальные авторы ACHTUNG!!!
+&#10230; Авторы оригинала ACHTUNG!!!
 
 <br>
 
@@ -977,4 +977,4 @@
 
 **140. The Artificial Intelligence cheatsheets are now available in [target language].**
 
-&#10230; Шпаргалки по искусственному интеллекту теперь доступны в формате [язык перевода].
+&#10230; Шпаргалки по искусственному интеллекту теперь доступны в формате [target language].

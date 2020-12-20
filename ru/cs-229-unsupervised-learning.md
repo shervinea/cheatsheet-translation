@@ -305,25 +305,25 @@ dimensions by maximizing the variance of the data as follows:**
 
 **51. The Machine Learning cheatsheets are now available in [target language].**
 
-&#10230; The Machine Learning cheatsheets are now available in [target language].
+&#10230; Шпаргалки по машинному обучению теперь доступны в формате [target language].
 
 <br>
 
 **52. Original authors**
 
-&#10230; Original authors
+&#10230; Авторы оригинала
 
 <br>
 
 **53. Translated by X, Y and Z**
 
-&#10230; Translated by X, Y and Z
+&#10230; Переведено X, Y и Z
 
 <br>
 
 **54. Reviewed by X, Y and Z**
 
-&#10230; Reviewed by X, Y and Z
+&#10230; Проверено X, Y и Z
 
 <br>
 

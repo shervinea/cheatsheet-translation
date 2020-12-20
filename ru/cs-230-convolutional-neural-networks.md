@@ -676,41 +676,41 @@
 
 **97. The Deep Learning cheatsheets are now available in [target language].**
 
-&#10230; The Deep Learning cheatsheets are now available in [target language].
+&#10230; Шпаргалки по глубокому обучению теперь доступны в формате [target language].
 
 <br>
 
 
 **98. Original authors**
 
-&#10230; Original authors
+&#10230; Авторы оригинала
 
 <br>
 
 
 **99. Translated by X, Y and Z**
 
-&#10230; Translated by X, Y and Z
+&#10230; Переведено X, Y и Z
 
 <br>
 
 
 **100. Reviewed by X, Y and Z**
 
-&#10230; Reviewed by X, Y and Z
+&#10230; Проверено X, Y и Z
 
 <br>
 
 
 **101. View PDF version on GitHub**
 
-&#10230; View PDF version on GitHub
+&#10230; Посмотреть PDF-версию на GitHub
 
 <br>
 
 
 **102. By X and Y**
 
-&#10230; By X and Y
+&#10230; По X и Y
 
 <br>

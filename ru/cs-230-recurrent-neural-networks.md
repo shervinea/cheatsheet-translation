@@ -375,7 +375,7 @@
 
 **54. Skip-gram ― The skip-gram word2vec model is a supervised learning task that learns word embeddings by assessing the likelihood of any given target word t happening with a context word c. By noting θt a parameter associated with t, the probability P(t|c) is given by:**
 
-&#10230; Skip-gram ― The skip-gram word2vec model is a supervised learning task that learns word embeddings by assessing the likelihood of any given target word t happening with a context word c. By noting θt a parameter associated with t, the probability P(t|c) is given by:
+&#10230; Skip-gram ― The skip-gram word2vec model is a supervised learning task that learns word embeddings by assessing the likelihood of any given target word t happening with a context word c. Обозначим θt a parameter associated with t, the probability P(t|c) is given by:
 
 <br>
 
@@ -600,7 +600,7 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 
 **85. Attention model ― This model allows an RNN to pay attention to specific parts of the input that is considered as being important, which improves the performance of the resulting model in practice. By noting α<t,t′> the amount of attention that the output y<t> should pay to the activation a<t′> and c<t> the context at time t, we have:**
 
-&#10230; Attention model ― This model allows an RNN to pay attention to specific parts of the input that is considered as being important, which improves the performance of the resulting model in practice. By noting α<t,t′> the amount of attention that the output y<t> should pay to the activation a<t′> and c<t> the context at time t, у нас есть:
+&#10230; Attention model ― This model allows an RNN to pay attention to specific parts of the input that is considered as being important, which improves the performance of the resulting model in practice. Обозначим α<t,t′> the amount of attention that the output y<t> should pay to the activation a<t′> and c<t> the context at time t, у нас есть:
 
 <br>
 

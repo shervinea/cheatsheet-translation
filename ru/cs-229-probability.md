@@ -178,7 +178,7 @@
 
 **30. Transformation of random variables ― Let the variables X and Y be linked by some function. By noting fX and fY the distribution function of X and Y respectively, we have:**
 
-&#10230; Transformation of random variables ― Let the variables X and Y be linked by some function. By noting fX and fY the distribution function of X and Y respectively, у нас есть:
+&#10230; Transformation of random variables ― Let the variables X and Y be linked by some function. Обозначим fX and fY the distribution function of X and Y respectively, у нас есть:
 
 <br>
 
@@ -250,7 +250,7 @@
 
 **42. Correlation ― By noting σX,σY the standard deviations of X and Y, we define the correlation between the random variables X and Y, noted ρXY, as follows:**
 
-&#10230; Correlation ― By noting σX,σY the standard deviations of X and Y, we define the correlation between the random variables X and Y, noted ρXY, as follows:
+&#10230; Correlation ― Обозначим σX,σY the standard deviations of X and Y, we define the correlation between the random variables X and Y, noted ρXY, as follows:
 
 <br>
 

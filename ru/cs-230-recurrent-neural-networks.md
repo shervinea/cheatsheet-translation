@@ -312,91 +312,91 @@
 
 **45. [1-hot representation, Word embedding]**
 
-&#10230; [1-hot representation, Word embedding]
+&#10230; [1-hot представление, Встраивание слов]
 
 <br>
 
 
 **46. [teddy bear, book, soft]**
 
-&#10230; [teddy bear, book, soft]
+&#10230; [плюшевый мишка, книжка, мягкий]
 
 <br>
 
 
 **47. [Noted ow, Naive approach, no similarity information, Noted ew, Takes into account words similarity]**
 
-&#10230; [Noted ow, Naive approach, no similarity information, Noted ew, Takes into account words similarity]
+&#10230; [Обозначено ow, Наивный подход, нет информации о сходстве, Обозначено ew, Учитывает сходство слов]
 
 <br>
 
 
 **48. Embedding matrix ― For a given word w, the embedding matrix E is a matrix that maps its 1-hot representation ow to its embedding ew as follows:**
 
-&#10230; Embedding matrix ― For a given word w, the embedding matrix E is a matrix that maps its 1-hot representation ow to its embedding ew as follows:
+&#10230; Матрица представления (embedding matrix) ― для данного слова w матрица представления E является матрицей, которая отображает свое 1-hot представление ow на его представления ew следующим образом:
 
 <br>
 
 
 **49. Remark: learning the embedding matrix can be done using target/context likelihood models.**
 
-&#10230; Примечание: learning the embedding matrix can be done using target/context likelihood models.
+&#10230; Примечание: изучение матрицы представления может быть выполнено с использованием моделей целевого/контекстного правдоподобия.
 
 <br>
 
 
 **50. Word embeddings**
 
-&#10230; Word embeddings
+&#10230; Векторное представление слов
 
 <br>
 
 
 **51. Word2vec ― Word2vec is a framework aimed at learning word embeddings by estimating the likelihood that a given word is surrounded by other words. Popular models include skip-gram, negative sampling and CBOW.**
 
-&#10230; Word2vec ― Word2vec is a framework aimed at learning word embeddings by estimating the likelihood that a given word is surrounded by other words. Popular models include skip-gram, negative sampling and CBOW.
+&#10230; Word2vec ― это фреймворк, предназначенный для изучения встраивания слов путем оценки вероятности того, что данное слово окружено другими словами. Популярные модели включают скип-грамм, отрицательную выборку и CBOW.
 
 <br>
 
 
 **52. [A cute teddy bear is reading, teddy bear, soft, Persian poetry, art]**
 
-&#10230; [A cute teddy bear is reading, teddy bear, soft, Persian poetry, art]
+&#10230; [Читает милый плюшевый мишка, плюшевый мишка, мягкий, персидская поэзия, искусство]
 
 <br>
 
 
 **53. [Train network on proxy task, Extract high-level representation, Compute word embeddings]**
 
-&#10230; [Train network on proxy task, Extract high-level representation, Compute word embeddings]
+&#10230; [Обучить сеть на прокси-задаче, Извлечь высокоуровневое представление, Вычислить представления слов]
 
 <br>
 
 
 **54. Skip-gram ― The skip-gram word2vec model is a supervised learning task that learns word embeddings by assessing the likelihood of any given target word t happening with a context word c. By noting θt a parameter associated with t, the probability P(t|c) is given by:**
 
-&#10230; Skip-gram ― The skip-gram word2vec model is a supervised learning task that learns word embeddings by assessing the likelihood of any given target word t happening with a context word c. Обозначим θt a parameter associated with t, the probability P(t|c) is given by:
+&#10230; Skip-gram ― Модель word2vec с пропуском граммы - это задача с контролем учителем, которая изучает встраивание слов, оценивая правдоподобие того, что любое заданное целевое слово t встречается с контекстным словом c. Обозначим θt параметр, связанный с t, вероятность P(t|c) определяется выражением:
 
 <br>
 
 
 **55. Remark: summing over the whole vocabulary in the denominator of the softmax part makes this model computationally expensive. CBOW is another word2vec model using the surrounding words to predict a given word.**
 
-&#10230; Примечание: summing over the whole vocabulary in the denominator of the softmax part makes this model computationally expensive. CBOW is another word2vec model using the surrounding words to predict a given word.
+&#10230; Примечание: суммирование по всему словарю в знаменателе части softmax делает эту модель дорогостоящей в вычислительном отношении. CBOW - это еще одна модель word2vec, использующая окружающие слова для предсказания данного слова.
 
 <br>
 
 
 **56. Negative sampling ― It is a set of binary classifiers using logistic regressions that aim at assessing how a given context and a given target words are likely to appear simultaneously, with the models being trained on sets of k negative examples and 1 positive example. Given a context word c and a target word t, the prediction is expressed by:**
 
-&#10230; Negative sampling ― It is a set of binary classifiers using logistic regressions that aim at assessing how a given context and a given target words are likely to appear simultaneously, with the models being trained on sets of k negative examples and 1 positive example. Given a context word c and a target word t, the prediction is expressed by:
+&#10230; Отрицательная выборка ― это набор бинарных классификаторов, использующих логистические регрессии, целью которых является оценка того, как данный контекст и заданные целевые слова могут появляться одновременно, при этом модели обучаются на наборах из k отрицательных примеров и 1 положительного примера. Учитывая контекстное слово c и целевое слово t, прогноз выражается следующим образом:
 
 <br>
 
 
 **57. Remark: this method is less computationally expensive than the skip-gram model.**
 
-&#10230; Примечание: this method is less computationally expensive than the skip-gram model.
+&#10230; Примечание: этот метод менее затратен с точки зрения вычислений, чем модель скип-граммы.
 
 <br>
 
@@ -408,80 +408,79 @@
 <br>
 
 
-**58. where f is a weighting function such that Xi,j=0⟹f(Xi,j)=0.
-Given the symmetry that e and θ play in this model, the final word embedding e(final)w is given by:**
+**58. where f is a weighting function such that Xi,j=0⟹f(Xi,j)=0. Given the symmetry that e and θ play in this model, the final word embedding e(final)w is given by:**
 
-&#10230;
+&#10230; где f - такая весовая функция, что Xi,j=0⟹f(Xi,j)=0. Учитывая симметрию, которую играют e и θ в этой модели, последнее представление слов e(final)w дается выражением:
 
 <br>
 
 
 **59. Remark: the individual components of the learned word embeddings are not necessarily interpretable.**
 
-&#10230; Примечание: the individual components of the learned word embeddings are not necessarily interpretable.
+&#10230; Примечание: отдельные компоненты представления слов не обязательно поддаются интерпретации.
 
 <br>
 
 
 **60. Comparing words**
 
-&#10230; Comparing words
+&#10230; Сравнение слов
 
 <br>
 
 
 **61. Cosine similarity ― The cosine similarity between words w1 and w2 is expressed as follows:**
 
-&#10230; Cosine similarity ― The cosine similarity between words w1 and w2 is expressed as follows:
+&#10230; Косинусное сходство ― косинусное сходство между словами w1 и w2 выражается следующим образом:
 
 <br>
 
 
 **62. Remark: θ is the angle between words w1 and w2.**
 
-&#10230; Примечание: θ is the angle between words w1 and w2.
+&#10230; Примечание: θ - угол между словами w1 и w2.
 
 <br>
 
 
 **63. t-SNE ― t-SNE (t-distributed Stochastic Neighbor Embedding) is a technique aimed at reducing high-dimensional embeddings into a lower dimensional space. In practice, it is commonly used to visualize word vectors in the 2D space.**
 
-&#10230; t-SNE ― t-SNE (t-distributed Stochastic Neighbor Embedding) is a technique aimed at reducing high-dimensional embeddings into a lower dimensional space. In practice, it is commonly used to visualize word vectors in the 2D space.
+&#10230; t-SNE ― t-распределенное стохастическое соседнее представление (t-distributed Stochastic Neighbor Embedding, t-SNE) - это метод, направленный на сокращение представлений большой размерности в пространство меньшей размерности. На практике он обычно используется для визуализации векторов слов в 2D-пространстве.
 
 <br>
 
 
 **64. [literature, art, book, culture, poem, reading, knowledge, entertaining, loveable, childhood, kind, teddy bear, soft, hug, cute, adorable]**
 
-&#10230; [literature, art, book, culture, poem, reading, knowledge, entertaining, loveable, childhood, kind, teddy bear, soft, hug, cute, adorable]
+&#10230; [литература, искусство, книга, культура, стихотворение, чтение, знания, развлекательный, милый, детство, добрый, плюшевый мишка, мягкий, обнять, милый, очаровательный]
 
 <br>
 
 
 **65. Language model**
 
-&#10230; Language model
+&#10230; Языковая модель
 
 <br>
 
 
 **66. Overview ― A language model aims at estimating the probability of a sentence P(y).**
 
-&#10230; Overview ― A language model aims at estimating the probability of a sentence P(y).
+&#10230; Обзор ― языковая модель предназначена для оценки вероятности предложения P(y).
 
 <br>
 
 
 **67. n-gram model ― This model is a naive approach aiming at quantifying the probability that an expression appears in a corpus by counting its number of appearance in the training data.**
 
-&#10230; n-gram model ― This model is a naive approach aiming at quantifying the probability that an expression appears in a corpus by counting its number of appearance in the training data.
+&#10230; Модель n ― граммы - эта модель представляет собой наивный подход, направленный на количественную оценку вероятности того, что выражение появляется в корпусе, путем подсчета его количества появлений в обучающих данных.
 
 <br>
 
 
 **68. Perplexity ― Language models are commonly assessed using the perplexity metric, also known as PP, which can be interpreted as the inverse probability of the dataset normalized by the number of words T. The perplexity is such that the lower, the better and is defined as follows:**
 
-&#10230; Недоумение - языковые модели обычно оцениваются с помощью метрики недоумения, также известной как PP, которую можно интерпретировать как обратную вероятность набора данных, нормализованную на количество слов T. Недоумение таково, что чем ниже, тем лучше и определяется как следует:
+&#10230; Недоумение - языковые модели обычно оцениваются с помощью метрики недоумения, также известной как PP, которую можно интерпретировать как обратную вероятность набора данных, нормализованную на количество слов T. Недоумение таково, что чем ниже, тем лучше и определяется как следует: ACHTUNG!!!
 
 <br>
 
@@ -502,28 +501,28 @@ Given the symmetry that e and θ play in this model, the final word embedding e(
 
 **71. Overview ― A machine translation model is similar to a language model except it has an encoder network placed before. For this reason, it is sometimes referred as a conditional language model. The goal is to find a sentence y such that:**
 
-&#10230; Overview ― A machine translation model is similar to a language model except it has an encoder network placed before. For this reason, it is sometimes referred as a conditional language model. The goal is to find a sentence y such that:
+&#10230; Обзор ― модель машинного перевода похожа на языковую модель, за исключением того, что в ней размещена сеть кодировщика. По этой причине её иногда называют моделью условного языка. Цель состоит в том, чтобы найти такое предложение y, что:
 
 <br>
 
 
 **72. Beam search ― It is a heuristic search algorithm used in machine translation and speech recognition to find the likeliest sentence y given an input x.**
 
-&#10230; Beam search ― It is a heuristic search algorithm used in machine translation and speech recognition to find the likeliest sentence y given an input x.
+&#10230; Лучевой поиск ― это алгоритм эвристического поиска, используемый в машинном переводе и распознавании речи для поиска наиболее вероятного предложения y при вводе x.
 
 <br>
 
 
 **73. [Step 1: Find top B likely words y<1>, Step 2: Compute conditional probabilities y<k>|x,y<1>,...,y<k−1>, Step 3: Keep top B combinations x,y<1>,...,y<k>, End process at a stop word]**
 
-&#10230; [Step 1: Find top B likely words y<1>, Step 2: Compute conditional probabilities y<k>|x,y<1>,...,y<k−1>, Step 3: Keep top B combinations x,y<1>,...,y<k>, End process at a stop word]
+&#10230; [Шаг 1: Найти top B наиболее вероятных слов y<1>, Шаг 2: Вычислить условные вероятности y<k>|x,y<1>,...,y<k−1>, Шаг 3: Сохранить top B комбинации x,y<1>,...,y<k>, Завершить процесс на стоп-слове]
 
 <br>
 
 
 **74. Remark: if the beam width is set to 1, then this is equivalent to a naive greedy search.**
 
-&#10230; Примечание: if the beam width is set to 1, then this is equivalent to a naive greedy search.
+&#10230; Примечание: если ширина луча установлена на 1, то это равносильно наивному жадному поиску.
 
 <br>
 

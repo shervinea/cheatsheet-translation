@@ -88,7 +88,7 @@
 
 **15. We note c(i) the cluster of data point i and μj the center of cluster j.**
 
-&#10230; We note c(i) the cluster of data point i and μj the center of cluster j.
+&#10230; Мы обозначаем c(i) the cluster of data point i and μj the center of cluster j.
 
 <br>
 

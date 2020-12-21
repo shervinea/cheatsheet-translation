@@ -4,7 +4,7 @@
 
 **1. Probabilities and Statistics refresher**
 
-&#10230; Probabilities and Statistics refresher
+&#10230; Памятка: Вероятности и Статистики
 
 <br>
 
@@ -64,7 +64,7 @@
 
 **11. Remark: we note that for 0⩽r⩽n, we have P(n,r)⩾C(n,r)**
 
-&#10230; Примечание: we note that for 0⩽r⩽n, we have P(n,r)⩾C(n,r)
+&#10230; Примечание: отметим, что для 0⩽r⩽n, у нас есть P(n,r)⩾C(n,r)
 
 <br>
 
@@ -76,13 +76,13 @@
 
 **13. Bayes' rule ― For events A and B such that P(B)>0, we have:**
 
-&#10230; Bayes' rule ― For events A and B such that P(B)>0, у нас есть:
+&#10230; Правило Байеса ― Для событий A и B таких, что P(B)>0, у нас есть:
 
 <br>
 
 **14. Remark: we have P(A∩B)=P(A)P(B|A)=P(A|B)P(B)**
 
-&#10230; Примечание: we have P(A∩B)=P(A)P(B|A)=P(A|B)P(B)
+&#10230; Примечание: у нас есть P(A∩B)=P(A)P(B|A)=P(A|B)P(B)
 
 <br>
 
@@ -256,25 +256,25 @@
 
 **43. Remark 1: we note that for any random variables X,Y, we have ρXY∈[−1,1].**
 
-&#10230; Remark 1: we note that for any random variables X,Y, we have ρXY∈[−1,1].
+&#10230;Замечание 1: отметим, что для любых случайных величин X, Y мы имеем ρXY∈[−1,1].
 
 <br>
 
 **44. Remark 2: If X and Y are independent, then ρXY=0.**
 
-&#10230; Remark 2: If X and Y are independent, then ρXY=0.
+&#10230; Замечание 2: Если X и Y независимы, то ρXY=0.
 
 <br>
 
 **45. Parameter estimation**
 
-&#10230; Parameter estimation
+&#10230; Оценка параметров
 
 <br>
 
 **46. Definitions**
 
-&#10230; Definitions
+&#10230; Определения
 
 <br>
 

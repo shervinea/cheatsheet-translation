@@ -102,7 +102,7 @@
 
 **15. Satisfiability ― The knowledge base KB is said to be satisfiable if at least one model w satisfies all its constraints. In other words:**
 
-&#10230; Выполнимость ― База знаний KB называется выполнимой, если хотя бы одна модель w удовлетворяет всем ее ограничениям. Другими словами:
+&#10230; Выполнимость ― База знаний KB называется выполнимой, если хотя бы одна модель w удовлетворяет всем её ограничениям. Другими словами:
 
 <br>
 
@@ -144,7 +144,7 @@
 
 **21. [f does not bring any new information, Also written KB⊨f, No model satisfies the constraints after adding f, Equivalent to KB⊨¬f, f does not contradict KB, f adds a non-trivial amount of information to KB]**
 
-&#10230; [f не несет никакой новой информации, Также пишут KB⊨f, После добавления f ни одна модель не удовлетворяет ограничениям, Эквивалентно KB⊨¬f, f не противоречит KB, f добавляет в КБ нетривиальный объем информации]
+&#10230; [f не несет никакой новой информации, Также пишут KB⊨f, После добавления f ни одна модель не удовлетворяет ограничениям, Эквивалентно KB⊨¬f, f не противоречит KB, f добавляет в КБ нетривиальное количество информации]
 
 <br>
 

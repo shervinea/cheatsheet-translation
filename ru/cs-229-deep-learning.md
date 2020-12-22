@@ -125,7 +125,7 @@
 
 **21. Convolutional layer requirement ― By noting W the input volume size, F the size of the convolutional layer neurons, P the amount of zero padding, then the number of neurons N that fit in a given volume is such that:**
 
-&#10230; Требования к сверточному слою ― обозначим W - размер входного объема, F - размер нейронов сверточного слоя, P - величину дополнения нулями, тогда количество нейронов N, которые помещаются в данный объем, будет таким:
+&#10230; Требования к сверточному слою ― обозначим W - размер входного объёма, F - размер нейронов сверточного слоя, P - величину дополнения нулями, тогда количество нейронов N, которые помещаются в данный объём, будет таким:
 
 <br>
 

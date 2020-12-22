@@ -172,7 +172,7 @@
 
 **25. Dimensions of a filter ― A filter of size F×F applied to an input containing C channels is a F×F×C volume that performs convolutions on an input of size I×I×C and produces an output feature map (also called activation map) of size O×O×1.**
 
-&#10230; Размеры фильтра ― Фильтр размера F×F, применяемый к входу, содержащему каналы C, представляет собой объем F×F×C, который выполняет свертки на входе размера I×I×C и создает карту выходных характеристик (также называемую картой активации) размера O×O×1.
+&#10230; Размеры фильтра ― Фильтр размера F×F, применяемый к входу, содержащему каналы C, представляет собой объём F×F×C, который выполняет свертки на входе размера I×I×C и создает карту выходных характеристик (также называемую картой активации) размера O×O×1.
 
 <br>
 
@@ -228,7 +228,7 @@
 
 **33. Parameter compatibility in convolution layer ― By noting I the length of the input volume size, F the length of the filter, P the amount of zero padding, S the stride, then the output size O of the feature map along that dimension is given by:**
 
-&#10230; Совместимость параметров в сверточном слое ― Обозначим I длину входного размера объема, F длину фильтра, P длину дополнения нулями, S шаг, затем выходной размер O карты функций по этому измерению определяется как:
+&#10230; Совместимость параметров в сверточном слое ― Обозначим I длину входного размера объёма, F длину фильтра, P длину дополнения нулями, S шаг, затем выходной размер O карты функций по этому измерению определяется как:
 
 <br>
 
@@ -249,7 +249,7 @@
 
 **36. Understanding the complexity of the model ― In order to assess the complexity of a model, it is often useful to determine the number of parameters that its architecture will have. In a given layer of a convolutional neural network, it is done as follows:**
 
-&#10230; Понимание сложности модели ― Чтобы оценить сложность модели, часто бывает полезно определить количество параметров, которые будет иметь ее архитектура. В данном слое сверточной нейронной сети это делается следующим образом:
+&#10230; Понимание сложности модели ― Чтобы оценить сложность модели, часто бывает полезно определить количество параметров, которые будет иметь её архитектура. В данном слое сверточной нейронной сети это делается следующим образом:
 
 <br>
 
@@ -627,7 +627,7 @@
 
 **90. Remark: a higher value of α will make the model care more about the content while a higher value of β will make it care more about the style.**
 
-&#10230; Примечание: более высокое значение α заставит модель больше заботиться о контенте, а более высокое значение β заставит ее больше заботиться о стиле.
+&#10230; Примечание: более высокое значение α заставит модель больше заботиться о контенте, а более высокое значение β заставит её больше заботиться о стиле.
 
 <br>
 
@@ -669,7 +669,7 @@
 
 **96. Inception Network ― This architecture uses inception modules and aims at giving a try at different convolutions in order to increase its performance through features diversification. In particular, it uses the 1×1 convolution trick to limit the computational burden.**
 
-&#10230; Inception Network ― Эта архитектура использует начальные модули и нацелена на то, чтобы попробовать различные свертки, чтобы повысить ее производительность за счет диверсификации функций. В частности, она использует трюк свертки 1×1 для ограничения вычислительной нагрузки.
+&#10230; Inception Network ― Эта архитектура использует начальные модули и нацелена на то, чтобы попробовать различные свертки, чтобы повысить её производительность за счет диверсификации функций. В частности, она использует трюк свертки 1×1 для ограничения вычислительной нагрузки.
 
 <br>
 

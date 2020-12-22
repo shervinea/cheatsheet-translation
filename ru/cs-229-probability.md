@@ -166,13 +166,13 @@
 
 **28. Variance ― The variance of a random variable, often noted Var(X) or σ2, is a measure of the spread of its distribution function. It is determined as follows:**
 
-&#10230; Дисперсия ― Дисперсия случайной величины (Variance), которую часто называют Var(X) или σ2, является мерой разброса ее функции распределения. Она определяется следующим образом:
+&#10230; Дисперсия ― Дисперсия случайной величины (Variance), которую часто называют Var(X) или σ2, является мерой разброса её функции распределения. Она определяется следующим образом:
 
 <br>
 
 **29. Standard deviation ― The standard deviation of a random variable, often noted σ, is a measure of the spread of its distribution function which is compatible with the units of the actual random variable. It is determined as follows:**
 
-&#10230; Среднеквадратическое отклонение ― Стандартное отклонение случайной величины (Standard deviation), часто обозначаемой σ, является мерой разброса ее функции распределения, которая совместима с единицами измерения фактической случайной величины. Оно определяется следующим образом:
+&#10230; Среднеквадратическое отклонение ― Стандартное отклонение случайной величины (Standard deviation), часто обозначаемой σ, является мерой разброса её функции распределения, которая совместима с единицами измерения фактической случайной величины. Оно определяется следующим образом:
 
 <br>
 

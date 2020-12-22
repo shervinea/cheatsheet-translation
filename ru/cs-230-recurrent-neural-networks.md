@@ -529,77 +529,77 @@
 
 **75. Beam width ― The beam width B is a parameter for beam search. Large values of B yield to better result but with slower performance and increased memory. Small values of B lead to worse results but is less computationally intensive. A standard value for B is around 10.**
 
-&#10230; Beam width ― The beam width B is a parameter for beam search. Large values of B yield to better result but with slower performance and increased memory. Small values of B lead to worse results but is less computationally intensive. A standard value for B is around 10.
+&#10230; Ширина луча ― Ширина луча B является параметром лучевого поиска. Большие значения B дают лучший результат, но с меньшей производительностью и увеличенным объемом памяти. Маленькие значения B приводят к худшим результатам, но требуют меньших вычислительных затрат. Стандартное значение B составляет около 10.
 
 <br>
 
 
 **76. Length normalization ― In order to improve numerical stability, beam search is usually applied on the following normalized objective, often called the normalized log-likelihood objective, defined as:**
 
-&#10230; Length normalization ― In order to improve numerical stability, beam search is usually applied on the following normalized objective, often called the normalized log-likelihood objective, defined as:
+&#10230; Нормализация длины ― Чтобы улучшить численную стабильность, лучевой поиск обычно применяется к следующей нормализованной цели, часто называемой нормализованной целью логарифмического правдоподобия, определяемой как:
 
 <br>
 
 
 **77. Remark: the parameter α can be seen as a softener, and its value is usually between 0.5 and 1.**
 
-&#10230; Примечание: the parameter α can be seen as a softener, and its value is usually between 0.5 and 1.
+&#10230; Примечание: параметр α можно рассматривать как смягчитель, и его значение обычно составляет от 0,5 до 1.
 
 <br>
 
 
 **78. Error analysis ― When obtaining a predicted translation ˆy that is bad, one can wonder why we did not get a good translation y∗ by performing the following error analysis:**
 
-&#10230; Error analysis ― When obtaining a predicted translation ˆy that is bad, one can wonder why we did not get a good translation y∗ by performing the following error analysis:
+&#10230; Анализ ошибок ― При получении предсказанного перевода ˆy, который является плохим, можно задаться вопросом, почему мы не получили хороший перевод y∗ , выполнив следующий анализ ошибок:
 
 <br>
 
 
 **79. [Case, Root cause, Remedies]**
 
-&#10230; [Case, Root cause, Remedies]
+&#10230; [Случай, Первопричина, Исправления]
 
 <br>
 
 
 **80. [Beam search faulty, RNN faulty, Increase beam width, Try different architecture, Regularize, Get more data]**
 
-&#10230; [Beam search faulty, RNN faulty, Increase beam width, Try different architecture, Regularize, Get more data]
+&#10230; [Ошибка лучевого поиска, Неисправность RNN, Увеличить ширину луча, Попробовать другую архитектуру, Регуляризировать, Взять больше данных]
 
 <br>
 
 
 **81. Bleu score ― The bilingual evaluation understudy (bleu) score quantifies how good a machine translation is by computing a similarity score based on n-gram precision. It is defined as follows:**
 
-&#10230; Bleu score ― The bilingual evaluation understudy (bleu) score quantifies how good a machine translation is by computing a similarity score based on n-gram precision. It is defined as follows:
+&#10230; Оценка Bleu ― оценка дублера для двуязычной оценки (bilingual evaluation understudy, bleu) количественно определяет, насколько хорош машинный перевод, путем вычисления оценки сходства на основе точности n-граммов. Это определяется следующим образом:
 
 <br>
 
 
 **82. where pn is the bleu score on n-gram only defined as follows:**
 
-&#10230; where pn is the bleu score on n-gram only defined as follows:
+&#10230; где pn - это оценка по n-грамму, определяемая только следующим образом:
 
 <br>
 
 
 **83. Remark: a brevity penalty may be applied to short predicted translations to prevent an artificially inflated bleu score.**
 
-&#10230; Примечание: a brevity penalty may be applied to short predicted translations to prevent an artificially inflated bleu score.
+&#10230; Примечание: к коротким предсказанным переводам может применяться штраф за краткость, чтобы предотвратить искусственно завышенную оценку bleu.
 
 <br>
 
 
 **84. Attention**
 
-&#10230; Attention
+&#10230; Внимание
 
 <br>
 
 
 **85. Attention model ― This model allows an RNN to pay attention to specific parts of the input that is considered as being important, which improves the performance of the resulting model in practice. By noting α<t,t′> the amount of attention that the output y<t> should pay to the activation a<t′> and c<t> the context at time t, we have:**
 
-&#10230; Attention model ― This model allows an RNN to pay attention to specific parts of the input that is considered as being important, which improves the performance of the resulting model in practice. Обозначим α<t,t′> the amount of attention that the output y<t> should pay to the activation a<t′> and c<t> the context at time t, у нас есть:
+&#10230; Модель внимания ― эта модель позволяет RNN обращать внимание на определенные части входных данных, которые считаются важными, что на практике улучшает производительность полученной модели. Обозначим α<t,t′> количество внимания, которое выход y<t> должен уделять активации a<t′> и c<t> контексту в момент времени t, у нас есть:
 
 <br>
 
@@ -613,28 +613,28 @@
 
 **87. Remark: the attention scores are commonly used in image captioning and machine translation.**
 
-&#10230; Примечание: the attention scores are commonly used in image captioning and machine translation.
+&#10230; Примечание: оценки внимания обычно используются при добавлении субтитров к изображениям и машинном переводе.
 
 <br>
 
 
 **88. A cute teddy bear is reading Persian literature.**
 
-&#10230; A cute teddy bear is reading Persian literature.
+&#10230; Милый плюшевый мишка читает персидскую литературу.
 
 <br>
 
 
 **89. Attention weight ― The amount of attention that the output y<t> should pay to the activation a<t′> is given by α<t,t′> computed as follows:**
 
-&#10230; Attention weight ― The amount of attention that the output y<t> should pay to the activation a<t′> is given by α<t,t′> computed as follows:
+&#10230; Вес внимания ― количество внимания, которое выход y<t> должен уделять активации a<t′>, задается выражением α<t,t′>, вычисляемым следующим образом:
 
 <br>
 
 
 **90. Remark: computation complexity is quadratic with respect to Tx.**
 
-&#10230; Примечание: computation complexity is quadratic with respect to Tx.
+&#10230; Примечание: сложность вычислений квадратична относительно Tx.
 
 <br>
 

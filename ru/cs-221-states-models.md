@@ -88,7 +88,7 @@
 
 **13. Tree search algorithms summary ― By noting b the number of actions per state, d the solution depth, and D the maximum depth, we have:**
 
-&#10230; Сводка алгоритмов поиска по дереву - отметив b количество действий на состояние, d глубину решения и D максимальную глубину, которую мы имеем:
+&#10230; Сводка алгоритмов поиска по дереву ― отметив b количество действий на состояние, d глубину решения и D максимальную глубину, которую мы имеем:
 
 <br>
 
@@ -284,7 +284,7 @@
 
 **41. Heuristic function ― A heuristic is a function h over states s, where each h(s) aims at estimating FutureCost(s), the cost of the path from s to send.**
 
-&#10230; Эвристическая функция - эвристика - это функция h по состояниям s, где каждый h(s) направлен на оценку FutureCost(s), стоимость пути от s до send.
+&#10230; Эвристическая функция ― эвристика - это функция h по состояниям s, где каждый h(s) направлен на оценку FutureCost(s), стоимость пути от s до send.
 
 <br>
 
@@ -403,7 +403,7 @@
 
 **58. Max heuristic ― Let h1(s), h2(s) be two heuristics. We have the following property:**
 
-&#10230; Max эвристика - пусть h1(s), h2(s) - две эвристики. У нас есть следующее свойство:
+&#10230; Max эвристика ― пусть h1(s), h2(s) - две эвристики. У нас есть следующее свойство:
 
 <br>
 
@@ -625,9 +625,9 @@
 <br>
 
 
-**90. Equivalent formulation - By introducing the constant η=11+(#updates to (s,a)) and for each (s,a,u) of the training set, the update rule of model-free Monte Carlo has a convex combination formulation:**
+**90. Equivalent formulation ― By introducing the constant η=11+(#updates to (s,a)) and for each (s,a,u) of the training set, the update rule of model-free Monte Carlo has a convex combination formulation:**
 
-&#10230; Эквивалентная формулировка - Путем введения константы η=11+(#updates to (s,a)) и для каждого (s,a,u) обучающего набора, правило обновления безмодельного Монте-Карло имеет формулировку выпуклой комбинации:
+&#10230; Эквивалентная формулировка ― Путем введения константы η=11+(#updates to (s,a)) и для каждого (s,a,u) обучающего набора, правило обновления безмодельного Монте-Карло имеет формулировку выпуклой комбинации:
 
 <br>
 
@@ -697,7 +697,7 @@
 
 **100. [Two-player zero-sum game ― It is a game where each state is fully observed and such that players take turns. It is defined with:, a starting state sstart, possible actions Actions(s) from state s, successors Succ(s,a) from states s with actions a, whether an end state was reached IsEnd(s), the agent's utility Utility(s) at end state s, the player Player(s) who controls state s]**
 
-&#10230; [Игра для двух игроков с нулевой суммой - это игра, в которой полностью соблюдается каждое состояние и игроки ходят по очереди. Она определяется с помощью:, начальное состояние sstart, возможные действия Actions(s) из состояния s, преемники Succ(s,a) из состояния s с действиями a, было ли достигнуто конечное состояние IsEnd(s), полезность агента Utility(s) в конечном состоянии s, игрок Player(s), который контролирует состояние s]
+&#10230; [Игра для двух игроков с нулевой суммой ― это игра, в которой полностью соблюдается каждое состояние и игроки ходят по очереди. Она определяется с помощью:, начальное состояние sstart, возможные действия Actions(s) из состояния s, преемники Succ(s,a) из состояния s с действиями a, было ли достигнуто конечное состояние IsEnd(s), полезность агента Utility(s) в конечном состоянии s, игрок Player(s), который контролирует состояние s]
 
 <br>
 
@@ -949,14 +949,14 @@
 
 **136. Original authors**
 
-&#10230; Авторы оригинала ACHTUNG!!!
+&#10230; Авторы оригинала: Afshine Amidi и Shervine Amidi ― https://github.com/shervinea
 
 <br>
 
 
 **137. Translated by X, Y and Z**
 
-&#10230; Переведено X, Y и Z
+&#10230; Российская адаптация: Пархоменко Александр ― https://github.com/AlexandrParkhomenko
 
 <br>
 

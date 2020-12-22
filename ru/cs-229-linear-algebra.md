@@ -341,3 +341,35 @@
 **57. [Matrix calculus, Gradient, Hessian, Operations]**
 
 &#10230; [Матричное исчисление, Градиент, Гессиан, Операции]
+
+<br>
+
+**58. Original authors**
+
+&#10230; Авторы оригинала: Afshine Amidi и Shervine Amidi ― https://github.com/shervinea
+
+<br>
+
+**59. Translated by X, Y and Z**
+
+&#10230; Российская адаптация: Пархоменко Александр ― https://github.com/AlexandrParkhomenko
+
+<br>
+
+**60. Reviewed by X, Y and Z**
+
+&#10230; Проверено X, Y и Z
+
+<br>
+
+**61. View PDF version on GitHub**
+
+&#10230; Посмотреть PDF-версию на GitHub
+
+<br>
+
+**62. By X and Y**
+
+&#10230; По X и Y
+
+<br>

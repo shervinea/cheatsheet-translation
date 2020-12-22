@@ -287,3 +287,35 @@
 **48. [Diagnostics, Bias/variance tradeoff, error/ablative analysis]**
 
 &#10230; [Диагностика, Компромисс смещения/дисперсии, ошибка/абляционный анализ]
+
+<br>
+
+**49. Original authors**
+
+&#10230; Авторы оригинала: Afshine Amidi и Shervine Amidi ― https://github.com/shervinea
+
+<br>
+
+**50. Translated by X, Y and Z**
+
+&#10230; Российская адаптация: Пархоменко Александр ― https://github.com/AlexandrParkhomenko
+
+<br>
+
+**51. Reviewed by X, Y and Z**
+
+&#10230; Проверено X, Y и Z
+
+<br>
+
+**52. View PDF version on GitHub**
+
+&#10230; Посмотреть PDF-версию на GitHub
+
+<br>
+
+**53. By X and Y**
+
+&#10230; По X и Y
+
+<br>

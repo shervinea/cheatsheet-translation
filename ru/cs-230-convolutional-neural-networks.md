@@ -669,7 +669,7 @@
 
 **96. Inception Network ― This architecture uses inception modules and aims at giving a try at different convolutions in order to increase its performance through features diversification. In particular, it uses the 1×1 convolution trick to limit the computational burden.**
 
-&#10230; Inception Network ― This architecture uses inception modules and aims at giving a try at different convolutions in order to increase its performance through features diversification. In particular, it uses the 1×1 convolution trick to limit the computational burden.
+&#10230; Inception Network ― Эта архитектура использует начальные модули и нацелена на то, чтобы попробовать различные свертки, чтобы повысить ее производительность за счет диверсификации функций. В частности, она использует трюк свертки 1×1 для ограничения вычислительной нагрузки.
 
 <br>
 
@@ -683,14 +683,14 @@
 
 **98. Original authors**
 
-&#10230; Авторы оригинала
+&#10230; Авторы оригинала: Afshine Amidi и Shervine Amidi ― https://github.com/shervinea
 
 <br>
 
 
 **99. Translated by X, Y and Z**
 
-&#10230; Переведено X, Y и Z
+&#10230; Российская адаптация: Пархоменко Александр ― https://github.com/AlexandrParkhomenko
 
 <br>
 

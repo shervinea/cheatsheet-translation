@@ -109,28 +109,28 @@
 
 **16. [Advantages, Possibility of processing input of any length, Model size not increasing with size of input, Computation takes into account historical information, Weights are shared across time]**
 
-&#10230; [Преимущества, Possibility of processing input of any length, Model size not increasing with size of input, Computation takes into account historical information, Weights are shared across time]
+&#10230; [Преимущества, Возможность обработки ввода любой длины, Размер модели не увеличивается с размером входных данных, При расчетах учитывается историческая информация, Веса распределяются во времени]
 
 <br>
 
 
 **17. [Drawbacks, Computation being slow, Difficulty of accessing information from a long time ago, Cannot consider any future input for the current state]**
 
-&#10230; [Drawbacks, Computation being slow, Difficulty of accessing information from a long time ago, Cannot consider any future input for the current state]
+&#10230; [Недостатки, Вычисления идут медленно, Сложность доступа к очень давней информации, Невозможно рассмотреть какие-либо будущие входные данные для текущего состояния]
 
 <br>
 
 
 **18. Applications of RNNs ― RNN models are mostly used in the fields of natural language processing and speech recognition. The different applications are summed up in the table below:**
 
-&#10230; Applications of RNNs ― RNN models are mostly used in the fields of natural language processing and speech recognition. The different applications are summed up in the table below:
+&#10230; Применение RNN ― Модели RNN в основном используются в области обработки естественного языка и распознавания речи. Различные приложения приведены в таблице ниже:
 
 <br>
 
 
 **19. [Type of RNN, Illustration, Example]**
 
-&#10230; [Type of RNN, Illustration, Example]
+&#10230; [Тип RNN, Иллюстрация, Пример]
 
 <br>
 
@@ -144,35 +144,35 @@
 
 **21. [Traditional neural network, Music generation, Sentiment classification, Name entity recognition, Machine translation]**
 
-&#10230; [Traditional neural network, Music generation, Sentiment classification, Name entity recognition, Machine translation]
+&#10230; [Традиционная нейронная сеть, Генерация музыки, Классификация эмоций (Sentiment classification), Распознавание именованных сущностей (Name entity recognition NER), Машинный перевод]
 
 <br>
 
 
 **22. Loss function ― In the case of a recurrent neural network, the loss function L of all time steps is defined based on the loss at every time step as follows:**
 
-&#10230; Loss function ― In the case of a recurrent neural network, the loss function L of all time steps is defined based on the loss at every time step as follows:
+&#10230; Функция потерь ― В случае рекуррентной нейронной сети функция потерь L всех временных шагов определяется на основе потерь на каждом временном шаге следующим образом:
 
 <br>
 
 
 **23. Backpropagation through time ― Backpropagation is done at each point in time. At timestep T, the derivative of the loss L with respect to weight matrix W is expressed as follows:**
 
-&#10230; Backpropagation through time ― Backpropagation is done at each point in time. At timestep T, the derivative of the loss L with respect to weight matrix W is expressed as follows:
+&#10230; Обратное распространение во времени ― Обратное распространение выполняется в каждый момент времени. На временном шаге T производная потерь L по весовой матрице W выражается следующим образом:
 
 <br>
 
 
 **24. Handling long term dependencies**
 
-&#10230; Handling long term dependencies
+&#10230; Работа с долгосрочными зависимостями
 
 <br>
 
 
 **25. Commonly used activation functions ― The most common activation functions used in RNN modules are described below:**
 
-&#10230; Commonly used activation functions ― The most common activation functions used in RNN modules are described below:
+&#10230; Часто используемые функции активации ― Наиболее распространенные функции активации, используемые в модулях RNN, описаны ниже:
 
 <br>
 
@@ -186,35 +186,35 @@
 
 **27. Vanishing/exploding gradient ― The vanishing and exploding gradient phenomena are often encountered in the context of RNNs. The reason why they happen is that it is difficult to capture long term dependencies because of multiplicative gradient that can be exponentially decreasing/increasing with respect to the number of layers.**
 
-&#10230; Vanishing/exploding gradient ― The vanishing and exploding gradient phenomena are often encountered in the context of RNNs. The reason why they happen is that it is difficult to capture long term dependencies because of multiplicative gradient that can be exponentially decreasing/increasing with respect to the number of layers.
+&#10230; Исчезающий/взрывающийся градиент ― Явления исчезающих и взрывных градиентов часто встречаются в контексте RNN. Причина, по которой они происходят, заключается в том, что трудно зафиксировать долгосрочные зависимости из-за мультипликативного градиента, который может экспоненциально уменьшаться/увеличиваться по отношению к количеству слоев.
 
 <br>
 
 
 **28. Gradient clipping ― It is a technique used to cope with the exploding gradient problem sometimes encountered when performing backpropagation. By capping the maximum value for the gradient, this phenomenon is controlled in practice.**
 
-&#10230; Gradient clipping ― It is a technique used to cope with the exploding gradient problem sometimes encountered when performing backpropagation. By capping the maximum value for the gradient, this phenomenon is controlled in practice.
+&#10230; Отсечение градиента ― это метод, используемый для решения проблемы взрывных градиентов, иногда возникающей при выполнении обратного распространения ошибки. Ограничивая максимальное значение градиента, это явление контролируется на практике.
 
 <br>
 
 
 **29. clipped**
 
-&#10230; clipped
+&#10230; отсечено
 
 <br>
 
 
 **30. Types of gates ― In order to remedy the vanishing gradient problem, specific gates are used in some types of RNNs and usually have a well-defined purpose. They are usually noted Γ and are equal to:**
 
-&#10230; Типы вентилей - чтобы решить проблему исчезающего градиента, в некоторых типах RNN используются определенные вентили, которые обычно имеют четко определенную цель. Обычно они обозначаются Γ и равны:
+&#10230; Типы вентилей ― чтобы решить проблему исчезающего градиента, в некоторых типах RNN используются определенные вентили, которые обычно имеют четко определенную цель. Обычно они обозначаются Γ и равны:
 
 <br>
 
 
 **31. where W,U,b are coefficients specific to the gate and σ is the sigmoid function. The main ones are summed up in the table below:**
 
-&#10230; где W,U,b - коэффициенты, относящиеся к вентилю, а σ - сигмовидная функция. Основные из них приведены в таблице ниже:
+&#10230; где W,U,b ― коэффициенты, относящиеся к вентилю, а σ - сигмовидная функция. Основные из них приведены в таблице ниже:
 
 <br>
 
@@ -270,7 +270,7 @@
 
 **39. Variants of RNNs ― The table below sums up the other commonly used RNN architectures:**
 
-&#10230; Варианты RNN - В таблице ниже перечислены другие часто используемые архитектуры RNN:
+&#10230; Варианты RNN ― В таблице ниже перечислены другие часто используемые архитектуры RNN:
 
 <br>
 
@@ -305,7 +305,7 @@
 
 **44. Representation techniques ― The two main ways of representing words are summed up in the table below:**
 
-&#10230; Методы представления - два основных способа представления слов подытожены в таблице ниже:
+&#10230; Методы представления ― два основных способа представления слов подытожены в таблице ниже:
 
 <br>
 
@@ -401,9 +401,9 @@
 <br>
 
 
-**57bis. GloVe ― The GloVe model, short for global vectors for word representation, is a word embedding technique that uses a co-occurence matrix X where each Xi,j denotes the number of times that a target i occurred with a context j. Its cost function J is as follows:**
+**57 GloVe ― The GloVe model, short for global vectors for word representation, is a word embedding technique that uses a co-occurence matrix X where each Xi,j denotes the number of times that a target i occurred with a context j. Its cost function J is as follows:**
 
-&#10230;
+&#10230; GloVe ― Модель GloVe, сокращение от глобальных векторов для представления слов, представляет собой метод встраивания слов, который использует матрицу совпадения X, где каждый Xi,j обозначает количество раз, когда цель i встречалась с контекстом j. Его функция стоимости J выглядит следующим образом:
 
 <br>
 
@@ -480,7 +480,7 @@
 
 **68. Perplexity ― Language models are commonly assessed using the perplexity metric, also known as PP, which can be interpreted as the inverse probability of the dataset normalized by the number of words T. The perplexity is such that the lower, the better and is defined as follows:**
 
-&#10230; Недоумение - языковые модели обычно оцениваются с помощью метрики недоумения, также известной как PP, которую можно интерпретировать как обратную вероятность набора данных, нормализованную на количество слов T. Недоумение таково, что чем ниже, тем лучше и определяется как следует: ACHTUNG!!!
+&#10230; Недоумение ― Perplexity - языковые модели обычно оцениваются с помощью метрики недоумения, также известной как PP, которую можно интерпретировать как обратную вероятность набора данных, нормализованную на количество слов T. Недоумение таково, что чем ниже, тем лучше и определяется как следует:
 
 <br>
 
@@ -647,13 +647,13 @@
 
 **92. Original authors**
 
-&#10230; Авторы оригинала
+&#10230; Авторы оригинала: Afshine Amidi и Shervine Amidi ― https://github.com/shervinea
 
 <br>
 
 **93. Translated by X, Y and Z**
 
-&#10230; Переведено X, Y и Z
+&#10230; Российская адаптация: Пархоменко Александр ― https://github.com/AlexandrParkhomenko
 
 <br>
 

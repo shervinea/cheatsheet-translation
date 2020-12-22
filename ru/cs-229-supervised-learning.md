@@ -569,3 +569,35 @@
 **95. [Learning theory, Hoeffding inequality, PAC, VC dimension]**
 
 &#10230; [Теория обучения, Неравенство Хёфдинга, PAC, VC размерность]
+
+<br>
+
+**96. Original authors**
+
+&#10230; Авторы оригинала: Afshine Amidi и Shervine Amidi ― https://github.com/shervinea
+
+<br>
+
+**97. Translated by X, Y and Z**
+
+&#10230; Российская адаптация: Пархоменко Александр ― https://github.com/AlexandrParkhomenko
+
+<br>
+
+**98. Reviewed by X, Y and Z**
+
+&#10230; Проверено X, Y и Z
+
+<br>
+
+**99. View PDF version on GitHub**
+
+&#10230; Посмотреть PDF-версию на GitHub
+
+<br>
+
+**100. By X and Y**
+
+&#10230; По X и Y
+
+<br>

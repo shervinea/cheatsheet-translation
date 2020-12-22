@@ -100,9 +100,9 @@
 <br>
 
 
-**15. Classification case - The classification of a sample x of true label y∈{−1,+1} with a linear model of weights w can be done with the predictor fw(x)≜sign(s(x,w)). In this situation, a metric of interest quantifying the quality of the classification is given by the margin m(x,y,w), and can be used with the following loss functions:**
+**15. Classification case ― The classification of a sample x of true label y∈{−1,+1} with a linear model of weights w can be done with the predictor fw(x)≜sign(s(x,w)). In this situation, a metric of interest quantifying the quality of the classification is given by the margin m(x,y,w), and can be used with the following loss functions:**
 
-&#10230; Классификационный случай - Классификация выборки x истинной метки y∈{−1,+1} с линейной моделью весов w может быть выполнена с помощью предиктора fw(x)≜sign(s(x,w)). В этой ситуации интересующий показатель, определяющий качество классификации, задается отступом m(x,y,w) и может использоваться со следующими функциями потерь:
+&#10230; Классификационный случай ― Классификация выборки x истинной метки y∈{−1,+1} с линейной моделью весов w может быть выполнена с помощью предиктора fw(x)≜sign(s(x,w)). В этой ситуации интересующий показатель, определяющий качество классификации, задается отступом m(x,y,w) и может использоваться со следующими функциями потерь:
 
 <br>
 
@@ -114,9 +114,9 @@
 <br>
 
 
-**17. Regression case - The prediction of a sample x of true label y∈R with a linear model of weights w can be done with the predictor fw(x)≜s(x,w). In this situation, a metric of interest quantifying the quality of the regression is given by the margin res(x,y,w) and can be used with the following loss functions:**
+**17. Regression case ― The prediction of a sample x of true label y∈R with a linear model of weights w can be done with the predictor fw(x)≜s(x,w). In this situation, a metric of interest quantifying the quality of the regression is given by the margin res(x,y,w) and can be used with the following loss functions:**
 
-&#10230; Случай регрессии - Предсказание выборки x истинной метки y∈R с помощью линейной модели весов w может быть выполнено с помощью предиктора fw(x)≜sign(s(x,w)). В этой ситуации интересующий показатель, количественно оценивающий качество регрессии, задается отступом res(x,y,w) и может использоваться со следующими функциями потерь:
+&#10230; Случай регрессии ― Предсказание выборки x истинной метки y∈R с помощью линейной модели весов w может быть выполнено с помощью предиктора fw(x)≜sign(s(x,w)). В этой ситуации интересующий показатель, количественно оценивающий качество регрессии, задается отступом res(x,y,w) и может использоваться со следующими функциями потерь:
 
 <br>
 
@@ -508,14 +508,14 @@
 
 **73. Original authors**
 
-&#10230; Авторы оригинала
+&#10230; Авторы оригинала: Afshine Amidi и Shervine Amidi ― https://github.com/shervinea
 
 <br>
 
 
 **74. Translated by X, Y and Z**
 
-&#10230; Переведено X, Y и Z
+&#10230; Российская адаптация: Пархоменко Александр ― https://github.com/AlexandrParkhomenko
 
 <br>
 

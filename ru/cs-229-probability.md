@@ -383,3 +383,35 @@
 **64. [Parameter estimation, Mean, Variance]**
 
 &#10230; [Оценка параметров, Среднее, Дисперсия]
+
+<br>
+
+**65. Original authors**
+
+&#10230; Авторы оригинала: Afshine Amidi и Shervine Amidi ― https://github.com/shervinea
+
+<br>
+
+**66. Translated by X, Y and Z**
+
+&#10230; Российская адаптация: Пархоменко Александр ― https://github.com/AlexandrParkhomenko
+
+<br>
+
+**67. Reviewed by X, Y and Z**
+
+&#10230; Проверено X, Y и Z
+
+<br>
+
+**68. View PDF version on GitHub**
+
+&#10230; Посмотреть PDF-версию на GitHub
+
+<br>
+
+**69. By X and Y**
+
+&#10230; По X и Y
+
+<br>

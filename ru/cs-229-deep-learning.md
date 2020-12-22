@@ -324,3 +324,35 @@
 **54. [Reinforcement learning, Markov decision processes, Value/policy iteration, Approximate dynamic programming, Policy search]**
 
 &#10230; [Обучение с подкреплением, Марковский процесс принятия решений, Итерация ценности/политики, Приближенное динамическое программирование, Политика поиска]
+
+<br>
+
+**55. Original authors**
+
+&#10230; Авторы оригинала: Afshine Amidi и Shervine Amidi ― https://github.com/shervinea
+
+<br>
+
+**56. Translated by X, Y and Z**
+
+&#10230; Российская адаптация: Пархоменко Александр ― https://github.com/AlexandrParkhomenko
+
+<br>
+
+**57. Reviewed by X, Y and Z**
+
+&#10230; Проверено X, Y и Z
+
+<br>
+
+**58. View PDF version on GitHub**
+
+&#10230; Посмотреть PDF-версию на GitHub
+
+<br>
+
+**59. By X and Y**
+
+&#10230; По X и Y
+
+<br>

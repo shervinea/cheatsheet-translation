@@ -585,14 +585,14 @@
 
 **84. Original authors**
 
-&#10230; Авторы оригинала
+&#10230; Авторы оригинала: Afshine Amidi и Shervine Amidi ― https://github.com/shervinea
 
 <br>
 
 
 **85. Translated by X, Y and Z**
 
-&#10230; Переведено X, Y и Z
+&#10230; Российская адаптация: Пархоменко Александр ― https://github.com/AlexandrParkhomenko
 
 <br>
 

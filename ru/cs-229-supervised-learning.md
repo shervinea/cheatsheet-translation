@@ -160,7 +160,7 @@
 
 **27. LWR ― Locally Weighted Regression, also known as LWR, is a variant of linear regression that weights each training example in its cost function by w(i)(x), which is defined with parameter τ∈R as:**
 
-&#10230; LWR ― Locally Weighted Regression ― Локально взвешенная регрессия, представляет собой вариант линейной регрессии, который взвешивает каждый обучающий пример в его функции стоимости по w(i)(x), которая определяется параметром τ∈R как:
+&#10230; LWR ― Locally Weighted Regression - Локально взвешенная регрессия, представляет собой вариант линейной регрессии, который взвешивает каждый обучающий пример в его функции стоимости по w(i)(x), которая определяется параметром τ∈R как:
 
 <br>
 
@@ -202,7 +202,7 @@
 
 **34. Exponential family ― A class of distributions is said to be in the exponential family if it can be written in terms of a natural parameter, also called the canonical parameter or link function, η, a sufficient statistic T(y) and a log-partition function a(η) as follows:**
 
-&#10230; Экспоненциальное семейство - класс распределений называется экспоненциальным семейством, если его можно записать в терминах естественного параметра, также называемого каноническим параметром или функцией связи, η, достаточной статистикой T(y) и лог-статистическую сумму a(η) следующим образом:
+&#10230; Экспоненциальное семейство ― класс распределений называется экспоненциальным семейством, если его можно записать в терминах естественного параметра, также называемого каноническим параметром или функцией связи, η, достаточной статистикой T(y) и лог-статистическую сумму a(η) следующим образом:
 
 <br>
 
@@ -286,7 +286,7 @@
 
 **48. Kernel ― Given a feature mapping ϕ, we define the kernel K to be defined as:**
 
-&#10230; Kernel - Учитывая отображение признаков ϕ, мы определяем ядро K как:
+&#10230; Kernel ― Учитывая отображение признаков ϕ, мы определяем ядро K как:
 
 <br>
 
@@ -340,13 +340,13 @@
 
 **57. Setting ― The Gaussian Discriminant Analysis assumes that y and x|y=0 and x|y=1 are such that:**
 
-&#10230; Настройка - Гауссовский дискриминантный анализ предполагает, что y и x|y=0 и x|y=1 таковы, что:
+&#10230; Настройка ― Гауссовский дискриминантный анализ предполагает, что y и x|y=0 и x|y=1 таковы, что:
 
 <br>
 
 **58. Estimation ― The following table sums up the estimates that we find when maximizing the likelihood:**
 
-&#10230; Оценка - В следующей таблице суммированы оценки, которые мы находим при максимизации правдоподобия:
+&#10230; Оценка ― В следующей таблице суммированы оценки, которые мы находим при максимизации правдоподобия:
 
 <br>
 
@@ -406,7 +406,7 @@
 
 **68. Boosting ― The idea of boosting methods is to combine several weak learners to form a stronger one. The main ones are summed up in the table below:**
 
-&#10230; Boosting (усиление) - идея методов усиления заключается в объединении нескольких слабых учеников, чтобы сформировать более сильного. Основные из них приведены в таблице ниже:
+&#10230; Boosting (усиление) ― идея методов усиления заключается в объединении нескольких слабых учеников, чтобы сформировать более сильного. Основные из них приведены в таблице ниже:
 
 <br>
 
@@ -436,7 +436,7 @@
 
 **73. k-nearest neighbors ― The k-nearest neighbors algorithm, commonly known as k-NN, is a non-parametric approach where the response of a data point is determined by the nature of its k neighbors from the training set. It can be used in both classification and regression settings.**
 
-&#10230; k-ближайшие соседи. Алгоритм k-ближайших соседей, широко известный как k-NN, представляет собой непараметрический подход, в котором ответ точки данных определяется природой ее k соседей из обучающего набора. Его можно использовать как для классификации, так и для настройки регрессии.
+&#10230; k-ближайшие соседи ― Алгоритм k-ближайших соседей, широко известный как k-NN, представляет собой непараметрический подход, в котором ответ точки данных определяется природой ее k соседей из обучающего набора. Его можно использовать как для классификации, так и для настройки регрессии.
 
 <br>
 

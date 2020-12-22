@@ -625,7 +625,7 @@
 <br>
 
 
-**90. Equivalent formulation ― By introducing the constant η=11+(#updates to (s,a)) and for each (s,a,u) of the training set, the update rule of model-free Monte Carlo has a convex combination formulation:**
+**90. Equivalent formulation - By introducing the constant η=11+(#updates to (s,a)) and for each (s,a,u) of the training set, the update rule of model-free Monte Carlo has a convex combination formulation:**
 
 &#10230; Эквивалентная формулировка ― Путем введения константы η=11+(#updates to (s,a)) и для каждого (s,a,u) обучающего набора, правило обновления безмодельного Монте-Карло имеет формулировку выпуклой комбинации:
 

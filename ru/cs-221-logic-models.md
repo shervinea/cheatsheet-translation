@@ -207,7 +207,7 @@
 
 **30. [Inferred formulas are entailed by KB, Can be checked one rule at a time, "Nothing but the truth", Formulas entailing KB are either already in the knowledge base or inferred from it, "The whole truth"]**
 
-&#10230; [Предполагаемые формулы вытекают из KB, Можно проверить одно правило за раз, "Ничего кроме правды", Формулы, влекущие за собой КБ, либо уже есть в базе знаний, либо выведены из нее, "Полная правда"]
+&#10230; [Предполагаемые формулы вытекают из KB, Можно проверить одно правило за раз, "Ничего кроме правды", Влекущие за собой КБ формулы уже есть в базе знаний либо выведены из неё, "Полная правда"]
 
 <br>
 
@@ -305,7 +305,7 @@
 
 **44. [Resolution-based inference ― The resolution-based inference algorithm follows the following steps:, Step 1: Convert all formulas into CNF, Step 2: Repeatedly apply resolution rule, Step 3: Return unsatisfiable if and only if False, is derived]**
 
-&#10230; [Вывод на основе разрешения ― Алгоритм вывода, основанный на разрешении, включает следующие шаги:, Шаг 1: Преобразовать все формулы в CNF, Шаг 2. Повторно применить правило разрешения, Шаг 3: Вернуть неудовлетворительно, если и только если False, выводится]
+&#10230; [Вывод на основе разрешения ― Алгоритм вывода на основе разрешении. Включает следующие шаги:, Шаг 1: Преобразовать все формулы в CNF, Шаг 2. Повторно применить правило разрешения, Шаг 3: Вернуть неудовлетворительно; если и только если False, выводится]
 
 <br>
 
@@ -460,5 +460,3 @@
 **66. The Artificial Intelligence cheatsheets are now available in [target language].**
 
 &#10230; Шпаргалки по искусственному интеллекту теперь доступны в формате [target language].
-
-

@@ -305,7 +305,7 @@
 
 **44. [Consistency ― A heuristic h is said to be consistent if it satisfies the two following properties:, For all states s and actions a, The end state verifies the following:]**
 
-&#10230; [Консистентность ― Эвристика h называется согласованной (консистентной), если она удовлетворяет двум следующим свойствам:, Для всех состояний s и действий a, Конечное состояние подтверждает следующее:]
+&#10230; [Консистентность ― Эвристика h называется согласованной (консистентной) при удовлетворении двух следующих свойств:, Для всех состояний s и действий a, Конечное состояние подтверждает следующее:]
 
 <br>
 
@@ -396,7 +396,7 @@
 
 **57. [Tradeoff when choosing heuristic ― We have to balance two aspects in choosing a heuristic:, Computational efficiency: h(s)=FutureCostrel(s) must be easy to compute. It has to produce a closed form, easier search and independent subproblems., Good enough approximation: the heuristic h(s) should be close to FutureCost(s) and we have thus to not remove too many constraints.]**
 
-&#10230; [Компромисс при выборе эвристики ― При выборе эвристики необходимо уравновесить два аспекта:, Вычислительная эффективность: h(s)=FutureCostrel(s) должно быть легко вычислить. Она должна создать аналитический вид, более легкий поиск и независимые подзадачи., Достаточно хорошее приближение: эвристика h(s) должна быть близка к FutureCost(s), и, таким образом, мы не должны удалять слишком много ограничений.]
+&#10230; [Компромисс при выборе эвристики ― При выборе эвристики необходимо уравновесить два аспекта:, Вычислительная эффективность: h(s)=FutureCostrel(s) должно быть легко вычислить. Она должна создать аналитический вид, более легкий поиск и независимые подзадачи., Достаточно хорошее приближение: эвристика h(s) должна быть близка к FutureCost(s) ; и мы не должны удалять слишком много ограничений.]
 
 <br>
 
@@ -501,7 +501,7 @@
 
 **72. [Policy evaluation ― Given a policy π, policy evaluation is an iterative algorithm that aims at estimating Vπ. It is done as follows:, Initialization: for all states s, we have:, Iteration: for t from 1 to TPE, we have, with]**
 
-&#10230; [Оценка политики ― Задана политика π, оценка политики представляет собой итеративный алгоритм, нацеленный на оценку Vπ. Делается это следующим образом:, Инициализация: для всех состояний s имеем:, Итерация: для t от 1 до TPE имеем, с]
+&#10230; [Оценка политики ― Задана политика π, оценка политики представляет собой итеративный алгоритм. Он нацелен на оценку Vπ. Делается это следующим образом:, Инициализация: для всех состояний s, имеем:, Итерация: для t от 1 до TPE, имеем, с]
 
 <br>
 
@@ -697,7 +697,7 @@
 
 **100. [Two-player zero-sum game ― It is a game where each state is fully observed and such that players take turns. It is defined with:, a starting state sstart, possible actions Actions(s) from state s, successors Succ(s,a) from states s with actions a, whether an end state was reached IsEnd(s), the agent's utility Utility(s) at end state s, the player Player(s) who controls state s]**
 
-&#10230; [Игра для двух игроков с нулевой суммой ― это игра, в которой полностью соблюдается каждое состояние и игроки ходят по очереди. Она определяется с помощью:, начальное состояние sstart, возможные действия Actions(s) из состояния s, преемники Succ(s,a) из состояния s с действиями a, было ли достигнуто конечное состояние IsEnd(s), полезность агента Utility(s) в конечном состоянии s, игрок Player(s), который контролирует состояние s]
+&#10230; [Игра для двух игроков с нулевой суммой ― это игра; в которой полностью соблюдается каждое состояние и игроки ходят по очереди. Она определяется с помощью:, начальное состояние sstart, возможные действия Actions(s) из состояния s, преемники Succ(s,a) из состояния s с действиями a, было ли достигнуто конечное состояние IsEnd(s), полезность агента Utility(s) в конечном состоянии s, игрок Player(s) контролирует состояние s]
 
 <br>
 
@@ -978,5 +978,3 @@
 **140. The Artificial Intelligence cheatsheets are now available in [target language].**
 
 &#10230; Шпаргалки по искусственному интеллекту теперь доступны в формате [target language].
-
-

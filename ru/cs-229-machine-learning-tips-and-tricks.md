@@ -1,5 +1,3 @@
-
-
 **Machine Learning tips and tricks translation** [[webpage]](https://stanford.edu/~shervine/teaching/cs-229/cheatsheet-machine-learning-tips-and-tricks)
 
 <br>
@@ -240,7 +238,7 @@
 
 **40. [High training error, Training error close to test error, High bias, Training error slightly lower than test error, Very low training error, Training error much lower than test error, High variance]**
 
-&#10230; [Высокая ошибка обучения, Ошибка обучения близка к ошибке теста, Высокое смещение, Ошибка обучения немного ниже ошибки теста, Очень низкая ошибка обучения, Ошибка обучения намного ниже, чем ошибка теста, Высокая дисперсия]
+&#10230; [Высокая ошибка обучения, Ошибка обучения близка к ошибке теста, Высокое смещение, Ошибка обучения немного ниже ошибки теста, Очень низкая ошибка обучения, Ошибка обучения намного ниже ошибка теста, Высокая дисперсия]
 
 <br>
 
@@ -321,4 +319,3 @@
 &#10230; По X и Y
 
 <br>
-

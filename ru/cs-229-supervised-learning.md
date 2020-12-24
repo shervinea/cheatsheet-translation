@@ -50,9 +50,9 @@
 
 <br>
 
-**9. [Directly estimate P(y|x), Estimate P(x|y) to then deduce P(y|x), Decision boundary,   Probability distributions of the data, Regressions, SVMs, GDA, Naive Bayes]**
+**9. [Directly estimate P(y|x), Estimate P(x|y) to then deduce P(y|x), Decision boundary,  	Probability distributions of the data, Regressions, SVMs, GDA, Naive Bayes]**
 
-&#10230; [Прямо оценить P(y|x), Оценить P(x|y) затем вывести P(y|x), Граница решения,   Распределения вероятностей данных, Регрессии, SVM, GDA, Наивный Байес]
+&#10230; [Прямо оценить P(y|x), Оценить P(x|y) затем вывести P(y|x), Граница решения,  	Распределения вероятностей данных, Регрессии, SVM, GDA, Наивный Байес]
 
 <br>
 
@@ -601,5 +601,3 @@
 &#10230; По X и Y
 
 <br>
-
-

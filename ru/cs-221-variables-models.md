@@ -109,7 +109,7 @@
 
 **16. [Forward checking ― It is a one-step lookahead heuristic that preemptively removes inconsistent values from the domains of neighboring variables. It has the following characteristics:, After assigning a variable Xi, it eliminates inconsistent values from the domains of all its neighbors., If any of these domains becomes empty, we stop the local backtracking search., If we un-assign a variable Xi, we have to restore the domain of its neighbors.]**
 
-&#10230; [Прямая проверка ― это эвристика упреждающего просмотра за один шаг. Она упреждающе удаляет несогласованные значения из доменов соседних переменных. Она имеет следующие характеристики:, После присвоения переменной Xi она удаляет несовместимые значения из доменов всех своих соседей., Если какой-либо из этих доменов становится пустым, мы останавливаем локальный поиск с возвратом., Если мы отменим присвоение переменной Xi, мы должны восстановить домен её соседей.]
+&#10230; [Прямая проверка ― это эвристика упреждающего просмотра за один шаг. Она упреждающе удаляет несогласованные значения из доменов соседних переменных. Она имеет следующие характеристики:, После присвоения переменной Xi, она удаляет несовместимые значения из доменов всех своих соседей., Если какой-либо из этих доменов становится пустым, мы останавливаем локальный поиск с возвратом., Если мы отменим присвоение переменной Xi, мы должны восстановить домен её соседей.]
 
 <br>
 
@@ -207,7 +207,7 @@
 
 **30. [Gibbs sampling ― Gibbs sampling is an iterative approximate method that modifies the assignment of a factor graph one variable at a time until convergence. At step i:, we assign to each element u∈Domaini a weight w(u) that is the product of all factors connected to that variable, we sample v from the probability distribution induced by w and assign it to Xi.]**
 
-&#10230; [Выборка по Гиббсу ― это итеративный приближенный метод, который изменяет присвоение факторному графу одной переменной за раз до сходимости. На шаге i:, мы присваиваем каждому элементу u∈Domaini вес w(u). Вес является произведением всех связанных с этой переменной факторов, мы выбираем v из индуцированного w распределения вероятностей и присваиваем его Xi.]
+&#10230; [Выборка по Гиббсу ― это итеративный приближенный метод; который изменяет присвоение факторному графу одной переменной за раз до сходимости. На шаге i:, мы присваиваем каждому элементу u∈Domaini вес w(u). Вес является произведением всех связанных с этой переменной факторов, мы выбираем v из индуцированного w распределения вероятностей и присваиваем его Xi.]
 
 <br>
 
@@ -614,5 +614,3 @@
 **88. The Artificial Intelligence cheatsheets are now available in [target language].**
 
 &#10230; Шпаргалки по искусственному интеллекту теперь доступны в формате [target language].
-
-

@@ -72,7 +72,7 @@
 
 **13. [Least squared error, Logistic loss, Hinge loss, Cross-entropy]**
 
-&#10230; [최소 제곱 오차, 로지스틱 손실, 힌지 손실, 크로스-엔트로]
+&#10230; [최소 제곱 오차, 로지스틱 손실, 힌지 손실, 크로스-엔트로피]
 
 <br>
 
@@ -294,7 +294,7 @@
 
 **50. [Non-linear separability, Use of a kernel mapping, Decision boundary in the original space]**
 
-&#10230; [비선형 구분가능, 커널 매핑의 사용, 원래의 공간에서의 결정경]
+&#10230; [비선형 구분가능, 커널 매핑의 사용, 원래의 공간에서의 결정경계] 
 
 <br>
 

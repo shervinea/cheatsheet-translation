@@ -36,7 +36,7 @@
 
 **7. Type of model ― The different models are summed up in the table below:**
 
-&#10230; 모델의 종류 - 모델의 종류가 아래 표에 정리되어 있습니다:
+&#10230; 모델의 종류 - 모델의 종류가 아래 표에 정리되어 있다:
 
 <br>
 
@@ -60,7 +60,7 @@
 
 **11. Hypothesis ― The hypothesis is noted hθ and is the model that we choose. For a given input data x(i) the model prediction output is hθ(x(i)).**
 
-&#10230; 가설 - 가설은 hθ로 표시하며 선택한 하나의 모델입니다. 입력 데이터 x(i)에 대한 모델의 예측 출력은 hθ(x(i))가 된다. 
+&#10230; 가설 - 가설은 hθ로 표시하며 선택한 하나의 모델이다. 입력 데이터 x(i)에 대한 모델의 예측 출력은 hθ(x(i))가 된다. 
 
 <br>
 
@@ -84,13 +84,13 @@
 
 **15. Cost function ― The cost function J is commonly used to assess the performance of a model, and is defined with the loss function L as follows:**
 
-&#10230; 비용 함수 - 비용 함수 J는 일반적으로 모델의 퍼포먼스를 평가하기 위해 사용되며, 다음의 손실함수 L과 함께 정의된다:
+&#10230; 비용 함수 - 비용 함수 J는 일반적으로 모델의 성능을 평가하기 위해 사용되며, 다음의 손실함수 L과 함께 정의된다:
 
 <br>
 
 **16. Gradient descent ― By noting α∈R the learning rate, the update rule for gradient descent is expressed with the learning rate and the cost function J as follows:**
 
-&#10230; 경사 하강법 - 학습률(learning rate)을 α∈R 라고 표기한다면, 경사하강법의 업데이트 규칙은 다음과 같이 학습률과 비용 함수와 함께 정의된다:
+&#10230; 경사 하강법 - 학습률(learning rate)을 α∈R 라고 표기한다면, 경사하강법의 업데이트 규칙은 다음과 같이 학습률과 비용 함수로 표현할 수 있다: 
 
 <br>
 
@@ -102,7 +102,7 @@
 
 **18. Likelihood ― The likelihood of a model L(θ) given parameters θ is used to find the optimal parameters θ through maximizing the likelihood. In practice, we use the log-likelihood ℓ(θ)=log(L(θ)) which is easier to optimize. We have:**
 
-&#10230; 가능도 - 파라미터 θ가 주어졌을 때의 모델 L(θ)의 가능도 혹은 우도는 우도를 최대화 시키면서 최적의 파라미터 θ를 찾기 위해 사용된다. 보통은 관례적으로 더 최적화하기 쉬운 로그-가능도 ℓ(θ)=log(L(θ))를 사용한다. 이때: 
+&#10230; 가능도 - 주어진 파라미터 θ에서 모델 L(θ)의 가능도를 최대화하여 최적의 파라미터 θ를 찾는다. 보통은 관례적으로 더 최적화하기 쉬운 로그-가능도 ℓ(θ)=log(L(θ))를 사용한다. 이때: 
 
 <br>
 
@@ -132,7 +132,7 @@
 
 **23. We assume here that y|x;θ∼N(μ,σ2)**
 
-&#10230; 이때 우리는 y|x;θ∼N(μ,σ2) 라고 가정한다.
+&#10230; 이때 y|x;θ∼N(μ,σ2) 라고 가정한다.
 
 <br>
 
@@ -144,19 +144,19 @@
 
 **25. LMS algorithm ― By noting α the learning rate, the update rule of the Least Mean Squares (LMS) algorithm for a training set of m data points, which is also known as the Widrow-Hoff learning rule, is as follows:**
 
-&#10230; 최소 평균 제곱법 - α를 학습률 이라고 하면, m개의 학습 데이터에 대한 Widrow-Hoff 학습법이라고도 알려진 최소 평균 제곱법(Least Mean Squares)의 업데이트 방식은 다음과 같다:
+&#10230; 최소 평균 제곱법 - α를 학습률 이라고 하면, m개의 학습 데이터에 대한 위드로우-호프(Widrow-Hoff) 학습법이라고도 알려진 최소 평균 제곱법(Least Mean Squares)의 업데이트 방식은 다음과 같다:
 
 <br>
 
 **26. Remark: the update rule is a particular case of the gradient ascent.**
 
-&#10230; 비고: 이 업데이트 방식은 경사 상승법의 특수한 케이스입니다.
+&#10230; 비고: 이 업데이트 방식은 경사 상승법의 특수한 경우입니다.
 
 <br>
 
 **27. LWR ― Locally Weighted Regression, also known as LWR, is a variant of linear regression that weights each training example in its cost function by w(i)(x), which is defined with parameter τ∈R as:**
 
-&#10230; LWR 이라고 불리는 국소가중회귀 (Locally Weighted Regression) 는 비용 함수 안에서 각각의 훈련 데이터를 w(i)(x)와 곱하 선형회귀의 변형으로서,는 파라미터 τ∈R 와 함께 다음과 같이 정의된다:
+&#10230; LWR 이라고 불리는 국소가중회귀 (Locally Weighted Regression) 는 비용 함수에서 각각의 훈련 데이터를 w(i)(x)로 가중치를 주는 선형회귀의 변형으로서 파라미터 τ∈R 와 함께 다음과 같이 정의된다:
 
 <br>
 
@@ -174,19 +174,19 @@
 
 **30. Logistic regression ― We assume here that y|x;θ∼Bernoulli(ϕ). We have the following form:**
 
-&#10230; 로지스틱 회귀 - y|x;θ∼Bernoulli(ϕ) 라고 가정할 때 우리는 다음과 같은 식을 얻는다: 
+&#10230; 로지스틱 회귀 - y|x;θ∼Bernoulli(ϕ) 라고 가정할 때 다음과 같은 식을 얻는다: 
 
 <br>
 
 **31. Remark: there is no closed form solution for the case of logistic regressions.**
 
-&#10230; 비고: 로지스틱 회귀는 닫힌 형식의 해는 없다.
+&#10230; 비고: 로지스틱 회귀의 닫힌 형식의 해는 없다.
 
 <br>
 
 **32. Softmax regression ― A softmax regression, also called a multiclass logistic regression, is used to generalize logistic regression when there are more than 2 outcome classes. By convention, we set θK=0, which makes the Bernoulli parameter ϕi of each class i equal to:**
 
-&#10230; 소프트맥스 회귀 - 다중 로지스틱 회귀 라고 불리는 소프트맥스 회귀는 출력 클래스가 2개보다 많을 때에 로지스틱 회귀를 일반화 하기 위해 사용된다. 관례적으로, 우리는 θK=0 로 설정하고 이는 각 클래스 i에 해당하는 브르누이 파라미터 ϕi를 다음과 같게 만는다: 
+&#10230; 소프트맥스 회귀 - 다중 로지스틱 회귀 라고 불리는 소프트맥스 회귀는 출력 클래스가 2개보다 많을 때에 로지스틱 회귀를 일반화 하기 위해 사용된다. 관례적으로, θK=0 로 설정하고 이는 각 클래스 i에 해당하는 베르누이 파라미터 ϕi를 다음과 같게 만는다: 
 
 <br>
 
@@ -198,7 +198,7 @@
 
 **34. Exponential family ― A class of distributions is said to be in the exponential family if it can be written in terms of a natural parameter, also called the canonical parameter or link function, η, a sufficient statistic T(y) and a log-partition function a(η) as follows:**
 
-&#10230; 지수족 (Exponential family) - 어떠한 분포가 canonical paramter 또는 link function 이라고도 불리는 자연 모수 (natural parameter)에 관하여 정의될 수 있다면 그 분포는 지수족 안에 포함된다고 말할 수 있으며, canonical parameter (η), sufficient statistic (T(y)) 그리고 log-partition function (a(η)) 을 사용하여 다음과 같이 정의된다: 
+&#10230; 지수족 (Exponential family) - 어떠한 분포가 정준 모수(canonical parameter) 또는 연결 함수(link function) 라고도 불리는 자연 모수 (natural parameter)에 관하여 정의될 수 있다면 그 분포는 지수족 안에 포함된다고 말할 수 있으며, canonical parameter (η), 충분 통계량(sufficient statistic) (T(y)) 그리고 로그-분할 함수(log-partition function) (a(η)) 을 사용하여 다음과 같이 정의된다:
 
 <br>
 
@@ -216,19 +216,19 @@
 
 **37. [Distribution, Bernoulli, Gaussian, Poisson, Geometric]**
 
-&#10230; [분포, 브르누이, 가우시안, 푸아송, 기하학적]
+&#10230; [분포, 베르누이, 가우시안, 푸아송, 기하학적]
 
 <br>
 
 **38. Assumptions of GLMs ― Generalized Linear Models (GLM) aim at predicting a random variable y as a function fo x∈Rn+1 and rely on the following 3 assumptions:**
 
-&#10230; GLM의 가정 - 일반화 선형 모델 (GLM)은 확률변수(random variable) y를 x∈Rn+1 의 함수로서 예측하는 것에 목표를 두며 다음 3가지 가정에 의존한다: 
+&#10230; GLM의 가정 - 일반화된 선형 모델 (GLM)은 확률변수(random variable) y를 x∈Rn+1 의 함수로서 예측하는 것을 목표로 하며 다음 3가지 가정에 의존한다: 
 
 <br>
 
 **39. Remark: ordinary least squares and logistic regression are special cases of generalized linear models.**
 
-&#10230; 최소자승법 (ordinary least squares)과 로지스틱 회귀는 일반화 선형 모델의 특수한 경우이다. 
+&#10230; 최소자승법 (ordinary least squares)과 로지스틱 회귀는 일반화된 선형 모델의 특수한 경우이다. 
 
 <br>
 
@@ -240,7 +240,7 @@
 
 **41: The goal of support vector machines is to find the line that maximizes the minimum distance to the line.**
 
-&#10230; 서포트 벡터 머신의 목적은 선으로의 최단거리를 최대화 시키는 그 선을 찾는 것이다. 
+&#10230; 서포트 벡터 머신의 목적은 가장 가까운 결정 경계까지 거리를 최대화시키는 직선을 찾는 것이다. 
 
 <br>
 
@@ -276,13 +276,13 @@
 
 **47. Hinge loss ― The hinge loss is used in the setting of SVMs and is defined as follows:**
 
-&#10230; 힌지 손실 (Hinge loss) - 힌지 손실은 SVM을 설정 할때 사용되며 다음과 같이 정의된다: 
+&#10230; 힌지 손실 (Hinge loss) - 힌지 손실은 SVM에 사용되며 다음과 같이 정의된다: 
 
 <br>
 
 **48. Kernel ― Given a feature mapping ϕ, we define the kernel K to be defined as:**
 
-&#10230; 커널 - 피처를 매핑하는 함수 ϕ가 주어졌을 때, 커널 K를 다음과 같이 정의한다: 
+&#10230; 커널 - 특성(feature)을 매핑하는 함수 ϕ가 주어졌을 때, 커널 K를 다음과 같이 정의한다: 
 
 <br>
 
@@ -294,13 +294,13 @@
 
 **50. [Non-linear separability, Use of a kernel mapping, Decision boundary in the original space]**
 
-&#10230; [비선형 구분가능, 커널 매핑의 사용, 원래의 공간에서의 결정경계] 
+&#10230; [비선형 구분가능, 커널 매핑의 사용, 원본 공간에 있는 결정경계] 
 
 <br>
 
 **51. Remark: we say that we use the "kernel trick" to compute the cost function using the kernel because we actually don't need to know the explicit mapping ϕ, which is often very complicated. Instead, only the values K(x,z) are needed.**
 
-&#10230; 비고: 우리는 보통 매우 복잡한 명시적 매핑 ϕ를 알 필요가 없기 때문에 커널을 사용하여 비용 함수를 계산하기 할 때 "커널 트릭"을 사용한다고 말한다. 이때 K(x,z) 값만 알면 된다.
+&#10230; 비고: 보통 매우 복잡한 명시적 매핑 ϕ를 알 필요가 없기 때문에 커널을 사용하여 비용 함수를 계산할 때 "커널 트릭"을 사용한다고 말한다. 이때 K(x,z) 값만 알면 된다.
 
 <br>
 
@@ -324,7 +324,7 @@
 
 **55. A generative model first tries to learn how the data is generated by estimating P(x|y), which we can then use to estimate P(y|x) by using Bayes' rule.**
 
-&#10230; 생성 모델은 우선 데이터가 어떻게 생성되는지 P(x|y)를 추정하며 배우는데 우리는 이를 베이즈 정리를 사용하여 P(y|x)를 추정하는 데에 사용할 수 있다.
+&#10230; 생성 모델은 우선 데이터가 어떻게 생성되는지 P(x|y)를 추정하며 배우는데 이를 베이즈 정리를 사용하여 P(y|x)를 추정하는 데에 사용할 수 있다.
 
 <br>
 
@@ -354,7 +354,7 @@
 
 **60. Assumption ― The Naive Bayes model supposes that the features of each data point are all independent:**
 
-&#10230; 가정 - 나이브 베이즈 모델은 피처의 각각의 데이터들이 모두 서로 독립적이라고 가정한다: 
+&#10230; 가정 - 나이브 베이즈 모델은 각 데이터 포인트의 특성이 모두 서로 독립적이라고 가정한다:
 
 <br>
 
@@ -390,7 +390,7 @@
 
 **66. Random forest ― It is a tree-based technique that uses a high number of decision trees built out of randomly selected sets of features. Contrary to the simple decision tree, it is highly uninterpretable but its generally good performance makes it a popular algorithm.**
 
-&#10230; 랜덤 포레스트 - 무작위로 선택된 피처들로부터 형성된 많은 수의 의사 결정 트리들을 사용하는 트리 기반 기술이다. 단순한 의사 결정 트리와는 달리 해석이 매우 어렵지만 일반적으로 좋은 성능을 내어 널리 사용되는 알고리즘이다. 
+&#10230; 랜덤 포레스트 - 무작위로 선택된 특성으로부터 형성된 많은 수의 의사 결정 트리들을 사용하는 트리 기반 기술이다. 단순한 의사 결정 트리와는 달리 해석이 매우 어렵지만 일반적으로 좋은 성능을 내어 널리 사용되는 알고리즘이다. 
 
 <br>
 
@@ -402,31 +402,31 @@
 
 **68. Boosting ― The idea of boosting methods is to combine several weak learners to form a stronger one. The main ones are summed up in the table below:**
 
-&#10230; 부스팅 - 부스팅 방법은 여러 약한 학습기(weak learners)들을 합쳐서 더 강한 학습기를 만드는 것이다. 주요 목록들이 밑 테이블에 있다:
+&#10230; 부스팅 - 부스팅 방법은 여러 약한 학습기(weak learners)들을 합쳐서 더 강한 학습기를 만드는 것이다. 주요 목록들이 아래 테이블에 있다:
 
 <br>
 
 **69. [Adaptive boosting, Gradient boosting]**
 
-&#10230; [아다 부스팅(Adaptive boosting), 그라디언트 부스팅(Gradient boosting)]
+&#10230; [에이다 부스팅(Adaptive boosting), 그라디언트 부스팅(Gradient boosting)]
 
 <br>
 
 **70. High weights are put on errors to improve at the next boosting step**
 
-&#10230; 다음 부스팅 스텝에서 더 나아지기 위해 에러에 높은 가중치가 매겨지게 된다
+&#10230; 다음 부스팅 스텝에서 성능을 높이기 위해 에러 샘플에 높은 가중치를 부여한다
 
 <br>
 
 **71. Weak learners trained on remaining errors**
 
-&#10230; 남아있는 에러로 학습된 약한 학습기 
+&#10230; 잔차에서 학습된 약한 학습기 
 
 <br>
 
 **72. Other non-parametric approaches**
 
-&#10230; 다른 non-parametric 접근법들  
+&#10230; 다른 비모수(non-parametric) 접근법
 
 <br>
 
@@ -492,19 +492,19 @@
 
 **83. Shattering ― Given a set S={x(1),...,x(d)}, and a set of classifiers H, we say that H shatters S if for any set of labels {y(1),...,y(d)}, we have:**
 
-&#10230; Shattering - 집합 S={x(1),...,x(d)}와 분류기의 집합 H가 주어졌을 때, 아래와 같은 조건을 만족한다면 레이블 {y(1),...,y(d)}에 대해 H가 S를 shatter 한다고 한다: 
+&#10230; 쉐터링(Shattering) - 집합 S={x(1),...,x(d)}와 분류기의 집합 H가 주어졌을 때, 아래와 같은 조건을 만족한다면 레이블 {y(1),...,y(d)}에 대해 H가 S를 쉐터링한다고 한다고 한다: 
 
 <br>
 
 **84. Upper bound theorem ― Let H be a finite hypothesis class such that |H|=k and let δ and the sample size m be fixed. Then, with probability of at least 1−δ, we have:**
 
-&#10230; Upper bound 이론 - H를 |H|=k를 만족하는 유한 가설 클래스로 정하고 δ와 표본 크기 m을 고정한다. 그러면 적어도 1−δ의 확률로 다음을 얻는다: 
+&#10230; 상계 이론(Upper bound theorem) - H를 |H|=k를 만족하는 유한 가설 클래스로 정하고 δ와 표본 크기 m을 고정한다. 그러면 적어도 1−δ의 확률로 다음을 얻는다: 
 
 <br>
 
 **85. VC dimension ― The Vapnik-Chervonenkis (VC) dimension of a given infinite hypothesis class H, noted VC(H) is the size of the largest set that is shattered by H.**
 
-&#10230; VC 차원 ― 주어진 무한 가설 클래스 H의 Vapnik-Chervonenkis (VC) 차원, VC(H)는 H에 의해 shatter 되는 가장 큰 집합의 크기이다. 
+&#10230; VC 차원 ― 주어진 무한 가설 클래스 H의 VC(Vapnik-Chervonenkis) 차원, VC(H)는 H에 의해 쉐터링되는 가장 큰 집합의 크기이다. 
 
 <br>
 
@@ -534,7 +534,7 @@
 
 **90. [Linear models, linear regression, logistic regression, generalized linear models]**
 
-&#10230; [선형 모델, 선형 회귀, 로지스틱 회귀, 일반화되 선형 모델]
+&#10230; [선형 모델, 선형 회귀, 로지스틱 회귀, 일반화된 선형 모델]
 
 <br>
 

@@ -53,7 +53,7 @@
 
 **8. [Machine translation, Beam search, Length normalization, Error analysis, Bleu score]**
 
-&#10230; [Машинный перевод, Поиск луча, Нормализация длины, Анализ ошибок, Оценка BLEU]
+&#10230; [Машинный перевод, Лучевой поиск, Нормализация длины, Анализ ошибок, Метрика BLEU]
 
 <br>
 

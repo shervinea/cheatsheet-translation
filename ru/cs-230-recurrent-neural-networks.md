@@ -480,7 +480,7 @@
 
 **68. Perplexity ― Language models are commonly assessed using the perplexity metric, also known as PP, which can be interpreted as the inverse probability of the dataset normalized by the number of words T. The perplexity is such that the lower, the better and is defined as follows:**
 
-&#10230; Недоумение ― Perplexity - языковые модели обычно оцениваются с помощью метрики недоумения, также известной как PP, которую можно интерпретировать как обратную вероятность набора данных, нормализованную на количество слов T. Недоумение таково, что чем ниже, тем лучше и определяется как следует:
+&#10230; Метрика Perplexity ― языковые модели обычно оцениваются с помощью метрики perplexity, также известной как PP, которую можно интерпретировать как обратную вероятность набора данных, нормализованную на количество слов T. Perplexity таково, что чем оно ниже, тем лучше, и определяется следующим образом:
 
 <br>
 

@@ -641,7 +641,7 @@
 
 **91. The Deep Learning cheatsheets are now available in [target language].**
 
-&#10230; Шпаргалки по глубокому обучению теперь доступны в формате [target language].
+&#10230; Шпаргалки по глубокому обучению теперь доступны на русском языке.
 
 <br>
 

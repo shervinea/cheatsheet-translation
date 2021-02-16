@@ -207,7 +207,7 @@
 
 **30. Types of gates ― In order to remedy the vanishing gradient problem, specific gates are used in some types of RNNs and usually have a well-defined purpose. They are usually noted Γ and are equal to:**
 
-&#10230; Типы вентилей ― чтобы решить проблему исчезающего градиента, в некоторых типах RNN используются определенные вентили, которые обычно имеют четко определенную цель. Обычно они обозначаются Γ и равны:
+&#10230; Типы вентилей ― чтобы решить проблему исчезающего градиента, в некоторых типах RNN используются специфичные вентили, которые имеют четко заданную цель. Обычно они обозначаются Γ и равны:
 
 <br>
 

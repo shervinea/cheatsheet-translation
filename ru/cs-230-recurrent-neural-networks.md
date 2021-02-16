@@ -647,7 +647,7 @@
 
 **92. Original authors**
 
-&#10230; Авторы оригинала: Afshine Amidi и Shervine Amidi ― https://github.com/shervinea
+&#10230; Авторы оригинала: Afshine Amidi и Shervine Amidi ― https://github.com/afshinea и https://github.com/shervinea
 
 <br>
 

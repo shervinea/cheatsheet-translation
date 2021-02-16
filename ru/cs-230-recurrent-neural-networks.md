@@ -389,7 +389,7 @@
 
 **56. Negative sampling ― It is a set of binary classifiers using logistic regressions that aim at assessing how a given context and a given target words are likely to appear simultaneously, with the models being trained on sets of k negative examples and 1 positive example. Given a context word c and a target word t, the prediction is expressed by:**
 
-&#10230; Отрицательная выборка ― это набор бинарных классификаторов, использующих логистические регрессии, целью которых является оценка того, как данный контекст и заданные целевые слова могут появляться одновременно, при этом модели обучаются на наборах из k отрицательных примеров и 1 положительного примера. Учитывая контекстное слово c и целевое слово t, прогноз выражается следующим образом:
+&#10230; Negative sampling ― это набор бинарных классификаторов, использующих логистические регрессии, целью которых является оценка того, как данный контекст и заданные целевые слова могут появляться одновременно, при этом модели обучаются на наборах из k отрицательных примеров и 1 положительного примера. Учитывая контекстное слово c и целевое слово t, прогноз выражается следующим образом:
 
 <br>
 

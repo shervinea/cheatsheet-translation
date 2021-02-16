@@ -410,7 +410,7 @@
 
 **58. where f is a weighting function such that Xi,j=0⟹f(Xi,j)=0. Given the symmetry that e and θ play in this model, the final word embedding e(final)w is given by:**
 
-&#10230; где f - такая весовая функция, что Xi,j=0⟹f(Xi,j)=0. Учитывая симметрию, которую играют e и θ в этой модели, последнее представление слов e(final)w дается выражением:
+&#10230; где f - такая взвешивающая функция, что Xi,j=0⟹f(Xi,j)=0. Учитывая симметрию, которую играют e и θ в этой модели, последнее представление слов e(final)w задается выражением:
 
 <br>
 

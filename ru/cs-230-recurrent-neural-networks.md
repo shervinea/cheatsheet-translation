@@ -95,7 +95,7 @@
 
 **14. where Wax,Waa,Wya,ba,by are coefficients that are shared temporally and g1,g2 activation functions.**
 
-&#10230; где Wax,Waa,Wya,ba,by являются коэффициентами, которые разделяются по времени, и функциями активации g1,g2 .
+&#10230; где Wax,Waa,Wya,ba,by являются коэффициентами, которые являются одинаковыми для всех ячеек RNN во времени, и функциями активации g1,g2.
 
 <br>
 

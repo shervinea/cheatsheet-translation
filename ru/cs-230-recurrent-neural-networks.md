@@ -354,7 +354,7 @@
 
 **51. Word2vec ― Word2vec is a framework aimed at learning word embeddings by estimating the likelihood that a given word is surrounded by other words. Popular models include skip-gram, negative sampling and CBOW.**
 
-&#10230; Word2vec ― это фреймворк, предназначенный для изучения встраивания слов путем оценки вероятности того, что данное слово окружено другими словами. Популярные модели включают скип-грамм, отрицательную выборку и CBOW.
+&#10230; Word2vec ― это модель, предназначенная для получения представлений слов путем оценки вероятности того, что конкретное слово окружено другими словами. Популярные модели включают Skip-gram, Negative sampling и CBOW.
 
 <br>
 

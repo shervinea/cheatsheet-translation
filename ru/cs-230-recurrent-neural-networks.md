@@ -186,7 +186,7 @@
 
 **27. Vanishing/exploding gradient ― The vanishing and exploding gradient phenomena are often encountered in the context of RNNs. The reason why they happen is that it is difficult to capture long term dependencies because of multiplicative gradient that can be exponentially decreasing/increasing with respect to the number of layers.**
 
-&#10230; Исчезающий/взрывающийся градиент ― Явления исчезающих и взрывных градиентов часто встречаются в контексте RNN. Причина, по которой они происходят, заключается в том, что трудно зафиксировать долгосрочные зависимости из-за мультипликативного градиента, который может экспоненциально уменьшаться/увеличиваться по отношению к количеству слоев.
+&#10230; Исчезающий/взрывающийся градиент ― Явления исчезающих и взрывающихся градиентов часто встречаются в контексте RNN. Причина, по которой они происходят, заключается в том, что трудно зафиксировать долгосрочные зависимости из-за мультипликативного градиента, который может экспоненциально уменьшаться/увеличиваться по отношению к количеству слоев.
 
 <br>
 

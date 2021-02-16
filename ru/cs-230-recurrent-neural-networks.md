@@ -144,7 +144,7 @@
 
 **21. [Traditional neural network, Music generation, Sentiment classification, Name entity recognition, Machine translation]**
 
-&#10230; [Традиционная нейронная сеть, Генерация музыки, Классификация эмоций (Sentiment classification), Распознавание именованных сущностей (Name entity recognition NER), Машинный перевод]
+&#10230; [Классическая нейронная сеть, Генерация музыки, Определение эмоциональной окраски, Распознавание именованных сущностей, Машинный перевод]
 
 <br>
 

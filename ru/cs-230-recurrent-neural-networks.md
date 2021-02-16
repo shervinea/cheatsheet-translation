@@ -333,7 +333,7 @@
 
 **48. Embedding matrix ― For a given word w, the embedding matrix E is a matrix that maps its 1-hot representation ow to its embedding ew as follows:**
 
-&#10230; Матрица представления (embedding matrix) ― для данного слова w матрица представления E является матрицей, которая отображает свое 1-hot представление ow на его представления ew следующим образом:
+&#10230; Матрица представлений слов (embedding matrix) ― для данного слова w матрица представлений E является матрицей, которая отображает его one-hot представление ow на его представление ew следующим образом:
 
 <br>
 

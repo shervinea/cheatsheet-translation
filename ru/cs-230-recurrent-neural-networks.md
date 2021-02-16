@@ -214,7 +214,7 @@
 
 **31. where W,U,b are coefficients specific to the gate and σ is the sigmoid function. The main ones are summed up in the table below:**
 
-&#10230; где W,U,b ― коэффициенты, относящиеся к вентилю, а σ - сигмовидная функция. Основные из них приведены в таблице ниже:
+&#10230; где W,U,b ― коэффициенты, относящиеся к вентилю, а σ - функция сигмоиды. Основные из них приведены в таблице ниже:
 
 <br>
 

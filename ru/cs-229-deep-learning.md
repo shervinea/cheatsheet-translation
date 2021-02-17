@@ -52,7 +52,7 @@
 
 **9. [Sigmoid, Tanh, ReLU, Leaky ReLU]**
 
-&#10230; [Сигмоида, Tanh, ReLU, ReLU с утечкой]
+&#10230; [Sigmoid, Tanh, ReLU, Leaky ReLU]
 
 <br>
 

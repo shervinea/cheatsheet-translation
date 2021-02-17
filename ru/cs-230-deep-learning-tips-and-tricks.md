@@ -256,7 +256,7 @@
 
 **37. [Freezes all layers, trains weights on softmax, Freezes most layers, trains weights on last layers and softmax, Trains weights on layers and softmax by initializing weights on pre-trained ones]**
 
-&#10230; [Замораживает все слои, тренирует веса на softmax, Замораживает большинство слоев, тренирует веса на последних слоях и softmax, Тренирует веса на слоях и softmax инициализирует веса на предварительно обученных]
+&#10230; [Замораживает все слои, обучает веса на softmax, Замораживает большинство слоев, дообучает веса на последних слоях и softmax, Дообучает веса на большинстве слоев и softmax]
 
 <br>
 

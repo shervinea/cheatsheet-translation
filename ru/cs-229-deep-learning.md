@@ -46,7 +46,7 @@
 
 **8. Activation function ― Activation functions are used at the end of a hidden unit to introduce non-linear complexities to the model. Here are the most common ones:**
 
-&#10230; Функция активации ― используются в конце скрытого блока, чтобы внести в модель нелинейность. Вот самые распространенные:
+&#10230; Функция активации ― используется на выходе каждого нейрона скрытого слоя, чтобы внести в модель нелинейность. Вот самые распространенные:
 
 <br>
 

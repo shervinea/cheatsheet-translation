@@ -431,7 +431,7 @@
 
 **62. Non-max suppression ― The non-max suppression technique aims at removing duplicate overlapping bounding boxes of a same object by selecting the most representative ones. After having removed all boxes having a probability prediction lower than 0.6, the following steps are repeated while there are boxes remaining:**
 
-&#10230; Подавление немаксимума ― Non-max suppression - Техника подавления немаксимальных направлена на удаление дублирующих перекрывающихся ограничивающих рамок одного и того же объекта путем выбора наиболее репрезентативных. После удаления всех рамок, имеющих прогноз вероятности ниже 0.6, следующие шаги повторяются, пока остаются рамки:
+&#10230; Подавление немаксимума ― Non-max suppression - Техника подавления немаксимумов направлена на удаление дублирующих перекрывающихся ограничивающих рамок одного и того же объекта путем выбора наиболее репрезентативных рамок. После удаления всех рамок, имеющих прогноз вероятности ниже 0.6, следующие шаги повторяются до тех пор, пока остаются рамки:
 
 <br>
 

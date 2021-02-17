@@ -466,7 +466,7 @@
 
 **67. where pc is the probability of detecting an object, bx,by,bh,bw are the properties of the detected bouding box, c1,...,cp is a one-hot representation of which of the p classes were detected, and k is the number of anchor boxes.**
 
-&#10230; где pc - вероятность обнаружения объекта, bx,by,bh,bw - свойства обнаруженной ограничивающий рамки, c1,...,cp - one-hot представление того, какой из p классов был обнаружен, а k количество якорных рамок.
+&#10230; где pc - вероятность обнаружения объекта, bx,by,bh,bw - свойства обнаруженной ограничивающий рамки, c1,...,cp - one-hot представление того, какой из p классов был обнаружен, а k - количество якорных рамок.
 
 <br>
 

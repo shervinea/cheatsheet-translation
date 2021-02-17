@@ -599,7 +599,7 @@
 
 **85. Attention model ― This model allows an RNN to pay attention to specific parts of the input that is considered as being important, which improves the performance of the resulting model in practice. By noting α<t,t′> the amount of attention that the output y<t> should pay to the activation a<t′> and c<t> the context at time t, we have:**
 
-&#10230; Модель внимания ― эта модель позволяет RNN обращать внимание на определенные части входных данных, которые считаются важными, что на практике улучшает производительность полученной модели. Обозначим α<t,t′> количество внимания, которое выход y<t> должен уделять активации a<t′> и c<t> контексту в момент времени t, у нас есть:
+&#10230; Модель внимания ― эта модель позволяет RNN обращать внимание на определенные части входных данных, которые считаются важными, что на практике улучшает качество предсказаний полученной модели. Обозначим α<t,t′> количество внимания, которое выход y<t> должен уделять активации a<t′> и c<t> контексту в момент времени t, у нас есть:
 
 <br>
 

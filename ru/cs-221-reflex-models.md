@@ -116,7 +116,7 @@
 
 **17. Regression case - The prediction of a sample x of true label y∈R with a linear model of weights w can be done with the predictor fw(x)≜s(x,w). In this situation, a metric of interest quantifying the quality of the regression is given by the margin res(x,y,w) and can be used with the following loss functions:**
 
-&#10230; Случай регрессии ― Предсказание выборки x истинной метки y∈R с помощью линейной модели весов w может быть выполнено с помощью предиктора fw(x)≜s(x,w). В этой ситуации интересующий показатель, количественно оценивающий качество регрессии, задается отступом res(x,y,w) и может использоваться со следующими функциями потерь:
+&#10230; Случай регрессии ― Предсказание выборки x истинной метки y∈R с помощью линейной модели весов w может быть выполнено с помощью предиктора fw(x)≜s(x,w). В этой ситуации интересующий показатель, количественно оценивающий качество регрессии, задается зазором res(x,y,w) и может использоваться со следующими функциями потерь:
 
 <br>
 

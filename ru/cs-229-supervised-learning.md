@@ -250,7 +250,7 @@
 
 **42. Optimal margin classifier ― The optimal margin classifier h is such that:**
 
-&#10230; Оптимальный Классификатор с Отступом ― h таков, что:
+&#10230; Оптимальный классификатор с зазором ― h таков, что:
 
 <br>
 

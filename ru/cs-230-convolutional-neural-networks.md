@@ -88,7 +88,7 @@
 
 **13. Architecture of a traditional CNN ― Convolutional neural networks, also known as CNNs, are a specific type of neural networks that are generally composed of the following layers:**
 
-&#10230; Архитектура традиционного ― Сверточные нейронные сети, также известные как (Convolutional neural networks, CNN), представляют собой особый тип нейронных сетей, которые обычно состоят из следующих слоев:
+&#10230; Архитектура классической CNN ― Сверточные нейронные сети, также известные как Convolutional neural networks или CNNs, представляют собой особый тип нейронных сетей, которые обычно состоят из следующих слоев:
 
 <br>
 

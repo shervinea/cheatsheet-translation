@@ -277,7 +277,7 @@
 
 **40. Hyperparameters ― Hyperparameters are the properties of the learning algorithm, and include features, regularization parameter λ, number of iterations T, step size η, etc.**
 
-&#10230; Гиперпараметры ― это свойства алгоритма обучения и включают функции, параметр регуляризации λ, количество итераций T, размер шага η и так далее.
+&#10230; Гиперпараметры ― это свойства алгоритма обучения, включающие параметр регуляризации λ, количество итераций T, размер шага η и так далее.
 
 <br>
 

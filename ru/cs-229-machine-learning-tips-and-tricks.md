@@ -16,7 +16,7 @@
 
 **3. In a context of a binary classification, here are the main metrics that are important to track in order to assess the performance of the model.**
 
-&#10230; В контексте бинарной классификации вот основные метрики, которые важно отслеживать, чтобы оценить производительность модели.
+&#10230; В контексте бинарной классификации вот основные метрики, которые важно отслеживать, чтобы оценить качество модели.
 
 <br>
 

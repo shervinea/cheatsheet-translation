@@ -445,7 +445,7 @@
 
 **63. t-SNE ― t-SNE (t-distributed Stochastic Neighbor Embedding) is a technique aimed at reducing high-dimensional embeddings into a lower dimensional space. In practice, it is commonly used to visualize word vectors in the 2D space.**
 
-&#10230; t-SNE ― t-распределенное стохастическое соседнее представление (t-distributed Stochastic Neighbor Embedding, t-SNE) - это метод, направленный на сокращение представлений большой размерности в пространство меньшей размерности. На практике он обычно используется для визуализации векторов слов в 2D-пространстве.
+&#10230; t-SNE ― t-распределенное стохастическое соседнее представление (t-distributed Stochastic Neighbor Embedding, t-SNE) - это метод, направленный на сокращение высоко-размерного пространства представлений до пространства меньшей размерности. На практике он обычно используется для визуализации векторов слов в 2D-пространстве.
 
 <br>
 

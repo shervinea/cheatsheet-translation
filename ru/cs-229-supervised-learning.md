@@ -580,7 +580,7 @@
 
 **97. Translated by X, Y and Z**
 
-&#10230; Российская адаптация: Пархоменко Александр ― https://github.com/AlexandrParkhomenko
+&#10230; Переведено на русский язык: Пархоменко Александр ― https://github.com/AlexandrParkhomenko
 
 <br>
 

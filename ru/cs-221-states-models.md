@@ -711,7 +711,7 @@
 
 **102. [Types of policies ― There are two types of policies:, Deterministic policies, noted πp(s), which are actions that player p takes in state s., Stochastic policies, noted πp(s,a)∈[0,1], which are probabilities that player p takes action a in state s.]**
 
-&#10230; [Типы политик ― Есть два типа политик:, Детерминистские политики, обозначаются πp(s), действия игрока p в состоянии s., Стохастические политики, обозначаются πp(s,a)∈[0,1], вероятности совершения игроком p действия a в состоянии s.]
+&#10230; [Типы политик ― Есть два типа политик:, Детерминистские политики, обозначаются πp(s), действия игрока p в состоянии s., Стохастические политики, обозначаются πp(s,a)∈[0,1], являющиеся вероятностями совершения игроком p действия a в состоянии s.]
 
 <br>
 

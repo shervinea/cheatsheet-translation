@@ -95,7 +95,7 @@
 
 **14. Loss function ― A loss function Loss(x,y,w) quantifies how unhappy we are with the weights w of the model in the prediction task of output y from input x. It is a quantity we want to minimize during the training process.**
 
-&#10230; Функция потерь ― Функция потерь Loss(x,y,w) количественно определяет, насколько мы недовольны весами w модели в задаче прогнозирования выхода y из входа x. Это количество, которое мы хотим минимизировать во время тренировочного процесса.
+&#10230; Функция потерь ― Функция потерь Loss(x,y,w) количественно определяет, насколько мы недовольны весами w модели в задаче прогнозирования выхода y на основе входа x. Это количество, которое мы хотим минимизировать во время процесса обучения.
 
 <br>
 

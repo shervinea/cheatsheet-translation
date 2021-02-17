@@ -32,7 +32,7 @@
 
 **5. Score ― The score s(x,w) of an example (ϕ(x),y)∈Rd×R associated to a linear model of weights w∈Rd is given by the inner product:**
 
-&#10230; Оценка ― Оценка s(x,w) примера (ϕ(x),y) ∈Rd×R, связанного с линейной моделью весов w∈Rd, дается внутренним произведением:
+&#10230; Оценка ― Оценка s(x,w) примера (ϕ(x),y) ∈Rd×R, связанного с линейной моделью весов w∈Rd, задается скалярным произведением:
 
 <br>
 

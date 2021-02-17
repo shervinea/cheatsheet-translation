@@ -137,7 +137,7 @@
 
 **23. It is usually done after a fully connected/convolutional layer and before a non-linearity layer and aims at allowing higher learning rates and reducing the strong dependence on initialization.**
 
-&#10230; Обычно это делается после полносвязного / сверточного слоя и до функции нелинейности и направлено на повышение скорости обучения и уменьшение сильной зависимости от инициализации.
+&#10230; Обычно это делается после полносвязного/сверточного слоя и до функции нелинейности и направлено на повышение скорости обучения и уменьшение сильной зависимости от инициализации.
 
 <br>
 

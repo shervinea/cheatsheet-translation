@@ -641,7 +641,7 @@
 
 **92. Generative Adversarial Network ― Generative adversarial networks, also known as GANs, are composed of a generative and a discriminative model, where the generative model aims at generating the most truthful output that will be fed into the discriminative which aims at differentiating the generated and true image.**
 
-&#10230; Генеративные состязательные сети ― Generative adversarial networks, также известные как GANs, состоят из генеративной и дискриминативной моделей, где генеративная модель направлена на генерирование наиболее правдивого вывода, который будет передан дискриминативной модели, направленной на различение созданного и истинного изображения.
+&#10230; Генеративные состязательные сети ― Generative adversarial networks, также известные как GANs, состоят из генеративной и дискриминативной моделей, где генеративная модель направлена на генерирование наиболее правдивого вывода, который будет передан дискриминативной модели, направленной на различение сгенерированного и истинного изображений.
 
 <br>
 

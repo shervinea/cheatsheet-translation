@@ -326,7 +326,7 @@
 
 **47. Dropout ― Dropout is a technique used in neural networks to prevent overfitting the training data by dropping out neurons with probability p>0. It forces the model to avoid relying too much on particular sets of features.**
 
-&#10230; Прореживание ― Dropout - это метод, используемый в нейронных сетях для предотвращения переобучения обучающих данных путем выпадения нейронов с вероятностью p>0. Это заставляет модель не слишком полагаться на определенные наборы функций.
+&#10230; Прореживание ― Dropout - это метод, используемый в нейронных сетях для предотвращения переобучения путем зануления активаций нейронов с вероятностью p>0. Это заставляет модель не слишком полагаться на конкретные наборы функций.
 
 <br>
 

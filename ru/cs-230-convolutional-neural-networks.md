@@ -543,7 +543,7 @@
 
 **78. One Shot Learning ― One Shot Learning is a face verification algorithm that uses a limited training set to learn a similarity function that quantifies how different two given images are. The similarity function applied to two images is often noted d(image 1,image 2).**
 
-&#10230; Обучение одним выстрелом ― One Shot Learning - это алгоритм проверки лица, который использует ограниченный обучающий набор для изучения функции сходства, которая количественно определяет, насколько разные два заданных изображения. Функция подобия, применяемая к двум изображениям, часто обозначается d(image 1,image 2).
+&#10230; Обучение с первого раза ― One Shot Learning - это алгоритм проверки лица, который использует ограниченный обучающий набор для изучения функции сходства, которая количественно определяет, насколько разные два заданных изображения. Функция подобия, применяемая к двум изображениям, часто обозначается d(image 1,image 2).
 
 <br>
 

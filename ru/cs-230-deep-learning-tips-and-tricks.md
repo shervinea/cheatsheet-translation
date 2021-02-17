@@ -228,7 +228,7 @@
 
 **33. Xavier initialization ― Instead of initializing the weights in a purely random manner, Xavier initialization enables to have initial weights that take into account characteristics that are unique to the architecture.**
 
-&#10230; Метод инициализации Завьера (Xavier) ― вместо того, чтобы инициализировать веса чисто случайным образом, инициализация Xavier позволяет иметь начальные веса, которые учитывают характеристики, уникальные для архитектуры.
+&#10230; Метод инициализации Ксавье ― Вместо того, чтобы инициализировать веса чисто случайным образом, инициализация Ксавье позволяет иметь начальные веса, которые учитывают уникальные характеристики архитектуры.
 
 <br>
 

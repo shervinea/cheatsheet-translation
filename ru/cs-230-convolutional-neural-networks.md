@@ -536,7 +536,7 @@
 
 **77. [Is this the correct person?, One-to-one lookup, Is this one of the K persons in the database?, One-to-many lookup]**
 
-&#10230; [Это правильный человек?, Один-к-одному поиск, Это одно из K лиц в базе данных?, Один-к-многим поиск]
+&#10230; [Это правильный человек?, Поиск one-to-one, Это одно из K лиц в базе данных?, Поиск one-to-many]
 
 <br>
 

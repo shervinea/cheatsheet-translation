@@ -40,7 +40,7 @@
 
 **7. Latent variables ― Latent variables are hidden/unobserved variables that make estimation problems difficult, and are often denoted z. Here are the most common settings where there are latent variables:**
 
-&#10230; Скрытые величины ― это скрытые/ненаблюдаемые величины, которые затрудняют задачи оценки, и часто обозначаются буквой z. Вот наиболее распространенные настройки, в которых присутствуют скрытые величины:
+&#10230; Скрытые величины ― это скрытые/ненаблюдаемые величины, которые затрудняют задачи оценки, и часто обозначаются буквой z. Вот наиболее распространенные ситуации, когда возникают скрытые величины:
 
 <br>
 

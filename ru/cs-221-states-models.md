@@ -74,7 +74,7 @@
 
 **11. Depth-first search (DFS) ― Depth-first search is a search algorithm that traverses a graph by following each path as deep as it can. We can implement it recursively, or iteratively with the help of a stack that stores at each step future nodes to be visited. For this algorithm, action costs are assumed to be equal to 0.**
 
-&#10230; Depth-first search (DFS) ― Поиск в глубину - это алгоритм поиска, который просматривает граф, прослеживая каждый путь как можно глубже. Мы можем реализовать это рекурсивно или итеративно с помощью стека, в котором на каждом шаге хранятся будущие узлы, которые необходимо посетить. Для этого алгоритма предполагается, что затраты на действия равны 0.
+&#10230; Depth-first search (DFS) ― Поиск в глубину - это алгоритм поиска, который обходит граф, прослеживая каждый путь как можно глубже. Мы можем реализовать это рекурсивно или итеративно с помощью стека, в котором на каждом шаге хранятся будущие узлы, которые необходимо посетить. Для этого алгоритма предполагается, что затраты на действия равны 0.
 
 <br>
 

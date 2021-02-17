@@ -249,7 +249,7 @@
 
 **36. Backpropagation ― The forward pass is done through fi, which is the value for the subexpression rooted at i, while the backward pass is done through gi=∂out∂fi and represents how fi influences the output.**
 
-&#10230; Обратное распространение ― Backpropagation - Прямой проход выполняется через fi, которое является значением подвыражения с индексом i, а обратный проход выполняется через gi=∂out∂fi и представляет, как fi влияет на вывод.
+&#10230; Обратное распространение ошибки ― Backpropagation - Прямой проход сети выполняется через fi, которое является значением подвыражения с индексом i, а обратный проход выполняется через gi=∂out∂fi и отражает то, как сильно fi влияет на выход.
 
 <br>
 

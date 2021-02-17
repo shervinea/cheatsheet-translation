@@ -113,7 +113,7 @@
 
 **19. Dropout ― Dropout is a technique meant at preventing overfitting the training data by dropping out units in a neural network. In practice, neurons are either dropped with probability p or kept with probability 1−p**
 
-&#10230; Прореживание (Dropout) ― это метод, предназначенный для предотвращения переобучения на обучающих данных путем исключения блоков в нейронной сети. На практике нейроны либо отбрасываются с вероятностью p, либо сохраняются с вероятностью 1−p
+&#10230; Прореживание (Dropout) ― это метод, предназначенный для предотвращения переобучения путем удаления нейронов из сети. На практике нейроны либо отбрасываются с вероятностью p, либо сохраняются с вероятностью 1−p
 
 <br>
 

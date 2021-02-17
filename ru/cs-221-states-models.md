@@ -60,7 +60,7 @@
 
 **9. Backtracking search ― Backtracking search is a naive recursive algorithm that tries all possibilities to find the minimum cost path. Here, action costs can be either positive or negative.**
 
-&#10230; Backtracking ― Поиск с возвратом - это наивный рекурсивный алгоритм, который пробует все возможности, чтобы найти путь с минимальной стоимостью. Здесь затраты на действия могут быть как положительными, так и отрицательными.
+&#10230; Backtracking search ― Поиск с возвратом - это наивный рекурсивный алгоритм, который пробует все возможности, чтобы найти путь с минимальной стоимостью. Здесь затраты на действия могут быть как положительными, так и отрицательными.
 
 <br>
 

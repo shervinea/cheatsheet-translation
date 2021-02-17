@@ -102,7 +102,7 @@
 
 **15. Classification case - The classification of a sample x of true label y∈{−1,+1} with a linear model of weights w can be done with the predictor fw(x)≜sign(s(x,w)). In this situation, a metric of interest quantifying the quality of the classification is given by the margin m(x,y,w), and can be used with the following loss functions:**
 
-&#10230; Классификационный случай ― Классификация выборки x истинной метки y∈{−1,+1} с линейной моделью весов w может быть выполнена с помощью предиктора fw(x)≜sign(s(x,w)). В этой ситуации интересующий показатель, определяющий качество классификации, задается отступом m(x,y,w) и может использоваться со следующими функциями потерь:
+&#10230; Случай классификации ― Классификация выборки x истинной метки y∈{−1,+1} с линейной моделью весов w может быть выполнена с помощью предиктора fw(x)≜sign(s(x,w)). В этой ситуации интересующий показатель, определяющий качество классификации, задается зазором m(x,y,w) и может использоваться со следующими функциями потерь:
 
 <br>
 

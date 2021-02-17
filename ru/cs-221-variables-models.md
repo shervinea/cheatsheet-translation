@@ -438,7 +438,7 @@
 
 **63. [General probabilistic inference strategy ― The strategy to compute the probability P(Q|E=e) of query Q given evidence E=e is as follows:, Step 1: Remove variables that are not ancestors of the query Q or the evidence E by marginalization, Step 2: Convert Bayesian network to factor graph, Step 3: Condition on the evidence E=e, Step 4: Remove nodes disconnected from the query Q by marginalization, Step 5: Run a probabilistic inference algorithm (manual, variable elimination, Gibbs sampling, particle filtering)]**
 
-&#10230; [Общая стратегия вероятностного вывода ― Стратегия вычисления вероятности P(Q|E=e) запроса Q при наличии свидетельства (англ: evidence) E=e следующая:, Шаг 1. Удалить неявляющиеся предками запроса Q или свидетельства E переменные путем маргинализации, Шаг 2: Преобразовать байесовскую сеть в факторный граф, Шаг 3: Улучшить состояние свидетельства E=e, Шаг 4: Удалить отключенные от запроса Q узлы путем маргинализации, Шаг 5: Запустить вероятностный алгоритм вывода (вручную, исключение переменных, выборка по Гиббсу, фильтрация частиц)]
+&#10230; [Общая стратегия вероятностного вывода ― Стратегия вычисления вероятности P(Q|E=e) запроса Q при наличии наблюдаемых значений E=e следующая:, Шаг 1. Удалить не являющиеся предками запроса Q или наблюдения E переменные путем маргинализации, Шаг 2: Преобразовать байесовскую сеть в факторный граф, Шаг 3: Улучшить состояние наблюдения E=e, Шаг 4: Удалить отключенные от запроса Q узлы путем маргинализации, Шаг 5: Запустить вероятностный алгоритм вывода (вручную, исключение переменных, выборка по Гиббсу, фильтрация частиц)]
 
 <br>
 

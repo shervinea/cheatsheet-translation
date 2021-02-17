@@ -109,7 +109,7 @@
 
 **16. [Name, Illustration, Zero-one loss, Hinge loss, Logistic loss]**
 
-&#10230; [Название, Иллюстрация, потеря ноль единицы, потеря петли, логистическая потеря]
+&#10230; [Название, Иллюстрация, Zero-one loss, Hinge loss, Logistic loss]
 
 <br>
 

@@ -662,7 +662,7 @@
 
 **95. ResNet ― The Residual Network architecture (also called ResNet) uses residual blocks with a high number of layers meant to decrease the training error. The residual block has the following characterizing equation:**
 
-&#10230; Residual Network architecture ― (также называется ResNet) использует остаточные блоки с большим количеством слоев, чтобы уменьшить ошибку обучения. Остаточный блок имеет следующее характеристическое уравнение:
+&#10230; ResNet ― Residual Network architecture использует остаточные блоки с большим количеством слоев, чтобы уменьшить ошибку обучения. Остаточный блок имеет следующее характеристическое уравнение:
 
 <br>
 

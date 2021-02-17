@@ -648,7 +648,7 @@
 
 **93. Remark: the SARSA estimate is updated on the fly as opposed to the model-free Monte Carlo one where the estimate can only be updated at the end of the episode.**
 
-&#10230; Примечание: оценка SARSA обновляется "на лету", в отличие от оценки Монте-Карло без использования модели, где оценка может быть обновлена только в конце эпизода.
+&#10230; Примечание: оценка SARSA обновляется "на лету", в отличие от безмодельного метода Монте-Карло, где оценка может быть обновлена только в конце эпизода.
 
 <br>
 

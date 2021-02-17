@@ -381,7 +381,7 @@
 
 **55. Gradient checking ― Gradient checking is a method used during the implementation of the backward pass of a neural network. It compares the value of the analytical gradient to the numerical gradient at given points and plays the role of a sanity-check for correctness.**
 
-&#10230; Проверка градиента ― это метод, используемый во время реализации обратного прохода нейронной сети. Он сравнивает значение аналитического градиента с числовым градиентом в заданных точках и играет роль проверки правильности.
+&#10230; Проверка градиента ― это метод, используемый во время реализации обратного прохода нейронной сети. Он сравнивает значение аналитического градиента с числовым градиентом в заданных точках и играет роль проверки реализации на корректность.
 
 <br>
 

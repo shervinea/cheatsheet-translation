@@ -207,7 +207,7 @@
 
 **30. Stochastic updates ― Stochastic gradient descent (SGD) updates the parameters of the model one training example (ϕ(x),y)∈Dtrain at a time. This method leads to sometimes noisy, but fast updates.**
 
-&#10230; Стохастические обновления ― Stochastic gradient descent (SGD) обновляет параметры модели по одному обучающему примеру (ϕ(x),y)∈Dtrain за раз. Этот метод приводит к иногда шумным, но быстрым обновлениям.
+&#10230; Стохастические обновления ― Stochastic gradient descent (SGD) обновляет параметры модели по одному обучающему примеру (ϕ(x),y)∈Dtrain за раз. Этот метод зачастую приводит к шумным, но быстрым обновлениям.
 
 <br>
 

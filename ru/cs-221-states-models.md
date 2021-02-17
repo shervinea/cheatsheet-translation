@@ -270,7 +270,7 @@
 
 **39. Remark: there are several versions of the algorithm, one of which simplifies the problem to only learning the cost of each action a, and the other parametrizes Cost(s,a) to a feature vector of learnable weights.**
 
-&#10230; Примечание: существует несколько версий алгоритма, одна из которых упрощает задачу до изучения только стоимости каждого действия a, другая параметризует Cost(s,a) вектором характеристик обучаемых весов.
+&#10230; Примечание: существует несколько версий алгоритма, одна из которых упрощает задачу до изучения только стоимости каждого действия a, другая параметризует Cost(s,a) вектором признаков обучаемых весов.
 
 <br>
 

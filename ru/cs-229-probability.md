@@ -250,7 +250,7 @@
 
 **42. Correlation ― By noting σX,σY the standard deviations of X and Y, we define the correlation between the random variables X and Y, noted ρXY, as follows:**
 
-&#10230; Корреляция ― Обозначим σX,σY стандартных отклонений X и Y, мы определяем корреляцию между случайными величинами X и Y, отмеченными ρXY, следующим образом:
+&#10230; Корреляция ― Обозначим σX,σY стандартные отклонения X и Y, мы определяем корреляцию между случайными величинами X и Y, обозначенную как ρXY, следующим образом:
 
 <br>
 

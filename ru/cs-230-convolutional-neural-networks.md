@@ -109,7 +109,7 @@
 
 **16. Convolution layer (CONV) ― The convolution layer (CONV) uses filters that perform convolution operations as it is scanning the input I with respect to its dimensions. Its hyperparameters include the filter size F and stride S. The resulting output O is called feature map or activation map.**
 
-&#10230; Слой свертки ― Convolution layer (CONV) использует фильтры, которые выполняют операции свертки при сканировании входа I относительно его размеров. Его гиперпараметры включают размер фильтра F и шаг S. Полученный результат O называется картой характеристик или картой активации.
+&#10230; Слой Свертки ― Convolution layer (CONV) использует фильтры, которые выполняют операции свертки при сканировании входа I относительно его размеров. Его гиперпараметры включают размер фильтра F и шаг S. Полученный результат O называется картой признаков или картой активации.
 
 <br>
 

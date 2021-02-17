@@ -473,7 +473,7 @@
 
 **68. [Gibbs sampling ― This algorithm is an iterative approximate method that uses a small set of assignments (particles) to represent a large probability distribution. From a random assignment x, Gibbs sampling performs the following steps for i∈{1,...,n} until convergence:, For all u∈Domaini, compute the weight w(u) of assignment x where Xi=u, Sample v from the probability distribution induced by w: v∼P(Xi=v|X−i=x−i), Set Xi=v]**
 
-&#10230; [Выборка по Гиббсу ― Этот алгоритм представляет собой итеративный приближенный метод. Он использует небольшой набор назначений (частиц) для представления большого распределения вероятностей. Из случайного присвоения x, Выборка по Гиббсу выполняет следующие шаги для i∈{1,...,n} до сходимости:, Для всех u∈Domaini, вычислить вес w(u) присвоения x; где Xi=u, Произвести выборку v из индуцированного w распределения вероятностей: v∼P(Xi=v|X−i=x−i), Установить Xi=v]
+&#10230; [Выборка по Гиббсу ― Этот алгоритм представляет собой итеративный приближенный метод. Он использует небольшой набор присвоений (частиц) для представления большого распределения вероятностей. Из случайного присвоения x, Выборка по Гиббсу выполняет следующие шаги для i∈{1,...,n} до сходимости:, Для всех u∈Domaini, вычислить вес w(u) присвоения x; где Xi=u, Произвести выборку v из индуцированного w распределения вероятностей: v∼P(Xi=v|X−i=x−i), Установить Xi=v]
 
 <br>
 

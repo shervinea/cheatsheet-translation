@@ -52,7 +52,7 @@
 
 **9. Permutation ― A permutation is an arrangement of r objects from a pool of n objects, in a given order. The number of such arrangements is given by P(n,r), defined as:**
 
-&#10230; Перестановка ― Permutation - это расположение r объектов из пула n объектов в заданном порядке. Количество таких расположений определяется как P(n,r), определяемое как:
+&#10230; Перестановка ― Permutation - это расположение r объектов из набора n объектов в заданном порядке. Количество таких расположений определяется как P(n,r), определяемое как:
 
 <br>
 

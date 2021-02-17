@@ -60,7 +60,7 @@
 
 **9. [Face verification/recognition, One shot learning, Siamese network, Triplet loss]**
 
-&#10230; [Проверка/распознавание лиц, Обучение одним выстрелом, Сиамская сеть, Triplet loss]
+&#10230; [Проверка/распознавание лиц, Обучение с одного раза, Сиамская сеть, Triplet loss]
 
 <br>
 

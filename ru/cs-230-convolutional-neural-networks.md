@@ -151,7 +151,7 @@
 
 **22. Fully Connected (FC) ― The fully connected layer (FC) operates on a flattened input where each input is connected to all neurons. If present, FC layers are usually found towards the end of CNN architectures and can be used to optimize objectives such as class scores.**
 
-&#10230; Полносвязный ― Fully Connected (FC) слой работает на сглаженном входе, где каждый вход подключен ко всем нейронам. Уровни FC, если они присутствуют, обычно находятся ближе к концу архитектур CNN и могут использоваться для оптимизации целей, таких как оценки классов.
+&#10230; Полносвязный ― Fully Connected (FC) слой работает на сглаженном входе, где каждый вход подключен ко всем нейронам. Уровни FC, если они присутствуют, обычно находятся ближе к концу архитектур CNN и могут использоваться для оптимизации целевых метрик, таких как оценки классов.
 
 <br>
 

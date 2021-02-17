@@ -39,7 +39,7 @@
 
 **6. [not f, f and g, f or g, if f then g, f, that is to say g]**
 
-&#10230; [not f, f and g, f or g, if f then g, f, that is to say g]
+&#10230; [не f, f и g, f или g, если f то g, f означает g]
 
 <br>
 

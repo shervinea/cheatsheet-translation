@@ -697,7 +697,7 @@
 
 **100. [Two-player zero-sum game ― It is a game where each state is fully observed and such that players take turns. It is defined with:, a starting state sstart, possible actions Actions(s) from state s, successors Succ(s,a) from states s with actions a, whether an end state was reached IsEnd(s), the agent's utility Utility(s) at end state s, the player Player(s) who controls state s]**
 
-&#10230; [Игра для двух игроков с нулевой суммой ― это игра; в которой полностью соблюдается каждое состояние и игроки ходят по очереди. Она определяется с помощью:, начальное состояние sstart, возможные действия Actions(s) из состояния s, преемники Succ(s,a) из состояния s с действиями a, было ли достигнуто конечное состояние IsEnd(s), полезность агента Utility(s) в конечном состоянии s, игрок Player(s) контролирует состояние s]
+&#10230; [Игра для двух игроков с нулевой суммой ― это игра с полным соблюдением каждого состояния и попеременным ходом игроков. Она определяется с помощью:, начальное состояние sstart, возможные действия Actions(s) из состояния s, преемники Succ(s,a) из состояния s с действиями a, было ли достигнуто конечное состояние IsEnd(s), полезность агента Utility(s) в конечном состоянии s, игрок Player(s) контролирует состояние s]
 
 <br>
 

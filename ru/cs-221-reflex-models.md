@@ -256,7 +256,7 @@
 
 **37. Approximation and estimation error ― The approximation error ϵapprox represents how far the entire hypothesis class F is from the target predictor g∗, while the estimation error ϵest quantifies how good the predictor ^f is with respect to the best predictor f∗ of the hypothesis class F.**
 
-&#10230; Ошибка аппроксимации и оценки ― Ошибка аппроксимации ϵapprox представляет, как далеко весь класс гипотез F от целевого предиктора g∗, в то время как ошибка оценки ϵest количественно определяет, насколько хорош предиктор ^f по отношению к лучшему предиктору f∗ из класса гипотез F.
+&#10230; Ошибки приближения и оценки ― Ошибка приближения ϵapprox отражает то, насколько далеко весь класс гипотез F от целевого предиктора g∗, в то время как ошибка оценки ϵest количественно определяет, насколько хорош предиктор ^f по отношению к лучшему предиктору f∗ из класса гипотез F.
 
 <br>
 

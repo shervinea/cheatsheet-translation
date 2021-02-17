@@ -144,7 +144,7 @@
 
 **21. k-nearest neighbors ― The k-nearest neighbors algorithm, commonly known as k-NN, is a non-parametric approach where the response of a data point is determined by the nature of its k neighbors from the training set. It can be used in both classification and regression settings.**
 
-&#10230; k-ближайшие соседи ― Алгоритм k-ближайших соседей, широко известный как k-NN, представляет собой непараметрический подход, в котором ответ для точки данных определяется характером её k соседей из обучающего набора. Его можно использовать в настройках как классификации, так и регрессии.
+&#10230; k-ближайших соседей ― Алгоритм k-ближайших соседей, широко известный как k-NN, представляет собой непараметрический подход, в котором метка новой точки данных определяется признаками её k соседей из обучающего набора. Его можно использовать в случаях как классификации, так и регрессии.
 
 <br>
 

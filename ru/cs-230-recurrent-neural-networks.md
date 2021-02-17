@@ -571,7 +571,7 @@
 
 **81. Bleu score ― The bilingual evaluation understudy (bleu) score quantifies how good a machine translation is by computing a similarity score based on n-gram precision. It is defined as follows:**
 
-&#10230; Оценка Bleu ― оценка дублера для двуязычной оценки (bilingual evaluation understudy, bleu) количественно определяет, насколько хорош машинный перевод, путем вычисления оценки сходства на основе точности n-граммов. Это определяется следующим образом:
+&#10230; Метрика BLEU ― bilingual evaluation understudy количественно определяет, насколько хорош машинный перевод, путем вычисления оценки сходства на основе точности n-грамм. Это определяется следующим образом:
 
 <br>
 

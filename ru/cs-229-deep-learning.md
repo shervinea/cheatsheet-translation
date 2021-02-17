@@ -34,7 +34,7 @@
 
 **6. By noting i the ith layer of the network and j the jth hidden unit of the layer, we have:**
 
-&#10230; Отметив i-й слой сети и j-ю скрытую единицу слоя, мы имеем:
+&#10230; Отметив i-ый слой сети и j-ый нейрон скрытого слоя, мы имеем:
 
 <br>
 

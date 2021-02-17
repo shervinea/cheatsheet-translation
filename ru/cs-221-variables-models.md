@@ -333,7 +333,7 @@
 
 **48. Bayesian network ― A Bayesian network is a directed acyclic graph (DAG) that specifies a joint distribution over random variables X=(X1,...,Xn) as a product of local conditional distributions, one for each node:**
 
-&#10230; Байесовская сеть ― Байесовская сеть - это ориентированный ациклический граф (DAG), который определяет совместное распределение по случайным величинам X=(X1,...,Xn) как произведение локальных условных распределений, по одному для каждого узла:
+&#10230; Байесовская сеть ― Bayesian network - это ориентированный ациклический граф (DAG), который определяет совместное распределение по случайным величинам X=(X1,...,Xn) как произведение локальных условных распределений, по одному для каждого узла:
 
 <br>
 

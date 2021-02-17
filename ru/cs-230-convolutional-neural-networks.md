@@ -74,7 +74,7 @@
 
 **11. [Computational trick architectures, Generative Adversarial Net, ResNet, Inception Network]**
 
-&#10230; [Архитектуры вычислительных трюков, Generative Adversarial Net, ResNet, Inception Network]
+&#10230; [Архитектуры с вычислительными трюками, Generative Adversarial Net, ResNet, Inception Network]
 
 <br>
 

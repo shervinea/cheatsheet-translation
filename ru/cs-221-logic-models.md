@@ -340,7 +340,7 @@
 
 **49. Substitution ― A substitution θ maps variables to terms and Subst[θ,f] denotes the result of substitution θ on f.**
 
-&#10230; Подстановка ― Замена θ отображает переменные в термы, а Subst[θ,f] обозначает результат замены θ на f.
+&#10230; Подстановка ― Замена θ отображает переменные в составляющие формул, а Subst[θ,f] обозначает результат замены θ на f.
 
 <br>
 

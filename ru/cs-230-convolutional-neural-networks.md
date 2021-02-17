@@ -123,7 +123,7 @@
 
 **18. Pooling (POOL) ― The pooling layer (POOL) is a downsampling operation, typically applied after a convolution layer, which does some spatial invariance. In particular, max and average pooling are special kinds of pooling where the maximum and average value is taken, respectively.**
 
-&#10230; Слой Пулинга ― Pooling (POOL) - это операция понижающей дискретизации, обычно применяемая после сверточного слоя, который обеспечивает некоторую пространственную инвариантность. В частности, max-пулинг и усредненный пулинг - это особые виды пулинга, в которых берется максимальное и среднее значение соответственно.
+&#10230; Слой Пулинга ― Pooling (POOL) - это операция понижающей дискретизации, обычно применяемая после сверточного слоя, который обеспечивает пространственную инвариантность изображенных объектов. В частности, max-пулинг и усредненный пулинг - это особые виды пулинга, в которых берется максимальное и среднее значение соответственно.
 
 <br>
 

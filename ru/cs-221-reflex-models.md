@@ -46,7 +46,7 @@
 
 **7. Linear classifier ― Given a weight vector w∈Rd and a feature vector ϕ(x)∈Rd, the binary linear classifier fw is given by:**
 
-&#10230; Линейный классификатор ― Для вектора весов w∈Rd и вектора признаков ϕ(x)∈Rd двоичный линейный классификатор fw имеет вид:
+&#10230; Линейный классификатор ― Для вектора весов w∈Rd и вектора признаков ϕ(x)∈Rd бинарный линейный классификатор fw имеет вид:
 
 <br>
 

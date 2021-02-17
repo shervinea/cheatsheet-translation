@@ -277,7 +277,7 @@
 
 **40. Adaptive learning rates ― Letting the learning rate vary when training a model can reduce the training time and improve the numerical optimal solution. While Adam optimizer is the most commonly used technique, others can also be useful. They are summed up in the table below:**
 
-&#10230; Адаптивная скорость обучения ― Изменение скорости обучения при обучении модели может сократить время обучения и улучшить численное оптимальное решение. Хотя оптимизатор Адама является наиболее часто используемым методом, другие также могут быть полезны. Они приведены в таблице ниже:
+&#10230; Адаптивная скорость обучения ― Изменение скорости обучения при обучении модели может сократить время обучения и улучшить численное оптимальное решение. Хотя оптимизатор Adam является наиболее часто используемым, другие также могут быть полезны. Они приведены в таблице ниже:
 
 <br>
 

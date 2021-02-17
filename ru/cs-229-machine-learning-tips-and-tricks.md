@@ -250,7 +250,7 @@
 
 **42. Error analysis ― Error analysis is analyzing the root cause of the difference in performance between the current and the perfect models.**
 
-&#10230; Анализ ошибок ― Анализ ошибок - это анализ основной причины разницы в производительности между текущей и идеальной моделями.
+&#10230; Анализ ошибок ― Анализ ошибок - это анализ основной причины разницы в качестве предсказаний между текущей и идеальной моделями.
 
 <br>
 

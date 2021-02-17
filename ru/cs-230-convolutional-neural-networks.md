@@ -557,7 +557,7 @@
 
 **80. Triplet loss ― The triplet loss ℓ is a loss function computed on the embedding representation of a triplet of images A (anchor), P (positive) and N (negative). The anchor and the positive example belong to a same class, while the negative example to another one. By calling α∈R+ the margin parameter, this loss is defined as follows:**
 
-&#10230; Потеря триплета ― Triplet loss ℓ - это функция потерь, вычисленная на представлении триплета изображений A (anchor), P (positive) и N (negative). Якорь (anchor) и положительный пример относятся к одному классу, а отрицательный пример - к другому. Называя α∈R+ параметром отступа, этот потеря определяется следующим образом:
+&#10230; Потеря тройки ― Triplet loss ℓ - это функция потерь, вычисленная на представлении тройки изображений A (anchor), P (positive) и N (negative). Якорь (anchor) и положительный пример относятся к одному классу, а отрицательный пример - к другому. Называя α∈R+ параметром отступа, этот потеря определяется следующим образом:
 
 <br>
 

@@ -256,7 +256,7 @@
 
 **43. Ablative analysis ― Ablative analysis is analyzing the root cause of the difference in performance between the current and the baseline models.**
 
-&#10230; Абляционный анализ ― Абляционный анализ анализирует первопричину разницы в производительности между текущей и базовой моделями.
+&#10230; Абляционный анализ ― Абляционный анализ анализирует первопричину разницы в качестве предсказаний между текущей и базовой моделями.
 
 <br>
 

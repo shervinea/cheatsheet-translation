@@ -178,7 +178,7 @@
 
 **30. Transformation of random variables ― Let the variables X and Y be linked by some function. By noting fX and fY the distribution function of X and Y respectively, we have:**
 
-&#10230; Преобразование случайных величин ― пусть переменные X и Y связаны некоторой функцией. Обозначим fX и fY функцию распределения X и Y соответственно у нас есть:
+&#10230; Преобразование случайных величин ― пусть переменные X и Y связаны некоторой функцией. Обозначим fX и fY функциями распределения X и Y соответственно, тогда у нас есть:
 
 <br>
 

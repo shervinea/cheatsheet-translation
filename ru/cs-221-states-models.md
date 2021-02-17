@@ -256,7 +256,7 @@
 
 **37. Suppose we are not given the values of Cost(s,a), we want to estimate these quantities from a training set of minimizing-cost-path sequence of actions (a1,a2,...,ak).**
 
-&#10230; Предположим, нам не даны значения Cost(s,a), мы хотим оценить эти количества из обучающего набора  последовательности действий (a1,a2,...,ak) с минимизацией затрат пути.
+&#10230; Предположим, нам не даны значения Cost(s,a), мы хотим оценить эти количества из обучающего набора последовательности действий (a1,a2,...,ak) с минимизацией затрат пути.
 
 <br>
 

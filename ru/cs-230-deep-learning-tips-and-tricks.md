@@ -298,7 +298,7 @@
 
 **43. [RMSprop, Root Mean Square propagation, Speeds up learning algorithm by controlling oscillations]**
 
-&#10230; [RMSprop, Среднеквадратичное распространение (Root Mean Square propagation), Ускоряет алгоритм обучения за счет управления колебаниями]
+&#10230; [RMSprop, Среднеквадратичное распространение ошибки (Root Mean Square propagation), Ускоряет алгоритм обучения за счет управления колебаниями]
 
 <br>
 

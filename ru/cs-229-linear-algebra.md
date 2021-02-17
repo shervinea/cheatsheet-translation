@@ -358,7 +358,7 @@
 
 **60. Reviewed by X, Y and Z**
 
-&#10230; Проверено X, Y и Z
+&#10230; Проверено на русском языке: Труш Георгий (Georgy Trush) ― https://github.com/geotrush
 
 <br>
 

@@ -802,7 +802,7 @@
 
 **115. Alpha-beta pruning ― Alpha-beta pruning is a domain-general exact method optimizing the minimax algorithm by avoiding the unnecessary exploration of parts of the game tree. To do so, each player keeps track of the best value they can hope for (stored in α for the maximizing player and in β for the minimizing player). At a given step, the condition β<α means that the optimal path is not going to be in the current branch as the earlier player had a better option at their disposal.**
 
-&#10230; Альфа-бета обрезка ― Alpha-beta pruning - это общий для предметной области точный метод, оптимизирующий алгоритм минимакса, избегая ненужного исследования частей игрового дерева. Для этого каждый игрок отслеживает наилучшее значение, на которое он может надеяться (сохраняется в α для максимизирующего игрока и в β для минимизирующего игрока). На данном шаге условие β<α означает, что оптимальный путь не будет в текущей ветви, поскольку у более раннего игрока был лучший вариант в своем распоряжении.
+&#10230; Альфа-бета обрезка ― Alpha-beta pruning - это общий для предметной области точный метод, оптимизирующий алгоритм минимакса, избегая ненужного исследования частей игрового дерева. Для этого каждый игрок отслеживает наилучшее значение, на которое он может надеяться (сохраняется в α для максимизирующего игрока и в β для минимизирующего игрока). На данном шаге условие β<α означает, что оптимальный путь не будет в текущей ветви, поскольку у игрока на предыдущем шаге имелся более хороший вариант.
 
 <br>
 

@@ -326,7 +326,7 @@
 
 **47. Softmax ― The softmax step can be seen as a generalized logistic function that takes as input a vector of scores x∈Rn and outputs a vector of output probability p∈Rn through a softmax function at the end of the architecture. It is defined as follows:**
 
-&#10230; Softmax ― Шаг softmax можно рассматривать как обобщенную логистическую функцию, которая принимает на вход вектор оценок x∈Rn и выводит вектор выходной вероятности p∈Rn через функцию softmax в конце архитектуры. Это определяется следующим образом:
+&#10230; Softmax ― Шаг softmax можно рассматривать как обобщенную логистическую функцию, которая принимает на вход вектор оценок x∈Rn и выводит вектор вероятностей классов p∈Rn через функцию softmax в конце архитектуры. Это определяется следующим образом:
 
 <br>
 

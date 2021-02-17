@@ -242,7 +242,7 @@
 
 **35. Conditional independence ― We say that A and B are conditionally independent given C if conditioning on C produces a graph in which A and B are independent. In this case, it is written:**
 
-&#10230; Условная независимость ― Мы говорим, что A и B условно независимы для данного C, если кондиционирование на C дает граф, в котором A и B независимы. В этом случае пишется:
+&#10230; Условная независимость ― Мы говорим, что A и B условно независимы для данного C, если принятое условие C дает граф, в котором A и B независимы. В этом случае пишется:
 
 <br>
 

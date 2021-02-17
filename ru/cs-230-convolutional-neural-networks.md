@@ -172,7 +172,7 @@
 
 **25. Dimensions of a filter ― A filter of size F×F applied to an input containing C channels is a F×F×C volume that performs convolutions on an input of size I×I×C and produces an output feature map (also called activation map) of size O×O×1.**
 
-&#10230; Размеры фильтра ― Фильтр размера F×F, применяемый к входу, содержащему каналы C, представляет собой объём F×F×C, который выполняет свертки на входе размера I×I×C и создает карту выходных характеристик (также называемую картой активации) размера O×O×1.
+&#10230; Размеры фильтра ― Фильтр размера F×F, применяемый к входу, содержащему каналы C, представляет собой объём F×F×C, который выполняет свертки на входе размера I×I×C и создает карту выходных признаков (также называемую картой активации) размера O×O×1.
 
 <br>
 

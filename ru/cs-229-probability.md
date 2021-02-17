@@ -58,7 +58,7 @@
 
 **10. Combination ― A combination is an arrangement of r objects from a pool of n objects, where the order does not matter. The number of such arrangements is given by C(n,r), defined as:**
 
-&#10230; Комбинация ― Combination - это расположение r объектов из пула, состоящего из n объектов, где порядок не имеет значения. Количество таких расположений дается C(n,r), определяемым как:
+&#10230; Комбинация ― Combination - это расположение r объектов из набора, состоящего из n объектов, где порядок не имеет значения. Количество таких расположений задается C(n,r), определяемым как:
 
 <br>
 

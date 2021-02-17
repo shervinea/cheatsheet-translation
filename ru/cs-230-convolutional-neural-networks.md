@@ -228,7 +228,7 @@
 
 **33. Parameter compatibility in convolution layer ― By noting I the length of the input volume size, F the length of the filter, P the amount of zero padding, S the stride, then the output size O of the feature map along that dimension is given by:**
 
-&#10230; Совместимость параметров в сверточном слое ― Обозначим I длину входного размера объёма, F длину фильтра, P длину дополнения нулями, S шаг, затем выходной размер O карты функций по этому измерению определяется как:
+&#10230; Совместимость параметров в сверточном слое ― Обозначим I длину входного размера объёма, F длину фильтра, P длину дополнения нулями, S шаг, затем выходной размер O карты признаков по этому измерению определяется как:
 
 <br>
 

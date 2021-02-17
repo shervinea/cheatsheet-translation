@@ -76,7 +76,7 @@
 
 **13. ROC ― The receiver operating curve, also noted ROC, is the plot of TPR versus FPR by varying the threshold. These metrics are are summed up in the table below:**
 
-&#10230; Receiver Operating (characteristic) Curve (ROC) ― Кривая рабочей характеристики приемника, также обозначенная как ROC, представляет собой график зависимости TPR от FPR при изменении порога. Эти показатели приведены в таблице ниже:
+&#10230; Receiver Operating Curve ― Кривая рабочей характеристики приемника, также обозначаемая как ROC, представляет собой график зависимости TPR от FPR при изменении порога. Эти показатели приведены в таблице ниже:
 
 <br>
 

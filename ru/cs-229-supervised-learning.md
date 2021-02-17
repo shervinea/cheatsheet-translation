@@ -544,7 +544,7 @@
 
 **91. [Support vector machines, Optimal margin classifier, Hinge loss, Kernel]**
 
-&#10230; [Метод опорных векторов, Оптимальный Классификатор с Отступом, Hinge loss, Ядро]
+&#10230; [Метод опорных векторов, Оптимальный классификатор с зазором, Hinge loss, Ядро]
 
 <br>
 

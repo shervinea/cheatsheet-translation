@@ -340,7 +340,7 @@
 
 **49. Weight regularization ― In order to make sure that the weights are not too large and that the model is not overfitting the training set, regularization techniques are usually performed on the model weights. The main ones are summed up in the table below:**
 
-&#10230; Регуляризация веса ― Чтобы убедиться, что веса не слишком велики и что модель не переобучается на обучающей выборке, обычно выполняются методы регуляризации для весов модели. Основные из них приведены в таблице ниже:
+&#10230; Регуляризация весов ― Чтобы убедиться, что веса не слишком велики и что модель не переобучается на обучающей выборке, обычно выполняются методы регуляризации весов модели. Основные из них приведены в таблице ниже:
 
 <br>
 

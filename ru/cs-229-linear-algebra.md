@@ -280,7 +280,7 @@
 
 **47. Singular-value decomposition ― For a given matrix A of dimensions m×n, the singular-value decomposition (SVD) is a factorization technique that guarantees the existence of U m×m unitary, Σ m×n diagonal and V n×n unitary matrices, such that:**
 
-&#10230; Сингулярное разложение ― Для данной матрицы A размеров m×n разложение по сингулярным числам (singular-value decomposition, SVD) представляет собой метод факторизации, который гарантирует существование унитарных матриц U m×m, диагональных Σ m×n и унитарных матриц V n×n, таких что:
+&#10230; Сингулярное разложение ― Для данной матрицы A размеров m×n разложение по сингулярным числам (singular-value decomposition, SVD) представляет собой метод факторизации, который гарантирует существование следующих матриц: унитарной U m×m, диагональной Σ m×n и унитарной V n×n, таких что:
 
 <br>
 

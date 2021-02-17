@@ -669,7 +669,7 @@
 
 **96. Inception Network ― This architecture uses inception modules and aims at giving a try at different convolutions in order to increase its performance through features diversification. In particular, it uses the 1×1 convolution trick to limit the computational burden.**
 
-&#10230; Inception Network ― Эта архитектура использует начальные модули и нацелена на то, чтобы попробовать различные свертки, чтобы повысить её производительность за счет диверсификации функций. В частности, она использует трюк свертки 1×1 для ограничения вычислительной нагрузки.
+&#10230; Inception Network ― Эта архитектура использует начальные модули и нацелена на то, чтобы попробовать различные свертки, тем самым повышая распознавательную способность за счет комбинации карт признаков различных масштабов. В частности, она использует трюк свертки 1×1 для ограничения вычислительной нагрузки.
 
 <br>
 

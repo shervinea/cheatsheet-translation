@@ -70,7 +70,7 @@
 
 **12. Backpropagation ― Backpropagation is a method to update the weights in the neural network by taking into account the actual output and the desired output. The derivative with respect to weight w is computed using chain rule and is of the following form:**
 
-&#10230; Обратное распространение ― это метод обновления весов в нейронной сети с учетом фактического и желаемого результата. Производная по весу w вычисляется с использованием цепного правила и имеет следующий вид:
+&#10230; Обратное распространение ошибки ― это метод обновления весов в нейронной сети с учетом фактических выходов сети и желаемых меток классов. Производная по весу w вычисляется с использованием цепного правила и имеет следующий вид:
 
 <br>
 

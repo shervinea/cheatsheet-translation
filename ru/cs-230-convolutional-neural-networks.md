@@ -375,7 +375,7 @@
 
 **54. [Traditional CNN, Simplified YOLO, R-CNN, YOLO, R-CNN]**
 
-&#10230; [Традиционная CNN, Упрощенный YOLO, R-CNN, YOLO, R-CNN]
+&#10230; [Классическая CNN, Упрощенный YOLO, R-CNN, YOLO, R-CNN]
 
 <br>
 

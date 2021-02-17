@@ -613,4 +613,4 @@
 
 **88. The Artificial Intelligence cheatsheets are now available in [target language].**
 
-&#10230; Шпаргалки по искусственному интеллекту теперь доступны в формате [target language].
+&#10230; Шпаргалки по искусственному интеллекту теперь доступны на русском языке.

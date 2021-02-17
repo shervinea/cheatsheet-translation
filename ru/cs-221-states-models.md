@@ -641,7 +641,7 @@
 
 **92. SARSA ― State-action-reward-state-action (SARSA) is a boostrapping method estimating Qπ by using both raw data and estimates as part of the update rule. For each (s,a,r,s′,a′), we have:**
 
-&#10230; State-action-reward-state-action (SARSA) ― Состояние-действие-награда-состояние-действие - это оценка Qπ метода начальной загрузки с использованием как необработанных данных, так и оценок как части правила обновления. Для каждого (s,a,r,s′,a′), у нас есть:
+&#10230; State-action-reward-state-action (SARSA) ― Состояние-действие-награда-состояние-действие - это бутсрэп метод оценки Qπ с использованием как необработанных данных, так и оценок как части правила обновления. Для каждого (s,a,r,s′,a′), у нас есть:
 
 <br>
 

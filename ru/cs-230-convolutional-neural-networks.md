@@ -200,7 +200,7 @@
 
 **29. Zero-padding ― Zero-padding denotes the process of adding P zeroes to each side of the boundaries of the input. This value can either be manually specified or automatically set through one of the three modes detailed below:**
 
-&#10230; Дополнение нулями ― Zero-padding означает процесс добавления P нулей к каждой стороне границ ввода. Это значение можно указать вручную или автоматически в одном из трех режимов, описанных ниже:
+&#10230; Дополнение нулями ― Zero-padding означает процесс добавления P нулей к каждой стороне входного изображения. Это значение можно указать вручную или автоматически в одном из трех режимов, описанных ниже:
 
 <br>
 

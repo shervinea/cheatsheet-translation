@@ -280,7 +280,7 @@
 
 **47. Hinge loss ― The hinge loss is used in the setting of SVMs and is defined as follows:**
 
-&#10230; Hinge loss ― Потери на шарнирах используются при настройке SVM и определяются следующим образом:
+&#10230; Hinge loss ― Hinge loss используется в качестве функции потерь SVM и определяются следующим образом:
 
 <br>
 

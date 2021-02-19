@@ -28,7 +28,7 @@
 
 **5. Matrix ― We note A∈Rm×n a matrix with m rows and n columns, where Ai,j∈R is the entry located in the ith row and jth column:**
 
-&#10230; Матрица ― Мы обозначаем A∈Rm×n матрица с m строками и n столбцами, где Ai,j∈R - запись, расположенная в i-й строке и j-м столбце:
+&#10230; Матрица ― Мы обозначаем A∈Rm×n матрицу с m строками и n столбцами, где Ai,j∈R - элемент, расположенный в i-й строке и j-м столбце:
 
 <br>
 

@@ -162,59 +162,59 @@ Convolutional Neural Networks translation [webpage]
 
 41. Receptive field ― The receptive field at layer k is the area denoted Rk×Rk of the input that each pixel of the k-th activation map can 'see'. By calling Fj the filter size of layer j and Si the stride value of layer i and with the convention S0=1, the receptive field at layer k can be computed with the formula:
 
-⟶
+⟶Pole recepcyjne ― w odniesieniu do warstwy k jest to taka powierzchnia Rk×Rk danych wejściowych, którą 'widzi' każdy piksel k-tej mapy aktywacji. Nazywając Fj rozmiar filtra warstwy j oraz Si wartość kroku warstwy i a także zachowując konwencję, że S0=1, pole recepcyjne dla warstwy k można obliczyć za pomocą wyrażenia:
 
 42. In the example below, we have F1=F2=3 and S1=S2=1, which gives R2=1+2⋅1+2⋅1=5.
 
-⟶
+⟶W poniższym przykładzie F1=F2=3 oraz S1=S2=1, co daje R2=1+2⋅1+2⋅1=5.
 
 43. Commonly used activation functions
 
-⟶
+⟶Powszechnie używane funkcje aktywacji
 
 44. Rectified Linear Unit ― The rectified linear unit layer (ReLU) is an activation function g that is used on all elements of the volume. It aims at introducing non-linearities to the network. Its variants are summarized in the table below:
 
-⟶
+⟶Jednostronnie obcięta funkcja liniowa ― (ang. Rectified Linear Unit, ReLU) jest to funkcja aktywacji g, którą używa się dla każdego elementu obszaru. Jej celem jest wprowadzenie nieliniowości do sieci. Poniżej opisano jej warianty:
 
 45. [ReLU, Leaky ReLU, ELU, with]
 
-⟶
+⟶ReLU, Leaky ("cieknąca") ReLU, ELU, dla
 
 46. [Non-linearity complexities biologically interpretable, Addresses dying ReLU issue for negative values, Differentiable everywhere]
 
-⟶
+⟶Złożoności nieliniowe interpretowalne biologicznie, Rozwiązuje problem "umierającego" ReLU (dying ReLU) dla wartości ujemnych, W całości różniczkowalna
 
 47. Softmax ― The softmax step can be seen as a generalized logistic function that takes as input a vector of scores x∈Rn and outputs a vector of output probability p∈Rn through a softmax function at the end of the architecture. It is defined as follows:
 
-⟶
+⟶Softmax (Znormalizowana funkcja wykładnicza) ― można ją interpretować jako uogólnioną funkcję logistyczną, która na wejściu pobiera wektor wartości x∈Rn i na wyjściu daje wektor prawdopodobieństw p∈Rn. Używana zazwyczaj w ostatniej warstwie sieci.
 
 48. where
 
-⟶
+⟶gdzie
 
 49. Object detection
 
-⟶
+⟶Wykrywanie obiektów
 
 50. Types of models ― There are 3 main types of object recognition algorithms, for which the nature of what is predicted is different. They are described in the table below:
 
-⟶
+⟶Modele ― wyróżnia sie 3 główne rodzaje algorytmów wykrywania obiektów, dla których natura tego co jest przewidywane jest inna. Opisane sa w tabeli poniżej:
 
 51. [Image classification, Classification w. localization, Detection]
 
-⟶
+⟶Klasyfikacja obrazu, Klasyfikacja z lokalizacją, Wykrywanie
 
 52. [Teddy bear, Book]
 
-⟶
+⟶Miś, Książka
 
 53. [Classifies a picture, Predicts probability of object, Detects an object in a picture, Predicts probability of object and where it is located, Detects up to several objects in a picture, Predicts probabilities of objects and where they are located]
 
-⟶
+⟶Klasyfikuje obraz, Przewiduje prawdopodobieństwo obiektu, Wykrywa obiekt na obrazie, Przewiduje prawdopodobieństwo obiektu i jego lokalizację, Wykrywa do kilku obiektów na obrazie, Przewiduje prawdopodobieństwo obiektu i gdzie jest zlokalizowany
 
 54. [Traditional CNN, Simplified YOLO, R-CNN, YOLO, R-CNN]
 
-⟶
+⟶Zwyczajne CNN, Uproszczone YOLO, R-CNN, YOLO, R-CNN
 
 55. Detection ― In the context of object detection, different methods are used depending on whether we just want to locate the object or detect a more complex shape in the image. The two main ones are summed up in the table below:
 
@@ -394,15 +394,15 @@ Convolutional Neural Networks translation [webpage]
 
 99. Translated by X, Y and Z
 
-⟶Tomasz Pitala
+⟶Tłumaczenie: Tomasz Pitala
 
 100. Reviewed by X, Y and Z
 
-⟶
+⟶Korekta: 
 
 101. View PDF version on GitHub
 
-⟶
+⟶Zobacz wersję PDF na GitHub
 
 102. By X and Y
 

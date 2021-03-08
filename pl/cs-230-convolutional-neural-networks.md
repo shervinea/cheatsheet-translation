@@ -18,7 +18,7 @@ Convolutional Neural Networks translation [webpage]
 
 5. [Filter hyperparameters, Dimensions, Stride, Padding]
 
-⟶Filtrowanie hiperparametrów, Wymiary filtra, Krok, Margines
+⟶Hiperparametry filtra, Wymiary, Krok, Margines z zerami
 
 6. [Tuning hyperparameters, Parameter compatibility, Model complexity, Receptive field]
 
@@ -62,7 +62,7 @@ Convolutional Neural Networks translation [webpage]
 
 16. Convolution layer (CONV) ― The convolution layer (CONV) uses filters that perform convolution operations as it is scanning the input I with respect to its dimensions. Its hyperparameters include the filter size F and stride S. The resulting output O is called feature map or activation map.
 
-⟶Warstwa Konwolucyjna (CONV) - działa w oparciu o filtry, które wykonują operację konwolucji podczas skanowania danych wejściowych (input - I). Wyróżnia się hiperparametry takie jak rozmiar filtru (filter size - F) oraz krok (stride - S). Otrzymane dane wyjściowe (output - O) noszą nazwę mapy cech (feature map/activation map).
+⟶Warstwa Konwolucyjna (CONV) - (ang. convolution layer) działa w oparciu o filtry, które wykonują operację konwolucji podczas skanowania danych wejściowych (input - I). Wyróżnia się hiperparametry takie jak rozmiar filtra (filter size - F) oraz krok (stride - S). Otrzymane dane wyjściowe (output - O) noszą nazwę mapy cech (feature map/activation map).
 
 17. Remark: the convolution step can be generalized to the 1D and 3D cases as well.
 
@@ -70,7 +70,7 @@ Convolutional Neural Networks translation [webpage]
 
 18. Pooling (POOL) ― The pooling layer (POOL) is a downsampling operation, typically applied after a convolution layer, which does some spatial invariance. In particular, max and average pooling are special kinds of pooling where the maximum and average value is taken, respectively.
 
-⟶Warstwa redukująca (POOL) - jest to operacja próbkowania, zazwyczaj następująca po warstwie konwolucyjnej. Najczęściej używane to Max Pooling - wybierająca wartość największą oraz Average Pooling - obliczająca średnią arytmetyczną.
+⟶Warstwa redukująca (POOL) - (ang. pooling layer) jest to operacja próbkowania, zazwyczaj następująca po warstwie konwolucyjnej. Najczęściej używane to Max Pooling - wybierająca wartość największą oraz Average Pooling - obliczająca średnią arytmetyczną.
 
 19. [Type, Purpose, Illustration, Comments]
 
@@ -78,87 +78,87 @@ Convolutional Neural Networks translation [webpage]
 
 20. [Max pooling, Average pooling, Each pooling operation selects the maximum value of the current view, Each pooling operation averages the values of the current view]
 
-⟶
+⟶Max pooling, Average pooling, Wybiera największą wartość w polu widzenia filtra, Oblicza wartość średnią z wartości w polu widzenia flitra
 
 21. [Preserves detected features, Most commonly used, Downsamples feature map, Used in LeNet]
 
-⟶
+⟶Zachowuje wykryte cechy, Najczęściej używany, Próbkowanie w dół (downsampling) obrazu, Używany w LeNet
 
 22. Fully Connected (FC) ― The fully connected layer (FC) operates on a flattened input where each input is connected to all neurons. If present, FC layers are usually found towards the end of CNN architectures and can be used to optimize objectives such as class scores.
 
-⟶
+⟶Warstwa w pełni połączona (FC) ― (ang. fully connected layer) każda komórka danych wejściowych połączona jest każdym neuronem warstwy. Wymaga od danych wejściowych "spłaszczenia" (ang. flatten), czyli konwersji do 1-wymiarowej tablicy. Zazwyczaj umieszcza się je pod koniec sieci konwolucyjnej, gdzie odpowiadają za przyporządkowanie danych wejściowych do odpowiednich klas.
 
 23. Filter hyperparameters
 
-⟶
+⟶Hiperparametry filtra
 
 24. The convolution layer contains filters for which it is important to know the meaning behind its hyperparameters.
 
-⟶
+⟶Warstwa konwolucyjna wykorzystuje filtry, które zdefiniowane są poprzez hiperparametry. Poniżej przedstawiono ich znaczenie.
 
 25. Dimensions of a filter ― A filter of size F×F applied to an input containing C channels is a F×F×C volume that performs convolutions on an input of size I×I×C and produces an output feature map (also called activation map) of size O×O×1.
 
-⟶
+⟶Wymiary filtra ― Filtr o rozmiarze F×F zastosowany dla danych wejściowych zawierających liczbę C kanałów, stanowiący objętość F×F×C, wykonuje konwolucję na danych o rozmiarze I×I×C i daje na wyjściu mapę cech (zwaną mapą aktywacji) o rozmiarze O×O×1.
 
 26. Filter
 
-⟶
+⟶Filtr
 
 27. Remark: the application of K filters of size F×F results in an output feature map of size O×O×K.
 
-⟶
+⟶Uwaga: stosowanie liczby K filtrów o rozmiarze F×F skutkuje na wyjściu mapą cech o rozmiarze O×O×K.
 
 28. Stride ― For a convolutional or a pooling operation, the stride S denotes the number of pixels by which the window moves after each operation.
 
-⟶
+⟶Krok ― dla operacji konwolucji lub wybierania (poolingu), krok S oznacza liczbę pikseli, o którą przesuwa się okno filtra po każdej operacji.
 
 29. Zero-padding ― Zero-padding denotes the process of adding P zeroes to each side of the boundaries of the input. This value can either be manually specified or automatically set through one of the three modes detailed below:
 
-⟶
+⟶Margines z zerami ― (ang. zero-padding) oznacza dodanie na granicy obszaru dodatkowych pól wypełnionych zerami. Wartość można określić ręcznie lub wybrać spośród trzech trybów opisanych poniżej:
 
 30. [Mode, Value, Illustration, Purpose, Valid, Same, Full]
 
-⟶
+⟶Tryb, Wartość, Ilustracja, Działanie, Valid, Same, Full
 
 31. [No padding, Drops last convolution if dimensions do not match, Padding such that feature map size has size ⌈IS⌉, Output size is mathematically convenient, Also called 'half' padding, Maximum padding such that end convolutions are applied on the limits of the input, Filter 'sees' the input end-to-end]
 
-⟶
+⟶Brak marginesu, Porzuca ostatnią konwolucję jeśli wymiary sie nie zgadzają, Margines dopasowany tak, aby dane wyjściowe (output) miały wymiar ⌈IS⌉, Dogodny rozmiar danych wyjściowych, Nazywany także 'half' padding, Margines maksymalny dobrany tak, aby końcowe konwolucje obliczano na granicy obszaru, Filtr 'widzi' cały obszar
 
 32. Tuning hyperparameters
 
-⟶
+⟶Dostosowanie hiperparametrów
 
 33. Parameter compatibility in convolution layer ― By noting I the length of the input volume size, F the length of the filter, P the amount of zero padding, S the stride, then the output size O of the feature map along that dimension is given by:
 
-⟶
+⟶Zgodność parametrów w warstwie konwolucyjnej ― oznaczając przez I wielkość rozmiaru wejściowego, przez F wielkość filtra, przez P wielkość marginesu, przez S wielkość kroku, rozmiar danych wyjściowych O jest dany równaniem:
 
 34. [Input, Filter, Output]
 
-⟶
+⟶Dane wejściowe, Filtr, Dane wyjściowe
 
 35. Remark: often times, Pstart=Pend≜P, in which case we can replace Pstart+Pend by 2P in the formula above.
 
-⟶
+⟶Uwaga: często Pstart=Pend≜P, wtedy człon Pstart+Pend można zastąpić przez 2P w wyrażeniu powyżej.
 
 36. Understanding the complexity of the model ― In order to assess the complexity of a model, it is often useful to determine the number of parameters that its architecture will have. In a given layer of a convolutional neural network, it is done as follows:
 
-⟶
+⟶Zrozumienie złożoności modelu ― w celu oszacowania złożoności modelu, często pomocne okazuje się określenie liczby parametrów, które ten model posiada. Dla danej warstwy konwolucyjnej sieci neuronowej, można to wykonać w poniższy sposób:
 
 37. [Illustration, Input size, Output size, Number of parameters, Remarks]
 
-⟶
+⟶Ilustracja, Rozmiar danych wejściowych, Rozmiar danych wyjściowych, Liczba parametrów, Uwagi
 
 38. [One bias parameter per filter, In most cases, S<F, A common choice for K is 2C]
 
-⟶
+⟶Jeden parametr odchylenia na filtr, W większości przypadków, S<F, Częsty wybór dla K to 2C
 
 39. [Pooling operation done channel-wise, In most cases, S=F]
 
-⟶
+⟶Pooling wykonywany według kanałów, W większości przypadków, S=F
 
 40. [Input is flattened, One bias parameter per neuron, The number of FC neurons is free of structural constraints]
 
-⟶
+⟶Dane wejściowe "spłaszczone", Jedno odchylenie na neuron, Liczba neuronów sieci jest wolna od ograniczeń struktury
 
 41. Receptive field ― The receptive field at layer k is the area denoted Rk×Rk of the input that each pixel of the k-th activation map can 'see'. By calling Fj the filter size of layer j and Si the stride value of layer i and with the convention S0=1, the receptive field at layer k can be computed with the formula:
 
@@ -394,7 +394,7 @@ Convolutional Neural Networks translation [webpage]
 
 99. Translated by X, Y and Z
 
-⟶
+⟶Tomasz Pitala
 
 100. Reviewed by X, Y and Z
 

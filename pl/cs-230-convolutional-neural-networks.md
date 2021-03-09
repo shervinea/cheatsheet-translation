@@ -218,47 +218,47 @@ Convolutional Neural Networks translation [webpage]
 
 55. Detection ― In the context of object detection, different methods are used depending on whether we just want to locate the object or detect a more complex shape in the image. The two main ones are summed up in the table below:
 
-⟶
+⟶Wykrywanie ― w kontekście wykrywania obiektów używa się różnych metod w zależności od tego czy chcemy tylko znaleźć obiekt czy wykryć bardziej skomplikowany kształt na obrazie. Dwa główne sposoby zestawiono w tabeli poniżej:
 
 56. [Bounding box detection, Landmark detection]
 
-⟶
+⟶Wykrywanie ramką (bounding box detection), Wykrywanie poprzez punkty charakterystyczne (landmark detection)
 
 57. [Detects the part of the image where the object is located, Detects a shape or characteristics of an object (e.g. eyes), More granular]
 
-⟶
+⟶Wykrywa część obrazu gdzie znaleziono obiekt, Wykrywa kształt lub elementy charakterystyczne obiektu (np. oczy), Bardziej szczegółowe
 
 58. [Box of center (bx,by), height bh and width bw, Reference points (l1x,l1y), ..., (lnx,lny)]
 
-⟶
+⟶Ramka z centrum w (bx,by), wysokości bh i szerokości bw, punkty odniesienia (l1x,l1y), ..., (lnx,lny)
 
 59. Intersection over Union ― Intersection over Union, also known as IoU, is a function that quantifies how correctly positioned a predicted bounding box Bp is over the actual bounding box Ba. It is defined as:
 
-⟶
+⟶Współczynnik podobieństwa IoU ― (ang. Intersection over Union, IoU) jest to funkcja, która ilościowo określa jak dobrze umiejscowiona jest przewidywana ramka Bp w stosunku do rzeczywistej ramki Ba. Zdefiniowany jest poprzez wyrażenie:
 
 60. Remark: we always have IoU∈[0,1]. By convention, a predicted bounding box Bp is considered as being reasonably good if IoU(Bp,Ba)⩾0.5.
 
-⟶
+⟶Uwaga: współczynnik przyjmuje wartości IoU∈[0,1]. Umownie ramka Bp jest uważana za dobrze dopasowaną jeśli IoU(Bp,Ba)⩾0.5.
 
 61. Anchor boxes ― Anchor boxing is a technique used to predict overlapping bounding boxes. In practice, the network is allowed to predict more than one box simultaneously, where each box prediction is constrained to have a given set of geometrical properties. For instance, the first prediction can potentially be a rectangular box of a given form, while the second will be another rectangular box of a different geometrical form.
 
-⟶
+⟶Ramki kotwiczone ― (ang. anchor boxes) jest to technika używana do przewidywania nakładających się ramek. W praktyce, sieć jest zdolna do przewidzenia równocześnie więcej niż jednej ramki, gdzie każda z tych predykcji jest ograniczona zestawem własności geometrycznych. Dla przykładu pierwsza predykcja może być prostokątną ramką o danych wymiarach, podczas gdy druga będzie ramką o innych wymiarach.
 
 62. Non-max suppression ― The non-max suppression technique aims at removing duplicate overlapping bounding boxes of a same object by selecting the most representative ones. After having removed all boxes having a probability prediction lower than 0.6, the following steps are repeated while there are boxes remaining:
 
-⟶
+⟶Tłumienie non-max ― (ang. non-max suppression) to technika, która ma na celu wyeliminowanie duplikatów ramek tego samego obiektu poprzez wybieranie najbardziej reprezetatywnych. Po usunięciu wszystkich ramek, których prawdopodobieństwo wynosiło poniżej 0,6, powtarzane są następujące kroki na pozostałuch ramkach:
 
 63. [For a given class, Step 1: Pick the box with the largest prediction probability., Step 2: Discard any box having an IoU⩾0.5 with the previous box.]
 
-⟶
+⟶Dla danej klasy, Krok 1.: Wybierz ramkę z największym prawdopodobieństwem., Krok 2.: Odrzuć każdą ramkę posiadającą IoU⩾0.5 w stosunku do poprzedniej ramki.
 
 64. [Box predictions, Box selection of maximum probability, Overlap removal of same class, Final bounding boxes]
 
-⟶
+⟶Predykcje ramki, Predykcje ramki z największym prawdopodobieństwem, Usunięcie nakładających się ramek dla tej samej klasy, Końcowe ramki
 
 65. YOLO ― You Only Look Once (YOLO) is an object detection algorithm that performs the following steps:
 
-⟶
+⟶YOLO ― akronim (ang. You Only Look Once, YOLO) w tłumaczeniu "patrzysz tylko raz", algorytm wykrywania obiektów, który wykonuje następujące kroki:
 
 66. [Step 1: Divide the input image into a G×G grid., Step 2: For each grid cell, run a CNN that predicts y of the following form:, repeated k times]
 

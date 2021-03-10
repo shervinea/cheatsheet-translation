@@ -10,39 +10,39 @@ Convolutional Neural Networks translation [webpage]
 
 3. [Overview, Architecture structure]
 
-⟶Przegląd, Struktura sieci
+⟶[Przegląd, Struktura sieci]
 
 4. [Types of layer, Convolution, Pooling, Fully connected]
 
-⟶Rodzaje warstw, Konwolucyjna, Redukująca, W pełni połączona
+⟶[Rodzaje warstw, Konwolucyjna, Redukująca, W pełni połączona]
 
 5. [Filter hyperparameters, Dimensions, Stride, Padding]
 
-⟶Hiperparametry filtra, Wymiary, Krok, Margines z zerami
+⟶[Hiperparametry filtra, Wymiary, Krok, Margines z zerami]
 
 6. [Tuning hyperparameters, Parameter compatibility, Model complexity, Receptive field]
 
-⟶Dostosowanie hiperparametrów, Zgodność parametrów, Złożoność modelu, Pole recepcyjne
+⟶[Dostosowanie hiperparametrów, Zgodność parametrów, Złożoność modelu, Pole recepcyjne]
 
 7. [Activation functions, Rectified Linear Unit, Softmax]
 
-⟶Funkcje aktywacji, ReLU, Softmax
+⟶[Funkcje aktywacji, ReLU, Softmax]
 
 8. [Object detection, Types of models, Detection, Intersection over Union, Non-max suppression, YOLO, R-CNN]
 
-⟶Wykrywanie obiektów, Modele, Wykrywanie, Współczynnik podobieństwa IoU, Tłumienie non-max, YOLO, R-CNN
+⟶[Wykrywanie obiektów, Modele, Wykrywanie, Współczynnik podobieństwa IoU, Tłumienie non-max, YOLO, R-CNN]
 
 9. [Face verification/recognition, One shot learning, Siamese network, Triplet loss]
 
-⟶Rozpoznawanie twarzy, One-shot, Siamese network, Triplet loss
+⟶[Rozpoznawanie twarzy, One-shot, Siamese network, Triplet loss]
 
 10. [Neural style transfer, Activation, Style matrix, Style/content cost function]
 
-⟶Neural style transfer, aktywacja, macierz stylu, Funkcja straty styl/zawartość
+⟶[Neural style transfer, aktywacja, macierz stylu, Funkcja straty styl/zawartość]
 
 11. [Computational trick architectures, Generative Adversarial Net, ResNet, Inception Network]
 
-⟶Architektury z użyciem trików obliczeniowych
+⟶[Architektury z użyciem trików obliczeniowych]
 
 12. Overview
 
@@ -74,15 +74,15 @@ Convolutional Neural Networks translation [webpage]
 
 19. [Type, Purpose, Illustration, Comments]
 
-⟶Rodzaj, Działanie, Ilustracja, Komentarz
+⟶[Rodzaj, Działanie, Ilustracja, Komentarz]
 
 20. [Max pooling, Average pooling, Each pooling operation selects the maximum value of the current view, Each pooling operation averages the values of the current view]
 
-⟶Max pooling, Average pooling, Wybiera największą wartość w polu widzenia filtra, Oblicza wartość średnią z wartości w polu widzenia flitra
+⟶[Max pooling, Average pooling, Wybiera największą wartość w polu widzenia filtra, Oblicza wartość średnią z wartości w polu widzenia flitra]
 
 21. [Preserves detected features, Most commonly used, Downsamples feature map, Used in LeNet]
 
-⟶Zachowuje wykryte cechy, Najczęściej używany, Próbkowanie w dół (downsampling) obrazu, Używany w LeNet
+⟶[Zachowuje wykryte cechy, Najczęściej używany, Próbkowanie w dół (downsampling) obrazu, Używany w LeNet]
 
 22. Fully Connected (FC) ― The fully connected layer (FC) operates on a flattened input where each input is connected to all neurons. If present, FC layers are usually found towards the end of CNN architectures and can be used to optimize objectives such as class scores.
 
@@ -118,11 +118,11 @@ Convolutional Neural Networks translation [webpage]
 
 30. [Mode, Value, Illustration, Purpose, Valid, Same, Full]
 
-⟶Tryb, Wartość, Ilustracja, Działanie, Valid, Same, Full
+⟶[Tryb, Wartość, Ilustracja, Działanie, Valid, Same, Full]
 
 31. [No padding, Drops last convolution if dimensions do not match, Padding such that feature map size has size ⌈IS⌉, Output size is mathematically convenient, Also called 'half' padding, Maximum padding such that end convolutions are applied on the limits of the input, Filter 'sees' the input end-to-end]
 
-⟶Brak marginesu, Porzuca ostatnią konwolucję jeśli wymiary sie nie zgadzają, Margines dopasowany tak, aby dane wyjściowe (output) miały wymiar ⌈IS⌉, Dogodny rozmiar danych wyjściowych, Nazywany także 'half' padding, Margines maksymalny dobrany tak, aby końcowe konwolucje obliczano na granicy obszaru, Filtr 'widzi' cały obszar
+⟶[Brak marginesu, Porzuca ostatnią konwolucję jeśli wymiary sie nie zgadzają, Margines dopasowany tak, aby dane wyjściowe (output) miały wymiar ⌈IS⌉, Dogodny rozmiar danych wyjściowych, Nazywany także 'half' padding, Margines maksymalny dobrany tak, aby końcowe konwolucje obliczano na granicy obszaru, Filtr 'widzi' cały obszar]
 
 32. Tuning hyperparameters
 
@@ -134,7 +134,7 @@ Convolutional Neural Networks translation [webpage]
 
 34. [Input, Filter, Output]
 
-⟶Dane wejściowe, Filtr, Dane wyjściowe
+⟶[Dane wejściowe, Filtr, Dane wyjściowe]
 
 35. Remark: often times, Pstart=Pend≜P, in which case we can replace Pstart+Pend by 2P in the formula above.
 
@@ -146,19 +146,19 @@ Convolutional Neural Networks translation [webpage]
 
 37. [Illustration, Input size, Output size, Number of parameters, Remarks]
 
-⟶Ilustracja, Rozmiar danych wejściowych, Rozmiar danych wyjściowych, Liczba parametrów, Uwagi
+⟶[Ilustracja, Rozmiar danych wejściowych, Rozmiar danych wyjściowych, Liczba parametrów, Uwagi]
 
 38. [One bias parameter per filter, In most cases, S<F, A common choice for K is 2C]
 
-⟶Jeden parametr odchylenia na filtr, W większości przypadków, S<F, Częsty wybór dla K to 2C
+⟶[Jeden parametr odchylenia na filtr, W większości przypadków, S<F, Częsty wybór dla K to 2C]
 
 39. [Pooling operation done channel-wise, In most cases, S=F]
 
-⟶Pooling wykonywany według kanałów, W większości przypadków, S=F
+⟶[ooling wykonywany według kanałów, W większości przypadków, S=F]
 
 40. [Input is flattened, One bias parameter per neuron, The number of FC neurons is free of structural constraints]
 
-⟶Dane wejściowe "spłaszczone", Jedno odchylenie na neuron, Liczba neuronów sieci jest wolna od ograniczeń struktury
+⟶[Dane wejściowe "spłaszczone", Jedno odchylenie na neuron, Liczba neuronów sieci jest wolna od ograniczeń struktury]
 
 41. Receptive field ― The receptive field at layer k is the area denoted Rk×Rk of the input that each pixel of the k-th activation map can 'see'. By calling Fj the filter size of layer j and Si the stride value of layer i and with the convention S0=1, the receptive field at layer k can be computed with the formula:
 
@@ -178,11 +178,11 @@ Convolutional Neural Networks translation [webpage]
 
 45. [ReLU, Leaky ReLU, ELU, with]
 
-⟶ReLU, Leaky ("cieknąca") ReLU, ELU, dla
+⟶[ReLU, Leaky ("cieknąca") ReLU, ELU, dla]
 
 46. [Non-linearity complexities biologically interpretable, Addresses dying ReLU issue for negative values, Differentiable everywhere]
 
-⟶Złożoności nieliniowe interpretowalne biologicznie, Rozwiązuje problem "umierającego" ReLU (dying ReLU) dla wartości ujemnych, W całości różniczkowalna
+⟶[Złożoności nieliniowe interpretowalne biologicznie, Rozwiązuje problem "umierającego" ReLU (dying ReLU) dla wartości ujemnych, W całości różniczkowalna]
 
 47. Softmax ― The softmax step can be seen as a generalized logistic function that takes as input a vector of scores x∈Rn and outputs a vector of output probability p∈Rn through a softmax function at the end of the architecture. It is defined as follows:
 
@@ -202,19 +202,19 @@ Convolutional Neural Networks translation [webpage]
 
 51. [Image classification, Classification w. localization, Detection]
 
-⟶Klasyfikacja obrazu, Klasyfikacja z lokalizacją, Wykrywanie
+⟶[Klasyfikacja obrazu, Klasyfikacja z lokalizacją, Wykrywanie]
 
 52. [Teddy bear, Book]
 
-⟶Miś, Książka
+⟶[Miś, Książka]
 
 53. [Classifies a picture, Predicts probability of object, Detects an object in a picture, Predicts probability of object and where it is located, Detects up to several objects in a picture, Predicts probabilities of objects and where they are located]
 
-⟶Klasyfikuje obraz, Przewiduje prawdopodobieństwo obiektu, Wykrywa obiekt na obrazie, Przewiduje prawdopodobieństwo obiektu i jego lokalizację, Wykrywa do kilku obiektów na obrazie, Przewiduje prawdopodobieństwo obiektu i gdzie jest zlokalizowany
+⟶[Klasyfikuje obraz, Przewiduje prawdopodobieństwo obiektu, Wykrywa obiekt na obrazie, Przewiduje prawdopodobieństwo obiektu i jego lokalizację, Wykrywa do kilku obiektów na obrazie, Przewiduje prawdopodobieństwo obiektu i gdzie jest zlokalizowany]
 
 54. [Traditional CNN, Simplified YOLO, R-CNN, YOLO, R-CNN]
 
-⟶Zwyczajne CNN, Uproszczone YOLO, R-CNN, YOLO, R-CNN
+⟶[Zwyczajne CNN, Uproszczone YOLO, R-CNN, YOLO, R-CNN]
 
 55. Detection ― In the context of object detection, different methods are used depending on whether we just want to locate the object or detect a more complex shape in the image. The two main ones are summed up in the table below:
 
@@ -222,15 +222,15 @@ Convolutional Neural Networks translation [webpage]
 
 56. [Bounding box detection, Landmark detection]
 
-⟶Wykrywanie ramką (bounding box detection), Wykrywanie poprzez punkty charakterystyczne (landmark detection)
+⟶[Wykrywanie ramką (bounding box detection), Wykrywanie poprzez punkty charakterystyczne (landmark detection)]
 
 57. [Detects the part of the image where the object is located, Detects a shape or characteristics of an object (e.g. eyes), More granular]
 
-⟶Wykrywa część obrazu gdzie znaleziono obiekt, Wykrywa kształt lub elementy charakterystyczne obiektu (np. oczy), Bardziej szczegółowe
+⟶[Wykrywa część obrazu gdzie znaleziono obiekt, Wykrywa kształt lub elementy charakterystyczne obiektu (np. oczy), Bardziej szczegółowe]
 
 58. [Box of center (bx,by), height bh and width bw, Reference points (l1x,l1y), ..., (lnx,lny)]
 
-⟶Ramka z centrum w (bx,by), wysokości bh i szerokości bw, punkty odniesienia (l1x,l1y), ..., (lnx,lny)
+⟶[Ramka z centrum w (bx,by), wysokości bh i szerokości bw, punkty odniesienia (l1x,l1y), ..., (lnx,lny)]
 
 59. Intersection over Union ― Intersection over Union, also known as IoU, is a function that quantifies how correctly positioned a predicted bounding box Bp is over the actual bounding box Ba. It is defined as:
 
@@ -250,11 +250,11 @@ Convolutional Neural Networks translation [webpage]
 
 63. [For a given class, Step 1: Pick the box with the largest prediction probability., Step 2: Discard any box having an IoU⩾0.5 with the previous box.]
 
-⟶Dla danej klasy, Krok 1.: Wybierz ramkę z największym prawdopodobieństwem., Krok 2.: Odrzuć każdą ramkę posiadającą IoU⩾0.5 w stosunku do poprzedniej ramki.
+⟶[Dla danej klasy, Krok 1.: Wybierz ramkę z największym prawdopodobieństwem., Krok 2.: Odrzuć każdą ramkę posiadającą IoU⩾0.5 w stosunku do poprzedniej ramki.]
 
 64. [Box predictions, Box selection of maximum probability, Overlap removal of same class, Final bounding boxes]
 
-⟶Predykcje ramki, Predykcje ramki z największym prawdopodobieństwem, Usunięcie nakładających się ramek dla tej samej klasy, Końcowe ramki
+⟶[Predykcje ramki, Predykcje ramki z największym prawdopodobieństwem, Usunięcie nakładających się ramek dla tej samej klasy, Końcowe ramki]
 
 65. YOLO ― You Only Look Once (YOLO) is an object detection algorithm that performs the following steps:
 
@@ -262,51 +262,51 @@ Convolutional Neural Networks translation [webpage]
 
 66. [Step 1: Divide the input image into a G×G grid., Step 2: For each grid cell, run a CNN that predicts y of the following form:, repeated k times]
 
-⟶
+⟶[Krok 1.: Podziel obraz na siatkę G×G., Krok 2.: Dla każdej z komórek siatki, uruchom sieć konwolucyjną (CNN) która przewiduje y w następujący sposób:, powtórzone k razy]
 
 67. where pc is the probability of detecting an object, bx,by,bh,bw are the properties of the detected bouding box, c1,...,cp is a one-hot representation of which of the p classes were detected, and k is the number of anchor boxes.
 
-⟶
+⟶gdzie pc jest prawdopodobieństwem wykrycia obiektu, bx,by,bh,bw są parametrami wykrywanej ramki, c1,...,cp jest w postaci kodu "1 z n" (one hot representation) i wskazuje które z p klas zostały wykryte, oraz k jest liczbą ramek (anchor boxes). 
 
 68. Step 3: Run the non-max suppression algorithm to remove any potential duplicate overlapping bounding boxes.
 
-⟶
+⟶Krok 3.: Uruchom algorytm tłumienia non-max (non-max suppression) aby usunąć potencjalne duplikaty ramek
 
 69. [Original image, Division in GxG grid, Bounding box prediction, Non-max suppression]
 
-⟶
+⟶[Obraz początkowy, Podział na siatkę GxG, Predykcje ramek, Tłumienie non-max]
 
 70. Remark: when pc=0, then the network does not detect any object. In that case, the corresponding predictions bx,...,cp have to be ignored.
 
-⟶
+⟶Uwaga: gdy pc=0, to sieć nie wykrywa żadnego obiektu. W tym przypadku odpowiednie predykcje bx,...,cp należy pominąć.
 
 71. R-CNN ― Region with Convolutional Neural Networks (R-CNN) is an object detection algorithm that first segments the image to find potential relevant bounding boxes and then run the detection algorithm to find most probable objects in those bounding boxes.
 
-⟶
+⟶R-CNN ― (ang. Region with Convolutional Neural Networks, R-CNN) czyli region z konwolucyjną siecią neuronową to algorytm, który najpierw rozdziela obraz w celu poszukiwania potencjalnie istotnych ramek, a następnie uruchania algorytm wykrywania, aby znaleźć w ramce obiekty najbardziej prawdopodobne.
 
 72. [Original image, Segmentation, Bounding box prediction, Non-max suppression]
 
-⟶
+⟶[Obraz początkowy, Podział, Predykcja ramek, Tłumienie non-max]
 
 73. Remark: although the original algorithm is computationally expensive and slow, newer architectures enabled the algorithm to run faster, such as Fast R-CNN and Faster R-CNN.
 
-⟶
+⟶Uwaga: chociaż początkowy algorytm jest zasobożerny i powolny, nowsze architektury pozwalają na szybsze działanie, jak Fast R-CNN i Faster R-CNN, czyli szybki i szybszy R-CNN.
 
 74. Face verification and recognition
 
-⟶
+⟶Weryfikacja i rozpoznawanie twarzy
 
 75. Types of models ― Two main types of model are summed up in table below:
 
-⟶
+⟶Typy modeli ― Dwa główne typy modeli podsumowuje poniższa tabela:
 
 76. [Face verification, Face recognition, Query, Reference, Database]
 
-⟶
+⟶[Weryfikacja twarzy, Rozpoznawanie twarzy, Zapytanie, Odniesienie, Baza danych]
 
 77. [Is this the correct person?, One-to-one lookup, Is this one of the K persons in the database?, One-to-many lookup]
 
-⟶
+⟶[Czy to ta osoba?, Wyszukiwanie jeden do jednego, Czy to jedna spośród K osób z bazy?, Wyszukiwanie jeden do wielu]
 
 78. One Shot Learning ― One Shot Learning is a face verification algorithm that uses a limited training set to learn a similarity function that quantifies how different two given images are. The similarity function applied to two images is often noted d(image 1,image 2).
 

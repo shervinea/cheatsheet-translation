@@ -34,7 +34,7 @@ Convolutional Neural Networks translation [webpage]
 
 9. [Face verification/recognition, One shot learning, Siamese network, Triplet loss]
 
-⟶[Rozpoznawanie twarzy, One-shot, Siamese network, Triplet loss]
+⟶[Rozpoznawanie twarzy, One-shot learning, Siamese network, Triplet loss]
 
 10. [Neural style transfer, Activation, Style matrix, Style/content cost function]
 
@@ -154,7 +154,7 @@ Convolutional Neural Networks translation [webpage]
 
 39. [Pooling operation done channel-wise, In most cases, S=F]
 
-⟶[ooling wykonywany według kanałów, W większości przypadków, S=F]
+⟶[Pooling wykonywany według kanałów, W większości przypadków, S=F]
 
 40. [Input is flattened, One bias parameter per neuron, The number of FC neurons is free of structural constraints]
 
@@ -242,7 +242,7 @@ Convolutional Neural Networks translation [webpage]
 
 61. Anchor boxes ― Anchor boxing is a technique used to predict overlapping bounding boxes. In practice, the network is allowed to predict more than one box simultaneously, where each box prediction is constrained to have a given set of geometrical properties. For instance, the first prediction can potentially be a rectangular box of a given form, while the second will be another rectangular box of a different geometrical form.
 
-⟶Ramki kotwiczone ― (ang. anchor boxes) jest to technika używana do przewidywania nakładających się ramek. W praktyce, sieć jest zdolna do przewidzenia równocześnie więcej niż jednej ramki, gdzie każda z tych predykcji jest ograniczona zestawem własności geometrycznych. Dla przykładu pierwsza predykcja może być prostokątną ramką o danych wymiarach, podczas gdy druga będzie ramką o innych wymiarach.
+⟶Ramki bazowe ― (ang. anchor boxes) jest to technika używana do przewidywania nakładających się ramek. W praktyce, sieć jest zdolna do przewidzenia równocześnie więcej niż jednej ramki, gdzie każda z tych predykcji jest ograniczona zestawem własności geometrycznych. Dla przykładu pierwsza predykcja może być prostokątną ramką o danych wymiarach, podczas gdy druga będzie ramką o innych wymiarach.
 
 62. Non-max suppression ― The non-max suppression technique aims at removing duplicate overlapping bounding boxes of a same object by selecting the most representative ones. After having removed all boxes having a probability prediction lower than 0.6, the following steps are repeated while there are boxes remaining:
 
@@ -258,7 +258,7 @@ Convolutional Neural Networks translation [webpage]
 
 65. YOLO ― You Only Look Once (YOLO) is an object detection algorithm that performs the following steps:
 
-⟶YOLO ― akronim (ang. You Only Look Once, YOLO) w tłumaczeniu "patrzysz tylko raz", algorytm wykrywania obiektów, który wykonuje następujące kroki:
+⟶YOLO ― (akronim ang. You Only Look Once, YOLO) w tłumaczeniu "patrzysz tylko raz", algorytm wykrywania obiektów, który wykonuje następujące kroki:
 
 66. [Step 1: Divide the input image into a G×G grid., Step 2: For each grid cell, run a CNN that predicts y of the following form:, repeated k times]
 
@@ -266,7 +266,7 @@ Convolutional Neural Networks translation [webpage]
 
 67. where pc is the probability of detecting an object, bx,by,bh,bw are the properties of the detected bouding box, c1,...,cp is a one-hot representation of which of the p classes were detected, and k is the number of anchor boxes.
 
-⟶gdzie pc jest prawdopodobieństwem wykrycia obiektu, bx,by,bh,bw są parametrami wykrywanej ramki, c1,...,cp jest w postaci kodu "1 z n" (one hot representation) i wskazuje które z p klas zostały wykryte, oraz k jest liczbą ramek (anchor boxes). 
+⟶gdzie pc jest prawdopodobieństwem wykrycia obiektu, bx,by,bh,bw są parametrami wykrywanej ramki, c1,...,cp jest w postaci kodu "1 z n" (one hot representation) i wskazuje które z p klas zostały wykryte, oraz k jest liczbą ramek bazowych (anchor boxes). 
 
 68. Step 3: Run the non-max suppression algorithm to remove any potential duplicate overlapping bounding boxes.
 
@@ -306,51 +306,51 @@ Convolutional Neural Networks translation [webpage]
 
 77. [Is this the correct person?, One-to-one lookup, Is this one of the K persons in the database?, One-to-many lookup]
 
-⟶[Czy to ta osoba?, Wyszukiwanie jeden do jednego, Czy to jedna spośród K osób z bazy?, Wyszukiwanie jeden do wielu]
+⟶[Czy to poprawna osoba?, Wyszukiwanie jeden do jednego, Czy to jedna spośród K osób z bazy?, Wyszukiwanie jeden do wielu]
 
 78. One Shot Learning ― One Shot Learning is a face verification algorithm that uses a limited training set to learn a similarity function that quantifies how different two given images are. The similarity function applied to two images is often noted d(image 1,image 2).
 
-⟶
+⟶One Shot Learning ― (tłum. Nauka za jednym zamachem) to algorytm weryfikacji twarzy, który używa ograniczony zbiór treningowy do nauczenia się funkcji podobieństwa, która określa jak różnią się dwa obrazy. Funkcję podobieństwa zastosowaną dla dwóch obrazów wyraża się przez d(obraz 1, obraz 2).
 
 79. Siamese Network ― Siamese Networks aim at learning how to encode images to then quantify how different two images are. For a given input image x(i), the encoded output is often noted as f(x(i)).
 
-⟶
+⟶Siamese Network ― (tłum. sieć syjamska) ma na celu nauczyć się jak zakodować obraz by następnie określić jak różnią się dwa obrazy. Dla zadanych danych wejsciowych x(i), zakodowane wyjście wyraża się poprzez f(x(i)).
 
 80. Triplet loss ― The triplet loss ℓ is a loss function computed on the embedding representation of a triplet of images A (anchor), P (positive) and N (negative). The anchor and the positive example belong to a same class, while the negative example to another one. By calling α∈R+ the margin parameter, this loss is defined as follows:
 
-⟶
+⟶Triplet loss ― (tłum. strata trypletu) strata trypletu ℓ to funkcja straty (ang. loss function) obliczona dla wbudowanej reprezentacji trypletu obrazów A (anchor - bazowy), P (positive - dodatni), N (negative - ujemny). Obrazy bazowy A i dodatni P nalezą do tej samej klasy, pdczas gdy ujemny N do innej. Nazywając przez α∈R+ parametr brzegowy, strata obliczana jest według wzoru:
 
 81. Neural style transfer
 
-⟶
+⟶ Neural style transfer (tłum. neuronowe przeniesienie stylu)
 
 82. Motivation ― The goal of neural style transfer is to generate an image G based on a given content C and a given style S.
 
-⟶
+⟶Motywacja ― Celem neuronowego przeniesienia stylu jest generacja obrazu G w oparciu o zawartość C i styl S.
 
 83. [Content C, Style S, Generated image G]
 
-⟶
+⟶[Obraz początkowy - content C, Obraz stylu S, Wygenerowany obraz G]
 
 84. Activation ― In a given layer l, the activation is noted a[l] and is of dimensions nH×nw×nc
 
-⟶
+⟶Aktywacja ― W danej warstwie l, aktywację oznacza się a[l] i ma wymiary nH×nw×nc
 
 85. Content cost function ― The content cost function Jcontent(C,G) is used to determine how the generated image G differs from the original content image C. It is defined as follows:
 
-⟶
+⟶Funkcja kosztu ??? ― (ang. Content cost function) Jcontent(C,G) jest używana do określenia jak wygenerowany obraz G różni się od początkowego C. Zdefiniowana jest jak poniżej:
 
 86. Style matrix ― The style matrix G[l] of a given layer l is a Gram matrix where each of its elements G[l]kk′ quantifies how correlated the channels k and k′ are. It is defined with respect to activations a[l] as follows:
 
-⟶
+⟶Macierz stylów ― (ang. style matrix) macierz stylów G[l] danej warstwy l jest macierzą Grama gdzie każdy z jej elementów G[l]kk′ określa jak skorelowane są kanały k i k′. Jest zdefiniowana w odniesieniu do aktywacji a[l] jak poniżej:
 
 87. Remark: the style matrix for the style image and the generated image are noted G[l] (S) and G[l] (G) respectively.
 
-⟶
+⟶Uwaga: macierz stylu dla obrazu stylu i wygenerowanego obrazu są oznaczone odpowiednio przez G[l] (S) i G[l] (G).
 
 88. Style cost function ― The style cost function Jstyle(S,G) is used to determine how the generated image G differs from the style S. It is defined as follows:
 
-⟶
+⟶FUnkcja kosztu stylu ― (ang. style cost function) Jstyle(S,G) jest używana do określenia jak wygenerowany obraz G różni się od obrazu stylu S. Zdefiniowana jest jak poniżej:
 
 89. Overall cost function ― The overall cost function is defined as being a combination of the content and style cost functions, weighted by parameters α,β, as follows:
 

@@ -330,7 +330,7 @@ Convolutional Neural Networks translation [webpage]
 
 83. [Content C, Style S, Generated image G]
 
-⟶[Obraz początkowy - content C, Obraz stylu S, Wygenerowany obraz G]
+⟶[Kontent C (obraz pierwotny), Obraz stylu S, Wygenerowany obraz G]
 
 84. Activation ― In a given layer l, the activation is noted a[l] and is of dimensions nH×nw×nc
 
@@ -338,7 +338,7 @@ Convolutional Neural Networks translation [webpage]
 
 85. Content cost function ― The content cost function Jcontent(C,G) is used to determine how the generated image G differs from the original content image C. It is defined as follows:
 
-⟶Funkcja kosztu ??? ― (ang. Content cost function) Jcontent(C,G) jest używana do określenia jak wygenerowany obraz G różni się od początkowego C. Zdefiniowana jest jak poniżej:
+⟶Funkcja kosztu kontentu ― (ang. Content cost function) Jcontent(C,G) jest używana do określenia jak wygenerowany obraz G różni się od kontentu C. Zdefiniowana jest jak poniżej:
 
 86. Style matrix ― The style matrix G[l] of a given layer l is a Gram matrix where each of its elements G[l]kk′ quantifies how correlated the channels k and k′ are. It is defined with respect to activations a[l] as follows:
 
@@ -350,35 +350,35 @@ Convolutional Neural Networks translation [webpage]
 
 88. Style cost function ― The style cost function Jstyle(S,G) is used to determine how the generated image G differs from the style S. It is defined as follows:
 
-⟶FUnkcja kosztu stylu ― (ang. style cost function) Jstyle(S,G) jest używana do określenia jak wygenerowany obraz G różni się od obrazu stylu S. Zdefiniowana jest jak poniżej:
+⟶Funkcja kosztu stylu ― (ang. style cost function) Jstyle(S,G) jest używana do określenia jak wygenerowany obraz G różni się od obrazu stylu S. Zdefiniowana jest jak poniżej:
 
 89. Overall cost function ― The overall cost function is defined as being a combination of the content and style cost functions, weighted by parameters α,β, as follows:
 
-⟶
+⟶Całkowita funkcja kosztu ― (ang. overall cost function) jest zdefiniowana jako kombinacja funkcji kosztu kontentu i stylu, z wagami α,β, nastepująco:
 
 90. Remark: a higher value of α will make the model care more about the content while a higher value of β will make it care more about the style.
 
-⟶
+⟶Uwaga: wyższa wartość α spowoduje, że model jest bardziej czuły względem kontentu, a wyższa wartość β, ze model jest bardziej czuły wzgledem stylu.
 
 91. Architectures using computational tricks
 
-⟶
+⟶Architektury używające sztuczek obliczeniowych
 
 92. Generative Adversarial Network ― Generative adversarial networks, also known as GANs, are composed of a generative and a discriminative model, where the generative model aims at generating the most truthful output that will be fed into the discriminative which aims at differentiating the generated and true image.
 
-⟶
+⟶Generatywna Sieć Współzawodnicząca ― (ang. Generative Adversarial Network, GAN) zbudowana jest z dwóch sieci. Pierwsza to generator, który stara się generować jak najbardziej prawdziwe dane/obrazy, które z kolei zasilą drugą - dyskryminator uczacy się znajdować róznice względem oryginału.
 
 93. [Training, Noise, Real-world image, Generator, Discriminator, Real Fake]
 
-⟶
+⟶[Trening, Szum, Prawdziwy obraz, Generator, Dyskryminator, Prawdziewy Fałszywy]
 
 94. Remark: use cases using variants of GANs include text to image, music generation and synthesis.
 
-⟶
+⟶Uwaga: Istnieją w użyciu warianty GANu jak np. generowanie obrazu na podstawie tekstu, tworzenie muzyki.
 
 95. ResNet ― The Residual Network architecture (also called ResNet) uses residual blocks with a high number of layers meant to decrease the training error. The residual block has the following characterizing equation:
 
-⟶
+⟶ResNet
 
 96. Inception Network ― This architecture uses inception modules and aims at giving a try at different convolutions in order to increase its performance through features diversification. In particular, it uses the 1×1 convolution trick to limit the computational burden.
 
@@ -390,7 +390,7 @@ Convolutional Neural Networks translation [webpage]
 
 98. Original authors
 
-⟶
+⟶Oryginalni autorzy
 
 99. Translated by X, Y and Z
 
@@ -406,4 +406,4 @@ Convolutional Neural Networks translation [webpage]
 
 102. By X and Y
 
-⟶
+⟶Przez X i Y

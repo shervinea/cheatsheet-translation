@@ -366,7 +366,7 @@ Convolutional Neural Networks translation [webpage]
 
 92. Generative Adversarial Network ― Generative adversarial networks, also known as GANs, are composed of a generative and a discriminative model, where the generative model aims at generating the most truthful output that will be fed into the discriminative which aims at differentiating the generated and true image.
 
-⟶Generatywna Sieć Współzawodnicząca ― (ang. Generative Adversarial Network, GAN) zbudowana jest z dwóch sieci. Pierwsza to generator, który stara się generować jak najbardziej prawdziwe dane/obrazy, które z kolei zasilą drugą - dyskryminator uczacy się znajdować róznice względem oryginału.
+⟶Generatywna Sieć Współzawodnicząca ― (ang. Generative Adversarial Network, GAN) zbudowana jest z dwóch sieci. Pierwsza to generator, który stara się generować jak najbardziej prawdziwe dane/obrazy, które z kolei zasilą drugą - dyskryminator uczący się znajdować różnice względem oryginału.
 
 93. [Training, Noise, Real-world image, Generator, Discriminator, Real Fake]
 
@@ -378,7 +378,7 @@ Convolutional Neural Networks translation [webpage]
 
 95. ResNet ― The Residual Network architecture (also called ResNet) uses residual blocks with a high number of layers meant to decrease the training error. The residual block has the following characterizing equation:
 
-⟶ResNet
+⟶ResNet ― The Residual Network (ang. Sieć Resztkowa)
 
 96. Inception Network ― This architecture uses inception modules and aims at giving a try at different convolutions in order to increase its performance through features diversification. In particular, it uses the 1×1 convolution trick to limit the computational burden.
 
@@ -386,7 +386,7 @@ Convolutional Neural Networks translation [webpage]
 
 97. The Deep Learning cheatsheets are now available in [target language].
 
-⟶
+⟶The Deep Learning cheatsheets teraz dostępne w [języku polskim].
 
 98. Original authors
 

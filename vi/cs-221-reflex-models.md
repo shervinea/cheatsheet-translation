@@ -4,105 +4,105 @@
 
 **1. Reflex-based models with Machine Learning**
 
-&#10230;
+&#10230; Các mô hình hướng Phản xạ trong Học Máy
 
 <br>
 
 
 **2. Linear predictors**
 
-&#10230;
+&#10230; Bộ dự đoán Tuyến tính
 
 <br>
 
 
 **3. In this section, we will go through reflex-based models that can improve with experience, by going through samples that have input-output pairs.**
 
-&#10230;
+&#10230; Trong phần này, ta sẽ đi qua các mô hình hướng phạn xạ có khả năng phát triển dựa trên kinh nghiệm, bằng cách đi qua các mẫu gồm đầu vào và nhãn.
 
 <br>
 
 
 **4. Feature vector ― The feature vector of an input x is noted ϕ(x) and is such that:**
 
-&#10230;
+&#10230; Vector đặc trưng ― Vector đặc trưng của đầu vào x được ký hiệu là ϕ(x) sao cho:
 
 <br>
 
 
 **5. Score ― The score s(x,w) of an example (ϕ(x),y)∈Rd×R associated to a linear model of weights w∈Rd is given by the inner product:**
 
-&#10230;
+&#10230; Điểm số ― Điểm số s(x,w) của một mẫu (ϕ(x),y)∈Rd×R được đưa qua một mô hình tuyến tính với các trọng số w∈Rd được tính toán bằng cách lấy tích vô hướng:
 
 <br>
 
 
 **6. Classification**
 
-&#10230;
+&#10230; Bài toán Phân loại
 
 <br>
 
 
 **7. Linear classifier ― Given a weight vector w∈Rd and a feature vector ϕ(x)∈Rd, the binary linear classifier fw is given by:**
 
-&#10230;
+&#10230; Bộ phân loại Tuyến tính ― Cho vector trọng số w∈Rd và vector đặc trưng ϕ(x)∈Rd, bộ phân loại tuyến tính fw có dạng:
 
 <br>
 
 
 **8. if**
 
-&#10230;
+&#10230; trường hợp
 
 <br>
 
 
 **9. Margin ― The margin m(x,y,w)∈R of an example (ϕ(x),y)∈Rd×{−1,+1} associated to a linear model of weights w∈Rd quantifies the confidence of the prediction: larger values are better. It is given by:**
 
-&#10230;
+&#10230; Biên ― Biên m(x,y,w)∈R của một mẫu (ϕ(x),y)∈Rd×{−1,+1} được đưa qua một mô hình tuyến tính với các trọng số w∈Rd cho biết độ tự tin của dự đoán: giá trị này càng cao càng tốt. Được tính bằng:
 
 <br>
 
 
 **10. Regression**
 
-&#10230;
+&#10230; Bài toán Hồi quy
 
 <br>
 
 
 **11. Linear regression ― Given a weight vector w∈Rd and a feature vector ϕ(x)∈Rd, the output of a linear regression of weights w denoted as fw is given by:**
 
-&#10230;
+&#10230; Hồi quy Tuyến tính ― Cho vector trọng số w∈Rd và vector đặc trưng ϕ(x)∈Rd, đầu ra của một mô hình hồi quy tuyến tính fw với các trọng số w sẽ có dạng:
 
 <br>
 
 
 **12. Residual ― The residual res(x,y,w)∈R is defined as being the amount by which the prediction fw(x) overshoots the target y:**
 
-&#10230;
+&#10230; Phần dư ― Phần dư res(x,y,w)∈R được định nghĩa là khoảng cách mà dự đoán fw(x) vượt quá giá trị y mục tiêu:
 
 <br>
 
 
 **13. Loss minimization**
 
-&#10230;
+&#10230; Tối thiểu hóa Mất mất
 
 <br>
 
 
 **14. Loss function ― A loss function Loss(x,y,w) quantifies how unhappy we are with the weights w of the model in the prediction task of output y from input x. It is a quantity we want to minimize during the training process.**
 
-&#10230;
+&#10230; Hàm mất mát ― Hàm mất mát Loss(x,y,w) đo lường mức độ hài lòng của ta với các giá trị trọng số w của mô hình trong tác vụ dự đoán giá trị đầu ra y từ đầu vào x. Đây là đại lượng mà ta sẽ muốn tối thiểu hóa trong quá trình huấn luyện.
 
 <br>
 
 
 **15. Classification case - The classification of a sample x of true label y∈{−1,+1} with a linear model of weights w can be done with the predictor fw(x)≜sign(s(x,w)). In this situation, a metric of interest quantifying the quality of the classification is given by the margin m(x,y,w), and can be used with the following loss functions:**
 
-&#10230;
+&#10230; Đối với bài toán phân loại - 
 
 <br>
 

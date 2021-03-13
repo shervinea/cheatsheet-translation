@@ -2,7 +2,7 @@ Convolutional Neural Networks translation [webpage]
 
 1. Convolutional Neural Networks cheatsheet
 
-⟶Konwolucyjne Sieci Neuronowe - ściągawka
+⟶Convolutional Neural Networks cheatsheet ― Konwolucyjne Sieci Neuronowe, ściągawka
 
 2. CS 230 - Deep Learning
 
@@ -18,7 +18,7 @@ Convolutional Neural Networks translation [webpage]
 
 5. [Filter hyperparameters, Dimensions, Stride, Padding]
 
-⟶[Hiperparametry filtra, Wymiary, Krok, Margines z zerami]
+⟶[Hiperparametry filtra, Wymiary, Krok, Padding]
 
 6. [Tuning hyperparameters, Parameter compatibility, Model complexity, Receptive field]
 
@@ -38,11 +38,11 @@ Convolutional Neural Networks translation [webpage]
 
 10. [Neural style transfer, Activation, Style matrix, Style/content cost function]
 
-⟶[Neural style transfer, aktywacja, macierz stylu, Funkcja straty styl/zawartość]
+⟶[Neural style transfer, Aktywacja, Macierz stylu, Funkcja straty styl/kontent]
 
 11. [Computational trick architectures, Generative Adversarial Net, ResNet, Inception Network]
 
-⟶[Architektury z użyciem trików obliczeniowych]
+⟶[Architektury używające sztuczek obliczeniowych, Generative Adversarial Net, ResNet, Inception Network]
 
 12. Overview
 
@@ -50,7 +50,7 @@ Convolutional Neural Networks translation [webpage]
 
 13. Architecture of a traditional CNN ― Convolutional neural networks, also known as CNNs, are a specific type of neural networks that are generally composed of the following layers:
 
-⟶Konwolucyjna sieć neuronowa - (ang. CNN ― Convolutional Neural Network) jest to rodzaj sieci neuronowch, które zazwyczaj składają się z następujących warstw: konwolucyjnej (ang. convolution), redukującej (ang. pooling) i w pełni połączonej (ang. fully connected).
+⟶Konwolucyjna sieć neuronowa ― (ang. Convolutional Neural Network, CNN) jest to rodzaj sieci neuronowch, które zazwyczaj składają się z następujących warstw: konwolucyjnej (ang. convolution), redukującej (ang. pooling) i w pełni połączonej (ang. fully connected).
 
 14. The convolution layer and the pooling layer can be fine-tuned with respect to hyperparameters that are described in the next sections.
 
@@ -62,7 +62,7 @@ Convolutional Neural Networks translation [webpage]
 
 16. Convolution layer (CONV) ― The convolution layer (CONV) uses filters that perform convolution operations as it is scanning the input I with respect to its dimensions. Its hyperparameters include the filter size F and stride S. The resulting output O is called feature map or activation map.
 
-⟶Warstwa Konwolucyjna (CONV) - (ang. convolution layer) działa w oparciu o filtry, które wykonują operację konwolucji podczas skanowania danych wejściowych (input - I). Wyróżnia się hiperparametry takie jak rozmiar filtra (filter size - F) oraz krok (stride - S). Otrzymane dane wyjściowe (output - O) noszą nazwę mapy cech (feature map/activation map).
+⟶Warstwa Konwolucyjna (CONV) ― (ang. convolution layer) działa w oparciu o filtry, które wykonują operację konwolucji podczas skanowania danych wejściowych (input - I). Wyróżnia się hiperparametry takie jak rozmiar filtra (filter size - F) oraz krok (stride - S). Otrzymane dane wyjściowe (output - O) noszą nazwę mapy cech lub aktywacji (feature map/activation map).
 
 17. Remark: the convolution step can be generalized to the 1D and 3D cases as well.
 
@@ -70,7 +70,7 @@ Convolutional Neural Networks translation [webpage]
 
 18. Pooling (POOL) ― The pooling layer (POOL) is a downsampling operation, typically applied after a convolution layer, which does some spatial invariance. In particular, max and average pooling are special kinds of pooling where the maximum and average value is taken, respectively.
 
-⟶Warstwa redukująca (POOL) - (ang. pooling layer) jest to operacja próbkowania, zazwyczaj następująca po warstwie konwolucyjnej. Najczęściej używane to Max Pooling - wybierająca wartość największą oraz Average Pooling - obliczająca średnią arytmetyczną.
+⟶Warstwa redukująca (POOL) ― (ang. pooling layer) jest to operacja próbkowania, zazwyczaj następująca po warstwie konwolucyjnej. Najczęściej używane to Max Pooling - wybierająca wartość największą oraz Average Pooling - obliczająca średnią arytmetyczną.
 
 19. [Type, Purpose, Illustration, Comments]
 
@@ -98,7 +98,7 @@ Convolutional Neural Networks translation [webpage]
 
 25. Dimensions of a filter ― A filter of size F×F applied to an input containing C channels is a F×F×C volume that performs convolutions on an input of size I×I×C and produces an output feature map (also called activation map) of size O×O×1.
 
-⟶Wymiary filtra ― Filtr o rozmiarze F×F zastosowany dla danych wejściowych zawierających liczbę C kanałów, stanowiący objętość F×F×C, wykonuje konwolucję na danych o rozmiarze I×I×C i daje na wyjściu mapę cech (zwaną mapą aktywacji) o rozmiarze O×O×1.
+⟶Wymiary filtra ― Filtr o rozmiarze F×F zastosowany dla danych wejściowych zawierających liczbę C kanałów (objętość F×F×C), wykonuje konwolucję na danych o rozmiarze I×I×C i daje na wyjściu mapę cech (zwaną mapą aktywacji) o rozmiarze O×O×1.
 
 26. Filter
 
@@ -114,7 +114,7 @@ Convolutional Neural Networks translation [webpage]
 
 29. Zero-padding ― Zero-padding denotes the process of adding P zeroes to each side of the boundaries of the input. This value can either be manually specified or automatically set through one of the three modes detailed below:
 
-⟶Margines z zerami ― (ang. zero-padding) oznacza dodanie na granicy obszaru dodatkowych pól wypełnionych zerami. Wartość można określić ręcznie lub wybrać spośród trzech trybów opisanych poniżej:
+⟶Zero-padding ― (tłum. margines z zerami) oznacza dodanie na granicy obszaru dodatkowych pól wypełnionych zerami. Wartość można określić ręcznie lub wybrać spośród trzech trybów opisanych poniżej:
 
 30. [Mode, Value, Illustration, Purpose, Valid, Same, Full]
 
@@ -122,7 +122,7 @@ Convolutional Neural Networks translation [webpage]
 
 31. [No padding, Drops last convolution if dimensions do not match, Padding such that feature map size has size ⌈IS⌉, Output size is mathematically convenient, Also called 'half' padding, Maximum padding such that end convolutions are applied on the limits of the input, Filter 'sees' the input end-to-end]
 
-⟶[Brak marginesu, Porzuca ostatnią konwolucję jeśli wymiary sie nie zgadzają, Margines dopasowany tak, aby dane wyjściowe (output) miały wymiar ⌈IS⌉, Dogodny rozmiar danych wyjściowych, Nazywany także 'half' padding, Margines maksymalny dobrany tak, aby końcowe konwolucje obliczano na granicy obszaru, Filtr 'widzi' cały obszar]
+⟶[Brak marginesu, Porzuca ostatnią konwolucję jeśli wymiary się nie zgadzają, Margines dopasowany tak, aby dane wyjściowe (output) miały wymiar ⌈IS⌉, Dogodny rozmiar danych wyjściowych, Nazywany także 'half' padding, Margines maksymalny dobrany tak, aby końcowe konwolucje obliczano na granicy obszaru, Filtr 'widzi' cały obszar]
 
 32. Tuning hyperparameters
 
@@ -186,7 +186,7 @@ Convolutional Neural Networks translation [webpage]
 
 47. Softmax ― The softmax step can be seen as a generalized logistic function that takes as input a vector of scores x∈Rn and outputs a vector of output probability p∈Rn through a softmax function at the end of the architecture. It is defined as follows:
 
-⟶Softmax (Znormalizowana funkcja wykładnicza) ― można ją interpretować jako uogólnioną funkcję logistyczną, która na wejściu pobiera wektor wartości x∈Rn i na wyjściu daje wektor prawdopodobieństw p∈Rn. Używana zazwyczaj w ostatniej warstwie sieci.
+⟶Softmax (Znormalizowana funkcja wykładnicza) ― można ją interpretować jako uogólnioną funkcję logistyczną, która na wejściu pobiera wektor wartości x∈Rn i na wyjściu daje wektor prawdopodobieństw p∈Rn. Używana zazwyczaj w ostatniej warstwie sieci. Pniżej definicja:
 
 48. where
 
@@ -198,7 +198,7 @@ Convolutional Neural Networks translation [webpage]
 
 50. Types of models ― There are 3 main types of object recognition algorithms, for which the nature of what is predicted is different. They are described in the table below:
 
-⟶Modele ― wyróżnia sie 3 główne rodzaje algorytmów wykrywania obiektów, dla których natura tego co jest przewidywane jest inna. Opisane sa w tabeli poniżej:
+⟶Modele ― wyróżnia się 3 główne rodzaje algorytmów wykrywania obiektów, dla których natura tego co jest przewidywane jest inna. Opisane są w tabeli poniżej:
 
 51. [Image classification, Classification w. localization, Detection]
 
@@ -246,7 +246,7 @@ Convolutional Neural Networks translation [webpage]
 
 62. Non-max suppression ― The non-max suppression technique aims at removing duplicate overlapping bounding boxes of a same object by selecting the most representative ones. After having removed all boxes having a probability prediction lower than 0.6, the following steps are repeated while there are boxes remaining:
 
-⟶Tłumienie non-max ― (ang. non-max suppression) to technika, która ma na celu wyeliminowanie duplikatów ramek tego samego obiektu poprzez wybieranie najbardziej reprezetatywnych. Po usunięciu wszystkich ramek, których prawdopodobieństwo wynosiło poniżej 0,6, powtarzane są następujące kroki na pozostałuch ramkach:
+⟶Tłumienie non-max ― (ang. non-max suppression) to technika, która ma na celu wyeliminowanie duplikatów ramek tego samego obiektu poprzez wybieranie najbardziej reprezentatywnych. Po usunięciu wszystkich ramek, których prawdopodobieństwo wynosiło poniżej 0,6, powtarzane są następujące kroki na pozostałych ramkach:
 
 63. [For a given class, Step 1: Pick the box with the largest prediction probability., Step 2: Discard any box having an IoU⩾0.5 with the previous box.]
 
@@ -282,7 +282,7 @@ Convolutional Neural Networks translation [webpage]
 
 71. R-CNN ― Region with Convolutional Neural Networks (R-CNN) is an object detection algorithm that first segments the image to find potential relevant bounding boxes and then run the detection algorithm to find most probable objects in those bounding boxes.
 
-⟶R-CNN ― (ang. Region with Convolutional Neural Networks, R-CNN) czyli region z konwolucyjną siecią neuronową to algorytm, który najpierw rozdziela obraz w celu poszukiwania potencjalnie istotnych ramek, a następnie uruchania algorytm wykrywania, aby znaleźć w ramce obiekty najbardziej prawdopodobne.
+⟶R-CNN ― (ang. Region with Convolutional Neural Networks, R-CNN) czyli region z konwolucyjną siecią neuronową to algorytm, który najpierw rozdziela obraz w celu poszukiwania potencjalnie istotnych ramek, a następnie uruchamia algorytm wykrywania, aby znaleźć w ramce obiekty najbardziej prawdopodobne.
 
 72. [Original image, Segmentation, Bounding box prediction, Non-max suppression]
 
@@ -306,7 +306,7 @@ Convolutional Neural Networks translation [webpage]
 
 77. [Is this the correct person?, One-to-one lookup, Is this one of the K persons in the database?, One-to-many lookup]
 
-⟶[Czy to poprawna osoba?, Wyszukiwanie jeden do jednego, Czy to jedna spośród K osób z bazy?, Wyszukiwanie jeden do wielu]
+⟶[Czy to ta sama osoba?, Wyszukiwanie jeden do jednego, Czy to jedna spośród K osób z bazy?, Wyszukiwanie jeden do wielu]
 
 78. One Shot Learning ― One Shot Learning is a face verification algorithm that uses a limited training set to learn a similarity function that quantifies how different two given images are. The similarity function applied to two images is often noted d(image 1,image 2).
 
@@ -314,11 +314,11 @@ Convolutional Neural Networks translation [webpage]
 
 79. Siamese Network ― Siamese Networks aim at learning how to encode images to then quantify how different two images are. For a given input image x(i), the encoded output is often noted as f(x(i)).
 
-⟶Siamese Network ― (tłum. sieć syjamska) ma na celu nauczyć się jak zakodować obraz by następnie określić jak różnią się dwa obrazy. Dla zadanych danych wejsciowych x(i), zakodowane wyjście wyraża się poprzez f(x(i)).
+⟶Siamese Network ― (tłum. sieć syjamska) ma na celu nauczyć się jak zakodować obraz by następnie określić jak różnią się dwa obrazy. Dla zadanych danych wejściowych x(i), zakodowane wyjście wyraża się poprzez f(x(i)).
 
 80. Triplet loss ― The triplet loss ℓ is a loss function computed on the embedding representation of a triplet of images A (anchor), P (positive) and N (negative). The anchor and the positive example belong to a same class, while the negative example to another one. By calling α∈R+ the margin parameter, this loss is defined as follows:
 
-⟶Triplet loss ― (tłum. strata trypletu) strata trypletu ℓ to funkcja straty (ang. loss function) obliczona dla wbudowanej reprezentacji trypletu obrazów A (anchor - bazowy), P (positive - dodatni), N (negative - ujemny). Obrazy bazowy A i dodatni P nalezą do tej samej klasy, pdczas gdy ujemny N do innej. Nazywając przez α∈R+ parametr brzegowy, strata obliczana jest według wzoru:
+⟶Triplet loss ― (tłum. strata trypletu) strata trypletu ℓ to funkcja straty (ang. loss function) obliczona dla wbudowanej reprezentacji trypletu obrazów A (anchor - bazowy), P (positive - dodatni), N (negative - ujemny). Obrazy bazowy A i dodatni P nalezą do tej samej klasy, podczas gdy ujemny N do innej. Nazywając przez α∈R+ parametr brzegowy, strata obliczana jest według wzoru:
 
 81. Neural style transfer
 
@@ -354,11 +354,11 @@ Convolutional Neural Networks translation [webpage]
 
 89. Overall cost function ― The overall cost function is defined as being a combination of the content and style cost functions, weighted by parameters α,β, as follows:
 
-⟶Całkowita funkcja kosztu ― (ang. overall cost function) jest zdefiniowana jako kombinacja funkcji kosztu kontentu i stylu, z wagami α,β, nastepująco:
+⟶Całkowita funkcja kosztu ― (ang. overall cost function) jest zdefiniowana jako kombinacja funkcji kosztu kontentu i stylu, z wagami α,β, następująco:
 
 90. Remark: a higher value of α will make the model care more about the content while a higher value of β will make it care more about the style.
 
-⟶Uwaga: wyższa wartość α spowoduje, że model jest bardziej czuły względem kontentu, a wyższa wartość β, ze model jest bardziej czuły wzgledem stylu.
+⟶Uwaga: wyższa wartość α spowoduje, że model jest bardziej czuły względem kontentu, a wyższa wartość β, ze model jest bardziej czuły względem stylu.
 
 91. Architectures using computational tricks
 
@@ -378,11 +378,11 @@ Convolutional Neural Networks translation [webpage]
 
 95. ResNet ― The Residual Network architecture (also called ResNet) uses residual blocks with a high number of layers meant to decrease the training error. The residual block has the following characterizing equation:
 
-⟶ResNet ― The Residual Network (ang. Sieć Resztkowa)
+⟶ResNet ― The Residual Network (ang. sieć rezydualna) używa bloków rezydualnych (residual blocks) z większą liczbą warstw, co ma na celu zmniejszenie błędu podczas uczenia (training error). Charakteruzuje je równanie:
 
 96. Inception Network ― This architecture uses inception modules and aims at giving a try at different convolutions in order to increase its performance through features diversification. In particular, it uses the 1×1 convolution trick to limit the computational burden.
 
-⟶
+⟶Inception Network ― (ang. sieć incepcyjna) używa modułów incepcyjnych, które pozwalają na użycie różnych konwolucji, co skutkuje podniesieniem wydajności poprzez dywersyfikację cech. W szczególności używa ona konwolucji 1x1 aby ograniczyć obciążenie obliczeniowe.
 
 97. The Deep Learning cheatsheets are now available in [target language].
 
@@ -406,4 +406,4 @@ Convolutional Neural Networks translation [webpage]
 
 102. By X and Y
 
-⟶Przez X i Y
+⟶Przez

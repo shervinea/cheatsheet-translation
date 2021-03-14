@@ -11,7 +11,7 @@
 
 **2. Linear predictors**
 
-&#10230; Bộ dự đoán Tuyến tính
+&#10230; Bộ dự đoán tuyến tính
 
 <br>
 
@@ -102,154 +102,154 @@
 
 **15. Classification case - The classification of a sample x of true label y∈{−1,+1} with a linear model of weights w can be done with the predictor fw(x)≜sign(s(x,w)). In this situation, a metric of interest quantifying the quality of the classification is given by the margin m(x,y,w), and can be used with the following loss functions:**
 
-&#10230; Đối với bài toán phân loại - 
+&#10230; Đối với bài toán phân loại - Việc phân loại một mẫu x có nhãn y∈{−1,+1} sử dụng một mô hình tuyến tính với các trọng số w có thể thực hiện bằng bộ dự đoán fw(x)≜sign(s(x,w)). Trong trường hợp này, đại lượng biên m(x,y,w) đo lường chất lượng của tác vụ phân loại có thể được sử dụng cùng với các hàm mất mát sau:
 
 <br>
 
 
 **16. [Name, Illustration, Zero-one loss, Hinge loss, Logistic loss]**
 
-&#10230;
+&#10230; [Tên, Minh họa, Mất mát Zero-one, Mất mát Hinge, Mất mát Logistic]
 
 <br>
 
 
 **17. Regression case - The prediction of a sample x of true label y∈R with a linear model of weights w can be done with the predictor fw(x)≜s(x,w). In this situation, a metric of interest quantifying the quality of the regression is given by the margin res(x,y,w) and can be used with the following loss functions:**
 
-&#10230;
+&#10230; Đối với bài toán hồi quy - Việc dự đoán một mẫu x có nhãn y∈R sử dụng một mô hình tuyến tính với các trọng số w có thể thực hiện bằng bộ dự đoán fw(x)≜s(x,w). Trong trường hợp này, đại lượng biên res(x,y,w) đo lường chất lượng của tác vụ hồi quy có thể được sử dụng cùng với các hàm mất mát sau:
 
 <br>
 
 
 **18. [Name, Squared loss, Absolute deviation loss, Illustration]**
 
-&#10230;
+&#10230; [Tên, Mất mát Bình phương, Mất mát Độ lệch Tuyệt đối, Minh họa]
 
 <br>
 
 
 **19. Loss minimization framework ― In order to train a model, we want to minimize the training loss is defined as follows:**
 
-&#10230;
+&#10230; Framework cho bài toán tối thiểu hóa mất mát ― Để huấn luyện một mô hình , ta sẽ muốn tối thiểu hóa mất mát huấn luyện có dạng: 
 
 <br>
 
 
 **20. Non-linear predictors**
 
-&#10230;
+&#10230; Bộ dự đoán phi tuyến
 
 <br>
 
 
 **21. k-nearest neighbors ― The k-nearest neighbors algorithm, commonly known as k-NN, is a non-parametric approach where the response of a data point is determined by the nature of its k neighbors from the training set. It can be used in both classification and regression settings.**
 
-&#10230;
+&#10230; k-điểm lân cận ― Thuật toán k-điểm lân cận, hay còn gọi là K-NN, là một thuật toán phi tham số mà nhãn của một điểm dữ liệu được định nghĩa bởi nhãn của k điểm gần nhất với nó trong tập huấn luyện. k-điểm lân cận có thể được dùng cả trong tác vụ phân loại lẫn hồi quy.
 
 <br>
 
 
 **22. Remark: the higher the parameter k, the higher the bias, and the lower the parameter k, the higher the variance.**
 
-&#10230;
+&#10230; Chú ý: Giá trị tham số k càng cao, độ chệch càng lớn, và khi k càng thấp, phương sai càng cao.
 
 <br>
 
 
 **23. Neural networks ― Neural networks are a class of models that are built with layers. Commonly used types of neural networks include convolutional and recurrent neural networks. The vocabulary around neural networks architectures is described in the figure below:**
 
-&#10230;
+&#10230; Mạng nơ-ron ― Mạng nơ-ron là một họ mô hình được xây dựng từ các tầng. Trong đó, hai kiểu mạng nơ-ron được sử dụng phổ biến là mạng nơ-ron tích chập và mạng nơ-ron hồi tiếp. Tên gọi của các tầng trong kiến trúc mạng nơ-ron được mô tả trong hình dưới:
 
 <br>
 
 
 **24. [Input layer, Hidden layer, Output layer]**
 
-&#10230;
+&#10230; [Tầng đầu vào, Tầng ẩn, Tầng đầu ra]
 
 <br>
 
 
 **25. By noting i the ith layer of the network and j the jth hidden unit of the layer, we have:**
 
-&#10230;
+&#10230; Xét i là tầng thứ ith trong mạng và j là nút ẩn thứ jth của tầng đó, ta có: 
 
 <br>
 
 
 **26. where we note w, b, x, z the weight, bias, input and non-activated output of the neuron respectively.**
 
-&#10230;
+&#10230; trong đó w, b, x, z lần lượt là trọng số, tham số điều chỉnh, đầu vào và đầu ra chưa qua kích hoạt của mạng.
 
 <br>
 
 
 **27. For a more detailed overview of the concepts above, check out the Supervised Learning cheatsheets!**
 
-&#10230;
+&#10230; Để biết thêm thông tin chi tiết của những khái niệm trên, hãy tham khảo cheatsheets Học có Giám sát!
 
 <br>
 
 
 **28. Stochastic gradient descent**
 
-&#10230;
+&#10230; Hạ gradient ngẫu nhiên
 
 <br>
 
 
 **29. Gradient descent ― By noting η∈R the learning rate (also called step size), the update rule for gradient descent is expressed with the learning rate and the loss function Loss(x,y,w) as follows:**
 
-&#10230;
+&#10230; Hạ gradient ― Bằng cách ký hiệu η∈R là tốc độ học (hay độ dài bước), quy tắc cập nhật của hạ gradient được biểu diễn theo tốc độ học và hàm mất mát Loss(x,y,w) như sau:
 
 <br>
 
 
 **30. Stochastic updates ― Stochastic gradient descent (SGD) updates the parameters of the model one training example (ϕ(x),y)∈Dtrain at a time. This method leads to sometimes noisy, but fast updates.**
 
-&#10230;
+&#10230; Cập nhật ngẫu nhiên ― Hạ gradient ngẫu nhiên (SGD) cập nhật các tham số của mô hình dựa trên chỉ một mẫu huấn luyện (ϕ(x),y)∈Dtrain tại mỗi bước. Phương pháp này dẫn đến những bước cập nhật tuy nhanh, nhưng thường có nhiễu.
 
 <br>
 
 
 **31. Batch updates ― Batch gradient descent (BGD) updates the parameters of the model one batch of examples (e.g. the entire training set) at a time. This method computes stable update directions, at a greater computational cost.**
 
-&#10230;
+&#10230; Cập nhật theo batch ― Hạ gradient theo batch (BGD) cập nhật các tham số của mô hình dựa trên một batch các mẫu (ví dụ như toàn bộ tập huấn luyện) tại mỗi bước. Phương pháp này cung cấp hướng cập nhật ổn định nhưng với chi phí tính toán lớn hơn.
 
 <br>
 
 
 **32. Fine-tuning models**
 
-&#10230;
+&#10230; Tinh chỉnh mô hình
 
 <br>
 
 
 **33. Hypothesis class ― A hypothesis class F is the set of possible predictors with a fixed ϕ(x) and varying w:**
 
-&#10230;
+&#10230; Lớp giả thuyết ― Một lớp giả thuyết F là một tập các bộ dự đoán khả dĩ với ϕ(x) cố định và w thay đổi:
 
 <br>
 
 
 **34. Logistic function ― The logistic function σ, also called the sigmoid function, is defined as:**
 
-&#10230;
+&#10230; Hàm logistic ― Hàm logistic σ, còn được gọi là hàm sigmoid, được định nghĩa:
 
 <br>
 
 
 **35. Remark: we have σ′(z)=σ(z)(1−σ(z)).**
 
-&#10230;
+&#10230; Chú ý: Ta có σ′(z)=σ(z)(1−σ(z)).
 
 <br>
 
 
 **36. Backpropagation ― The forward pass is done through fi, which is the value for the subexpression rooted at i, while the backward pass is done through gi=∂out∂fi and represents how fi influences the output.**
 
-&#10230;
+&#10230; Lan truyền ngược ― 
 
 <br>
 

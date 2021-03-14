@@ -457,7 +457,7 @@
 <br>
 
 
-**66. [Linear predictors, Feature vector, Linear classifier/regression, Margin]**
+**66. [Linear predictors, Feature vector, Linear classifier/regression, Margin, Residual]**
 
 &#10230;
 

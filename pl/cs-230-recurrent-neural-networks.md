@@ -4,105 +4,105 @@
 
 **1. Recurrent Neural Networks cheatsheet**
 
-&#10230;
+&#10230; Recurrent Neural Networks ― Rekurencyjne Sieci Neuronowe, ściągawka
 
 <br>
 
 
 **2. CS 230 - Deep Learning**
 
-&#10230;
+&#10230; CS 230 - Uczenie Głębokie (ang. Deep Learning)
 
 <br>
 
 
 **3. [Overview, Architecture structure, Applications of RNNs, Loss function, Backpropagation]**
 
-&#10230;
+&#10230; [Przegląd, Struktura sieci, Zastosowania RNN, Funkcja straty, Propagacja wsteczna]
 
 <br>
 
 
 **4. [Handling long term dependencies, Common activation functions, Vanishing/exploding gradient, Gradient clipping, GRU/LSTM, Types of gates, Bidirectional RNN, Deep RNN]**
 
-&#10230;
+&#10230; [Obsługa długoterminowych zależności, Funkcje aktywacji, Zanikający/eksplodujący gradient, Obcinanie gradientu, GRU/LSTM, Rodzaje bramek, Dwukierunkowa sieć RNN, Głęboka sieć RNN]
 
 <br>
 
 
 **5. [Learning word representation, Notations, Embedding matrix, Word2vec, Skip-gram, Negative sampling, GloVe]**
 
-&#10230;
+&#10230; [Uczenie reprezentacji słów, Notacje, Osadzanie macierzy, Word2vec, Skip-gram, Próbkowanie ujemne, GloVe]
 
 <br>
 
 
 **6. [Comparing words, Cosine similarity, t-SNE]**
 
-&#10230;
+&#10230; [Porównywanie słów, Podobieństwo cosinusa, t-SNE]
 
 <br>
 
 
 **7. [Language model, n-gram, Perplexity]**
 
-&#10230;
+&#10230; [Model języka, n-gram, Perplexity - dylemat]
 
 <br>
 
 
 **8. [Machine translation, Beam search, Length normalization, Error analysis, Bleu score]**
 
-&#10230;
+&#10230; [Tłumaczenie maszynowe, Wyszukiwanie "beam search", Normalizacja długości, Analiza błędów, Wynik "bleu score"]
 
 <br>
 
 
 **9. [Attention, Attention model, Attention weights]**
 
-&#10230;
+&#10230; [Skupianie uwagi, Model skupiania uwagi, Wagi w skupianiu uwagi]
 
 <br>
 
 
 **10. Overview**
 
-&#10230;
+&#10230; Przegląd
 
 <br>
 
 
 **11. Architecture of a traditional RNN ― Recurrent neural networks, also known as RNNs, are a class of neural networks that allow previous outputs to be used as inputs while having hidden states. They are typically as follows:**
 
-&#10230;
+&#10230; Rekurencyjna Sieć Neuronowa ― (ang. Recurrent Neural Networks, RNN) jest to rodzaj sieci neuronowch, która pozwala poprzednim wyjściom być użytym jako wejścia
 
 <br>
 
 
 **12. For each timestep t, the activation a<t> and the output y<t> are expressed as follows:**
 
-&#10230;
+&#10230; Dla każdego kroku czasowego t, aktywacja a<t> i wyjście y<t> wyraża się następująco:
 
 <br>
 
 
 **13. and**
 
-&#10230;
+&#10230; i 
 
 <br>
 
 
 **14. where Wax,Waa,Wya,ba,by are coefficients that are shared temporally and g1,g2 activation functions.**
 
-&#10230;
+&#10230; gdzie Wax,Waa,Wya,ba,by są współczynnikami współdzielonymi tymczasowo oraz g1,g2 są funkcjami aktywacji.
 
 <br>
 
 
 **15. The pros and cons of a typical RNN architecture are summed up in the table below:**
 
-&#10230;
+&#10230; Zalety i wady typowych sieci rekurencyjnych zebrano w tabeli poniżej:
 
 <br>
 

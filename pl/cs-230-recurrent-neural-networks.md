@@ -74,7 +74,7 @@
 
 **11. Architecture of a traditional RNN ― Recurrent neural networks, also known as RNNs, are a class of neural networks that allow previous outputs to be used as inputs while having hidden states. They are typically as follows:**
 
-&#10230; Rekurencyjna Sieć Neuronowa ― (ang. Recurrent Neural Networks, RNN) jest to rodzaj sieci neuronowch, która pozwala poprzednim wyjściom być użytym jako wejścia
+&#10230; Rekurencyjna Sieć Neuronowa ― (ang. Recurrent Neural Networks, RNN) jest to klasa sieci neuronowych, które pozwalają na użycie poprzednich wyjść jako danych wejściowych przy ukrytych stanach.
 
 <br>
 
@@ -109,42 +109,41 @@
 
 **16. [Advantages, Possibility of processing input of any length, Model size not increasing with size of input, Computation takes into account historical information, Weights are shared across time]**
 
-&#10230;
-
+&#10230; [Zalety, Możliwość przetwarzania danych o dowolnej długości, Rozmiar modelu nie wzrasta wraz z danymi wejściowymi, Obliczanie bierze pod uwagę informacje historyczne, Wagi są udostępniane w czasie]
 <br>
 
 
 **17. [Drawbacks, Computation being slow, Difficulty of accessing information from a long time ago, Cannot consider any future input for the current state]**
 
-&#10230;
+&#10230; [Wady, Powolność obliczeń, Trudność w dostępie do dawnych informacji, Nie można wziąć pod uwagę żadnych przyszłych danych wejściowych dla bieżącego stanu]
 
 <br>
 
 
 **18. Applications of RNNs ― RNN models are mostly used in the fields of natural language processing and speech recognition. The different applications are summed up in the table below:**
 
-&#10230;
+&#10230; Zastosowania sieci rekurencyjnych (RNN) ― najczęściej używane są one w dziedzinieprzetwarzania języka naturalnego i rozpoznawania mowy. Różne zastosowania zebrano poniżej:
 
 <br>
 
 
 **19. [Type of RNN, Illustration, Example]**
 
-&#10230;
+&#10230; [Typ sieci RNN, Ilustracja, Przykład]
 
 <br>
 
 
 **20. [One-to-one, One-to-many, Many-to-one, Many-to-many]**
 
-&#10230;
+&#10230; [Jeden do jednego, Jeden do wielu, Wiele do jednego, Wiele do wielu]
 
 <br>
 
 
 **21. [Traditional neural network, Music generation, Sentiment classification, Name entity recognition, Machine translation]**
 
-&#10230;
+&#10230; [Tradycyjne sieci neuronowe, Generowanie muzyki, Analiza wydźwięku, Rozpoznawanie jednostek w tekście, Tłumaczenie maszynowe]
 
 <br>
 

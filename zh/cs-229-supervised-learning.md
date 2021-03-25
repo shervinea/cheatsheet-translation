@@ -36,7 +36,7 @@
 
 7. **Type of model ― The different models are summed up in the table below:**
 
-&#10230; 型号类型 - 不同型号总结如下表：
+&#10230; 模型类型 - 不同的模型总结如下表：
 
 <br>
 

@@ -4,147 +4,146 @@
 
 **1. Recurrent Neural Networks cheatsheet**
 
-&#10230;
+&#10230; Recurrent Neural Networks ― Rekurencyjne Sieci Neuronowe, ściągawka
 
 <br>
 
 
 **2. CS 230 - Deep Learning**
 
-&#10230;
+&#10230; CS 230 - Uczenie Głębokie (ang. Deep Learning)
 
 <br>
 
 
 **3. [Overview, Architecture structure, Applications of RNNs, Loss function, Backpropagation]**
 
-&#10230;
+&#10230; [Przegląd, Struktura sieci, Zastosowania RNN, Funkcja straty, Propagacja wsteczna]
 
 <br>
 
 
 **4. [Handling long term dependencies, Common activation functions, Vanishing/exploding gradient, Gradient clipping, GRU/LSTM, Types of gates, Bidirectional RNN, Deep RNN]**
 
-&#10230;
+&#10230; [Obsługa długoterminowych zależności, Funkcje aktywacji, Zanikający/eksplodujący gradient, Obcinanie gradientu, GRU/LSTM, Rodzaje bramek, Dwukierunkowa sieć RNN, Głęboka sieć RNN]
 
 <br>
 
 
 **5. [Learning word representation, Notations, Embedding matrix, Word2vec, Skip-gram, Negative sampling, GloVe]**
 
-&#10230;
+&#10230; [Uczenie reprezentacji słów, Notacje, Osadzanie macierzy, Word2vec, Skip-gram, Próbkowanie ujemne, GloVe]
 
 <br>
 
 
 **6. [Comparing words, Cosine similarity, t-SNE]**
 
-&#10230;
+&#10230; [Porównywanie słów, Podobieństwo cosinusa, t-SNE]
 
 <br>
 
 
 **7. [Language model, n-gram, Perplexity]**
 
-&#10230;
+&#10230; [Model języka, n-gram, Perplexity - dylemat]
 
 <br>
 
 
 **8. [Machine translation, Beam search, Length normalization, Error analysis, Bleu score]**
 
-&#10230;
+&#10230; [Tłumaczenie maszynowe, Wyszukiwanie "beam search", Normalizacja długości, Analiza błędów, Wynik "bleu score"]
 
 <br>
 
 
 **9. [Attention, Attention model, Attention weights]**
 
-&#10230;
+&#10230; [Skupianie uwagi, Model skupiania uwagi, Wagi w skupianiu uwagi]
 
 <br>
 
 
 **10. Overview**
 
-&#10230;
+&#10230; Przegląd
 
 <br>
 
 
 **11. Architecture of a traditional RNN ― Recurrent neural networks, also known as RNNs, are a class of neural networks that allow previous outputs to be used as inputs while having hidden states. They are typically as follows:**
 
-&#10230;
+&#10230; Rekurencyjna Sieć Neuronowa ― (ang. Recurrent Neural Networks, RNN) jest to klasa sieci neuronowych, które pozwalają na użycie poprzednich wyjść jako danych wejściowych przy ukrytych stanach.
 
 <br>
 
 
 **12. For each timestep t, the activation a<t> and the output y<t> are expressed as follows:**
 
-&#10230;
+&#10230; Dla każdego kroku czasowego t, aktywacja a<t> i wyjście y<t> wyraża się następująco:
 
 <br>
 
 
 **13. and**
 
-&#10230;
+&#10230; i 
 
 <br>
 
 
 **14. where Wax,Waa,Wya,ba,by are coefficients that are shared temporally and g1,g2 activation functions.**
 
-&#10230;
+&#10230; gdzie Wax,Waa,Wya,ba,by są współczynnikami współdzielonymi tymczasowo oraz g1,g2 są funkcjami aktywacji.
 
 <br>
 
 
 **15. The pros and cons of a typical RNN architecture are summed up in the table below:**
 
-&#10230;
+&#10230; Zalety i wady typowych sieci rekurencyjnych zebrano w tabeli poniżej:
 
 <br>
 
 
 **16. [Advantages, Possibility of processing input of any length, Model size not increasing with size of input, Computation takes into account historical information, Weights are shared across time]**
 
-&#10230;
-
+&#10230; [Zalety, Możliwość przetwarzania danych o dowolnej długości, Rozmiar modelu nie wzrasta wraz z danymi wejściowymi, Obliczanie bierze pod uwagę informacje historyczne, Wagi są udostępniane w czasie]
 <br>
 
 
 **17. [Drawbacks, Computation being slow, Difficulty of accessing information from a long time ago, Cannot consider any future input for the current state]**
 
-&#10230;
+&#10230; [Wady, Powolność obliczeń, Trudność w dostępie do dawnych informacji, Nie można wziąć pod uwagę żadnych przyszłych danych wejściowych dla bieżącego stanu]
 
 <br>
 
 
 **18. Applications of RNNs ― RNN models are mostly used in the fields of natural language processing and speech recognition. The different applications are summed up in the table below:**
 
-&#10230;
+&#10230; Zastosowania sieci rekurencyjnych (RNN) ― najczęściej używane są one w dziedzinieprzetwarzania języka naturalnego i rozpoznawania mowy. Różne zastosowania zebrano poniżej:
 
 <br>
 
 
 **19. [Type of RNN, Illustration, Example]**
 
-&#10230;
+&#10230; [Typ sieci RNN, Ilustracja, Przykład]
 
 <br>
 
 
 **20. [One-to-one, One-to-many, Many-to-one, Many-to-many]**
 
-&#10230;
+&#10230; [Jeden do jednego, Jeden do wielu, Wiele do jednego, Wiele do wielu]
 
 <br>
 
 
 **21. [Traditional neural network, Music generation, Sentiment classification, Name entity recognition, Machine translation]**
 
-&#10230;
+&#10230; [Tradycyjne sieci neuronowe, Generowanie muzyki, Analiza wydźwięku, Rozpoznawanie jednostek w tekście, Tłumaczenie maszynowe]
 
 <br>
 

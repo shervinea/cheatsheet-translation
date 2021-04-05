@@ -60,7 +60,7 @@
 
 **11. Remark: we also note D as diag(d1,...,dn).**
 
-&#10230; Wichtig: Die Matrix D wird auch diag(d1,...,dn) bezeichnet.
+&#10230; Wichtig: Wir verwenden für die Beschreibung der Diagonalmatrix D auch die Notation diag(d1,...,dn).
 
 <br>
 
@@ -84,13 +84,13 @@
 
 **15. inner product: for x,y∈Rn, we have:**
 
-&#10230; Innere Produkt: Auch Skalarprodukt, Es gilt x,y∈Rn:**
+&#10230; inneres Produkt: auch Skalarprodukt, Es gilt x,y∈Rn:
 
 <br>
 
 **16. outer product: for x∈Rm,y∈Rn, we have:**
 
-&#10230; Äußere Produkt: Auch Kreuzprodukt, Es gilt x∈Rm,y∈Rn:
+&#10230; äußeres Produkt: auch Kreuzprodukt oder Vektorprodukt genannt. Es gilt x∈Rm,y∈Rn:
 
 <br>
 
@@ -150,8 +150,7 @@
 
 **26. Trace ― The trace of a square matrix A, noted tr(A), is the sum of its diagonal entries:**
 
-&#10230; Spur - Die Spurabbildung einer quadratischen Matrix A, geschrieben als tr(A), ist die summe der Diagonaleinheiten:
-
+&#10230; Spur - Die Spurabbildung (Spurfunktion) einer quadratischen Matrix A, geschrieben als tr(A), ist die Summe der Diagonaleinheiten: 
 <br>
 
 **27. Remark: for matrices A,B, we have tr(AT)=tr(A) and tr(AB)=tr(BA)**
@@ -168,7 +167,7 @@
 
 **29. Remark: A is invertible if and only if |A|≠0. Also, |AB|=|A||B| and |AT|=|A|.**
 
-&#10230; Wichtig: A ist nur invertierbar falls |A|≠0. Weiteres gilt |AB|=|A||B| and |AT|=|A| 
+&#10230; Wichtig: A ist nur invertierbar, falls |A|≠0. Des Weiteren gilt |AB|=|A||B| and |AT|=|A|
 
 <br>
 
@@ -210,7 +209,7 @@
 
 **36. if N(x)=0, then x=0**
 
-&#10230; falls N(x)=0, folgt x=0**
+&#10230; falls N(x)=0, folgt x=0
 
 <br>
 
@@ -252,19 +251,19 @@
 
 **43. Remark: similarly, a matrix A is said to be positive definite, and is noted A≻0, if it is a PSD matrix which satisfies for all non-zero vector x, xTAx>0.**
 
-&#10230; Wichtig: Ebenfalls gilt, Eine Matrix A ist positiv definit, A≻0, falls diese eine PSD Matrix ist und es gilt für alle Einheiten eines Vektors x ungleich 0: x, xTAx>0.
+&#10230; Wichtig: Ebenfalls gilt, dass eine Matrix A positiv definit, in der Notatition: A≻0, falls diese eine PSD Matrix ist und es gilt für alle Einheiten eines Vektors x ungleich 0: x, xTAx>0.
 
 <br>
 
 **44. Eigenvalue, eigenvector ― Given a matrix A∈Rn×n, λ is said to be an eigenvalue of A if there exists a vector z∈Rn∖{0}, called eigenvector, such that we have:**
 
-&#10230; Eigenwert, Eigenvektor - Sei A∈Rn×n eine Matrix und λ der Eigentwert von A, falls es einen Vektor z∈Rn∖{0} gibt, Eigentvektor genannt, gilt folgendes:
+&#10230; Eigenwert, Eigenvektor - Sei A∈Rn×n eine Matrix und λ der Eigentwert von A, falls es einen Vektor z∈Rn∖{0} gibt. Dann gilt:
 
 <br>
 
 **45. Spectral theorem ― Let A∈Rn×n. If A is symmetric, then A is diagonalizable by a real orthogonal matrix U∈Rn×n. By noting Λ=diag(λ1,...,λn), we have:**
 
-&#10230; Spektralsatz - Sei A∈Rn×n, falls A eine symmetrische Matrix, dann ist diese diagonalisierbar durch eine orthogonale Matrix U∈Rn×n. Durch Λ=diag(λ1,...,λn) gilt folgendes:
+&#10230; Spektralsatz - Sei A∈Rn×n, falls A eine symmetrische Matrix, dann ist diese diagonalisierbar durch eine orthogonale Matrix U∈Rn×n. Mit der Notation Λ=diag(λ1,...,λn) gilt folgendes:
 
 <br>
 

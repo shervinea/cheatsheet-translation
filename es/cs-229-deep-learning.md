@@ -132,7 +132,7 @@
 
 **23. It is usually done after a fully connected/convolutional layer and before a non-linearity layer and aims at allowing higher learning rates and reducing the strong dependence on initialization.**
 
-&#10230; Se realiza usualmente después de una capa completamente conectada/convolucional y antes de una capa no-lineal y su objetivo es permitir velocidades de aprendizaje más altas de aprendizaje y reducir su fuerte dependencia sobre la inicialización.
+&#10230; Se realiza usualmente después de una capa completamente conectada/convolucional y antes de una capa no-lineal y su objetivo es permitir velocidades de aprendizaje más altas y reducir su fuerte dependencia sobre la inicialización.
 
 <br>
 

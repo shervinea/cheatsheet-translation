@@ -4,70 +4,70 @@
 
 **1. States-based models with search optimization and MDP**
 
-&#10230;
+&#10230; Tối ưu tìm kiếm với các mô hình trạng thái và MDP
 
 <br>
 
 
 **2. Search optimization**
 
-&#10230;
+&#10230; Tối ưu tìm kiếm
 
 <br>
 
 
 **3. In this section, we assume that by accomplishing action a from state s, we deterministically arrive in state Succ(s,a). The goal here is to determine a sequence of actions (a1,a2,a3,a4,...) that starts from an initial state and leads to an end state. In order to solve this kind of problem, our objective will be to find the minimum cost path by using states-based models.**
 
-&#10230;
+&#10230; Trong phần này, ta bằng cách cho rằng thực hiện hành động a từ trạng thái s, ta sẽ tiến tới trạng thái xác định Succ(s,a). Mục tiêu ở đây là tìm kiếm một chuỗi các hành động (a1,a2,a3,a4,...) để từ trạng thái ban đầu ta tiến tới trạng thái kết thúc. Để có thể giải quyết kiểu bài toán này, mục tiêu của ta sẽ là tìm kiếm con đường có chi phí thấp nhất bằng cách sử dụng các mô hình trạng thái.
 
 <br>
 
 
 **4. Tree search**
 
-&#10230;
+&#10230; Tìm kiếm trên cây
 
 <br>
 
 
 **5. This category of states-based algorithms explores all possible states and actions. It is quite memory efficient, and is suitable for huge state spaces but the runtime can become exponential in the worst cases.**
 
-&#10230;
+&#10230; Trong hạng mục này của các thuật toán trạng thái sẽ khám phá hết tất cả các trạng thái và hạnh động. Thuật toán rất thân thiện với bộ nhớ và phù hợp với các không gian trạng thái cực kỳ lớn, nhưng thời gian chạy sẽ tăng theo cấp số mũ trong trường hợp tệ nhất.
 
 <br>
 
 
 **6. [Self-loop, More than a parent, Cycle, More than a root, Valid tree]**
 
-&#10230;
+&#10230; [Khuyên, Có nhiều hơn một nút cha, Chu trình, Có nhiều hơn một gốc, Cây hợp lệ]
 
 <br>
 
 
 **7. [Search problem ― A search problem is defined with:, a starting state sstart, possible actions Actions(s) from state s, action cost Cost(s,a) from state s with action a, successor Succ(s,a) of state s after action a, whether an end state was reached IsEnd(s)]**
 
-&#10230;
+&#10230; [Bài toán tìm kiếm ― Một bài toán tìm kiếm được định nghĩa với:, một trạng thái bắt đầu sstart, các hành động khả dĩ Actions(s) từ trạng thái s, chi phí hành động Cost(s,a) khi thực hiện hành động a tại trạng thái s, trạng thái tiếp theo Succ(s,a) của trạng thái s sau khi thực hiện hành động a, liệu đã đạt tới trạng thái kết thúc IsEnd(s)]
 
 <br>
 
 
 **8. The objective is to find a path that minimizes the cost.**
 
-&#10230;
+&#10230; Mục tiêu chính là tìm kiếm đường đi có chi phí nhỏ nhất.
 
 <br>
 
 
 **9. Backtracking search ― Backtracking search is a naive recursive algorithm that tries all possibilities to find the minimum cost path. Here, action costs can be either positive or negative.**
 
-&#10230;
+&#10230; Tìm kiếm quay lui ― Tìm kiếm quay lui là một thuật toán đệ quy đơn giản sẽ thử hết tất cả các biến cố để tìm đường đi có chi phí thấp nhất. Ở đây, chi phí của hành động có thể là một số dương hoặc âm.
 
 <br>
 
 
 **10. Breadth-first search (BFS) ― Breadth-first search is a graph search algorithm that does a level-by-level traversal. We can implement it iteratively with the help of a queue that stores at each step future nodes to be visited. For this algorithm, we can assume action costs to be equal to a constant c⩾0.**
 
-&#10230;
+&#10230; Tìm kiếm theo chiều rộng (BFS) ― Tìm kiếm theo chiều rộng là một thuật toán tìm kiếm trên cây duyệt theo từng tầng. Ta có thể lập trình thuật toán này theo phương pháp lặp bằng cách sử dụng một hàng đợi để chứa các nút sẽ duyệt trong tương lai. Với thuật toán này, ta có thể giả định chi phí hành động bằng với một hằng số c⩾0.
 
 <br>
 

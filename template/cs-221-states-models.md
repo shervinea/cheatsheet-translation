@@ -128,7 +128,7 @@
 <br>
 
 
-**19. Remark: a graph is said to be acylic when there is no cycle.**
+**19. Remark: a graph is said to be acyclic when there is no cycle.**
 
 &#10230;
 

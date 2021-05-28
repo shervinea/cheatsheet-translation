@@ -74,182 +74,182 @@
 
 **11. Depth-first search (DFS) ― Depth-first search is a search algorithm that traverses a graph by following each path as deep as it can. We can implement it recursively, or iteratively with the help of a stack that stores at each step future nodes to be visited. For this algorithm, action costs are assumed to be equal to 0.**
 
-&#10230;
+&#10230; Tìm kiếm theo chiều sâu (DFS) ― Tìm kiếm theo chiều sâu là một thuật toán tìm kiếm duyệt đồ thị bằng cách theo mỗi đường đi càng sâu càng tốt. Ta có thể lập trình thuật toán này bằng phương pháp đệ quy hoặc vòng lặp bằng cách sử dụng một ngăn xếp chứa các nút sẽ duyệt trong tương lai. Với thuật toán này, chi phí hành động được giả định là bằng 0.
 
 <br>
 
 
 **12. Iterative deepening ― The iterative deepening trick is a modification of the depth-first search algorithm so that it stops after reaching a certain depth, which guarantees optimality when all action costs are equal. Here, we assume that action costs are equal to a constant c⩾0.**
 
-&#10230;
+&#10230; Tìm kiếm sâu dần ― Tìm kiếm sâu dần là một phiên bản được chỉnh sửa của thuật toán tìm kiếm theo chiều sâu khiến thuật toán này ngừng lại khi đạt đến một độ sâu nhất định, bảo đảm tính tối ưu trong trường hợp mọi hành động đều có chi phí bằng nhau. Ở đây, ta giả định là chi phí hành động là một hằng số c⩾0.
 
 <br>
 
 
 **13. Tree search algorithms summary ― By noting b the number of actions per state, d the solution depth, and D the maximum depth, we have:**
 
-&#10230;
+&#10230; Tóm tắt về các thuật toán tìm kiếm trên cây ― Với b là số lượng hành động mỗi trạng thái, d là độ sâu của mục tiêu, D là độ sâu tối đại, ta có:
 
 <br>
 
 
 **14. [Algorithm, Action costs, Space, Time]**
 
-&#10230;
+&#10230; [Thuật toán, Chi phí hành động, Không gian, Thời gian]
 
 <br>
 
 
 **15. [Backtracking search, any, Breadth-first search, Depth-first search, DFS-Iterative deepening]**
 
-&#10230;
+&#10230; [Tìm kiếm quay lui, bất kỳ, Tìm kiếm theo chiều rộng, Tìm kiếm theo chiều sâu, DFS-Tìm kiếm sâu dần]
 
 <br>
 
 
 **16. Graph search**
 
-&#10230;
+&#10230; Tìm kiếm trên đồ thị
 
 <br>
 
 
 **17. This category of states-based algorithms aims at constructing optimal paths, enabling exponential savings. In this section, we will focus on dynamic programming and uniform cost search.**
 
-&#10230;
+&#10230; Hạng mục này của các thuật toán trạng thái nhắm tới việc xây dụng đường đi tối ưu, cho phép tiết kiệm rất nhiều chi phí. Trong phần này, ta sẽ tập trung vào quy hoạch động cũng như tìm kiếm phi phí đều.
 
 <br>
 
 
 **18. Graph ― A graph is comprised of a set of vertices V (also called nodes) as well as a set of edges E (also called links).**
 
-&#10230;
+&#10230; Đồ thị ― Một đồ thị là tập hợp của một tập các đỉnh V (còn được gọi là các nút) và một tập các cạnh E (còn được gọi là các liên kết).
 
 <br>
 
 
 **19. Remark: a graph is said to be acylic when there is no cycle.**
 
-&#10230;
+&#10230; Lưu ý: một đồ thị được gọi là phi chu trình (acyclic) khi không tồn tại chu trình trong đồ thị.
 
 <br>
 
 
 **20. State ― A state is a summary of all past actions sufficient to choose future actions optimally.**
 
-&#10230;
+&#10230; Trạng thái ― Một trạng thái là tổng hợp của tất cả các hành động trong quá khứ, vừa đủ để đưa ra các lựa chọn trong tương lai một cách tối ưu nhất.
 
 <br>
 
 
 **21. Dynamic programming ― Dynamic programming (DP) is a backtracking search algorithm with memoization (i.e. partial results are saved) whose goal is to find a minimum cost path from state s to an end state send. It can potentially have exponential savings compared to traditional graph search algorithms, and has the property to only work for acyclic graphs. For any given state s, the future cost is computed as follows:**
 
-&#10230;
+&#10230; Quy hoạch động (Dynamic programming) ― Quy hoạch động (DP) là một thuật toán tìm kiếm quay lui sử dụng memoization (tức một phần kết quả được lưu lại) với mục tiêu là tìm đường đi từ trạng thái s tới trạng thái kết thúc send với chi phí tối tiểu. Thuật toán này có thể giảm thời gian thực thi đi theo cấp số mũ so với các thuật toán tìm kiếm trên đồ thị truyền thống, một thuộc tính của thuật toán là chỉ hoạt động trên các đồ thị phi chu trình. Với một trạng thái s bất kỳ, chi phí tương lai được tính như sau:
 
 <br>
 
 
 **22. [if, otherwise]**
 
-&#10230;
+&#10230; [nếu, nếu ngược lại]
 
 <br>
 
 
 **23. Remark: the figure above illustrates a bottom-to-top approach whereas the formula provides the intuition of a top-to-bottom problem resolution.**
 
-&#10230;
+&#10230; Lưu ý: Hình minh họa ở trên chỉ miêu tả cho hướng tiếp tận từ dưới lên, trong khi đó phần phương trình cung cấp cách hiểu bài toán theo hướng tiếp cận từ trên xuống.
 
 <br>
 
 
 **24. Types of states ― The table below presents the terminology when it comes to states in the context of uniform cost search:**
 
-&#10230;
+&#10230; Các loại trạng thái ― Bảng bên dưới giới thiệu các thuật ngữ về các trạng thái trong ngữ cảnh của thuật toán tìm kiếm chi phí đều:
 
 <br>
 
 
 **25. [State, Explanation]**
 
-&#10230;
+&#10230; [Trạng thái, Định nghĩa]
 
 <br>
 
 
 **26. [Explored, Frontier, Unexplored]**
 
-&#10230;
+&#10230; [Đã duyệt, Hàng đợi, Chưa duyệt]
 
 <br>
 
 
 **27. [States for which the optimal path has already been found, States seen for which we are still figuring out how to get there with the cheapest cost, States not seen yet]**
 
-&#10230;
+&#10230; [Trạng thái mà đường đi tối ưu đã được tìm thấy, Trạng thái mà ta vẫn đang tìm cách đi đến với chi phí nhỏ nhất, Trạng thái chưa được xét]
 
 <br>
 
 
 **28. Uniform cost search ― Uniform cost search (UCS) is a search algorithm that aims at finding the shortest path from a state sstart to an end state send. It explores states s in increasing order of PastCost(s) and relies on the fact that all action costs are non-negative.**
 
-&#10230;
+&#10230; Tìm kiếm chi phí đều (Uniform cost search) ― Tìm kiếm chi phí đều (UCS) là một thuật toán tìm kiếm đường đi ngắn nhất từ trạng thái bắt đầu sstart tới trạng thái kết thúc send. Nó sẽ duyệt các trạng thái s theo thứ tự PastCost(s) tăng dần và giả định rằng tất cả chi phí hành động đều không âm.
 
 <br>
 
 
 **29. Remark 1: the UCS algorithm is logically equivalent to Dijkstra's algorithm.**
 
-&#10230;
+&#10230; Lưu ý 1: Thuật toán UCS về mặt logic hoàn toàn giống với thuật toán Dijkstra.
 
 <br>
 
 
 **30. Remark 2: the algorithm would not work for a problem with negative action costs, and adding a positive constant to make them non-negative would not solve the problem since this would end up being a different problem.**
 
-&#10230;
+&#10230; Lưu ý 2: thuật toán sẽ không hoạt động với những bài toán có chi phí hành động là số âm và việc cộng thêm một hằng số vào chi phí để khử các giá trị âm sẽ không giúp giải quyết bài toán vì khi đó lời giải của bài toán đã thay đổi.
 
 <br>
 
 
 **31. Correctness theorem ― When a state s is popped from the frontier F and moved to explored set E, its priority is equal to PastCost(s) which is the minimum cost path from sstart to s.**
 
-&#10230;
+&#10230; Correctness theorem ― Khi một trạng thái s được lấy ra khỏi hàng đợi F và chuyển đến tập đã duyệt E, độ ưu tiên của nó sẽ bằng với PastCost(s), cũng là chi phí nhỏ nhất để di chuyển từ sstart đến s.
 
 <br>
 
 
 **32. Graph search algorithms summary ― By noting N the number of total states, n of which are explored before the end state send, we have:**
 
-&#10230;
+&#10230; Tóm tắt về các thuật toán tìm kiếm trên đồ thị ― Với N là tổng số trạng thái, n là các trạng thái đã duyệt trước khi duyệt đến trạng thái kết thúc send, ta có:
 
 <br>
 
 
 **33. [Algorithm, Acyclicity, Costs, Time/space]**
 
-&#10230;
+&#10230; [Thuật toán, Phi chu trình, Chi phí, Thời gian/Không gian]
 
 <br>
 
 
 **34. [Dynamic programming, Uniform cost search]**
 
-&#10230;
+&#10230; [Quy hoạch động, Tìm kiếm chi phí đều]
 
 <br>
 
 
 **35. Remark: the complexity countdown supposes the number of possible actions per state to be constant.**
 
-&#10230;
+&#10230; Lưu ý: Độ phức tạp được ghi mặc định rằng số lượng các hành động khả dĩ của mỗi trạng thái là một hằng số.
 
 <br>
 
 
 **36. Learning costs**
 
-&#10230;
+&#10230; Chi phí học
 
 <br>
 
